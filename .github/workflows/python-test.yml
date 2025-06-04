@@ -40,6 +40,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           enable-cache: true
           cache-dependency-glob: "pyproject.toml"
+          activate-environment: true
       - name: Install dependencies
         run: |
           uv sync

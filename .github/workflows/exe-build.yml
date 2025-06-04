@@ -37,6 +37,7 @@ jobs:
           python-version: ${{ env.WIN_EXE_PYTHON_VERSION }}
           enable-cache: true
           cache-dependency-glob: "pyproject.toml"
+          activate-environment: true
 
       - name: 执行所有任务（创建目录、下载、解压、复制文件、安装依赖）
         shell: pwsh
