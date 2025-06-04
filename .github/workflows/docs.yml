@@ -39,8 +39,8 @@ jobs:
       - deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep for 120 seconds
-        run: sleep 120s
+      - name: Sleep for 30 seconds
+        run: sleep 30s
         shell: bash
       - name: Cloudflare Purge Cache
         uses: jakejarvis/cloudflare-purge-action@eee6dba0236093358f25bb1581bd615dc8b3d8e3 # v0.3.0
