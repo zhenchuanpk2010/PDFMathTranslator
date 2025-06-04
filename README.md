@@ -77,23 +77,23 @@ Note that the computing resources of the demo are limited, so please avoid abusi
 
 ### Installation
 
-1. [**Windows EXE**](./getting-started/INSTALLATION_winexe.md) <small>Recommand for Windows</small>
-2. [**Docker**](./getting-started/INSTALLATION_docker.md) <small>Recommand for Linux</small>
-3. [**uv** (a Python package manager)](./getting-started/INSTALLATION_uv.md) <small>Recommand for macOS</small>
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>
+3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>
 
 ---
 
 ### Usage
 
-1. [Using **WebUI**](./getting-started/USAGE_webui.md)
+1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
 2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party programm)
-3. [Using **Commandline**](./getting-started/USAGE_commandline.md)
+3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
 For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.
 
 <h2 id="usage">Advanced Options</h2>
 
-For detailed explanations, please refer to our document about [Advanced Usage](./docs/advanced/advanced.md) for a full list of each option.
+For detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.
 
 <h2 id="downstream">Secondary Development (APIs)</h2>
 
@@ -109,7 +109,7 @@ For detailed explanations, please refer to our document about [Advanced Usage](.
 
 <h2 id="langcode">Language Code</h2>
 
-If you don't know what code to use to translate to the language you need, check out [this documentation](./advanced/Language-Codes.md)
+If you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
 <!-- 
 <h2 id="todo">TODOs</h2>
@@ -159,7 +159,7 @@ If you don't know what code to use to translate to the language you need, check 
 
 <h2 id="conduct">Before submit your code</h2>
 
-We welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](./docs/CODE_OF_CONDUCT.md) and [Contribution Guide](./docs/Contribution-Guide---贡献指南.md).
+We welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Contributors</h2>
 
