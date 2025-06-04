@@ -36,10 +36,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: AutoCorrect
-        uses: huacnlee/autocorrect-action@ecfab7cbe52ead55514356c1322636fab42e060a # v2.5.4
+        uses: huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997 # v2.13.3
       - name: Report ReviewDog
         if: failure()
-        uses: huacnlee/autocorrect-action@ecfab7cbe52ead55514356c1322636fab42e060a # v2.5.4
+        uses: huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997 # v2.13.3
         env:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
