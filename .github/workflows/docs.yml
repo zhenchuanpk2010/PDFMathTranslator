@@ -31,3 +31,17 @@ jobs:
             mkdocs-material-
       - run: uv sync
       - run: uv run mkdocs gh-deploy --force
+  clear-cache:
+    needs:
+      - deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sleep for 120 seconds
+        run: sleep 120s
+        shell: bash
+      - name: Cloudflare Purge Cache
+        uses: jakejarvis/cloudflare-purge-action@eee6dba0236093358f25bb1581bd615dc8b3d8e3 # v0.3.0
+        env:
+          # Zone is required by both authentication methods
+          CLOUDFLARE_ZONE: ${{ secrets.PDF2ZH_NEXT_COM_CLOUDFLARE_ZONE }}
+          CLOUDFLARE_TOKEN: ${{ secrets.PDF2ZH_NEXT_COM_CLOUDFLARE_TOKEN }}
