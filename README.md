@@ -6,21 +6,21 @@
 
 <p>
   <!-- PyPI -->
-  <a href="https://pypi.org/project/pdf2zh/">
-    <img src="https://img.shields.io/pypi/v/pdf2zh"></a>
-  <a href="https://pepy.tech/projects/pdf2zh">
-    <img src="https://static.pepy.tech/badge/pdf2zh"></a>
-  <a href="https://hub.docker.com/repository/docker/byaidu/pdf2zh">
-    <img src="https://img.shields.io/docker/pulls/byaidu/pdf2zh"></a>
+  <a href="https://pypi.org/project/pdf2zh-next/">
+    <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>
+  <a href="https://pepy.tech/projects/pdf2zh-next">
+    <img src="https://static.pepy.tech/badge/pdf2zh-next"></a>
+  <a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
+    <img src="https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next/tags"></a>
   <a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Featured｜HelloGitHub" /></a>
-  <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
-    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a>
-  <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
-    <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"></a>
-  <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate">
-    <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a>
-  <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
-    <img src="https://img.shields.io/badge/contributions-welcome-green"></a>
+  <!-- <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
+    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a> -->
+  <!-- <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"></a> -->
+  <!-- <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate"> -->
+    <!-- <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a> -->
+  <!-- <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
+    <img src="https://img.shields.io/badge/contributions-welcome-green"></a> -->
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
   <!-- License -->
@@ -44,6 +44,7 @@ For details on how to contribute, please consult the [Contribution Guide](https:
 
 <h2 id="updates">Updates</h2>
 
+- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))
 - [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))
 - [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))
 - [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
@@ -59,20 +60,20 @@ For details on how to contribute, please consult the [Contribution Guide](https:
 
 <h2 id="demo">Online Service 🌟</h2>
 
+> [!NOTE]
+>
+> pdf2zh 2.0 does not currently provide an online demo
+
 You can try our application out using either of the following demos:
 
-- [Public free service](https://pdf2zh.com/) online without installation _(recommended)_.
+- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_
-- [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
-- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation.
+<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
+- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
 Note that the computing resources of the demo are limited, so please avoid abusing them.
 
 <h2 id="install">Installation and Usage</h2>
-
-> [!NOTE]
->
-> When 2.0 was just merged, some CI issues haven't been fixed yet, please be patient.
 
 ### Installation
 
@@ -130,6 +131,9 @@ If you don't know what code to use to translate to the language you need, check 
 <h2 id="acknowledgement">Acknowledgements</h2>
 
 - [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
+- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
+
 
 - New backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 

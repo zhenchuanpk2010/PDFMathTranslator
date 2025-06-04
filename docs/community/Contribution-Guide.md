@@ -12,7 +12,7 @@
 
 1. 文档国际化/文档翻译
 2. 与基础架构有关的贡献，如 HTTP API 等。
-3. 明确标出 No help needed 的 Issue。
+3. 明确标出 No help needed 的 Issue（包括 [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) 仓库的 issue）。
 4. 其他维护者认为不合适的贡献。
 
 请勿提交与上述类型相关的 PR。

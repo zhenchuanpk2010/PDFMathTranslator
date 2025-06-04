@@ -165,7 +165,7 @@ jobs:
     if: needs.check-repository.outputs.is_main_repo == 'true'
     environment:
       name: ${{ needs.build.outputs.is_release != '' && 'pypi' || 'testpypi' }}
-      url: ${{ needs.build.outputs.is_release != '' && 'https://hub.docker.com/r/byaidu/pdf2zh_next/tags?name=latest' || 'https://hub.docker.com/r/byaidu/pdf2zh_next/tags?name=dev' }}
+      url: ${{ needs.build.outputs.is_release != '' && 'https://hub.docker.com/r/awwaawwa/pdfmathtranslate-next/tags?name=latest' || 'https://hub.docker.com/r/awwaawwa/pdfmathtranslate-next/tags?name=dev' }}
     permissions:
       contents: read
       packages: write

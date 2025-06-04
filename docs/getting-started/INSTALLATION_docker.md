@@ -13,11 +13,11 @@
 1. Pull and run:
 
     ```bash
-    docker pull byaidu/pdf2zh_next
-    docker run -d -p 7860:7860 byaidu/pdf2zh_next
+    docker pull awwaawwa/pdfmathtranslate-next
+    docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
     ```
 
-> [!WARNING]
+> [!NOTE]
 > 
 > - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
 > 
@@ -36,7 +36,7 @@
 
 > [!NOTE]
 > If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).
-
+<!-- 
 #### For docker deployment on cloud service:
 
 <div>
@@ -51,4 +51,4 @@
 </div>
 
 <div align="right">
-<h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>
+<h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6> -->
