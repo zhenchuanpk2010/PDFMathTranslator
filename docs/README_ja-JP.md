@@ -16,15 +16,15 @@
     <img src="https://img.shields.io/docker/pulls/byaidu/pdf2zh"></a>
   <!-- License -->
   <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Byaidu/PDFMathTranslate"/></a>
+    <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"/></a>
   <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"/></a>
   <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate">
     <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a>
-  <a href="https://github.com/Byaidu/PDFMathTranslate/pulls">
+  <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"/></a>
-  <a href="https://gitcode.com/Byaidu/PDFMathTranslate/overview">
-    <img src="https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg"></a>
+  <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
+    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a>
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"/></a>
 </p>
@@ -39,7 +39,7 @@
 - 🌐 [複数の言語](#language) と [多様な翻訳サービス](#services) をサポート
 - 🤖 [コマンドラインツール](#usage)、[インタラクティブユーザーインターフェース](#gui)、および [Docker](#docker) を提供
 
-フィードバックは [GitHub Issues](https://github.com/Byaidu/PDFMathTranslate/issues)、[Telegram グループ](https://t.me/+Z9_SgnxmsmA5NzBl)
+フィードバックは [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues)、[Telegram グループ](https://t.me/+Z9_SgnxmsmA5NzBl)
 
 <h2 id="updates">最近の更新</h2>
 
@@ -91,20 +91,20 @@ $env:HF_ENDPOINT = https://hf-mirror.com
   2. パッケージをインストールします：
 
       ```bash
-      pip install pdf2zh
+      pip install pdf2zh_next
       ```
 
   3. 翻訳を実行し、[現在の作業ディレクトリ](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444) にファイルを生成します：
 
       ```bash
-      pdf2zh document.pdf
+      pdf2zh_next document.pdf
       ```
 
 <h3 id="portable">方法 2. ポータブル</h3>
 
 Python 環境を事前にインストールする必要はありません
 
-[setup.bat](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/refs/heads/main/script/setup.bat) をダウンロードしてダブルクリックして実行します
+[setup.bat](https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate-next/refs/heads/main/script/setup.bat) をダウンロードしてダブルクリックして実行します
 
 <h3 id="gui">方法 3. GUI</h3>
 
@@ -112,13 +112,13 @@ Python 環境を事前にインストールする必要はありません
 2. パッケージをインストールします：
 
       ```bash
-      pip install pdf2zh
+      pip install pdf2zh_next
       ```
 
 3. ブラウザで使用を開始します：
 
       ```bash
-      pdf2zh -i
+      pdf2zh_next -i
       ```
 
 4. ブラウザが自動的に起動しない場合は、次の URL を開きます：
@@ -136,8 +136,8 @@ Python 環境を事前にインストールする必要はありません
 1. プルして実行します：
 
     ```bash
-    docker pull byaidu/pdf2zh
-    docker run -d -p 7860:7860 byaidu/pdf2zh
+    docker pull byaidu/pdf2zh_next
+    docker run -d -p 7860:7860 byaidu/pdf2zh_next
     ```
 
 2. ブラウザで開きます：
@@ -149,19 +149,19 @@ Python 環境を事前にインストールする必要はありません
 クラウドサービスでの Docker デプロイメント用：
 
 <div>
-<a href="https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate">
+<a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="26"></a>
 <a href="https://render.com/deploy">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Koyeb" height="26"></a>
 <a href="https://zeabur.com/templates/5FQIGX?referralCode=reycn">
   <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="26"></a>
-<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate">
+<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="26"></a>
 </div>
 
 <h2 id="usage">高度なオプション</h2>
 
-コマンドラインで翻訳コマンドを実行し、現在の作業ディレクトリに翻訳されたドキュメント `example-mono.pdf` とバイリンガルドキュメント `example-dual.pdf` を生成します。デフォルトでは Google 翻訳サービスを使用します。More support translation services can find [HERE](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services).
+コマンドラインで翻訳コマンドを実行し、現在の作業ディレクトリに翻訳されたドキュメント `example-mono.pdf` とバイリンガルドキュメント `example-dual.pdf` を生成します。デフォルトでは Google 翻訳サービスを使用します。More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
 
 <img src="./images/cmd.explained.png" width="580px"  alt="cmd"/>  
@@ -181,12 +181,12 @@ Python 環境を事前にインストールする必要はありません
 | `-o`  | 出力ディレクトリ | `pdf2zh example.pdf -o output` |
 | `-f`, `-c` | [例外](#exceptions) | `pdf2zh example.pdf -f "(MS.*)"` |
 | `--share` | [gradio 公開リンクを取得] | `pdf2zh -i --share` |
-| `--authorized` | [[ウェブ認証とカスタム認証ページの追加](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.)] | `pdf2zh -i --authorized users.txt [auth.html]` |
+| `--authorized` | [[ウェブ認証とカスタム認証ページの追加](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.)] | `pdf2zh -i --authorized users.txt [auth.html]` |
 | `--prompt` | [カスタムビッグモデルのプロンプトを使用する] | `pdf2zh --prompt [prompt.txt]` |
 | `--onnx` | [カスタム DocLayout-YOLO ONNX モデルの使用] | `pdf2zh --onnx [onnx/model/path]` |
 | `--serverport` | [カスタム WebUI ポートを使用する] | `pdf2zh --serverport 7860` |
 | `--dir` | [batch translate] | `pdf2zh --dir /path/to/translate/` |
-| `--config` | [configuration file](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig) | `pdf2zh --config /path/to/config/config.json` |
+| `--config` | [configuration file](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#cofig) | `pdf2zh --config /path/to/config/config.json` |
 | `--serverport` | [custom gradio server port] | `pdf2zh --serverport 7860` |
 
 <h3 id="partial">全文または部分的なドキュメント翻訳</h3>
@@ -194,13 +194,13 @@ Python 環境を事前にインストールする必要はありません
 - **全文翻訳**
 
 ```bash
-pdf2zh example.pdf
+pdf2zh_next example.pdf
 ```
 
 - **部分翻訳**
 
 ```bash
-pdf2zh example.pdf -p 1-3,5
+pdf2zh_next example.pdf -p 1-3,5
 ```
 
 <h3 id="language">ソース言語とターゲット言語を指定</h3>
@@ -208,7 +208,7 @@ pdf2zh example.pdf -p 1-3,5
 [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages)、[DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages) を参照してください
 
 ```bash
-pdf2zh example.pdf -li en -lo ja
+pdf2zh_next example.pdf -li en -lo ja
 ```
 
 <h3 id="services">異なるサービスで翻訳</h3>
@@ -243,20 +243,20 @@ For large language models that are compatible with the OpenAI API but not listed
 `-s service` または `-s service:model` を使用してサービスを指定します：
 
 ```bash
-pdf2zh example.pdf -s openai:gpt-4o-mini
+pdf2zh_next example.pdf -s openai:gpt-4o-mini
 ```
 
 または環境変数でモデルを指定します：
 
 ```bash
 set OPENAI_MODEL=gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```
 
 For PowerShell user:
 ```shell
 $env:OPENAI_MODEL = gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```
 
 <h3 id="exceptions">例外を指定して翻訳</h3>
@@ -264,13 +264,13 @@ pdf2zh example.pdf -s openai
 正規表現を使用して保持する必要がある数式フォントと文字を指定します：
 
 ```bash
-pdf2zh example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
+pdf2zh_next example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
 ```
 
 デフォルトで `Latex`、`Mono`、`Code`、`Italic`、`Symbol` および `Math` フォントを保持します：
 
 ```bash
-pdf2zh example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
+pdf2zh_next example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
 ```
 
 <h3 id="threads">スレッド数を指定</h3>
@@ -278,7 +278,7 @@ pdf2zh example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|
 `-t` を使用して翻訳に使用するスレッド数を指定します：
 
 ```bash
-pdf2zh example.pdf -t 1
+pdf2zh_next example.pdf -t 1
 ```
 
 <h3 id="prompt">カスタム プロンプト</h3>
@@ -286,7 +286,7 @@ pdf2zh example.pdf -t 1
 `--prompt`を使用して、LLM で使用するプロンプトを指定します：
 
 ```bash
-pdf2zh example.pdf -pr prompt.txt
+pdf2zh_next example.pdf -pr prompt.txt
 ```
 
 
@@ -319,7 +319,7 @@ pdf2zh example.pdf -pr prompt.txt
 ### Python
 
 ```python
-from pdf2zh import translate, translate_stream
+from pdf2zh_next import translate, translate_stream
 
 params = {"lang_in": "en", "lang_out": "zh", "service": "google", "thread": 4}
 file_mono, file_dual = translate(files=["example.pdf"], **params)[0]
@@ -330,9 +330,9 @@ with open("example.pdf", "rb") as f:
 ### HTTP
 
 ```bash
-pip install pdf2zh[backend]
-pdf2zh --flask
-pdf2zh --celery worker
+pip install pdf2zh_next[backend]
+pdf2zh_next --flask
+pdf2zh_next --celery worker
 ```
 
 ```bash
@@ -372,7 +372,7 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
 
 <h2 id="contrib">貢献者</h2>
 
-<a href="https://github.com/Byaidu/PDFMathTranslate/graphs/contributors">
+<a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
 </a>
 
@@ -380,10 +380,10 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
 
 <h2 id="star_hist">スター履歴</h2>
 
-<a href="https://star-history.com/#Byaidu/PDFMathTranslate&Date">
+<a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date"/>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
  </picture>
 </a>

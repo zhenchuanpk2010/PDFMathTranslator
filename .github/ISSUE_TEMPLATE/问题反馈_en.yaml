@@ -33,7 +33,7 @@ body:
   - type: dropdown
     id: install
     attributes:
-      label: How to install pdf2zh
+      label: How to install pdf2zh_next
       options:
         - pip
         - exe

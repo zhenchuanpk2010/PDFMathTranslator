@@ -13,17 +13,17 @@
 1. Pull and run:
 
     ```bash
-    docker pull byaidu/pdf2zh
-    docker run -d -p 7860:7860 byaidu/pdf2zh
+    docker pull byaidu/pdf2zh_next
+    docker run -d -p 7860:7860 byaidu/pdf2zh_next
     ```
 
 > [!WARNING]
 > 
-> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/Byaidu/PDFMathTranslate/pkgs/container/pdfmathtranslate).
+> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
 > 
 > ```bash
-> docker pull ghcr.io/byaidu/pdfmathtranslate
-> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate
+> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
+> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > ```
 
 2. Enter this URL in your default browser to open the WebUI page:
@@ -40,13 +40,13 @@
 #### For docker deployment on cloud service:
 
 <div>
-<a href="https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate">
+<a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="26"></a>
 <a href="https://render.com/deploy">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Koyeb" height="26"></a>
 <a href="https://zeabur.com/templates/5FQIGX?referralCode=reycn">
   <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="26"></a>
-<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate">
+<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="26"></a>
 </div>
 

@@ -18,15 +18,15 @@
     <img src="https://img.shields.io/docker/pulls/byaidu/pdf2zh"></a>
   <!-- License -->
   <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Byaidu/PDFMathTranslate"/></a>
+    <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"/></a>
   <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"/></a>
   <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate">
     <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a>
-  <a href="https://github.com/Byaidu/PDFMathTranslate/pulls">
+  <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"/></a>
-  <a href="https://gitcode.com/Byaidu/PDFMathTranslate/overview">
-    <img src="https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg"></a>
+  <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
+    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a>
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"/></a>
 </p>
@@ -41,7 +41,7 @@
 - 🌐 [다양한 언어](#language)와 [다양한 번역 서비스](#services) 지원
 - 🤖 [커맨드라인 도구](#usage), [대화형 사용자 인터페이스](#gui), 및 [Docker](#docker) 제공
 
-피드백은 [GitHub Issues](https://github.com/Byaidu/PDFMathTranslate/issues) 또는 [Telegram 그룹](https://t.me/+Z9_SgnxmsmA5NzBl)에서 해주세요.
+피드백은 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 또는 [Telegram 그룹](https://t.me/+Z9_SgnxmsmA5NzBl)에서 해주세요.
 
 <h2 id="updates">최근 업데이트</h2>
 
@@ -95,20 +95,20 @@ $env:HF_ENDPOINT = https://hf-mirror.com
 2. 패키지를 설치합니다:
 
    ```bash
-   pip install pdf2zh
+   pip install pdf2zh_next
    ```
 
 3. 번역을 실행하고 [현재 작업 디렉토리](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444)에 파일을 생성합니다:
 
    ```bash
-   pdf2zh document.pdf
+   pdf2zh_next document.pdf
    ```
 
 <h3 id="portable">방법 2. 포터블</h3>
 
 Python 환경을 미리 설치할 필요가 없습니다.
 
-[setup.bat](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/refs/heads/main/script/setup.bat)을 다운로드하고 더블클릭하여 실행합니다.
+[setup.bat](https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate-next/refs/heads/main/script/setup.bat)을 다운로드하고 더블클릭하여 실행합니다.
 
 <h3 id="gui">방법 3. GUI</h3>
 
@@ -116,13 +116,13 @@ Python 환경을 미리 설치할 필요가 없습니다.
 2. 패키지를 설치합니다:
 
    ```bash
-   pip install pdf2zh
+   pip install pdf2zh_next
    ```
 
 3. 브라우저에서 사용을 시작합니다:
 
    ```bash
-   pdf2zh -i
+   pdf2zh_next -i
    ```
 
 4. 브라우저가 자동으로 시작되지 않으면 다음 URL 을 엽니다:
@@ -140,8 +140,8 @@ Python 환경을 미리 설치할 필요가 없습니다.
 1. 풀하고 실행합니다:
 
    ```bash
-   docker pull byaidu/pdf2zh
-   docker run -d -p 7860:7860 byaidu/pdf2zh
+   docker pull byaidu/pdf2zh_next
+   docker run -d -p 7860:7860 byaidu/pdf2zh_next
    ```
 
 2. 브라우저에서 엽니다:
@@ -153,19 +153,19 @@ Python 환경을 미리 설치할 필요가 없습니다.
 클라우드 서비스에서 Docker 배포용:
 
 <div>
-<a href="https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate">
+<a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="26"></a>
 <a href="https://render.com/deploy">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Koyeb" height="26"></a>
 <a href="https://zeabur.com/templates/5FQIGX?referralCode=reycn">
   <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="26"></a>
-<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate">
+<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="26"></a>
 </div>
 
 <h2 id="usage">고급 옵션</h2>
 
-커맨드라인에서 번역 명령을 실행하여 현재 작업 디렉토리에 번역된 문서 `example-mono.pdf`와 이중 언어 문서 `example-dual.pdf`를 생성합니다. 기본적으로 Google 번역 서비스를 사용합니다. 더 많은 지원 번역 서비스는 [여기](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)에서 찾을 수 있습니다.
+커맨드라인에서 번역 명령을 실행하여 현재 작업 디렉토리에 번역된 문서 `example-mono.pdf`와 이중 언어 문서 `example-dual.pdf`를 생성합니다. 기본적으로 Google 번역 서비스를 사용합니다. 더 많은 지원 번역 서비스는 [여기](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)에서 찾을 수 있습니다.
 
 <img src="./images/cmd.explained.png" width="580px"  alt="cmd"/>
 
@@ -184,25 +184,25 @@ Python 환경을 미리 설치할 필요가 없습니다.
 | `-o`           | 출력 디렉토리                                                                                                    | `pdf2zh example.pdf -o output`                 |
 | `-f`, `-c`     | [예외](#exceptions)                                                                                              | `pdf2zh example.pdf -f "(MS.*)"`               |
 | `--share`      | [gradio 공개 링크 얻기]                                                                                          | `pdf2zh -i --share`                            |
-| `--authorized` | [[웹 인증 및 사용자 정의 인증 페이지 추가](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.)] | `pdf2zh -i --authorized users.txt [auth.html]` |
+| `--authorized` | [[웹 인증 및 사용자 정의 인증 페이지 추가](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.)] | `pdf2zh -i --authorized users.txt [auth.html]` |
 | `--prompt`     | [사용자 정의 대형 모델 프롬프트 사용]                                                                            | `pdf2zh --prompt [prompt.txt]`                 |
 | `--onnx`       | [사용자 정의 DocLayout-YOLO ONNX 모델 사용]                                                                      | `pdf2zh --onnx [onnx/model/path]`              |
 | `--serverport` | [사용자 정의 WebUI 포트 사용]                                                                                    | `pdf2zh --serverport 7860`                     |
 | `--dir`        | [배치 번역]                                                                                                      | `pdf2zh --dir /path/to/translate/`             |
-| `--config`     | [구성 파일](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig)                         | `pdf2zh --config /path/to/config/config.json`  |
+| `--config`     | [구성 파일](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#cofig)                         | `pdf2zh --config /path/to/config/config.json`  |
 
 <h3 id="partial">전체 또는 부분 문서 번역</h3>
 
 - **전체 번역**
 
 ```bash
-pdf2zh example.pdf
+pdf2zh_next example.pdf
 ```
 
 - **부분 번역**
 
 ```bash
-pdf2zh example.pdf -p 1-3,5
+pdf2zh_next example.pdf -p 1-3,5
 ```
 
 <h3 id="language">소스 언어와 대상 언어 지정</h3>
@@ -210,7 +210,7 @@ pdf2zh example.pdf -p 1-3,5
 [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages) 참조
 
 ```bash
-pdf2zh example.pdf -li en -lo ko
+pdf2zh_next example.pdf -li en -lo ko
 ```
 
 <h3 id="services">다른 서비스로 번역</h3>
@@ -244,21 +244,21 @@ pdf2zh example.pdf -li en -lo ko
 `-s service` 또는 `-s service:model`을 사용하여 번역 서비스를 지정합니다:
 
 ```bash
-pdf2zh example.pdf -s openai:gpt-4o-mini
+pdf2zh_next example.pdf -s openai:gpt-4o-mini
 ```
 
 또는 환경 변수로 모델을 지정합니다:
 
 ```bash
 set OPENAI_MODEL=gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```
 
 PowerShell 사용자의 경우:
 
 ```shell
 $env:OPENAI_MODEL = gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```
 
 <h3 id="exceptions">예외 지정</h3>
@@ -266,13 +266,13 @@ pdf2zh example.pdf -s openai
 정규식을 사용하여 보존해야 할 수식 폰트와 문자를 지정합니다:
 
 ```bash
-pdf2zh example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
+pdf2zh_next example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
 ```
 
 기본적으로 `Latex`, `Mono`, `Code`, `Italic`, `Symbol` 및 `Math` 폰트를 보존합니다:
 
 ```bash
-pdf2zh example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
+pdf2zh_next example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
 ```
 
 <h3 id="threads">스레드 수 지정</h3>
@@ -280,7 +280,7 @@ pdf2zh example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|
 `-t`를 사용하여 번역에 사용할 스레드 수를 지정합니다:
 
 ```bash
-pdf2zh example.pdf -t 1
+pdf2zh_next example.pdf -t 1
 ```
 
 <h3 id="prompt">사용자 정의 프롬프트</h3>
@@ -288,7 +288,7 @@ pdf2zh example.pdf -t 1
 `--prompt`를 사용하여 LLM 에서 사용할 프롬프트를 지정합니다:
 
 ```bash
-pdf2zh example.pdf -pr prompt.txt
+pdf2zh_next example.pdf -pr prompt.txt
 ```
 
 `prompt.txt` 예시:
@@ -319,7 +319,7 @@ pdf2zh example.pdf -pr prompt.txt
 ### Python
 
 ```python
-from pdf2zh import translate, translate_stream
+from pdf2zh_next import translate, translate_stream
 
 params = {"lang_in": "en", "lang_out": "ko", "service": "google", "thread": 4}
 file_mono, file_dual = translate(files=["example.pdf"], **params)[0]
@@ -330,9 +330,9 @@ with open("example.pdf", "rb") as f:
 ### HTTP
 
 ```bash
-pip install pdf2zh[backend]
-pdf2zh --flask
-pdf2zh --celery worker
+pip install pdf2zh_next[backend]
+pdf2zh_next --flask
+pdf2zh_next --celery worker
 ```
 
 ```bash
@@ -365,7 +365,7 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
 
 <h2 id="contrib">기여자</h2>
 
-<a href="https://github.com/Byaidu/PDFMathTranslate/graphs/contributors">
+<a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
 </a>
 
@@ -373,10 +373,10 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
 
 <h2 id="star_hist">스타 히스토리</h2>
 
-<a href="https://star-history.com/#Byaidu/PDFMathTranslate&Date">
+<a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date"/>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
  </picture>
 </a>

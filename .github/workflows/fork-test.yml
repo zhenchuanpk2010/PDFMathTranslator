@@ -14,7 +14,7 @@ jobs:
     name: Check if running in main repository
     runs-on: ubuntu-latest
     outputs:
-      is_main_repo: ${{ github.repository == 'Byaidu/PDFMathTranslate' }}
+      is_main_repo: ${{ github.repository == 'PDFMathTranslate/PDFMathTranslate-next' }}
     steps:
       - run: echo "Running repository check"
 

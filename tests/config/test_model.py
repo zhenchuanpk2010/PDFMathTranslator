@@ -1,12 +1,12 @@
 from pathlib import Path
 
 import pytest
-from pdf2zh.config.cli_env_model import CLIEnvSettingsModel
-from pdf2zh.config.model import BasicSettings
-from pdf2zh.config.model import PDFSettings
-from pdf2zh.config.model import TranslationSettings
-from pdf2zh.config.model import WatermarkOutputMode
-from pdf2zh.config.translate_engine_model import OpenAISettings
+from pdf2zh_next.config.cli_env_model import CLIEnvSettingsModel
+from pdf2zh_next.config.model import BasicSettings
+from pdf2zh_next.config.model import PDFSettings
+from pdf2zh_next.config.model import TranslationSettings
+from pdf2zh_next.config.model import WatermarkOutputMode
+from pdf2zh_next.config.translate_engine_model import OpenAISettings
 from pydantic import ValidationError
 
 

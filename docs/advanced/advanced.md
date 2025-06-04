@@ -21,7 +21,7 @@
 <!-- <h3 id="cmd">Command Line Args</h3> -->
 #### Command Line Args
 
-Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services).
+Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
 <img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
 <!-- TODO 把命令行图片换掉 主命令部分黑色不透明 参数部分 75 透 颜色参考 https://developer.apple.com/design/human-interface-guidelines/color#iOS-iPadOS-system-colors -->
@@ -90,11 +90,11 @@ Use the `--pages` parameter to translate a portion of a document.
 - If the page numbers are consecutive, you can write it like this:
 
 ```bash
-pdf2zh example.pdf --pages 1-3
+pdf2zh_next example.pdf --pages 1-3
 ```
 
 ```bash
-pdf2zh example.pdf --pages 25-
+pdf2zh_next example.pdf --pages 25-
 ```
 
 > [!TIP]
@@ -107,13 +107,13 @@ pdf2zh example.pdf --pages 25-
 For example, if you want to translate the first and third pages, you can use the following command:
 
 ```bash
-pdf2zh example.pdf --pages "1,3"
+pdf2zh_next example.pdf --pages "1,3"
 ```
 
 - If the pages include both consecutive and non-consecutive ranges, you can also connect them with a comma, like this:
 
 ```bash
-pdf2zh example.pdf --pages "1,3,10-20,25-"
+pdf2zh_next example.pdf --pages "1,3,10-20,25-"
 ```
 
 This command will translate the first page, the third page, pages 10-20, and all pages from 25 to the end.
@@ -128,7 +128,7 @@ This command will translate the first page, the third page, pages 10-20, and all
 See [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages)
 
 ```bash
-pdf2zh example.pdf --lang-in en -lang-out ja
+pdf2zh_next example.pdf --lang-in en -lang-out ja
 ```
 
 [⬆️ Back to top](#toc)
@@ -140,13 +140,13 @@ pdf2zh example.pdf --lang-in en -lang-out ja
 Use regex to specify formula fonts and characters that need to be preserved:
 
 ```bash
-pdf2zh example.pdf --formular-font-pattern "(CM[^RT].*|MS.*|.*Ital)" --formular-char-pattern "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
+pdf2zh_next example.pdf --formular-font-pattern "(CM[^RT].*|MS.*|.*Ital)" --formular-char-pattern "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
 ```
 
 Preserve `Latex`, `Mono`, `Code`, `Italic`, `Symbol` and `Math` fonts by default:
 
 ```bash
-pdf2zh example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
+pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
 ```
 
 [⬆️ Back to top](#toc)
@@ -155,12 +155,12 @@ pdf2zh example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LI
 
 #### Custom prompt
 
-<!-- Note: System prompt is currently not supported. See [this change](https://github.com/Byaidu/PDFMathTranslate/pull/637). -->
+<!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->
 
 Custom system prompt for translation. It is mainly used to add the '/no_think' instruction of Qwen 3 in the prompt.
 
 ```bash
-pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
+pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
 ```
 
 [⬆️ Back to top](#toc)
@@ -187,7 +187,7 @@ For most cases, you can directly pass your desired settings through command line
 For example, if you want to enable a GUI window, you can use the following command:
 
 ```bash
-pdf2zh --gui
+pdf2zh_next --gui
 ```
 
 - Modifying Configuration via **Environment Variables**
@@ -198,7 +198,7 @@ You can replace the `--` in command line arguments with `PDF2ZH_`, connect param
 For example, if you want to enable a GUI window, you can use the following command:
 
 ```bash
-PDF2ZH_GUI=TRUE pdf2zh
+PDF2ZH_GUI=TRUE pdf2zh_next
 ```
 
 <img src="./../images/ev_light.svg" width="580px"  alt="env"/>
@@ -208,7 +208,7 @@ PDF2ZH_GUI=TRUE pdf2zh
 You can specify a configuration file using the command line argument below:
 
 ```bash
-pdf2zh --config-file '/path/config.toml'
+pdf2zh_next --config-file '/path/config.toml'
 ```
 
 If you are unsure about the config file format, please refer to the default configuration file described below.
@@ -230,13 +230,13 @@ When this parameter is set to True, the PDF cleaning step will be skipped, which
 Usage:
 
 ```bash
-pdf2zh example.pdf --skip-clean
+pdf2zh_next example.pdf --skip-clean
 ```
 
 Or using environment variables:
 
 ```bash
-PDF2ZH_SKIP_CLEAN=TRUE pdf2zh example.pdf
+PDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf
 ```
 
 > [!TIP]
@@ -249,7 +249,7 @@ PDF2ZH_SKIP_CLEAN=TRUE pdf2zh example.pdf
 PDFMathTranslate caches translated texts to increase speed and avoid unnecessary API calls for same contents. You can use `--ignore-cache` option to ignore translation cache and force retranslation.
 
 ```bash
-pdf2zh example.pdf --ignore-cache
+pdf2zh_next example.pdf --ignore-cache
 ```
 
 [⬆️ Back to top](#toc)

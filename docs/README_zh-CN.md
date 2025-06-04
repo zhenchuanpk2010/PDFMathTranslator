@@ -16,15 +16,15 @@
     <img src="https://img.shields.io/docker/pulls/byaidu/pdf2zh"></a>
   <!-- License -->
   <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Byaidu/PDFMathTranslate"/></a>
+    <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"/></a>
   <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"/></a>
   <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate">
     <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a>
-  <a href="https://github.com/Byaidu/PDFMathTranslate/pulls">
+  <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"/></a>
-  <a href="https://gitcode.com/Byaidu/PDFMathTranslate/overview">
-    <img src="https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg"></a>
+  <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
+    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a>
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"/></a>
 </p>
@@ -39,9 +39,9 @@
 - 🌐 支持 [多种语言](./ADVANCED.md#language) 和 [诸多翻译服务](./ADVANCED.md#services)
 - 🤖 提供 [命令行工具](#usage)，[图形交互界面](#gui)，以及 [容器化部署](#docker)
 
-欢迎在 [GitHub Issues](https://github.com/Byaidu/PDFMathTranslate/issues) 或 [Telegram 用户群](https://t.me/+Z9_SgnxmsmA5NzBl)
+欢迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram 用户群](https://t.me/+Z9_SgnxmsmA5NzBl)
 
-有关如何贡献的详细信息，请查阅 [贡献指南](https://github.com/Byaidu/PDFMathTranslate/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97)
+有关如何贡献的详细信息，请查阅 [贡献指南](https://github.com/PDFMathTranslate/PDFMathTranslate-next/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97)
 
 <h2 id="updates">更新</h2>
 
@@ -82,13 +82,13 @@
 
    ```bash
    pip install uv
-   uv tool install --python 3.12 pdf2zh
+   uv tool install --python 3.12 pdf2zh_next
    ```
 
 3. 执行翻译，文件生成在 [当前工作目录](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444)：
 
    ```bash
-   pdf2zh document.pdf
+   pdf2zh_next document.pdf
    ```
 
 </details>
@@ -96,7 +96,7 @@
 <details>
   <summary>2. Windows exe</summary>
 
-1. 从 [发布页面](https://github.com/Byaidu/PDFMathTranslate/releases) 下载 pdf2zh-version-win64.zip
+1. 从 [发布页面](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases) 下载 pdf2zh-version-win64.zip
 
 2. 解压缩并双击 `pdf2zh.exe` 运行。
 
@@ -108,13 +108,13 @@
 2. 安装我们的包：
 
 ```bash
-pip install pdf2zh
+pip install pdf2zh_next
 ```
 
 3. 在浏览器中开始使用：
 
    ```bash
-   pdf2zh -i
+   pdf2zh_next -i
    ```
 
 4. 如果您的浏览器没有自动启动，请访问
@@ -135,8 +135,8 @@ pip install pdf2zh
 1. 拉取并运行：
 
    ```bash
-   docker pull byaidu/pdf2zh
-   docker run -d -p 7860:7860 byaidu/pdf2zh
+   docker pull byaidu/pdf2zh_next
+   docker run -d -p 7860:7860 byaidu/pdf2zh_next
    ```
 
 2. 在浏览器中打开：
@@ -148,7 +148,7 @@ pip install pdf2zh
 对于云服务上的 docker 部署：
 
 <div>
-<a href="https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate">
+<a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="部署" height="26"></a>
 <a href="https://render.com/deploy">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="部署到 Koyeb" height="26"></a>
@@ -156,7 +156,7 @@ pip install pdf2zh
   <img src="https://zeabur.com/button.svg" alt="在 Zeabur 上部署" height="26"></a>
 <a href="https://template.sealos.io/deploy?templateName=pdf2zh">
   <img src="https://sealos.io/Deploy-on-Sealos.svg" alt="在 Sealos 上部署" height="26"></a>
-<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate">
+<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="部署到 Koyeb" height="26"></a>
 </div>
 
@@ -176,13 +176,13 @@ pip install pdf2zh
 2. 安装我们的包：
 
    ```bash
-   pip install pdf2zh
+   pip install pdf2zh_next
    ```
 
 3. 执行翻译，文件生成在 [当前工作目录](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444):
 
    ```bash
-   pdf2zh document.pdf
+   pdf2zh_next document.pdf
    ```
 
 </details>
@@ -191,10 +191,10 @@ pip install pdf2zh
 >
 > - 如果你使用 Windows 并在下载后无法打开文件，请安装 [vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) 并重试。
 >
-> - 如果你无法访问 Docker Hub，请尝试在 [GitHub 容器注册中心](https://github.com/Byaidu/PDFMathTranslate/pkgs/container/pdfmathtranslate) 上使用该镜像。
+> - 如果你无法访问 Docker Hub，请尝试在 [GitHub 容器注册中心](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 上使用该镜像。
 > ```bash
-> docker pull ghcr.io/byaidu/pdfmathtranslate
-> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate
+> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
+> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > ```
 
 ### 无法安装？
@@ -211,12 +211,12 @@ set HF_ENDPOINT=https://hf-mirror.com
 $env:HF_ENDPOINT = https://hf-mirror.com
 ```
 
-如果此解决方案对您无效或您遇到其他问题，请参阅 [常见问题解答](https://github.com/Byaidu/PDFMathTranslate/wiki#-faq--%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)。
+如果此解决方案对您无效或您遇到其他问题，请参阅 [常见问题解答](https://github.com/PDFMathTranslate/PDFMathTranslate-next/wiki#-faq--%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)。
 
 
 <h2 id="usage">高级选项</h2>
 
-在命令行中执行翻译命令，在当前工作目录下生成译文文档 `example-mono.pdf` 和双语对照文档 `example-dual.pdf`，默认使用 Google 翻译服务，更多支持的服务在[这里](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services))。
+在命令行中执行翻译命令，在当前工作目录下生成译文文档 `example-mono.pdf` 和双语对照文档 `example-dual.pdf`，默认使用 Google 翻译服务，更多支持的服务在[这里](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services))。
 
 <img src="./images/cmd.explained.png" width="580px"  alt="cmd"/>  
 
@@ -227,21 +227,21 @@ $env:HF_ENDPOINT = https://hf-mirror.com
 | files        | 本地文件                                                                                                     | `pdf2zh ~/local.pdf`                           |
 | links        | 在线文件                                                                                                     | `pdf2zh http://arxiv.org/paper.pdf`            |
 | `-i`         | [进入 GUI](#gui)                                                                                            | `pdf2zh -i`                                    |
-| `-p`         | [部分文档翻译](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#partial)                | `pdf2zh example.pdf -p 1`                      |
-| `-li`        | [源语言](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)                    | `pdf2zh example.pdf -li en`                    |
-| `-lo`        | [目标语言](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#languages)                  | `pdf2zh example.pdf -lo zh`                    |
-| `-s`         | [翻译服务](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#services)                   | `pdf2zh example.pdf -s deepl`                  |
-| `-t`         | [多线程](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#threads)                      | `pdf2zh example.pdf -t 1`                      |
+| `-p`         | [部分文档翻译](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#partial)                | `pdf2zh example.pdf -p 1`                      |
+| `-li`        | [源语言](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#languages)                    | `pdf2zh example.pdf -li en`                    |
+| `-lo`        | [目标语言](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#languages)                  | `pdf2zh example.pdf -lo zh`                    |
+| `-s`         | [翻译服务](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)                   | `pdf2zh example.pdf -s deepl`                  |
+| `-t`         | [多线程](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#threads)                      | `pdf2zh example.pdf -t 1`                      |
 | `-o`         | 输出目录                                                                                                     | `pdf2zh example.pdf -o output`                 |
-| `-f`, `-c`   | [异常](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#exceptions)                     | `pdf2zh example.pdf -f "(MS.*)"`               |
+| `-f`, `-c`   | [异常](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#exceptions)                     | `pdf2zh example.pdf -f "(MS.*)"`               |
 | `-cp`        | 兼容模式                                                                                                     | `pdf2zh example.pdf --compatible`              |
 | `--share`    | 公开链接                                                                                                     | `pdf2zh -i --share`                            |
-| `--authorized` | [授权](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#auth)                         | `pdf2zh -i --authorized users.txt [auth.html]` |
-| `--prompt`   | [自定义提示](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#prompt)                   | `pdf2zh --prompt [prompt.txt]`                 |
+| `--authorized` | [授权](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#auth)                         | `pdf2zh -i --authorized users.txt [auth.html]` |
+| `--prompt`   | [自定义提示](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#prompt)                   | `pdf2zh --prompt [prompt.txt]`                 |
 | `--onnx`     | [使用自定义 DocLayout-YOLO ONNX 模型]                                                                        | `pdf2zh --onnx [onnx/model/path]`              |
 | `--serverport` | [使用自定义 WebUI 端口]                                                                                    | `pdf2zh --serverport 7860`                     |
 | `--dir`      | [批量翻译]                                                                                                   | `pdf2zh --dir /path/to/translate/`             |
-| `--config`   | [配置文件](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.md#cofig)                       | `pdf2zh --config /path/to/config/config.json`  |
+| `--config`   | [配置文件](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#cofig)                       | `pdf2zh --config /path/to/config/config.json`  |
 | `--serverport` | [自定义 gradio 服务器端口]                                                                                 | `pdf2zh --serverport 7860`                     |
 | `--babeldoc`| 使用实验性后端 [BabelDOC](https://funstory-ai.github.io/BabelDOC/) 翻译 |`pdf2zh --babeldoc` -s openai example.pdf|
 
@@ -249,7 +249,7 @@ $env:HF_ENDPOINT = https://hf-mirror.com
 
 <h2 id="downstream">二次开发 (API)</h2>
 
-当前的 pdf2zh API 暂时已弃用。API 将在 [pdf2zh 2.0](https://github.com/Byaidu/PDFMathTranslate/issues/586)发布后重新提供。对于需要程序化访问的用户，请使用[BabelDOC](https://github.com/funstory-ai/BabelDOC)的 `babeldoc.high_level.async_translate` 函数。
+当前的 pdf2zh API 暂时已弃用。API 将在 [pdf2zh 2.0](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/586)发布后重新提供。对于需要程序化访问的用户，请使用[BabelDOC](https://github.com/funstory-ai/BabelDOC)的 `babeldoc.high_level.async_translate` 函数。
 
 API 暂时弃用意味着：相关代码暂时不会被移除，但不会提供技术支持，也不会修复 bug。
 
@@ -295,7 +295,7 @@ API 暂时弃用意味着：相关代码暂时不会被移除，但不会提供�
 
 <h2 id="contrib">贡献者</h2>
 
-<a href="https://github.com/Byaidu/PDFMathTranslate/graphs/contributors">
+<a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
 </a>
 
@@ -303,10 +303,10 @@ API 暂时弃用意味着：相关代码暂时不会被移除，但不会提供�
 
 <h2 id="star_hist">星标历史</h2>
 
-<a href="https://star-history.com/#Byaidu/PDFMathTranslate&Date">
+<a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date" />
-   <img alt="星标历史图表" src="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date"/>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
+   <img alt="星标历史图表" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
  </picture>
 </a>

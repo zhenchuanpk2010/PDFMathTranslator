@@ -7,9 +7,9 @@ from unittest.mock import patch
 
 import pytest
 import tomlkit
-from pdf2zh.config.main import ConfigManager
-from pdf2zh.config.main import MagicDefault
-from pdf2zh.config.main import build_args_parser
+from pdf2zh_next.config.main import ConfigManager
+from pdf2zh_next.config.main import MagicDefault
+from pdf2zh_next.config.main import build_args_parser
 from pydantic import BaseModel
 from pydantic import Field
 
@@ -173,7 +173,7 @@ class TestConfigManager:
     @pytest.fixture
     def temp_config_dir(self, tmp_path: Path) -> Path:
         """Create a temporary config directory"""
-        config_dir = tmp_path / ".config" / "pdf2zh"
+        config_dir = tmp_path / ".config" / "pdf2zh_next"
         config_dir.mkdir(parents=True)
         return config_dir
 
@@ -233,7 +233,7 @@ class TestConfigManager:
 
         with (
             patch.object(ConfigManager, "_ensure_config_dir"),
-            patch("pdf2zh.config.main.VERSION_DEFAULT_CONFIG_FILE", version_file),
+            patch("pdf2zh_next.config.main.VERSION_DEFAULT_CONFIG_FILE", version_file),
         ):
             # First update should create the file
             cm._update_version_default_config()
@@ -263,7 +263,7 @@ class TestConfigManager:
             "report_interval": 0.5,
         }
 
-        with patch("pdf2zh.const.DEFAULT_CONFIG_FILE", default_config):
+        with patch("pdf2zh_next.const.DEFAULT_CONFIG_FILE", default_config):
             # Write test configurations
             cm._write_toml_file(user_config, user_config_content)
             cm._write_toml_file(default_config, default_config_content)
@@ -291,7 +291,7 @@ class TestConfigManager:
         cm = ConfigManager()
         test_dir = temp_config_dir / "subdir"
 
-        with patch("pdf2zh.config.main.DEFAULT_CONFIG_DIR", test_dir):
+        with patch("pdf2zh_next.config.main.DEFAULT_CONFIG_DIR", test_dir):
             # Directory should not exist initially
             assert not test_dir.exists()
 
@@ -536,7 +536,7 @@ class TestConfigManager:
 
         # Test directory creation
         test_dir = temp_config_dir / "new_config_dir"
-        with patch("pdf2zh.config.main.DEFAULT_CONFIG_DIR", test_dir):
+        with patch("pdf2zh_next.config.main.DEFAULT_CONFIG_DIR", test_dir):
             cm._ensure_config_dir()
             assert test_dir.exists()
             assert test_dir.is_dir()

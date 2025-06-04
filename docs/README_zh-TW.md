@@ -16,15 +16,15 @@
     <img src="https://img.shields.io/docker/pulls/byaidu/pdf2zh"></a>
   <!-- License -->
   <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Byaidu/PDFMathTranslate"/></a>
+    <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"/></a>
   <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"/></a>
   <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate">
     <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a>
-  <a href="https://github.com/Byaidu/PDFMathTranslate/pulls">
+  <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"/></a>
-  <a href="https://gitcode.com/Byaidu/PDFMathTranslate/overview">
-    <img src="https://gitcode.com/Byaidu/PDFMathTranslate/star/badge.svg"></a>
+  <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
+    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a>
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"/></a>
 </p>
@@ -39,9 +39,9 @@
 - 🌐 支援 [多種語言](#language) 和 [諸多翻譯服務](#services)
 - 🤖 提供 [命令列工具](#usage)、[圖形使用者介面](#gui)，以及 [容器化部署](#docker)
 
-歡迎在 [GitHub Issues](https://github.com/Byaidu/PDFMathTranslate/issues) 或 [Telegram 使用者群](https://t.me/+Z9_SgnxmsmA5NzBl)(https://qm.qq.com/q/DixZCxQej0) 中提出回饋
+歡迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram 使用者群](https://t.me/+Z9_SgnxmsmA5NzBl)(https://qm.qq.com/q/DixZCxQej0) 中提出回饋
 
-如需瞭解如何貢獻的詳細資訊，請查閱 [貢獻指南](https://github.com/Byaidu/PDFMathTranslate/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97)
+如需瞭解如何貢獻的詳細資訊，請查閱 [貢獻指南](https://github.com/PDFMathTranslate/PDFMathTranslate-next/wiki/Contribution-Guide---%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97)
 
 <h2 id="updates">近期更新</h2>
 
@@ -88,20 +88,20 @@ set HF_ENDPOINT=https://hf-mirror.com
 2. 安裝此程式：
 
    ```bash
-   pip install pdf2zh
+   pip install pdf2zh_next
    ```
 
 3. 執行翻譯，生成檔案位於 [目前工作目錄](https://chatgpt.com/share/6745ed36-9acc-800e-8a90-59204bd13444)：
 
    ```bash
-   pdf2zh document.pdf
+   pdf2zh_next document.pdf
    ```
 
 <h3 id="portable">方法二、便攜式安裝</h3>
 
 無需預先安裝 Python 環境
 
-下載 [setup.bat](https://raw.githubusercontent.com/Byaidu/PDFMathTranslate/refs/heads/main/script/setup.bat) 並直接雙擊執行
+下載 [setup.bat](https://raw.githubusercontent.com/PDFMathTranslate/PDFMathTranslate-next/refs/heads/main/script/setup.bat) 並直接雙擊執行
 
 <h3 id="gui">方法三、圖形使用者介面</h3>
 
@@ -109,13 +109,13 @@ set HF_ENDPOINT=https://hf-mirror.com
 2. 安裝此程式：
 
    ```bash
-   pip install pdf2zh
+   pip install pdf2zh_next
    ```
 
 3. 在瀏覽器中啟動使用：
 
    ```bash
-   pdf2zh -i
+   pdf2zh_next -i
    ```
 
 4. 如果您的瀏覽器沒有自動開啟並跳轉，請手動在瀏覽器開啟：
@@ -133,8 +133,8 @@ set HF_ENDPOINT=https://hf-mirror.com
 1. 拉取 Docker 映像檔並執行：
 
    ```bash
-   docker pull byaidu/pdf2zh
-   docker run -d -p 7860:7860 byaidu/pdf2zh
+   docker pull byaidu/pdf2zh_next
+   docker run -d -p 7860:7860 byaidu/pdf2zh_next
    ```
 
 2. 透過瀏覽器開啟：
@@ -146,13 +146,13 @@ set HF_ENDPOINT=https://hf-mirror.com
 用於在雲服務上部署容器映像檔：
 
 <div>
-<a href="https://www.heroku.com/deploy?template=https://github.com/Byaidu/PDFMathTranslate">
+<a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="26"></a>
 <a href="https://render.com/deploy">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Koyeb" height="26"></a>
 <a href="https://zeabur.com/templates/5FQIGX?referralCode=reycn">
   <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="26"></a>
-<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate">
+<a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="26"></a>
 </div>
 
@@ -177,7 +177,7 @@ set HF_ENDPOINT=https://hf-mirror.com
 | `-o`  | 輸出目錄 | `pdf2zh example.pdf -o output` |
 | `-f`, `-c` | [例外規則](#exceptions) | `pdf2zh example.pdf -f "(MS.*)"` |
 | `--share` | [獲取 gradio 公開連結] | `pdf2zh -i --share` |
-| `--authorized` | [[添加網頁認證及自訂認證頁面](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/ADVANCED.)] | `pdf2zh -i --authorized users.txt [auth.html]` |
+| `--authorized` | [[添加網頁認證及自訂認證頁面](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.)] | `pdf2zh -i --authorized users.txt [auth.html]` |
 | `--prompt` | [使用自訂的大模型 Prompt] | `pdf2zh --prompt [prompt.txt]` |
 | `--onnx` | [使用自訂的 DocLayout-YOLO ONNX 模型] | `pdf2zh --onnx [onnx/model/path]` |
 | `--serverport` | [自訂 WebUI 埠號] | `pdf2zh --serverport 7860` |
@@ -188,13 +188,13 @@ set HF_ENDPOINT=https://hf-mirror.com
 - **全文翻譯**
 
 ```bash
-pdf2zh example.pdf
+pdf2zh_next example.pdf
 ```
 
 - **部分翻譯**
 
 ```bash
-pdf2zh example.pdf -p 1-3,5
+pdf2zh_next example.pdf -p 1-3,5
 ```
 
 <h3 id="language">指定原文語言與目標語言</h3>
@@ -202,7 +202,7 @@ pdf2zh example.pdf -p 1-3,5
 可參考 [Google 語言代碼](https://developers.google.com/admin-sdk/directory/v1/languages)、[DeepL 語言代碼](https://developers.deepl.com/docs/resources/supported-languages)
 
 ```bash
-pdf2zh example.pdf -li en -lo ja
+pdf2zh_next example.pdf -li en -lo ja
 ```
 
 <h3 id="services">使用不同的翻譯服務</h3>
@@ -236,14 +236,14 @@ pdf2zh example.pdf -li en -lo ja
 使用 `-s service` 或 `-s service:model` 指定翻譯服務：
 
 ```bash
-pdf2zh example.pdf -s openai:gpt-4o-mini
+pdf2zh_next example.pdf -s openai:gpt-4o-mini
 ```
 
 或使用環境變數指定模型：
 
 ```bash
 set OPENAI_MODEL=gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```
 
 <h3 id="exceptions">指定例外規則</h3>
@@ -251,13 +251,13 @@ pdf2zh example.pdf -s openai
 使用正則表達式指定需要保留的公式字體與字元：
 
 ```bash
-pdf2zh example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
+pdf2zh_next example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
 ```
 
 預設保留 `Latex`, `Mono`, `Code`, `Italic`, `Symbol` 以及 `Math` 字體：
 
 ```bash
-pdf2zh example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
+pdf2zh_next example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
 ```
 
 <h3 id="threads">指定執行緒數量</h3>
@@ -265,7 +265,7 @@ pdf2zh example.pdf -f "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|
 使用 `-t` 參數指定翻譯使用的執行緒數量：
 
 ```bash
-pdf2zh example.pdf -t 1
+pdf2zh_next example.pdf -t 1
 ```
 
 <h3 id="prompt">自訂大模型 Prompt</h3>
@@ -273,7 +273,7 @@ pdf2zh example.pdf -t 1
 使用 `--prompt` 指定在使用大模型翻譯時所採用的 Prompt 檔案。
 
 ```bash
-pdf2zh example.pdf -pr prompt.txt
+pdf2zh_next example.pdf -pr prompt.txt
 ```
 
 範例 `prompt.txt` 檔案內容：
@@ -303,7 +303,7 @@ pdf2zh example.pdf -pr prompt.txt
 ### Python
 
 ```python
-from pdf2zh import translate, translate_stream
+from pdf2zh_next import translate, translate_stream
 
 params = {"lang_in": "en", "lang_out": "zh", "service": "google", "thread": 4}
 file_mono, file_dual = translate(files=["example.pdf"], **params)[0]
@@ -314,9 +314,9 @@ with open("example.pdf", "rb") as f:
 ### HTTP
 
 ```bash
-pip install pdf2zh[backend]
-pdf2zh --flask
-pdf2zh --celery worker
+pip install pdf2zh_next[backend]
+pdf2zh_next --flask
+pdf2zh_next --celery worker
 ```
 
 ```bash
@@ -349,7 +349,7 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
 
 <h2 id="contrib">貢獻者</h2>
 
-<a href="https://github.com/Byaidu/PDFMathTranslate/graphs/contributors">
+<a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
 </a>
 
@@ -357,10 +357,10 @@ curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X
 
 <h2 id="star_hist">星標歷史</h2>
 
-<a href="https://star-history.com/#Byaidu/PDFMathTranslate&Date">
+<a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Byaidu/PDFMathTranslate&type=Date"/>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
  </picture>
 </a>

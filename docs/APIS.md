@@ -13,7 +13,7 @@ As `pdf2zh` is an installed module in Python, we expose two methods for other pr
 For example, if you want translate a document from English to Chinese using Google Translate, you may use the following code:
 
 ```python
-from pdf2zh import translate, translate_stream
+from pdf2zh_next import translate, translate_stream
 
 params = {
     'lang_in': 'en',
@@ -43,9 +43,9 @@ In a more flexible way, you can communicate with the program using HTTP protocol
 1. Install and run backend
 
    ```bash
-   pip install pdf2zh[backend]
-   pdf2zh --flask
-   pdf2zh --celery worker
+   pip install pdf2zh_next[backend]
+   pdf2zh_next --flask
+   pdf2zh_next --celery worker
    ```
 
 2. Using HTTP protocols as follows:

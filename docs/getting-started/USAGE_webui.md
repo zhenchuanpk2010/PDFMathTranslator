@@ -15,7 +15,7 @@ There are several methods to open the WebUI interface. If you are using **Window
 3. Start using in browser:
 
     ```bash
-    pdf2zh --gui
+    pdf2zh_next --gui
     ```
 
 4. If your browswer has not been started automatically, goto

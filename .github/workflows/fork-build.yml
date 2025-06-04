@@ -15,7 +15,7 @@ jobs:
     name: Check if running in main repository
     runs-on: ubuntu-latest
     outputs:
-      is_main_repo: ${{ github.repository == 'Byaidu/PDFMathTranslate' }}
+      is_main_repo: ${{ github.repository == 'PDFMathTranslate/PDFMathTranslate-next' }}
     steps:
       - run: echo "Running repository check"
 
@@ -214,6 +214,7 @@ jobs:
           Write-Host "==== 在 venv 环境中安装项目依赖 ===="
           uv pip install .
           uv pip install BabelDOC[directml]
+          uv run pdf2zh --help
 
           Write-Host "==== 复制 venv/Lib/site-packages 到 build/ ===="
           Copy-Item -Path "./dep_build/venv/Lib/site-packages" -Destination "./build/site-packages" -Recurse -Force
@@ -255,7 +256,7 @@ jobs:
 
       # - name: Test show version (online mode)
       #   run: |
-      #     ./build/pdf2zh.exe --version
+      #     ./build/pdf2zh_next.exe --version
       
       - name: Test - Translate a PDF file with plain text only (online mode)
         run: |

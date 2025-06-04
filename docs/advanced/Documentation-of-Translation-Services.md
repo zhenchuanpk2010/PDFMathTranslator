@@ -7,7 +7,7 @@
 You can confirm the available translate services and their usage by printing the help message in the command line.
 
 ```bash
-pdf2zh -h
+pdf2zh_next -h
 ```
 
 At the end of the help message, you can view detailed information about the different translation services.
@@ -62,19 +62,19 @@ For large language models that are compatible with the OpenAI API but not listed
 Use `-s service` or `-s service:model` to specify service:
 
 ```bash
-pdf2zh example.pdf -s openai:gpt-4o-mini
+pdf2zh_next example.pdf -s openai:gpt-4o-mini
 ```
 
 Or specify model with environment variables:
 
 ```bash
 set OPENAI_MODEL=gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```
 
 For PowerShell user:
 
 ```shell
 $env:OPENAI_MODEL = gpt-4o-mini
-pdf2zh example.pdf -s openai
+pdf2zh_next example.pdf -s openai
 ```

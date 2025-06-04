@@ -9,7 +9,7 @@
 After Installation, please enter this command to translate your PDF.
 
 ```bash
-pdf2zh document.pdf
+pdf2zh_next document.pdf
 ```
 
 > [!NOTE]
@@ -17,7 +17,7 @@ pdf2zh document.pdf
 > If your pathname contains spaces, please enclose it in quotation marks.
 > 
 > ```bash
-> pdf2zh "path with spaces/document.pdf"
+> pdf2zh_next "path with spaces/document.pdf"
 > ```
 
 After execute translation, files generated in **current working directory**.

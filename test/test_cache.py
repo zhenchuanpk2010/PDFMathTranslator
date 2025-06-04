@@ -1,6 +1,6 @@
 import unittest
 
-from pdf2zh.translator import cache
+from pdf2zh_next.translator import cache
 
 
 class TestCache(unittest.TestCase):
