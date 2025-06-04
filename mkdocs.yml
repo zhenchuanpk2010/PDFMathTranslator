@@ -1,12 +1,12 @@
 # Project information
 site_name: PDFMathTranslate
-site_url: https://pdf2zh.com/
+site_url: https://pdf2zh-next.com
 site_author: awwaawwa
 site_description: PDF scientific paper translation and bilingual comparison.
 
 # Repository
-repo_name: awwaawwa/PDFMathTranslate
-repo_url: https://github.com/awwaawwa/PDFMathTranslate
+repo_name: PDFMathTranslate/PDFMathTranslate
+repo_url: https://github.com/PDFMathTranslate/PDFMathTranslate
 edit_uri: edit/main/docs/
 
 # Configuration
@@ -83,7 +83,7 @@ extra:
     deprecated: Deprecated
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/awwaawwa/PDFMathTranslate
+      link: https://github.com/PDFMathTranslate/PDFMathTranslate
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/pdf2zh/
 
