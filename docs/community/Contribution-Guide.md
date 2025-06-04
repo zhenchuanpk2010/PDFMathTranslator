@@ -41,31 +41,46 @@
 
 ## 基本要求
 
-1. **工作流程**
+<h4 id="sop">1. 工作流程</h4>
+
    - 请在 `main` 主分支上创建 fork，并在 fork 的分支上进行开发。
    - 提交 Pull Request (PR) 时，请对提交的内容进行详细说明。
    - 如果 PR 没有通过自动化检查（提示 `checks failed` 和红色叉号标记），请查看相应的 `details` 并修改提交内容，确保新的 PR 可以通过自动化检查。
 
-2. **开发和测试**
+
+<h4 id="dev&test">2. 开发和测试</h4>
+
    - 使用 `pip install -e .` 命令进行开发和测试。
 
-3. **代码格式化**
+
+<h4 id="format">3. 代码格式化</h4>
+
    - 配置 `pre-commit` 工具，启用 `black` 和 `flake8` 进行代码格式化。
 
-4. **依赖更新**
+
+<h4 id="requpdate">4. 依赖更新</h4>
+
    - 如果引入了新的依赖，请及时更新 `pyproject.toml` 文件中的依赖列表。
 
-5. **文档更新**
+
+<h4 id="docupdate">5. 文档更新</h4>
+
    - 如果添加了新的命令行选项，请同步更新多语言版本的 `README.md` 文件中的命令行选项列表。
 
-6. **提交信息**
+
+<h4 id="commitmsg">6. 提交信息</h4>
+
    - 使用 [语义化提交信息](https://www.conventionalcommits.org/zh-hans/v1.0.0/)，例如：`feat(translator): add openai`。
 
-7. **编码风格**
+
+<h4 id="codestyle">7. 编码风格</h4>
+
    - 请确保提交的代码符合基本的编码风格规范。
    - 变量命名请使用下划线或驼峰命名法。
 
-8. **文档排版**
+
+<h4 id="doctypo">8. 文档排版</h4>
+
    - `README.md` 文件的排版请遵循 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
    - 确保英文和中文文档始终保持最新状态，其它语言文档为可选更新。
 
