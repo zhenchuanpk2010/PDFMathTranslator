@@ -34,9 +34,7 @@ def get_translator(settings: SettingsModel) -> BaseTranslator:
         if isinstance(translator_config, metadata.setting_model_type):
             translate_engine_type = metadata.translate_engine_type
             logger.info(f"Using {translate_engine_type} translator")
-            model_name = (
-                f"pdf2zh.translator.translator_impl.{translate_engine_type.lower()}"
-            )
+            model_name = f"pdf2zh_next.translator.translator_impl.{translate_engine_type.lower()}"
             module = importlib.import_module(model_name)
             return getattr(module, f"{translate_engine_type}Translator")(
                 settings, rate_limiter
