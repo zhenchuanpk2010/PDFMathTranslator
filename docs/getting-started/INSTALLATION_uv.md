@@ -20,7 +20,7 @@ To install uv on your computer, please refer to [this article](https://docs.astr
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh_next
+    uv tool install --python 3.13 pdf2zh-next
     ```
 After installation, you can start translation via the **command line** or **WebUI**.
 
