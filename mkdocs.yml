@@ -83,9 +83,9 @@ extra:
     deprecated: Deprecated
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/PDFMathTranslate/PDFMathTranslate
+      link: https://github.com/PDFMathTranslate/PDFMathTranslate-next
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/pdf2zh/
+      link: https://pypi.org/project/pdf2zh-next/
 
 # Extensions
 markdown_extensions:
