@@ -463,6 +463,10 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
         skip_scanned_detection=settings.pdf.skip_scanned_detection,
         ocr_workaround=settings.pdf.ocr_workaround,
         custom_system_prompt=settings.translation.custom_system_prompt,
+        auto_enable_ocr_workaround=settings.pdf.auto_enable_ocr_workaround,
+        pool_max_workers=settings.translation.pool_max_workers,
+        auto_extract_glossary=not settings.translation.no_auto_extract_glossary,
+        primary_font_family=settings.translation.primary_font_family,
     )
     return babeldoc_config
 

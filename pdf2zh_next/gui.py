@@ -341,6 +341,9 @@ def _build_translate_settings(
     # Advanced Translation Options
     min_text_length = ui_inputs.get("min_text_length")
     rpc_doclayout = ui_inputs.get("rpc_doclayout")
+    pool_max_workers = ui_inputs.get("pool_max_workers")
+    no_auto_extract_glossary = ui_inputs.get("no_auto_extract_glossary")
+    primary_font_family = ui_inputs.get("primary_font_family")
 
     # Advanced PDF Options
     skip_clean = ui_inputs.get("skip_clean")
@@ -354,6 +357,7 @@ def _build_translate_settings(
     max_pages_per_part = ui_inputs.get("max_pages_per_part")
     formular_font_pattern = ui_inputs.get("formular_font_pattern")
     formular_char_pattern = ui_inputs.get("formular_char_pattern")
+    auto_enable_ocr_workaround = ui_inputs.get("auto_enable_ocr_workaround")
 
     # New input for custom_system_prompt
     custom_system_prompt_input = ui_inputs.get("custom_system_prompt_input")
@@ -390,6 +394,16 @@ def _build_translate_settings(
         translate_settings.translation.min_text_length = int(min_text_length)
     if rpc_doclayout:
         translate_settings.translation.rpc_doclayout = rpc_doclayout
+    if pool_max_workers is not None and pool_max_workers > 0:
+        translate_settings.translation.pool_max_workers = int(pool_max_workers)
+    else:
+        translate_settings.translation.pool_max_workers = None
+    translate_settings.translation.no_auto_extract_glossary = no_auto_extract_glossary
+    if primary_font_family:
+        if primary_font_family == "Auto":
+            translate_settings.translation.primary_font_family = None
+        else:
+            translate_settings.translation.primary_font_family = primary_font_family
 
     # Update PDF Settings
     translate_settings.pdf.pages = pages
@@ -419,6 +433,7 @@ def _build_translate_settings(
 
     translate_settings.pdf.translate_table_text = translate_table_text
     translate_settings.pdf.skip_scanned_detection = skip_scanned_detection
+    translate_settings.pdf.auto_enable_ocr_workaround = auto_enable_ocr_workaround
 
     if max_pages_per_part is not None and max_pages_per_part > 0:
         translate_settings.pdf.max_pages_per_part = int(max_pages_per_part)
@@ -471,9 +486,8 @@ def _build_translate_settings(
         translate_settings.custom_prompt = Template(prompt)
 
     # Add custom system prompt if provided
-    custom_system_prompt_value = ui_inputs.get("custom_system_prompt_input")
-    if custom_system_prompt_value:
-        translate_settings.translation.custom_system_prompt = custom_system_prompt_value
+    if custom_system_prompt_input:
+        translate_settings.translation.custom_system_prompt = custom_system_prompt_input
     else:
         translate_settings.translation.custom_system_prompt = None
 
@@ -614,6 +628,10 @@ async def translate_file(
     rpc_doclayout,
     # New input for custom_system_prompt
     custom_system_prompt_input,
+    # New advanced translation options
+    pool_max_workers,
+    no_auto_extract_glossary,
+    primary_font_family,
     skip_clean,
     disable_rich_text_translate,
     enhance_compatibility,
@@ -627,6 +645,7 @@ async def translate_file(
     ignore_cache,
     state,
     ocr_workaround,
+    auto_enable_ocr_workaround,
     *translation_engine_arg_inputs,
     progress=None,
 ):
@@ -692,6 +711,10 @@ async def translate_file(
         "min_text_length": min_text_length,
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
+        # New advanced translation options
+        "pool_max_workers": pool_max_workers,
+        "no_auto_extract_glossary": no_auto_extract_glossary,
+        "primary_font_family": primary_font_family,
         "skip_clean": skip_clean,
         "disable_rich_text_translate": disable_rich_text_translate,
         "enhance_compatibility": enhance_compatibility,
@@ -704,6 +727,7 @@ async def translate_file(
         "formular_char_pattern": formular_char_pattern,
         "ignore_cache": ignore_cache,
         "ocr_workaround": ocr_workaround,
+        "auto_enable_ocr_workaround": auto_enable_ocr_workaround,
     }
     for arg_name, arg_input in zip(
         __gui_service_arg_names, translation_engine_arg_inputs, strict=False
@@ -1032,6 +1056,30 @@ with gr.Blocks(
                     placeholder="http://host:port",
                 )
 
+                # New advanced translation options
+                pool_max_workers = gr.Number(
+                    label="Pool maximum workers (if not set or set to 0, will use RPS as the number of workers)",
+                    value=settings.translation.pool_max_workers,
+                    precision=0,
+                    minimum=0,
+                    interactive=True,
+                )
+
+                no_auto_extract_glossary = gr.Checkbox(
+                    label="Disable auto extract glossary",
+                    value=settings.translation.no_auto_extract_glossary,
+                    interactive=True,
+                )
+
+                primary_font_family = gr.Dropdown(
+                    label="Primary font family for translated text",
+                    choices=["Auto", "serif", "sans-serif", "script"],
+                    value="Auto"
+                    if not settings.translation.primary_font_family
+                    else settings.translation.primary_font_family,
+                    interactive=True,
+                )
+
                 # PDF options section
                 gr.Markdown("### PDF Options")
 
@@ -1084,6 +1132,12 @@ with gr.Blocks(
                 ocr_workaround = gr.Checkbox(
                     label="OCR workaround (experimental, will auto enable Skip scanned detection in backend)",
                     value=settings.pdf.ocr_workaround,
+                    interactive=True,
+                )
+
+                auto_enable_ocr_workaround = gr.Checkbox(
+                    label="Auto enable OCR workaround (enable automatic OCR workaround for heavily scanned documents)",
+                    value=settings.pdf.auto_enable_ocr_workaround,
                     interactive=True,
                 )
 
@@ -1246,6 +1300,10 @@ with gr.Blocks(
             min_text_length,
             rpc_doclayout,
             custom_system_prompt_input,
+            # New advanced translation options
+            pool_max_workers,
+            no_auto_extract_glossary,
+            primary_font_family,
             skip_clean,
             disable_rich_text_translate,
             enhance_compatibility,
@@ -1259,6 +1317,7 @@ with gr.Blocks(
             ignore_cache,
             state,
             ocr_workaround,
+            auto_enable_ocr_workaround,
             *translation_engine_arg_inputs,
         ],
         outputs=[

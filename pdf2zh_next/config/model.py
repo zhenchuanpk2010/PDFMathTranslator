@@ -91,6 +91,18 @@ class TranslationSettings(BaseModel):
         default=None,
         description='Custom system prompt for translation. It is mainly used to add the `/no_think` instruction of Qwen 3 in the prompt. e.g. --custom-system-prompt "/no_think You are a professional, authentic machine translation engine."',
     )
+    pool_max_workers: int | None = Field(
+        default=None,
+        description="Maximum number of workers for translation pool. If not set, will use qps as the number of workers",
+    )
+    no_auto_extract_glossary: bool = Field(
+        default=False,
+        description="Disable auto extract glossary",
+    )
+    primary_font_family: str | None = Field(
+        default=None,
+        description="Override primary font family for translated text. Choices: 'serif' for serif fonts, 'sans-serif' for sans-serif fonts, 'script' for script/italic fonts. If not specified, uses automatic font selection based on original text properties.",
+    )
 
 
 class PDFSettings(BaseModel):
@@ -146,6 +158,10 @@ class PDFSettings(BaseModel):
     ocr_workaround: bool = Field(
         default=False,
         description="Force translated text to be black and add white background",
+    )
+    auto_enable_ocr_workaround: bool = Field(
+        default=False,
+        description="Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False)",
     )
 
 
@@ -262,6 +278,27 @@ class SettingsModel(BaseModel):
 
         if self.pdf.max_pages_per_part and self.pdf.max_pages_per_part < 50:
             raise ValueError("max_pages_per_part must be greater than or equal to 50")
+
+        if (
+            self.translation.primary_font_family
+            and self.translation.primary_font_family
+            not in ["serif", "sans-serif", "script"]
+        ):
+            raise ValueError(
+                f"Invalid primary font family: {self.translation.primary_font_family}"
+            )
+
+        if self.pdf.auto_enable_ocr_workaround and self.pdf.ocr_workaround:
+            self.pdf.ocr_workaround = False
+            log.warning(
+                "The system detection results will override the manually set OCR workaround."
+            )
+
+        if self.pdf.auto_enable_ocr_workaround and self.pdf.skip_scanned_detection:
+            self.pdf.skip_scanned_detection = False
+            log.warning(
+                "After enabling automatic OCR Workaround, scan version detection will be forcibly enabled."
+            )
 
     def parse_pages(self) -> list[tuple[int, int]] | None:
         """Parse pages string into list of page ranges"""
