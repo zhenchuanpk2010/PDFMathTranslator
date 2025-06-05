@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 class BingTranslator(BaseTranslator):
     # https://github.com/immersive-translate/old-immersive-translate/blob/6df13da22664bea2f51efe5db64c63aca59c4e79/src/background/translationService.js
     name = "bing"
-    lang_map = {"zh": "zh-Hans", "zh-CN": "zh-Hans", "zh-TW": "zh-Hant", "auto": "en"}
+    lang_map = {"zh": "zh-Hans", "zh-cn": "zh-Hans", "zh-tw": "zh-Hant", "auto": "en"}
 
     def __init__(
         self,
