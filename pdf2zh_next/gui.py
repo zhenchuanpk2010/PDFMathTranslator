@@ -1337,7 +1337,7 @@ with gr.Blocks(
     )
 
 
-def parse_user_passwd(file_path: list) -> tuple[list, str]:
+def parse_user_passwd(file_path: str, welcome_page:str) -> tuple[list, str]:
     """
     This function parses a user password file.
 
@@ -1348,27 +1348,30 @@ def parse_user_passwd(file_path: list) -> tuple[list, str]:
         - A tuple containing the user list and HTML
     """
     content = ""
-    if len(file_path) == 2:
+    tuple_list = None
+    if welcome_page:
         try:
-            path = Path(file_path[1])
+            path = Path(welcome_page)
             content = path.read_text(encoding="utf-8")
         except FileNotFoundError:
-            print(f"Error: File '{file_path[1]}' not found.")
-    try:
-        path = Path(file_path[0])
-        tuple_list = [
-            tuple(line.strip().split(","))
-            for line in path.read_text(encoding="utf-8").splitlines()
-            if line.strip()
-        ]
-    except FileNotFoundError:
-        tuple_list = []
+            print(f"Error: File '{welcome_page}' not found.")
+    if file_path:
+        try:
+            path = Path(file_path)
+            tuple_list = [
+                tuple(line.strip().split(","))
+                for line in path.read_text(encoding="utf-8").splitlines()
+                if line.strip()
+            ]
+        except FileNotFoundError:
+            tuple_list = None
     return tuple_list, content
 
 
 def setup_gui(
     share: bool = False,
-    auth_file: list | None = None,
+    auth_file: str | None = None,
+    welcome_page: str | None = None,
     server_port=7860,
     inbrowser: bool = True,
 ) -> None:
@@ -1387,8 +1390,8 @@ def setup_gui(
     user_list = None
     html = None
 
-    if auth_file:
-        user_list, html = parse_user_passwd(auth_file)
+    
+    user_list, html = parse_user_passwd(auth_file,welcome_page)
 
     if not auth_file or not user_list:
         try:

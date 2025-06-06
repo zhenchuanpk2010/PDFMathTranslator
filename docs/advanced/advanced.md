@@ -75,6 +75,7 @@ In the following table, we list all advanced options for reference:
 |----------------------------------|--------------------------------------------|-------------------------------------------------|
 | `--share`                        | Enable sharing mode                        | `pdf2zh --gui --share`                          |
 | `--auth-file`                    | Path to the authentication file            | `pdf2zh --gui --auth-file /path`                |
+| `--welcome-page`                 | Path to the welcome html file              | `pdf2zh --gui --welcome-page /path`             |
 | `--enabled-services`             | Enabled translation services               | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
 | `--disable-gui-sensitive-input`  | Disable GUI sensitive input                | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`     | Disable automatic configuration saving     | `pdf2zh --gui --disable-config-auto-save`       |
@@ -274,6 +275,55 @@ gui = true
 enabled_services = "Bing,OpenAI"
 disable_gui_sensitive_input = true
 disable_config_auto_save = true
+```
+
+[⬆️ Back to top](#toc)
+
+---
+
+#### Authentication and welcome page
+
+When using Authentication and welcome page to specify which user to use Web UI and custom the login page:
+
+example auth.txt
+Each line contains two elements, username, and password, separated by a comma.
+
+```
+admin,123456
+user1,password1
+user2,abc123
+guest,guest123
+test,test123
+```
+
+example welcome.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my simple HTML page.</p>
+</body>
+</html>
+```
+
+> [!NOTE]
+> welcome page will work if only authentication file is not blank.
+> If authentication file is blank, there will be no authentication. :)
+
+A usable configuration is as follows:
+
+```toml title="config.toml"
+[basic]
+gui = true
+
+[gui_settings]
+auth_file = "/path/to/auth/file"
+welcome_page = "/path/to/welcome/html/file"
 ```
 
 [⬆️ Back to top](#toc)
