@@ -16,7 +16,7 @@ from tencentcloud.tmt.v20180321.tmt_client import TmtClient
 logger = logging.getLogger(__name__)
 
 
-class TencentTranslator(BaseTranslator):
+class TencentMechineTranslationTranslator(BaseTranslator):
     name = "tencent"
 
     def __init__(
