@@ -19,18 +19,16 @@
 
 ---
 
-<!-- <h3 id="cmd">Command Line Args</h3> -->
 #### Command Line Args
 
 Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
 <img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
-<!-- TODO 把命令行图片换掉 主命令部分黑色不透明 参数部分 75 透 颜色参考 https://developer.apple.com/design/human-interface-guidelines/color#iOS-iPadOS-system-colors -->
 
 In the following table, we list all advanced options for reference:
 
 ##### Args
-<!-- TODO 把 2.0 版本不支持的短参数改掉 -->
+
 | Option                          | Function                                                                               | Example                                                                                                              |
 | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | `files`                         | Local PDF file path                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
