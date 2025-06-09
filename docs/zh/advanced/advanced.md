@@ -43,6 +43,7 @@
 | `--warmup`                      | 仅下载并验证所需资产然后退出                                           | `pdf2zh example.pdf --warmup`                                                                                        |
 | `--generate-offline-assets`     | 在指定目录生成离线资产包                                               | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |
 | `--restore-offline-assets`      | 从指定目录恢复离线资产包                                               | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |
+| `--version`                     | 显示当前软件版本并退出                                                  | `pdf2zh --version`                                                                                                   |
 | `--pages`                       | 部分文档翻译                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
 | `--lang-in`                     | 源语言代码                                                             | `pdf2zh example.pdf --lang-in en`                                                                                    |
 | `--lang-out`                    | 目标语言代码                                                           | `pdf2zh example.pdf --lang-out zh`                                                                                   |
@@ -51,6 +52,9 @@
 | `--qps`                         | 翻译服务的 QPS 限制                                                    | `pdf2zh example.pdf --qps 200`                                                                                       |
 | `--ignore-cache`                | 忽略翻译缓存                                                           | `pdf2zh example.pdf --ignore-cache`                                                                                  |
 | `--custom-system-prompt`        | 自定义系统提示用于翻译。用于 Qwen 3 中的 `/no_think`                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
+| `--pool-max-worker`             | 设定翻译池的 worker 数。默认使用 QPS 值                                | `pdf2zh example.pdf --pool-max-worker 100`                                                                            |
+| `--no-auto-extract-glossary`    | 禁用自动提取术语表                                                     | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
+| `--primary-font-family`         | 覆盖翻译文本的主要字体系列。选项：'serif' 表示衬线字体，'sans-serif' 表示无衬线字体，'script' 表示手写/斜体字体。如果未指定，则根据原始文本属性自动选择字体。 | `pdf2zh example.pdf --primary-font-family serif` |
 | `--no-dual`                     | 不输出双语 PDF 文件                                                    | `pdf2zh example.pdf --no-dual`                                                                                       |
 | `--no-mono`                     | 不输出单语 PDF 文件                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | 用于识别公式文本的字体模式                                             | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
@@ -58,7 +62,7 @@
 | `--split-short-line`            | 强制将短行分成不同段落                                                 | `pdf2zh example.pdf --split-short-line`                                                                              |
 | `--short-line-split-factor`     | 短行的分割阈值因子                                                     |                                                                                                                      |
 | `--skip-clean`                  | 跳过 PDF 清理步骤                                                      | `pdf2zh example.pdf --skip-clean`                                                                                    |
-| `--dual-TRANSLATE-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-TRANSLATE-first`                                                                          |
+| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-TRANSLATE-first`                                                                          |
 | `--disable-rich-text-translate` | 禁用富文本翻译                                                         | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | 启用所有兼容性增强选项                                                 | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
 | `--use-alternating-pages-dual`  | 使用交替页面模式进行双 PDF                                             | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
@@ -67,6 +71,7 @@
 | `--translate-table-text`        | 翻译表格文本（实验性）                                                 | `pdf2zh example.pdf --translate-table-text`                                                                          |
 | `--skip-scanned-detection`      | 跳过扫描检测                                                           | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | 强制将翻译文本设为黑色并添加白色背景                                   | `pdf2zh example.pdf --ocr-workaround`                                                                                |
+| `--auto-enable-ocr-workaround`  | 启用自动 OCR 处理。如果检测到文档严重扫描，将尝试启用 OCR 处理并跳过进一步的扫描检测。详情请参阅文档。（默认值：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 
 ##### GUI 参数
 
