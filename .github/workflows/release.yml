@@ -163,6 +163,7 @@ jobs:
     needs:
       - build
       - check-repository
+      - build-win64-exe
     if: needs.check-repository.outputs.is_main_repo == 'true'
     environment:
       name: ${{ needs.build.outputs.is_release != '' && 'pypi' || 'testpypi' }}
@@ -210,6 +211,7 @@ jobs:
             type=raw,value=dev
             type=raw,value=${{ needs.build.outputs.version }},enable=${{ needs.build.outputs.is_release != '' }}
             type=raw,value=latest,enable=${{ needs.build.outputs.is_release != '' }}
+            type=raw,value=${{ needs.build.outputs.version }}-babeldoc-v${{ needs.build-win64-exe.outputs.babeldoc_version }},enable=${{ needs.build.outputs.is_release != '' }}
 
       - name: Login to Docker.io
         uses: docker/login-action@v3
@@ -302,6 +304,7 @@ jobs:
             type=raw,value=dev
             type=raw,value=${{ needs.build.outputs.version }},enable=${{ needs.build.outputs.is_release != '' && 'true' || 'false' }}
             type=raw,value=latest,enable=${{ needs.build.outputs.is_release != '' && 'true' || 'false' }}
+            type=raw,value=${{ needs.build.outputs.version }}-babeldoc-v${{ needs.build-win64-exe.outputs.babeldoc_version }},enable=${{ needs.build.outputs.is_release != '' }}
 
       - name: Create manifest list and push
         working-directory: ${{ runner.temp }}/digests
