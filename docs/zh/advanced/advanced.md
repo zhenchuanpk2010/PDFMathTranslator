@@ -178,7 +178,7 @@ pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional
 >
 > 排名较高的修改将覆盖排名较低的修改。
 >
-> **cli/gui > env > 用户配置文件 > 默认配置文件**
+> **cli/gui > 环境变量 > 用户配置文件 > 默认配置文件**
 
 - 通过 **命令行参数** 修改配置
 
@@ -218,6 +218,12 @@ pdf2zh_next --config-file '/path/config.toml'
 默认配置文件位于 `~/.config/pdf2zh`。
 请不要修改 `default` 目录中的配置文件。
 强烈建议参考此配置文件的内容并使用 **用户指定的配置文件** 来实现您自己的配置文件。
+
+
+> [!Tips]
+> - pdf2zh 2.0 默认会在每次点击 GUI 中的翻译按钮时，自动将当前配置保存至 `~/.config/pdf2zh/config.v3.toml`。下次启动时会默认加载这个配置文件
+> - `default` 目录中的配置文件是程序自动生成的，您可以将其复制出来进行修改，但不要直接更改其本身。
+> - 配置文件可能带有 "v2"、"v3" 等版本号。此为**配置文件的版本号**，而**不是** pdf2zh 本身的版本号。
 
 [⬆️ 返回顶部](#toc)
 
