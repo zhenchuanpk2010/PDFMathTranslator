@@ -1,16 +1,16 @@
-[**Getting Started**](./getting-started.md) > **Installation** > **Docker** _(current)_
+[**快速开始**](./getting-started.md) > **如何安装** > **Docker** _(当前页面)_
 
 ---
 
-### Install PDFMathTranslate via docker
+### 通过 Docker 安装 PDFMathTranslate
 
-#### What is docker?
+#### 什么是 Docker？
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.
+[Docker](https://docs.docker.com/get-started/docker-overview/) 是一个开放的平台，用于开发、交付和运行应用程序。Docker 使您能够将应用程序与基础设施分离，以便快速交付软件。使用 Docker，您可以以与管理应用程序相同的方式管理基础设施。通过利用 Docker 的交付、测试和部署代码的方法，您可以显著减少从编写代码到在生产中运行的时间。
 
-#### Installation
+#### 安装
 
-1. Pull and run:
+<h4>1. 拉取并运行：</h4>
 
     ```bash
     docker pull awwaawwa/pdfmathtranslate-next
@@ -18,24 +18,24 @@
     ```
 
 > [!NOTE]
-> 
-> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
-> 
+>
+> - 如果您无法访问 Docker Hub，请尝试 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 上的镜像。
+>
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > ```
 
-2. Enter this URL in your default browser to open the WebUI page:
+<h4>2. 在您的默认浏览器中输入此 URL 以打开 WebUI 页面：</h4>
     ```
     http://localhost:7860/
     ```
 
 > [!NOTE]
-> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).
+> 如果您在使用 WebUI 时遇到任何问题，请参阅 [使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).
+> 如果您在使用命令行时遇到任何问题，请参阅 [使用 --> 命令行](./USAGE_commandline.md)。
 <!-- 
 #### For docker deployment on cloud service:
 
