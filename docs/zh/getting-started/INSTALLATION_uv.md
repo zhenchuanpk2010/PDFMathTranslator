@@ -23,6 +23,32 @@ uv 是一个非常快速的 Python 包和项目管理器，用 Rust 编写。
     uv tool install --python 3.13 pdf2zh-next
     ```
 
+
+!!! Warning
+
+    如果您在运行时提示 `command not found: pdf2zh_next`，请按下面的方法配置环境变量并重试：
+
+    === "macOS and Linux"
+
+        请在 `~/.zshrc` 中追加:
+
+        ```console
+        export PATH="$PATH:/Users/Username/.local/bin"
+        ```
+
+        之后重启终端
+
+    === "Windows"
+
+        在 PowerShell 中输入:
+
+        ```powershell
+        $env:Path = "C:\Users\Username\.local\bin;$env:Path"
+        ```
+
+        之后重启 Powershell
+
+
 安装后，您可以通过 **命令行** 或 **WebUI** 开始翻译。
 
 > [!NOTE]
