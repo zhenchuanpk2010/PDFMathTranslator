@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./docs/images/banner.png" width="320px"  alt="banner"/>
+<img src="./../images/banner.png" width="320px"  alt="banner"/>
 
 <h2 id="title">PDFMathTranslate</h2>
 
