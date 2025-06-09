@@ -546,6 +546,20 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
+      - name: Delete existing release assets
+        if: needs.build.outputs.is_release == ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LATEST_RELEASE=${{ needs.release-draft.outputs.tag_name }}
+          echo "Deleting assets from release $LATEST_RELEASE"
+          ASSETS=$(gh release view "$LATEST_RELEASE" --json assets --jq '.assets.[].name' || echo "")
+          if [ -n "$ASSETS" ]; then
+            echo "$ASSETS" | xargs -r -I {} gh release delete-asset "$LATEST_RELEASE" "{}" --yes
+          else
+            echo "No assets to delete."
+          fi
+
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
@@ -555,7 +569,7 @@ jobs:
       - name: Create release zip
         run: |
           mv ./build ./pdf2zh
-          zip -9qr "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-${{ needs.build-win64-exe.outputs.babeldoc_version }}-with-assets-win64.zip" ./pdf2zh/*
+          zip -9qr "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-v${{ needs.build-win64-exe.outputs.babeldoc_version }}-with-assets-win64.zip" ./pdf2zh/*
 
           # 查找并删除离线资源文件
           find ./pdf2zh -name "offline_assets_*.zip" -type f -print -delete
@@ -563,7 +577,7 @@ jobs:
           echo "Remaining offline assets files (should be empty):"
           find ./pdf2zh -name "offline_assets_*.zip" -type f
           
-          zip -9qr "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-${{ needs.build-win64-exe.outputs.babeldoc_version }}-win64.zip" ./pdf2zh/*
+          zip -9qr "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-v${{ needs.build-win64-exe.outputs.babeldoc_version }}-win64.zip" ./pdf2zh/*
 
       - name: Upload to latest release
         env:
@@ -574,5 +588,5 @@ jobs:
           echo "Latest release tag: $LATEST_RELEASE"
           
           # Upload the zip file to the release
-          gh release upload "$LATEST_RELEASE" "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-${{ needs.build-win64-exe.outputs.babeldoc_version }}-win64.zip" --clobber
-          gh release upload "$LATEST_RELEASE" "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-${{ needs.build-win64-exe.outputs.babeldoc_version }}-with-assets-win64.zip" --clobber
+          gh release upload "$LATEST_RELEASE" "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-v${{ needs.build-win64-exe.outputs.babeldoc_version }}-win64.zip" --clobber
+          gh release upload "$LATEST_RELEASE" "pdf2zh-${{ needs.release-draft.outputs.tag_name }}-BabelDOC-v${{ needs.build-win64-exe.outputs.babeldoc_version }}-with-assets-win64.zip" --clobber
