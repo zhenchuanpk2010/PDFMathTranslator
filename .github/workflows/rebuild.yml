@@ -32,7 +32,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          LATEST_TAG=$(gh release list --repo ${{ github.repository }} --limit 1 --json tagName --jq '.[0].tagName')
+          LATEST_TAG=$(gh release list --exclude-drafts --repo ${{ github.repository }} --limit 1 --json tagName --jq '.[0].tagName')
           if [ -z "$LATEST_TAG" ]; then
             echo "No release found"
             exit 1

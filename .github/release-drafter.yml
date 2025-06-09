@@ -47,11 +47,11 @@ template: |
 
   ## Assets
 
-  - pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-win64.zip: pdf2zh **without** assets(font, model, etc.)
-  - pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-with-assets-win64.zip: (**Recommended**) pdf2zh **with** assets(font, model, etc.)
+  - `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-win64.zip`: pdf2zh **without** assets(font, model, etc.)
+  - `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-with-assets-win64.zip`: (**Recommended**) pdf2zh **with** assets(font, model, etc.)
 
   > [!NOTE]
-  > **What is the difference between `pdf2zh-<version>-with-assets-win64.zip` and `pdf2zh-<version>-win64.zip`?**
+  > **What is the difference between `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-with-assets-win64.zip` and `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-win64.zip`?**
   >
   > - If you are downloading and using PDFMathTranslate for the first time, it is recommended to download `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-with-assets-win64.zip`.
   > - The `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-with-assets-win64.zip` includes resource files (such as fonts and models) compared to `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-win64.zip`.
