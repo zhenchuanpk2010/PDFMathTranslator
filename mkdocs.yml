@@ -84,21 +84,12 @@ plugins:
           theme:
             palette:
               - media: "(prefers-color-scheme)"
-                toggle:
-                  icon: material/brightness-auto
-                  name: Switch to light mode
               - media: "(prefers-color-scheme: light)"
                 scheme: default
                 primary: white
-                toggle:
-                  icon: material/brightness-7
-                  name: Switch to dark mode
               - media: "(prefers-color-scheme: dark)"
                 scheme: slate
                 primary: black
-                toggle:
-                  icon: material/brightness-4
-                  name: Switch to system preference
           default: true
 
         - locale: zh
@@ -107,21 +98,12 @@ plugins:
           theme:
             palette:
               - media: "(prefers-color-scheme)"
-                toggle:
-                  icon: material/brightness-auto
-                  name: Switch to light mode
               - media: "(prefers-color-scheme: light)"
                 scheme: default
                 primary: red
-                toggle:
-                  icon: material/brightness-7
-                  name: Switch to dark mode
               - media: "(prefers-color-scheme: dark)"
                 scheme: slate
                 primary: pink
-                toggle:
-                  icon: material/brightness-4
-                  name: Switch to system preference
           nav_translations:
             Home: 主页
             Getting Start: 快速开始
