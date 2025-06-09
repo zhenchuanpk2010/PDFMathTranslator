@@ -301,6 +301,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get-latest-release.outputs.tag }}
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
