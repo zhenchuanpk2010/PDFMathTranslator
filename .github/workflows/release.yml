@@ -541,7 +541,7 @@ jobs:
 
 
   upload-release:
-    needs: [release-draft, check-repository, build-win64-exe]
+    needs: [build, release-draft, check-repository, build-win64-exe]
     runs-on: ubuntu-latest
     if: always() && needs.check-repository.outputs.is_main_repo == 'true' &&
       needs.release-draft.result == 'success'
