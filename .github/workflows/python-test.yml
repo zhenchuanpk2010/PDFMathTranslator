@@ -8,6 +8,11 @@ on:
       - '!master'
   pull_request:
   workflow_call:
+    inputs:
+      ref:
+        description: 'Git ref to checkout'
+        required: false
+        type: string
 
 jobs:
   build-and-test:
@@ -34,6 +39,8 @@ jobs:
           path: ~/.cache/babeldoc
           key: test-1-babeldoc-assets-${{ hashFiles('babeldoctemp1234567/babeldoc/assets/embedding_assets_metadata.py') }}
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
       - name: Setup uv with Python ${{ matrix.python-version }}
         uses: astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb # v6.1.0
         with:

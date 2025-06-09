@@ -16,8 +16,9 @@ from tencentcloud.tmt.v20180321.tmt_client import TmtClient
 logger = logging.getLogger(__name__)
 
 
-class TencentTranslator(BaseTranslator):
+class TencentMechineTranslationTranslator(BaseTranslator):
     name = "tencent"
+    lang_map = {"zh-cn": "zh", "zh-tw": "zh-TW", "zh-hk":"zh-TW"}
 
     def __init__(
         self,
