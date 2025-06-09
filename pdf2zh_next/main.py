@@ -14,7 +14,7 @@ from pathlib import Path
 from pdf2zh_next.config import ConfigManager
 from pdf2zh_next.high_level import do_translate_file_async
 
-__version__ = "2.0.6"
+__version__ = "2.0.7"
 
 logger = logging.getLogger(__name__)
 
@@ -86,10 +86,10 @@ async def main() -> int:
     if settings.basic.gui:
         from pdf2zh_next.gui import setup_gui
 
-        if settings.gui_settings.auth_file:
-            setup_gui(auth_file=settings.gui_settings.auth_file)
-        else:
-            setup_gui()
+        setup_gui(
+            auth_file=settings.gui_settings.auth_file,
+            welcome_page=settings.gui_settings.welcome_page,
+        )
         return 0
 
     assert len(settings.basic.input_files) >= 1, "At least one input file is required"

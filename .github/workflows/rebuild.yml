@@ -1,0 +1,325 @@
+name: Rebuild and Redeploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      babeldoc_version:
+        description: 'BabelDOC version to use (e.g., 0.9.5). Leave empty to use the latest.'
+        required: false
+        default: ''
+
+permissions:
+  id-token: write
+  contents: write
+  packages: write
+
+env:
+  REGISTRY: ghcr.io
+  REPO_LOWER: ${{ github.repository_owner }}/${{ github.event.repository.name }}
+  GHCR_REPO: ghcr.io/${{ github.repository }}
+  DOCKERHUB_REPO: awwaawwa/pdfmathtranslate-next
+  WIN_EXE_PYTHON_VERSION: "3.13.3"
+
+jobs:
+  get-latest-release:
+    name: Get Latest Release Tag
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.get-tag.outputs.tag }}
+    steps:
+      - name: Get latest release tag
+        id: get-tag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LATEST_TAG=$(gh release list --exclude-drafts --repo ${{ github.repository }} --limit 1 --json tagName --jq '.[0].tagName')
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No release found"
+            exit 1
+          fi
+          echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+
+  test:
+    name: Run Python Tests
+    needs: get-latest-release
+    uses: ./.github/workflows/python-test.yml
+    with:
+      ref: ${{ needs.get-latest-release.outputs.tag }}
+
+  build-win64-exe:
+    name: Build Windows EXE
+    runs-on: windows-latest
+    needs: get-latest-release
+    outputs:
+      babeldoc_version: ${{ steps.get-babeldoc-version.outputs.version }}
+    steps:
+      - name: checkout babeldoc metadata
+        uses: actions/checkout@v4
+        with:
+          repository: funstory-ai/BabelDOC
+          path: babeldoctemp1234567
+          token: ${{ secrets.GITHUB_TOKEN }}
+          sparse-checkout: babeldoc/assets/embedding_assets_metadata.py
+      - name: Cached Assets
+        id: cache-assets
+        uses: actions/cache@v4.2.2
+        with:
+          path: ~/.cache/babeldoc
+          key: test-1-babeldoc-assets-${{ hashFiles('babeldoctemp1234567/babeldoc/assets/embedding_assets_metadata.py') }}
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get-latest-release.outputs.tag }}
+
+      - name: Setup uv with Python ${{ env.WIN_EXE_PYTHON_VERSION }}
+        uses: astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb # v6.1.0
+        with:
+          python-version: ${{ env.WIN_EXE_PYTHON_VERSION }}
+          enable-cache: true
+          cache-dependency-glob: "pyproject.toml"
+          activate-environment: true
+
+      - name: Install BabelDOC and Dependencies
+        shell: pwsh
+        run: |
+          if ("${{ github.event.inputs.babeldoc_version }}") {
+            uv pip install "BabelDOC[directml]==${{ github.event.inputs.babeldoc_version }}"
+          } else {
+            uv pip install --upgrade "BabelDOC[directml]"
+          }
+      
+      - name: Execute build tasks
+        shell: pwsh
+        run: |
+          Write-Host "==== Creating directories ===="
+          New-Item -Path "./build" -ItemType Directory -Force
+          New-Item -Path "./build/runtime" -ItemType Directory -Force
+          New-Item -Path "./dep_build" -ItemType Directory -Force
+
+          Write-Host "==== Copying code to dep_build ===="
+          Get-ChildItem -Path "./" -Exclude "dep_build", "build" | Copy-Item -Destination "./dep_build" -Recurse -Force
+
+          Write-Host "==== Downloading and extracting Python ${{ env.WIN_EXE_PYTHON_VERSION }} ===="
+          $pythonUrl = "https://www.python.org/ftp/python/${{ env.WIN_EXE_PYTHON_VERSION }}/python-${{ env.WIN_EXE_PYTHON_VERSION }}-embed-amd64.zip"
+          $pythonZip = "./dep_build/python.zip"
+          Invoke-WebRequest -Uri $pythonUrl -OutFile $pythonZip
+          Expand-Archive -Path $pythonZip -DestinationPath "./build/runtime" -Force
+
+          Write-Host "==== Downloading Visual C++ Redistributable ===="
+          $vcRedistUrl = "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装vc_redist.x64.exe"
+          Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
+
+          Write-Host "==== Downloading and extracting PyStand ===="
+          $pystandUrl = "https://github.com/skywind3000/PyStand/releases/download/1.1.4/PyStand-v1.1.4-exe.zip"
+          $pystandZip = "./dep_build/PyStand.zip"
+          Invoke-WebRequest -Uri $pystandUrl -OutFile $pystandZip
+          Expand-Archive -Path $pystandZip -DestinationPath "./dep_build/PyStand" -Force
+
+          Write-Host "==== Copying PyStand.exe to build folder ===="
+          $pystandExe = "./dep_build/PyStand/PyStand-x64-CLI/PyStand.exe"
+          $destExe = "./build/pdf2zh.exe"
+          Copy-Item -Path $pystandExe -Destination $destExe -Force
+          
+          Write-Host "==== Creating Python venv in dep_build ===="
+          uv venv ./dep_build/venv
+          ./dep_build/venv/Scripts/activate
+
+          Write-Host "==== Installing project dependencies in venv ===="
+          uv pip install .
+
+          Write-Host "==== Copying venv/Lib/site-packages to build/ ===="
+          Copy-Item -Path "./dep_build/venv/Lib/site-packages" -Destination "./build/site-packages" -Recurse -Force
+
+          Write-Host "==== Copying script/_pystand_static.int to build/ ===="
+          Copy-Item -Path "./script/_pystand_static.int" -Destination "./build/_pystand_static.int" -Force
+
+      - name: Get BabelDOC version
+        id: get-babeldoc-version
+        shell: pwsh
+        run: |
+          $version = (uv pip show BabelDOC | Select-String -Pattern "Version:").Line.Split(' ')[1].Trim()
+          Write-Host "BabelDOC version is $version"
+          echo "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Generate offline assets
+        shell: pwsh
+        run: uv run --active babeldoc --generate-offline-assets ./build
+      
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: win64-exe-with-assets
+          path: ./build
+          compression-level: 1
+
+  test-win64-exe:
+    name: Test Windows EXE
+    needs: [build-win64-exe, get-latest-release]
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get-latest-release.outputs.tag }}
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: win64-exe-with-assets
+          path: ./build
+
+      - name: Run EXE tests
+        run: |
+          ./build/pdf2zh.exe --version
+          ./build/pdf2zh.exe ./test/file/translate.cli.plain.text.pdf --output ./test/file --bing
+          ./build/pdf2zh.exe ./test/file/translate.cli.text.with.figure.pdf --output ./test/file --bing
+
+  build-docker-image:
+    name: Build Docker Image
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: linux/amd64
+            runner: ubuntu-latest
+          - platform: linux/arm64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runner }}
+    needs: [get-latest-release, build-win64-exe]
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Prepare
+        run: |
+          platform=${{ matrix.platform }}
+          echo "PLATFORM_PAIR=${platform//\//-}" >> $GITHUB_ENV
+      - name: Convert to lowercase
+        run: echo "GHCR_REPO_LOWER=$(echo ${{ env.GHCR_REPO }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get-latest-release.outputs.tag }}
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: |
+            ${{ env.DOCKERHUB_REPO }}
+            ${{ env.GHCR_REPO_LOWER }}
+          tags: |
+            type=raw,value=latest
+            type=raw,value=${{ needs.get-latest-release.outputs.tag }}-babeldoc-v${{ needs.build-win64-exe.outputs.babeldoc_version }}
+      - name: Login to Docker.io
+        uses: docker/login-action@v3
+        with:
+          registry: docker.io
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build and push by digest
+        id: build
+        uses: docker/build-push-action@v6
+        with:
+          platforms: ${{ matrix.platform }}
+          labels: ${{ steps.meta.outputs.labels }}
+          outputs: type=image,"name=${{ env.DOCKERHUB_REPO }},${{ env.GHCR_REPO_LOWER }}",push-by-digest=true,name-canonical=true,push=true
+          cache-from: ${{ matrix.platform == 'linux/amd64' && 'type=gha' || '' }}
+          cache-to: ${{ matrix.platform == 'linux/amd64' && 'type=gha,mode=max' || '' }}
+      - name: Export digest
+        run: |
+          mkdir -p ${{ runner.temp }}/digests
+          digest="${{ steps.build.outputs.digest }}"
+          touch "${{ runner.temp }}/digests/${digest#sha256:}"
+      - name: Upload digest
+        uses: actions/upload-artifact@v4
+        with:
+          name: digests-${{ env.PLATFORM_PAIR }}
+          path: ${{ runner.temp }}/digests/*
+          if-no-files-found: error
+          retention-days: 1
+
+  merge-docker-image:
+    name: Merge and Push Docker Image
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    needs: [test, test-win64-exe, build-docker-image, get-latest-release, build-win64-exe]
+    steps:
+      - name: Convert to lowercase
+        run: echo "GHCR_REPO_LOWER=$(echo ${{ env.GHCR_REPO }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+      - name: Download digests
+        uses: actions/download-artifact@v4
+        with:
+          path: ${{ runner.temp }}/digests
+          pattern: digests-*
+          merge-multiple: true
+      - name: Login to Docker.io
+        uses: docker/login-action@v3
+        with:
+          registry: docker.io
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: |
+            ${{ env.DOCKERHUB_REPO }}
+            ${{ env.GHCR_REPO_LOWER }}
+          tags: |
+            type=raw,value=latest
+            type=raw,value=${{ needs.get-latest-release.outputs.tag }}-babeldoc-v${{ needs.build-win64-exe.outputs.babeldoc_version }}
+      - name: Create manifest list and push
+        working-directory: ${{ runner.temp }}/digests
+        run: |
+          docker buildx imagetools create $(jq -cr '.tags | map("-t " + .) | join(" ")' <<< "$DOCKER_METADATA_OUTPUT_JSON") \
+            $(printf '${{ env.DOCKERHUB_REPO }}@sha256:%s ' *)
+          docker buildx imagetools create $(jq -cr '.tags | map("-t " + .) | join(" ")' <<< "$DOCKER_METADATA_OUTPUT_JSON") \
+            $(printf '${{ env.GHCR_REPO_LOWER }}@sha256:%s ' *)
+      - name: Inspect image
+        run: docker buildx imagetools inspect ${{ env.DOCKERHUB_REPO }}:${{ needs.get-latest-release.outputs.tag }}-babeldoc-v${{ needs.build-win64-exe.outputs.babeldoc_version }}
+
+  upload-release-asset:
+    name: Upload Asset to Release
+    needs: [test, test-win64-exe, get-latest-release, build-win64-exe]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.get-latest-release.outputs.tag }}
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: win64-exe-with-assets
+          path: ./build
+      - name: Create release zip
+        run: |
+          mv ./build ./pdf2zh
+          zip -9qr "pdf2zh-${{ needs.get-latest-release.outputs.tag }}-BabelDOC-v${{ needs.build-win64-exe.outputs.babeldoc_version }}-with-assets-win64.zip" ./pdf2zh/*
+          
+          find ./pdf2zh -name "offline_assets_*.zip" -type f -print -delete
+          
+          zip -9qr "pdf2zh-${{ needs.get-latest-release.outputs.tag }}-BabelDOC-v${{ needs.build-win64-exe.outputs.babeldoc_version }}-win64.zip" ./pdf2zh/*
+      - name: Upload to release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload ${{ needs.get-latest-release.outputs.tag }} ./*.zip --clobber 

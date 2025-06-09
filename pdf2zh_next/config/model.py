@@ -61,6 +61,9 @@ class GUISettings(BaseModel):
     auth_file: str | None = Field(
         default=None, description="Path to the authentication file"
     )
+    welcome_page: str | None = Field(
+        default=None, description="Path to the welcome page html file"
+    )
     enabled_services: str | None = Field(default=None, description="Enabled services")
     disable_gui_sensitive_input: bool = Field(
         default=False, description="Disable GUI sensitive input"
