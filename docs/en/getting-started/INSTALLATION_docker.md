@@ -12,10 +12,10 @@
 
 <h4>1. Pull and run:</h4>
 
-    ```bash
-    docker pull awwaawwa/pdfmathtranslate-next
-    docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
-    ```
+```bash
+docker pull awwaawwa/pdfmathtranslate-next
+docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
+```
 
 > [!NOTE]
 > 
@@ -27,9 +27,10 @@
 > ```
 
 <h4>2. Enter this URL in your default browser to open the WebUI page:</h4>
-    ```
-    http://localhost:7860/
-    ```
+
+```
+http://localhost:7860/
+```
 
 > [!NOTE]
 > If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).
