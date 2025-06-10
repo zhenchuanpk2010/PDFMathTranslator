@@ -15,6 +15,10 @@ body:
         required: true
       - label: 我已经认真检查了问题和网络环境无关（包括但不限于Google不可用，模型下载失败）
         required: true
+      - label: 我已填写环境信息
+        required: true
+      - label: 我已上传原始文件，或确认该问题与原始文件无关
+        required: true
   - type: markdown
     attributes:
       value: |
@@ -23,11 +27,12 @@ body:
   - type: textarea
     id: environment
     attributes:
-      label: 使用的环境
+      label: 使用的环境（请务必说明pdf2zh & BabelDOC版本，缺少相关版本号的issue会被直接关闭）
       placeholder: |
           - **OS**: Ubuntu 24.10  
           - **Python**: 3.12.0  
-          - **pdf2zh**: 1.9.0
+          - **pdf2zh**: 2.0.0
+          - **BabelDOC**: 0.3.69
       render: markdown
     validations:
       required: false
@@ -80,7 +85,7 @@ body:
     attributes:
       label: 原始PDF文件
       description: |
-        如果涉及到排版错误的问题，请一定提供原始的PDF文件，方便复现错误。
+        请尽可能提供原始的PDF文件，方便复现错误。（若该问题需要原始文件来复现，但您未提供，则issue会被直接关闭）
     validations:
       required: false
   - type: textarea
