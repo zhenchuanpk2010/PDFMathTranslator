@@ -44,13 +44,13 @@ PDF 科学论文翻译和双语对照。
 
 <h2 id="updates">更新</h2>
 
-- [2025年6月4日] 项目重命名并迁移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (由 [@awwaawwa](https://github.com/awwaawwa) 提供)
-- [2025年3月3日] 新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验选项添加 (由 [@awwaawwa](https://github.com/awwaawwa) 提供)
-- [2025年2月22日] 更好的发布 CI 和打包良好的 windows-amd64 exe (由 [@awwaawwa](https://github.com/awwaawwa) 提供)
-- [2024年12月24日] 译者现在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型 _(由 [@imClumsyPanda](https://github.com/imClumsyPanda) 提供)_
-- [2024年12月19日] 现在支持非 PDF/A 文档使用 `-cp` _(由 [@reycn](https://github.com/reycn) 提供)_
-- [2024年12月13日] 额外支持后端 _(由 [@YadominJinta](https://github.com/YadominJinta) 提供)_
-- [2024年12月10日] 译者现在支持 Azure 上的 OpenAI 模型 _(由 [@yidasanqian](https://github.com/yidasanqian) 提供)_
+- [2025 年 6 月 4 日] 项目重命名并迁移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (由 [@awwaawwa](https://github.com/awwaawwa) 提供)
+- [2025 年 3 月 3 日] 新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验选项添加 (由 [@awwaawwa](https://github.com/awwaawwa) 提供)
+- [2025 年 2 月 22 日] 更好的发布 CI 和打包良好的 windows-amd64 exe (由 [@awwaawwa](https://github.com/awwaawwa) 提供)
+- [2024 年 12 月 24 日] 译者现在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型 _(由 [@imClumsyPanda](https://github.com/imClumsyPanda) 提供)_
+- [2024 年 12 月 19 日] 现在支持非 PDF/A 文档使用 `-cp` _(由 [@reycn](https://github.com/reycn) 提供)_
+- [2024 年 12 月 13 日] 额外支持后端 _(由 [@YadominJinta](https://github.com/YadominJinta) 提供)_
+- [2024 年 12 月 10 日] 译者现在支持 Azure 上的 OpenAI 模型 _(由 [@yidasanqian](https://github.com/yidasanqian) 提供)_
 
 <h2 id="preview">预览</h2>
 
@@ -68,7 +68,7 @@ PDF 科学论文翻译和双语对照。
 您可以通过以下任一演示来试用我们的应用程序：
 
 - [v1.x 公共免费服务](https://pdf2zh.com/) 在线使用，无需安装 _(推荐)_。
-- [沉浸式翻译 - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 页免费。 _(推荐)_
+- [沉浸式翻译 - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 页免费。_(推荐)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
@@ -115,7 +115,7 @@ PDF 科学论文翻译和双语对照。
 <!-- 
 <h2 id="todo">TODOs</h2>
 
-- [ ] 使用 DocLayNet 基于模型解析布局, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)
+- [ ] 使用 DocLayNet 基于模型解析布局，[PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)
 
 - [ ] 修复页面旋转、目录、列表格式
 
@@ -133,26 +133,26 @@ PDF 科学论文翻译和双语对照。
 
 - [沉浸式翻译](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码，详情请参阅：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- 1.x 版本: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
+- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- 新后端: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
+- 新后端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- 文档合并: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- 文档合并：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- 文档解析: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- 文档解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- 文档提取: [MinerU](https://github.com/opendatalab/MinerU)
+- 文档提取：[MinerU](https://github.com/opendatalab/MinerU)
 
-- 文档预览: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
+- 文档预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- 多线程翻译: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- 多线程翻译：[MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
 
-- 布局解析: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- 布局解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- 文档标准: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- 文档标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- 多语言字体: [Go Noto Universal](https://github.com/satbyy/go-noto-universal)
+- 多语言字体：[Go Noto Universal](https://github.com/satbyy/go-noto-universal)
 
 - [异步化](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
