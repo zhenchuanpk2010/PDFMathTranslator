@@ -499,6 +499,7 @@ def _build_translate_settings(
         translate_settings.pdf.pages = original_pages
         translate_settings.gui_settings = original_gui_settings
         translate_settings.basic.gui = False
+        translate_settings.basic.debug = False
         if not settings.gui_settings.disable_config_auto_save:
             config_manager.write_user_default_config_file(settings=translate_settings)
         settings.validate_settings()
@@ -750,7 +751,7 @@ async def translate_file(
 
         # Wait for the translation to complete
         mono_path, dual_path = await task
-        if not mono_path.exists():
+        if not mono_path or not mono_path.exists():
             mono_path = None
         else:
             mono_path = mono_path.as_posix()
@@ -1337,7 +1338,7 @@ with gr.Blocks(
     )
 
 
-def parse_user_passwd(file_path: str, welcome_page:str) -> tuple[list, str]:
+def parse_user_passwd(file_path: str, welcome_page: str) -> tuple[list, str]:
     """
     This function parses a user password file.
 
@@ -1390,8 +1391,7 @@ def setup_gui(
     user_list = None
     html = None
 
-    
-    user_list, html = parse_user_passwd(auth_file,welcome_page)
+    user_list, html = parse_user_passwd(auth_file, welcome_page)
 
     if not auth_file or not user_list:
         try:
