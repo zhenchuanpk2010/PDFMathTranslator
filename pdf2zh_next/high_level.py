@@ -474,6 +474,7 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
 async def do_translate_async_stream(
     settings: SettingsModel, file: Path | str
 ) -> AsyncGenerator[dict, None]:
+    settings.validate_settings()
     if isinstance(file, str):
         file = Path(file)
 
