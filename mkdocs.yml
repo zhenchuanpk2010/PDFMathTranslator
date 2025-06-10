@@ -73,6 +73,51 @@ plugins:
   - minify:
       minify_html: true
   - git-authors
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      languages:
+
+        - locale: en
+          name: English
+          build: true
+          theme:
+            palette:
+              - media: "(prefers-color-scheme)"
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: white
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: black
+          default: true
+
+        - locale: zh
+          name: 简体中文
+          build: true
+          theme:
+            palette:
+              - media: "(prefers-color-scheme)"
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: red
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: pink
+          nav_translations:
+            Home: 主页
+            Getting Start: 快速开始
+            Installation: 如何安装
+            Command Line: 命令行
+            Usage: 如何使用
+            Language Code: 语言代码
+            Documentation of Translation Services: 翻译服务文档
+            Getting Started: 开始使用
+            Advanced: 高级选项
+            Support Languages: 支持的语言
+            Community: 社区
+            FAQ: 常见问题
+
   - git-revision-date-localized:
       enable_creation_date: true
 
