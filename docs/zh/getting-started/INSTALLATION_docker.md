@@ -12,10 +12,10 @@
 
 <h4>1. 拉取并运行：</h4>
 
-    ```bash
-    docker pull awwaawwa/pdfmathtranslate-next
-    docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
-    ```
+```bash
+docker pull awwaawwa/pdfmathtranslate-next
+docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
+```
 
 > [!NOTE]
 >
@@ -27,9 +27,10 @@
 > ```
 
 <h4>2. 在您的默认浏览器中输入此 URL 以打开 WebUI 页面：</h4>
-    ```
-    http://localhost:7860/
-    ```
+
+```
+http://localhost:7860/
+```
 
 > [!NOTE]
 > 如果您在使用 WebUI 时遇到任何问题，请参阅 [使用 --> WebUI](./USAGE_webui.md)。
