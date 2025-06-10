@@ -168,7 +168,7 @@ We welcome the active participation of contributors to make pdf2zh better. Befor
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
 </a>
 
-![Alt](https://repobeats.axiom.co/api/embed/dfa7583da5332a11468d686fbd29b92320a6a869.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
 <h2 id="star_hist">Star History</h2>
 

@@ -36,7 +36,6 @@ class QPSRateLimiter(BaseRateLimiter):
             self.next_request_time = (
                 max(self.next_request_time, now) + self.min_interval
             )
-            print(f"sent on {time.monotonic()}")
 
     def set_max_qps(self, max_qps: int):
         """
