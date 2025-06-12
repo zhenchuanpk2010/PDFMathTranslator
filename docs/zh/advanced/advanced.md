@@ -62,7 +62,7 @@
 | `--split-short-line`            | 强制将短行分成不同段落                                                 | `pdf2zh example.pdf --split-short-line`                                                                              |
 | `--short-line-split-factor`     | 短行的分割阈值因子                                                     |                                                                                                                      |
 | `--skip-clean`                  | 跳过 PDF 清理步骤                                                      | `pdf2zh example.pdf --skip-clean`                                                                                    |
-| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-TRANSLATE-first`                                                                          |
+| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-translate-first`                                                                          |
 | `--disable-rich-text-translate` | 禁用富文本翻译                                                         | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | 启用所有兼容性增强选项                                                 | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
 | `--use-alternating-pages-dual`  | 使用交替页面模式进行双 PDF                                             | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
