@@ -72,6 +72,7 @@
 | `--skip-scanned-detection`      | 跳过扫描检测                                                           | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | 强制将翻译文本设为黑色并添加白色背景                                   | `pdf2zh example.pdf --ocr-workaround`                                                                                |
 | `--auto-enable-ocr-workaround`  | 启用自动 OCR 处理。如果检测到文档严重扫描，将尝试启用 OCR 处理并跳过进一步的扫描检测。详情请参阅文档。（默认值：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
+| `--only-include-translated-page`| 仅在输出的 PDF 中包含翻译过的页面。仅在使用 --pages 时生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                    |
 
 ##### GUI 参数
 

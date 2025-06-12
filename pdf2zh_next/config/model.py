@@ -166,6 +166,10 @@ class PDFSettings(BaseModel):
         default=False,
         description="Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False)",
     )
+    only_include_translated_page: bool = Field(
+        default=False,
+        description="Only include translated pages in the output PDF. Effective only when --pages is used.",
+    )
 
 
 class SettingsModel(BaseModel):

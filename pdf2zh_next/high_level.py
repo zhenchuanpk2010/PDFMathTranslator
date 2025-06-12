@@ -467,6 +467,7 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
         pool_max_workers=settings.translation.pool_max_workers,
         auto_extract_glossary=not settings.translation.no_auto_extract_glossary,
         primary_font_family=settings.translation.primary_font_family,
+        only_include_translated_page=settings.pdf.only_include_translated_page,
     )
     return babeldoc_config
 

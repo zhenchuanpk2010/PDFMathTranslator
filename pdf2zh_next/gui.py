@@ -358,6 +358,7 @@ def _build_translate_settings(
     formular_font_pattern = ui_inputs.get("formular_font_pattern")
     formular_char_pattern = ui_inputs.get("formular_char_pattern")
     auto_enable_ocr_workaround = ui_inputs.get("auto_enable_ocr_workaround")
+    only_include_translated_page = ui_inputs.get("only_include_translated_page")
 
     # New input for custom_system_prompt
     custom_system_prompt_input = ui_inputs.get("custom_system_prompt_input")
@@ -434,6 +435,7 @@ def _build_translate_settings(
     translate_settings.pdf.translate_table_text = translate_table_text
     translate_settings.pdf.skip_scanned_detection = skip_scanned_detection
     translate_settings.pdf.auto_enable_ocr_workaround = auto_enable_ocr_workaround
+    translate_settings.pdf.only_include_translated_page = only_include_translated_page
 
     if max_pages_per_part is not None and max_pages_per_part > 0:
         translate_settings.pdf.max_pages_per_part = int(max_pages_per_part)
@@ -647,6 +649,7 @@ async def translate_file(
     state,
     ocr_workaround,
     auto_enable_ocr_workaround,
+    only_include_translated_page,
     *translation_engine_arg_inputs,
     progress=None,
 ):
@@ -729,6 +732,7 @@ async def translate_file(
         "ignore_cache": ignore_cache,
         "ocr_workaround": ocr_workaround,
         "auto_enable_ocr_workaround": auto_enable_ocr_workaround,
+        "only_include_translated_page": only_include_translated_page,
     }
     for arg_name, arg_input in zip(
         __gui_service_arg_names, translation_engine_arg_inputs, strict=False
@@ -979,6 +983,13 @@ with gr.Blocks(
                 visible=False,
                 interactive=True,
                 placeholder="e.g., 1,3,5-10",
+            )
+
+            only_include_translated_page = gr.Checkbox(
+                label="Only include translated pages in the output PDF.",
+                info="Effective only when a page range is specified.",
+                value=settings.pdf.only_include_translated_page,
+                interactive=True,
             )
 
             # PDF Output Options
@@ -1319,6 +1330,7 @@ with gr.Blocks(
             state,
             ocr_workaround,
             auto_enable_ocr_workaround,
+            only_include_translated_page,
             *translation_engine_arg_inputs,
         ],
         outputs=[
