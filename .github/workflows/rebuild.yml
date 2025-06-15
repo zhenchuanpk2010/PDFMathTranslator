@@ -231,6 +231,7 @@ jobs:
           outputs: type=image,"name=${{ env.DOCKERHUB_REPO }},${{ env.GHCR_REPO_LOWER }}",push-by-digest=true,name-canonical=true,push=true
           cache-from: ${{ matrix.platform == 'linux/amd64' && 'type=gha' || '' }}
           cache-to: ${{ matrix.platform == 'linux/amd64' && 'type=gha,mode=max' || '' }}
+          context: .
       - name: Export digest
         run: |
           mkdir -p ${{ runner.temp }}/digests
