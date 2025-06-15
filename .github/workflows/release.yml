@@ -432,7 +432,8 @@ jobs:
         shell: pwsh
         run: |
           Write-Host "==== 生成离线资源包 ===="
-          uv run --active babeldoc --generate-offline-assets ./build
+          ./dep_build/venv/Scripts/activate
+          babeldoc --generate-offline-assets ./build
       
       - name: Upload build with offline assets artifact
         uses: actions/upload-artifact@v4

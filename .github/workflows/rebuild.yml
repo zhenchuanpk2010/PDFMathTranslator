@@ -146,7 +146,9 @@ jobs:
 
       - name: Generate offline assets
         shell: pwsh
-        run: uv run --active babeldoc --generate-offline-assets ./build
+        run: |
+          ./dep_build/venv/Scripts/activate
+          babeldoc --generate-offline-assets ./build
       
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
