@@ -416,6 +416,9 @@ jobs:
               exit 1
           }
 
+          Write-Host "==== Testing pdf2zh.exe show version ===="
+          ./build/pdf2zh.exe --version
+
       - name: Get BabelDOC version
         id: get-babeldoc-version
         shell: pwsh

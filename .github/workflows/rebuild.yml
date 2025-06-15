@@ -132,6 +132,9 @@ jobs:
           Write-Host "==== Copying script/_pystand_static.int to build/ ===="
           Copy-Item -Path "./script/_pystand_static.int" -Destination "./build/_pystand_static.int" -Force
 
+          Write-Host "==== Testing pdf2zh.exe show version ===="
+          ./build/pdf2zh.exe --version
+
       - name: Get BabelDOC version
         id: get-babeldoc-version
         shell: pwsh
