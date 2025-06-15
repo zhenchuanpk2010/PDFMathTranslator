@@ -136,6 +136,7 @@ jobs:
         id: get-babeldoc-version
         shell: pwsh
         run: |
+          ./dep_build/venv/Scripts/activate
           $version = (uv pip show BabelDOC | Select-String -Pattern "Version:").Line.Split(' ')[1].Trim()
           Write-Host "BabelDOC version is $version"
           echo "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
