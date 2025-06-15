@@ -123,7 +123,7 @@ jobs:
           } else {
             uv pip install --upgrade "BabelDOC[directml]"
           }
-          uv run pdf2zh --help
+          uv run --active ./dep_build/venv pdf2zh --help
 
           Write-Host "==== Copying venv/Lib/site-packages to build/ ===="
           Copy-Item -Path "./dep_build/venv/Lib/site-packages" -Destination "./build/site-packages" -Recurse -Force
