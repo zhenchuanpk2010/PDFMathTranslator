@@ -46,7 +46,7 @@ In the following table, we list all advanced options for reference:
 | `--version`                     | Show version then exit                                                                 | `pdf2zh --version`                                                                                                   |
 | `--pages`                       | Partial document translation                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
 | `--lang-in`                     | The code of source language                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |
-| `--lang-out`                    | The code of target language                                                            | `pdf2zh example.pdf --lang-out zh`                                                                                   |
+| `--lang-out`                    | The code of target language                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                   |
 | `--min-text-length`             | Minimum text length to translate                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |
 | `--rpc-doclayout`               | RPC service host address for document layout analysis                                  |                                                                                                                      |
 | `--qps`                         | QPS limit for translation service                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
@@ -85,6 +85,7 @@ In the following table, we list all advanced options for reference:
 | `--enabled-services`            | Enabled translation services           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
 | `--disable-gui-sensitive-input` | Disable GUI sensitive input            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Disable automatic configuration saving | `pdf2zh --gui --disable-config-auto-save`       |
+| `--server-port`                 | WebUI Port                             | `pdf2zh --gui --server-port 7860`               |
 
 [⬆️ Back to top](#toc)
 
