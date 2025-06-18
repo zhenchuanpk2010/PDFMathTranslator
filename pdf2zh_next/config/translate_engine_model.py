@@ -427,7 +427,7 @@ class QwenMtSettings(BaseModel):
     )
     ali_domains: str | None = Field(
         default="This sentence is extracted from a scientific paper. When translating, please pay close attention to the use of specialized troubleshooting terminologies and adhere to scientific sentence structures to maintain the technical rigor and precision of the original text.",
-        description="ALI_DOMAIN for QwenMt service",
+        description="the target domain to guide translation style for QwenMt service",
     )
 
     def validate_settings(self) -> None:
