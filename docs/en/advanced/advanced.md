@@ -85,6 +85,7 @@ In the following table, we list all advanced options for reference:
 | `--enabled-services`            | Enabled translation services           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
 | `--disable-gui-sensitive-input` | Disable GUI sensitive input            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Disable automatic configuration saving | `pdf2zh --gui --disable-config-auto-save`       |
+| `--server-port`                 | WebUI Port                             | `pdf2zh --gui --server-port 7860`               |
 
 [⬆️ Back to top](#toc)
 
