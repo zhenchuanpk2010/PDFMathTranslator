@@ -19,6 +19,7 @@ body:
         required: true
       - label: I have uploaded the original file, or confirmed that the issue is unrelated to the original file
         required: true
+      - label: I confirm that this issue is not related to the project's API (Before the API documentation is released, any questions regarding API usage will not be accepted!)
   - type: markdown
     attributes:
       value: |

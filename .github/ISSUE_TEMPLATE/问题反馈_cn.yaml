@@ -19,6 +19,8 @@ body:
         required: true
       - label: 我已上传原始文件，或确认该问题与原始文件无关
         required: true
+      - label: 我确认此问题与本项目的 api 无关（在 api 文档写出来之前，不受理任何有关 api 使用的疑问！）
+        required: true
   - type: markdown
     attributes:
       value: |
