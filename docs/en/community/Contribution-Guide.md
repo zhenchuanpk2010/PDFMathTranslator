@@ -90,6 +90,10 @@
 2. 在 `pdf2zh/config/translate_engine_model.py` 文件中添加新的翻译器配置类实例到 `TRANSLATION_ENGINE_SETTING_TYPE` 类型别名中。
 3. 在 `pdf2zh/translator/translator_impl` 文件夹中添加新的翻译器实现类。
 
+> [!NOTE]
+>
+> 本项目不准备支持任何换算至 rps 后低于 4 的翻译引擎，请勿提交这些翻译引擎的支持。
+
 ## 项目结构
 
 - **config 文件夹**: 配置系统。
