@@ -138,6 +138,9 @@ class OllamaSettings(BaseModel):
             raise ValueError("Ollama host is required")
 
 
+GUI_SENSITIVE_FIELDS.append("ollama_host")
+
+
 class XinferenceSettings(BaseModel):
     """Xinference API settings"""
 
@@ -151,6 +154,9 @@ class XinferenceSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.xinference_host:
             raise ValueError("Xinference host is required")
+
+
+GUI_SENSITIVE_FIELDS.append("xinference_host")
 
 
 class AzureOpenAISettings(BaseModel):
@@ -177,6 +183,7 @@ class AzureOpenAISettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("azure_openai_api_key")
+GUI_SENSITIVE_FIELDS.append("azure_openai_base_url")
 
 
 class ModelScopeSettings(BaseModel):
@@ -256,6 +263,7 @@ class SiliconFlowSettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("siliconflow_api_key")
+GUI_SENSITIVE_FIELDS.append("siliconflow_base_url")
 
 
 class TencentSettings(BaseModel):
@@ -324,6 +332,7 @@ class AzureSettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("azure_api_key")
+GUI_SENSITIVE_FIELDS.append("azure_endpoint")
 
 
 class AnythingLLMSettings(BaseModel):
@@ -341,6 +350,7 @@ class AnythingLLMSettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("anythingllm_apikey")
+GUI_SENSITIVE_FIELDS.append("anythingllm_url")
 
 
 class DifySettings(BaseModel):
@@ -356,6 +366,7 @@ class DifySettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("dify_apikey")
+GUI_SENSITIVE_FIELDS.append("dify_url")
 
 
 class GrokSettings(BaseModel):
@@ -436,6 +447,7 @@ class QwenMtSettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("qwenmt_api_key")
+GUI_SENSITIVE_FIELDS.append("qwenmt_base_url")
 
 
 class OpenAICompatibleSettings(BaseModel):
@@ -472,6 +484,7 @@ class OpenAICompatibleSettings(BaseModel):
 
 
 GUI_PASSWORD_FIELDS.append("openai_compatible_api_key")
+GUI_SENSITIVE_FIELDS.append("openai_compatible_base_url")
 
 
 ## Please add the translator configuration class above this location.
