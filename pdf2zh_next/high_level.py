@@ -12,10 +12,12 @@ from functools import partial
 from logging.handlers import QueueHandler
 from pathlib import Path
 
-from babeldoc.high_level import async_translate as babeldoc_translate
+from babeldoc.format.pdf.high_level import async_translate as babeldoc_translate
+from babeldoc.format.pdf.translation_config import TranslationConfig as BabelDOCConfig
+from babeldoc.format.pdf.translation_config import (
+    WatermarkOutputMode as BabelDOCWatermarkMode,
+)
 from babeldoc.main import create_progress_handler
-from babeldoc.translation_config import TranslationConfig as BabelDOCConfig
-from babeldoc.translation_config import WatermarkOutputMode as BabelDOCWatermarkMode
 from rich.logging import RichHandler
 
 from pdf2zh_next.config.model import SettingsModel
