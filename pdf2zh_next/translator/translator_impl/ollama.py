@@ -1,7 +1,7 @@
 import logging
 
 import ollama
-from babeldoc.document_il.utils.atomic_integer import AtomicInteger
+from babeldoc.utils.atomic_integer import AtomicInteger
 from pdf2zh_next.config.model import SettingsModel
 from pdf2zh_next.translator.base_rate_limiter import BaseRateLimiter
 from pdf2zh_next.translator.base_translator import BaseTranslator
