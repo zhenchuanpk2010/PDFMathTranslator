@@ -46,7 +46,7 @@ In the following table, we list all advanced options for reference:
 | `--version`                     | Show version then exit                                                                 | `pdf2zh --version`                                                                                                   |
 | `--pages`                       | Partial document translation                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
 | `--lang-in`                     | The code of source language                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |
-| `--lang-out`                    | The code of target language                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                   |
+| `--lang-out`                    | The code of target language                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |
 | `--min-text-length`             | Minimum text length to translate                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |
 | `--rpc-doclayout`               | RPC service host address for document layout analysis                                  |                                                                                                                      |
 | `--qps`                         | QPS limit for translation service                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
@@ -62,7 +62,7 @@ In the following table, we list all advanced options for reference:
 | `--split-short-line`            | Force split short line into different paragraphs                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
 | `--short-line-split-factor`     | Split threshold factor for short lines                                                 |                                                                                                                      |
 | `--skip-clean`                  | Skip PDF cleaning step                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
-| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-translate-first`                                                                          |
+| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
 | `--disable-rich-text-translate` | Disable rich text translation                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | Enable all compatibility enhancement options                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
 | `--use-alternating-pages-dual`  | Use alternating pages mode for dual PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
@@ -72,7 +72,8 @@ In the following table, we list all advanced options for reference:
 | `--skip-scanned-detection`      | Skip scanned detection                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | Force translated text to be black and add white background                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
 | `--auto-enable-ocr-workaround`  | Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page`| Only include translated pages in the output PDF. Effective only when --pages is used. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                    |
+| `--only-include-translated-page`| Only include translated pages in the output PDF. Effective only when --pages is used. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
+| `--glossaries`                  | Custom glossary for translation.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 
 
 ##### GUI Args
@@ -338,6 +339,33 @@ gui = true
 auth_file = "/path/to/auth/file"
 welcome_page = "/path/to/welcome/html/file"
 ```
+
+[⬆️ Back to top](#toc)
+
+---
+
+#### Glossary Support
+
+PDFMathTranslate supports the glossary table. The glossary tables file should be `csv` file.
+There are three columns in file. Here is a demo glossary file:
+
+| source | target  | tgt_lng |
+|--------|---------|---------|
+| AutoML | 自动ML  | zh-CN   |
+| a,a    | a       | zh-CN   |
+| "      | "       | zh-CN   |
+
+
+For CLI user:
+You can use multi files for glossary. And different files should be split by `,`.
+
+```bash
+pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
+```
+
+For WebUI user:
+
+You can upload your own Glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.
 
 [⬆️ Back to top](#toc)
 
