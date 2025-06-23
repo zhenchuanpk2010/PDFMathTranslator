@@ -6,6 +6,8 @@ import typing
 import uuid
 from pathlib import Path
 from string import Template
+import io
+import csv
 
 import gradio as gr
 import requests
@@ -22,6 +24,7 @@ from pdf2zh_next.config.translate_engine_model import TRANSLATION_ENGINE_METADAT
 from pdf2zh_next.config.translate_engine_model import TRANSLATION_ENGINE_METADATA_MAP
 from pdf2zh_next.high_level import TranslationError
 from pdf2zh_next.high_level import do_translate_async_stream
+from babeldoc.glossary import GlossaryEntry,Glossary
 
 logger = logging.getLogger(__name__)
 __gui_service_arg_names = []
@@ -509,6 +512,19 @@ def _build_translate_settings(
     except ValueError as e:
         raise gr.Error(f"Invalid settings: {e}") from e
 
+def _build_glossary_list(glossary_file, lang_to):
+    glossary_list=[]
+    if glossary_file is None:
+        return None
+    for file in glossary_file:
+        f=io.StringIO(file.decode())
+        csvreader=csv.DictReader(f, delimiter=',',doublequote=True)
+        next(csvreader)
+        glossary_temp=[]
+        for row in csvreader:
+            glossary_temp.append(GlossaryEntry(row["source"], row["target"], lang_to.strip().lower().replace("-", "_")))
+        glossary_list.append(glossary_temp)
+    return glossary_list
 
 async def _run_translation_task(
     settings: SettingsModel, file_path: Path, state: dict, progress: gr.Progress
@@ -631,6 +647,7 @@ async def translate_file(
     rpc_doclayout,
     # New input for custom_system_prompt
     custom_system_prompt_input,
+    glossary_file,
     # New advanced translation options
     pool_max_workers,
     no_auto_extract_glossary,
@@ -715,6 +732,7 @@ async def translate_file(
         "min_text_length": min_text_length,
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
+        "glossaries":_build_glossary_list(glossary_file,lang_to),
         # New advanced translation options
         "pool_max_workers": pool_max_workers,
         "no_auto_extract_glossary": no_auto_extract_glossary,
@@ -1092,6 +1110,22 @@ with gr.Blocks(
                     interactive=True,
                 )
 
+                glossary_file = gr.File(
+                    label="Glossary File",
+                    file_count="multiple",
+                    file_types=[".csv"],
+                    type="binary",
+                    visible=True,
+                )
+
+                glossary_table = gr.Dataframe(
+                    headers=["source", "target"],
+                    datatype=["str", "str"],
+                    interactive=False,
+                    col_count=(2, "fixed"),
+                    visible = False,
+                )
+
                 # PDF options section
                 gr.Markdown("### PDF Options")
 
@@ -1245,6 +1279,41 @@ with gr.Blocks(
         """Update short_line_split_factor visibility based on split_short_lines value"""
         return gr.update(visible=split_value)
 
+    def on_glossary_file_upload(glossary_file):
+        logger.warning(f"glossary files {glossary_file}")
+        glossary_list=[]
+        f=io.StringIO(glossary_file[0].decode())
+        csvreader=csv.reader(f, delimiter=',',doublequote=True)
+        next(csvreader)
+        for line in csvreader:
+            glossary_list.append(line[:2])
+
+        return gr.update(value=glossary_list,
+                        visible= True,
+                        )
+
+    # def on_glossary_file_delete(glossary_file):
+    #     if glossary_file is None:
+    #         return gr.update(visible=False)
+        
+    #     glossary_list=[]
+    #     f=io.BytesIO(glossary_file[0])
+    #     csvreader=csv.reader(f, delimiter=',')
+    #     for line in csvreader:
+    #         glossary_list.append(line)
+    #     logger.warning(f"on_glossary_file_delete glossary_list {glossary_list}")
+    #     return gr.update(visible=True,value=glossary_list)
+
+    def on_glossary_file_select(glossary_file,evt:gr.SelectData):
+        logger.warning(f"select file: {evt.index}, {evt.value}")
+        glossary_list=[]
+        f=io.StringIO(glossary_file[evt.index].decode())
+        csvreader=csv.reader(f, delimiter=',',doublequote=True)
+        next(csvreader)
+        for line in csvreader:
+            glossary_list.append(line[:2])
+        return gr.update(visible=True,value=glossary_list)
+    
     # Default file handler
     file_input.upload(
         lambda x: x,
@@ -1270,6 +1339,23 @@ with gr.Blocks(
         service,
         outputs=detail_text_inputs if len(detail_text_inputs) > 0 else None,
     )
+    
+    glossary_file.upload(
+        on_glossary_file_upload,
+        glossary_file,
+        outputs = glossary_table,
+    )
+    # glossary_file.delete(
+    #     on_glossary_file_delete,
+    #     glossary_file,
+    #     outputs = glossary_table,
+    # )
+    glossary_file.select(
+        on_glossary_file_select,
+        glossary_file,
+        outputs = glossary_table,
+    )
+
 
     # Add event handler for enhance_compatibility
     enhance_compatibility.change(
@@ -1312,6 +1398,7 @@ with gr.Blocks(
             min_text_length,
             rpc_doclayout,
             custom_system_prompt_input,
+            glossary_file,
             # New advanced translation options
             pool_max_workers,
             no_auto_extract_glossary,
