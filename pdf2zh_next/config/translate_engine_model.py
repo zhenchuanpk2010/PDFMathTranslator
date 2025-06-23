@@ -36,7 +36,7 @@ class OpenAISettings(BaseModel):
 
     translate_engine_type: Literal["OpenAI"] = Field(default="OpenAI")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     openai_model: str = Field(default="gpt-4o-mini", description="OpenAI model to use")
@@ -101,7 +101,7 @@ class DeepSeekSettings(BaseModel):
 
     translate_engine_type: Literal["DeepSeek"] = Field(default="DeepSeek")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
     deepseek_model: str = Field(
         default="deepseek-chat", description="DeepSeek model to use"
@@ -130,7 +130,7 @@ class OllamaSettings(BaseModel):
 
     translate_engine_type: Literal["Ollama"] = Field(default="Ollama")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     ollama_model: str = Field(default="gemma2", description="Ollama model to use")
@@ -154,7 +154,7 @@ class XinferenceSettings(BaseModel):
 
     translate_engine_type: Literal["Xinference"] = Field(default="Xinference")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     xinference_model: str = Field(
@@ -175,7 +175,7 @@ class AzureOpenAISettings(BaseModel):
 
     translate_engine_type: Literal["AzureOpenAI"] = Field(default="AzureOpenAI")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     azure_openai_model: str = Field(
@@ -257,7 +257,7 @@ class SiliconFlowSettings(BaseModel):
 
     translate_engine_type: Literal["SiliconFlow"] = Field(default="SiliconFlow")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     siliconflow_base_url: str | None = Field(
@@ -312,7 +312,7 @@ class GeminiSettings(BaseModel):
 
     translate_engine_type: Literal["Gemini"] = Field(default="Gemini")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     gemini_model: str = Field(
@@ -446,7 +446,7 @@ class QwenMtSettings(BaseModel):
 
     translate_engine_type: Literal["QwenMt"] = Field(default="QwenMt")
     support_llm: Literal["yes", "no"] = Field(
-            default="yes", description="Whether the translator supports LLM"
+        default="yes", description="Whether the translator supports LLM"
     )
 
     qwenmt_model: str = Field(
