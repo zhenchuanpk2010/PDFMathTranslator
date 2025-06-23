@@ -1265,13 +1265,18 @@ with gr.Blocks(
         detail_group_index = detail_text_input_index_map.get(service_name, [])
         LLM_support = LLM_support_index_map.get(service_name, [])
         logger.warning(f"service_name: {service_name} LLM_support: {LLM_support}")
+        return_list=[]
+        logger.warning(f"on_select_service detail_text_inputs len {len(detail_text_inputs)}")
         if len(detail_text_inputs) == 1:
-            return gr.update(visible=(0 in detail_group_index))
+            return_list=[gr.update(visible=(0 in detail_group_index))]
         else:
-            return [
+            return_list=[
                 gr.update(visible=(i in detail_group_index))
                 for i in range(len(detail_text_inputs))
             ]
+        return_list.append(gr.update(visible=LLM_support))
+        logger.warning(f"on_select_service return_list len {len(return_list)}")
+        return return_list
 
     def on_enhance_compatibility_change(enhance_value):
         """Update skip_clean and disable_rich_text_translate when enhance_compatibility changes"""
@@ -1348,12 +1353,10 @@ with gr.Blocks(
         page_input,
     )
 
-    service_list=detail_text_inputs if len(detail_text_inputs) > 0 else None
-    service_list.append(glossary_file)
     service.select(
         on_select_service,
         service,
-        outputs=service_list,
+        outputs=detail_text_inputs if len(detail_text_inputs) > 0 else None,
     )
 
     glossary_file.upload(
