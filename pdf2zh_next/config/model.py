@@ -71,9 +71,7 @@ class GUISettings(BaseModel):
     disable_config_auto_save: bool = Field(
         default=False, description="Disable automatic saving of configuration"
     )
-    server_port: int = Field(
-        default=7860, description="WebUI port"
-    )
+    server_port: int = Field(default=7860, description="WebUI port")
 
 
 class TranslationSettings(BaseModel):
