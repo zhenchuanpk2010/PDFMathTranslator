@@ -1268,11 +1268,7 @@ with gr.Blocks(
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
         llm_support = LLM_support_index_map.get(service_name, False)
-        logger.warning(f"service_name: {service_name} LLM_support: {llm_support}")
         return_list = []
-        logger.warning(
-            f"on_select_service detail_text_inputs len {len(detail_text_inputs)}"
-        )
         glossary_updates = [gr.update(visible=llm_support)] * len(
             require_llm_translator_inputs
         )
@@ -1285,7 +1281,6 @@ with gr.Blocks(
                 gr.update(visible=(i in detail_group_index))
                 for i in range(len(detail_text_inputs))
             ]
-        logger.warning(f"on_select_service return_list len {len(return_list)}")
         return return_list
 
     def on_enhance_compatibility_change(enhance_value):
