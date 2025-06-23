@@ -886,6 +886,7 @@ with gr.Blocks(
 
     translation_engine_arg_inputs = []
     detail_text_inputs = []
+    require_llm_translator_inputs = []
     detail_text_input_index_map = {}
     LLM_support_index_map = {}
     with gr.Row():
@@ -920,6 +921,9 @@ with gr.Blocks(
                 __gui_service_arg_names = []
                 for service_name in available_services:
                     metadata = TRANSLATION_ENGINE_METADATA_MAP[service_name]
+                    LLM_support_index_map[metadata.translate_engine_type] = (
+                        metadata.support_llm
+                    )
                     if not metadata.cli_detail_field_name:
                         # no detail field, no need to show
                         continue
@@ -928,7 +932,6 @@ with gr.Blocks(
                     # OpenAI specific settings (initially visible if OpenAI is default)
                     with gr.Group(visible=True) as service_detail:
                         detail_text_input_index_map[metadata.translate_engine_type] = []
-                        LLM_support_index_map[metadata.translate_engine_type] = metadata.support_llm
                         for (
                             field_name,
                             field,
@@ -1128,6 +1131,7 @@ with gr.Blocks(
                     type="binary",
                     visible=True,
                 )
+                require_llm_translator_inputs.append(glossary_file)
 
                 glossary_table = gr.Dataframe(
                     headers=["source", "target"],
@@ -1263,18 +1267,24 @@ with gr.Blocks(
         if not detail_text_inputs:
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
-        LLM_support = LLM_support_index_map.get(service_name, [])
-        logger.warning(f"service_name: {service_name} LLM_support: {LLM_support}")
-        return_list=[]
-        logger.warning(f"on_select_service detail_text_inputs len {len(detail_text_inputs)}")
+        llm_support = LLM_support_index_map.get(service_name, False)
+        logger.warning(f"service_name: {service_name} LLM_support: {llm_support}")
+        return_list = []
+        logger.warning(
+            f"on_select_service detail_text_inputs len {len(detail_text_inputs)}"
+        )
+        glossary_updates = [gr.update(visible=llm_support)] * len(
+            require_llm_translator_inputs
+        )
         if len(detail_text_inputs) == 1:
-            return_list=[gr.update(visible=(0 in detail_group_index))]
+            return_list = glossary_updates + [
+                gr.update(visible=(0 in detail_group_index))
+            ]
         else:
-            return_list=[
+            return_list = glossary_updates + [
                 gr.update(visible=(i in detail_group_index))
                 for i in range(len(detail_text_inputs))
             ]
-        return_list.append(gr.update(visible=LLM_support))
         logger.warning(f"on_select_service return_list len {len(return_list)}")
         return return_list
 
@@ -1353,10 +1363,14 @@ with gr.Blocks(
         page_input,
     )
 
+    on_select_service_outputs = require_llm_translator_inputs + detail_text_inputs
+
     service.select(
         on_select_service,
         service,
-        outputs=detail_text_inputs if len(detail_text_inputs) > 0 else None,
+        outputs=on_select_service_outputs
+        if len(on_select_service_outputs) > 0
+        else None,
     )
 
     glossary_file.upload(
