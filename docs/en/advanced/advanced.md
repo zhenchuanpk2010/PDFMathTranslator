@@ -351,7 +351,7 @@ There are three columns in file. Here is a demo glossary file:
 
 | source | target  | tgt_lng |
 |--------|---------|---------|
-| AutoML | 自动ML  | zh-CN   |
+| AutoML | 自动 ML  | zh-CN   |
 | a,a    | a       | zh-CN   |
 | "      | "       | zh-CN   |
 
