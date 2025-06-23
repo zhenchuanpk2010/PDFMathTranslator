@@ -574,6 +574,7 @@ class TranslationEngineMetadata:
     cli_flag_name: str
     cli_detail_field_name: str | None
     setting_model_type: type[BaseModel]
+    support_llm: bool
 
     def __init__(
         self,
@@ -587,10 +588,10 @@ class TranslationEngineMetadata:
         self.setting_model_type = setting_model_type
         if len(setting_model_type.model_fields) == 1:
             self.cli_detail_field_name = None
-        if setting_model_type.model_fields.get("support_llm", "no") == "yes":
-            self.support_llm = True
-        else:
-            self.support_llm = False
+        self.support_llm = (
+            (sl := setting_model_type.model_fields.get("support_llm", None))
+            and sl.default == "yes"
+        ) or False
 
 
 args = typing.get_args(TRANSLATION_ENGINE_SETTING_TYPE)

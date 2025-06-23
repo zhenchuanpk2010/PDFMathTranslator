@@ -376,7 +376,7 @@ class ConfigManager:
                             f"Could not convert environment variable {env_name}: {e}"
                         )
                     else:
-                        log.warning(f"Field {field_name} not found in type hints")
+                        log.debug(f"Field {field_name} not found in type hints")
 
         if recursion_depth == 0:
             log.debug(f"Environment settings: {env_settings}")
