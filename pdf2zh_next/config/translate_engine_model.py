@@ -204,6 +204,9 @@ class ModelScopeSettings(BaseModel):
     """ModelScope API settings"""
 
     translate_engine_type: Literal["ModelScope"] = Field(default="ModelScope")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     modelscope_model: str = Field(
         default="Qwen/Qwen2.5-32B-Instruct", description="ModelScope model to use"
@@ -231,6 +234,9 @@ class ZhipuSettings(BaseModel):
     """Zhipu API settings"""
 
     translate_engine_type: Literal["Zhipu"] = Field(default="Zhipu")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     zhipu_model: str = Field(default="glm-4-flash", description="Zhipu model to use")
     zhipu_api_key: str | None = Field(
@@ -393,6 +399,9 @@ class GrokSettings(BaseModel):
     """Grok API settings"""
 
     translate_engine_type: Literal["Grok"] = Field(default="Grok")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     grok_model: str = Field(default="grok-2-1212", description="Grok model to use")
     grok_api_key: str | None = Field(
@@ -418,6 +427,9 @@ class GroqSettings(BaseModel):
     """Groq API settings"""
 
     translate_engine_type: Literal["Groq"] = Field(default="Groq")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     groq_model: str = Field(
         default="llama-3-3-70b-versatile", description="Groq model to use"
@@ -478,6 +490,9 @@ class OpenAICompatibleSettings(BaseModel):
 
     translate_engine_type: Literal["OpenAICompatible"] = Field(
         default="OpenAICompatible"
+    )
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
     )
 
     openai_compatible_model: str = Field(

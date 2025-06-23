@@ -887,6 +887,7 @@ with gr.Blocks(
     translation_engine_arg_inputs = []
     detail_text_inputs = []
     detail_text_input_index_map = {}
+    LLM_support_index_map = {}
     with gr.Row():
         with gr.Column(scale=1):
             gr.Markdown("## File")
@@ -927,7 +928,7 @@ with gr.Blocks(
                     # OpenAI specific settings (initially visible if OpenAI is default)
                     with gr.Group(visible=True) as service_detail:
                         detail_text_input_index_map[metadata.translate_engine_type] = []
-
+                        LLM_support_index_map[metadata.translate_engine_type] = metadata.support_llm
                         for (
                             field_name,
                             field,
@@ -941,6 +942,8 @@ with gr.Blocks(
                                 continue
 
                             if field_name == "translate_engine_type":
+                                continue
+                            if field_name == "support_llm":
                                 continue
                             type_hint = field.annotation
                             original_type = typing.get_origin(type_hint)
@@ -1260,6 +1263,8 @@ with gr.Blocks(
         if not detail_text_inputs:
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
+        LLM_support = LLM_support_index_map.get(service_name, [])
+        logger.warning(f"service_name: {service_name} LLM_support: {LLM_support}")
         if len(detail_text_inputs) == 1:
             return gr.update(visible=(0 in detail_group_index))
         else:
@@ -1343,10 +1348,12 @@ with gr.Blocks(
         page_input,
     )
 
+    service_list=detail_text_inputs if len(detail_text_inputs) > 0 else None
+    service_list.append(glossary_file)
     service.select(
         on_select_service,
         service,
-        outputs=detail_text_inputs if len(detail_text_inputs) > 0 else None,
+        outputs=service_list,
     )
 
     glossary_file.upload(

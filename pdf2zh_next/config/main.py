@@ -36,6 +36,7 @@ log = logging.getLogger(__name__)
 
 _no_duplicate_field_name = set()
 _no_duplicate_field_name.add("translate_engine_type")
+_no_duplicate_field_name.add("support_llm")
 
 
 class MagicDefault:
