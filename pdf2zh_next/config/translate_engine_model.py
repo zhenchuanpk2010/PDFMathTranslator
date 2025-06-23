@@ -35,6 +35,9 @@ class OpenAISettings(BaseModel):
     """OpenAI API settings"""
 
     translate_engine_type: Literal["OpenAI"] = Field(default="OpenAI")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     openai_model: str = Field(default="gpt-4o-mini", description="OpenAI model to use")
     openai_base_url: str | None = Field(
@@ -97,7 +100,9 @@ class DeepSeekSettings(BaseModel):
     """DeepSeek settings"""
 
     translate_engine_type: Literal["DeepSeek"] = Field(default="DeepSeek")
-
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
     deepseek_model: str = Field(
         default="deepseek-chat", description="DeepSeek model to use"
     )
@@ -124,6 +129,9 @@ class OllamaSettings(BaseModel):
     """Ollama API settings"""
 
     translate_engine_type: Literal["Ollama"] = Field(default="Ollama")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     ollama_model: str = Field(default="gemma2", description="Ollama model to use")
     ollama_host: str | None = Field(
@@ -145,6 +153,9 @@ class XinferenceSettings(BaseModel):
     """Xinference API settings"""
 
     translate_engine_type: Literal["Xinference"] = Field(default="Xinference")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     xinference_model: str = Field(
         default="gemma-2-it", description="Xinference model to use"
@@ -163,6 +174,9 @@ class AzureOpenAISettings(BaseModel):
     """AzureOpenAI API settings"""
 
     translate_engine_type: Literal["AzureOpenAI"] = Field(default="AzureOpenAI")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     azure_openai_model: str = Field(
         default="gpt-4o-mini", description="AzureOpenAI model to use"
@@ -242,6 +256,9 @@ class SiliconFlowSettings(BaseModel):
     """SiliconFlow API settings"""
 
     translate_engine_type: Literal["SiliconFlow"] = Field(default="SiliconFlow")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     siliconflow_base_url: str | None = Field(
         default="https://api.siliconflow.cn/v1",
@@ -294,6 +311,9 @@ class GeminiSettings(BaseModel):
     """Gemini API settings"""
 
     translate_engine_type: Literal["Gemini"] = Field(default="Gemini")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     gemini_model: str = Field(
         default="gemini-1.5-flash", description="Gemini model to use"
@@ -425,6 +445,9 @@ class QwenMtSettings(BaseModel):
     """QwenMt API settings"""
 
     translate_engine_type: Literal["QwenMt"] = Field(default="QwenMt")
+    support_llm: Literal["yes", "no"] = Field(
+            default="yes", description="Whether the translator supports LLM"
+    )
 
     qwenmt_model: str = Field(
         default="qwen-mt-turbo", description="QwenMt model to use"
@@ -549,6 +572,10 @@ class TranslationEngineMetadata:
         self.setting_model_type = setting_model_type
         if len(setting_model_type.model_fields) == 1:
             self.cli_detail_field_name = None
+        if setting_model_type.model_fields.get("support_llm", "no") == "yes":
+            self.support_llm = True
+        else:
+            self.support_llm = False
 
 
 args = typing.get_args(TRANSLATION_ENGINE_SETTING_TYPE)
