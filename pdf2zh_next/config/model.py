@@ -95,6 +95,10 @@ class TranslationSettings(BaseModel):
         default=None,
         description='Custom system prompt for translation. It is mainly used to add the `/no_think` instruction of Qwen 3 in the prompt. e.g. --custom-system-prompt "/no_think You are a professional, authentic machine translation engine."',
     )
+    glossaries: str | None = Field(
+        default=None,
+        description="Glossary file list.",
+    )
     pool_max_workers: int | None = Field(
         default=None,
         description="Maximum number of workers for translation pool. If not set, will use qps as the number of workers",
