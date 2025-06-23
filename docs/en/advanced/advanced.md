@@ -365,7 +365,7 @@ pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
 
 For WebUI user:
 
-You can upload your own Glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.
+You can upload your own glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.
 
 [⬆️ Back to top](#toc)
 
