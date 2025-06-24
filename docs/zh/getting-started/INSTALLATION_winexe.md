@@ -15,7 +15,7 @@
 
 ***Step 2*** | 解压 `pdf2zh-<version>-with-assets-win64.zip` 并导航到 `pdf2zh` 文件夹。解压需要一段时间，请耐心等待。
 
-***Step 3*** | 导航到 `pdf2zh/build` 文件夹，然后双击 `pdf2zh.exe`。
+***Step 3*** | 导航到 `pdf2zh` 文件夹，然后双击 `pdf2zh.exe`。
 >
 > 如果您在运行 pdf2zh.exe 时遇到问题，请安装 `https://aka.ms/vs/17/release/vc_redist.x64.exe` 并重试。
 
