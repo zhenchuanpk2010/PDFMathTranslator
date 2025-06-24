@@ -357,7 +357,7 @@ There are three columns in file. Here is a demo glossary file:
 
 
 For CLI user:
-You can use multi files for glossary. And different files should be split by `,`.
+You can use multiple files for glossary. And different files should be split by `,`.
 
 ```bash
 pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
