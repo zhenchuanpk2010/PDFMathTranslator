@@ -514,7 +514,9 @@ def _build_translate_settings(
         raise gr.Error(f"Invalid settings: {e}") from e
 
 
-def _build_glossary_list(glossary_file, lang_to):
+def _build_glossary_list(glossary_file, lang_to, service_name=None):
+    if LLM_support_index_map.get(service_name, False):
+        return None
     glossary_list = []
     if glossary_file is None:
         return None
@@ -741,7 +743,7 @@ async def translate_file(
         "min_text_length": min_text_length,
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
-        "glossaries": _build_glossary_list(glossary_file, lang_to),
+        "glossaries": _build_glossary_list(glossary_file, lang_to, service),
         # New advanced translation options
         "pool_max_workers": pool_max_workers,
         "no_auto_extract_glossary": no_auto_extract_glossary,
@@ -1141,6 +1143,7 @@ with gr.Blocks(
                     col_count=(2, "fixed"),
                     visible=False,
                 )
+                require_llm_translator_inputs.append(glossary_table)
 
                 # PDF options section
                 gr.Markdown("### PDF Options")
@@ -1270,9 +1273,10 @@ with gr.Blocks(
         detail_group_index = detail_text_input_index_map.get(service_name, [])
         llm_support = LLM_support_index_map.get(service_name, False)
         return_list = []
-        glossary_updates = [gr.update(visible=llm_support)] * len(
-            require_llm_translator_inputs
-        )
+        glossary_updates = [
+            gr.update(visible=llm_support)
+            for i in range(len(require_llm_translator_inputs))
+        ]
         if len(detail_text_inputs) == 1:
             return_list = glossary_updates + [
                 gr.update(visible=(0 in detail_group_index))
@@ -1304,7 +1308,6 @@ with gr.Blocks(
         return gr.update(visible=split_value)
 
     def on_glossary_file_upload(glossary_file):
-        logger.warning(f"glossary files {glossary_file}")
         glossary_list = []
         f = io.StringIO(glossary_file[0].decode())
         csvreader = csv.reader(f, delimiter=",", doublequote=True)
