@@ -521,19 +521,23 @@ def _build_glossary_list(glossary_file, lang_to, service_name=None):
     if glossary_file is None:
         return None
     for file in glossary_file:
-        f = io.StringIO(file.decode(chardet.detect(file)["encoding"]))
-        csvreader = csv.DictReader(f, delimiter=",", doublequote=True)
-        next(csvreader)
-        glossary_temp = []
-        for row in csvreader:
-            glossary_temp.append(
-                GlossaryEntry(
-                    row["source"],
-                    row["target"],
-                    lang_to.strip().lower().replace("-", "_"),
+        try:
+            f = io.StringIO(file.decode(chardet.detect(file)["encoding"]))
+            csvreader = csv.DictReader(f, delimiter=",", doublequote=True)
+            next(csvreader)  # Skip the header row
+            glossary_temp = []
+            for row in csvreader:
+                glossary_temp.append(
+                    GlossaryEntry(
+                        row["source"],
+                        row["target"],
+                        lang_to.strip().lower().replace("-", "_"),
+                    )
                 )
-            )
-        glossary_list.append(glossary_temp)
+            glossary_list.append(glossary_temp)
+        except (UnicodeDecodeError, csv.Error, KeyError) as e:
+            logger.error(f"Error processing glossary file: {e}")
+            gr.Error(f"Failed to process glossary file: {e}")
     return glossary_list
 
 
