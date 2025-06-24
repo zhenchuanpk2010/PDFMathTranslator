@@ -8,6 +8,7 @@ import typing
 import uuid
 from pathlib import Path
 from string import Template
+import chardet
 
 import gradio as gr
 import requests
@@ -518,7 +519,7 @@ def _build_glossary_list(glossary_file, lang_to):
     if glossary_file is None:
         return None
     for file in glossary_file:
-        f = io.StringIO(file.decode())
+        f = io.StringIO(file.decode(chardet.detect(file)["encoding"]))
         csvreader = csv.DictReader(f, delimiter=",", doublequote=True)
         next(csvreader)
         glossary_temp = []
