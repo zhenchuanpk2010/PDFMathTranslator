@@ -407,6 +407,8 @@ async def _translate_in_subprocess(
 
 def _get_glossaries(settings: SettingsModel) -> list[Glossary]:
     glossaries = []
+    if not settings.translation.glossaries:
+        return glossaries
     for file in settings.translation.glossaries.split(","):
         glossaries.append(Glossary.from_csv(file))
     return glossaries
