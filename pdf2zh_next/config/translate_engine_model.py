@@ -35,6 +35,9 @@ class OpenAISettings(BaseModel):
     """OpenAI API settings"""
 
     translate_engine_type: Literal["OpenAI"] = Field(default="OpenAI")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     openai_model: str = Field(default="gpt-4o-mini", description="OpenAI model to use")
     openai_base_url: str | None = Field(
@@ -97,7 +100,9 @@ class DeepSeekSettings(BaseModel):
     """DeepSeek settings"""
 
     translate_engine_type: Literal["DeepSeek"] = Field(default="DeepSeek")
-
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
     deepseek_model: str = Field(
         default="deepseek-chat", description="DeepSeek model to use"
     )
@@ -124,6 +129,9 @@ class OllamaSettings(BaseModel):
     """Ollama API settings"""
 
     translate_engine_type: Literal["Ollama"] = Field(default="Ollama")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     ollama_model: str = Field(default="gemma2", description="Ollama model to use")
     ollama_host: str | None = Field(
@@ -145,6 +153,9 @@ class XinferenceSettings(BaseModel):
     """Xinference API settings"""
 
     translate_engine_type: Literal["Xinference"] = Field(default="Xinference")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     xinference_model: str = Field(
         default="gemma-2-it", description="Xinference model to use"
@@ -163,6 +174,9 @@ class AzureOpenAISettings(BaseModel):
     """AzureOpenAI API settings"""
 
     translate_engine_type: Literal["AzureOpenAI"] = Field(default="AzureOpenAI")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     azure_openai_model: str = Field(
         default="gpt-4o-mini", description="AzureOpenAI model to use"
@@ -190,6 +204,9 @@ class ModelScopeSettings(BaseModel):
     """ModelScope API settings"""
 
     translate_engine_type: Literal["ModelScope"] = Field(default="ModelScope")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     modelscope_model: str = Field(
         default="Qwen/Qwen2.5-32B-Instruct", description="ModelScope model to use"
@@ -217,6 +234,9 @@ class ZhipuSettings(BaseModel):
     """Zhipu API settings"""
 
     translate_engine_type: Literal["Zhipu"] = Field(default="Zhipu")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     zhipu_model: str = Field(default="glm-4-flash", description="Zhipu model to use")
     zhipu_api_key: str | None = Field(
@@ -242,6 +262,9 @@ class SiliconFlowSettings(BaseModel):
     """SiliconFlow API settings"""
 
     translate_engine_type: Literal["SiliconFlow"] = Field(default="SiliconFlow")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     siliconflow_base_url: str | None = Field(
         default="https://api.siliconflow.cn/v1",
@@ -294,6 +317,9 @@ class GeminiSettings(BaseModel):
     """Gemini API settings"""
 
     translate_engine_type: Literal["Gemini"] = Field(default="Gemini")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     gemini_model: str = Field(
         default="gemini-1.5-flash", description="Gemini model to use"
@@ -373,6 +399,9 @@ class GrokSettings(BaseModel):
     """Grok API settings"""
 
     translate_engine_type: Literal["Grok"] = Field(default="Grok")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     grok_model: str = Field(default="grok-2-1212", description="Grok model to use")
     grok_api_key: str | None = Field(
@@ -398,6 +427,9 @@ class GroqSettings(BaseModel):
     """Groq API settings"""
 
     translate_engine_type: Literal["Groq"] = Field(default="Groq")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     groq_model: str = Field(
         default="llama-3-3-70b-versatile", description="Groq model to use"
@@ -425,6 +457,9 @@ class QwenMtSettings(BaseModel):
     """QwenMt API settings"""
 
     translate_engine_type: Literal["QwenMt"] = Field(default="QwenMt")
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
+    )
 
     qwenmt_model: str = Field(
         default="qwen-mt-turbo", description="QwenMt model to use"
@@ -455,6 +490,9 @@ class OpenAICompatibleSettings(BaseModel):
 
     translate_engine_type: Literal["OpenAICompatible"] = Field(
         default="OpenAICompatible"
+    )
+    support_llm: Literal["yes", "no"] = Field(
+        default="yes", description="Whether the translator supports LLM"
     )
 
     openai_compatible_model: str = Field(
@@ -536,6 +574,7 @@ class TranslationEngineMetadata:
     cli_flag_name: str
     cli_detail_field_name: str | None
     setting_model_type: type[BaseModel]
+    support_llm: bool
 
     def __init__(
         self,
@@ -549,6 +588,10 @@ class TranslationEngineMetadata:
         self.setting_model_type = setting_model_type
         if len(setting_model_type.model_fields) == 1:
             self.cli_detail_field_name = None
+        self.support_llm = (
+            (sl := setting_model_type.model_fields.get("support_llm", None))
+            and sl.default == "yes"
+        ) or False
 
 
 args = typing.get_args(TRANSLATION_ENGINE_SETTING_TYPE)

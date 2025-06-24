@@ -42,6 +42,7 @@ dependencies = [
     "fastapi>=0.115.12",
     "uvicorn>=0.34.2",
     "legacy-cgi; python_version >= '3.13'",
+    "chardet>=5.2.0",
 ]
 
 [dependency-groups]
