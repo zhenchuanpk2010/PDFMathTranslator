@@ -8,8 +8,8 @@ import typing
 import uuid
 from pathlib import Path
 from string import Template
-import chardet
 
+import chardet
 import gradio as gr
 import requests
 from babeldoc import __version__ as babeldoc_version
