@@ -87,7 +87,7 @@ Note that the computing resources of the demo are limited, so please avoid abusi
 ### Usage
 
 1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party programm)
+2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)
 3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
 For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.
