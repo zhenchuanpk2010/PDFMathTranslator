@@ -28,5 +28,5 @@ COPY . .
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 RUN uv pip install --system --no-cache . && uv pip install --system --no-cache -U babeldoc "pymupdf<1.25.3" && babeldoc --version && babeldoc --warmup
-RUN uv run pdf2zh --version
+RUN pdf2zh --version
 CMD ["pdf2zh", "--gui"]

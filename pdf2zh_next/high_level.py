@@ -17,6 +17,7 @@ from babeldoc.format.pdf.translation_config import TranslationConfig as BabelDOC
 from babeldoc.format.pdf.translation_config import (
     WatermarkOutputMode as BabelDOCWatermarkMode,
 )
+from babeldoc.glossary import Glossary
 from babeldoc.main import create_progress_handler
 from rich.logging import RichHandler
 
@@ -404,6 +405,15 @@ async def _translate_in_subprocess(
                 raise cb.error
 
 
+def _get_glossaries(settings: SettingsModel) -> list[Glossary]:
+    glossaries = []
+    if not settings.translation.glossaries:
+        return glossaries
+    for file in settings.translation.glossaries.split(","):
+        glossaries.append(Glossary.from_csv(file))
+    return glossaries
+
+
 def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfig:
     if not isinstance(settings, SettingsModel):
         raise ValueError(f"{type(settings)} is not SettingsModel")
@@ -465,6 +475,7 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
         skip_scanned_detection=settings.pdf.skip_scanned_detection,
         ocr_workaround=settings.pdf.ocr_workaround,
         custom_system_prompt=settings.translation.custom_system_prompt,
+        glossaries=_get_glossaries(settings),
         auto_enable_ocr_workaround=settings.pdf.auto_enable_ocr_workaround,
         pool_max_workers=settings.translation.pool_max_workers,
         auto_extract_glossary=not settings.translation.no_auto_extract_glossary,

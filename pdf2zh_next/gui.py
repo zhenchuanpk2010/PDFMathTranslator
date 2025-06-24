@@ -1,5 +1,7 @@
 import asyncio
 import cgi
+import csv
+import io
 import logging
 import shutil
 import typing
@@ -7,9 +9,11 @@ import uuid
 from pathlib import Path
 from string import Template
 
+import chardet
 import gradio as gr
 import requests
 from babeldoc import __version__ as babeldoc_version
+from babeldoc.glossary import GlossaryEntry
 from gradio_pdf import PDF
 
 from pdf2zh_next import __version__
@@ -510,6 +514,29 @@ def _build_translate_settings(
         raise gr.Error(f"Invalid settings: {e}") from e
 
 
+def _build_glossary_list(glossary_file, lang_to, service_name=None):
+    if LLM_support_index_map.get(service_name, False):
+        return None
+    glossary_list = []
+    if glossary_file is None:
+        return None
+    for file in glossary_file:
+        f = io.StringIO(file.decode(chardet.detect(file)["encoding"]))
+        csvreader = csv.DictReader(f, delimiter=",", doublequote=True)
+        next(csvreader)
+        glossary_temp = []
+        for row in csvreader:
+            glossary_temp.append(
+                GlossaryEntry(
+                    row["source"],
+                    row["target"],
+                    lang_to.strip().lower().replace("-", "_"),
+                )
+            )
+        glossary_list.append(glossary_temp)
+    return glossary_list
+
+
 async def _run_translation_task(
     settings: SettingsModel, file_path: Path, state: dict, progress: gr.Progress
 ) -> tuple[Path | None, Path | None]:
@@ -631,6 +658,7 @@ async def translate_file(
     rpc_doclayout,
     # New input for custom_system_prompt
     custom_system_prompt_input,
+    glossary_file,
     # New advanced translation options
     pool_max_workers,
     no_auto_extract_glossary,
@@ -715,6 +743,7 @@ async def translate_file(
         "min_text_length": min_text_length,
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
+        "glossaries": _build_glossary_list(glossary_file, lang_to, service),
         # New advanced translation options
         "pool_max_workers": pool_max_workers,
         "no_auto_extract_glossary": no_auto_extract_glossary,
@@ -860,7 +889,9 @@ with gr.Blocks(
 
     translation_engine_arg_inputs = []
     detail_text_inputs = []
+    require_llm_translator_inputs = []
     detail_text_input_index_map = {}
+    LLM_support_index_map = {}
     with gr.Row():
         with gr.Column(scale=1):
             gr.Markdown("## File")
@@ -893,6 +924,9 @@ with gr.Blocks(
                 __gui_service_arg_names = []
                 for service_name in available_services:
                     metadata = TRANSLATION_ENGINE_METADATA_MAP[service_name]
+                    LLM_support_index_map[metadata.translate_engine_type] = (
+                        metadata.support_llm
+                    )
                     if not metadata.cli_detail_field_name:
                         # no detail field, no need to show
                         continue
@@ -901,7 +935,6 @@ with gr.Blocks(
                     # OpenAI specific settings (initially visible if OpenAI is default)
                     with gr.Group(visible=True) as service_detail:
                         detail_text_input_index_map[metadata.translate_engine_type] = []
-
                         for (
                             field_name,
                             field,
@@ -915,6 +948,8 @@ with gr.Blocks(
                                 continue
 
                             if field_name == "translate_engine_type":
+                                continue
+                            if field_name == "support_llm":
                                 continue
                             type_hint = field.annotation
                             original_type = typing.get_origin(type_hint)
@@ -1092,6 +1127,24 @@ with gr.Blocks(
                     interactive=True,
                 )
 
+                glossary_file = gr.File(
+                    label="Glossary File",
+                    file_count="multiple",
+                    file_types=[".csv"],
+                    type="binary",
+                    visible=True,
+                )
+                require_llm_translator_inputs.append(glossary_file)
+
+                glossary_table = gr.Dataframe(
+                    headers=["source", "target"],
+                    datatype=["str", "str"],
+                    interactive=False,
+                    col_count=(2, "fixed"),
+                    visible=False,
+                )
+                require_llm_translator_inputs.append(glossary_table)
+
                 # PDF options section
                 gr.Markdown("### PDF Options")
 
@@ -1218,13 +1271,22 @@ with gr.Blocks(
         if not detail_text_inputs:
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
+        llm_support = LLM_support_index_map.get(service_name, False)
+        return_list = []
+        glossary_updates = [
+            gr.update(visible=llm_support)
+            for i in range(len(require_llm_translator_inputs))
+        ]
         if len(detail_text_inputs) == 1:
-            return gr.update(visible=(0 in detail_group_index))
+            return_list = glossary_updates + [
+                gr.update(visible=(0 in detail_group_index))
+            ]
         else:
-            return [
+            return_list = glossary_updates + [
                 gr.update(visible=(i in detail_group_index))
                 for i in range(len(detail_text_inputs))
             ]
+        return return_list
 
     def on_enhance_compatibility_change(enhance_value):
         """Update skip_clean and disable_rich_text_translate when enhance_compatibility changes"""
@@ -1244,6 +1306,41 @@ with gr.Blocks(
     def on_split_short_lines_change(split_value):
         """Update short_line_split_factor visibility based on split_short_lines value"""
         return gr.update(visible=split_value)
+
+    def on_glossary_file_upload(glossary_file):
+        glossary_list = []
+        f = io.StringIO(glossary_file[0].decode())
+        csvreader = csv.reader(f, delimiter=",", doublequote=True)
+        next(csvreader)
+        for line in csvreader:
+            glossary_list.append(line[:2])
+
+        return gr.update(
+            value=glossary_list,
+            visible=True,
+        )
+
+    # def on_glossary_file_delete(glossary_file):
+    #     if glossary_file is None:
+    #         return gr.update(visible=False)
+
+    #     glossary_list=[]
+    #     f=io.BytesIO(glossary_file[0])
+    #     csvreader=csv.reader(f, delimiter=',')
+    #     for line in csvreader:
+    #         glossary_list.append(line)
+    #     logger.warning(f"on_glossary_file_delete glossary_list {glossary_list}")
+    #     return gr.update(visible=True,value=glossary_list)
+
+    def on_glossary_file_select(glossary_file, evt: gr.SelectData):
+        logger.warning(f"select file: {evt.index}, {evt.value}")
+        glossary_list = []
+        f = io.StringIO(glossary_file[evt.index].decode())
+        csvreader = csv.reader(f, delimiter=",", doublequote=True)
+        next(csvreader)
+        for line in csvreader:
+            glossary_list.append(line[:2])
+        return gr.update(visible=True, value=glossary_list)
 
     # Default file handler
     file_input.upload(
@@ -1265,10 +1362,30 @@ with gr.Blocks(
         page_input,
     )
 
+    on_select_service_outputs = require_llm_translator_inputs + detail_text_inputs
+
     service.select(
         on_select_service,
         service,
-        outputs=detail_text_inputs if len(detail_text_inputs) > 0 else None,
+        outputs=on_select_service_outputs
+        if len(on_select_service_outputs) > 0
+        else None,
+    )
+
+    glossary_file.upload(
+        on_glossary_file_upload,
+        glossary_file,
+        outputs=glossary_table,
+    )
+    # glossary_file.delete(
+    #     on_glossary_file_delete,
+    #     glossary_file,
+    #     outputs = glossary_table,
+    # )
+    glossary_file.select(
+        on_glossary_file_select,
+        glossary_file,
+        outputs=glossary_table,
     )
 
     # Add event handler for enhance_compatibility
@@ -1312,6 +1429,7 @@ with gr.Blocks(
             min_text_length,
             rpc_doclayout,
             custom_system_prompt_input,
+            glossary_file,
             # New advanced translation options
             pool_max_workers,
             no_auto_extract_glossary,

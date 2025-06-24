@@ -44,7 +44,7 @@ class QwenMtTranslator(BaseTranslator):
         languague code will not be checked.
         """
         langdict = {
-            "zh": "Chinese",
+            "zh-CN": "Chinese",
             "zh-TW": "Chinese",
             "en": "English",
             "fr": "French",

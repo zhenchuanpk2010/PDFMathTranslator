@@ -71,6 +71,7 @@ class GUISettings(BaseModel):
     disable_config_auto_save: bool = Field(
         default=False, description="Disable automatic saving of configuration"
     )
+    server_port: int = Field(default=7860, description="WebUI port")
 
 
 class TranslationSettings(BaseModel):
@@ -93,6 +94,10 @@ class TranslationSettings(BaseModel):
     custom_system_prompt: str | None = Field(
         default=None,
         description='Custom system prompt for translation. It is mainly used to add the `/no_think` instruction of Qwen 3 in the prompt. e.g. --custom-system-prompt "/no_think You are a professional, authentic machine translation engine."',
+    )
+    glossaries: str | None = Field(
+        default=None,
+        description="Glossary file list.",
     )
     pool_max_workers: int | None = Field(
         default=None,

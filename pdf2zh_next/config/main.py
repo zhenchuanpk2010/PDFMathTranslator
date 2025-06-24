@@ -36,6 +36,7 @@ log = logging.getLogger(__name__)
 
 _no_duplicate_field_name = set()
 _no_duplicate_field_name.add("translate_engine_type")
+_no_duplicate_field_name.add("support_llm")
 
 
 class MagicDefault:
@@ -375,7 +376,7 @@ class ConfigManager:
                             f"Could not convert environment variable {env_name}: {e}"
                         )
                     else:
-                        log.warning(f"Field {field_name} not found in type hints")
+                        log.debug(f"Field {field_name} not found in type hints")
 
         if recursion_depth == 0:
             log.debug(f"Environment settings: {env_settings}")
