@@ -16,6 +16,7 @@
 - [Translation cache](#translation-cache)
 - [Deployment as a public services](#deployment-as-a-public-services)
 - [Authentication and welcome page](#authentication-and-welcome-page)
+- [Glossary Support](#glossary-support)
 
 ---
 
@@ -369,6 +370,3 @@ For WebUI user:
 You can upload your own glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.
 
 [⬆️ Back to top](#toc)
-
-<div align="right">
-<h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

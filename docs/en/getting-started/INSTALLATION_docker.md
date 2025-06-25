@@ -51,5 +51,4 @@ http://localhost:7860/
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="26"></a>
 </div>
 
-<div align="right">
-<h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6> -->
+-->
