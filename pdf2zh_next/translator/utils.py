@@ -38,7 +38,7 @@ def get_translator(settings: SettingsModel) -> BaseTranslator:
             module = importlib.import_module(model_name)
             if settings.translation.glossaries and not metadata.support_llm:
                 raise TranslateEngineSettingError(
-                    f"{translate_engine_type} does not support glossaries. Please choose a different translator or remove the glossary."
+                    f"{translate_engine_type} does not support glossary. Please choose a different translator or remove the glossary."
                 )
             return getattr(module, f"{translate_engine_type}Translator")(
                 settings, rate_limiter
