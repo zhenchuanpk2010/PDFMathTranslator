@@ -366,6 +366,7 @@ def _build_translate_settings(
 
     # New input for custom_system_prompt
     custom_system_prompt_input = ui_inputs.get("custom_system_prompt_input")
+    glossaries = ui_inputs.get("glossaries")
 
     # Map UI language selections to language codes
     source_lang = lang_map.get(lang_from, "auto")
@@ -496,6 +497,11 @@ def _build_translate_settings(
         translate_settings.translation.custom_system_prompt = custom_system_prompt_input
     else:
         translate_settings.translation.custom_system_prompt = None
+
+    if glossaries:
+        translate_settings.translation.glossaries = glossaries
+    else:
+        translate_settings.translation.glossaries = None
 
     # Validate settings before proceeding
     try:
