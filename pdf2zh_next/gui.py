@@ -463,7 +463,7 @@ def _build_translate_settings(
         detail_setting = getattr(translate_settings, metadata.cli_detail_field_name)
         if metadata.setting_model_type:
             for field_name in metadata.setting_model_type.model_fields:
-                if field_name == "translate_engine_type":
+                if field_name == "translate_engine_type" or field_name == "support_llm":
                     continue
                 if disable_gui_sensitive_input:
                     if field_name in GUI_PASSWORD_FIELDS:
