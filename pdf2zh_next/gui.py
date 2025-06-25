@@ -4,6 +4,7 @@ import csv
 import io
 import logging
 import shutil
+import tempfile
 import typing
 import uuid
 from pathlib import Path
@@ -13,7 +14,6 @@ import chardet
 import gradio as gr
 import requests
 from babeldoc import __version__ as babeldoc_version
-from babeldoc.glossary import GlossaryEntry
 from gradio_pdf import PDF
 
 from pdf2zh_next import __version__
@@ -366,6 +366,8 @@ def _build_translate_settings(
 
     # New input for custom_system_prompt
     custom_system_prompt_input = ui_inputs.get("custom_system_prompt_input")
+    glossaries = ui_inputs.get("glossaries")
+    save_auto_extracted_glossary = ui_inputs.get("save_auto_extracted_glossary")
 
     # Map UI language selections to language codes
     source_lang = lang_map.get(lang_from, "auto")
@@ -497,6 +499,15 @@ def _build_translate_settings(
     else:
         translate_settings.translation.custom_system_prompt = None
 
+    if glossaries:
+        translate_settings.translation.glossaries = glossaries
+    else:
+        translate_settings.translation.glossaries = None
+
+    translate_settings.translation.save_auto_extracted_glossary = (
+        save_auto_extracted_glossary
+    )
+
     # Validate settings before proceeding
     try:
         translate_settings.validate_settings()
@@ -506,6 +517,7 @@ def _build_translate_settings(
         translate_settings.gui_settings = original_gui_settings
         translate_settings.basic.gui = False
         translate_settings.basic.debug = False
+        translate_settings.translation.glossaries = None
         if not settings.gui_settings.disable_config_auto_save:
             config_manager.write_user_default_config_file(settings=translate_settings)
         settings.validate_settings()
@@ -514,32 +526,30 @@ def _build_translate_settings(
         raise gr.Error(f"Invalid settings: {e}") from e
 
 
-def _build_glossary_list(glossary_file, lang_to, service_name=None):
-    if LLM_support_index_map.get(service_name, False):
+def _build_glossary_list(glossary_file, service_name=None):
+    if not LLM_support_index_map.get(service_name, False):
         return None
     glossary_list = []
     if glossary_file is None:
         return None
     for file in glossary_file:
-        f = io.StringIO(file.decode(chardet.detect(file)["encoding"]))
-        csvreader = csv.DictReader(f, delimiter=",", doublequote=True)
-        next(csvreader)
-        glossary_temp = []
-        for row in csvreader:
-            glossary_temp.append(
-                GlossaryEntry(
-                    row["source"],
-                    row["target"],
-                    lang_to.strip().lower().replace("-", "_"),
-                )
-            )
-        glossary_list.append(glossary_temp)
-    return glossary_list
+        try:
+            f = io.StringIO(file.decode(chardet.detect(file)["encoding"]))
+            with tempfile.NamedTemporaryFile(
+                mode="w", delete=False, suffix=".csv"
+            ) as temp_file:
+                temp_file.write(f.getvalue())
+                f.close()
+            glossary_list.append(temp_file.name)
+        except (UnicodeDecodeError, csv.Error, KeyError) as e:
+            logger.error(f"Error processing glossary file: {e}")
+            gr.Error(f"Failed to process glossary file: {e}")
+    return ",".join(glossary_list)
 
 
 async def _run_translation_task(
     settings: SettingsModel, file_path: Path, state: dict, progress: gr.Progress
-) -> tuple[Path | None, Path | None]:
+) -> tuple[Path | None, Path | None, Path | None]:
     """
     This function runs the translation task and handles progress updates.
 
@@ -554,6 +564,7 @@ async def _run_translation_task(
     """
     mono_path = None
     dual_path = None
+    glossary_path = None
 
     try:
         settings.basic.input_files = set()
@@ -578,6 +589,7 @@ async def _run_translation_task(
                 result = event["translate_result"]
                 mono_path = result.mono_pdf_path
                 dual_path = result.dual_pdf_path
+                glossary_path = result.auto_extracted_glossary_path
                 progress(1.0, desc="Translation complete!")
                 break
             elif event["type"] == "error":
@@ -607,7 +619,7 @@ async def _run_translation_task(
         logger.error(f"Error in _run_translation_task: {e}", exc_info=True)
         raise gr.Error(f"Translation failed: {e}") from e
 
-    return mono_path, dual_path
+    return mono_path, dual_path, glossary_path
 
 
 async def stop_translate_file(state: dict) -> None:
@@ -659,6 +671,7 @@ async def translate_file(
     # New input for custom_system_prompt
     custom_system_prompt_input,
     glossary_file,
+    save_auto_extracted_glossary,
     # New advanced translation options
     pool_max_workers,
     no_auto_extract_glossary,
@@ -743,7 +756,8 @@ async def translate_file(
         "min_text_length": min_text_length,
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
-        "glossaries": _build_glossary_list(glossary_file, lang_to, service),
+        "glossaries": _build_glossary_list(glossary_file, service),
+        "save_auto_extracted_glossary": save_auto_extracted_glossary,
         # New advanced translation options
         "pool_max_workers": pool_max_workers,
         "no_auto_extract_glossary": no_auto_extract_glossary,
@@ -783,7 +797,7 @@ async def translate_file(
         state["current_task"] = task
 
         # Wait for the translation to complete
-        mono_path, dual_path = await task
+        mono_path, dual_path, glossary_path = await task
         if not mono_path or not mono_path.exists():
             mono_path = None
         else:
@@ -792,13 +806,22 @@ async def translate_file(
             dual_path = None
         else:
             dual_path = dual_path.as_posix()
+
+        if not glossary_path or not glossary_path.exists():
+            glossary_path = None
+        else:
+            glossary_path = glossary_path.as_posix()
         # Build success UI updates
         return (
             str(mono_path) if mono_path else None,  # Output mono file
             str(mono_path) if mono_path else dual_path,  # Preview
             str(dual_path) if dual_path else None,  # Output dual file
+            str(glossary_path) if glossary_path else None,  # Output dual file
             gr.update(visible=bool(mono_path)),  # Show mono download if available
             gr.update(visible=bool(dual_path)),  # Show dual download if available
+            gr.update(
+                visible=bool(glossary_path)
+            ),  # Show glossary download if available
             gr.update(
                 visible=bool(mono_path or dual_path)
             ),  # Show output title if any output
@@ -1118,6 +1141,12 @@ with gr.Blocks(
                     interactive=True,
                 )
 
+                save_auto_extracted_glossary = gr.Checkbox(
+                    label="save automatically extracted glossary",
+                    value=settings.translation.save_auto_extracted_glossary,
+                    interactive=True,
+                )
+
                 primary_font_family = gr.Dropdown(
                     label="Primary font family for translated text",
                     choices=["Auto", "serif", "sans-serif", "script"],
@@ -1241,6 +1270,9 @@ with gr.Blocks(
             output_file_dual = gr.File(
                 label="Download Translation (Dual)", visible=False
             )
+            output_file_glossary = gr.File(
+                label="Download automatically extracted glossary", visible=False
+            )
 
             translate_btn = gr.Button("Translate", variant="primary")
             cancel_btn = gr.Button("Cancel", variant="secondary")
@@ -1307,39 +1339,18 @@ with gr.Blocks(
         """Update short_line_split_factor visibility based on split_short_lines value"""
         return gr.update(visible=split_value)
 
-    def on_glossary_file_upload(glossary_file):
-        glossary_list = []
-        f = io.StringIO(glossary_file[0].decode())
-        csvreader = csv.reader(f, delimiter=",", doublequote=True)
-        next(csvreader)
-        for line in csvreader:
-            glossary_list.append(line[:2])
+    def on_glossary_file_change(glossary_file):
+        if glossary_file is None:
+            return gr.update(visible=False)
 
-        return gr.update(
-            value=glossary_list,
-            visible=True,
-        )
-
-    # def on_glossary_file_delete(glossary_file):
-    #     if glossary_file is None:
-    #         return gr.update(visible=False)
-
-    #     glossary_list=[]
-    #     f=io.BytesIO(glossary_file[0])
-    #     csvreader=csv.reader(f, delimiter=',')
-    #     for line in csvreader:
-    #         glossary_list.append(line)
-    #     logger.warning(f"on_glossary_file_delete glossary_list {glossary_list}")
-    #     return gr.update(visible=True,value=glossary_list)
-
-    def on_glossary_file_select(glossary_file, evt: gr.SelectData):
-        logger.warning(f"select file: {evt.index}, {evt.value}")
-        glossary_list = []
-        f = io.StringIO(glossary_file[evt.index].decode())
-        csvreader = csv.reader(f, delimiter=",", doublequote=True)
-        next(csvreader)
-        for line in csvreader:
-            glossary_list.append(line[:2])
+        glossary_list = [""]
+        for file in glossary_file:
+            with io.StringIO(file.decode(chardet.detect(file)["encoding"])) as f:
+                csvreader = csv.reader(f, delimiter=",")
+                next(csvreader)  # Skip header
+                for line in csvreader:
+                    glossary_list.append(line)
+        logger.warning(f"on_glossary_file_delete glossary_list {glossary_list}")
         return gr.update(visible=True, value=glossary_list)
 
     # Default file handler
@@ -1372,18 +1383,8 @@ with gr.Blocks(
         else None,
     )
 
-    glossary_file.upload(
-        on_glossary_file_upload,
-        glossary_file,
-        outputs=glossary_table,
-    )
-    # glossary_file.delete(
-    #     on_glossary_file_delete,
-    #     glossary_file,
-    #     outputs = glossary_table,
-    # )
-    glossary_file.select(
-        on_glossary_file_select,
+    glossary_file.change(
+        on_glossary_file_change,
         glossary_file,
         outputs=glossary_table,
     )
@@ -1430,6 +1431,7 @@ with gr.Blocks(
             rpc_doclayout,
             custom_system_prompt_input,
             glossary_file,
+            save_auto_extracted_glossary,
             # New advanced translation options
             pool_max_workers,
             no_auto_extract_glossary,
@@ -1455,8 +1457,10 @@ with gr.Blocks(
             output_file_mono,  # Mono PDF file
             preview,  # Preview
             output_file_dual,  # Dual PDF file
+            output_file_glossary,
             output_file_mono,  # Visibility of mono output
             output_file_dual,  # Visibility of dual output
+            output_file_glossary,
             output_title,  # Visibility of output title
         ],
     )

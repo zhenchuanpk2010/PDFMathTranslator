@@ -37,7 +37,9 @@ def get_translator(settings: SettingsModel) -> BaseTranslator:
             model_name = f"pdf2zh_next.translator.translator_impl.{translate_engine_type.lower()}"
             module = importlib.import_module(model_name)
             if settings.translation.glossaries and not metadata.support_llm:
-                logger.error(f"{translate_engine_type} not support glossary!")
+                raise TranslateEngineSettingError(
+                    f"{translate_engine_type} does not support glossary. Please choose a different translator or remove the glossary."
+                )
             return getattr(module, f"{translate_engine_type}Translator")(
                 settings, rate_limiter
             )

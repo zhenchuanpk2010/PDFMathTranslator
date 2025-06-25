@@ -405,12 +405,14 @@ async def _translate_in_subprocess(
                 raise cb.error
 
 
-def _get_glossaries(settings: SettingsModel) -> list[Glossary]:
+def _get_glossaries(settings: SettingsModel) -> list[Glossary] | None:
     glossaries = []
     if not settings.translation.glossaries:
-        return glossaries
+        return None
     for file in settings.translation.glossaries.split(","):
-        glossaries.append(Glossary.from_csv(file))
+        glossaries.append(
+            Glossary.from_csv(Path(file), target_lang_out=settings.translation.lang_out)
+        )
     return glossaries
 
 

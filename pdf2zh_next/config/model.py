@@ -99,6 +99,9 @@ class TranslationSettings(BaseModel):
         default=None,
         description="Glossary file list.",
     )
+    save_auto_extracted_glossary: bool = Field(
+        default=False, description="save automatically extracted glossary"
+    )
     pool_max_workers: int | None = Field(
         default=None,
         description="Maximum number of workers for translation pool. If not set, will use qps as the number of workers",
