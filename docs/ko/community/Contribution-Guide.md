@@ -1,0 +1,114 @@
+# 프로젝트에 기여하기
+
+> [!CAUTION]
+>
+> 현재 프로젝트 관리자들은 자동화된 문서 국제화를 연구 중입니다. 따라서 문서 국제화/번역과 관련된 PR은 접수되지 않을 것입니다!
+>
+> 문서 국제화/번역과 관련된 PR을 제출하지 마십시오!
+
+이 프로젝트에 관심을 가져주셔서 감사합니다! 기여를 시작하기 전에, 귀하의 기여가 원활하게 수용될 수 있도록 다음 가이드라인을 읽어보시기 바랍니다.
+
+## 허용되지 않는 기여 유형
+
+1. 문서 국제화/번역
+2. HTTP API 등과 같은 핵심 인프라 관련 기여
+3. "도움 필요 없음"으로 명시적으로 표시된 이슈([Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) 저장소의 이슈 포함).
+4. 유지 관리자가 부적절하다고 판단하는 기타 기여.
+
+위 유형과 관련된 PR은 제출하지 마십시오.
+
+## 기여 프로세스
+
+1. 이 저장소를 포크하고 로컬에 클론합니다.
+2. 새 브랜치를 생성합니다: `git checkout -b feature/<feature-name>`.
+3. 개발을 진행하고 코드가 요구 사항을 충족하는지 확인합니다.
+4. 코드를 커밋합니다:
+   ```bash
+   git add .
+   git commit -m "<semantic commit message>"
+   ```
+
+5. 저장소에 푸시: `git push origin feature/<feature-name>`.
+6. GitHub에서 PR을 생성하고 상세한 설명을 제공한 후 [@awwaawwa](https://github.com/awwaawwa)에게 리뷰를 요청하세요.
+7. 모든 자동화된 검사가 통과되었는지 확인하세요.
+
+> [!TIP]
+>
+> 개발이 완전히 완료될 때까지 기다릴 필요 없이 PR을 생성할 수 있습니다. 일찍 생성하면 구현 내용을 검토하고 제안을 드릴 수 있습니다.
+>
+> 소스 코드나 관련 사항에 대해 궁금한 점이 있으면 관리자 aw@funstory.ai로 문의해 주세요.
+>
+> 버전 2.0의 리소스 파일은 [BabelDOC](https://github.com/funstory-ai/BabelDOC)와 공유됩니다. 관련 리소스 다운로드 코드는 BabelDOC에 있습니다. 새로운 리소스 파일을 추가하려면 BabelDOC 관리자 aw@funstory.ai로 연락해 주세요.
+
+## 기본 요구 사항
+
+<h4 id="sop">1. 작업 흐름</h4>
+
+- `main` 브랜치에서 포크를 생성하고, 포크된 브랜치에서 개발을 진행해 주세요.
+   - Pull Request(PR)를 제출할 때는 변경 사항에 대한 상세한 설명을 제공해 주세요.
+   - PR이 자동화된 검사를 통과하지 못하는 경우(`checks failed` 및 빨간색 십자 표시로 표시됨), 해당 `details`를 검토하고 제출 내용을 수정하여 새로운 PR이 모든 검사를 통과할 수 있도록 해 주세요.
+
+
+<h4 id="dev&test">2. 개발 및 테스트</h4>
+
+- 개발 및 테스트를 위해 `pip install -e .` 명령을 사용하세요.
+
+
+<h4 id="format">3. 코드 포맷팅</h4>
+
+- `pre-commit` 도구를 구성하고 코드 서식을 위해 `black`과 `flake8`을 활성화하세요.
+
+<h4 id="requpdate">4. 종속성 업데이트</h4>
+
+- 새로운 종속성을 도입하는 경우, `pyproject.toml` 파일의 종속성 목록을 적시에 업데이트하십시오.
+
+
+<h4 id="docupdate">5. 문서 업데이트</h4>
+
+- 새로운 명령줄 옵션을 추가할 경우, 모든 언어 버전의 `README.md` 파일에 있는 명령줄 옵션 목록을 해당 언어로 업데이트해 주세요.
+
+
+<h4 id="commitmsg">6. 커밋 메시지</h4>
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)를 사용하세요. 예시: `feat(translator): add openai`.
+
+<h4 id="codestyle">7. 코딩 스타일</h4>
+
+- 제출한 코드가 기본적인 코딩 스타일 표준을 준수하는지 확인하세요.
+   - 변수 이름에는 snake_case 또는 camelCase를 사용하세요.
+
+<h4 id="doctypo">8. 문서 서식</h4>
+
+- `README.md` 포맷팅은 [중국어 작성 가이드라인](https://github.com/sparanoid/chinese-copywriting-guidelines)을 따르세요.
+   - 영어 및 중국어 문서는 항상 최신 상태로 유지하고, 다른 언어 문서 업데이트는 선택 사항입니다.
+
+## 번역 엔진 추가하기
+
+1. `pdf2zh/config/translate_engine_model.py` 파일에 새로운 번역기 구성 클래스를 추가합니다.
+2. 동일한 파일의 `TRANSLATION_ENGINE_SETTING_TYPE` 타입 별칭에 새로운 번역기 구성 클래스의 인스턴스를 추가합니다.
+3. `pdf2zh/translator/translator_impl` 폴더에 새로운 번역기 구현 클래스를 추가합니다.
+
+> [!NOTE]
+>
+> 이 프로젝트는 RPS(초당 요청 수)가 4 미만인 번역 엔진을 지원할 의도가 없습니다. 해당 엔진에 대한 지원을 요청하지 마십시오.
+
+## 프로젝트 구조
+
+- **config folder**: 설정 시스템.
+- **translator folder**: 번역기 관련 구현.
+- **gui.py**: GUI 인터페이스를 제공합니다.
+- **const.py**: 일부 상수.
+- **main.py**: 명령줄 도구를 제공합니다.
+- **high_level.py**: BabelDOC 기반의 고급 인터페이스.
+- **http_api.py**: HTTP API를 제공합니다 (시작되지 않음).
+
+## 문의하기
+
+질문이 있으시면 Issue를 통해 피드백을 제출하거나 Telegram 그룹에 참여해 주세요. 기여해 주셔서 감사합니다!
+
+> [!TIP]
+>
+> [Immersive Translate](https://immersivetranslate.com)는 이 프로젝트에 활발히 기여하는 분들에게 매월 Pro 멤버십 코드를 후원합니다. 자세한 내용은 [BabelDOC/PDFMathTranslate 기여자 보상 규칙](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)을 참조하세요.
+
+<div align="right"> 
+<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
