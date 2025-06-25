@@ -2,113 +2,112 @@
 
 > [!CAUTION]
 >
-> 当前本项目维护者正在研究文档自动国际化，故不接受任何与文档国际化/文档翻译相关的 PR！
+> The current project maintainers are researching automated documentation internationalization. Therefore, any PRs related to documentation internationalization/translation will NOT be accepted!
 >
-> 请勿提交与文档国际化/文档翻译相关的 PR！
+> Please do NOT submit PRs related to documentation internationalization/translation!
 
-感谢您对本项目的兴趣！在您开始贡献之前，请花一些时间阅读以下指南，确保您的贡献能够顺利被接受。
+Thank you for your interest in this project! Before you start contributing, please take some time to read the following guidelines to ensure your contribution can be smoothly accepted.
 
-## 不接受的贡献类型
+## Types of Contributions Not Accepted
 
-1. 文档国际化/文档翻译
-2. 与基础架构有关的贡献，如 HTTP API 等。
-3. 明确标出 No help needed 的 Issue（包括 [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) 仓库的 issue）。
-4. 其他维护者认为不合适的贡献。
+1. Documentation internationalization/translation
+2. Contributions related to core infrastructure, such as HTTP API, etc.
+3. Issues explicitly marked as "No help needed" (including issues in the [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) repository).
+4. Other contributions deemed inappropriate by the maintainers.
 
-请勿提交与上述类型相关的 PR。
+Please do NOT submit PRs related to the above types.
 
-## 提交流程
+## Contribution Process
 
-1. Fork 本仓库并克隆到本地。
-2. 创建新分支：`git checkout -b feature/<feature-name>`。
-3. 进行开发并确保代码符合要求。
-4. 提交代码：
+1. Fork this repository and clone it locally.
+2. Create a new branch: `git checkout -b feature/<feature-name>`.
+3. Develop and ensure your code meets the requirements.
+4. Commit your code:
    ```bash
    git add .
-   git commit -m "<语义化提交信息>"
+   git commit -m "<semantic commit message>"
    ```
-5. 推送到您的仓库：`git push origin feature/<feature-name>`。
-6. 在 GitHub 上创建 PR，并填写详细说明。然后请求 [@awwaawwa](https://github.com/awwaawwa) Review.
-7. 确保通过所有自动化检查。
+5. Push to your repository: `git push origin feature/<feature-name>`.
+6. Create a PR on GitHub, provide a detailed description, and request a review from [@awwaawwa](https://github.com/awwaawwa).
+7. Ensure all automated checks pass.
 
 > [!TIP]
 >
-> 您无需等到完全开发完成再创建 PR，可以尽早创建，方便我们查看您的实现并提供建议。
+> You do not need to wait until your development is fully complete to create a PR. Creating one early allows us to review your implementation and provide suggestions.
 >
-> 如果您对源代码或相关事宜有任何疑问，请联系维护者 aw@funstory.ai。
+> If you have any questions about the source code or related matters, please contact the maintainer at aw@funstory.ai.
 >
-> 2.0 版本资源文件与 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 共享，相关资源下载代码在 BabelDOC 中。如果您想要添加新的资源文件，请联系 BabelDOC 维护者 aw@funstory.ai。
+> Resource files for version 2.0 are shared with [BabelDOC](https://github.com/funstory-ai/BabelDOC). The code for downloading related resources is in BabelDOC. If you want to add new resource files, please contact the BabelDOC maintainer at aw@funstory.ai.
 
-## 基本要求
+## Basic Requirements
 
-<h4 id="sop">1. 工作流程</h4>
+<h4 id="sop">1. Workflow</h4>
 
-   - 请在 `main` 主分支上创建 fork，并在 fork 的分支上进行开发。
-   - 提交 Pull Request (PR) 时，请对提交的内容进行详细说明。
-   - 如果 PR 没有通过自动化检查（提示 `checks failed` 和红色叉号标记），请查看相应的 `details` 并修改提交内容，确保新的 PR 可以通过自动化检查。
-
-
-<h4 id="dev&test">2. 开发和测试</h4>
-
-   - 使用 `pip install -e .` 命令进行开发和测试。
+   - Please fork from the `main` branch and develop on your forked branch.
+   - When submitting a Pull Request (PR), provide a detailed description of your changes.
+   - If your PR does not pass automated checks (indicated by `checks failed` and a red cross), please review the corresponding `details` and modify your submission to ensure the new PR passes all checks.
 
 
-<h4 id="format">3. 代码格式化</h4>
+<h4 id="dev&test">2. Development and Testing</h4>
 
-   - 配置 `pre-commit` 工具，启用 `black` 和 `flake8` 进行代码格式化。
-
-
-<h4 id="requpdate">4. 依赖更新</h4>
-
-   - 如果引入了新的依赖，请及时更新 `pyproject.toml` 文件中的依赖列表。
+   - Use the command `pip install -e .` for development and testing.
 
 
-<h4 id="docupdate">5. 文档更新</h4>
+<h4 id="format">3. Code Formatting</h4>
 
-   - 如果添加了新的命令行选项，请同步更新多语言版本的 `README.md` 文件中的命令行选项列表。
-
-
-<h4 id="commitmsg">6. 提交信息</h4>
-
-   - 使用 [语义化提交信息](https://www.conventionalcommits.org/zh-hans/v1.0.0/)，例如：`feat(translator): add openai`。
+   - Configure the `pre-commit` tool and enable `black` and `flake8` for code formatting.
 
 
-<h4 id="codestyle">7. 编码风格</h4>
+<h4 id="requpdate">4. Dependency Updates</h4>
 
-   - 请确保提交的代码符合基本的编码风格规范。
-   - 变量命名请使用下划线或驼峰命名法。
+   - If you introduce new dependencies, please update the dependency list in the `pyproject.toml` file in a timely manner.
 
 
-<h4 id="doctypo">8. 文档排版</h4>
+<h4 id="docupdate">5. Documentation Updates</h4>
 
-   - `README.md` 文件的排版请遵循 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
-   - 确保英文和中文文档始终保持最新状态，其它语言文档为可选更新。
+   - If you add new command-line options, please update the list of command-line options in all language versions of the `README.md` file accordingly.
 
-## 添加翻译接口
 
-1. 在 `pdf2zh/config/translate_engine_model.py` 文件中添加新的翻译器配置类。
-2. 在 `pdf2zh/config/translate_engine_model.py` 文件中添加新的翻译器配置类实例到 `TRANSLATION_ENGINE_SETTING_TYPE` 类型别名中。
-3. 在 `pdf2zh/translator/translator_impl` 文件夹中添加新的翻译器实现类。
+<h4 id="commitmsg">6. Commit Messages</h4>
+
+   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), for example: `feat(translator): add openai`.
+
+
+<h4 id="codestyle">7. Coding Style</h4>
+
+   - Ensure your submitted code adheres to basic coding style standards.
+   - Use either snake_case or camelCase for variable naming.
+
+
+<h4 id="doctypo">8. Documentation Formatting</h4>
+
+   - For `README.md` formatting, please follow the [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).
+   - Ensure that both English and Chinese documentation are always up to date; other language documentation updates are optional.
+
+## Adding a Translation Engine
+
+1. Add a new translator configuration class in the `pdf2zh/config/translate_engine_model.py` file.
+2. Add an instance of the new translator configuration class to the `TRANSLATION_ENGINE_SETTING_TYPE` type alias in the same file.
+3. Add the new translator implementation class in the `pdf2zh/translator/translator_impl` folder.
 
 > [!NOTE]
 >
-> 本项目不准备支持任何换算至 rps 后低于 4 的翻译引擎，请勿提交这些翻译引擎的支持。
+> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.
 
-## 项目结构
+## Project Structure
 
-- **config 文件夹**: 配置系统。
-- **translator 文件夹**: 翻译器相关实现。
-- **gui.py**: 提供 GUI 界面。
-- **const.py**: 一些常量。
-- **main.py**: 提供命令行工具。
-- **high_level.py**: 基于 BabelDOC 封装出高级接口。
-- **http_api.py**: 提供 HTTP API（未开工）。
+- **config folder**: Configuration system.
+- **translator folder**: Translator-related implementations.
+- **gui.py**: Provides the GUI interface.
+- **const.py**: Some constants.
+- **main.py**: Provides the command-line tool.
+- **high_level.py**: High-level interfaces based on BabelDOC.
+- **http_api.py**: Provides HTTP API (not started).
 
-## 联系我们
+## Contact Us
 
-如有任何问题，请通过 Issue 或 Telegram Group 提交反馈。感谢您的贡献！
+If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!
 
 > [!TIP]
 >
-> [沉浸式翻译](https://immersivetranslate.com) 为本项目的活跃贡献者赞助月度 Pro 会员兑换码，详情请见：[BabelDOC/PDFMathTranslate 贡献者奖励规则
-](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
