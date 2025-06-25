@@ -367,6 +367,7 @@ def _build_translate_settings(
     # New input for custom_system_prompt
     custom_system_prompt_input = ui_inputs.get("custom_system_prompt_input")
     glossaries = ui_inputs.get("glossaries")
+    save_auto_extracted_glossary = ui_inputs.get("save_auto_extracted_glossary")
 
     # Map UI language selections to language codes
     source_lang = lang_map.get(lang_from, "auto")
@@ -503,6 +504,10 @@ def _build_translate_settings(
     else:
         translate_settings.translation.glossaries = None
 
+    translate_settings.translation.save_auto_extracted_glossary = (
+        save_auto_extracted_glossary
+    )
+
     # Validate settings before proceeding
     try:
         translate_settings.validate_settings()
@@ -564,6 +569,7 @@ async def _run_translation_task(
     """
     mono_path = None
     dual_path = None
+    glossary_path = None
 
     try:
         settings.basic.input_files = set()
@@ -588,6 +594,7 @@ async def _run_translation_task(
                 result = event["translate_result"]
                 mono_path = result.mono_pdf_path
                 dual_path = result.dual_pdf_path
+                glossary_path = result.auto_extracted_glossary_path
                 progress(1.0, desc="Translation complete!")
                 break
             elif event["type"] == "error":
@@ -617,7 +624,7 @@ async def _run_translation_task(
         logger.error(f"Error in _run_translation_task: {e}", exc_info=True)
         raise gr.Error(f"Translation failed: {e}") from e
 
-    return mono_path, dual_path
+    return mono_path, dual_path, glossary_path
 
 
 async def stop_translate_file(state: dict) -> None:
@@ -669,6 +676,7 @@ async def translate_file(
     # New input for custom_system_prompt
     custom_system_prompt_input,
     glossary_file,
+    save_auto_extracted_glossary,
     # New advanced translation options
     pool_max_workers,
     no_auto_extract_glossary,
@@ -754,6 +762,7 @@ async def translate_file(
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
         "glossaries": _build_glossary_list(glossary_file, lang_to, service),
+        "save_auto_extracted_glossary": save_auto_extracted_glossary,
         # New advanced translation options
         "pool_max_workers": pool_max_workers,
         "no_auto_extract_glossary": no_auto_extract_glossary,
@@ -793,7 +802,7 @@ async def translate_file(
         state["current_task"] = task
 
         # Wait for the translation to complete
-        mono_path, dual_path = await task
+        mono_path, dual_path, glossary_path = await task
         if not mono_path or not mono_path.exists():
             mono_path = None
         else:
@@ -802,13 +811,22 @@ async def translate_file(
             dual_path = None
         else:
             dual_path = dual_path.as_posix()
+
+        if not glossary_path or not glossary_path.exists():
+            glossary_path = None
+        else:
+            glossary_path = glossary_path.as_posix()
         # Build success UI updates
         return (
             str(mono_path) if mono_path else None,  # Output mono file
             str(mono_path) if mono_path else dual_path,  # Preview
             str(dual_path) if dual_path else None,  # Output dual file
+            str(glossary_path)
+            if save_auto_extracted_glossary
+            else None,  # Output dual file
             gr.update(visible=bool(mono_path)),  # Show mono download if available
             gr.update(visible=bool(dual_path)),  # Show dual download if available
+            gr.update(visible=bool(glossary_path)),  # Show dual download if available
             gr.update(
                 visible=bool(mono_path or dual_path)
             ),  # Show output title if any output
@@ -1155,6 +1173,12 @@ with gr.Blocks(
                 )
                 require_llm_translator_inputs.append(glossary_table)
 
+                save_auto_extracted_glossary = gr.Checkbox(
+                    label="save automatically extracted glossary (experimental)",
+                    value=settings.translation.save_auto_extracted_glossary,
+                    interactive=True,
+                )
+
                 # PDF options section
                 gr.Markdown("### PDF Options")
 
@@ -1250,6 +1274,9 @@ with gr.Blocks(
             )
             output_file_dual = gr.File(
                 label="Download Translation (Dual)", visible=False
+            )
+            output_file_glossary = gr.File(
+                label="Download automatically extracted glossary", visible=False
             )
 
             translate_btn = gr.Button("Translate", variant="primary")
@@ -1440,6 +1467,7 @@ with gr.Blocks(
             rpc_doclayout,
             custom_system_prompt_input,
             glossary_file,
+            save_auto_extracted_glossary,
             # New advanced translation options
             pool_max_workers,
             no_auto_extract_glossary,
@@ -1465,8 +1493,10 @@ with gr.Blocks(
             output_file_mono,  # Mono PDF file
             preview,  # Preview
             output_file_dual,  # Dual PDF file
+            output_file_glossary,
             output_file_mono,  # Visibility of mono output
             output_file_dual,  # Visibility of dual output
+            output_file_glossary,
             output_title,  # Visibility of output title
         ],
     )
