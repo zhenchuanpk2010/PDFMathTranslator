@@ -1343,14 +1343,19 @@ with gr.Blocks(
         if glossary_file is None:
             return gr.update(visible=False)
 
-        glossary_list = [""]
+        glossary_list = []
         for file in glossary_file:
-            with io.StringIO(file.decode(chardet.detect(file)["encoding"])) as f:
-                csvreader = csv.reader(f, delimiter=",")
+            file_encoding = chardet.detect(file)["encoding"]
+            content = file.decode(file_encoding).replace("\r\n", "\n").strip()
+            with io.StringIO(content) as f:
+                csvreader = csv.reader(f, delimiter=",", doublequote=True)
                 next(csvreader)  # Skip header
                 for line in csvreader:
-                    glossary_list.append(line)
+                    if line:
+                        glossary_list.append(line)
         logger.warning(f"on_glossary_file_delete glossary_list {glossary_list}")
+        if not glossary_list:
+            glossary_list = ["", "", ""]
         return gr.update(visible=True, value=glossary_list)
 
     # Default file handler
