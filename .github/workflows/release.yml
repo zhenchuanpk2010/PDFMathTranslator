@@ -399,7 +399,7 @@ jobs:
 
           Write-Host "==== 在 venv 环境中安装项目依赖 ===="
           uv pip install .
-          uv pip install BabelDOC[directml]
+          uv pip install --compile-bytecode BabelDOC[directml]
           pdf2zh --version
           babeldoc --version
 

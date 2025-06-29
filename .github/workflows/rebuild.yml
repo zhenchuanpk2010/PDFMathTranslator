@@ -119,9 +119,9 @@ jobs:
           Write-Host "==== Installing project dependencies in venv ===="
           uv pip install .
           if ("${{ github.event.inputs.babeldoc_version }}") {
-            uv pip install "BabelDOC[directml]==${{ github.event.inputs.babeldoc_version }}"
+            uv pip install --compile-bytecode "BabelDOC[directml]==${{ github.event.inputs.babeldoc_version }}"
           } else {
-            uv pip install --upgrade "BabelDOC[directml]"
+            uv pip install --upgrade --compile-bytecode "BabelDOC[directml]"
           }
           pdf2zh --version
           babeldoc --version
