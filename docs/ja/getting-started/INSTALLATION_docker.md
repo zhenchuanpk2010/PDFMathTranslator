@@ -1,16 +1,16 @@
-[**開始**](./getting-started.md) > **インストール** > **Docker** _(現在)_
+[**始め方**](./getting-started.md) > **インストール** > **Docker** _(current)_
 
 ---
 
-### PDFMathTranslateをdockerでインストール
+### docker 経由で PDFMathTranslate をインストールする
 
-#### Dockerとは何ですか？
+#### Docker とは何ですか？
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) は、アプリケーションの開発、配布、実行のためのオープンプラットフォームです。Dockerを使用すると、アプリケーションをインフラストラクチャから分離できるため、ソフトウェアを迅速に提供できます。Dockerでは、アプリケーションを管理するのと同じ方法でインフラストラクチャを管理できます。Dockerのコード配布、テスト、デプロイの方法論を活用することで、コードの記述から本番環境での実行までの遅延を大幅に削減できます。
+[Docker](https://docs.docker.com/get-started/docker-overview/) は、アプリケーションの開発、配布、実行のためのオープンプラットフォームです。Docker を使用することで、アプリケーションをインフラストラクチャから分離し、ソフトウェアを迅速に提供できます。Docker では、アプリケーションを管理するのと同じ方法でインフラストラクチャを管理できます。Docker のコード配布、テスト、デプロイの方法論を活用することで、コードを書いてから本番環境で実行するまでの遅延を大幅に削減できます。
 
 #### インストール
 
-<h4>1. プルして実行:</h4>
+<h4>1. プルして実行：</h4>
 
 ```bash
 docker pull awwaawwa/pdfmathtranslate-next
@@ -19,27 +19,26 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - Docker Hubにアクセスできない場合は、[GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate)上のイメージを試してください。
+> - Docker Hub にアクセスできない場合は、[GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate)のイメージをお試しください。
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
-> ```
+>
 
-<h4>2. デフォルトのブラウザでこのURLを入力してWebUIページを開きます:</h4>
+<h4>2. デフォルトのブラウザでこの URL を入力して WebUI ページを開きます：</h4>
 
 ```
 http://localhost:7860/
 ```
 
 > [!NOTE]
-> WebUIの使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md)を参照してください。
+> WebUI の使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md)を参照してください。
 
 > [!NOTE]
 > コマンドラインの使用中に問題が発生した場合は、[使い方 --> コマンドライン](./USAGE_commandline.md)を参照してください。
-
 <!-- 
-#### クラウドサービスでのDockerデプロイの場合:
+#### For docker deployment on cloud service:
 
 <div>
 <a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
@@ -55,4 +54,4 @@ http://localhost:7860/
 -->
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

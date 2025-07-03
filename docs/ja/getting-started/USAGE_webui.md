@@ -1,37 +1,37 @@
-[**開始**](./getting-started.md) > **インストール** > **WebUI** _(現在のページ)_
+[**開始**](./getting-started.md) > **インストール** > **WebUI** _(current)_
 
 ---
 
-### Webui で PDFMathTranslate を使用する
+### Webui 経由で PDFMathTranslate を使用する
 
-#### WebUIページを開く方法:
+#### WebUI ページを開く方法：
 
-WebUIインターフェースを開く方法はいくつかあります。**Windows**を使用している場合は、[この記事](./INSTALLATION_winexe.md)を参照してください。
+WebUI インターフェースを開く方法はいくつかあります。**Windows**を使用している場合は、[この記事](./INSTALLATION_winexe.md)を参照してください。
 
-1. Pythonがインストールされていること（3.10 <= バージョン <= 3.13）
+1. Python がインストールされていること (3.10 <= バージョン <= 3.13)
 
-2. パッケージをインストール:
+2. パッケージをインストール：
 
-3. ブラウザで使い始める:
+3. ブラウザで使用開始：
 
     ```bash
     pdf2zh_next --gui
     ```
 
-4. ブラウザが自動的に起動しない場合は、次のURLにアクセスしてください。
+4. ブラウザが自動的に起動しない場合、以下にアクセス：
 
     ```bash
     http://localhost:7860/
     ```
 
-    PDFファイルをウィンドウにドロップし、`Translate`をクリックします。
+    PDF ファイルをウィンドウにドロップして`Translate`をクリック。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### 環境変数
 
-ソース言語とターゲット言語は環境変数を使用して設定できます:
+ソース言語とターゲット言語は環境変数を使用して設定できます：
 
 - `PDF2ZH_LANG_FROM`: ソース言語を設定します。デフォルトは「English」です。
 - `PDF2ZH_LANG_TO`: ターゲット言語を設定します。デフォルトは「Simplified Chinese」です。
@@ -43,7 +43,7 @@ WebUIインターフェースを開く方法はいくつかあります。**Wind
 
 ## メンテナンス
 
-GUIは[Rongxin](https://github.com/reycn)によってメンテナンスされています
+GUI は[Rongxin](https://github.com/reycn)によってメンテナンスされています
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

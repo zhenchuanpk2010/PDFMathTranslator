@@ -1,12 +1,12 @@
-[**Erste Schritte**](./getting-started.md) > **Verwendung** > **Kommandozeile** _(aktuell)_
+[**Erste Schritte**](./erste-schritte.md) > **Verwendung** > **Kommandozeile** _(current)_
 
 ---
 
-### Verwenden Sie PDFMathTranslate über die Kommandozeile
+### PDFMathTranslate über die Kommandozeile verwenden
 
 #### Grundlegende Verwendung
 
-Nach der Installation geben Sie bitte diesen Befehl ein, um Ihr PDF zu übersetzen.
+Nach der Installation geben Sie bitte diesen Befehl ein, um Ihre PDF zu übersetzen.
 
 ```bash
 pdf2zh_next document.pdf
@@ -14,17 +14,17 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Wenn Ihr Pfadname Leerzeichen enthält, setzen Sie ihn bitte in Anführungszeichen.
+> Wenn Ihr Pfadname Leerzeichen enthält, schließen Sie ihn bitte in Anführungszeichen ein.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
-> ```
+>
 
-Nach der Ausführung der Übersetzung werden die Dateien im **aktuellen Arbeitsverzeichnis** erstellt.
+Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** erstellt.
 
 > [!TIP]
-> **Wo befindet sich mein "Aktuelles Arbeitsverzeichnis"?**
-> Bevor Sie einen Befehl im Terminal eingeben, wird möglicherweise ein Pfadname in Ihrem Terminal angezeigt:
+> **Wo ist mein "aktuelles Arbeitsverzeichnis"?**
+> Bevor Sie einen Befehl im Terminal eingeben, sehen Sie möglicherweise einen Pfadnamen in Ihrem Terminal:
 > 
 > ```powershell
 > PS C:\Users\XXX>
@@ -44,7 +44,7 @@ Nach der Ausführung der Übersetzung werden die Dateien im **aktuellen Arbeitsv
 
 #### Erweiterte Optionen
 
-Für detaillierte Erklärungen zusätzlicher Kommandozeilenparameter lesen Sie bitte [erweiterte Verwendung](./../advanced/advanced.md).
+Für detaillierte Erklärungen zu zusätzlichen Kommandozeilenparametern lesen Sie bitte [erweiterte Optionen](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

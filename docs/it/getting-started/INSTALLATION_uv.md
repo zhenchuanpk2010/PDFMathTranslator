@@ -31,7 +31,7 @@ Dopo l'installazione, puoi iniziare la traduzione tramite la **riga di comando**
 
     === "macOS e Linux"
 
-        Aggiungi quanto segue al tuo file ~/.zshrc:
+        Aggiungi quanto segue al tuo ~/.zshrc:
 
         ```console
         export PATH="$PATH:/Users/Username/.local/bin"
@@ -50,7 +50,7 @@ Dopo l'installazione, puoi iniziare la traduzione tramite la **riga di comando**
         Quindi riavvia il terminale
 
 > [!NOTE]
-> Se riscontri problemi durante l'utilizzo della WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
+> Se riscontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Se riscontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).

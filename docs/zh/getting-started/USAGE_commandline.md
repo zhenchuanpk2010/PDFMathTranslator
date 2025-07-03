@@ -1,4 +1,4 @@
-[**开始使用**](./getting-started.md) > **如何使用** > **命令行** _(当前)_
+[**快速开始**](./getting-started.md) > **如何使用** > **命令行** _(current)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### 基本用法
 
-安装完成后，请输入以下命令来翻译您的 PDF。
+安装完成后，请输入此命令来翻译你的 PDF。
 
 ```bash
 pdf2zh_next document.pdf
@@ -14,7 +14,7 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> 如果路径名包含空格，请用引号将其括起来。
+> 如果您的路径名包含空格，请用引号将其括起来。
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
@@ -24,7 +24,7 @@ pdf2zh_next document.pdf
 
 > [!TIP]
 > **我的“当前工作目录”在哪里？**
-> 在终端中输入命令之前，你可能会在终端中看到一个路径名：
+> 在终端中输入命令前，你可能会在终端中看到一个路径名：
 > 
 > ```powershell
 > PS C:\Users\XXX>
@@ -38,13 +38,13 @@ pdf2zh_next document.pdf
 > pwd
 > ```
 > 
-> 执行此命令后，会输出一个路径名。这个路径名就是“**当前工作目录**”。翻译后的文件将出现在此目录中。
+> 执行该命令后，会输出一个路径名。这个路径名就是“**当前工作目录**”。翻译后的文件将出现在此目录中。
 
 ---
 
 #### 高级选项
 
-有关更多命令行参数的详细说明，请参阅[高级选项](./../advanced/advanced.md)。
+如需详细了解其他命令行参数，请参阅[高级选项](./../advanced/advanced.md)。
 
 <div align="right"> 
 <h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

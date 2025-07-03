@@ -24,7 +24,7 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
-> ```
+>
 
 <h4>2. Ingresa esta URL en tu navegador predeterminado para abrir la página WebUI:</h4>
 
@@ -33,13 +33,12 @@ http://localhost:7860/
 ```
 
 > [!NOTE]
-> Si encuentras algún problema durante el uso de la WebUI, consulta [Uso --> WebUI](./USAGE_webui.md).
+> Si encuentras algún problema al usar la WebUI, consulta [Uso --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
-> Si encuentras algún problema durante el uso de la línea de comandos, consulta [Uso --> Línea de comandos](./USAGE_commandline.md).
-
+> Si encuentras algún problema al usar la línea de comandos, consulta [Uso --> Línea de comandos](./USAGE_commandline.md).
 <!-- 
-#### Para despliegue en docker en servicios en la nube:
+#### For docker deployment on cloud service:
 
 <div>
 <a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">

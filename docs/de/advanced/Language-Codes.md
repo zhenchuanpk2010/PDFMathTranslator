@@ -11,24 +11,24 @@ Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Amharisch | Amharic | `am` |
 | Arabisch | Arabic | `ar` |
 | Baskisch | Basque | `eu` |
-| Bengali | Bengali | `bn` |
+| Bengalisch | Bengali | `bn` |
 | Englisch (UK) | English (UK) | `en-GB` |
 | Portugiesisch (Brasilien) | Portuguese (Brazil) | `pt-BR` |
 | Bulgarisch | Bulgarian | `bg` |
 | Katalanisch | Catalan | `ca` |
-| 切罗基语 | Cherokee | `chr` |
+| Cherokee | Cherokee | `chr` |
 | Kroatisch | Croatian | `hr` |
 | Tschechisch | Czech | `cs` |
 | Dänisch | Danish | `da` |
 | Niederländisch | Dutch | `nl` |
-| Deutsch (Deutschland) | German (Germany) | `de` |
-| Estnisch | Estonian | `et` |
-| 菲律宾语 | Filipino | `fil` |
+| Englisch (USA) | English (US) | `en` |
+| 爱沙尼亚语 | Estonian | `et` |
+| Philippinisch | Filipino | `fil` |
 | Finnisch | Finnish | `fi` |
 | Französisch | French | `fr` |
 | Deutsch | German | `de` |
 | Griechisch | Greek | `el` |
-| Gujarati | Gujarati | `gu` |
+| 古吉拉特语 | Gujarati | `gu` |
 | Hebräisch | Hebrew | `iw` |
 | Hindi | Hindi | `hi` |
 | Ungarisch | Hungarian | `hu` |
@@ -36,13 +36,13 @@ Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Indonesisch | Indonesian | `id` |
 | Italienisch | Italian | `it` |
 | Japanisch | Japanese | `ja` |
-| Kannada | Kannada | `kn` |
-| Koreanisch | `ko` |
+| 卡纳达语 | Kannada | `kn` |
+| Koreanisch | Korean | `ko` |
 | Lettisch | Latvian | `lv` |
 | Litauisch | Lithuanian | `lt` |
-| Malayisch | Malay | `ms` |
-| Malayalam | `ml` |
-| Marathi | `mr` |
+| 马来语 | Malay | `ms` |
+| 马拉雅拉姆语 | Malayalam | `ml` |
+| 马拉地语 | Marathi | `mr` |
 | Norwegisch | Norwegian | `no` |
 | Polnisch | Polish | `pl` |
 | Portugiesisch (Portugal) | Portuguese (Portugal) | `pt-PT` |
@@ -55,21 +55,21 @@ Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Spanisch | Spanish | `es` |
 | Swahili | Swahili | `sw` |
 | Schwedisch | Swedish | `sv` |
-| Tamilisch | Tamil | `ta` |
+| 泰米尔语 | Tamil | `ta` |
 | Telugu | Telugu | `te` |
 | Thailändisch | Thai | `th` |
-| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
+| Chinesisch (Taiwan) | Chinese (Taiwan) | `zh-TW` |
 | Türkisch | Turkish | `tr` |
 | Urdu | Urdu | `ur` |
 | Ukrainisch | Ukrainian | `uk` |
 | Vietnamesisch | Vietnamese | `vi` |
-| 威尔士语 | Welsh | `cy` |
+| Walisisch | Welsh | `cy` |
+
 
 #### DeepL
-
 Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organisiert von GPT-4o.
 
-| Bezeichnung auf Chinesisch | Bezeichnung | `Language Code`| Unterstützung |
+| Label in Chinese | Label | `Language Code`| Supports |
 | --- | --- | --- | --- |
 | Arabisch | Arabic | `AR` | `source`, `target` |
 | Bulgarisch | Bulgarian | `BG` | `source`, `target` |
@@ -79,7 +79,7 @@ Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Griechisch | Greek | `EL` | `source`, `target` |
 | Englisch | English | `EN` | `source`, `target` |
 | Englisch (UK) | English (British) | `EN-GB` | `target` |
-| 德语（Deutsch） | German | `DE` | `target` |
+| Englisch (Amerikanisch) | English (American) | `EN-US` | `target` |
 | Spanisch | Spanish | `ES` | `source`, `target` |
 | Estnisch | Estonian | `ET` | `source`, `target` |
 | Finnisch | Finnish | `FI` | `source`, `target` |
@@ -91,11 +91,11 @@ Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Koreanisch | Korean | `KO` | `source`, `target` |
 | Litauisch | Lithuanian | `LT` | `source`, `target` |
 | Lettisch | Latvian | `LV` | `source`, `target` |
-| Norwegisch Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |
+| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |
 | Niederländisch | Dutch | `NL` | `source`, `target` |
 | Polnisch | Polish | `PL` | `source`, `target` |
 | Portugiesisch | Portuguese | `PT` | `source`, `target` |
-| Portugiesisch (Brasilianisch) | Portuguese (Brazilian) | `PT-BR` | `target` |
+| Portugiesisch (Brasilien) | Portuguese (Brazilian) | `PT-BR` | `target` |
 | Portugiesisch (Europäisch) | Portuguese (European) | `PT-PT` | `target` |
 | Rumänisch | Romanian | `RO` | `source`, `target` |
 | Russisch | Russian | `RU` | `source`, `target` |
@@ -105,14 +105,7 @@ Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Türkisch | Turkish | `TR` | `source`, `target` |
 | Ukrainisch | Ukrainian | `UK` | `source`, `target` |
 | Deutsch | German | `DE` | `source`, `target` |
-| Deutsch | German | `DE` | `target` |
-
-Hier ist die übersetzte Markdown-Tabelle:
-
-```markdown
-| Chinesisch (Vereinfacht) | Chinese (Simplified) | `ZH-HANS` | `target` |
-| Deutsch | German | `DE` | `target` |
-```
+| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
 | 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 

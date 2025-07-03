@@ -4,9 +4,9 @@
 
 ### Installer PDFMathTranslate via docker
 
-#### Qu'est-ce que Docker ?
+#### Qu'est-ce que docker ?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) est une plateforme open source pour développer, livrer et exécuter des applications. Docker vous permet de séparer vos applications de votre infrastructure afin de livrer des logiciels rapidement. Avec Docker, vous pouvez gérer votre infrastructure de la même manière que vous gérez vos applications. En tirant parti des méthodologies de Docker pour la livraison, les tests et le déploiement de code, vous pouvez réduire considérablement le délai entre l'écriture du code et son exécution en production.
+[Docker](https://docs.docker.com/get-started/docker-overview/) est une plateforme open source pour développer, livrer et exécuter des applications. Docker vous permet de séparer vos applications de votre infrastructure afin de livrer des logiciels rapidement. Avec Docker, vous pouvez gérer votre infrastructure de la même manière que vous gérez vos applications. En tirant parti des méthodologies de Docker pour livrer, tester et déployer du code, vous pouvez réduire considérablement le délai entre l'écriture du code et son exécution en production.
 
 #### Installation
 
@@ -37,9 +37,8 @@ http://localhost:7860/
 
 > [!NOTE]
 > Si vous rencontrez des problèmes lors de l'utilisation de la ligne de commande, veuillez consulter [Utilisation --> Ligne de commande](./USAGE_commandline.md).
-
 <!-- 
-#### Pour un déploiement Docker sur un service cloud :
+#### For docker deployment on cloud service:
 
 <div>
 <a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">

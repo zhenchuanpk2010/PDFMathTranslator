@@ -14,7 +14,7 @@ El presente proyecto soporta dos tipos de APIs, todos los métodos necesitan Red
 
 Como `pdf2zh` es un módulo instalado en Python, exponemos dos métodos para que otros programas los llamen en cualquier script de Python.
 
-Por ejemplo, si deseas traducir un documento de inglés a chino usando Google Translate, puedes usar el siguiente código:
+Por ejemplo, si deseas traducir un documento del inglés al chino usando Google Translate, puedes usar el siguiente código:
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -26,43 +26,11 @@ params = {
     'thread': 4,
 }
 ```
-
 Traducir con archivos:
-
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-
-```bash
-pdf2zh -i input.pdf -o output.pdf
-```
-
-[!NOTE]
-If you want to translate a PDF file to another language, you can use the `-l` option to specify the [Language Code](#language-code). For example, to translate to Spanish, use `-l es`.
-
-[!WARNING]
-The output file will be overwritten if it already exists.
-
-For more information, see [Documentation of Translation Services](#documentation-of-translation-services).
-
----
-
-### Related Topics
-- [Getting Start](#getting-start)
-- [Installation](#installation)
-- [Command Line](#command-line)
-- [Usage](#usage)
-- [Advanced](#advanced)
-- [Support Languages](#support-languages)
-- [Community](#community)
-- [FAQ](#faq)
-
----
-
-```bash
-PDFMathTranslate -i input.pdf -o output.pdf
-```
-
+Traducir con flujo:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -84,7 +52,7 @@ De una manera más flexible, puedes comunicarte con el programa usando protocolo
    pdf2zh_next --celery worker
    ```
 
-2. Usando protocolos HTTP de la siguiente manera:
+2. Usar protocolos HTTP de la siguiente manera:
 
    - Enviar tarea de traducción
 
@@ -93,33 +61,33 @@ De una manera más flexible, puedes comunicarte con el programa usando protocolo
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-- Verificar progreso
+   - Verificar progreso
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-- Verificar progreso _(si está terminado)_
+   - Verificar progreso _(si está completado)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-- Guardar archivo monolingual
+   - Guardar archivo monolingüe
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-- Guardar archivo bilingüe
+   - Guardar archivo bilingüe
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-- Interrumpir si está en ejecución y eliminar la tarea
+   - Interrumpir si está en ejecución y eliminar la tarea
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```

@@ -10,10 +10,10 @@
 > **¿Cuál es la diferencia entre `pdf2zh-<version>-with-assets-win64.zip` y `pdf2zh-<version>-win64.zip`?**
 >
 > - Si estás descargando y usando PDFMathTranslate por primera vez, se recomienda descargar `pdf2zh-<version>-with-assets-win64.zip`.
-> - El archivo `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.
+> - El `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.
 > - La versión sin recursos también descargará dinámicamente los recursos al ejecutarse, pero la descarga puede fallar debido a problemas de red.
 
-***Paso 2*** | Descomprime `pdf2zh-<version>-with-assets-win64.zip` y navega hasta la carpeta `pdf2zh`. La descompresión puede tomar un tiempo, por favor ten paciencia.
+***Paso 2*** | Descomprime `pdf2zh-<version>-with-assets-win64.zip` y navega hasta la carpeta `pdf2zh`. La descompresión puede tardar un poco, por favor ten paciencia.
 
 ***Paso 3*** | Navega hasta la carpeta `pdf2zh`, luego haz doble clic en `pdf2zh.exe`.
 
@@ -22,7 +22,7 @@
 >
 > Si tienes problemas al ejecutar pdf2zh.exe, por favor instala `https://aka.ms/vs/17/release/vc_redist.x64.exe` e inténtalo de nuevo.
 
-***Paso 4*** | Una terminal aparecerá después de hacer doble clic en el archivo exe. Después de aproximadamente medio minuto a un minuto, una página web se abrirá en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
+***Paso 4*** | Aparecerá una terminal después de hacer doble clic en el archivo exe. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
 
 > [!NOTE]
 >
@@ -31,7 +31,7 @@
 ***Paso 5*** | ¡Disfruta!
 
 > [!TIP]
-> **Puedes usar el archivo .exe a través de la línea de comandos**
+> **Puedes usar el archivo .exe mediante la línea de comandos**
 >
 > Usa el archivo .exe a través de la línea de comandos de la siguiente manera:
 >
@@ -53,7 +53,7 @@
 > ./pdf2zh_next.exe "document.pdf" --lang-in en --lang-out ja
 > ```
 >
-> Si necesitas más información sobre el uso de la línea de comandos, por favor consulta este artículo.
+> Si necesitas más información sobre el uso de la línea de comandos, consulta este artículo.
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

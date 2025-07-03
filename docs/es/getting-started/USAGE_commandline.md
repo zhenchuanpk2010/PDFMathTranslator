@@ -2,11 +2,11 @@
 
 ---
 
-### Usar PDFMathTranslate mediante la línea de comandos
+### Usar PDFMathTranslate desde la línea de comandos
 
 #### Uso básico
 
-Después de la instalación, ingrese este comando para traducir su PDF.
+Después de la Instalación, por favor ingresa este comando para traducir tu PDF.
 
 ```bash
 pdf2zh_next document.pdf
@@ -14,11 +14,11 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Si tu ruta contiene espacios, por favor enciérrala entre comillas.
+> Si el nombre de la ruta contiene espacios, por favor enciérrelo entre comillas.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
-> ```
+>
 
 Después de ejecutar la traducción, los archivos se generan en el **directorio de trabajo actual**.
 
@@ -30,9 +30,9 @@ Después de ejecutar la traducción, los archivos se generan en el **directorio 
 > PS C:\Users\XXX>
 > ```
 > 
-> Este directorio es el "*Directorio de trabajo actual*."
+> Este directorio es el "*Directorio de trabajo actual*".
 > 
-> Si no hay una ruta, intenta ejecutar este comando en la terminal:
+> Si no hay una ruta visible, intenta ejecutar este comando en la terminal:
 > 
 > ```bash
 > pwd
@@ -44,7 +44,7 @@ Después de ejecutar la traducción, los archivos se generan en el **directorio 
 
 #### Opciones avanzadas
 
-Para explicaciones detalladas de parámetros adicionales de la línea de comandos, consulta [opciones avanzadas](./../advanced/advanced.md).
+Para explicaciones detalladas de los parámetros adicionales de la línea de comandos, consulta [opciones avanzadas](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

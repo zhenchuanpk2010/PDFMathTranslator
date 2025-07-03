@@ -1,12 +1,12 @@
 > [!CAUTION]
 >
-> Этот документ устарел, пожалуйста, не используйте его.
+> Этот документ устарел, пожалуйста, не используйте его в качестве справочного материала.
 
 <h2 id="toc">Содержание</h2>
 Настоящий проект поддерживает два типа API, все методы требуют Redis;
 
 - [Функциональные вызовы в Python](#api-python)
-- [HTTP-протоколы](#api-http)
+- [HTTP протоколы](#api-http)
 
 ---
 
@@ -26,15 +26,11 @@ params = {
     'thread': 4,
 }
 ```
-
 Перевод с файлами:
-
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-
 Перевод с потоком:
-
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -46,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-Более гибкий способ взаимодействия с программой — использование протокола HTTP, если:
+Более гибкий способ — взаимодействовать с программой с помощью протокола HTTP, если:
 
 1. Установка и запуск бэкенда
 
@@ -65,33 +61,33 @@ with open('example.pdf', 'rb') as f:
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-- Проверить прогресс
+   - Проверка прогресса
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-- Проверить прогресс _(если завершено)_
+   - Проверка прогресса _(если завершено)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-- Сохранить одноязычный файл
+   - Сохранение одноязычного файла
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-- Сохранить двуязычный файл
+   - Сохранение двуязычного файла
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-- Прервать выполнение и удалить задачу
+   - Прерывание, если выполняется, и удаление задачи
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```

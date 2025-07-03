@@ -1,4 +1,4 @@
-[**Começar**](./getting-started.md) > **Instalação** > **uv** _(atual)_
+[**Começar**](./começar.md) > **Instalação** > **uv** _(current)_
 
 ---
 
@@ -23,7 +23,7 @@ Para instalar o uv no seu computador, consulte [este artigo](https://docs.astral
     uv tool install --python 3.13 pdf2zh-next
     ```
 
-Após a instalação, você pode começar a tradução através da **linha de comando** ou **WebUI**.
+Após a instalação, você pode começar a tradução via **linha de comando** ou **WebUI**.
 
 !!! Warning
 

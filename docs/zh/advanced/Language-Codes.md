@@ -1,4 +1,4 @@
-[**高级选项**](./introduction.md) > **语言代码** _(当前)_
+[**高级选项**](./introduction.md) > **语言代码** _(current)_
 
 ---
 
@@ -65,11 +65,11 @@
 | 越南语 | Vietnamese | `vi` |
 | 威尔士语 | Welsh | `cy` |
 
-#### DeepL
 
+#### DeepL
 来源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。
 
-| 中文标签 | 标签 | `语言代码` | 支持类型 |
+| 中文标签 | Label | `Language Code`| 支持类型 |
 | --- | --- | --- | --- |
 | 阿拉伯语 | Arabic | `AR` | `source`, `target` |
 | 保加利亚语 | Bulgarian | `BG` | `source`, `target` |
