@@ -8,6 +8,8 @@ body:
       options:
       - label: This issue is not about question or bug.
         required: true
+      - label: I have searched the existing issues
+        required: true
   - type: textarea
     id: describe
     attributes:
