@@ -48,7 +48,7 @@ pdf2zh_next -h
 | **Gemini**           | `gemini`       | `GEMINI_API_KEY`, `GEMINI_MODEL`                                      | `[Your Key]`, `gemini-1.5-flash`                         | [Gemini](https://ai.google.dev/gemini-api/docs/openai)を参照                                                                                                                                                                 |
 | **Azure**            | `azure`        | `AZURE_ENDPOINT`, `AZURE_API_KEY`                                     | `https://api.translator.azure.cn`, `[Your Key]`          | [Azure](https://docs.azure.cn/en-us/ai-services/translator/text-translation-overview) を参照                                                                                                                                  |
 | **Tencent**          | `tencent`      | `TENCENTCLOUD_SECRET_ID`, `TENCENTCLOUD_SECRET_KEY`                   | `[Your ID]`, `[Your Key]`                                | [Tencent](https://www.tencentcloud.com/products/tmt?from_qcintl=122110104)を参照                                                                                                                                             |
-| **Dify**             | `dify`         | `DIFY_API_URL`, `DIFY_API_KEY`                                        | `[Your DIFY URL]`, `[Your Key]`                          | [Dify](https://github.com/langgenius/dify)を参照。Difyのワークフロー入力では、lang_out、lang_in、textの3つの変数を定義する必要があります。                                                                                  |
+| **Dify**             | `dify`         | `DIFY_API_URL`, `DIFY_API_KEY`                                        | `[Your DIFY URL]`, `[Your Key]`                          | [Dify](https://github.com/langgenius/dify)を参照。Dify のワークフロー入力では、lang_out、lang_in、text の 3 つの変数を定義する必要があります。                                                                                  |
 | **AnythingLLM**      | `anythingllm`  | `AnythingLLM_URL`, `AnythingLLM_APIKEY`                               | `[Your AnythingLLM URL]`, `[Your Key]`                   | 詳細は [anything-llm](https://github.com/Mintplex-Labs/anything-llm) を参照                                                                                                                                                          |
 | **Argos Translate**  | `argos`        |                                                                       |                                                          | [argos-translate](https://github.com/argosopentech/argos-translate) を参照                                                                                                                                                    |
 | **Grok**             | `grok`         | `GORK_API_KEY`, `GORK_MODEL`                                          | `[Your GORK_API_KEY]`, `grok-2-1212`                     | [Grok](https://docs.x.ai/docs/overview) を参照                                                                                                                                                                                |
@@ -57,22 +57,22 @@ pdf2zh_next -h
 | **OpenAI-Liked**     | `openailiked`  | `OPENAILIKED_BASE_URL`, `OPENAILIKED_API_KEY`, `OPENAILIKED_MODEL`    | `url`, `[Your Key]`, `model name`                        | None                                                                                                                                                                                                                       |
 | **Ali Qwen Translation** | `qwen-mt`  | `ALI_MODEL`, `ALI_API_KEY`, `ALI_DOMAINS`                             | `qwen-mt-turbo`, `[Your Key]`, `scientific paper`        | 繁体中国語はまだサポートされていません、簡体中国語に翻訳されます。詳細は[Qwen MT](https://bailian.console.aliyun.com/?spm=5176.28197581.0.0.72e329a4HRxe99#/model-market/detail/qwen-mt-turbo)をご覧ください |
 
-上記の表に記載されていないがOpenAI APIと互換性のある大規模言語モデルの場合、表でOpenAIに対して説明されているのと同じ方法で環境変数を設定できます。
+上記の表に記載されていないが OpenAI API と互換性のある大規模言語モデルの場合、表で OpenAI に対して説明されているのと同じ方法で環境変数を設定できます。
 
-サービスを指定するには `-s service` または `-s service:model` を使用します:
+サービスを指定するには `-s service` または `-s service:model` を使用します：
 
 ```bash
 pdf2zh_next example.pdf -s openai:gpt-4o-mini
 ```
 
-または環境変数でモデルを指定します:
+または環境変数でモデルを指定します：
 
 ```bash
 set OPENAI_MODEL=gpt-4o-mini
 pdf2zh_next example.pdf -s openai
 ```
 
-PowerShellユーザーの場合:
+PowerShell ユーザーの場合：
 
 ```shell
 $env:OPENAI_MODEL = gpt-4o-mini
@@ -80,4 +80,4 @@ pdf2zh_next example.pdf -s openai
 ```
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

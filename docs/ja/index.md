@@ -32,7 +32,7 @@
 
 </div>
 
-PDF科学論文の翻訳とバイリンガル比較。
+PDF 科学論文の翻訳とバイリンガル比較。
 
 - 📊 数式、チャート、目次、注釈を保持 _([プレビュー](#プレビュー))_。
 - 🌐 [複数言語](https://pdf2zh-next.com/supported_languages.html)をサポートし、多様な[翻訳サービス](https://pdf2zh-next.com/advanced/翻訳サービスドキュメント.html)に対応。
@@ -44,13 +44,13 @@ PDF科学論文の翻訳とバイリンガル比較。
 
 <h2 id="updates">更新情報</h2>
 
-- [2025年6月4日] プロジェクトがリネームされ、[PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) に移動しました (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025年3月3日] 新しいバックエンド [BabelDOC](https://github.com/funstory-ai/BabelDOC) のWebUIが実験的オプションとして追加されました (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025年2月22日] リリースCIの改善と、Windows-amd64用のexeファイルが適切にパッケージ化されました (by [@awwaawwa](https://github.com/awwaawwa))
-- [2024年12月24日] 翻訳ツールが [Xinference](https://github.com/xorbitsai/inference) 上のローカルモデルをサポートするようになりました _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [2024年12月19日] `-cp` を使用して非PDF/Aドキュメントがサポートされるようになりました _(by [@reycn](https://github.com/reycn))_
-- [2024年12月13日] 追加のバックエンドサポートが実装されました _(by [@YadominJinta](https://github.com/YadominJinta))_
-- [2024年12月10日] 翻訳ツールがAzure上のOpenAIモデルをサポートするようになりました _(by [@yidasanqian](https://github.com/yidasanqian))_
+- [2025 年 6 月 4 日] プロジェクトがリネームされ、[PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) に移動しました (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 年 3 月 3 日] 新しいバックエンド [BabelDOC](https://github.com/funstory-ai/BabelDOC) の WebUI が実験的オプションとして追加されました (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 年 2 月 22 日] リリース CI の改善と、Windows-amd64 用の exe ファイルが適切にパッケージ化されました (by [@awwaawwa](https://github.com/awwaawwa))
+- [2024 年 12 月 24 日] 翻訳ツールが [Xinference](https://github.com/xorbitsai/inference) 上のローカルモデルをサポートするようになりました _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [2024 年 12 月 19 日] `-cp` を使用して非 PDF/A ドキュメントがサポートされるようになりました _(by [@reycn](https://github.com/reycn))_
+- [2024 年 12 月 13 日] 追加のバックエンドサポートが実装されました _(by [@YadominJinta](https://github.com/YadominJinta))_
+- [2024 年 12 月 10 日] 翻訳ツールが Azure 上の OpenAI モデルをサポートするようになりました _(by [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="preview">プレビュー</h2>
 
@@ -68,7 +68,7 @@ PDF科学論文の翻訳とバイリンガル比較。
 以下のデモのいずれかを使用して、私たちのアプリケーションを試すことができます：
 
 - [v1.x パブリック無料サービス](https://pdf2zh.com/) インストール不要でオンライン利用可能 _(推奨)_
-- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 月間1000ページまで無料 _(推奨)_
+- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 月間 1000 ページまで無料 _(推奨)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
@@ -78,9 +78,9 @@ PDF科学論文の翻訳とバイリンガル比較。
 
 ### インストール
 
-1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windowsにおすすめ</small>
-2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linuxにおすすめ</small>
-3. [**uv** (Pythonパッケージマネージャー)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOSにおすすめ</small>
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows におすすめ</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux におすすめ</small>
+3. [**uv** (Python パッケージマネージャー)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS におすすめ</small>
 
 ---
 
@@ -131,28 +131,28 @@ PDF科学論文の翻訳とバイリンガル比較。
 
 <h2 id="acknowledgement">謝辞</h2>
 
-- [没入型翻訳](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額Proメンバーシップの引き換えコードをスポンサーしています。詳細はこちら: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [没入型翻訳](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額 Pro メンバーシップの引き換えコードをスポンサーしています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- 1.xバージョン: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
+- 1.x バージョン：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- 新しいバックエンド: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
+- 新しいバックエンド：[BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- ドキュメント結合: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- ドキュメント結合：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- ドキュメント解析: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- ドキュメント解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- ドキュメント抽出: [MinerU](https://github.com/opendatalab/MinerU)
+- ドキュメント抽出：[MinerU](https://github.com/opendatalab/MinerU)
 
 - ドキュメントプレビュー: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- マルチスレッド翻訳: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- マルチスレッド翻訳：[MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
 
-- レイアウト解析: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- レイアウト解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- ドキュメント標準: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- ドキュメント標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- 多言語フォント: [Go Noto Universal](https://github.com/satbyy/go-noto-universal)
+- 多言語フォント：[Go Noto Universal](https://github.com/satbyy/go-noto-universal)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
@@ -160,7 +160,7 @@ PDF科学論文の翻訳とバイリンガル比較。
 
 <h2 id="conduct">コードを提出する前に</h2>
 
-pdf2zhをより良くするために、貢献者の積極的な参加を歓迎します。コードを提出する準備が整う前に、[行動規範](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)と[貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html)を参照してください。
+pdf2zh をより良くするために、貢献者の積極的な参加を歓迎します。コードを提出する準備が整う前に、[行動規範](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)と[貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html)を参照してください。
 
 <h2 id="contrib">貢献者</h2>
 
@@ -181,4 +181,4 @@ pdf2zhをより良くするために、貢献者の積極的な参加を歓迎�
 </a>
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

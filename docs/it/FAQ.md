@@ -20,7 +20,7 @@ Ho riscontrato il seguente errore di interruzione durante il download del modell
 ```
 La rete sta subendo interferenze, utilizza un collegamento di rete stabile o prova a bypassare l'intervento della rete.
 
-## Come aggiornare all'ultima versione？
+## Come aggiornare all'ultima versione?
 - **Domanda**:
 Voglio utilizzare alcune funzionalità dell'ultima versione, come posso aggiornarla?
 

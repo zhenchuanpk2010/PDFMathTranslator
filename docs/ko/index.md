@@ -44,13 +44,13 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 <h2 id="업데이트">Updates</h2>
 
-- [2025년 6월 4일] 프로젝트 이름이 변경되고 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)로 이동되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025년 3월 3일] 새로운 백엔드 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI에 대한 실험적 지원이 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025년 2월 22일] 개선된 릴리스 CI와 잘 패키징된 windows-amd64 exe 파일 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2024년 12월 24일] 번역기가 이제 [Xinference](https://github.com/xorbitsai/inference)의 로컬 모델을 지원합니다 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [2024년 12월 19일] `-cp`를 사용하여 비-PDF/A 문서가 이제 지원됩니다 _(by [@reycn](https://github.com/reycn))_
-- [2024년 12월 13일] 추가 백엔드 지원 _(by [@YadominJinta](https://github.com/YadominJinta))_
-- [2024년 12월 10일] 번역기가 이제 Azure의 OpenAI 모델을 지원합니다 _(by [@yidasanqian](https://github.com/yidasanqian))_
+- [2025 년 6 월 4 일] 프로젝트 이름이 변경되고 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)로 이동되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 년 3 월 3 일] 새로운 백엔드 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 에 대한 실험적 지원이 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 년 2 월 22 일] 개선된 릴리스 CI 와 잘 패키징된 windows-amd64 exe 파일 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2024 년 12 월 24 일] 번역기가 이제 [Xinference](https://github.com/xorbitsai/inference)의 로컬 모델을 지원합니다 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [2024 년 12 월 19 일] `-cp`를 사용하여 비-PDF/A 문서가 이제 지원됩니다 _(by [@reycn](https://github.com/reycn))_
+- [2024 년 12 월 13 일] 추가 백엔드 지원 _(by [@YadominJinta](https://github.com/YadominJinta))_
+- [2024 년 12 월 10 일] 번역기가 이제 Azure 의 OpenAI 모델을 지원합니다 _(by [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="preview">미리보기</h2>
 
@@ -63,12 +63,12 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 > [!NOTE]
 >
-> pdf2zh 2.0은 현재 온라인 데모를 제공하지 않습니다
+> pdf2zh 2.0 은 현재 온라인 데모를 제공하지 않습니다
 
 다음 데모 중 하나를 사용하여 저희 애플리케이션을 시험해 볼 수 있습니다:
 
 - [v1.x 공개 무료 서비스](https://pdf2zh.com/) 설치 없이 온라인에서 이용 가능 _(권장)_.
-- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 매월 1000페이지 무료 제공. _(권장)_
+- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 매월 1000 페이지 무료 제공. _(권장)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
@@ -78,9 +78,9 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 ### 설치
 
-1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows에 권장</small>
-2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux에 권장</small>
-3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS에 권장</small>
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 에 권장</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 에 권장</small>
+3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 에 권장</small>
 
 ---
 
@@ -96,7 +96,7 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 자세한 설명을 원하시면 각 옵션의 전체 목록을 확인할 수 있는 [고급 사용법](https://pdf2zh-next.com/advanced/advanced.html) 문서를 참조해 주세요.
 
-<h2 id="downstream">2차 개발 (APIs)</h2>
+<h2 id="downstream">2 차 개발 (APIs)</h2>
 
 > [!NOTE]
 >
@@ -160,7 +160,7 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 <h2 id="conduct">코드 제출 전에</h2>
 
-pdf2zh를 더 나은 프로젝트로 만들기 위해 기여자의 적극적인 참여를 환영합니다. 코드를 제출하기 전에 [행동 강령](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)과 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참고해 주세요.
+pdf2zh 를 더 나은 프로젝트로 만들기 위해 기여자의 적극적인 참여를 환영합니다. 코드를 제출하기 전에 [행동 강령](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)과 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참고해 주세요.
 
 <h2 id="contrib">기여자</h2>
 
@@ -181,4 +181,4 @@ pdf2zh를 더 나은 프로젝트로 만들기 위해 기여자의 적극적인 
 </a>
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

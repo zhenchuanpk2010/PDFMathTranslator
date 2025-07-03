@@ -21,7 +21,7 @@
 * 성적인 언어나 이미지 사용, 그리고 어떤 종류의 성적 관심이나 접근
 * 트롤링, 모욕적이거나 비하하는 댓글, 개인적 또는 정치적 공격
 * 공개적 또는 사적인 괴롭힘
-* 명시적인 허락 없이 다른 사람의 개인 정보(예: 물리적 주소 또는 이메일 주소)를 공개하는 행위
+* 명시적인 허락 없이 다른 사람의 개인 정보 (예: 물리적 주소 또는 이메일 주소) 를 공개하는 행위
 * 전문적인 환경에서 합리적으로 부적절하다고 간주될 수 있는 기타 행위
 
 ## 규정 준수 책임
@@ -77,13 +77,13 @@ aw@funstory.ai 로 보고될 수 있습니다.
 이 행동 강령은 [Contributor Covenant][homepage]의 2.0 버전을 적용한 것으로,
 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html에서 확인할 수 있습니다.
 
-커뮤니티 영향 지침은 [Mozilla의 행동 강령 시행 사다리](https://github.com/mozilla/diversity)에서 영감을 받았습니다.
+커뮤니티 영향 지침은 [Mozilla 의 행동 강령 시행 사다리](https://github.com/mozilla/diversity)에서 영감을 받았습니다.
 
 [homepage]: https://www.contributor-covenant.org
 
-이 행동 강령에 대한 일반적인 질문의 답변은 FAQ에서 확인할 수 있습니다.
+이 행동 강령에 대한 일반적인 질문의 답변은 FAQ 에서 확인할 수 있습니다.
 https://www.contributor-covenant.org/faq. 번역본은
 https://www.contributor-covenant.org/translations에서 이용 가능합니다.
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

@@ -57,7 +57,7 @@ pdf2zh_next -h
 | **OpenAI-Liked**     | `openailiked`  | `OPENAILIKED_BASE_URL`, `OPENAILIKED_API_KEY`, `OPENAILIKED_MODEL`    | `url`, `[Your Key]`, `model name`                        | None                                                                                                                                                                                                                       |
 | **阿里通义翻译** | `qwen-mt`  | `ALI_MODEL`, `ALI_API_KEY`, `ALI_DOMAINS`                             | `qwen-mt-turbo`, `[Your Key]`, `scientific paper`        | 暂不支持繁体中文，将自动转为简体中文输出。更多信息请参阅[Qwen MT](https://bailian.console.aliyun.com/?spm=5176.28197581.0.0.72e329a4HRxe99#/model-market/detail/qwen-mt-turbo) |
 
-对于与OpenAI API兼容但未在上表中列出的大型语言模型，您可以使用表格中为OpenAI概述的相同方法设置环境变量。
+对于与 OpenAI API 兼容但未在上表中列出的大型语言模型，您可以使用表格中为 OpenAI 概述的相同方法设置环境变量。
 
 使用 `-s service` 或 `-s service:model` 来指定服务：
 
@@ -80,4 +80,4 @@ pdf2zh_next example.pdf -s openai
 ```
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

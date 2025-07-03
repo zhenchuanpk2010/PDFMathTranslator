@@ -3,7 +3,7 @@
 > 本文档已过时，请勿参考。
 
 <h2 id="toc">目录</h2>
-当前项目支持两种类型的API，所有方法都需要Redis；
+当前项目支持两种类型的 API，所有方法都需要 Redis；
 
 - [Python 中的函数调用](#api-python)
 - [HTTP 协议](#api-http)
@@ -42,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更灵活的方式，您可以通过HTTP协议与程序进行通信，前提是：
+以更灵活的方式，您可以通过 HTTP 协议与程序进行通信，前提是：
 
 1. 安装并运行后端服务
 
@@ -52,7 +52,7 @@ with open('example.pdf', 'rb') as f:
    pdf2zh_next --celery worker
    ```
 
-2. 通过HTTP协议按以下方式使用：
+2. 通过 HTTP 协议按以下方式使用：
 
    - 提交翻译任务
 
@@ -97,4 +97,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

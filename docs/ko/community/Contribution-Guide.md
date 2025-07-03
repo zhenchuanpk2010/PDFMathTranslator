@@ -2,9 +2,9 @@
 
 > [!CAUTION]
 >
-> 현재 프로젝트 관리자들은 문서 자동화 국제화를 연구 중입니다. 따라서 문서 국제화/번역과 관련된 PR은 허용되지 않습니다!
+> 현재 프로젝트 관리자들은 문서 자동화 국제화를 연구 중입니다. 따라서 문서 국제화/번역과 관련된 PR 은 허용되지 않습니다!
 >
-> 문서 국제화/번역과 관련된 PR을 제출하지 마세요!
+> 문서 국제화/번역과 관련된 PR 을 제출하지 마세요!
 
 이 프로젝트에 관심을 가져 주셔서 감사합니다! 기여를 시작하기 전에, 귀하의 기여가 원활하게 수용될 수 있도록 다음 가이드라인을 읽어보시기 바랍니다.
 
@@ -12,10 +12,10 @@
 
 1. 문서 국제화/번역
 2. HTTP API 등과 같은 핵심 인프라 관련 기여
-3. "도움 필요 없음"으로 명시적으로 표시된 이슈([Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) 저장소의 이슈 포함).
+3. "도움 필요 없음"으로 명시적으로 표시된 이슈 ([Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) 저장소의 이슈 포함).
 4. 유지 관리자가 부적절하다고 판단하는 기타 기여.
 
-위와 같은 유형과 관련된 PR은 제출하지 마십시오.
+위와 같은 유형과 관련된 PR 은 제출하지 마십시오.
 
 ## 기여 프로세스
 
@@ -28,24 +28,24 @@
    git commit -m "<semantic commit message>"
    ```
 5. 자신의 저장소로 푸시합니다: `git push origin feature/<feature-name>`.
-6. GitHub에서 PR을 생성하고 상세한 설명을 제공한 후 [@awwaawwa](https://github.com/awwaawwa)에게 리뷰를 요청합니다.
+6. GitHub 에서 PR 을 생성하고 상세한 설명을 제공한 후 [@awwaawwa](https://github.com/awwaawwa)에게 리뷰를 요청합니다.
 7. 모든 자동화된 검사가 통과되는지 확인합니다.
 
 > [!TIP]
 >
-> 개발이 완전히 완료될 때까지 기다릴 필요 없이 PR을 생성할 수 있습니다. 일찍 PR을 생성하면 구현 내용을 검토하고 제안을 제공할 수 있습니다.
+> 개발이 완전히 완료될 때까지 기다릴 필요 없이 PR 을 생성할 수 있습니다. 일찍 PR 을 생성하면 구현 내용을 검토하고 제안을 제공할 수 있습니다.
 >
-> 소스 코드나 관련 사항에 대해 궁금한 점이 있으면 aw@funstory.ai로 메인테이너에게 문의하세요.
+> 소스 코드나 관련 사항에 대해 궁금한 점이 있으면 aw@funstory.ai 로 메인테이너에게 문의하세요.
 >
-> 버전 2.0의 리소스 파일은 [BabelDOC](https://github.com/funstory-ai/BabelDOC)와 공유됩니다. 관련 리소스 다운로드 코드는 BabelDOC에 있습니다. 새로운 리소스 파일을 추가하려면 BabelDOC 메인테이너에게 aw@funstory.ai로 문의하세요.
+> 버전 2.0 의 리소스 파일은 [BabelDOC](https://github.com/funstory-ai/BabelDOC)와 공유됩니다. 관련 리소스 다운로드 코드는 BabelDOC 에 있습니다. 새로운 리소스 파일을 추가하려면 BabelDOC 메인테이너에게 aw@funstory.ai 로 문의하세요.
 
 ## 기본 요구 사항
 
 <h4 id="sop">1. 워크플로우</h4>
 
-- `main` 브랜치에서 포크(fork)한 후, 포크한 브랜치에서 개발을 진행해 주세요.
-   - Pull Request(PR)를 제출할 때는 변경 사항에 대한 상세한 설명을 제공해 주세요.
-   - PR이 자동화된 검사를 통과하지 못하는 경우(`checks failed` 및 빨간색 엑스 표시로 표시됨), 해당 `details`를 검토하고 제출물을 수정하여 새 PR이 모든 검사를 통과하도록 해 주세요.
+- `main` 브랜치에서 포크 (fork) 한 후, 포크한 브랜치에서 개발을 진행해 주세요.
+   - Pull Request(PR) 를 제출할 때는 변경 사항에 대한 상세한 설명을 제공해 주세요.
+   - PR 이 자동화된 검사를 통과하지 못하는 경우 (`checks failed` 및 빨간색 엑스 표시로 표시됨), 해당 `details`를 검토하고 제출물을 수정하여 새 PR 이 모든 검사를 통과하도록 해 주세요.
 
 
 <h4 id="dev&test">2. 개발 및 테스트</h4>
@@ -76,7 +76,7 @@
 <h4 id="codestyle">7. 코딩 스타일</h4>
 
 - 제출한 코드가 기본적인 코딩 스타일 표준을 준수하는지 확인하세요.
-   - 변수 이름에는 snake_case 또는 camelCase를 사용하세요.
+   - 변수 이름에는 snake_case 또는 camelCase 를 사용하세요.
 
 
 <h4 id="doctypo">8. 문서 서식</h4>
@@ -92,7 +92,7 @@
 
 > [!NOTE]
 >
-> 이 프로젝트는 RPS(초당 요청 수)가 4 미만인 번역 엔진을 지원할 의도가 없습니다. 해당 엔진에 대한 지원을 제출하지 마십시오.
+> 이 프로젝트는 RPS(초당 요청 수) 가 4 미만인 번역 엔진을 지원할 의도가 없습니다. 해당 엔진에 대한 지원을 제출하지 마십시오.
 
 ## 프로젝트 구조
 
@@ -106,11 +106,11 @@
 
 ## 문의하기
 
-질문이 있으시면 Issue를 통해 피드백을 제출하거나 Telegram 그룹에 참여해 주세요. 기여해 주셔서 감사합니다!
+질문이 있으시면 Issue 를 통해 피드백을 제출하거나 Telegram 그룹에 참여해 주세요. 기여해 주셔서 감사합니다!
 
 > [!TIP]
 >
 > [Immersive Translate](https://immersivetranslate.com)는 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 코드를 후원합니다. 자세한 내용은 다음을 참조하세요: [BabelDOC/PDFMathTranslate 기여자 보상 규칙](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

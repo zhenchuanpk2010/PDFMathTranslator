@@ -28,7 +28,7 @@
 
 社区领导者有责任阐明并执行我们的行为准则标准，并将对任何他们认为不当、威胁、冒犯或有害的行为采取适当且公正的纠正措施。
 
-社区领导者有权且有责任删除、编辑或拒绝不符合本行为准则的评论、提交、代码、Wiki编辑、问题和其他贡献，并会在适当时说明管理决策的原因。
+社区领导者有权且有责任删除、编辑或拒绝不符合本行为准则的评论、提交、代码、Wiki 编辑、问题和其他贡献，并会在适当时说明管理决策的原因。
 
 ## 范围
 
@@ -74,10 +74,10 @@
 ## 致谢
 
 本行为准则改编自[贡献者契约][homepage]，
-版本2.0，发布于
+版本 2.0，发布于
 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html。
 
-社区影响指南参考了[Mozilla的行为准则执行阶梯](https://github.com/mozilla/diversity)。
+社区影响指南参考了[Mozilla 的行为准则执行阶梯](https://github.com/mozilla/diversity)。
 
 [homepage]: https://www.contributor-covenant.org
 
@@ -86,4 +86,4 @@ https://www.contributor-covenant.org/faq。翻译版本可在
 https://www.contributor-covenant.org/translations 获取。
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

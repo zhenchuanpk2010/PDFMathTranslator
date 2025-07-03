@@ -16,7 +16,7 @@ J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du mod
 - **Réponse**:
 Le réseau subit des interférences, veuillez utiliser une connexion réseau stable ou essayer de contourner l'intervention du réseau.
 
-## Comment mettre à jour vers la dernière version？
+## Comment mettre à jour vers la dernière version?
 - **Question**:
 Je souhaite utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?
 

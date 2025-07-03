@@ -2,11 +2,11 @@
 
 ---
 
-### コマンドラインでPDFMathTranslateを使用する
+### コマンドラインで PDFMathTranslate を使用する
 
 #### 基本的な使い方
 
-インストール後、以下のコマンドを入力してPDFを翻訳してください。
+インストール後、以下のコマンドを入力して PDF を翻訳してください。
 
 ```bash
 pdf2zh_next document.pdf
@@ -47,4 +47,4 @@ pdf2zh_next document.pdf
 追加のコマンドラインパラメータの詳細な説明については、[高度な設定](./../advanced/advanced.md)を参照してください。
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

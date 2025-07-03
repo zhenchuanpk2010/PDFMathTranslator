@@ -46,4 +46,4 @@
 GUI 由 [Rongxin](https://github.com/reycn) 维护
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

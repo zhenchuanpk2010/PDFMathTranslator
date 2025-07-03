@@ -6,7 +6,7 @@
 
 #### 기본 사용법
 
-설치 후, 다음 명령을 입력하여 PDF를 번역하세요.
+설치 후, 다음 명령을 입력하여 PDF 를 번역하세요.
 
 ```bash
 pdf2zh_next document.pdf
@@ -47,4 +47,4 @@ pdf2zh_next document.pdf
 추가 명령줄 매개변수에 대한 자세한 설명은 [고급 옵션 사용법](./../advanced/advanced.md)을 참조하세요.
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

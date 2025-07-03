@@ -20,7 +20,7 @@ Encontrei o seguinte erro de interrupção ao baixar o modelo. O que devo fazer?
 ```
 A rede está recebendo interferência, por favor use uma conexão de rede estável ou tente contornar a intervenção da rede.
 
-## Como atualizar para a versão mais recente？
+## Como atualizar para a versão mais recente?
 - **Pergunta**:
 Eu quero usar alguns dos recursos da versão mais recente, como atualizo para ela?
 

@@ -2,7 +2,7 @@
 
 ---
 
-### 通过docker安装PDFMathTranslate
+### 通过 docker 安装 PDFMathTranslate
 
 #### 什么是 docker？
 
@@ -26,7 +26,7 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 >
 
-<h4>2. 在默认浏览器中输入此URL以打开WebUI页面：</h4>
+<h4>2. 在默认浏览器中输入此 URL 以打开 WebUI 页面：</h4>
 
 ```
 http://localhost:7860/
@@ -54,4 +54,4 @@ http://localhost:7860/
 -->
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

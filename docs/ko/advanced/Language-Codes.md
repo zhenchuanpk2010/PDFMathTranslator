@@ -4,7 +4,7 @@
 
 #### Google
 
-출처 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o가 정리함.
+출처 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o 가 정리함.
 
 | 중국어 레이블 | 레이블 | `Language Code` |
 | --- | --- | --- |
@@ -45,7 +45,7 @@
 | 마라티어 | Marathi | `mr` |
 | 노르웨이어 | Norwegian | `no` |
 | 폴란드어 | Polish | `pl` |
-| 포르투갈어(포르투갈) | Portuguese (Portugal) | `pt-PT` |
+| 포르투갈어 (포르투갈) | Portuguese (Portugal) | `pt-PT` |
 | 루마니아어 | Romanian | `ro` |
 | 러시아어 | Russian | `ru` |
 | 세르비아어 | Serbian | `sr` |
@@ -58,7 +58,7 @@
 | 타밀어 | Tamil | `ta` |
 | 텔루구어 | Telugu | `te` |
 | 태국어 | Thai | `th` |
-| 중국어(대만) | Chinese (Taiwan) | `zh-TW` |
+| 중국어 (대만) | Chinese (Taiwan) | `zh-TW` |
 | 터키어 | Turkish | `tr` |
 | 우르두어 | Urdu | `ur` |
 | 우크라이나어 | Ukrainian | `uk` |
@@ -67,7 +67,7 @@
 
 
 #### DeepL
-출처 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o가 정리함.
+출처 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o 가 정리함.
 
 | 중국어 레이블 | 레이블 | `Language Code` | 지원 여부 |
 | --- | --- | --- | --- |
@@ -79,7 +79,7 @@
 | 그리스어 | Greek | `EL` | `source`, `target` |
 | 영어 | English | `EN` | `source`, `target` |
 | 영어 (영국) | English (British) | `EN-GB` | `target` |
-| 영어(미국) | English (American) | `EN-US` | `target` |
+| 영어 (미국) | English (American) | `EN-US` | `target` |
 | 스페인어 | Spanish | `ES` | `source`, `target` |
 | 에스토니아어 | Estonian | `ET` | `source`, `target` |
 | 핀란드어 | Finnish | `FI` | `source`, `target` |
@@ -96,7 +96,7 @@
 | 폴란드어 | Polish | `PL` | `source`, `target` |
 | 포르투갈어 | Portuguese | `PT` | `source`, `target` |
 | 포르투갈어 (브라질) | Portuguese (Brazilian) | `PT-BR` | `target` |
-| 포르투갈어(유럽) | Portuguese (European) | `PT-PT` | `target` |
+| 포르투갈어 (유럽) | Portuguese (European) | `PT-PT` | `target` |
 | 루마니아어 | Romanian | `RO` | `source`, `target` |
 | 러시아어 | Russian | `RU` | `source`, `target` |
 | 슬로바키아어 | Slovak | `SK` | `source`, `target` |
@@ -106,7 +106,7 @@
 | 우크라이나어 | Ukrainian | `UK` | `source`, `target` |
 | 한국어 | Korean | `KO` | `source`, `target` |
 | 한국어 | Korean | `KO` | `target` |
-| 중국어(번체) | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 중국어 (번체) | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

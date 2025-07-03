@@ -2,7 +2,7 @@
 
 ---
 
-### Webui를 통해 PDFMathTranslate 사용하기
+### Webui 를 통해 PDFMathTranslate 사용하기
 
 #### WebUI 페이지를 여는 방법:
 
@@ -46,4 +46,4 @@ WebUI 인터페이스를 여는 방법에는 여러 가지가 있습니다. **Wi
 GUI maintained by [Rongxin](https://github.com/reycn)
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

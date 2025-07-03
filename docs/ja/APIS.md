@@ -3,18 +3,18 @@
 > このドキュメントは古くなっていますので、参照しないでください。
 
 <h2 id="toc">目次</h2>
-本プロジェクトは2種類のAPIをサポートしており、すべてのメソッドにはRedisが必要です;
+本プロジェクトは 2 種類の API をサポートしており、すべてのメソッドには Redis が必要です;
 
-- [Pythonでの関数呼び出し](#api-python)
-- [HTTPプロトコル](#api-http)
+- [Python での関数呼び出し](#api-python)
+- [HTTP プロトコル](#api-http)
 
 ---
 
 <h2 id="api-python">Python</h2>
 
-`pdf2zh`はPythonのインストール済みモジュールであるため、他のプログラムが任意のPythonスクリプトで呼び出せるように2つのメソッドを公開しています。
+`pdf2zh`は Python のインストール済みモジュールであるため、他のプログラムが任意の Python スクリプトで呼び出せるように 2 つのメソッドを公開しています。
 
-例えば、Google翻訳を使用して英語から中国語に文書を翻訳したい場合は、次のコードを使用できます:
+例えば、Google 翻訳を使用して英語から中国語に文書を翻訳したい場合は、次のコードを使用できます：
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -26,11 +26,11 @@ params = {
     'thread': 4,
 }
 ```
-ファイルで翻訳:
+ファイルで翻訳：
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-ストリームで翻訳:
+ストリームで翻訳：
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -42,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-より柔軟な方法として、以下の条件を満たす場合、HTTPプロトコルを使用してプログラムと通信できます:
+より柔軟な方法として、以下の条件を満たす場合、HTTP プロトコルを使用してプログラムと通信できます：
 
 1. バックエンドのインストールと実行
 
@@ -52,7 +52,7 @@ with open('example.pdf', 'rb') as f:
    pdf2zh_next --celery worker
    ```
 
-2. HTTPプロトコルを使用する方法:
+2. HTTP プロトコルを使用する方法：
 
    - 翻訳タスクの送信
 
@@ -97,4 +97,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

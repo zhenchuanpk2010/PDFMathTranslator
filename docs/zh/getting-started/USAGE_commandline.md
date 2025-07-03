@@ -47,4 +47,4 @@ pdf2zh_next document.pdf
 如需详细了解其他命令行参数，请参阅[高级选项](./../advanced/advanced.md)。
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

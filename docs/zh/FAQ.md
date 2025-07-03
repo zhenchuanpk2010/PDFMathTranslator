@@ -1,8 +1,8 @@
 一些常见问题被频繁提及，因此我们为遇到类似问题的用户提供了以下列表。
 
-## 是否需要GPU？
+## 是否需要 GPU？
 - **问题**:
-由于程序使用人工智能来识别和提取文档，是否需要GPU？
+由于程序使用人工智能来识别和提取文档，是否需要 GPU？
 
 
 - **回答**:  
@@ -45,10 +45,10 @@
 在下载 hugging face 模型时，中国用户可能会遇到网络错误。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。
 
 - **解决方案**:
-  - [绕过GFW](https://github.com/clash-verge-rev/clash-verge-rev).
-  - [使用Hugging Face镜像站](https://hf-mirror.com/).
+  - [绕过 GFW](https://github.com/clash-verge-rev/clash-verge-rev).
+  - [使用 Hugging Face 镜像站](https://hf-mirror.com/).
   - [使用便携版](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).
-  - [改用Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
+  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
   - [更新证书](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)所述。
 
 ## 本地主机无法访问
@@ -64,4 +64,4 @@
   ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

@@ -19,4 +19,4 @@ PDFMathTranslate 是一款强大的 PDF 翻译工具。您可以通过多种方�
 3. [使用 **命令行**](./USAGE_commandline.md)
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

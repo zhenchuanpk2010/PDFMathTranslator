@@ -2,42 +2,42 @@
 
 > [!CAUTION]
 >
-> 現在のプロジェクトメンテナーは、ドキュメントの自動国際化を研究中です。そのため、ドキュメントの国際化/翻訳に関連するPRは受け付けられません！
+> 現在のプロジェクトメンテナーは、ドキュメントの自動国際化を研究中です。そのため、ドキュメントの国際化/翻訳に関連する PR は受け付けられません！
 >
-> ドキュメントの国際化/翻訳に関連するPRを提出しないでください！
+> ドキュメントの国際化/翻訳に関連する PR を提出しないでください！
 
 このプロジェクトに興味を持っていただきありがとうございます！貢献を始める前に、以下のガイドラインを読んで、あなたの貢献がスムーズに受け入れられるようにしてください。
 
 ## 受け付けない貢献の種類
 
 1. ドキュメントの国際化/翻訳
-2. HTTP APIなど、コアインフラストラクチャに関連する貢献
-3. 「No help needed」と明示的にマークされたIssue（[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)リポジトリ内のIssueを含む）
+2. HTTP API など、コアインフラストラクチャに関連する貢献
+3. 「No help needed」と明示的にマークされた Issue（[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)リポジトリ内の Issue を含む）
 4. メンテナが不適切と判断したその他の貢献
 
-上記の種類に関連するPRは提出しないでください。
+上記の種類に関連する PR は提出しないでください。
 
 ## 貢献プロセス
 
 1. このリポジトリをフォークし、ローカルにクローンします。
-2. 新しいブランチを作成: `git checkout -b feature/<feature-name>`.
+2. 新しいブランチを作成：`git checkout -b feature/<feature-name>`.
 3. 開発を行い、コードが要件を満たしていることを確認します。
-4. コードをコミット:
+4. コードをコミット：
    ```bash
    git add .
    git commit -m "<semantic commit message>"
    ```
-5. 自分のリポジトリにプッシュ: `git push origin feature/<feature-name>`.
-6. GitHubでPRを作成し、詳細な説明を提供して[@awwaawwa](https://github.com/awwaawwa)にレビューを依頼します。
+5. 自分のリポジトリにプッシュ：`git push origin feature/<feature-name>`.
+6. GitHub で PR を作成し、詳細な説明を提供して[@awwaawwa](https://github.com/awwaawwa)にレビューを依頼します。
 7. すべての自動チェックが通過することを確認します。
 
 > [!TIP]
 >
-> 開発が完全に完了するまで待つ必要はありません。早期にPRを作成することで、実装をレビューし、提案を行うことができます。
+> 開発が完全に完了するまで待つ必要はありません。早期に PR を作成することで、実装をレビューし、提案を行うことができます。
 >
 > ソースコードや関連事項について質問がある場合は、メンテナ aw@funstory.ai までお問い合わせください。
 >
-> バージョン2.0のリソースファイルは[BabelDOC](https://github.com/funstory-ai/BabelDOC)と共有されています。関連リソースのダウンロードコードはBabelDOCにあります。新しいリソースファイルを追加したい場合は、BabelDOCのメンテナ aw@funstory.ai までご連絡ください。
+> バージョン 2.0 のリソースファイルは[BabelDOC](https://github.com/funstory-ai/BabelDOC)と共有されています。関連リソースのダウンロードコードは BabelDOC にあります。新しいリソースファイルを追加したい場合は、BabelDOC のメンテナ aw@funstory.ai までご連絡ください。
 
 ## 基本要件
 
@@ -45,7 +45,7 @@
 
 - `main`ブランチからフォークし、フォークしたブランチで開発してください。
    - プルリクエスト（PR）を提出する際は、変更内容の詳細な説明を記載してください。
-   - PRが自動チェックに合格しない場合（`checks failed`と赤い×マークで表示）、対応する`details`を確認し、修正を行って新しいPRがすべてのチェックに合格するようにしてください。
+   - PR が自動チェックに合格しない場合（`checks failed`と赤い×マークで表示）、対応する`details`を確認し、修正を行って新しい PR がすべてのチェックに合格するようにしてください。
 
 
 <h4 id="dev&test">2. 開発とテスト</h4>
@@ -70,7 +70,7 @@
 
 <h4 id="commitmsg">6. コミットメッセージ</h4>
 
-- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)を使用してください。例: `feat(translator): add openai`。
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)を使用してください。例：`feat(translator): add openai`。
 
 
 <h4 id="codestyle">7. コーディングスタイル</h4>
@@ -92,25 +92,25 @@
 
 > [!NOTE]
 >
-> このプロジェクトは、RPS（1秒あたりのリクエスト数）が4未満の翻訳エンジンをサポートする意図はありません。そのようなエンジンのサポートを提出しないでください。
+> このプロジェクトは、RPS（1 秒あたりのリクエスト数）が 4 未満の翻訳エンジンをサポートする意図はありません。そのようなエンジンのサポートを提出しないでください。
 
 ## プロジェクト構造
 
 - **config folder**: 設定システム。
 - **translator folder**: 翻訳関連の実装。
-- **gui.py**: GUIインターフェースを提供。
+- **gui.py**: GUI インターフェースを提供。
 - **const.py**: いくつかの定数。
 - **main.py**: コマンドラインツールを提供。
-- **high_level.py**: BabelDOCベースの高レベルインターフェース。
-- **http_api.py**: HTTP APIを提供（未開始）。
+- **high_level.py**: BabelDOC ベースの高レベルインターフェース。
+- **http_api.py**: HTTP API を提供（未開始）。
 
 ## お問い合わせ
 
-ご質問がある場合は、Issueを通じてフィードバックを提出するか、Telegramグループに参加してください。ご協力ありがとうございます！
+ご質問がある場合は、Issue を通じてフィードバックを提出するか、Telegram グループに参加してください。ご協力ありがとうございます！
 
 > [!TIP]
 >
-> [没入型翻訳](https://immersivetranslate.com) は、このプロジェクトに積極的に貢献するコントリビューター向けに月額Proメンバーシップコードを提供しています。詳細はこちらをご覧ください: [BabelDOC/PDFMathTranslate コントリビューター報酬規則](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [没入型翻訳](https://immersivetranslate.com) は、このプロジェクトに積極的に貢献するコントリビューター向けに月額 Pro メンバーシップコードを提供しています。詳細はこちらをご覧ください：[BabelDOC/PDFMathTranslate コントリビューター報酬規則](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

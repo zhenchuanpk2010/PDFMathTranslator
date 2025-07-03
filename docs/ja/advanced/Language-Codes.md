@@ -4,7 +4,7 @@
 
 #### Google
 
-ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4oによって整理。
+ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o によって整理。
 
 | 中国語でのラベル | Label | `Language Code` |
 | --- | --- | --- |
@@ -67,7 +67,7 @@
 
 
 #### DeepL
-ソース <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4oによって整理。
+ソース <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o によって整理。
 
 | 中国語でのラベル | ラベル | `Language Code`| サポート |
 | --- | --- | --- | --- |
@@ -109,4 +109,4 @@
 | 中国語（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

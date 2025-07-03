@@ -15,7 +15,7 @@ pdf2zh_next -h
 ---
 
 > [!CAUTION]
-> 다음 내용은 pdf2zh 버전 1.x를 위해 준비되었으며, 아직 버전 2.x로 업데이트되지 않았습니다. 따라서 정보가 **구식**일 수 있습니다.
+> 다음 내용은 pdf2zh 버전 1.x 를 위해 준비되었으며, 아직 버전 2.x 로 업데이트되지 않았습니다. 따라서 정보가 **구식**일 수 있습니다.
 >
 > 이 경고 메시지는 문서 내용이 새 버전과 일치하게 되면 제거될 예정입니다.
 
@@ -48,7 +48,7 @@ pdf2zh_next -h
 | **Gemini**           | `gemini`       | `GEMINI_API_KEY`, `GEMINI_MODEL`                                      | `[Your Key]`, `gemini-1.5-flash`                         | [Gemini](https://ai.google.dev/gemini-api/docs/openai) 참조                                                                                                                                                                 |
 | **Azure**            | `azure`        | `AZURE_ENDPOINT`, `AZURE_API_KEY`                                     | `https://api.translator.azure.cn`, `[Your Key]`          | [Azure](https://docs.azure.cn/en-us/ai-services/translator/text-translation-overview) 참조                                                                                                                                  |
 | **Tencent**          | `tencent`      | `TENCENTCLOUD_SECRET_ID`, `TENCENTCLOUD_SECRET_KEY`                   | `[Your ID]`, `[Your Key]`                                | [Tencent](https://www.tencentcloud.com/products/tmt?from_qcintl=122110104) 참조                                                                                                                                             |
-| **Dify**             | `dify`         | `DIFY_API_URL`, `DIFY_API_KEY`                                        | `[Your DIFY URL]`, `[Your Key]`                          | [Dify](https://github.com/langgenius/dify) 참조, Dify의 워크플로우 입력에서 lang_out, lang_in, text 세 가지 변수를 정의해야 합니다.                                                                                  |
+| **Dify**             | `dify`         | `DIFY_API_URL`, `DIFY_API_KEY`                                        | `[Your DIFY URL]`, `[Your Key]`                          | [Dify](https://github.com/langgenius/dify) 참조, Dify 의 워크플로우 입력에서 lang_out, lang_in, text 세 가지 변수를 정의해야 합니다.                                                                                  |
 | **AnythingLLM**      | `anythingllm`  | `AnythingLLM_URL`, `AnythingLLM_APIKEY`                               | `[Your AnythingLLM URL]`, `[Your Key]`                   | [anything-llm](https://github.com/Mintplex-Labs/anything-llm) 참조                                                                                                                                                          |
 | **Argos Translate**  | `argos`        |                                                                       |                                                          | [argos-translate](https://github.com/argosopentech/argos-translate) 참조                                                                                                                                                    |
 | **Grok**             | `grok`         | `GORK_API_KEY`, `GORK_MODEL`                                          | `[Your GORK_API_KEY]`, `grok-2-1212`                     | [Grok](https://docs.x.ai/docs/overview) 참조                                                                                                                                                                                |
@@ -57,7 +57,7 @@ pdf2zh_next -h
 | **OpenAI-Liked**     | `openailiked`  | `OPENAILIKED_BASE_URL`, `OPENAILIKED_API_KEY`, `OPENAILIKED_MODEL`    | `url`, `[Your Key]`, `model name`                        | None                                                                                                                                                                                                                       |
 | **Ali Qwen Translation** | `qwen-mt`  | `ALI_MODEL`, `ALI_API_KEY`, `ALI_DOMAINS`                             | `qwen-mt-turbo`, `[Your Key]`, `scientific paper`        | 번체 중국어는 아직 지원되지 않으며, 간체 중국어로 번역됩니다. 자세한 내용은 [Qwen MT](https://bailian.console.aliyun.com/?spm=5176.28197581.0.0.72e329a4HRxe99#/model-market/detail/qwen-mt-turbo) 참조 |
 
-위의 표에 나열되지 않았지만 OpenAI API와 호환되는 대규모 언어 모델의 경우, 표에 설명된 OpenAI와 동일한 방법으로 환경 변수를 설정할 수 있습니다.
+위의 표에 나열되지 않았지만 OpenAI API 와 호환되는 대규모 언어 모델의 경우, 표에 설명된 OpenAI 와 동일한 방법으로 환경 변수를 설정할 수 있습니다.
 
 `-s service` 또는 `-s service:model`을 사용하여 서비스를 지정하세요:
 
@@ -80,4 +80,4 @@ pdf2zh_next example.pdf -s openai
 ```
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

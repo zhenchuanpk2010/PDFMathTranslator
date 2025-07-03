@@ -16,7 +16,7 @@ Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler ge
 - **Antwort**:
 Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.
 
-## Wie aktualisiere ich auf die neueste Version？
+## Wie aktualisiere ich auf die neueste Version?
 - **Frage**:
 Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
 

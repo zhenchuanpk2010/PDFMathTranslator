@@ -67,7 +67,7 @@
 
 
 #### DeepL
-来源 <https://developers.deepl.com/docs/resources/supported-languages>，由GPT-4o整理。
+来源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。
 
 | 中文标签 | Label | `Language Code`| 支持类型 |
 | --- | --- | --- | --- |
@@ -109,4 +109,4 @@
 | 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

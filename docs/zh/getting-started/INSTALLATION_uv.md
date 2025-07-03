@@ -4,7 +4,7 @@
 
 ### 通过 uv 安装 PDFMathTranslate
 
-#### 什么是uv？如何安装它？
+#### 什么是 uv？如何安装它？
 
 uv 是一个用 Rust 编写的极速 Python 包和项目管理器。
 <br>
@@ -56,4 +56,4 @@ uv 是一个用 Rust 编写的极速 Python 包和项目管理器。
 > 如果在使用命令行过程中遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
