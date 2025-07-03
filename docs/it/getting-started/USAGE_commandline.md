@@ -14,11 +14,11 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Se il nome del percorso contiene spazi, si prega di racchiuderlo tra virgolette.
+> Se il percorso del file contiene spazi, si prega di racchiuderlo tra virgolette.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
-> ```
+>
 
 Dopo aver eseguito la traduzione, i file vengono generati nella **directory di lavoro corrente**.
 
@@ -44,7 +44,7 @@ Dopo aver eseguito la traduzione, i file vengono generati nella **directory di l
 
 #### Opzioni avanzate
 
-Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, consultare [opzioni avanzate](./../advanced/advanced.md).
+Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, si prega di fare riferimento a [opzioni avanzate](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Parte del contenuto di questa pagina è stata tradotta da GPT e potrebbe contenere errori.</small></h6>

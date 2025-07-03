@@ -1,4 +1,4 @@
-[**Commencer**](./commencer.md) > **Installation** > **uv** _(actuel)_
+[**Commencer**](./commencer.md) > **Installation** > **uv** _(current)_
 
 ---
 
@@ -16,7 +16,7 @@ Pour installer uv sur votre ordinateur, veuillez consulter [cet article](https:/
 
 1. Python installé (version 3.10 <= version <= 3.13) ;
 
-2. Utilisez la commande suivante pour installer notre package :
+2. Utilisez la commande suivante pour utiliser notre package :
 
     ```bash
     pip install uv

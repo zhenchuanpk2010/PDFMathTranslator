@@ -1,8 +1,8 @@
-[**开始使用**](./getting-started.md) > **如何安装** > **Docker** _(当前)_
+[**开始使用**](./getting-started.md) > **如何安装** > **Docker** _(current)_
 
 ---
 
-### 通过 docker 安装 PDFMathTranslate
+### 通过docker安装PDFMathTranslate
 
 #### 什么是 docker？
 
@@ -19,27 +19,26 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - 如果无法访问 Docker Hub，请尝试使用 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 上的镜像。
+> - 如果无法访问 Docker Hub，请尝试从 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 获取镜像。
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
-> ```
+>
 
-<h4>2. 在默认浏览器中输入以下 URL 以打开 WebUI 页面：</h4>
+<h4>2. 在默认浏览器中输入此URL以打开WebUI页面：</h4>
 
 ```
 http://localhost:7860/
 ```
 
 > [!NOTE]
-> 如果在使用 WebUI 时遇到任何问题，请参考[如何使用 --> WebUI](./USAGE_webui.md)。
+> 如果在使用 WebUI 过程中遇到任何问题，请参考 [如何使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> 如果在使用命令行时遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
-
+> 如果在使用命令行过程中遇到任何问题，请参考 [如何使用 --> 命令行](./USAGE_commandline.md)。
 <!-- 
-#### 云服务上的 Docker 部署：
+#### For docker deployment on cloud service:
 
 <div>
 <a href="https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next">
@@ -55,4 +54,4 @@ http://localhost:7860/
 -->
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

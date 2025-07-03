@@ -4,9 +4,9 @@ Esta sección está destinada a usuarios avanzados de este software. Aquí puede
 
 1. [**Opciones avanzadas**](./opciones-avanzadas.md)
 <br>
-En esta sección, puedes explorar cómo especificar idiomas de origen/destino, cambiar servicios de traducción y más.
+En esta sección, puedes explorar idiomas de origen/destino específicos, cambiar servicios de traducción y más.
 
-2. [**Código de idioma**](./Códigos-de-idioma.md)
+2. [**Código de idioma**](./Código-de-idioma.md)
 <br>
 Si no estás seguro de qué códigos usar para traducir tus idiomas de origen/destino, puedes encontrarlos aquí.
 

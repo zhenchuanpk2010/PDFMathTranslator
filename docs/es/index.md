@@ -1,26 +1,30 @@
 <div align="center">
 
-<img src="./docs/images/banner.png" width="320px"  alt="banner"/>
+<img src="./../../docs/images/banner.png" width="320px"  alt="banner"/>
 
-<h2 id="título">PDFMathTranslate</h2>
+<h2 id="title">PDFMathTranslate</h2>
 
 <p>
-
-<!-- PyPI -->
-  <a href="https://pypi.org/project/pdf2zh-next/">
+  <!-- PyPI -->
+<a href="https://pypi.org/project/pdf2zh-next/">
     <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>
-  <a href="https://pepy.tech/projects/pdf2zh-next">
+<a href="https://pepy.tech/projects/pdf2zh-next">
     <img src="https://static.pepy.tech/badge/pdf2zh-next"></a>
-  <a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
+<a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
     <img src="https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next"></a>
-  <a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Destacado｜HelloGitHub" /></a>
-
-
+<a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Destacado｜HelloGitHub" /></a>
+  <!-- <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
+    <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a> -->
+  <!-- <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"></a> -->
+  <!-- <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate"> -->
+    <!-- <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a> -->
+  <!-- <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
+    <img src="https://img.shields.io/badge/contributions-welcome-green"></a> -->
 <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
-
-<!-- Licencia -->
-  <a href="./LICENSE">
+  <!-- License -->
+<a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
 </p>
 
@@ -30,30 +34,28 @@
 
 Traducción de artículos científicos en PDF y comparación bilingüe.
 
-- 📊 Preserva fórmulas, gráficos, tabla de contenidos y anotaciones _([vista previa](#vista-previa))_.
+- 📊 Preservar fórmulas, gráficos, tabla de contenidos y anotaciones _([vista previa](#vista-previa))_.
 - 🌐 Soporta [múltiples idiomas](https://pdf2zh-next.com/supported_languages.html), y diversos [servicios de traducción](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Proporciona [herramienta de línea de comandos](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaz de usuario interactiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html), y [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
 No dudes en proporcionar comentarios en [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) o [Grupo de Telegram](https://t.me/+Z9_SgnxmsmA5NzBl).
 
-Para detalles sobre cómo contribuir, consulta la [Guía de Contribución](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Para obtener detalles sobre cómo contribuir, consulta la [Guía de contribución](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="actualizaciones">Actualizaciones</h2>
 
-- [4 de junio, 2025] El proyecto se renombra y se traslada a [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))
-- [3 de marzo, 2025] Soporte experimental para el nuevo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI añadido como una opción experimental (por [@awwaawwa](https://github.com/awwaawwa))
-- [22 de febrero 2025] Mejor CI de lanzamiento y archivo exe bien empaquetado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))
-- [24 de diciembre 2024] El traductor ahora soporta modelos locales en [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [19 de diciembre 2024] Ahora se soportan documentos no PDF/A usando `-cp` _(por [@reycn](https://github.com/reycn))_
-- [13 de diciembre 2024] Soporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_
-- [10 de diciembre 2024] El traductor ahora soporta modelos de OpenAI en Azure _(por [@yidasanqian](https://github.com/yidasanqian))_
+- [4 de jun. de 2025] El proyecto se renombra y se traslada a [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))
+- [3 de mar. de 2025] Soporte experimental para el nuevo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI añadido como opción experimental (por [@awwaawwa](https://github.com/awwaawwa))
+- [22 de feb. de 2025] Mejor CI de lanzamiento y exe bien empaquetado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))
+- [24 de dic. de 2024] El traductor ahora soporta modelos locales en [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [19 de dic. de 2024] Ahora se admiten documentos no PDF/A usando `-cp` _(por [@reycn](https://github.com/reycn))_
+- [13 de dic. de 2024] Soporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_
+- [10 de dic. de 2024] El traductor ahora soporta modelos de OpenAI en Azure _(por [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="vista-previa">Vista previa</h2>
 
 <div align="center">
 <!-- <img src="./docs/images/preview.gif" width="80%"  alt="preview"/> -->
-
-
 <img src="https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png" width="80%"/>
 </div>
 
@@ -61,71 +63,71 @@ Para detalles sobre cómo contribuir, consulta la [Guía de Contribución](https
 
 > [!NOTE]
 >
-> pdf2zh 2.0 actualmente no ofrece una demostración en línea
+> pdf2zh 2.0 actualmente no proporciona una demostración en línea
 
 Puedes probar nuestra aplicación utilizando cualquiera de las siguientes demostraciones:
 
 - [Servicio público gratuito v1.x](https://pdf2zh.com/) en línea sin instalación _(recomendado)_.
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas al mes. _(recomendado)_
+<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
+- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-<!-- - [Demo alojado en HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
-- [Demo alojado en ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) sin instalación. -->
+Ten en cuenta que los recursos informáticos de la demo son limitados, así que evita abusar de ellos.
 
-Ten en cuenta que los recursos de computación de la demo son limitados, así que por favor evita abusar de ellos.
-
-<h2 id="instalacion">Instalación y Uso</h2>
+<h2 id="install">Instalación y Uso</h2>
 
 ### Instalación
 
-1. [**Windows EXE**](https://pdf2zh-next.com/empezar/INSTALLATION_winexe.html) <small>Recomendado para Windows</small>  
-2. [**Docker**](https://pdf2zh-next.com/empezar/INSTALLATION_docker.html) <small>Recomendado para Linux</small>  
-3. [**uv** (un gestor de paquetes de Python)](https://pdf2zh-next.com/empezar/INSTALLATION_uv.html) <small>Recomendado para macOS</small>
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recomendado para Windows</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recomendado para Linux</small>
+3. [**uv** (un gestor de paquetes Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recomendado para macOS</small>
 
 ---
 
 ### Uso
 
 1. [Usando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-2. [Usando **Plugin de Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceros)
+2. [Usando **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceros)
 3. [Usando **Línea de comandos**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-Para diferentes casos de uso, proporcionamos distintos métodos para utilizar nuestro programa. Consulta [esta página](./getting-started/getting-started.md) para más información.
+Para diferentes casos de uso, proporcionamos distintos métodos para utilizar nuestro programa. Consulta [esta página](./empezar/empezar.md) para más información.
 
-<h2 id="usage">Opciones avanzadas</h2>
+<h2 id="uso">Opciones avanzadas</h2>
 
-Para explicaciones detalladas, consulta nuestro documento sobre [Uso avanzado](https://pdf2zh-next.com/advanced/advanced.html) para obtener una lista completa de cada opción.
+Para explicaciones detalladas, por favor consulta nuestro documento sobre [Uso avanzado](https://pdf2zh-next.com/advanced/advanced.html) para una lista completa de cada opción.
 
-<h2 id="downstream">Desarrollo secundario (APIs)</h2>
+<h2 id="desarrollo-secundario">Desarrollo secundario (APIs)</h2>
 
 > [!NOTE]
 >
-> Actualmente, no se proporciona documentación relevante. Se complementará más adelante. Por favor, espere pacientemente.
+> Actualmente, no se proporciona documentación relevante. Se complementará más adelante. Por favor, espere con paciencia.
 
-<!-- Para aplicaciones posteriores, consulte nuestro documento sobre [Detalles de la API](./docs/APIS.md) para obtener más información acerca de:
 
-- [API de Python](./docs/APIS.md#api-python), cómo usar el programa en otros programas de Python
-- [API HTTP](./docs/APIS.md#api-http), cómo comunicarse con un servidor que tenga el programa instalado -->
+<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
 
-<h2 id="codigodeidioma">Código de idioma</h2>
+- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
+- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
+
+<h2 id="langcode">Código de idioma</h2>
 
 Si no sabes qué código usar para traducir al idioma que necesitas, consulta [esta documentación](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
 <!-- 
-<h2 id="tareas-pendientes">TAREAS PENDIENTES</h2>
+<h2 id="todo">TODOs</h2>
 
-- [ ] Analizar diseño con modelos basados en DocLayNet, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)
+- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)
 
-- [ ] Corregir rotación de página, tabla de contenido, formato de listas
+- [ ] Fix page rotation, table of contents, format of lists
 
-- [ ] Corregir fórmula de píxeles en artículos antiguos
+- [ ] Fix pixel formula in old papers
 
-- [ ] Reintento asíncrono excepto KeyboardInterrupt
+- [ ] Async retry except KeyboardInterrupt
 
-- [ ] Algoritmo Knuth–Plass para idiomas occidentales
+- [ ] Knuth–Plass algorithm for western languages
 
-- [ ] Soporte para archivos no PDF/A
+- [ ] Support non-PDF/A files
 
-- [ ] Complementos de [Zotero](https://github.com/zotero/zotero) y [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->
+- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->
 
 <h2 id="reconocimiento">Reconocimientos</h2>
 
@@ -158,7 +160,7 @@ Si no sabes qué código usar para traducir al idioma que necesitas, consulta [e
 
 <h2 id="conduct">Antes de enviar tu código</h2>
 
-Agradecemos la participación activa de los colaboradores para mejorar pdf2zh. Antes de enviar tu código, consulta nuestro [Código de Conducta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) y [Guía de Contribución](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Damos la bienvenida a la participación activa de los colaboradores para mejorar pdf2zh. Antes de que estés listo para enviar tu código, consulta nuestro [Código de Conducta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) y [Guía de Contribución](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Colaboradores</h2>
 
@@ -166,16 +168,16 @@ Agradecemos la participación activa de los colaboradores para mejorar pdf2zh. A
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
 </a>
 
-![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Imagen de análisis de Repobeats")
+![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<h2 id="star_hist">Historial de estrellas</h2>
+<h2 id="historial_de_estrellas">Historial de estrellas</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
-   <img alt="Gráfico de historial de estrellas" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
- </picture>
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
+</picture>
 </a>
 
 <div align="right"> 

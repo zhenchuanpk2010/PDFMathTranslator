@@ -6,7 +6,7 @@
 >
 > Por favor, NÃO envie PRs relacionados à internacionalização/tradução da documentação!
 
-Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, por favor, reserve um tempo para ler as seguintes diretrizes para garantir que sua contribuição possa ser aceita sem problemas.
+Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reserve um tempo para ler as seguintes diretrizes para garantir que sua contribuição possa ser aceita sem problemas.
 
 ## Tipos de Contribuições Não Aceitas
 
@@ -20,21 +20,20 @@ Por favor, NÃO envie PRs relacionados aos tipos acima.
 ## Processo de Contribuição
 
 1. Faça um fork deste repositório e clone-o localmente.
-2. Crie um novo branch: `git checkout -b feature/<feature-name>`.
+2. Crie uma nova branch: `git checkout -b feature/<feature-name>`.
 3. Desenvolva e certifique-se de que seu código atenda aos requisitos.
 4. Faça commit do seu código:
    ```bash
    git add .
    git commit -m "<semantic commit message>"
    ```
-
 5. Envie para o seu repositório: `git push origin feature/<feature-name>`.
 6. Crie um PR no GitHub, forneça uma descrição detalhada e solicite uma revisão de [@awwaawwa](https://github.com/awwaawwa).
 7. Certifique-se de que todas as verificações automatizadas sejam aprovadas.
 
 > [!TIP]
 >
-> Você não precisa esperar até que seu desenvolvimento esteja totalmente concluído para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.
+> Você não precisa esperar até que seu desenvolvimento esteja totalmente completo para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.
 >
 > Se você tiver alguma dúvida sobre o código-fonte ou assuntos relacionados, entre em contato com o mantenedor em aw@funstory.ai.
 >
@@ -44,9 +43,9 @@ Por favor, NÃO envie PRs relacionados aos tipos acima.
 
 <h4 id="sop">1. Fluxo de trabalho</h4>
 
-- Por favor, faça um fork do branch `main` e desenvolva no seu branch bifurcado.
+- Por favor, faça um fork a partir do branch `main` e desenvolva no seu branch bifurcado.
    - Ao enviar um Pull Request (PR), forneça uma descrição detalhada das suas alterações.
-   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelha), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
+   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e uma cruz vermelha), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
 
 
 <h4 id="dev&test">2. Desenvolvimento e Testes</h4>
@@ -54,33 +53,36 @@ Por favor, NÃO envie PRs relacionados aos tipos acima.
 - Use o comando `pip install -e .` para desenvolvimento e teste.
 
 
-<h4 id="format">3. Formatação de código</h4>
+<h4 id="format">3. Formatação de Código</h4>
 
 - Configure a ferramenta `pre-commit` e habilite `black` e `flake8` para formatação de código.
 
 
-<h4 id="atualizacaodependencias">4. Atualização de Dependências</h4>
+<h4 id="requpdate">4. Atualizações de Dependências</h4>
 
 - Se você introduzir novas dependências, atualize a lista de dependências no arquivo `pyproject.toml` em tempo hábil.
 
-<h4 id="atualizacaodoc">5. Atualizações da Documentação</h4>
+
+<h4 id="docupdate">5. Atualizações da Documentação</h4>
 
 - Se você adicionar novas opções de linha de comando, atualize a lista de opções de linha de comando em todas as versões de idioma do arquivo `README.md` de acordo.
+
 
 <h4 id="commitmsg">6. Mensagens de Commit</h4>
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por exemplo: `feat(translator): add openai`.
 
 
-<h4 id="estilocodigo">7. Estilo de Codificação</h4>
+<h4 id="codestyle">7. Estilo de Codificação</h4>
 
 - Certifique-se de que o código enviado adere aos padrões básicos de estilo de codificação.
-   - Use snake_case ou camelCase para nomear variáveis.
+   - Use snake_case ou camelCase para nomeação de variáveis.
 
-<h4 id="doctypo">8. Formatação da documentação</h4>
+
+<h4 id="doctypo">8. Formatação da Documentação</h4>
 
 - Para a formatação de `README.md`, siga as [Diretrizes de Redação em Chinês](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações de documentação em outros idiomas são opcionais.
+   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações da documentação em outros idiomas são opcionais.
 
 ## Adicionando um mecanismo de tradução
 
@@ -90,9 +92,9 @@ Por favor, NÃO envie PRs relacionados aos tipos acima.
 
 > [!NOTE]
 >
-> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para tais mecanismos.
+> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.
 
-## Estrutura do projeto
+## Estrutura do Projeto
 
 - **pasta config**: Sistema de configuração.
 - **pasta translator**: Implementações relacionadas ao tradutor.
@@ -108,7 +110,7 @@ Se você tiver alguma dúvida, envie um feedback via Issue ou entre no nosso Gru
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) patrocina mensalmente códigos de assinatura Pro para colaboradores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Colaboradores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) patrocina mensalmente códigos de assinatura Pro para contribuidores ativos deste projeto. Para detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

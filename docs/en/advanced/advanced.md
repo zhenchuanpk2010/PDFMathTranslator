@@ -5,8 +5,6 @@
 <h3 id="toc">Table of Contents</h3>
 
 - [Command Line Args](#command-line-args)
-  - [Args](#args)
-  - [GUI Args](#gui-args)
 - [Partial translation](#partial-translation)
 - [Specify source and target languages](#specify-source-and-target-languages)
 - [Translate wih exceptions](#translate-wih-exceptions)
@@ -203,7 +201,6 @@ pdf2zh_next --gui
 
 - Modifying Configuration via **Environment Variables**
 
-<!-- TODO 放一个环境变量的示意图在这里 -->
 You can replace the `--` in command line arguments with `PDF2ZH_`, connect parameters using `=`, and replace `-` with `_` as environment variables.
 
 For example, if you want to enable a GUI window, you can use the following command:

@@ -10,7 +10,7 @@
 > **Was ist der Unterschied zwischen `pdf2zh-<version>-with-assets-win64.zip` und `pdf2zh-<version>-win64.zip`?**
 >
 > - Wenn Sie PDFMathTranslate zum ersten Mal herunterladen und verwenden, wird empfohlen, `pdf2zh-<version>-with-assets-win64.zip` herunterzuladen.
-> - Die `pdf2zh-<version>-with-assets-win64.zip` enthält im Vergleich zu `pdf2zh-<version>-win64.zip` Ressourcendateien (wie Schriftarten und Modelle).
+> - Die `pdf2zh-<version>-with-assets-win64.zip` enthält im Vergleich zu `pdf2zh-<version>-win64.zip` zusätzliche Ressourcendateien (wie Schriftarten und Modelle).
 > - Die Version ohne Assets lädt die Ressourcen beim Ausführen dynamisch nach, aber der Download kann aufgrund von Netzwerkproblemen fehlschlagen.
 
 ***Schritt 2*** | Entpacken Sie `pdf2zh-<version>-with-assets-win64.zip` und navigieren Sie zum Ordner `pdf2zh`. Das Entpacken dauert eine Weile, bitte haben Sie Geduld.
@@ -33,7 +33,7 @@
 > [!TIP]
 > **Sie können die .exe-Datei über die Kommandozeile verwenden**
 >
-> Verwenden Sie die .exe-Datei wie folgt über die Kommandozeile:
+> Verwenden Sie die .exe-Datei über die Kommandozeile wie folgt:
 >
 > - Starten Sie Ihr Terminal und navigieren Sie zum Ordner, der die .exe-Datei enthält:
 >

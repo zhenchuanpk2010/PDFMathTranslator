@@ -1,6 +1,6 @@
 ### 開始
 
-PDFMathTranslateは強力なPDF翻訳ツールです。このツールはさまざまな方法でインストールして使い始めることができます。
+PDFMathTranslateは強力なPDF翻訳ツールです。このツールをインストールして使用開始する方法はさまざまです。
 
 ---
 
@@ -14,8 +14,8 @@ PDFMathTranslateは強力なPDF翻訳ツールです。このツールはさま�
 
 ### 使い方
 
-1. [**WebUI**の使用](./USAGE_webui.md)  
-2. [**Zotero Plugin**の使用](https://github.com/guaguastandup/zotero-pdf2zh) (サードパーティプログラム)  
+1. [**WebUI**の使用](./USAGE_webui.md)
+2. [**Zotero Plugin**の使用](https://github.com/guaguastandup/zotero-pdf2zh) (サードパーティプログラム)
 3. [**コマンドライン**の使用](./USAGE_commandline.md)
 
 <div align="right"> 

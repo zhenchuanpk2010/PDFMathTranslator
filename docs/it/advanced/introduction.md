@@ -4,11 +4,11 @@ Questa sezione è destinata agli utenti avanzati di questo software. Qui puoi tr
 
 1. [**Opzioni avanzate**](./advanced.md)
 <br>
-In questa sezione, puoi esplorare la specifica dei linguaggi sorgente/destinazione, cambiare servizi di traduzione e altro ancora.
+In questa sezione, puoi esplorare lingue sorgente/destinazione specifiche, cambiare servizi di traduzione e altro ancora.
 
 2. [**Codice lingua**](./Language-Codes.md)
 <br>
-Se non sei sicuro di quali codici utilizzare per tradurre le lingue di origine/destinazione, puoi trovarli qui.
+Se non sei sicuro su quali codici utilizzare per tradurre le tue lingue di origine/destinazione, puoi trovarli qui.
 
 3. [**Documentazione dei servizi di traduzione**](./Documentazione-dei-servizi-di-traduzione.md)
 <br>

@@ -2,8 +2,8 @@
 >
 > 本文档已过时，请勿参考。
 
-<h2 id="目录">目录</h2>
-当前项目支持两种类型的 API，所有方法都需要 Redis；
+<h2 id="toc">目录</h2>
+当前项目支持两种类型的API，所有方法都需要Redis；
 
 - [Python 中的函数调用](#api-python)
 - [HTTP 协议](#api-http)
@@ -26,34 +26,11 @@ params = {
     'thread': 4,
 }
 ```
-
 通过文件翻译：
-
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-
-```bash
-pdf2zh -i input.pdf -o output.pdf --stream
-```
-
-[!NOTE]
-The `--stream` option is used to enable streaming mode, which processes the PDF in chunks for better performance with large files.
-
-### Related Links
-- [Home](#主页)
-- [Getting Start](#快速开始)
-- [Installation](#如何安装)
-- [Command Line](#命令行)
-- [Usage](#如何使用)
-- [Language Code](#语言代码)
-- [Documentation of Translation Services](#翻译服务文档)
-- [Getting Started](#开始使用)
-- [Advanced](#高级选项)
-- [Support Languages](#支持的语言)
-- [Community](#社区)
-- [FAQ](#常见问题)
-
+流式翻译：
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -65,9 +42,9 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更灵活的方式，您可以通过 HTTP 协议与程序通信，如果：
+以更灵活的方式，您可以通过HTTP协议与程序进行通信，前提是：
 
-1. 安装并运行后端
+1. 安装并运行后端服务
 
    ```bash
    pip install pdf2zh_next[backend]
@@ -75,7 +52,7 @@ with open('example.pdf', 'rb') as f:
    pdf2zh_next --celery worker
    ```
 
-2. 通过 HTTP 协议按如下方式使用：
+2. 通过HTTP协议按以下方式使用：
 
    - 提交翻译任务
 
@@ -84,33 +61,33 @@ with open('example.pdf', 'rb') as f:
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-- 检查进度
+   - 检查进度
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-- 检查进度 _(如果已完成)_
+   - 检查进度 _(如果已完成)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-- 保存单语文件
+   - 保存单语文件
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-- 保存双语文件
+   - 保存双语文件
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-- 如果正在运行则中断并删除任务
+   - 如果任务正在运行则中断并删除任务
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
@@ -120,4 +97,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

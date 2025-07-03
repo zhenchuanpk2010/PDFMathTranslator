@@ -1,14 +1,14 @@
-[**开始使用**](./getting-started.md) > **如何安装** > **uv** _(当前)_
+[**开始使用**](./getting-started.md) > **如何安装** > **uv** _(current)_
 
 ---
 
 ### 通过 uv 安装 PDFMathTranslate
 
-#### 什么是 uv？如何安装它？
+#### 什么是uv？如何安装它？
 
-uv 是一个用 Rust 编写的极速 Python 包和项目管理工具。
+uv 是一个用 Rust 编写的极速 Python 包和项目管理器。
 <br>
-要在您的计算机上安装 uv，请参阅[这篇文章](https://docs.astral.sh/uv/快速开始/如何安装/)。
+要在您的计算机上安装 uv，请参考[这篇文章](https://docs.astral.sh/uv/getting-started/installation/)。
 
 ---
 
@@ -29,7 +29,7 @@ uv 是一个用 Rust 编写的极速 Python 包和项目管理工具。
 
     如果在运行时看到错误 `command not found: pdf2zh_next`，请按以下方式配置环境变量后重试：
 
-    === "macOS 和 Linux"
+    === "macOS and Linux"
 
         将以下内容添加到 ~/.zshrc 文件中：
 
@@ -50,10 +50,10 @@ uv 是一个用 Rust 编写的极速 Python 包和项目管理工具。
         然后重启终端
 
 > [!NOTE]
-> 如果在使用 WebUI 时遇到任何问题，请参考[如何使用 --> WebUI](./USAGE_webui.md)。
+> 如果在使用 WebUI 过程中遇到任何问题，请参考[如何使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> 如果在使用命令行时遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
+> 如果在使用命令行过程中遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

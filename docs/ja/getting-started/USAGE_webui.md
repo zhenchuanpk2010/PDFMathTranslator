@@ -1,30 +1,30 @@
-[**開始**](./getting-started.md) > **インストール** > **WebUI** _(現在のページ)_
+[**開始**](./getting-started.md) > **インストール** > **WebUI** _(current)_
 
 ---
 
-### Webui で PDFMathTranslate を使用する
+### Webui経由でPDFMathTranslateを使用する
 
 #### WebUIページを開く方法:
 
 WebUIインターフェースを開く方法はいくつかあります。**Windows**を使用している場合は、[この記事](./INSTALLATION_winexe.md)を参照してください。
 
-1. Pythonがインストールされていること（3.10 <= バージョン <= 3.13）
+1. Pythonがインストールされていること (3.10 <= バージョン <= 3.13)
 
 2. パッケージをインストール:
 
-3. ブラウザで使い始める:
+3. ブラウザで使用開始:
 
     ```bash
     pdf2zh_next --gui
     ```
 
-4. ブラウザが自動的に起動しない場合は、次のURLにアクセスしてください。
+4. ブラウザが自動的に起動しない場合、以下にアクセス:
 
     ```bash
     http://localhost:7860/
     ```
 
-    PDFファイルをウィンドウにドロップし、`Translate`をクリックします。
+    PDFファイルをウィンドウにドロップして`Translate`をクリック。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>

@@ -2,7 +2,7 @@
 
 ---
 
-### Installer PDFMathTranslate via un fichier .exe
+### Installer PDFMathTranslate via fichier .exe
 
 ***Étape 1*** | Téléchargez `pdf2zh-<version>-with-assets-win64.zip` depuis la [page des versions](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).
 
@@ -10,12 +10,12 @@
 > **Quelle est la différence entre `pdf2zh-<version>-with-assets-win64.zip` et `pdf2zh-<version>-win64.zip` ?**
 >
 > - Si vous téléchargez et utilisez PDFMathTranslate pour la première fois, il est recommandé de télécharger `pdf2zh-<version>-with-assets-win64.zip`.
-> - Le fichier `pdf2zh-<version>-with-assets-win64.zip` inclut des fichiers de ressources (tels que des polices et des modèles) par rapport à `pdf2zh-<version>-win64.zip`.
+> - Le fichier `pdf2zh-<version>-with-assets-win64.zip` inclut des fichiers de ressources (tels que des polices et des modèles) contrairement à `pdf2zh-<version>-win64.zip`.
 > - La version sans ressources téléchargera également les ressources dynamiquement lors de l'exécution, mais le téléchargement peut échouer en raison de problèmes de réseau.
 
-***Étape 2*** | Décompressez `pdf2zh-<version>-with-assets-win64.zip` et naviguez jusqu'au dossier `pdf2zh`. La décompression prend un certain temps, soyez patient.
+***Étape 2*** | Décompressez `pdf2zh-<version>-with-assets-win64.zip` et accédez au dossier `pdf2zh`. La décompression prend un certain temps, merci de patienter.
 
-***Étape 3*** | Naviguez jusqu'au dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.
+***Étape 3*** | Accédez au dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.
 
 > [!TIP]
 > **Impossible d'exécuter le fichier .exe**
@@ -26,7 +26,7 @@
 
 > [!NOTE]
 >
-> Si vous rencontrez des problèmes lors de l'utilisation de l'interface Web, veuillez consulter [cette page](./USAGE_webui.md).
+> Si vous rencontrez des problèmes lors de l'utilisation de l'interface Web, veuillez consulter [cette page web](./USAGE_webui.md).
 
 ***Étape 5*** | Profitez-en !
 
@@ -47,13 +47,13 @@
 > ./pdf2zh_next.exe "document.pdf"
 > ```
 >
-> Vous pouvez utiliser d'autres paramètres de ligne de commande comme d'habitude :
+> Vous pouvez utiliser d'autres paramètres de ligne de commande normalement :
 >
 > ```bash
 > ./pdf2zh_next.exe "document.pdf" --lang-in en --lang-out ja
 > ```
 >
-> Si vous avez besoin de plus d'informations sur l'utilisation de la ligne de commande, veuillez consulter cet article.
+> Si vous avez besoin de plus d'informations sur l'utilisation de la ligne de commande, veuillez vous référer à cet article.
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

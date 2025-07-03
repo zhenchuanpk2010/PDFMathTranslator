@@ -3,7 +3,7 @@
 > Ce document est obsolète, veuillez ne pas vous y référer.
 
 <h2 id="toc">Table des matières</h2>
-Le présent projet prend en charge deux types d'API, toutes les méthodes nécessitent Redis ;
+Le présent projet prend en charge deux types d'API, toutes les méthodes nécessitent Redis;
 
 - [Appels fonctionnels en Python](#api-python)
 - [Protocoles HTTP](#api-http)
@@ -26,15 +26,11 @@ params = {
     'thread': 4,
 }
 ```
-
 Traduire avec des fichiers :
-
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-
 Traduire avec flux :
-
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -56,7 +52,7 @@ De manière plus flexible, vous pouvez communiquer avec le programme en utilisan
    pdf2zh_next --celery worker
    ```
 
-2. Utilisation des protocoles HTTP comme suit :
+2. Utiliser les protocoles HTTP comme suit :
 
    - Soumettre une tâche de traduction
 
@@ -65,33 +61,33 @@ De manière plus flexible, vous pouvez communiquer avec le programme en utilisan
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-- Vérifier la progression
+   - Vérifier la progression
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-- Vérifier la progression _(si terminé)_
+   - Vérifier la progression _(si terminé)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-- Enregistrer le fichier monolingue
+   - Sauvegarder le fichier monolingue
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-- Enregistrer le fichier bilingue
+   - Sauvegarder le fichier bilingue
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-- Interrompre si en cours d'exécution et supprimer la tâche
+   - Interrompre si en cours et supprimer la tâche
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```

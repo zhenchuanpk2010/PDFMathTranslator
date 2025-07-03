@@ -10,12 +10,12 @@ Merci de votre intérêt pour ce projet ! Avant de commencer à contribuer, veui
 
 ## Types de contributions non acceptées
 
-1. Internationalisation/traduction de la documentation  
-2. Contributions liées à l'infrastructure de base, telles que l'API HTTP, etc.  
-3. Problèmes explicitement marqués comme "Aide non nécessaire" (y compris les problèmes dans le dépôt [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)).  
-4. Autres contributions jugées inappropriées par les mainteneurs.  
+1. Internationalisation/traduction de la documentation
+2. Contributions liées à l'infrastructure principale, telles que l'API HTTP, etc.
+3. Problèmes explicitement marqués comme "Aucune aide nécessaire" (y compris les problèmes dans le dépôt [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)).
+4. Autres contributions jugées inappropriées par les mainteneurs.
 
-Veuillez ne PAS soumettre de PR liés aux types ci-dessus.
+Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 ## Processus de contribution
 
@@ -27,20 +27,19 @@ Veuillez ne PAS soumettre de PR liés aux types ci-dessus.
    git add .
    git commit -m "<semantic commit message>"
    ```
-
 5. Poussez vers votre dépôt : `git push origin feature/<feature-name>`.
 6. Créez une PR sur GitHub, fournissez une description détaillée et demandez une revue à [@awwaawwa](https://github.com/awwaawwa).
 7. Assurez-vous que toutes les vérifications automatisées passent.
 
 > [!TIP]
 >
-> Vous n'avez pas besoin d'attendre que votre développement soit entièrement terminé pour créer une PR. En créer une tôt nous permet d'examiner votre implémentation et de fournir des suggestions.
+> Vous n'avez pas besoin d'attendre que votre développement soit entièrement terminé pour créer une PR. En créer une tôt nous permet de revoir votre implémentation et de fournir des suggestions.
 >
 > Si vous avez des questions sur le code source ou des sujets connexes, veuillez contacter le mainteneur à aw@funstory.ai.
 >
 > Les fichiers de ressources pour la version 2.0 sont partagés avec [BabelDOC](https://github.com/funstory-ai/BabelDOC). Le code pour télécharger les ressources associées se trouve dans BabelDOC. Si vous souhaitez ajouter de nouveaux fichiers de ressources, veuillez contacter le mainteneur de BabelDOC à aw@funstory.ai.
 
-## Exigences de base
+## Prérequis de base
 
 <h4 id="sop">1. Flux de travail</h4>
 
@@ -49,19 +48,20 @@ Veuillez ne PAS soumettre de PR liés aux types ci-dessus.
    - Si votre PR ne passe pas les vérifications automatiques (indiquées par `checks failed` et une croix rouge), veuillez examiner les `details` correspondants et modifier votre soumission pour vous assurer que la nouvelle PR passe toutes les vérifications.
 
 
-<h4 id="dev&test">2. Développement et Tests</h4>
+<h4 id="dev&test">2. Développement et tests</h4>
 
 - Utilisez la commande `pip install -e .` pour le développement et les tests.
 
 
 <h4 id="format">3. Formatage du code</h4>
 
-- Configurez l'outil `pre-commit` et activez `black` et `flake8` pour le formatage du code.
+- Configurer l'outil `pre-commit` et activer `black` et `flake8` pour le formatage du code.
 
 
-<h4 id="majdep">4. Mises à jour des dépendances</h4>
+<h4 id="requpdate">4. Mises à jour des dépendances</h4>
 
 - Si vous introduisez de nouvelles dépendances, veuillez mettre à jour la liste des dépendances dans le fichier `pyproject.toml` en temps opportun.
+
 
 <h4 id="docupdate">5. Mises à jour de la documentation</h4>
 
@@ -76,7 +76,7 @@ Veuillez ne PAS soumettre de PR liés aux types ci-dessus.
 <h4 id="codestyle">7. Style de codage</h4>
 
 - Assurez-vous que le code soumis respecte les normes de base de style de codage.
-   - Utilisez soit snake_case ou camelCase pour la dénomination des variables.
+   - Utilisez soit snake_case soit camelCase pour la nomination des variables.
 
 
 <h4 id="doctypo">8. Formatage de la documentation</h4>
@@ -84,7 +84,7 @@ Veuillez ne PAS soumettre de PR liés aux types ci-dessus.
 - Pour le formatage de `README.md`, veuillez suivre les [Directives de rédaction en chinois](https://github.com/sparanoid/chinese-copywriting-guidelines).
    - Assurez-vous que la documentation en anglais et en chinois est toujours à jour ; les mises à jour de la documentation dans d'autres langues sont facultatives.
 
-## Ajout d'un moteur de traduction
+## Ajouter un moteur de traduction
 
 1. Ajoutez une nouvelle classe de configuration de traducteur dans le fichier `pdf2zh/config/translate_engine_model.py`.
 2. Ajoutez une instance de la nouvelle classe de configuration de traducteur à l'alias de type `TRANSLATION_ENGINE_SETTING_TYPE` dans le même fichier.
@@ -92,7 +92,7 @@ Veuillez ne PAS soumettre de PR liés aux types ci-dessus.
 
 > [!NOTE]
 >
-> Ce projet n'a pas pour objectif de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de demande de support pour ces moteurs.
+> Ce projet n'a pas pour objectif de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour ces moteurs.
 
 ## Structure du projet
 
@@ -110,7 +110,7 @@ Si vous avez des questions, veuillez soumettre vos commentaires via Issue ou rej
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs à ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs de ce projet. Pour plus de détails, consultez : [BabelDOC/PDFMathTranslate Règles de récompense des contributeurs](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

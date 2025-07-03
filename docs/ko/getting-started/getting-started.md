@@ -15,7 +15,7 @@ PDFMathTranslate는 강력한 PDF 번역 도구입니다. 다양한 방법으로
 ### 사용법
 
 1. [**WebUI** 사용하기](./USAGE_webui.md)
-2. [**Zotero 플러그인** 사용하기](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)
+2. [**Zotero Plugin** 사용하기](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)
 3. [**명령줄** 사용하기](./USAGE_commandline.md)
 
 <div align="right"> 
