@@ -7,7 +7,7 @@ As the program uses artificial intelligence to recognize and extract documents, 
 - **Answer**:  
 **GPU is not required.** But if you have a GPU, the program will automatically use it for higher performance.
 
-## Downloading interrupted？
+## Downloading interrupted?
 - **Question**:  
 I encountered the following interrupt error while downloading the model. What should I do?
 
