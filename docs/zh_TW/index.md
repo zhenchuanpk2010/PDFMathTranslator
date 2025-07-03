@@ -44,13 +44,13 @@ PDF 科學論文翻譯與雙語對照。
 
 <h2 id="updates">更新日誌</h2>
 
-- [2025年6月4日] 項目更名並遷移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025年3月3日] 實驗性支持新後端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作為實驗性選項 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025年2月22日] 更好的發佈CI和打包完善的windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))
-- [2024年12月24日] 翻譯器現在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [2024年12月19日] 現在使用 `-cp` 支持非PDF/A文檔 _(by [@reycn](https://github.com/reycn))_
-- [2024年12月13日] 額外支持後端 _(by [@YadominJinta](https://github.com/YadominJinta))_
-- [2024年12月10日] 翻譯器現在支持Azure上的OpenAI模型 _(by [@yidasanqian](https://github.com/yidasanqian))_
+- [2025 年 6 月 4 日] 項目更名並遷移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 年 3 月 3 日] 實驗性支持新後端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作為實驗性選項 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 年 2 月 22 日] 更好的發佈 CI 和打包完善的 windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))
+- [2024 年 12 月 24 日] 翻譯器現在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [2024 年 12 月 19 日] 現在使用 `-cp` 支持非 PDF/A 文檔 _(by [@reycn](https://github.com/reycn))_
+- [2024 年 12 月 13 日] 額外支持後端 _(by [@YadominJinta](https://github.com/YadominJinta))_
+- [2024 年 12 月 10 日] 翻譯器現在支持 Azure 上的 OpenAI 模型 _(by [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="preview">預覽</h2>
 
@@ -68,7 +68,7 @@ PDF 科學論文翻譯與雙語對照。
 您可以透過以下任一演示來試用我們的應用程式：
 
 - [v1.x 公開免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_
-- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月1000頁免費額度 _(推薦)_
+- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 頁免費額度 _(推薦)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
@@ -131,7 +131,7 @@ PDF 科學論文翻譯與雙語對照。
 
 <h2 id="acknowledgement">致謝</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月Pro會員兌換碼贊助，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼贊助，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 

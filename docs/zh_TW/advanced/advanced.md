@@ -54,24 +54,24 @@
 | `--pool-max-worker`             | 翻譯池的最大工作線程數。若未設置，將使用 qps 作為工作線程數量 | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
 | `--no-auto-extract-glossary`    | 禁用自動提取詞彙表                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
 | `--primary-font-family`         | 覆蓋翻譯文字的主要字體家族。選項：'serif' 代表襯線字體，'sans-serif' 代表無襯線字體，'script' 代表手寫/斜體字體。若未指定，則根據原始文字屬性自動選擇字體。 | `pdf2zh example.pdf --primary-font-family serif` |
-| `--no-dual`                     | 不輸出雙語PDF文件                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
+| `--no-dual`                     | 不輸出雙語 PDF 文件                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
 | `--no-mono`                     | 不輸出單語種 PDF 文件                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | 用於識別公式文字的字體模式                                                  | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
 | `--formular-char-pattern`       | 用於識別公式文字的字元模式                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
 | `--split-short-line`            | 強制將短行拆分為不同段落                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
 | `--short-line-split-factor`     | 短行分割閾值因子                                                 |                                                                                                                      |
-| `--skip-clean`                  | 跳過PDF清理步驟                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
+| `--skip-clean`                  | 跳過 PDF 清理步驟                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
 | `--dual-translate-first`        | 在雙 PDF 模式下優先放置翻譯頁                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
 | `--disable-rich-text-translate` | 停用富文本翻譯                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | 啟用所有相容性增強選項                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
-| `--use-alternating-pages-dual`  | 使用交替頁面模式處理雙頁PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
+| `--use-alternating-pages-dual`  | 使用交替頁面模式處理雙頁 PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
 | `--watermark-output-mode`       | PDF 檔案的水印輸出模式                                                    | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
 | `--max-pages-per-part`          | 分割翻譯時每部分的最大頁數                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
 | `--translate-table-text`        | 翻譯表格文字（實驗性功能）                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
 | `--skip-scanned-detection`      | 跳過掃描檢測                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | 強制將翻譯後的文字設為黑色並添加白色背景                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
-| `--auto-enable-ocr-workaround`  | 啟用自動OCR解決方案。若檢測到文件為重度掃描文件，將嘗試啟用OCR處理並跳過後續掃描檢測。詳情請參閱文檔。(預設值: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page`| 僅在輸出PDF中包含已翻譯的頁面。僅在 --pages 參數使用時生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
+| `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若檢測到文件為重度掃描文件，將嘗試啟用 OCR 處理並跳過後續掃描檢測。詳情請參閱文檔。(預設值：False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
+| `--only-include-translated-page`| 僅在輸出 PDF 中包含已翻譯的頁面。僅在 --pages 參數使用時生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | 自訂翻譯詞彙表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 儲存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
@@ -107,9 +107,9 @@ pdf2zh_next example.pdf --pages 25-
 ```
 
 > [!TIP]
-> `25-` 包含第25頁之後的所有頁面。如果您的文件有100頁，這等同於 `25-100`。
+> `25-` 包含第 25 頁之後的所有頁面。如果您的文件有 100 頁，這等同於 `25-100`。
 > 
-> 同理，`-25` 包含第25頁之前的所有頁面，這等同於 `1-25`。
+> 同理，`-25` 包含第 25 頁之前的所有頁面，這等同於 `1-25`。
 
 - 如果頁面不是連續的，可以使用逗號 `,` 來分隔它們。
 
@@ -125,7 +125,7 @@ pdf2zh_next example.pdf --pages "1,3"
 pdf2zh_next example.pdf --pages "1,3,10-20,25-"
 ```
 
-此命令將翻譯第一頁、第三頁、第10至20頁，以及從第25頁開始的所有頁面。
+此命令將翻譯第一頁、第三頁、第 10 至 20 頁，以及從第 25 頁開始的所有頁面。
 
 
 [⬆️ 回到頂部](#toc)

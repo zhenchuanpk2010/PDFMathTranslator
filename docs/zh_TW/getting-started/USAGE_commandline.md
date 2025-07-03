@@ -2,11 +2,11 @@
 
 ---
 
-### 通過命令行使用PDFMathTranslate
+### 通過命令行使用 PDFMathTranslate
 
 #### 基本用法
 
-安裝完成後，請輸入以下命令來翻譯您的PDF。
+安裝完成後，請輸入以下命令來翻譯您的 PDF。
 
 ```bash
 pdf2zh_next document.pdf

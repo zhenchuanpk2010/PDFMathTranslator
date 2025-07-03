@@ -78,7 +78,7 @@ aw@funstory.ai。
 版本 2.0，可在
 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html 查閱。
 
-社區影響指南的靈感來自[Mozilla的行為準則執行階梯](https://github.com/mozilla/diversity)。
+社區影響指南的靈感來自[Mozilla 的行為準則執行階梯](https://github.com/mozilla/diversity)。
 
 [homepage]: https://www.contributor-covenant.org
 

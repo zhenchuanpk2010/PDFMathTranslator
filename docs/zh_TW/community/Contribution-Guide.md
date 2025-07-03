@@ -28,7 +28,7 @@
    git commit -m "<semantic commit message>"
    ```
 5. 推送至您的存儲庫：`git push origin feature/<feature-name>`。
-6. 在GitHub上創建PR，提供詳細描述，並請求[@awwaawwa](https://github.com/awwaawwa)進行審查。
+6. 在 GitHub 上創建 PR，提供詳細描述，並請求[@awwaawwa](https://github.com/awwaawwa)進行審查。
 7. 確保所有自動化檢查通過。
 
 > [!TIP]
@@ -101,8 +101,8 @@
 - **gui.py**: 提供圖形用戶界面。
 - **const.py**: 一些常量。
 - **main.py**: 提供命令行工具。
-- **high_level.py**: 基於BabelDOC的高級接口。
-- **http_api.py**: 提供HTTP API（尚未啟動）。
+- **high_level.py**: 基於 BabelDOC 的高級接口。
+- **http_api.py**: 提供 HTTP API（尚未啟動）。
 
 ## 聯繫我們
 
