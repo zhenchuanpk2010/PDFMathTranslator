@@ -118,7 +118,7 @@ plugins:
             Community: 社区
             FAQ: 常见问题
 
-        - locale: zh-TW
+        - locale: zh_TW
           name: 繁體中文
           build: true
           theme:
