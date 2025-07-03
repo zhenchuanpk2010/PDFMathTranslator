@@ -16,7 +16,7 @@ I encountered the following interrupt error while downloading the model. What sh
 - **Answer**:  
 The network is receiving interference, please use a stable network link or try to bypass network intervention.
 
-## How to update to the latest version？
+## How to update to the latest version?
 - **Question**:  
 I want to use some of the features of the latest version, how do I update it?
 
