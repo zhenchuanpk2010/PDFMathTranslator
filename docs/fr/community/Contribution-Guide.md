@@ -12,10 +12,15 @@ Merci de votre intérêt pour ce projet ! Avant de commencer à contribuer, veui
 
 1. Internationalisation/traduction de la documentation
 2. Contributions liées à l'infrastructure principale, telles que l'API HTTP, etc.
-3. Problèmes explicitement marqués comme "Aucune aide nécessaire" (y compris les problèmes dans le dépôt [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)).
+3. Problèmes explicitement marqués comme "No help needed" (y compris les problèmes dans le dépôt [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)).
 4. Autres contributions jugées inappropriées par les mainteneurs.
+5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.
 
 Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
+
+> [!NOTE]
+>
+> Si vous souhaitez contribuer à la documentation, veuillez **uniquement modifier la version anglaise de la documentation**. Les autres versions linguistiques sont traduites par les contributeurs eux-mêmes.
 
 ## Processus de contribution
 

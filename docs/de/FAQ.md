@@ -7,7 +7,7 @@ Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumen
 - **Antwort**:
 **Eine GPU ist nicht erforderlich.** Aber wenn Sie eine GPU haben, wird das Programm diese automatisch für eine höhere Leistung nutzen.
 
-## Download unterbrochen？
+## Download unterbrochen?
 - **Frage**:
 Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?
 
@@ -16,7 +16,7 @@ Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler ge
 - **Antwort**:
 Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.
 
-## Wie aktualisiere ich auf die neueste Version?
+## Wie aktualisiert man auf die neueste Version?
 - **Frage**:
 Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
 

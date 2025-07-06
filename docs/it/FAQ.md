@@ -9,7 +9,7 @@ Poiché il programma utilizza l'intelligenza artificiale per riconoscere ed estr
 ```
 **Non è necessaria una GPU.** Ma se hai una GPU, il programma la utilizzerà automaticamente per prestazioni più elevate.
 
-## Download interrotta？
+## Download interrotto?
 - **Domanda**:
 Ho riscontrato il seguente errore di interruzione durante il download del modello. Cosa devo fare?
 

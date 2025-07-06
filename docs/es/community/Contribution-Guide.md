@@ -11,11 +11,16 @@
 ## Tipos de contribuciones no aceptadas
 
 1. Internacionalización/traducción de documentación
-2. Contribuciones relacionadas con la infraestructura central, como HTTP API, etc.
+2. Contribuciones relacionadas con la infraestructura central, como la API HTTP, etc.
 3. Problemas marcados explícitamente como "No se necesita ayuda" (incluyendo problemas en el repositorio [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)).
 4. Otras contribuciones consideradas inapropiadas por los mantenedores.
+5. Contribuir a la documentación, pero cambiar la documentación en idiomas distintos al inglés.
 
 Por favor NO envíes PRs relacionados con los tipos mencionados anteriormente.
+
+> [!NOTE]
+>
+> Si deseas contribuir a la documentación, por favor **solo modifiques la versión en inglés de la documentación**. Las versiones en otros idiomas son traducidas por los propios colaboradores.
 
 ## Proceso de contribución
 
