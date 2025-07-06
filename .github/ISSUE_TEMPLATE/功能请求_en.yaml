@@ -2,6 +2,13 @@ name: Feature request
 description: Suggest an idea for this project
 labels: ['enhancement']
 body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you asking
+      options:
+      - label: I have searched the existing issues
+        required: true
   - type: textarea
     id: describe
     attributes:

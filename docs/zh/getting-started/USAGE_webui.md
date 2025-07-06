@@ -1,14 +1,14 @@
-[**快速开始**](./getting-started.md) > **如何使用** > **WebUI** _(当前页面)_
+[**快速开始**](./快速开始.md) > **如何安装** > **WebUI** _(current)_
 
 ---
 
-### 通过 WebUI 使用 PDFMathTranslate
+### 通过 Webui 使用 PDFMathTranslate
 
 #### 如何打开 WebUI 页面：
 
-> 有几种方法可以打开 WebUI 界面。如果您使用 **Windows**，请参阅 [此文章](./INSTALLATION_winexe.md);
+有几种方法可以打开 WebUI 界面。如果您使用的是 **Windows**，请参考[这篇文章](./INSTALLATION_winexe.md);
 
-1. 确保 Python 已安装 (3.10 <= 版本 <= 3.13)
+1. 已安装 Python（版本需在 3.10 至 3.13 之间）
 
 2. 安装我们的包：
 
@@ -18,23 +18,23 @@
     pdf2zh_next --gui
     ```
 
-4. 如果您的浏览器没有自动启动，请转到
+4. 如果浏览器未自动启动，请访问
 
     ```bash
     http://localhost:7860/
     ```
 
-> 将 PDF 文件拖放到窗口中并点击 `Translate`。
+    将 PDF 文件拖入窗口并点击 `Translate`。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### 环境变量
 
-> 您可以使用环境变量设置源和目标语言：
+你可以通过环境变量设置源语言和目标语言：
 
-> - `PDF2ZH_LANG_FROM`: 设置源语言。默认为 "English"。
-> - `PDF2ZH_LANG_TO`: 设置目标语言。默认为 "Simplified Chinese"。
+- `PDF2ZH_LANG_FROM`: 设置源语言。默认为 "English"。
+- `PDF2ZH_LANG_TO`: 设置目标语言。默认为 "Simplified Chinese"。
 
 ## 预览
 
@@ -44,3 +44,6 @@
 ## 维护
 
 GUI 由 [Rongxin](https://github.com/reycn) 维护
+
+<div align="right"> 
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

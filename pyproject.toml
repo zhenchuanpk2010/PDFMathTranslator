@@ -1,6 +1,6 @@
 [project]
 name = "pdf2zh-next"
-version = "2.3.1"
+version = "2.3.3"
 description = "Latex PDF Translator"
 authors = [
     { name = "awwaawwa", email = "aw@funstory.ai" },
@@ -33,7 +33,7 @@ dependencies = [
     "gradio_pdf>=0.0.21",
     "peewee>=3.17.8",
     "fontTools",
-    "babeldoc>=0.4.0, <0.5.0",
+    "babeldoc>=0.4.11, <0.5.0",
     "rich",
     "pydantic-settings>=2.8.1",
     "pydantic>=2.10.6",
@@ -56,7 +56,7 @@ dev = [
     "markdown-include>=0.8.1",
     "mkdocs-git-authors-plugin>=0.9.5",
     "mkdocs-git-committers-plugin>=0.2.3",
-    "mkdocs-git-revision-date-localized-plugin>=1.4.5",
+    "mkdocs-git-revision-date-localized-plugin>=1.4.7",
     "mkdocs-material[recommended]>=9.6.4",
     "mkdocs-static-i18n>=1.3.0",
 ]
@@ -80,7 +80,7 @@ max-line-length = 88
 
 
 [bumpver]
-current_version = "2.3.1"
+current_version = "2.3.3"
 version_pattern = "MAJOR.MINOR.PATCH[.PYTAGNUM]"
 
 [bumpver.file_patterns]

@@ -4,9 +4,9 @@
 
 #### Google
 
-来源 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, 由 GPT-4o 总结。
+来源 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>，由 GPT-4o 整理。
 
-| Label in Chinese | Label | `Language Code` |
+| 中文标签 | 标签 | `语言代码` |
 | --- | --- | --- |
 | 阿姆哈拉语 | Amharic | `am` |
 | 阿拉伯语 | Arabic | `ar` |
@@ -67,9 +67,9 @@
 
 
 #### DeepL
-来源 <https://developers.deepl.com/docs/resources/supported-languages>, 由 GPT-4o 总结。
+来源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。
 
-| Label in Chinese | Label | `Language Code`| Supports |
+| 中文标签 | Label | `Language Code`| 支持类型 |
 | --- | --- | --- | --- |
 | 阿拉伯语 | Arabic | `AR` | `source`, `target` |
 | 保加利亚语 | Bulgarian | `BG` | `source`, `target` |
@@ -107,3 +107,6 @@
 | 中文 | Chinese | `ZH` | `source`, `target` |
 | 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
 | 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
+
+<div align="right"> 
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

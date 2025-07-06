@@ -1,20 +1,20 @@
 > [!CAUTION]
 >
-> This document is outdated, please do not refer to it.
+> 本文档已过时，请勿参考。
 
-<h2 id="toc">Table of Content</h2>
-The present project supports two types of APIs, All methods need the Redis;
+<h2 id="toc">目录</h2>
+当前项目支持两种类型的 API，所有方法都需要 Redis；
 
-- [Functional calls in Python](#api-python)
-- [HTTP protocols](#api-http)
+- [Python 中的函数调用](#api-python)
+- [HTTP 协议](#api-http)
 
 ---
 
 <h2 id="api-python">Python</h2>
 
-As `pdf2zh` is an installed module in Python, we expose two methods for other programs to call in any Python scripts.
+由于 `pdf2zh` 是 Python 中的一个已安装模块，我们提供了两种方法供其他程序在任何 Python 脚本中调用。
 
-For example, if you want translate a document from English to Chinese using Google Translate, you may use the following code:
+例如，如果你想使用 Google Translate 将文档从英语翻译成中文，可以使用以下代码：
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -26,25 +26,25 @@ params = {
     'thread': 4,
 }
 ```
-Translate with files:
+通过文件翻译：
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Translate with stream:
+流式翻译：
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
 ```
 
-[⬆️ Back to top](#toc)
+[⬆️ 返回顶部](#目录)
 
 ---
 
 <h2 id="api-http">HTTP</h2>
 
-In a more flexible way, you can communicate with the program using HTTP protocols, if:
+以更灵活的方式，您可以通过 HTTP 协议与程序进行通信，前提是：
 
-1. Install and run backend
+1. 安装并运行后端服务
 
    ```bash
    pip install pdf2zh_next[backend]
@@ -52,46 +52,49 @@ In a more flexible way, you can communicate with the program using HTTP protocol
    pdf2zh_next --celery worker
    ```
 
-2. Using HTTP protocols as follows:
+2. 通过 HTTP 协议按以下方式使用：
 
-   - Submit translate task
+   - 提交翻译任务
 
      ```bash
      curl http://localhost:11008/v1/translate -F "file=@example.pdf" -F "data={\"lang_in\":\"en\",\"lang_out\":\"zh\",\"service\":\"google\",\"thread\":4}"
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-   - Check Progress
+   - 检查进度
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - Check Progress _(if finished)_
+   - 检查进度 _(如果已完成)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-   - Save monolingual file
+   - 保存单语文件
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-   - Save bilingual file
+   - 保存双语文件
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-   - Interrupt if running and delete the task
+   - 如果任务正在运行则中断并删除任务
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
 
-[⬆️ Back to top](#toc)
+[⬆️ 返回顶部](#目录)
 
 ---
+
+<div align="right"> 
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

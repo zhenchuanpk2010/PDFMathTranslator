@@ -15,7 +15,7 @@
 
 ***Step 2*** | Unzip `pdf2zh-<version>-with-assets-win64.zip` and navigate `pdf2zh` folder. It takes a while to decompress, please be patient.
 
-***Step 3*** | Navigate `pdf2zh/build` folder, then Double-click `pdf2zh_next.exe`.
+***Step 3*** | Navigate `pdf2zh` folder, then Double-click `pdf2zh.exe`.
 
 > [!TIP]
 > **Cannot run the .exe file**
@@ -54,6 +54,3 @@
 > ```
 >
 > If you need more information about command line usage, please refer to this article.
-
-<div align="right">
-<h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

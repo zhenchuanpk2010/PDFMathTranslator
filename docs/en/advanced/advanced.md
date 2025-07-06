@@ -5,8 +5,6 @@
 <h3 id="toc">Table of Contents</h3>
 
 - [Command Line Args](#command-line-args)
-  - [Args](#args)
-  - [GUI Args](#gui-args)
 - [Partial translation](#partial-translation)
 - [Specify source and target languages](#specify-source-and-target-languages)
 - [Translate wih exceptions](#translate-wih-exceptions)
@@ -16,6 +14,7 @@
 - [Translation cache](#translation-cache)
 - [Deployment as a public services](#deployment-as-a-public-services)
 - [Authentication and welcome page](#authentication-and-welcome-page)
+- [Glossary Support](#glossary-support)
 
 ---
 
@@ -74,6 +73,7 @@ In the following table, we list all advanced options for reference:
 | `--auto-enable-ocr-workaround`  | Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page`| Only include translated pages in the output PDF. Effective only when --pages is used. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Custom glossary for translation.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
+| `--save-auto-extracted-glossary`| save automatically extracted glossary.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
 
 ##### GUI Args
@@ -201,7 +201,6 @@ pdf2zh_next --gui
 
 - Modifying Configuration via **Environment Variables**
 
-<!-- TODO 放一个环境变量的示意图在这里 -->
 You can replace the `--` in command line arguments with `PDF2ZH_`, connect parameters using `=`, and replace `-` with `_` as environment variables.
 
 For example, if you want to enable a GUI window, you can use the following command:
@@ -368,6 +367,3 @@ For WebUI user:
 You can upload your own glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.
 
 [⬆️ Back to top](#toc)
-
-<div align="right">
-<h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>
