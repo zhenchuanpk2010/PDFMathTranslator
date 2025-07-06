@@ -9,7 +9,7 @@ Como o programa usa inteligência artificial para reconhecer e extrair documento
 ```
 **Não é necessária uma GPU.** Mas se você tiver uma GPU, o programa usará automaticamente para maior desempenho.
 
-## Download interrompida？
+## Download interrompida?
 - **Pergunta**:
 Encontrei o seguinte erro de interrupção ao baixar o modelo. O que devo fazer?
 

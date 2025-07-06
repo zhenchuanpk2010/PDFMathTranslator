@@ -12,10 +12,15 @@
 
 1. ドキュメントの国際化/翻訳
 2. HTTP API など、コアインフラストラクチャに関連する貢献
-3. 「No help needed」と明示的にマークされた Issue（[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)リポジトリ内の Issue を含む）
-4. メンテナが不適切と判断したその他の貢献
+3. 「No help needed」と明示的にマークされた Issue（[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)リポジトリ内の Issue を含む）。
+4. メンテナが不適切と判断したその他の貢献。
+5. 貢献ドキュメントの提出、ただし英語以外の言語でのドキュメント変更。
 
 上記の種類に関連する PR は提出しないでください。
+
+> [!NOTE]
+>
+> ドキュメントに貢献したい場合は、**ドキュメントの英語版のみを修正してください**。他の言語バージョンは貢献者自身によって翻訳されています。
 
 ## 貢献プロセス
 

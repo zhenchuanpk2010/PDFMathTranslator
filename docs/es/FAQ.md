@@ -16,7 +16,7 @@ Encontré el siguiente error de interrupción mientras descargaba el modelo. ¿Q
 - **Respuesta**:
 La red está recibiendo interferencias, por favor utiliza un enlace de red estable o intenta evitar la intervención de la red.
 
-## ¿Cómo actualizar a la última versión？
+## ¿Cómo actualizar a la última versión?
 - **Pregunta**:
 Quiero usar algunas de las funciones de la última versión, ¿cómo la actualizo?
 

@@ -11,11 +11,16 @@ Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag be
 ## Arten von Beiträgen, die nicht akzeptiert werden
 
 1. Dokumentationsinternationalisierung/-übersetzung
-2. Beiträge im Zusammenhang mit der Kerninfrastruktur, wie z.B. HTTP-API, etc.
-3. Probleme, die explizit als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) Repository).
+2. Beiträge im Zusammenhang mit der Kerninfrastruktur, wie z.B. HTTP-API usw.
+3. Probleme, die ausdrücklich als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) Repository).
 4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.
+5. Beiträge zur Dokumentation, aber Änderungen an der Dokumentation in anderen Sprachen als Englisch.
 
 Bitte reichen Sie KEINE PRs ein, die sich auf die oben genannten Arten beziehen.
+
+> [!NOTE]
+>
+> Wenn Sie zur Dokumentation beitragen möchten, **ändern Sie bitte nur die englische Version der Dokumentation**. Andere Sprachversionen werden von den Mitwirkenden selbst übersetzt.
 
 ## Beitragsprozess
 

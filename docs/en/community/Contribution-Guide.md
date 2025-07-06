@@ -14,8 +14,13 @@ Thank you for your interest in this project! Before you start contributing, plea
 2. Contributions related to core infrastructure, such as HTTP API, etc.
 3. Issues explicitly marked as "No help needed" (including issues in the [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues) repository).
 4. Other contributions deemed inappropriate by the maintainers.
+5. Contributing documentation, but changing the documentation in languages other than English.
 
 Please do NOT submit PRs related to the above types.
+
+> [!NOTE]
+>
+> If you want to contribute documentation, please **only modify the English version of the documentation**. Other language versions are translated by contributors themselves.
 
 ## Contribution Process
 
