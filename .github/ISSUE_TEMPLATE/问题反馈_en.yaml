@@ -36,6 +36,13 @@ body:
       render: markdown
     validations:
       required: false
+  - type: textarea
+    id: translation-config
+    attributes:
+      label: lease paste the translation engine configuration you are using. Issues without specifying the configuration will be closed directly.
+      render: markdown
+    validations:
+      required: true
   - type: dropdown
     id: install
     attributes:
@@ -76,7 +83,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. It's recommended to save the log to a .txt file and upload it. Issues without logs will be closed directly.
       render: Text
     validations:
       required: false

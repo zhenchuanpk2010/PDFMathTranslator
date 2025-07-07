@@ -6,12 +6,24 @@ on:
 permissions:
   contents: write
 jobs:
+  check-repository:
+    name: Check if running in main repository
+    runs-on: ubuntu-latest
+    outputs:
+      # debug purpose
+      is_main_repo: ${{ github.repository == 'PDFMathTranslate/PDFMathTranslate-next' }}
+    steps:
+      - run: echo "Running repository check"
   deploy:
+    needs: check-repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Delete CNAME if not in main repository
+        if: needs.check-repository.outputs.is_main_repo == 'false'
+        run: rm docs/CNAME
       - name: Process homepage
         run: |
           sed 's|./docs|./|g' README.md > docs/index.md
@@ -41,6 +53,8 @@ jobs:
   clear-cache:
     needs:
       - deploy
+      - check-repository
+    if: needs.check-repository.outputs.is_main_repo == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Sleep for 30 seconds

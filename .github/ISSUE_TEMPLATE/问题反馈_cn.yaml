@@ -38,6 +38,13 @@ body:
       render: markdown
     validations:
       required: false
+  - type: textarea
+    id: translation-config
+    attributes:
+      label: 出现问题时所用翻译配置。不说明配置的 issue 将会被直接关闭。
+      render: markdown
+    validations:
+      required: true
   - type: dropdown
     id: install
     attributes:
@@ -78,7 +85,8 @@ body:
     id: logs
     attributes:
       label: 相关 Logs
-      description: 请复制并粘贴任何相关的日志输出。
+      description: |
+        请复制并粘贴任何相关的日志输出。建议将 log 保存到 txt 中然后上传。不上传 log 的 issue 将会被直接关闭。
       render: Text
     validations:
       required: false
@@ -86,8 +94,7 @@ body:
     id: PDFfile
     attributes:
       label: 原始 PDF 文件
-      description: |
-        请尽可能提供原始的 PDF 文件，方便复现错误。（若该问题需要原始文件来复现，但您未提供，则 issue 会被直接关闭）
+      description: 请尽可能提供原始的 PDF 文件，方便复现错误。（若该问题需要原始文件来复现，但您未提供，则 issue 会被直接关闭）
     validations:
       required: false
   - type: textarea
