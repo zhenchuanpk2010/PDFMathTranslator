@@ -11,10 +11,11 @@ Merci de votre intérêt pour ce projet ! Avant de commencer à contribuer, veui
 ## Types de contributions non acceptées
 
 1. Internationalisation/traduction de la documentation
-2. Contributions liées à l'infrastructure principale, telles que l'API HTTP, etc.
-3. Problèmes explicitement marqués comme "No help needed" (y compris les problèmes dans le dépôt [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)).
+2. Contributions liées à l'infrastructure de base, telles que l'API HTTP, etc.
+3. Problèmes explicitement marqués comme "No help needed" (y compris les problèmes dans le dépôt [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)).
 4. Autres contributions jugées inappropriées par les mainteneurs.
 5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.
+6. PR nécessitant la modification de fichiers PDF.
 
 Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
