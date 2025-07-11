@@ -10,12 +10,18 @@
 
 ## 不接受的贡献类型
 
-1. 文档国际化/翻译
+1. 文档国际化/翻译相关贡献
 2. 与核心基础设施相关的贡献，例如 HTTP API 等
-3. 明确标记为"无需帮助"的问题（包括[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)仓库中的问题）
+3. 明确标记为"无需帮助"的问题（包括[Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)和[PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)仓库中的问题）
 4. 维护者认为不合适的其他贡献
+5. 贡献文档，但修改非英语版本的文档
+6. 需要修改 PDF 文件的 PR
 
 请勿提交与上述类型相关的 PR。
+
+> [!NOTE]
+>
+> 如果你想贡献文档，请**仅修改文档的英文版本**。其他语言版本由贡献者自行翻译。
 
 ## 贡献流程
 
