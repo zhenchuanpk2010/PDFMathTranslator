@@ -232,6 +232,10 @@ class SettingsModel(BaseModel):
         if not self.translate_engine_settings:
             raise ValueError("Must provide a translation service")
 
+        # Log the current translation engine being used
+        engine_name = self.translate_engine_settings.translate_engine_type
+        log.info(f"Using translation engine: {engine_name}")
+
         self.translate_engine_settings.validate_settings()
         if hasattr(self.translate_engine_settings, "transform"):
             from_type = self.translate_engine_settings.translate_engine_type
