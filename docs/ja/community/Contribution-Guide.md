@@ -11,11 +11,11 @@
 ## 受け付けない貢献の種類
 
 1. ドキュメントの国際化/翻訳
-2. HTTP API など、コアインフラストラクチャに関連する貢献
-3. 「No help needed」と明示的にマークされた Issue（[Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)リポジトリ内の Issue を含む）。
-4. メンテナが不適切と判断したその他の貢献
-5. ドキュメントへの貢献だが、英語以外の言語でドキュメントを変更する場合
-6. PDF ファイルの変更を必要とする PR
+2. HTTP API などのコアインフラストラクチャに関する貢献
+3. 「No help needed」と明示的にマークされた Issue（[Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)および[PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)リポジトリの Issue を含む）。
+4. メンテナーが不適切と判断したその他の貢献。
+5. 貢献ドキュメント、ただし英語以外の言語でのドキュメント変更。
+6. PDF ファイルの修正を必要とする PR。
 
 上記の種類に関連する PR は提出しないでください。
 
