@@ -10,11 +10,12 @@
 
 ## 不接受的貢獻類型
 
-1. 文檔國際化/翻譯相關貢獻
-2. 核心基礎設施相關貢獻，例如 HTTP API 等
-3. 明確標記為「No help needed」的議題（包括[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate/issues)倉庫中的議題）
-4. 維護者認為不適當的其他貢獻
-5. 貢獻文檔，但修改非英文的其他語言文檔
+1. 文檔國際化/翻譯
+2. 核心基礎設施相關的貢獻，例如 HTTP API 等。
+3. 明確標記為「No help needed」的議題（包括 [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 和 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 存儲庫中的議題）。
+4. 維護者認為不適當的其他貢獻。
+5. 貢獻文檔，但修改非英文的其他語言文檔。
+6. 需要修改 PDF 檔案的 PRs。
 
 請勿提交與上述類型相關的 PR。
 
