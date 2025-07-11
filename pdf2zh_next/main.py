@@ -53,11 +53,6 @@ async def main() -> int:
     if settings.basic.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    # Log the current translation engine being used
-    if settings.translate_engine_settings:
-        engine_name = settings.translate_engine_settings.translate_engine_type
-        logger.info(f"Using translation engine: {engine_name}")
-
     # disable httpx, openai, httpcore, http11 logs
     logging.getLogger("httpx").setLevel("CRITICAL")
     logging.getLogger("httpx").propagate = False
