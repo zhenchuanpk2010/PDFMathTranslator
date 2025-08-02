@@ -14,13 +14,13 @@ uv 는 Rust 로 작성된 매우 빠른 Python 패키지 및 프로젝트 관리
 
 #### 설치
 
-1. Python 설치 (3.10 <= 버전 <= 3.13);
+1. Python 설치 (3.10 <= 버전 <= 3.12);
 
 2. 다음 명령어를 사용하여 패키지를 설치하세요:
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 설치 후, **명령줄** 또는 **WebUI**를 통해 번역을 시작할 수 있습니다.

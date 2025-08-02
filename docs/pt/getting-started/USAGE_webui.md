@@ -8,7 +8,7 @@
 
 Existem vários métodos para abrir a interface WebUI. Se você estiver usando **Windows**, consulte [este artigo](./INSTALLATION_winexe.md);
 
-1. Python instalado (3.10 <= versão <= 3.13)
+1. Python instalado (3.10 <= versão <= 3.12)
 
 2. Instale nosso pacote:
 

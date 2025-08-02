@@ -14,13 +14,13 @@ uv 是一个用 Rust 编写的极速 Python 包和项目管理器。
 
 #### 如何安装
 
-1. 已安装 Python（3.10 <= 版本 <= 3.13）；
+1. 已安装 Python（3.10 <= 版本 <= 3.12）；
 
 2. 使用以下命令安装我们的包：
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 安装完成后，您可以通过**命令行**或**WebUI**开始翻译。
