@@ -14,13 +14,13 @@ Para instalar o uv no seu computador, consulte [este artigo](https://docs.astral
 
 #### Instalação
 
-1. Python instalado (versão entre 3.10 e 3.13);
+1. Python instalado (versão entre 3.10 e 3.12);
 
 2. Use o seguinte comando para utilizar nosso pacote:
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 Após a instalação, você pode começar a tradução via **linha de comando** ou **WebUI**.

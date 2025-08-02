@@ -14,13 +14,13 @@ Pour installer uv sur votre ordinateur, veuillez consulter [cet article](https:/
 
 #### Installation
 
-1. Python installé (version 3.10 <= version <= 3.13) ;
+1. Python installé (version 3.10 <= version <= 3.12) ;
 
 2. Utilisez la commande suivante pour utiliser notre package :
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 Après l'installation, vous pouvez commencer la traduction via la **ligne de commande** ou **WebUI**.
