@@ -132,24 +132,23 @@ PDF 科学論文の翻訳とバイリンガル比較。
 <h2 id="acknowledgement">謝辞</h2>
 
 - [没入型翻訳](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者に対して月額 Pro メンバーシップの引き換えコードをスポンサーしています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
-- [SiliconFlow](https://siliconflow.cn) はこのプロジェクトに無料翻訳サービスを提供しています
+
+- [SiliconFlow](https://siliconflow.cn) はこのプロジェクトに無料の翻訳サービスを提供しています
 
 - 1.x バージョン：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
 - バックエンド：[BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- ドキュメント結合：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- PDF ライブラリ：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- ドキュメント解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- ドキュメントプレビュー: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
-
-- マルチスレッド翻訳：[MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- PDF プレビュー: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
 - レイアウト解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- ドキュメント標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
 - 多言語フォント：[BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) を参照
 

@@ -131,28 +131,28 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 <h2 id="reconhecimento">Reconhecimentos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina mensalmente códigos de resgate para assinatura Pro para contribuidores ativos deste projeto, consulte os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)  
-- [SiliconFlow](https://siliconflow.cn) fornece serviço de tradução gratuito para este projeto  
+- [Immersive Translation](https://immersivetranslate.com) patrocina mensalmente códigos de resgate para assinatura Pro para contribuidores ativos deste projeto, veja detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)  
+- [SiliconFlow](https://siliconflow.cn) fornece serviço de tradução gratuito para este projeto
 
-- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)  
+- Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
-- Fusão de documentos: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)  
 
-- Análise de documentos: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)  
+- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Pré-visualização de documentos: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)  
+- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Tradução multi-thread: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)  
+- Análise de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)  
+- Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Padrão de documentos: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)  
+- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)  
+- Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)  
+- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+
+- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
 - [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 

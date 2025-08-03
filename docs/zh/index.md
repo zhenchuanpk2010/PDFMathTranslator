@@ -131,7 +131,8 @@ PDF 科研论文翻译与双语对照。
 
 <h2 id="致谢">致谢</h2>
 
-- [沉浸式翻译](https://immersivetranslate.com) 为本项目活跃贡献者提供月度 Pro 会员兑换码，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [沉浸式翻译](https://immersivetranslate.com) 为本项目活跃贡献者提供每月 Pro 会员兑换码，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
 - [SiliconFlow](https://siliconflow.cn) 为本项目提供免费翻译服务
 
 - 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -139,23 +140,21 @@ PDF 科研论文翻译与双语对照。
 
 - 后端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- 文档合并：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- PDF 库：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- 文档解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- 文档预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
+- PDF 预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- 多线程翻译：[MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- 版面分析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- PDF 标准：[PDF 详解](https://zxyle.github.io/PDF-Explained/)、[PDF 速查表](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- 文档标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
-
-- 多语言字体：参见 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- 多语言字体：参见[BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [支持多进程的 Rich 日志](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [多进程富日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
 <h2 id="conduct">提交代码前</h2>
 

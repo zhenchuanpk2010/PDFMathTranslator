@@ -131,31 +131,30 @@
 
 <h2 id="благодарности">Благодарности</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) предоставляет ежемесячные коды для активации Pro-подписки активным участникам этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)  
-- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта  
+- [Immersive Translation](https://immersivetranslate.com) ежемесячно предоставляет коды для активации Pro-подписки активным участникам этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)  
+- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта
+
+- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- Бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)  
+- бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Объединение документов: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)  
+- Библиотека PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Парсинг документов: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)  
+- Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Просмотр документов: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)  
+- Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Многопоточный перевод: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)  
+- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Анализ макета: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)  
+- Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Стандарт документов: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)  
+- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
-- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)  
+- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)  
-
-- [Богатое логирование с многопроцессорностью](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
 <h2 id="conduct">Перед отправкой вашего кода</h2>
 
