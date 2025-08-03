@@ -131,29 +131,28 @@ Si no sabes qué código usar para traducir al idioma que necesitas, consulta [e
 
 <h2 id="reconocimiento">Reconocimientos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales para membresía Pro para contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)  
-- [SiliconFlow](https://siliconflow.cn) proporciona servicio de traducción gratuito para este proyecto  
+- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales de membresía Pro para contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- Versión 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)  
+- [SiliconFlow](https://siliconflow.cn) proporciona servicio de traducción gratuito para este proyecto
+
+- Versión 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)  
+- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Fusión de documentos: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)  
+- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Análisis de documentos: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)  
+- Análisis de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Vista previa de documentos: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)  
+- Vista previa de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Traducción multihilo: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)  
+- Análisis de diseño: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Análisis de diseño: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)  
+- Estándares PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Estándar de documentos: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)  
+- Fuente multilingüe: consulta [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
-- Fuente multilingüe: consulta [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)  
-
-- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)  
+- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
 - [Registro enriquecido con multiprocesamiento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 

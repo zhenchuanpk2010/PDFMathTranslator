@@ -131,25 +131,24 @@ PDF 科學論文翻譯與雙語對照。
 
 <h2 id="acknowledgement">致謝</h2>
 
-- [沉浸式翻譯](https://immersivetranslate.com) 為本專案的活躍貢獻者每月提供專業版會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
-- [矽流科技](https://siliconflow.cn) 為本專案提供免費翻譯服務
+- [沉浸式翻譯](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
+- [SiliconFlow](https://siliconflow.cn) 為本專案提供免費翻譯服務
 
 - 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
 - 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- 文件合併：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- PDF 函式庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- 文件解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- 文件預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
-
-- 多線程翻譯：[MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
 - 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- 文件標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
 - 多語言字體：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 

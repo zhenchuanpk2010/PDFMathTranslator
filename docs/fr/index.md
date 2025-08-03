@@ -131,7 +131,8 @@ Si vous ne savez pas quel code utiliser pour traduire dans la langue dont vous a
 
 <h2 id="remerciements">Remerciements</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rachat d'abonnement Pro mensuels pour les contributeurs actifs de ce projet, voir les détails dans : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet, voir les détails dans : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
 - [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet
 
 - Version 1.x : [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -139,17 +140,15 @@ Si vous ne savez pas quel code utiliser pour traduire dans la langue dont vous a
 
 - backend : [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Fusion de documents : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- Bibliothèque PDF : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Analyse de documents : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- Analyse PDF : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Aperçu des documents : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
-
-- Traduction multithread : [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- Aperçu PDF : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
 - Analyse de mise en page : [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Standard de document : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- Normes PDF : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
 - Police multilingue : voir [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 

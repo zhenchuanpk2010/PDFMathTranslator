@@ -131,25 +131,24 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 <h2 id="acknowledgement">감사의 말</h2>
 
-- [Immersive Translation](https://immersivetranslate.com)은 이 프로젝트에 활발히 기여하는 참여자들을 위해 매월 Pro 멤버십 교환 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)에서 확인하세요.
-- [SiliconFlow](https://siliconflow.cn)는 이 프로젝트에 무료 번역 서비스를 제공합니다.
+- [Immersive Translation](https://immersivetranslate.com)은 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 환급 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)에서 확인하세요.
+
+- [SiliconFlow](https://siliconflow.cn)는 이 프로젝트를 위해 무료 번역 서비스를 제공합니다.
 
 - 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
 - 백엔드: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- 문서 병합: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- PDF 라이브러리: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- 문서 파싱: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- PDF 파싱: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- 문서 미리보기: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
-
-- 멀티스레드 번역: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- PDF 미리보기: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
 - 레이아웃 파싱: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- 문서 표준: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- PDF 표준: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
 - 다국어 폰트: [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) 참조
 

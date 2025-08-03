@@ -131,7 +131,8 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 <h2 id="ringraziamenti">Ringraziamenti</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsorizza mensilmente codici di riscatto per l'abbonamento Pro per i contributori attivi a questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsorizza mensilmente codici di riscatto per l'abbonamento Pro per i contributori attivi a questo progetto. Per i dettagli, consultare: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
 - [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto
 
 - Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -139,19 +140,17 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 - backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Unione documenti: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- Libreria PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Analisi documenti: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- Analisi PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Anteprima documenti: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
+- Anteprima PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Traduzione multi-thread: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- Analisi del layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Analisi layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Standard PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Standard documenti: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
-
-- Font multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Font multilingue: vedere [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
