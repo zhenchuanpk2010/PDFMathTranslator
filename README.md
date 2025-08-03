@@ -132,6 +132,7 @@ If you don't know what code to use to translate to the language you need, check 
 <h2 id="acknowledgement">Acknowledgements</h2>
 
 - [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
 - [SiliconFlow](https://siliconflow.cn) provides free translation service for this project
 
 - 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -139,17 +140,15 @@ If you don't know what code to use to translate to the language you need, check 
 
 - backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Document merging: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Document parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Document Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
+- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Multi-threaded translation: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Layout parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
-
-- Document standard: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
 - Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
