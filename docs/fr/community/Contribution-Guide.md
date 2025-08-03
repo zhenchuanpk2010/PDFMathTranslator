@@ -10,11 +10,11 @@ Merci de votre intérêt pour ce projet ! Avant de commencer à contribuer, veui
 
 ## Types de contributions non acceptées
 
-1. Internationalisation/traduction de la documentation
-2. Contributions liées à l'infrastructure de base, telles que l'API HTTP, etc.
-3. Problèmes explicitement marqués comme "No help needed" (y compris les problèmes dans les dépôts [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) et [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
-4. Autres contributions jugées inappropriées par les mainteneurs.
-5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.
+1. Documentation internationalisation/traduction  
+2. Contributions liées à l'infrastructure principale, telles que l'API HTTP, etc.  
+3. Problèmes explicitement marqués comme "Aide non nécessaire" (y compris les problèmes dans les dépôts [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) et [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
+4. Autres contributions jugées inappropriées par les mainteneurs.  
+5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.  
 6. PRs nécessitant la modification de fichiers PDF.
 
 Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
@@ -39,58 +39,58 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 > [!TIP]
 >
-> Vous n'avez pas besoin d'attendre que votre développement soit entièrement terminé pour créer une PR. En créer une tôt nous permet de revoir votre implémentation et de fournir des suggestions.
+> Vous n'avez pas besoin d'attendre que votre développement soit entièrement terminé pour créer une PR. En créer une tôt nous permet d'examiner votre implémentation et de fournir des suggestions.
 >
 > Si vous avez des questions sur le code source ou des sujets connexes, veuillez contacter le mainteneur à aw@funstory.ai.
 >
 > Les fichiers de ressources pour la version 2.0 sont partagés avec [BabelDOC](https://github.com/funstory-ai/BabelDOC). Le code pour télécharger les ressources associées se trouve dans BabelDOC. Si vous souhaitez ajouter de nouveaux fichiers de ressources, veuillez contacter le mainteneur de BabelDOC à aw@funstory.ai.
 
-## Prérequis de base
+## Exigences de base
 
 <h4 id="sop">1. Flux de travail</h4>
 
-- Veuillez forker à partir de la branche `main` et développer sur votre branche forkée.
+   - Veuillez forker à partir de la branche `main` et développer sur votre branche forkée.
    - Lors de la soumission d'une Pull Request (PR), fournissez une description détaillée de vos modifications.
-   - Si votre PR ne passe pas les vérifications automatiques (indiquées par `checks failed` et une croix rouge), veuillez examiner les `details` correspondants et modifier votre soumission pour vous assurer que la nouvelle PR passe toutes les vérifications.
+   - Si votre PR ne passe pas les vérifications automatisées (indiquées par `checks failed` et une croix rouge), veuillez consulter les `details` correspondants et modifier votre soumission pour garantir que la nouvelle PR passe toutes les vérifications.
 
 
 <h4 id="dev&test">2. Développement et tests</h4>
 
-- Utilisez la commande `pip install -e .` pour le développement et les tests.
+   - Utilisez la commande `pip install -e .` pour le développement et les tests.
 
 
 <h4 id="format">3. Formatage du code</h4>
 
-- Configurer l'outil `pre-commit` et activer `black` et `flake8` pour le formatage du code.
+   - Configurez l'outil `pre-commit` et activez `black` et `flake8` pour le formatage du code.
 
 
-<h4 id="requpdate">4. Mises à jour des dépendances</h4>
+<h4 id="requpdate">4. Mise à jour des dépendances</h4>
 
-- Si vous introduisez de nouvelles dépendances, veuillez mettre à jour la liste des dépendances dans le fichier `pyproject.toml` en temps opportun.
+   - Si vous introduisez de nouvelles dépendances, veuillez mettre à jour la liste des dépendances dans le fichier `pyproject.toml` en temps opportun.
 
 
 <h4 id="docupdate">5. Mises à jour de la documentation</h4>
 
-- Si vous ajoutez de nouvelles options de ligne de commande, veuillez mettre à jour la liste des options de ligne de commande dans toutes les versions linguistiques du fichier `README.md` en conséquence.
+   - Si vous ajoutez de nouvelles options de ligne de commande, veuillez mettre à jour la liste des options de ligne de commande dans toutes les versions linguistiques du fichier `README.md` en conséquence.
 
 
 <h4 id="commitmsg">6. Messages de commit</h4>
 
-- Utilisez [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), par exemple : `feat(translator): add openai`.
+   - Utilisez les [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), par exemple : `feat(translator): add openai`.
 
 
 <h4 id="codestyle">7. Style de codage</h4>
 
-- Assurez-vous que le code soumis respecte les normes de base de style de codage.
-   - Utilisez soit snake_case soit camelCase pour la nomination des variables.
+   - Assurez-vous que le code soumis respecte les normes de base de style de codage.
+   - Utilisez soit snake_case soit camelCase pour la dénomination des variables.
 
 
 <h4 id="doctypo">8. Formatage de la documentation</h4>
 
-- Pour le formatage de `README.md`, veuillez suivre les [Directives de rédaction en chinois](https://github.com/sparanoid/chinese-copywriting-guidelines).
+   - Pour le formatage de `README.md`, veuillez suivre les [Directives de rédaction chinoise](https://github.com/sparanoid/chinese-copywriting-guidelines).
    - Assurez-vous que la documentation en anglais et en chinois est toujours à jour ; les mises à jour de la documentation dans d'autres langues sont facultatives.
 
-## Ajouter un moteur de traduction
+## Ajout d'un moteur de traduction
 
 1. Ajoutez une nouvelle classe de configuration de traducteur dans le fichier `pdf2zh/config/translate_engine_model.py`.
 2. Ajoutez une instance de la nouvelle classe de configuration de traducteur à l'alias de type `TRANSLATION_ENGINE_SETTING_TYPE` dans le même fichier.
@@ -98,7 +98,7 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 > [!NOTE]
 >
-> Ce projet n'a pas pour objectif de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour ces moteurs.
+> Ce projet ne prévoit pas de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour de tels moteurs.
 
 ## Structure du projet
 
@@ -116,7 +116,7 @@ Si vous avez des questions, veuillez soumettre vos commentaires via Issue ou rej
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs de ce projet. Pour plus de détails, consultez : [BabelDOC/PDFMathTranslate Règles de récompense des contributeurs](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs de ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

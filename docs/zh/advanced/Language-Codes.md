@@ -1,4 +1,4 @@
-[**高级选项**](./introduction.md) > **语言代码** _(current)_
+[**高级选项**](./introduction.md) > **语言代码** _(当前)_
 
 ---
 
@@ -69,7 +69,7 @@
 #### DeepL
 来源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。
 
-| 中文标签 | Label | `Language Code`| 支持类型 |
+| 中文标签 | 标签 | `语言代码`| 支持 |
 | --- | --- | --- | --- |
 | 阿拉伯语 | Arabic | `AR` | `source`, `target` |
 | 保加利亚语 | Bulgarian | `BG` | `source`, `target` |

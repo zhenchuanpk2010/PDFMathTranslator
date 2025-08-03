@@ -1,8 +1,8 @@
-[**Começar**](./comecar.md) > **Instalação** > **WebUI** _(atual)_
+[**Começar**](./getting-started.md) > **Instalação** > **WebUI** _(atual)_
 
 ---
 
-### Usar PDFMathTranslate via Webui
+### Usar o PDFMathTranslate via Webui
 
 #### Como abrir a página WebUI:
 
@@ -36,14 +36,14 @@ Você pode definir os idiomas de origem e destino usando variáveis de ambiente:
 - `PDF2ZH_LANG_FROM`: Define o idioma de origem. O padrão é "English".
 - `PDF2ZH_LANG_TO`: Define o idioma de destino. O padrão é "Simplified Chinese".
 
-## Pré-visualização
+## Visualização
 
 <img src="./../images/before.png" width="500"/>
 <img src="./../images/after.png" width="500"/>
 
 ## Manutenção
 
-GUI mantida por [Rongxin](https://github.com/reycn)
+GUI mantido por [Rongxin](https://github.com/reycn)
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

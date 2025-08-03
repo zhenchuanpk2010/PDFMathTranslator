@@ -4,21 +4,21 @@
 
 <h3 id="toc">Table des matières</h3>
 
-- [Arguments de ligne de commande](#arguments-de-ligne-de-commande)
+- [Arguments de la ligne de commande](#arguments-de-la-ligne-de-commande)
 - [Traduction partielle](#traduction-partielle)
 - [Spécifier les langues source et cible](#spécifier-les-langues-source-et-cible)
 - [Traduire avec exceptions](#traduire-avec-exceptions)
-- [Invite personnalisé](#invite-personnalisé)
+- [Invite personnalisée](#invite-personnalisée)
 - [Configuration personnalisée](#configuration-personnalisée)
 - [Ignorer le nettoyage](#ignorer-le-nettoyage)
 - [Cache de traduction](#cache-de-traduction)
 - [Déploiement en tant que services publics](#déploiement-en-tant-que-services-publics)
 - [Authentification et page d'accueil](#authentification-et-page-daccueil)
-- [Support du glossaire](#support-du-glossaire)
+- [Prise en charge du glossaire](#prise-en-charge-du-glossaire)
 
 ---
 
-#### Arguments de ligne de commande
+#### Arguments de la ligne de commande
 
 Exécutez la commande de traduction dans la ligne de commande pour générer le document traduit `example-mono.pdf` et le document bilingue `example-dual.pdf` dans le répertoire de travail actuel. Utilisez Google comme service de traduction par défaut. Plus de services de traduction supportés peuvent être trouvés [ICI](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
@@ -31,47 +31,47 @@ Dans le tableau suivant, nous listons toutes les options avancées pour référe
 | Option                          | Fonction                                                                               | Exemple                                                                                                              |
 | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | `files`                         | Chemin local du fichier PDF                                                           | `pdf2zh ~/local.pdf`                                                                                                 |
-| `links`                         | Fichiers en ligne                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
-| `--output`                      | Répertoire de sortie pour les fichiers                                                | `pdf2zh example.pdf --output /outputpath`                                                                            |
+| `liens`                         | Fichiers en ligne                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
+| `--output`                      | Répertoire de sortie pour les fichiers                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
 | `--<Services>`                  | Utiliser un [**service spécifique**](./Documentation-des-services-de-traduction.md) pour la traduction | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
-| `--help`, `-h`                  | Afficher le message d'aide et quitter                                                  | `pdf2zh -h`                                                                                                          |
+| `--help`, `-h`                  | Afficher le message d'aide et quitter                                                             | `pdf2zh -h`                                                                                                          |
 | `--config-file`                 | Chemin vers le fichier de configuration                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |
 | `--report-interval`             | Intervalle de rapport de progression en secondes                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |
 | `--debug`                       | Utiliser le niveau de journalisation de débogage                                                                | `pdf2zh example.pdf --debug`                                                                                         |
-| `--gui`                         | Interagir avec l'interface graphique                                                   | `pdf2zh --gui`                                                                                                       |
-| `--warmup`                      | Télécharge et vérifie uniquement les ressources nécessaires puis quitte               | `pdf2zh example.pdf --warmup`                                                                                        |
-| `--generate-offline-assets`     | Générer un package d'assets hors ligne dans le répertoire spécifié                     | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |
-| `--restore-offline-assets`      | Restaurer le package d'assets hors ligne depuis le répertoire spécifié                 | `pdf2zh example.pdf --restore-offline-assets /chemin`                                                                  |
+| `--gui`                         | Interagir avec l'interface graphique                                                                      | `pdf2zh --gui`                                                                                                       |
+| `--warmup`                      | Télécharge et vérifie uniquement les ressources requises puis quitte                                     | `pdf2zh example.pdf --warmup`                                                                                        |
+| `--generate-offline-assets`     | Générer un package d'assets hors ligne dans le répertoire spécifié                             | `pdf2zh example.pdf --generate-offline-assets /chemin`                                                                 |
+| `--restore-offline-assets`      | Restaurer le package d'actifs hors ligne à partir du répertoire spécifié               | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |
 | `--version`                     | Afficher la version puis quitter                                                                 | `pdf2zh --version`                                                                                                   |
-| `--pages`                       | Traduction partielle du document                                                      | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
+| `--pages`                       | Traduction partielle du document                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
 | `--lang-in`                     | Le code de la langue source                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |
 | `--lang-out`                    | Le code de la langue cible                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |
-| `--min-text-length`             | Longueur minimale du texte à traduire                                                  | `pdf2zh example.pdf --min-text-length 5`                                                                             |
-| `--rpc-doclayout`               | Adresse hôte du service RPC pour l'analyse de la mise en page des documents            |                                                                                                                      |
-| `--qps`                         | Limite de QPS pour le service de traduction                                            | `pdf2zh example.pdf --qps 200`                                                                                       |
-| `--ignore-cache`                | Ignorer le cache de traduction                                                         | `pdf2zh example.pdf --ignore-cache`                                                                                  |
+| `--min-text-length`             | Longueur minimale du texte à traduire                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |
+| `--rpc-doclayout`               | Adresse du service RPC pour l'analyse de la mise en page des documents                                  |                                                                                                                      |
+| `--qps`                         | Limite de QPS pour le service de traduction                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
+| `--ignore-cache`                | Ignorer le cache de traduction                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |
 | `--custom-system-prompt`        | Invite système personnalisée pour la traduction. Utilisée pour `/no_think` dans Qwen 3                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
 | `--pool-max-worker`             | Nombre maximum de travailleurs pour le pool de traduction. Si non défini, utilisera le qps comme nombre de travailleurs | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
 | `--no-auto-extract-glossary`    | Désactiver l'extraction automatique du glossaire                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
 | `--primary-font-family`         | Remplace la famille de police principale pour le texte traduit. Choix : 'serif' pour les polices serif, 'sans-serif' pour les polices sans-serif, 'script' pour les polices script/italiques. Si non spécifié, utilise une sélection automatique de police basée sur les propriétés du texte original. | `pdf2zh example.pdf --primary-font-family serif` |
-| `--no-dual`                     | Ne pas générer de fichiers PDF bilingues                                               | `pdf2zh example.pdf --no-dual`                                                                                       |
-| `--no-mono`                     | Ne pas générer de fichiers PDF monolingues                                             | `pdf2zh example.pdf --no-mono`                                                                                       |
+| `--no-dual`                     | Ne pas générer de fichiers PDF bilingues                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
+| `--no-mono`                     | Ne pas générer de fichiers PDF monolingues                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | Modèle de police pour identifier le texte des formules                                                  | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
 | `--formular-char-pattern`       | Modèle de caractères pour identifier le texte des formules                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
-| `--split-short-line`            | Forcer la séparation des lignes courtes en paragraphes distincts                      | `pdf2zh example.pdf --split-short-line`                                                                              |
+| `--split-short-line`            | Forcer la division des lignes courtes en différents paragraphes                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
 | `--short-line-split-factor`     | Facteur de seuil de division pour les lignes courtes                                                 |                                                                                                                      |
-| `--skip-clean`                  | Ignorer l'étape de nettoyage du PDF                                                   | `pdf2zh example.pdf --skip-clean`                                                                                    |
+| `--skip-clean`                  | Ignorer l'étape de nettoyage du PDF                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
 | `--dual-translate-first`        | Dans le mode PDF double, prioriser le placement de la page traduite                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
 | `--disable-rich-text-translate` | Désactiver la traduction de texte enrichi                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
-| `--enhance-compatibility`       | Activer toutes les options d'amélioration de la compatibilité                         | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
+| `--enhance-compatibility`       | Active toutes les options d'amélioration de la compatibilité                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
 | `--use-alternating-pages-dual`  | Utiliser le mode pages alternées pour les PDF doubles                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
-| `--watermark-output-mode`       | Mode de filigrane pour les fichiers PDF                                                | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
+| `--watermark-output-mode`       | Mode de filigrane pour les fichiers PDF                                                    | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
 | `--max-pages-per-part`          | Nombre maximum de pages par partie pour une traduction divisée                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
 | `--translate-table-text`        | Traduire le texte des tableaux (expérimental)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
-| `--skip-scanned-detection`      | Ignorer la détection de documents scannés                                               | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
-| `--ocr-workaround`              | Forcer le texte traduit à être noir et ajouter un fond blanc                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
-| `--auto-enable-ocr-workaround`  | Active la solution de contournement OCR automatique. Si un document est détecté comme étant fortement scanné, cela tentera d'activer le traitement OCR et ignorera toute détection de scan supplémentaire. Voir la documentation pour plus de détails. (par défaut : False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page`| N'inclure que les pages traduites dans le PDF de sortie. Efficace uniquement lorsque --pages est utilisé. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
+| `--skip-scanned-detection`      | Ignorer la détection des documents scannés                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
+| `--ocr-workaround`              | Force le texte traduit à être noir et ajoute un fond blanc                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
+| `--auto-enable-ocr-workaround`  | Active le contournement automatique de l'OCR. Si un document est détecté comme étant fortement scanné, cette option tentera d'activer le traitement OCR et ignorera toute détection de scan supplémentaire. Voir la documentation pour plus de détails. (par défaut : False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
+| `--only-include-translated-page`| Inclure uniquement les pages traduites dans le PDF de sortie. Efficace uniquement lorsque --pages est utilisé. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Glossaire personnalisé pour la traduction.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| enregistrer le glossaire extrait automatiquement.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
@@ -82,9 +82,9 @@ Dans le tableau suivant, nous listons toutes les options avancées pour référe
 | ------------------------------- | -------------------------------------- | ----------------------------------------------- |
 | `--share`                       | Activer le mode partage                | `pdf2zh --gui --share`                          |
 | `--auth-file`                   | Chemin vers le fichier d'authentification        | `pdf2zh --gui --auth-file /path`                |
-| `--welcome-page`                | Chemin vers le fichier html de bienvenue | `pdf2zh --gui --welcome-page /path`             |
+| `--welcome-page`                | Chemin vers le fichier html de bienvenue          | `pdf2zh --gui --welcome-page /chemin`             |
 | `--enabled-services`            | Services de traduction activés           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
-| `--disable-gui-sensitive-input` | Désactiver l'entrée sensible de l'interface graphique            | `pdf2zh --gui --disable-gui-sensitive-input`    |
+| `--disable-gui-sensitive-input` | Désactiver la saisie sensible de l'interface graphique | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Désactiver l'enregistrement automatique de la configuration | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | Port de l'interface web               | `pdf2zh --gui --server-port 7860`               |
 
@@ -96,7 +96,7 @@ Dans le tableau suivant, nous listons toutes les options avancées pour référe
 
 Utilisez le paramètre `--pages` pour traduire une partie d'un document.
 
-- Si les numéros de page sont consécutifs, vous pouvez l'écrire comme ceci :
+- Si les numéros de page sont consécutifs, vous pouvez les écrire comme ceci :
 
 ```bash
 pdf2zh_next example.pdf --pages 1-3
@@ -119,14 +119,13 @@ Par exemple, si vous souhaitez traduire la première et la troisième page, vous
 pdf2zh_next example.pdf --pages "1,3"
 ```
 
-- Si les pages incluent à la fois des plages consécutives et non consécutives, vous pouvez également les connecter avec une virgule, comme ceci :
+- Si les pages incluent à la fois des plages consécutives et non consécutives, vous pouvez également les relier avec une virgule, comme ceci :
 
 ```bash
 pdf2zh_next example.pdf --pages "1,3,10-20,25-"
 ```
 
-Cette commande traduira la première page, la troisième page, les pages 10 à 20, et toutes les pages de 25 jusqu'à la fin.
-
+Cette commande traduira la première page, la troisième page, les pages 10 à 20, et toutes les pages à partir de la 25 jusqu'à la fin.
 
 [⬆️ Retour en haut](#toc)
 
@@ -134,7 +133,7 @@ Cette commande traduira la première page, la troisième page, les pages 10 à 2
 
 #### Spécifier les langues source et cible
 
-Voir [Codes de langue Google](https://developers.google.com/admin-sdk/directory/v1/languages), [Codes de langue DeepL](https://developers.deepl.com/docs/resources/supported-languages)
+Voir [Codes de langue de Google](https://developers.google.com/admin-sdk/directory/v1/languages), [Codes de langue de DeepL](https://developers.deepl.com/docs/resources/supported-languages)
 
 ```bash
 pdf2zh_next example.pdf --lang-in en -lang-out ja
@@ -146,7 +145,7 @@ pdf2zh_next example.pdf --lang-in en -lang-out ja
 
 #### Traduire avec exceptions
 
-Utiliser des expressions régulières pour spécifier les polices de formule et les caractères à préserver :
+Utilisez des expressions régulières pour spécifier les polices de formule et les caractères qui doivent être préservés :
 
 ```bash
 pdf2zh_next example.pdf --formular-font-pattern "(CM[^RT].*|MS.*|.*Ital)" --formular-char-pattern "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
@@ -162,11 +161,11 @@ pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|
 
 ---
 
-#### Invite personnalisé
+#### Invite personnalisée
 
 <!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->
 
-Invite système personnalisée pour la traduction. Elle est principalement utilisée pour ajouter l'instruction '/no_think' de Qwen 3 dans l'invite.
+Invite personnalisée du système pour la traduction. Elle est principalement utilisée pour ajouter l'instruction '/no_think' de Qwen 3 dans l'invite.
 
 ```bash
 pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
@@ -189,9 +188,9 @@ Il existe plusieurs façons de modifier et d'importer le fichier de configuratio
 >
 > **cli/gui > env > fichier de configuration utilisateur > fichier de configuration par défaut**
 
-- Modification de la configuration via **Arguments de ligne de commande**
+- Modification de la configuration via **Arguments de la ligne de commande**
 
-Pour la plupart des cas, vous pouvez directement passer vos paramètres souhaités via les arguments de ligne de commande. Veuillez vous référer à [Arguments de ligne de commande](#arguments-de-ligne-de-commande) pour plus d'informations.
+Dans la plupart des cas, vous pouvez directement transmettre vos paramètres souhaités via les arguments de la ligne de commande. Veuillez vous référer à [Arguments de la ligne de commande](#cmd) pour plus d'informations.
 
 Par exemple, si vous souhaitez activer une fenêtre d'interface graphique, vous pouvez utiliser la commande suivante :
 
@@ -201,7 +200,7 @@ pdf2zh_next --gui
 
 - Modification de la configuration via **Variables d'environnement**
 
-Vous pouvez remplacer le `--` dans les arguments de ligne de commande par `PDF2ZH_`, connecter les paramètres en utilisant `=`, et remplacer `-` par `_` comme variables d'environnement.
+Vous pouvez remplacer les `--` dans les arguments de la ligne de commande par `PDF2ZH_`, connecter les paramètres en utilisant `=`, et remplacer `-` par `_` comme variables d'environnement.
 
 Par exemple, si vous souhaitez activer une fenêtre d'interface graphique, vous pouvez utiliser la commande suivante :
 
@@ -223,9 +222,9 @@ Si vous n'êtes pas sûr du format du fichier de configuration, veuillez vous r�
 
 - **Fichier de configuration par défaut**
 
-Le fichier de configuration par défaut se trouve dans `~/.config/pdf2zh`. 
-Veuillez ne pas modifier les fichiers de configuration dans le répertoire `default`. 
-Il est fortement recommandé de se référer au contenu de ce fichier de configuration et d'utiliser **Configuration personnalisée** pour implémenter votre propre fichier de configuration.
+Le fichier de configuration par défaut se trouve dans `~/.config/pdf2zh`.  
+Veuillez ne pas modifier les fichiers de configuration dans le répertoire `default`.  
+Il est fortement recommandé de se référer au contenu de ce fichier de configuration et d'utiliser le **Fichier de configuration personnalisé** pour implémenter votre propre fichier de configuration.
 
 > [!TIP]
 > - Par défaut, pdf2zh 2.0 enregistre automatiquement la configuration actuelle dans `~/.config/pdf2zh/config.v3.toml` chaque fois que vous cliquez sur le bouton de traduction dans l'interface graphique. Ce fichier de configuration sera chargé par défaut au prochain démarrage.
@@ -275,7 +274,7 @@ pdf2zh_next example.pdf --ignore-cache
 Lors du déploiement d'une interface graphique pdf2zh sur des services publics, vous devez modifier le fichier de configuration comme décrit ci-dessous.
 
 > [!TIP]
-> - Lors d'un déploiement public, `disable_gui_sensitive_input` et `disable_config_auto_save` doivent tous deux être activés.
+> - Lors d'un déploiement public, `disable_gui_sensitive_input` et `disable_config_auto_save` doivent être activés.
 > - Séparez les différents services disponibles avec des *virgules anglaises* <kbd>,</kbd> .
 
 Une configuration utilisable est la suivante :
@@ -296,7 +295,7 @@ disable_config_auto_save = true
 
 #### Authentification et page d'accueil
 
-Lors de l'utilisation de Authentification et page d'accueil pour spécifier quel utilisateur doit utiliser l'interface Web et personnaliser la page de connexion :
+Lors de l'utilisation de l'Authentification et page d'accueil pour spécifier quel utilisateur doit utiliser l'interface Web et personnaliser la page de connexion :
 
 exemple auth.txt
 Chaque ligne contient deux éléments, nom d'utilisateur et mot de passe, séparés par une virgule.
@@ -343,16 +342,16 @@ welcome_page = "/path/to/welcome/html/file"
 
 ---
 
-#### Support du glossaire
+#### Prise en charge du glossaire
 
-PDFMathTranslate prend en charge la table de glossaire. Le fichier de table de glossaire doit être un fichier `csv`.
+PDFMathTranslate prend en charge le tableau de glossaire. Le fichier des tableaux de glossaire doit être un fichier `csv`.
 Il y a trois colonnes dans le fichier. Voici un exemple de fichier de glossaire :
 
 | source | target  | tgt_lng |
 |--------|---------|---------|
-| AutoML | 自动 ML  | zh-CN   |
-| a,a    | a       | zh-CN   |
-| "      | "       | zh-CN   |
+| AutoML | ML automatique  | fr-FR   |
+| a,a    | a       | fr-FR   |
+| "      | "       | fr-FR   |
 
 
 Pour les utilisateurs de la ligne de commande :
@@ -362,7 +361,7 @@ Vous pouvez utiliser plusieurs fichiers pour le glossaire. Et les différents fi
 pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
 ```
 
-Pour les utilisateurs de l'interface Web :
+Pour les utilisateurs de l'interface web :
 
 Vous pouvez maintenant télécharger votre propre fichier de glossaire. Après avoir téléchargé le fichier, vous pouvez le consulter en cliquant sur son nom et le contenu s'affichera ci-dessous.
 

@@ -1,4 +1,4 @@
-[**开始使用**](./getting-started.md) > **如何安装** > **uv** _(current)_
+[**快速开始**](./getting-started.md) > **如何安装** > **uv** _(当前)_
 
 ---
 
@@ -23,13 +23,13 @@ uv 是一个用 Rust 编写的极速 Python 包和项目管理器。
     uv tool install --python 3.12 pdf2zh-next
     ```
 
-安装完成后，您可以通过**命令行**或**WebUI**开始翻译。
+安装完成后，您可以通过**命令行**或 **WebUI** 开始翻译。
 
 !!! Warning
 
     如果在运行时看到错误 `command not found: pdf2zh_next`，请按以下方式配置环境变量后重试：
 
-    === "macOS and Linux"
+    === "macOS 和 Linux"
 
         将以下内容添加到 ~/.zshrc 文件中：
 
@@ -50,10 +50,10 @@ uv 是一个用 Rust 编写的极速 Python 包和项目管理器。
         然后重启终端
 
 > [!NOTE]
-> 如果在使用 WebUI 过程中遇到任何问题，请参考[如何使用 --> WebUI](./USAGE_webui.md)。
+> 如果在使用 WebUI 时遇到任何问题，请参考[如何使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> 如果在使用命令行过程中遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
+> 如果在使用命令行时遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
 
 <div align="right"> 
 <h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

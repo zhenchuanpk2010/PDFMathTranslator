@@ -6,13 +6,13 @@
 
 #### Cómo abrir la página WebUI:
 
-Hay varios métodos para abrir la interfaz WebUI. Si estás usando **Windows**, por favor consulta [este artículo](./INSTALLATION_winexe.md);
+Existen varios métodos para abrir la interfaz WebUI. Si estás utilizando **Windows**, consulta [este artículo](./INSTALLATION_winexe.md);
 
-1. Python instalado (versión 3.10 <= versión <= 3.13)
+1. Python instalado (versión 3.10 <= versión <= 3.12)
 
 2. Instala nuestro paquete:
 
-3. Comienza a usar en el navegador:
+3. Empieza a usar en el navegador:
 
     ```bash
     pdf2zh_next --gui
@@ -43,7 +43,7 @@ Puedes configurar los idiomas de origen y destino usando variables de entorno:
 
 ## Mantenimiento
 
-GUI mantenido por [Rongxin](https://github.com/reycn)
+GUI mantenida por [Rongxin](https://github.com/reycn)
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

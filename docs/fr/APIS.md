@@ -3,7 +3,7 @@
 > Ce document est obsolète, veuillez ne pas vous y référer.
 
 <h2 id="toc">Table des matières</h2>
-Le présent projet prend en charge deux types d'API, toutes les méthodes nécessitent Redis;
+Le présent projet prend en charge deux types d'API, toutes les méthodes nécessitent Redis ;
 
 - [Appels fonctionnels en Python](#api-python)
 - [Protocoles HTTP](#api-http)

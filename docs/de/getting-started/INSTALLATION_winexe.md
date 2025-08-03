@@ -1,4 +1,4 @@
-[**Erste Schritte**](./getting-started.md) > **Installation** > **Windows EXE** _(aktuell)_
+[**Erste Schritte**](./erste-schritte.md) > **Installation** > **Windows EXE** _(aktuell)_
 
 ---
 
@@ -13,7 +13,7 @@
 > - Die `pdf2zh-<version>-with-assets-win64.zip` enthält im Vergleich zu `pdf2zh-<version>-win64.zip` zusätzliche Ressourcendateien (wie Schriftarten und Modelle).
 > - Die Version ohne Assets lädt die Ressourcen beim Ausführen dynamisch nach, aber der Download kann aufgrund von Netzwerkproblemen fehlschlagen.
 
-***Schritt 2*** | Entpacken Sie `pdf2zh-<version>-with-assets-win64.zip` und navigieren Sie zum Ordner `pdf2zh`. Das Entpacken dauert eine Weile, bitte haben Sie Geduld.
+***Schritt 2*** | Entpacken Sie `pdf2zh-<version>-with-assets-win64.zip` und navigieren Sie zum Ordner `pdf2zh`. Das Entpacken kann eine Weile dauern, bitte haben Sie Geduld.
 
 ***Schritt 3*** | Navigieren Sie zum Ordner `pdf2zh` und doppelklicken Sie dann auf `pdf2zh.exe`.
 
@@ -26,14 +26,14 @@
 
 > [!NOTE]
 >
-> Wenn Sie während der Verwendung der WebUI auf Probleme stoßen, lesen Sie bitte [diese Webseite](./USAGE_webui.md).
+> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [diese Webseite](./USAGE_webui.md).
 
 ***Schritt 5*** | Viel Spaß!
 
 > [!TIP]
 > **Sie können die .exe-Datei über die Kommandozeile verwenden**
 >
-> Verwenden Sie die .exe-Datei über die Kommandozeile wie folgt:
+> Verwenden Sie die .exe-Datei wie folgt über die Kommandozeile:
 >
 > - Starten Sie Ihr Terminal und navigieren Sie zum Ordner, der die .exe-Datei enthält:
 >

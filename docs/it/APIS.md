@@ -2,7 +2,7 @@
 >
 > Questo documento è obsoleto, si prega di non farvi riferimento.
 
-<h2 id="toc">Indice</h2>
+<h2 id="toc">Indice dei contenuti</h2>
 Il presente progetto supporta due tipi di API, tutti i metodi necessitano del Redis;
 
 - [Chiamate funzionali in Python](#api-python)
@@ -26,7 +26,7 @@ params = {
     'thread': 4,
 }
 ```
-Tradurre con file:
+Traduci con file:
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
@@ -36,7 +36,7 @@ with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
 ```
 
-[⬆️ Torna su](#toc)
+[⬆️ Torna all'inizio](#toc)
 
 ---
 
@@ -44,7 +44,7 @@ with open('example.pdf', 'rb') as f:
 
 In un modo più flessibile, puoi comunicare con il programma utilizzando i protocolli HTTP, se:
 
-1. Installare ed eseguire il backend
+1. Installa ed esegui il backend
 
    ```bash
    pip install pdf2zh_next[backend]
@@ -52,47 +52,47 @@ In un modo più flessibile, puoi comunicare con il programma utilizzando i proto
    pdf2zh_next --celery worker
    ```
 
-2. Utilizzare i protocolli HTTP come segue:
+2. Utilizzo dei protocolli HTTP come segue:
 
-   - Inviare un task di traduzione
+   - Invia un'attività di traduzione
 
      ```bash
      curl http://localhost:11008/v1/translate -F "file=@example.pdf" -F "data={\"lang_in\":\"en\",\"lang_out\":\"zh\",\"service\":\"google\",\"thread\":4}"
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-   - Controllare lo stato di avanzamento
+   - Controlla lo stato di avanzamento
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - Controllare lo stato di avanzamento _(se completato)_
+   - Controlla lo stato di avanzamento _(se completato)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-   - Salvare il file monolingue
+   - Salva il file monolingue
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-   - Salvare il file bilingue
+   - Salva il file bilingue
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-   - Interrompere se in esecuzione ed eliminare il task
+   - Interrompi se in esecuzione ed elimina l'attività
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
 
-[⬆️ Torna su](#toc)
+[⬆️ Torna all'inizio](#toc)
 
 ---
 

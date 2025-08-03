@@ -9,16 +9,16 @@ Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumen
 
 ## Download unterbrochen?
 - **Frage**:
-Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?
+Beim Herunterladen des Modells ist mir der folgende Unterbrechungsfehler aufgetreten. Was soll ich tun?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Antwort**:
 Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.
 
-## Wie aktualisiert man auf die neueste Version?
+## Wie aktualisiere ich auf die neueste Version?
 - **Frage**:
-Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
+Ich möchte einige der Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
 
 - **Antwort**:
 `pip install -U pdf2zh`
@@ -46,11 +46,11 @@ Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkf
   - [Zertifikate aktualisieren](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), wie in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) vorgeschlagen.
 
 ## Localhost ist nicht erreichbar
-Bitte sehen Sie unten.
+Bitte siehe unten.
 
 ## Fehler beim Starten der GUI mit 0.0.0.0
 - **Problem**:
-Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [Issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Beispielsweise in [Issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Lösung**:
 Verwenden Sie den Regelmodus

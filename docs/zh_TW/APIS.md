@@ -2,7 +2,7 @@
 >
 > 本文件已過時，請勿參考。
 
-<h2 id="toc">目錄</h2>
+<h2 id="目錄">目錄</h2>
 本項目支持兩種類型的 API，所有方法都需要 Redis；
 
 - [Python 中的函數調用](#api-python)
@@ -14,7 +14,7 @@
 
 由於 `pdf2zh` 是一個已安裝的 Python 模組，我們提供了兩個方法供其他程式在任何 Python 腳本中調用。
 
-舉例來說，如果你想使用 Google 翻譯將文件從英文翻譯成中文，可以使用以下代碼：
+舉例來說，如果你想使用 Google 翻譯將一份文件從英文翻譯成中文，可以使用以下代碼：
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -26,17 +26,17 @@ params = {
     'thread': 4,
 }
 ```
-使用文件進行翻譯：
+使用檔案進行翻譯：
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-使用串流翻譯：
+以串流方式翻譯：
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
 ```
 
-[⬆️ 回到頂部](#toc)
+[⬆️ 返回頂部](#toc)
 
 ---
 
@@ -92,7 +92,7 @@ with open('example.pdf', 'rb') as f:
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
 
-[⬆️ 回到頂部](#toc)
+[⬆️ 返回頂部](#toc)
 
 ---
 

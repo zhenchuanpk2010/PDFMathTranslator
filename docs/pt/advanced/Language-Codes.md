@@ -6,63 +6,66 @@
 
 Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.
 
-| Rótulo em chinês | Rótulo | `Código do idioma` |
+| Rótulo em português | Rótulo | `Language Code` |
 | --- | --- | --- |
 | Amárico | Amharic | `am` |
 | Árabe | Arabic | `ar` |
-| Basco | Basque | `eu` |
+| Basco | `eu` |
 | Bengali | Bengali | `bn` |
 | Inglês (Reino Unido) | English (UK) | `en-GB` |
 | Português (Brasil) | Portuguese (Brazil) | `pt-BR` |
-| Búlgaro | Bulgarian | `bg` |
+| 保加利亚语 | Búlgaro | `bg` |
 | Catalão | Catalan | `ca` |
-| 切罗基语 | Cherokee | `chr` |
+| Cherokee | Cherokee | `chr` |
 | Croata | Croatian | `hr` |
 | Tcheco | Czech | `cs` |
 | Dinamarquês | Danish | `da` |
-| Holandês | Dutch | `nl` |
+| Tabela de idiomas suportados |
+|--------|-------|------|--------|-----------------------------|
+| Holandês | Holandês | `nl` | ✅     |                             |
 | Inglês (EUA) | English (US) | `en` |
-| Estoniano | Estonian | `et` |
-| Filipino | Filipino | `fil` |
+| Estoniano | `et` |
+| Filipino | `fil` |
+| 芬兰语 | Finnish | `fi` |
 | Finlandês | Finnish | `fi` |
-| Francês | French | `fr` |
+| 法语 | Francês | `fr` |
 | Alemão | German | `de` |
-| Grego | Greek | `el` |
-| 古吉拉特语 | Gujarati | `gu` |
-| Hebraico | Hebrew | `iw` |
-| 印地语 | Hindi | `hi` |
-| Húngaro | Hungarian | `hu` |
+| Grego | `el` |
+| Gujarati | `gu` |
+| Hebreu | Hebrew | `iw` |
+| Hindi | `hi` |
+| Húngaro | `hu` |
 | Islandês | Icelandic | `is` |
-| Indonésio | Indonesian | `id` |
+| 印度尼西亚语 | Indonesian | `id` |
 | Italiano | Italian | `it` |
 | Japonês | Japanese | `ja` |
-| Canarim | Kannada | `kn` |
-| Coreano | Korean | `ko` |
+| Kannada | Canarim | `kn` |
+| Coreano | `ko` |
 | Letão | Latvian | `lv` |
 | Lituano | Lithuanian | `lt` |
 | Malaio | Malay | `ms` |
-| 马拉雅拉姆语 | Malayalam | `ml` |
-| 马拉地语 | Marathi | `mr` |
+| Malayalam | `ml` |
+| Maratí | Marathi | `mr` |
 | Norueguês | Norwegian | `no` |
 | Polonês | Polish | `pl` |
 | Português (Portugal) | Portuguese (Portugal) | `pt-PT` |
 | Romeno | Romanian | `ro` |
 | Russo | Russian | `ru` |
 | Sérvio | Serbian | `sr` |
-| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |
+| 中文（中国） | Chinese (PRC) | `zh-CN` |
 | Eslovaco | Slovak | `sk` |
 | Esloveno | Slovenian | `sl` |
 | Espanhol | Spanish | `es` |
-| Suaíli | Swahili | `sw` |
-| Sueco | Swedish | `sv` |
-| Tâmil | Tamil | `ta` |
-| Télugo | Telugu | `te` |
+| Swahili | `sw` |
+| Sueco | `sv` |
+| Tamil | `ta` |
+| Telugu | `te` |
 | Tailandês | Thai | `th` |
-| Chinês (Taiwan) | Chinese (Taiwan) | `zh-TW` |
-| Turco | Turkish | `tr` |
+| 中文（Taiwan） | Chinês (Taiwan) | `zh-TW` |
+| 土耳其语 | Turco | `tr` |
 | Urdu | Urdu | `ur` |
 | Ucraniano | Ukrainian | `uk` |
-| Vietnamita | Vietnamese | `vi` |
+| Vietnamita | `vi` |
 | Galês | Welsh | `cy` |
 
 
@@ -75,23 +78,23 @@ Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organiz
 | Búlgaro | Bulgarian | `BG` | `source`, `target` |
 | Tcheco | Czech | `CS` | `source`, `target` |
 | Dinamarquês | Danish | `DA` | `source`, `target` |
-| Alemão | German | `DE` | `source`, `target` |
-| Grego | Greek | `EL` | `source`, `target` |
+| Alemão | `DE` | `source`, `target` |
+| Grego | `EL` | `source`, `target` |
 | Inglês | English | `EN` | `source`, `target` |
 | Inglês (Reino Unido) | English (British) | `EN-GB` | `target` |
-| Inglês (Estados Unidos) | English (American) | `EN-US` | `target` |
+| Inglês (Americano) | English (American) | `EN-US` | `target` |
 | Espanhol | Spanish | `ES` | `source`, `target` |
-| Estoniano | Estonian | `ET` | `source`, `target` |
+| Estónio | Estonian | `ET` | `source`, `target` |
 | Finlandês | Finnish | `FI` | `source`, `target` |
 | Francês | French | `FR` | `source`, `target` |
 | Húngaro | Hungarian | `HU` | `source`, `target` |
 | Indonésio | Indonesian | `ID` | `source`, `target` |
 | Italiano | Italian | `IT` | `source`, `target` |
-| 日本語 | Japanese | `JA` | `source`, `target` |
-| Coreano | Korean | `KO` | `source`, `target` |
+| Japonês | Japanese | `JA` | `source`, `target` |
+| Coreano | `KO` | `source`, `target` |
 | Lituano | Lithuanian | `LT` | `source`, `target` |
 | Letão | Latvian | `LV` | `source`, `target` |
-| Norueguês Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |
+| Norueguês Bokmål | `NB` | `source`, `target` |
 | Holandês | Dutch | `NL` | `source`, `target` |
 | Polonês | Polish | `PL` | `source`, `target` |
 | Português | Portuguese | `PT` | `source`, `target` |
@@ -105,7 +108,7 @@ Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organiz
 | Turco | Turkish | `TR` | `source`, `target` |
 | Ucraniano | Ukrainian | `UK` | `source`, `target` |
 | Português | Portuguese | `PT` | `source`, `target` |
-| Português (Brasil) | Portuguese (Brazil) | `PT-BR` | `target` |
+| 中文（简体） | Chinês (Simplificado) | `ZH-HANS` | `target` |
 | Chinês (Tradicional) | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
