@@ -74,7 +74,7 @@ def to_settings_model(self) -> SettingsModel:
                 translate_engine_settings = metadata.setting_model_type()
             break
     else:
-        logger.warning("No translation engine selected, using Bing")
+        logger.warning("No translation engine selected, using SiliconFlow Free")
         translate_engine_settings = _DEFAULT_TRANSLATION_ENGINE()
 
     return SettingsModel(
