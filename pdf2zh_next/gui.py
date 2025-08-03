@@ -889,13 +889,23 @@ custom_css = """
     }
     """
 
+# Build path to logo image
+current_dir = Path(__file__).parent
+assets_dir = current_dir / "assets"
+logo_path = assets_dir / "powered_by_siliconflow_light.png"
+
 tech_details_string = f"""
                     <summary>Technical details</summary>
-                    - GitHub: <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next">PDFMathTranslate/PDFMathTranslate-next</a><br>
+                    - ⭐ Star at GitHub: <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next">PDFMathTranslate/PDFMathTranslate-next</a><br>
                     - BabelDOC: <a href="https://github.com/funstory-ai/BabelDOC">funstory-ai/BabelDOC</a><br>
                     - GUI by: <a href="https://github.com/reycn">Rongxin</a> & <a href="https://github.com/hellofinch">hellofinch</a> & <a href="https://github.com/awwaawwa">awwaawwa</a><br>
                     - pdf2zh Version: {__version__} <br>
-                    - BabelDOC Version: {babeldoc_version}
+                    - BabelDOC Version: {babeldoc_version}<br>
+                    - Free translation service provided by <a href="https://siliconflow.cn/" target="_blank" style="text-decoration: none;">SiliconFlow</a><br>
+                    <a href="https://siliconflow.cn/" target="_blank" style="text-decoration: none;">
+                        <img src="/gradio_api/file={logo_path}" alt="Powered By SiliconFlow" style="height: 40px; margin-top: 10px;">
+                    </a>
+                    <br>
                 """
 
 # The following code creates the GUI
@@ -906,9 +916,7 @@ with gr.Blocks(
     ),
     css=custom_css,
 ) as demo:
-    gr.Markdown(
-        "# [PDFMathTranslate @ GitHub](https://github.com/PDFMathTranslate/PDFMathTranslate-next)"
-    )
+    gr.Markdown("# [PDFMathTranslate Next](https://pdf2zh-next.com)")
 
     translation_engine_arg_inputs = []
     detail_text_inputs = []
@@ -937,6 +945,12 @@ with gr.Blocks(
             )
 
             gr.Markdown("## Translation Options")
+
+            siliconflow_free_acknowledgement = gr.Markdown(
+                "Free translation service provided by [SiliconFlow](https://siliconflow.cn)",
+                visible=True,
+            )
+
             detail_index = 0
             with gr.Group() as translation_engine_settings:
                 service = gr.Dropdown(
@@ -944,6 +958,7 @@ with gr.Blocks(
                     choices=available_services,
                     value=available_services[0],
                 )
+
                 __gui_service_arg_names = []
                 for service_name in available_services:
                     metadata = TRANSLATION_ENGINE_METADATA_MAP[service_name]
@@ -955,6 +970,7 @@ with gr.Blocks(
                         continue
                     detail_settings = getattr(settings, metadata.cli_detail_field_name)
                     visible = service.value == metadata.translate_engine_type
+
                     # OpenAI specific settings (initially visible if OpenAI is default)
                     with gr.Group(visible=True) as service_detail:
                         detail_text_input_index_map[metadata.translate_engine_type] = []
@@ -1304,20 +1320,31 @@ with gr.Blocks(
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
         llm_support = LLM_support_index_map.get(service_name, False)
+        print(f"service_name: {service_name}, llm_support: {llm_support}")
+        siliconflow_free_acknowledgement_visible = service_name == "SiliconFlowFree"
+        siliconflow_update = [
+            gr.update(visible=siliconflow_free_acknowledgement_visible)
+        ]
         return_list = []
         glossary_updates = [
             gr.update(visible=llm_support)
             for i in range(len(require_llm_translator_inputs))
         ]
         if len(detail_text_inputs) == 1:
-            return_list = glossary_updates + [
-                gr.update(visible=(0 in detail_group_index))
-            ]
+            return_list = (
+                siliconflow_update
+                + glossary_updates
+                + [gr.update(visible=(0 in detail_group_index))]
+            )
         else:
-            return_list = glossary_updates + [
-                gr.update(visible=(i in detail_group_index))
-                for i in range(len(detail_text_inputs))
-            ]
+            return_list = (
+                siliconflow_update
+                + glossary_updates
+                + [
+                    gr.update(visible=(i in detail_group_index))
+                    for i in range(len(detail_text_inputs))
+                ]
+            )
         return return_list
 
     def on_enhance_compatibility_change(enhance_value):
@@ -1378,7 +1405,11 @@ with gr.Blocks(
         page_input,
     )
 
-    on_select_service_outputs = require_llm_translator_inputs + detail_text_inputs
+    on_select_service_outputs = (
+        [siliconflow_free_acknowledgement]
+        + require_llm_translator_inputs
+        + detail_text_inputs
+    )
 
     service.select(
         on_select_service,
@@ -1540,6 +1571,9 @@ def setup_gui(
                 inbrowser=inbrowser,
                 share=share,
                 server_port=server_port,
+                allowed_paths=[
+                    logo_path,
+                ],
             )
         except Exception:
             print(
@@ -1552,13 +1586,22 @@ def setup_gui(
                     inbrowser=inbrowser,
                     share=share,
                     server_port=server_port,
+                    allowed_paths=[
+                        logo_path,
+                    ],
                 )
             except Exception:
                 print(
                     "Error launching GUI using 127.0.0.1.\nThis may be caused by global mode of proxy software."
                 )
                 demo.launch(
-                    debug=True, inbrowser=inbrowser, share=True, server_port=server_port
+                    debug=True,
+                    inbrowser=inbrowser,
+                    share=True,
+                    server_port=server_port,
+                    allowed_paths=[
+                        logo_path,
+                    ],
                 )
     else:
         try:
@@ -1570,6 +1613,9 @@ def setup_gui(
                 auth=user_list,
                 auth_message=html,
                 server_port=server_port,
+                allowed_paths=[
+                    logo_path,
+                ],
             )
         except Exception:
             print(
@@ -1584,6 +1630,9 @@ def setup_gui(
                     auth=user_list,
                     auth_message=html,
                     server_port=server_port,
+                    allowed_paths=[
+                        logo_path,
+                    ],
                 )
             except Exception:
                 print(
@@ -1596,6 +1645,9 @@ def setup_gui(
                     auth=user_list,
                     auth_message=html,
                     server_port=server_port,
+                    allowed_paths=[
+                        logo_path,
+                    ],
                 )
 
 

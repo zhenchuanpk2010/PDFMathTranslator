@@ -415,7 +415,9 @@ nav:
     - Advanced: advanced/advanced.md
     # - Args: advanced/args.md
     - Language Code: advanced/Language-Codes.md
-    - Documentation of Translation Services: advanced/Documentation-of-Translation-Services.md
+    - Translation Services:
+      - Documentation of Translation Services: advanced/Documentation-of-Translation-Services.md
+      - SiliconFlow: advanced/TranslationServices/SiliconFlow.md
   # - API: APIS.md
   - Supported Languages: supported_languages.md
   - FAQ: FAQ.md
