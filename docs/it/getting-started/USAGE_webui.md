@@ -8,23 +8,23 @@
 
 Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Windows**, consulta [questo articolo](./INSTALLATION_winexe.md);
 
-1. Python installato (3.10 <= versione <= 3.12)
+1. Python installato (versione compresa tra 3.10 e 3.12)
 
-2. Installare il nostro pacchetto:
+2. Installa il nostro pacchetto:
 
-3. Iniziare a utilizzare nel browser:
+3. Inizia a utilizzarlo nel browser:
 
     ```bash
     pdf2zh_next --gui
     ```
 
-4. Se il tuo browser non è stato avviato automaticamente, vai a
+4. Se il tuo browser non si è avviato automaticamente, vai a
 
     ```bash
     http://localhost:7860/
     ```
 
-    Trascina il file PDF nella finestra e clicca `Translate`.
+    Trascina il file PDF nella finestra e clicca su `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>

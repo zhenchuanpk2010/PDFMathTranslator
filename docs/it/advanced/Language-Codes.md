@@ -6,99 +6,100 @@
 
 Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizzato da GPT-4o.
 
-| Etichetta in cinese | Etichetta | `Codice lingua` |
+| Etichetta in italiano | Etichetta | `Codice lingua` |
 | --- | --- | --- |
 | Amarico | Amharic | `am` |
-| 阿拉伯语 | Arabic | `ar` |
+| Arabo | Arabic | `ar` |
 | 巴斯克语 | Basque | `eu` |
-| 孟加拉语 | Bengali | `bn` |
+| Bengali | Bengali | `bn` |
 | Inglese (Regno Unito) | English (UK) | `en-GB` |
 | Portoghese (Brasile) | Portuguese (Brazil) | `pt-BR` |
 | Bulgaro | Bulgarian | `bg` |
 | Catalano | Catalan | `ca` |
 | 切罗基语 | Cherokee | `chr` |
-| Croato | Croatian | `hr` |
-| 捷克语 | Czech | `cs` |
-| 丹麦语 | Danish | `da` |
-| 荷兰语 | Dutch | `nl` |
-| Inglese (Stati Uniti) | English (US) | `en` |
+| 克罗地亚语 | Croatian | `hr` |
+| Ceco | `cs` |
+| Danese | Danish | `da` |
+| Olandese | Dutch | `nl` |
+| 英语（美国） | English (US) | `en` |
 | 爱沙尼亚语 | Estonian | `et` |
 | 菲律宾语 | Filipino | `fil` |
-| 芬兰语 | Finnish | `fi` |
-| 法语 | French | `fr` |
-| 德语 | German | `de` |
+| Finlandese | Finnish | `fi` |
+| Francese | French | `fr` |
+| Tedesco | German | `de` |
 | 希腊语 | Greek | `el` |
-| 古吉拉特语 | Gujarati | `gu` |
-| 希伯来语 | Hebrew | `iw` |
-| 印地语 | Hindi | `hi` |
-| 匈牙利语 | Hungarian | `hu` |
+| Gujarati | `gu` |
+| Ebraico | Hebrew | `iw` |
+| Hindi | Hindi | `hi` |
+| Ungherese | Hungarian | `hu` |
 | 冰岛语 | Icelandic | `is` |
 | Indonesiano | Indonesian | `id` |
 | Italiano | Italian | `it` |
 | 日语 | Japanese | `ja` |
 | 卡纳达语 | Kannada | `kn` |
-| 韩语 | Korean | `ko` |
-| 拉脱维亚语 | Latvian | `lv` |
+| Italiano | Italian | `it` |
+| Lettone | Latvian | `lv` |
 | Lituano | Lithuanian | `lt` |
-| 马来语 | Malay | `ms` |
-| 马拉雅拉姆语 | Malayalam | `ml` |
-| 马拉地语 | Marathi | `mr` |
-| 挪威语 | Norwegian | `no` |
-| Polacco | Polish | `pl` |
+| Malay | `ms` |
+| Malayalam | `ml` |
+| Marathi | `mr` |
+| Norvegese | Norwegian | `no` |
+| 波兰语 | Polish | `pl` |
 | Portoghese (Portogallo) | Portuguese (Portugal) | `pt-PT` |
 | Rumeno | Romanian | `ro` |
-| Russo | Russian | `ru` |
+| Russo | `ru` |
 | 塞尔维亚语 | Serbian | `sr` |
-| 中文（中国） | Chinese (PRC) | `zh-CN` |
+| Italiano (Italia) | Italian (Italy) | `it-IT` |
 | Slovacco | Slovak | `sk` |
 | Sloveno | Slovenian | `sl` |
-| 西班牙语 | Spanish | `es` |
+| Spagnolo | Spanish | `es` |
 | 斯瓦希里语 | Swahili | `sw` |
-| 瑞典语 | Swedish | `sv` |
-| 泰米尔语 | Tamil | `ta` |
+| Svedese | `sv` |
+| Tamil | Tamil | `ta` |
 | 泰卢固语 | Telugu | `te` |
 | 泰语 | Thai | `th` |
 | 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
 | 土耳其语 | Turkish | `tr` |
-| 乌尔都语 | Urdu | `ur` |
+| Urdu | Urdu | `ur` |
 | Ucraino | Ukrainian | `uk` |
-| Vietnamita | Vietnamese | `vi` |
+| 越南语 | Vietnamese | `vi` |
 | Gallese | Welsh | `cy` |
 
 
 #### DeepL
 Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organizzato da GPT-4o.
 
-| Etichetta in cinese | Etichetta | `Codice lingua`| Supporta |
+| Etichetta in cinese | Etichetta | `Codice lingua` | Supporta |
 | --- | --- | --- | --- |
 | Arabo | Arabic | `AR` | `source`, `target` |
 | Bulgaro | Bulgarian | `BG` | `source`, `target` |
 | 捷克语 | Czech | `CS` | `source`, `target` |
-| Danese | Danish | `DA` | `source`, `target` |
-| 德语 | German | `DE` | `source`, `target` |
+| Danese | `DA` | `source`, `target` |
+| Tedesco | German | `DE` | `source`, `target` |
 | 希腊语 | Greek | `EL` | `source`, `target` |
-| 英语 | English | `EN` | `source`, `target` |
-| Inglese (Regno Unito) | English (British) | `EN-GB` | `target` |
-| Inglese (Stati Uniti) | English (American) | `EN-US` | `target` |
+| Italiano | Italian | `IT` | `source`, `target` |
+|------|---------|------|--------------------|------|----------|---------|------|--------------------|
+| 英语（英国） | Inglese (britannico) | `EN-GB` | `target` |
+| Italiano (Italia) | Italian (Italian) | `IT-IT` | `target` |
 | Spagnolo | Spanish | `ES` | `source`, `target` |
-| 爱沙尼亚语 | Estonian | `ET` | `source`, `target` |
+| Estone | Estonian | `ET` | `source`, `target` |
 | 芬兰语 | Finnish | `FI` | `source`, `target` |
 | Francese | French | `FR` | `source`, `target` |
-| 匈牙利语 | Hungarian | `HU` | `source`, `target` |
+| Ungherese | Hungarian | `HU` | `source`, `target` |
 | Indonesiano | Indonesian | `ID` | `source`, `target` |
 | Italiano | Italian | `IT` | `source`, `target` |
 | 日语 | Japanese | `JA` | `source`, `target` |
-| Coreano | Korean | `KO` | `source`, `target` |
+| Coreano | `KO` | `source`, `target` |
 | 立陶宛语 | Lithuanian | `LT` | `source`, `target` |
-| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |
-| Norvegese Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |
-| 荷兰语 | Dutch | `NL` | `source`, `target` |
+| Lettone | Latvian | `LV` | `source`, `target` |
+| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |
+| Olandese | Dutch | `NL` | `source`, `target` |
 | Polacco | Polish | `PL` | `source`, `target` |
 | Portoghese | Portuguese | `PT` | `source`, `target` |
 | Portoghese (Brasile) | Portuguese (Brazilian) | `PT-BR` | `target` |
-| Portoghese (Europeo) | Portuguese (European) | `PT-PT` | `target` |
-| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |
-| 俄语 | Russian | `RU` | `source`, `target` |
+| Portoghese (europeo) | Portuguese (European) | `PT-PT` | `target` |
+| Rumeno | Romanian | `RO` | `source`, `target` |
+| Russo | Russian | `RU` | `source`, `target` |
 | Slovacco | Slovak | `SK` | `source`, `target` |
 | Sloveno | Slovenian | `SL` | `source`, `target` |
 | Svedese | Swedish | `SV` | `source`, `target` |

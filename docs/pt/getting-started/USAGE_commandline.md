@@ -1,12 +1,12 @@
-[**Começar**](./começar.md) > **Uso** > **Linha de comando** _(atual)_
+[**Começar**](./getting-started.md) > **Uso** > **Linha de comando** _(atual)_
 
 ---
 
-### Usar PDFMathTranslate via linha de comando
+### Usar o PDFMathTranslate via linha de comando
 
-#### Uso Básico
+#### Uso básico
 
-Após a Instalação, insira este comando para traduzir seu PDF.
+Após a Instalação, digite este comando para traduzir seu PDF.
 
 ```bash
 pdf2zh_next document.pdf
@@ -18,13 +18,13 @@ pdf2zh_next document.pdf
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
->
+> ```
 
-Após executar a tradução, arquivos gerados no **diretório de trabalho atual**.
+Após executar a tradução, os arquivos são gerados no **diretório de trabalho atual**.
 
 > [!TIP]
-> **Onde está o meu "Diretório de Trabalho Atual"?**
-> Antes de inserir um comando no terminal, você pode ver um caminho exibido no seu terminal:
+> **Onde está o meu "Diretório de trabalho atual"?**
+> Antes de inserir um comando no terminal, você pode ver um nome de caminho exibido no seu terminal:
 > 
 > ```powershell
 > PS C:\Users\XXX>
@@ -32,13 +32,13 @@ Após executar a tradução, arquivos gerados no **diretório de trabalho atual*
 > 
 > Este diretório é o "*Diretório de trabalho atual*."
 > 
-> Se não houver um caminho exibido, tente executar este comando no terminal:
+> Se não houver um nome de caminho, tente executar este comando no terminal:
 > 
 > ```bash
 > pwd
 > ```
 > 
-> Após executar este comando, um caminho será exibido. Este caminho é o "**Diretório de trabalho atual**". Os arquivos traduzidos aparecerão aqui.
+> Após executar este comando, um nome de caminho será exibido. Este nome de caminho é o "**Diretório de trabalho atual**". Os arquivos traduzidos aparecerão aqui.
 
 ---
 

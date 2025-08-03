@@ -1,4 +1,4 @@
-[**Расширенные параметры**](./introduction.md) > **Расширенные параметры** _(current)_
+[**Расширенные параметры**](./introduction.md) > **Расширенные параметры** _(текущий)_
 
 ---
 
@@ -12,7 +12,7 @@
 - [Пользовательская конфигурация](#пользовательская-конфигурация)
 - [Пропустить очистку](#пропустить-очистку)
 - [Кэш перевода](#кэш-перевода)
-- [Развертывание в качестве публичного сервиса](#развертывание-в-качестве-публичного-сервиса)
+- [Развертывание в качестве общедоступных служб](#развертывание-в-качестве-общедоступных-служб)
 - [Аутентификация и приветственная страница](#аутентификация-и-приветственная-страница)
 - [Поддержка глоссария](#поддержка-глоссария)
 
@@ -20,25 +20,25 @@
 
 #### Аргументы командной строки
 
-Выполните команду перевода в командной строке, чтобы сгенерировать переведенный документ `example-mono.pdf` и двуязычный документ `example-dual.pdf` в текущей рабочей директории. По умолчанию используется сервис перевода Google. Дополнительные поддерживаемые сервисы перевода можно найти [ЗДЕСЬ](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
+Выполните команду перевода в командной строке, чтобы сгенерировать переведенный документ `example-mono.pdf` и двуязычный документ `example-dual.pdf` в текущей рабочей директории. В качестве сервиса перевода по умолчанию используется Google. Дополнительные поддерживаемые сервисы перевода можно найти [ЗДЕСЬ](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
 <img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
-В следующей таблице мы приводим все расширенные параметры для справки:
+В следующей таблице приведены все расширенные параметры для справки:
 
 ##### Аргументы
 
 | Опция                          | Функция                                                                               | Пример                                                                                                              |
 | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `files`                         | Локальный путь к PDF файлу                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
+| `files`                         | Локальный путь к PDF-файлу                                                            | `pdf2zh ~/local.pdf`                                                                                                 |
 | `links`                         | Онлайн-файлы                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
-| `--output`                      | Выходная директория для файлов                                                         | `pdf2zh example.pdf --output /outputpath`                                                                            |
-| `--<Services>`                  | Использовать [**определенный сервис**](./Документация-служб-перевода.md) для перевода | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
-| `--help`, `-h`                  | Показать сообщение справки и выйти                                                     | `pdf2zh -h`                                                                                                          |
+| `--output`                      | Выходной каталог для файлов                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
+| `--<Services>`                  | Использовать [**определенную службу**](./Документация-служб-перевода.md) для перевода | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
+| `--help`, `-h`                  | Показать справочное сообщение и выйти                                                             | `pdf2zh -h`                                                                                                          |
 | `--config-file`                 | Путь к файлу конфигурации                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |
 | `--report-interval`             | Интервал отчета о прогрессе в секундах                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |
 | `--debug`                       | Использовать уровень логирования для отладки                                                                | `pdf2zh example.pdf --debug`                                                                                         |
-| `--gui`                         | Взаимодействие с GUI                                                                      | `pdf2zh --gui`                                                                                                       |
+| `--gui`                         | Взаимодействие с графическим интерфейсом                                                                      | `pdf2zh --gui`                                                                                                       |
 | `--warmup`                      | Только загрузить и проверить необходимые ресурсы, затем выйти                                     | `pdf2zh example.pdf --warmup`                                                                                        |
 | `--generate-offline-assets`     | Создать пакет оффлайн-ресурсов в указанной директории                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |
 | `--restore-offline-assets`      | Восстановить пакет оффлайн-ресурсов из указанной директории                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |
@@ -46,33 +46,33 @@
 | `--pages`                       | Частичный перевод документа                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
 | `--lang-in`                     | Код исходного языка                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |
 | `--lang-out`                    | Код целевого языка                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |
-| `--min-text-length`             | Минимальная длина текста для перевода                                                  | `pdf2zh example.pdf --min-text-length 5`                                                                             |
-| `--rpc-doclayout`               | Адрес хоста RPC-сервиса для анализа структуры документа                                  |                                                                                                                      |
+| `--min-text-length`             | Минимальная длина текста для перевода                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |
+| `--rpc-doclayout`               | Адрес хоста службы RPC для анализа структуры документа                                  |                                                                                                                      |
 | `--qps`                         | Ограничение QPS для службы перевода                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
 | `--ignore-cache`                | Игнорировать кэш перевода                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |
 | `--custom-system-prompt`        | Пользовательский системный запрос для перевода. Используется для `/no_think` в Qwen 3                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
 | `--pool-max-worker`             | Максимальное количество воркеров для пула перевода. Если не задано, будет использоваться qps в качестве количества воркеров | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
-| `--no-auto-extract-glossary`    | Отключить автоматическое извлечение глоссария                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
+| `--no-auto-extract-glossary`    | Отключить автоматическое извлечение глоссария                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
 | `--primary-font-family`         | Переопределение основного семейства шрифтов для переведенного текста. Варианты: 'serif' для шрифтов с засечками, 'sans-serif' для рубленых шрифтов, 'script' для курсивных/рукописных шрифтов. Если не указано, используется автоматический выбор шрифта на основе свойств исходного текста. | `pdf2zh example.pdf --primary-font-family serif` |
 | `--no-dual`                     | Не выводить двуязычные PDF-файлы                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
 | `--no-mono`                     | Не выводить одностраничные PDF-файлы                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | Шаблон шрифта для идентификации текста формул                                                  | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
-| `--formular-char-pattern`       | Шаблон символов для идентификации текста формул                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
+| `--formular-char-pattern`       | Шаблон символов для идентификации текста формулы                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
 | `--split-short-line`            | Принудительное разделение коротких строк на разные абзацы                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
-| `--short-line-split-factor`     | Коэффициент порога разделения для коротких строк                                       |                                                                                                                      |
-| `--skip-clean`                  | Пропустить этап очистки PDF                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
-| `--dual-translate-first`        | В режиме двойного PDF приоритетно размещать переведенную страницу      | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
-| `--disable-rich-text-translate` | Отключить перевод форматированного текста                                              | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
+| `--short-line-split-factor`     | Коэффициент порога разделения для коротких строк                                                 |                                                                                                                      |
+| `--skip-clean`                  | Пропустить шаг очистки PDF                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
+| `--dual-translate-first`        | В режиме двойного PDF приоритет отдается размещению переведенной страницы                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
+| `--disable-rich-text-translate` | Отключить перевод форматированного текста                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | Включить все опции повышения совместимости                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
 | `--use-alternating-pages-dual`  | Использовать режим чередующихся страниц для двойного PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
-| `--watermark-output-mode`       | Режим вывода водяных знаков для PDF-файлов                                             | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
-| `--max-pages-per-part`          | Максимальное количество страниц на часть для раздельного перевода                      | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
-| `--translate-table-text`        | Перевод текста таблицы (экспериментальная функция)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
-| `--skip-scanned-detection`      | Пропустить обнаружение сканированных документов                                        | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
-| `--ocr-workaround`              | Принудительно делает переведенный текст черным и добавляет белый фон                   | `pdf2zh example.pdf --ocr-workaround`                                                                                |
+| `--watermark-output-mode`       | Режим вывода водяных знаков для PDF-файлов                                                    | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
+| `--max-pages-per-part`          | Максимальное количество страниц на часть для раздельного перевода                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
+| `--translate-table-text`        | Перевод текста таблиц (экспериментальная функция)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
+| `--skip-scanned-detection`      | Пропустить обнаружение сканированных страниц                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
+| `--ocr-workaround`              | Принудительно делает переведенный текст черным и добавляет белый фон                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
 | `--auto-enable-ocr-workaround`  | Включить автоматическое обходное решение для OCR. Если документ определяется как сильно отсканированный, будет предпринята попытка включить обработку OCR и пропустить дальнейшее обнаружение сканирования. Подробности см. в документации. (по умолчанию: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page`| Включать в выходной PDF только переведенные страницы. Эффективно только при использовании --pages. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
-| `--glossaries`                  | Пользовательский глоссарий для перевода.                                              | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
+| `--only-include-translated-page`| Включать в выходной PDF только переведенные страницы. Действует только при использовании `--pages`. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
+| `--glossaries`                  | Пользовательский глоссарий для перевода.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| сохранить автоматически извлеченный глоссарий.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
 
@@ -80,11 +80,11 @@
 
 | Опция                          | Функция                               | Пример                                         |
 | ------------------------------- | -------------------------------------- | ----------------------------------------------- |
-| `--share`                       | Включить режим общего доступа         | `pdf2zh --gui --share`                          |
+| `--share`                       | Включить режим общего доступа          | `pdf2zh --gui --share`                          |
 | `--auth-file`                   | Путь к файлу аутентификации        | `pdf2zh --gui --auth-file /path`                |
-| `--welcome-page`                | Путь к приветственному html-файлу      | `pdf2zh --gui --welcome-page /path`             |
+| `--welcome-page`                | Путь к файлу приветственной html-страницы          | `pdf2zh --gui --welcome-page /path`             |
 | `--enabled-services`            | Включенные службы перевода           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
-| `--disable-gui-sensitive-input` | Отключить чувствительный ввод в GUI    | `pdf2zh --gui --disable-gui-sensitive-input`    |
+| `--disable-gui-sensitive-input` | Отключить чувствительный ввод в GUI            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Отключить автоматическое сохранение конфигурации | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | Порт WebUI                             | `pdf2zh --gui --server-port 7860`               |
 
@@ -152,7 +152,7 @@ pdf2zh_next example.pdf --lang-in en -lang-out ja
 pdf2zh_next example.pdf --formular-font-pattern "(CM[^RT].*|MS.*|.*Ital)" --formular-char-pattern "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
 ```
 
-Сохранять шрифты `Latex`, `Mono`, `Code`, `Italic`, `Symbol` и `Math` по умолчанию:
+Сохранение шрифтов `Latex`, `Mono`, `Code`, `Italic`, `Symbol` и `Math` по умолчанию:
 
 ```bash
 pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
@@ -166,7 +166,7 @@ pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|
 
 <!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->
 
-Пользовательский системный запрос для перевода. В основном используется для добавления инструкции '/no_think' Qwen 3 в запрос.
+Пользовательский системный запрос для перевода. В основном используется для добавления инструкции '/no_think' от Qwen 3 в запрос.
 
 ```bash
 pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
@@ -189,17 +189,17 @@ pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional
 >
 > **cli/gui > env > пользовательский файл конфигурации > файл конфигурации по умолчанию**
 
-- Изменение конфигурации через **Аргументы командной строки**
+- Изменение конфигурации с помощью **Аргументов командной строки**
 
-В большинстве случаев вы можете напрямую передать желаемые настройки через аргументы командной строки. Подробнее см. в разделе [Аргументы командной строки](#cmd).
+В большинстве случаев вы можете напрямую передать нужные настройки через аргументы командной строки. Подробнее см. в разделе [Аргументы командной строки](#cmd).
 
-Например, если вы хотите включить окно GUI, вы можете использовать следующую команду:
+Например, если вы хотите включить окно GUI, используйте следующую команду:
 
 ```bash
 pdf2zh_next --gui
 ```
 
-- Изменение конфигурации через **переменные окружения**
+- Изменение конфигурации через **переменные среды**
 
 Вы можете заменить `--` в аргументах командной строки на `PDF2ZH_`, соединить параметры с помощью `=` и заменить `-` на `_` в качестве переменных окружения.
 
@@ -219,18 +219,18 @@ PDF2ZH_GUI=TRUE pdf2zh_next
 pdf2zh_next --config-file '/path/config.toml'
 ```
 
-Если вы не уверены в формате файла конфигурации, обратитесь к стандартному файлу конфигурации, описанному ниже.
+Если вы не уверены в формате файла конфигурации, обратитесь к файлу конфигурации по умолчанию, описанному ниже.
 
-- **Конфигурация по умолчанию**
+- **Файл конфигурации по умолчанию**
 
-Файл конфигурации по умолчанию находится в `~/.config/pdf2zh`. 
-Пожалуйста, не изменяйте файлы конфигурации в каталоге `default`. 
+Файл конфигурации по умолчанию находится в `~/.config/pdf2zh`.  
+Пожалуйста, не изменяйте файлы конфигурации в каталоге `default`.  
 Настоятельно рекомендуется ознакомиться с содержимым этого файла конфигурации и использовать **Пользовательскую конфигурацию** для реализации собственного файла конфигурации.
 
 > [!TIP]
 > - По умолчанию pdf2zh 2.0 автоматически сохраняет текущую конфигурацию в файл `~/.config/pdf2zh/config.v3.toml` каждый раз, когда вы нажимаете кнопку перевода в GUI. Этот файл конфигурации будет загружен по умолчанию при следующем запуске.
-> - Файлы конфигурации в директории `default` автоматически генерируются программой. Вы можете скопировать их для модификации, но пожалуйста, не изменяйте их напрямую.
-> - Файлы конфигурации могут включать версионные номера, такие как "v2", "v3" и т.д. Это **версии файлов конфигурации**, а **не** версия самого pdf2zh.
+> - Файлы конфигурации в директории `default` автоматически генерируются программой. Вы можете скопировать их для внесения изменений, но, пожалуйста, не изменяйте их напрямую.
+> - Файлы конфигурации могут включать номера версий, такие как "v2", "v3" и т.д. Это **номера версий файлов конфигурации**, а **не** номер версии самого pdf2zh.
 
 
 [⬆️ Наверх](#toc)
@@ -239,7 +239,7 @@ pdf2zh_next --config-file '/path/config.toml'
 
 #### Пропустить очистку
 
-Когда этот параметр установлен в True, шаг очистки PDF будет пропущен, что может улучшить совместимость и избежать некоторых проблем с обработкой шрифтов.
+Когда этот параметр установлен в значение `True`, шаг очистки PDF будет пропущен, что может повысить совместимость и избежать некоторых проблем с обработкой шрифтов.
 
 Использование:
 
@@ -247,14 +247,14 @@ pdf2zh_next --config-file '/path/config.toml'
 pdf2zh_next example.pdf --skip-clean
 ```
 
-Или использование переменных окружения:
+Или с использованием переменных среды:
 
 ```bash
 PDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf
 ```
 
 > [!TIP]
-> Когда включен параметр `--enhance-compatibility`, функция Пропустить очистку активируется автоматически.
+> При включении параметра `--enhance-compatibility` функция **Пропустить очистку** активируется автоматически.
 
 ---
 
@@ -270,13 +270,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 ---
 
-#### Развертывание в качестве публичного сервиса
+#### Развертывание в качестве общедоступных служб
 
-При развертывании pdf2zh GUI в публичных сервисах следует изменить файл конфигурации, как описано ниже.
+При развертывании графического интерфейса pdf2zh в общедоступных службах следует изменить файл конфигурации, как описано ниже.
 
 > [!TIP]
 > - При публичном развертывании следует включить оба параметра `disable_gui_sensitive_input` и `disable_config_auto_save`.
-> - Разделяйте различные доступные сервисы *английскими запятыми* <kbd>,</kbd> .
+> - Разделяйте различные доступные службы *английскими запятыми* <kbd>,</kbd> .
 
 Используемая конфигурация выглядит следующим образом:
 
@@ -296,7 +296,7 @@ disable_config_auto_save = true
 
 #### Аутентификация и приветственная страница
 
-При использовании Аутентификация и приветственная страница для указания, какой пользователь должен использовать Web UI и настройки страницы входа:
+При использовании раздела **Аутентификация и приветственная страница** для указания пользователя, который будет использовать веб-интерфейс, и настройки страницы входа:
 
 пример auth.txt
 Каждая строка содержит два элемента: имя пользователя и пароль, разделенные запятой.
@@ -309,7 +309,7 @@ guest,guest123
 test,test123
 ```
 
-example welcome.html
+пример welcome.html
 
 ```html
 <!DOCTYPE html>
@@ -325,7 +325,7 @@ example welcome.html
 ```
 
 > [!NOTE]
-> приветственная страница будет работать, только если файл аутентификации не пуст.
+> Приветственная страница будет работать, только если файл аутентификации не пуст.
 > Если файл аутентификации пуст, аутентификация не будет выполняться. :)
 
 Используемая конфигурация выглядит следующим образом:
@@ -346,17 +346,17 @@ welcome_page = "/path/to/welcome/html/file"
 #### Поддержка глоссария
 
 PDFMathTranslate поддерживает таблицу глоссария. Файл таблицы глоссария должен быть в формате `csv`.
-В файле три столбца. Вот демонстрационный файл глоссария:
+Файл содержит три столбца. Вот пример файла глоссария:
 
 | source | target  | tgt_lng |
 |--------|---------|---------|
-| AutoML | 自动 ML  | zh-CN   |
-| a,a    | a       | zh-CN   |
-| "      | "       | zh-CN   |
+| AutoML | Автоматизированный ML  | ru   |
+| a,a    | a       | ru   |
+| "      | "       | ru   |
 
 
-Для пользователей командной строки:
-Вы можете использовать несколько файлов для глоссария. Разные файлы должны быть разделены запятыми `,`.
+Для пользователей командной строки:  
+Вы можете использовать несколько файлов для глоссария. Разные файлы должны быть разделены запятой `,`.
 
 ```bash
 pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"

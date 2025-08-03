@@ -1,4 +1,4 @@
-[**始め方**](./始め方.md) > **インストール** > **uv** _(current)_
+[**開始**](./getting-started.md) > **インストール** > **uv** _(current)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### uv とは何ですか？インストール方法は？
 
-uv は Rust で書かれた非常に高速な Python パッケージおよびプロジェクトマネージャーです。
+uv は、Rust で書かれた非常に高速な Python パッケージおよびプロジェクトマネージャーです。
 <br>
 uv をコンピュータにインストールするには、[この記事](https://docs.astral.sh/uv/getting-started/installation/)を参照してください。
 
@@ -16,14 +16,14 @@ uv をコンピュータにインストールするには、[この記事](https
 
 1. Python がインストールされていること（3.10 <= バージョン <= 3.12）;
 
-2. 以下のコマンドを使用してパッケージを利用します：
+2. 以下のコマンドを使用してパッケージを利用できます：
 
     ```bash
     pip install uv
     uv tool install --python 3.12 pdf2zh-next
     ```
 
-インストール後、**コマンドライン**または**WebUI**を介して翻訳を開始できます。
+インストール後、**コマンドライン**または**WebUI**から翻訳を開始できます。
 
 !!! Warning
 
@@ -37,7 +37,7 @@ uv をコンピュータにインストールするには、[この記事](https
         export PATH="$PATH:/Users/Username/.local/bin"
         ```
 
-        その後、ターミナルを再起動
+        その後ターミナルを再起動
 
     === "Windows"
 
@@ -47,13 +47,13 @@ uv をコンピュータにインストールするには、[この記事](https
         $env:Path = "C:\Users\Username\.local\bin;$env:Path"
         ```
 
-        その後、ターミナルを再起動
+        その後ターミナルを再起動
 
 > [!NOTE]
-> WebUI 使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md)を参照してください。
+> WebUI の使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md)を参照してください。
 
 > [!NOTE]
-> コマンドライン使用中に問題が発生した場合は、[使い方 --> コマンドライン](./USAGE_commandline.md)を参照してください。
+> コマンドラインの使用中に問題が発生した場合は、[使い方 --> コマンドライン](./USAGE_commandline.md)を参照してください。
 
 <div align="right"> 
 <h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

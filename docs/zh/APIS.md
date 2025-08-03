@@ -2,7 +2,7 @@
 >
 > 本文档已过时，请勿参考。
 
-<h2 id="toc">目录</h2>
+<h2 id="目录">目录</h2>
 当前项目支持两种类型的 API，所有方法都需要 Redis；
 
 - [Python 中的函数调用](#api-python)
@@ -12,9 +12,9 @@
 
 <h2 id="api-python">Python</h2>
 
-由于 `pdf2zh` 是 Python 中的一个已安装模块，我们提供了两种方法供其他程序在任何 Python 脚本中调用。
+由于 `pdf2zh` 是 Python 中已安装的模块，我们公开了两个方法供其他程序在任何 Python 脚本中调用。
 
-例如，如果你想使用 Google Translate 将文档从英语翻译成中文，可以使用以下代码：
+例如，如果你想使用 Google 翻译将文档从英语翻译成中文，可以使用以下代码：
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -42,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更灵活的方式，您可以通过 HTTP 协议与程序进行通信，前提是：
+以更灵活的方式，您可以通过 HTTP 协议与程序通信，如果：
 
 1. 安装并运行后端服务
 
@@ -68,7 +68,7 @@ with open('example.pdf', 'rb') as f:
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - 检查进度 _(如果已完成)_
+   - 检查进度 _(若已完成)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
@@ -87,7 +87,7 @@ with open('example.pdf', 'rb') as f:
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-   - 如果任务正在运行则中断并删除任务
+   - 中断运行中的任务并删除
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```

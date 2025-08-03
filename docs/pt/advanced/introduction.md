@@ -1,12 +1,12 @@
 ### Opções avançadas
 
-Esta seção é destinada a usuários avançados deste software. Aqui você pode encontrar:
+Esta seção destina-se a usuários avançados deste software. Aqui você pode encontrar:
 
-1. [**Opções avançadas**](./opcoes-avancadas.md)
+1. [**Opções avançadas**](./advanced.md)
 <br>
 Nesta seção, você pode explorar idiomas de origem/destino específicos, alternar serviços de tradução e muito mais.
 
-2. [**Código do idioma**](./Código-do-idioma.md)
+2. [**Código do idioma**](./Language-Codes.md)
 <br>
 Se você não tem certeza sobre quais códigos usar para traduzir seus idiomas de origem/destino, você pode encontrá-los aqui.
 

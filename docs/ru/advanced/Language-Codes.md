@@ -12,19 +12,20 @@
 | Арабский | Arabic | `ar` |
 | Баскский | Basque | `eu` |
 | Бенгальский | Bengali | `bn` |
-| Английский (Великобритания) | English (UK) | `en-GB` |
+| 英语（美国） | English (US) | `en-US` |
+| 中文（简体） | Chinese (Simplified) | `zh-CN` |
 | Португальский (Бразилия) | Portuguese (Brazil) | `pt-BR` |
 | Болгарский | Bulgarian | `bg` |
 | Каталанский | Catalan | `ca` |
-| Чероки | Cherokee | `chr` |
+| 切罗基语 | Cherokee | `chr` |
 | Хорватский | Croatian | `hr` |
 | Чешский | Czech | `cs` |
 | Датский | Danish | `da` |
-| Голландский | Dutch | `nl` |
+| 荷兰语 | Dutch | `nl` |
 | Английский (США) | English (US) | `en` |
 | Эстонский | Estonian | `et` |
 | Филиппинский | Filipino | `fil` |
-| Финский | Finnish | `fi` |
+| 芬兰语 | Finnish | `fi` |
 | Французский | French | `fr` |
 | Немецкий | German | `de` |
 | Греческий | Greek | `el` |
@@ -35,20 +36,20 @@
 | Исландский | Icelandic | `is` |
 | Индонезийский | Indonesian | `id` |
 | Итальянский | Italian | `it` |
-| Японский | Japanese | `ja` |
+| 日语 | Japanese | `ja` |
 | Каннада | Kannada | `kn` |
-| Корейский | Korean | `ko` |
+| 韩语 | Korean | `ko` |
 | Латышский | Latvian | `lv` |
-| Литовский | Lithuanian | `lt` |
+| 立陶宛语 | Литовский | `lt` |
 | Малайский | Malay | `ms` |
 | Малаялам | Malayalam | `ml` |
-| Маратхи | Marathi | `mr` |
+| 马拉地语 | Маратхи | `mr` |
 | Норвежский | Norwegian | `no` |
 | Польский | Polish | `pl` |
 | Португальский (Португалия) | Portuguese (Portugal) | `pt-PT` |
 | Румынский | Romanian | `ro` |
 | Русский | Russian | `ru` |
-| Сербский | Serbian | `sr` |
+| 塞尔维亚语 | Сербский | `sr` |
 | Русский (Россия) | Russian (Russia) | `ru-RU` |
 | Словацкий | Slovak | `sk` |
 | Словенский | Slovenian | `sl` |
@@ -58,7 +59,7 @@
 | Тамильский | Tamil | `ta` |
 | Телугу | Telugu | `te` |
 | Тайский | Thai | `th` |
-| Китайский (Тайвань) | Chinese (Taiwan) | `zh-TW` |
+| 中文（台湾） | Китайский (Тайвань) | `zh-TW` |
 | Турецкий | Turkish | `tr` |
 | Урду | Urdu | `ur` |
 | Украинский | Ukrainian | `uk` |
@@ -69,7 +70,7 @@
 #### DeepL
 Источник <https://developers.deepl.com/docs/resources/supported-languages>, организовано GPT-4o.
 
-| Метка на русском | Метка | `Language Code` | Поддерживается |
+| Название на китайском | Название | `Код языка` | Поддерживается |
 | --- | --- | --- | --- |
 | Арабский | Arabic | `AR` | `source`, `target` |
 | Болгарский | Bulgarian | `BG` | `source`, `target` |
@@ -105,8 +106,8 @@
 | Турецкий | Turkish | `TR` | `source`, `target` |
 | Украинский | Ukrainian | `UK` | `source`, `target` |
 | Русский | Russian | `RU` | `source`, `target` |
-| Русский | Russian | `RU` | `target` |
-| Китайский (традиционный) | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 俄语 | Russian | `RU` | `target` |
+| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>Часть содержимого этой страницы была переведена GPT и может содержать ошибки.</small></h6>

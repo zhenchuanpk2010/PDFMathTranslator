@@ -1,4 +1,4 @@
-[**快速开始**](./快速开始.md) > **如何安装** > **Windows EXE** _(current)_
+[**快速开始**](./getting-started.md) > **如何安装** > **Windows EXE** _(当前)_
 
 ---
 
@@ -13,22 +13,22 @@
 > - 与 `pdf2zh-<version>-win64.zip` 相比，`pdf2zh-<version>-with-assets-win64.zip` 包含了资源文件（如字体和模型）。
 > - 不含资源的版本在运行时也会动态下载资源，但由于网络问题可能导致下载失败。
 
-***步骤 2*** | 解压 `pdf2zh-<version>-with-assets-win64.zip` 并进入 `pdf2zh` 文件夹。解压需要一些时间，请耐心等待。
+***步骤 2*** | 解压 `pdf2zh-<version>-with-assets-win64.zip` 并进入 `pdf2zh` 文件夹。解压过程可能需要一些时间，请耐心等待。
 
-***步骤 3*** | 进入 `pdf2zh` 文件夹，然后双击 `pdf2zh.exe`。
+***步骤 3*** | 进入 `pdf2zh` 文件夹后，双击 `pdf2zh.exe`。
 
 > [!TIP]
 > **无法运行 .exe 文件**
 >
 > 如果您在运行 pdf2zh.exe 时遇到问题，请安装 `https://aka.ms/vs/17/release/vc_redist.x64.exe` 后重试。
 
-***步骤 4*** | 双击 exe 文件后，终端窗口会弹出。大约半分钟到一分钟后，默认浏览器会自动打开一个网页。如果没有自动打开，可以尝试手动访问 `http://localhost:7860/`。
+***步骤 4*** | 双击 exe 文件后，终端窗口将弹出。大约半分钟到一分钟后，默认浏览器会自动打开一个网页。如果未自动打开，您可以尝试手动访问 `http://localhost:7860/`。
 
 > [!NOTE]
 >
-> 如果在使用 WebUI 过程中遇到任何问题，请参考[此网页](./USAGE_webui.md)。
+> 如果在使用 WebUI 时遇到任何问题，请参考[此网页](./USAGE_webui.md)。
 
-***步骤 5*** | 尽情享受吧！
+***步骤 5*** | 开始使用！
 
 > [!TIP]
 > **你可以通过命令行使用 .exe 文件**

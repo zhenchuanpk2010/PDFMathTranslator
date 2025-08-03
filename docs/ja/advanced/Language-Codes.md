@@ -1,12 +1,12 @@
-[**高度な設定**](./introduction.md) > **言語コード** _(current)_
+[**高度な設定**](./introduction.md) > **言語コード** _(現在)_
 
 ---
 
 #### Google
 
-ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o によって整理。
+ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>、GPT-4o によって整理。
 
-| 中国語でのラベル | Label | `Language Code` |
+| 中国語ラベル | ラベル | `言語コード` |
 | --- | --- | --- |
 | アムハラ語 | Amharic | `am` |
 | アラビア語 | Arabic | `ar` |
@@ -22,9 +22,9 @@
 | デンマーク語 | Danish | `da` |
 | オランダ語 | Dutch | `nl` |
 | 英語（アメリカ） | English (US) | `en` |
-| エストニア語 | Estonian | `et` |
+| 愛沙ニア語 | Estonian | `et` |
 | フィリピン語 | Filipino | `fil` |
-| フィンランド語 | Finnish | `fi` |
+| 芬兰語 | Finnish | `fi` |
 | フランス語 | French | `fr` |
 | ドイツ語 | German | `de` |
 | ギリシャ語 | Greek | `el` |
@@ -67,9 +67,48 @@
 
 
 #### DeepL
-ソース <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o によって整理。
+ソース <https://developers.deepl.com/docs/resources/supported-languages>、GPT-4o によって整理。
 
-| 中国語でのラベル | ラベル | `Language Code`| サポート |
+#### DeepL  
+##### サポート言語  
+DeepL 翻訳は以下の言語をサポートしています： 
+
+| 言語名 | 言語コード |  
+|--------|------------|  
+| ブルガリア語 | `bg` |  
+| チェコ語 | `cs` |  
+| デンマーク語 | `da` |  
+| ドイツ語 | `de` |  
+| ギリシャ語 | `el` |  
+| 英語 | `en` |  
+| スペイン語 | `es` |  
+| エストニア語 | `et` |  
+| フィンランド語 | `fi` |  
+| フランス語 | `fr` |  
+| ハンガリー語 | `hu` |  
+| インドネシア語 | `id` |  
+| イタリア語 | `it` |  
+| 日本語 | `ja` |  
+| 韓国語 | `ko` |  
+| リトアニア語 | `lt` |  
+| ラトビア語 | `lv` |  
+| ノルウェー語（ブークモール） | `nb` |  
+| オランダ語 | `nl` |  
+| ポーランド語 | `pl` |  
+| ポルトガル語 | `pt` |  
+| ルーマニア語 | `ro` |  
+| ロシア語 | `ru` |  
+| スロバキア語 | `sk` |  
+| スロベニア語 | `sl` |  
+| スウェーデン語 | `sv` |  
+| トルコ語 | `tr` |  
+| ウクライナ語 | `uk` |  
+| 中国語 | `zh` |  
+
+!!! Note  
+    DeepL は現在、英語を`EN-US`（米国英語）と`EN-GB`（英国英語）の 2 つのターゲットバリエーションでサポートしています。
+
+| 中国語ラベル | ラベル | `言語コード` | サポート |
 | --- | --- | --- | --- |
 | アラビア語 | Arabic | `AR` | `source`, `target` |
 | ブルガリア語 | Bulgarian | `BG` | `source`, `target` |
@@ -91,7 +130,7 @@
 | 韓国語 | Korean | `KO` | `source`, `target` |
 | リトアニア語 | Lithuanian | `LT` | `source`, `target` |
 | ラトビア語 | Latvian | `LV` | `source`, `target` |
-| ノルウェー語（ブークモール） | Norwegian Bokmål | `NB` | `source`, `target` |
+| ノルウェー・ブークモール語 | Norwegian Bokmål | `NB` | `source`, `target` |
 | オランダ語 | Dutch | `NL` | `source`, `target` |
 | ポーランド語 | Polish | `PL` | `source`, `target` |
 | ポルトガル語 | Portuguese | `PT` | `source`, `target` |
@@ -105,8 +144,8 @@
 | トルコ語 | Turkish | `TR` | `source`, `target` |
 | ウクライナ語 | Ukrainian | `UK` | `source`, `target` |
 | 日本語 | Japanese | `JA` | `source`, `target` |
-| 中国語（簡体字） | Chinese (Simplified) | `ZH-HANS` | `target` |
-| 中国語（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 日本語 | Japanese | `JA` | `target` |
+| 繁体中国語 | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

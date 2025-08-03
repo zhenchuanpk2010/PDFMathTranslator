@@ -1,4 +1,4 @@
-[**Erste Schritte**](./erste-schritte.md) > **Installation** > **Docker** _(aktuell)_
+[**Erste Schritte**](./getting-started.md) > **Installation** > **Docker** _(aktuell)_
 
 ---
 
@@ -6,11 +6,11 @@
 
 #### Was ist Docker?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) ist eine offene Plattform für die Entwicklung, Bereitstellung und Ausführung von Anwendungen. Docker ermöglicht es Ihnen, Ihre Anwendungen von Ihrer Infrastruktur zu trennen, sodass Sie Software schnell bereitstellen können. Mit Docker können Sie Ihre Infrastruktur auf die gleiche Weise verwalten wie Ihre Anwendungen. Durch die Nutzung von Dockers Methoden für die Bereitstellung, Tests und den Einsatz von Code können Sie die Verzögerung zwischen dem Schreiben von Code und dessen Ausführung in der Produktion erheblich reduzieren.
+[Docker](https://docs.docker.com/get-started/docker-overview/) ist eine offene Plattform für die Entwicklung, den Versand und die Ausführung von Anwendungen. Docker ermöglicht es Ihnen, Ihre Anwendungen von Ihrer Infrastruktur zu trennen, sodass Sie Software schnell bereitstellen können. Mit Docker können Sie Ihre Infrastruktur auf die gleiche Weise verwalten wie Ihre Anwendungen. Durch die Nutzung von Dockers Methoden für den Versand, das Testen und die Bereitstellung von Code können Sie die Verzögerung zwischen dem Schreiben von Code und dessen Ausführung in der Produktion erheblich reduzieren.
 
 #### Installation
 
-<h4>1. Pullen und ausführen:</h4>
+<h4>1. Herunterladen und ausführen:</h4>
 
 ```bash
 docker pull awwaawwa/pdfmathtranslate-next

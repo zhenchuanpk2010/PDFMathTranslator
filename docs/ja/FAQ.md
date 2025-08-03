@@ -2,7 +2,7 @@
 
 ## GPU は必要ですか？
 - **質問**:
-プログラムは人工知能を使用して文書を認識および抽出しますが、GPU は必要ですか？
+プログラムは人工知能を使用して文書を認識・抽出するため、GPU は必要ですか？
 
 - **回答**:
 **GPU は必要ありません。** ただし、GPU がある場合、プログラムは自動的にそれを使用してより高いパフォーマンスを発揮します。
@@ -14,19 +14,19 @@
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **回答**:
-ネットワークが干渉を受けています。安定したネットワークリンクを使用するか、ネットワーク介入をバイパスしてみてください。
+ネットワークが干渉を受けています。安定したネットワークリンクを使用するか、ネットワーク介入を回避するようにしてください。
 
 ## 最新バージョンに更新する方法は？
 - **質問**:
-最新バージョンの機能の一部を使用したいのですが、更新方法は？
+最新バージョンの機能の一部を使用したいのですが、最新バージョンに更新する方法は？
 
 - **回答**:
 `pip install -U pdf2zh`
 
 
-## 以下のファイルが存在しません：example.pdf
-- **Issue**:
-プログラムを実行すると、ドキュメントが見つからない場合、ユーザーには次のような出力が表示されます：`以下のファイルが存在しません: example.pdf`
+## 以下のファイルは存在しません：example.pdf
+- **問題**:
+プログラムを実行すると、ユーザーには次の出力が表示されます：ドキュメントが見つからない場合、`以下のファイルは存在しません: example.pdf`。
 
 - **解決策**:
   - ファイルが存在するディレクトリでコマンドラインを開く、または
@@ -35,25 +35,25 @@
 
 
 ## SSL エラーとその他のネットワーク問題
-- **Issue**:
-Hugging Face のモデルをダウンロードする際、中国のユーザーはネットワークエラーに遭遇する可能性があります。例えば、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)で報告されています。
+- **問題**:
+Hugging Face のモデルをダウンロードする際、中国のユーザーはネットワークエラーが発生する可能性があります。例えば、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)で報告されています。
 
 - **解決策**:
   - [GFW をバイパスする](https://github.com/clash-verge-rev/clash-verge-rev).
   - [Hugging Face Mirror を使用する](https://hf-mirror.com/).
   - [ポータブル版を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).
   - [代わりに Docker を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
-  - [証明書を更新する](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)で提案されている通り。
+  - [証明書を更新する](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)で提案されている通り。
 
-## Localhost にアクセスできない
+## ローカルホストにアクセスできません
 以下をご覧ください。
 
-## GUI の起動エラー（0.0.0.0 使用時）
-- **Issue**:
-グローバルモードでプロキシソフトウェアを使用すると、Gradio が正常に起動しない場合があります。例として、[issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)をご覧ください。
+## GUI を 0.0.0.0 で起動する際のエラー
+- **問題**:
+グローバルモードでプロキシソフトウェアを使用すると、Gradio が正常に起動しない場合があります。例として、[issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)を参照してください。
 
 - **解決策**:
-ルールモードを使用する
+ルールモードを使用
 
   ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)
 

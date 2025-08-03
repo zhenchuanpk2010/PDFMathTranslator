@@ -2,7 +2,7 @@
 
 ---
 
-### Utilizzare PDFMathTranslate tramite riga di comando
+### Utilizzare PDFMathTranslate tramite Riga di comando
 
 #### Utilizzo di base
 
@@ -14,11 +14,11 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Se il percorso del file contiene spazi, si prega di racchiuderlo tra virgolette.
+> Se il percorso contiene spazi, si prega di racchiuderlo tra virgolette.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
->
+> ```
 
 Dopo aver eseguito la traduzione, i file vengono generati nella **directory di lavoro corrente**.
 
@@ -30,9 +30,9 @@ Dopo aver eseguito la traduzione, i file vengono generati nella **directory di l
 > PS C:\Users\XXX>
 > ```
 > 
-> Questa directory è la "*Directory di lavoro corrente*".
+> Questa directory è la "*Directory di lavoro corrente*."
 > 
-> Se non c'è alcun percorso, prova a eseguire questo comando nel terminale:
+> Se non viene visualizzato alcun percorso, prova a eseguire questo comando nel terminale:
 > 
 > ```bash
 > pwd
@@ -44,7 +44,7 @@ Dopo aver eseguito la traduzione, i file vengono generati nella **directory di l
 
 #### Opzioni avanzate
 
-Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, si prega di fare riferimento a [opzioni avanzate](./../advanced/advanced.md).
+Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, fare riferimento a [Opzioni avanzate](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Parte del contenuto di questa pagina è stata tradotta da GPT e potrebbe contenere errori.</small></h6>

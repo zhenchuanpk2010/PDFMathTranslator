@@ -12,7 +12,7 @@ Se non sei sicuro su quali codici utilizzare per tradurre le tue lingue di origi
 
 3. [**Documentazione dei servizi di traduzione**](./Documentazione-dei-servizi-di-traduzione.md)
 <br>
-Se hai bisogno di consultare la documentazione fornita dai servizi di traduzione che stai utilizzando, fai riferimento a questa pagina.
+Se hai bisogno di rivedere la documentazione fornita dai servizi di traduzione che stai utilizzando, fai riferimento a questa pagina.
 
 <div align="right"> 
 <h6><small>Parte del contenuto di questa pagina è stata tradotta da GPT e potrebbe contenere errori.</small></h6>

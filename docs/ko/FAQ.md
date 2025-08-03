@@ -1,11 +1,11 @@
-자주 묻는 질문들이 있으므로, 비슷한 문제를 겪는 사용자들을 위해 목록을 제공합니다.
+자주 묻는 질문이 있으므로, 비슷한 문제를 겪는 사용자를 위해 목록을 제공했습니다.
 
 ## GPU 가 필요한가요?
 - **질문**:
 프로그램이 인공 지능을 사용하여 문서를 인식하고 추출하기 때문에 GPU 가 필요한가요?
 
 - **답변**:
-**GPU 가 필요하지 않습니다.** 하지만 GPU 가 있다면 프로그램이 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.
+**GPU 가 필요한가요?** GPU 는 필요하지 않습니다. 하지만 GPU 가 있다면 프로그램이 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.
 
 ## 다운로드가 중단되었나요?
 - **질문**:
@@ -14,9 +14,9 @@
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **답변**:
-네트워크가 간섭을 받고 있습니다. 안정적인 네트워크 링크를 사용하거나 네트워크 개입을 우회해 보세요.
+네트워크에 간섭이 발생하고 있습니다. 안정적인 네트워크 링크를 사용하거나 네트워크 간섭을 우회해 보세요.
 
-## 최신 버전으로 업데이트하는 방법은?
+## 최신 버전으로 업데이트하는 방법은 무엇인가요?
 - **질문**:
 최신 버전의 일부 기능을 사용하고 싶은데, 어떻게 업데이트하나요?
 
@@ -26,7 +26,7 @@
 
 ## 다음 파일이 존재하지 않습니다: example.pdf
 - **문제**:
-프로그램을 실행할 때 사용자는 문서를 찾을 수 없는 경우 `다음 파일이 존재하지 않습니다: example.pdf`와 같은 출력을 보게 됩니다.
+프로그램을 실행할 때 사용자는 다음과 같은 출력을 볼 수 있습니다: 문서를 찾을 수 없는 경우 `다음 파일이 존재하지 않습니다: example.pdf`.
 
 - **해결 방법**:
   - 파일이 위치한 디렉토리에서 명령줄을 열거나,
@@ -36,7 +36,7 @@
 
 ## SSL 오류 및 기타 네트워크 문제
 - **문제**:
-허깅 페이스 모델을 다운로드할 때 중국 사용자는 네트워크 오류가 발생할 수 있습니다. 예를 들어, [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서와 같습니다.
+허깅 페이스 모델을 다운로드할 때 중국 사용자들은 네트워크 오류를 겪을 수 있습니다. 예를 들어, [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서 확인할 수 있습니다.
 
 - **해결 방법**:
   - [GFW 우회](https://github.com/clash-verge-rev/clash-verge-rev).
@@ -50,7 +50,7 @@
 
 ## GUI 를 0.0.0.0 으로 실행할 때 발생하는 오류
 - **문제**:
-글로벌 모드에서 프록시 소프트웨어를 사용하면 Gradio 가 제대로 시작되지 않을 수 있습니다. 예를 들어, [이슈 #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.
+전역 모드에서 프록시 소프트웨어를 사용하면 Gradio 가 제대로 시작되지 않을 수 있습니다. 예를 들어, [이슈 #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.
 
 - **해결 방법**:
 규칙 모드 사용

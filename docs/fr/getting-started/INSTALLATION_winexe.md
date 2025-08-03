@@ -1,8 +1,8 @@
-[**Commencer**](./commencer.md) > **Installation** > **Windows EXE** _(current)_
+[**Commencer**](./getting-started.md) > **Installation** > **Windows EXE** _(current)_
 
 ---
 
-### Installer PDFMathTranslate via fichier .exe
+### Installer PDFMathTranslate via un fichier .exe
 
 ***Étape 1*** | Téléchargez `pdf2zh-<version>-with-assets-win64.zip` depuis la [page des versions](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).
 
@@ -13,9 +13,9 @@
 > - Le fichier `pdf2zh-<version>-with-assets-win64.zip` inclut des fichiers de ressources (tels que des polices et des modèles) contrairement à `pdf2zh-<version>-win64.zip`.
 > - La version sans ressources téléchargera également les ressources dynamiquement lors de l'exécution, mais le téléchargement peut échouer en raison de problèmes de réseau.
 
-***Étape 2*** | Décompressez `pdf2zh-<version>-with-assets-win64.zip` et accédez au dossier `pdf2zh`. La décompression prend un certain temps, merci de patienter.
+***Étape 2*** | Décompressez `pdf2zh-<version>-with-assets-win64.zip` et naviguez jusqu'au dossier `pdf2zh`. La décompression prend un certain temps, soyez patient.
 
-***Étape 3*** | Accédez au dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.
+***Étape 3*** | Naviguez jusqu'au dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.
 
 > [!TIP]
 > **Impossible d'exécuter le fichier .exe**
@@ -47,7 +47,7 @@
 > ./pdf2zh_next.exe "document.pdf"
 > ```
 >
-> Vous pouvez utiliser d'autres paramètres de ligne de commande normalement :
+> Vous pouvez utiliser d'autres paramètres de ligne de commande comme d'habitude :
 >
 > ```bash
 > ./pdf2zh_next.exe "document.pdf" --lang-in en --lang-out ja

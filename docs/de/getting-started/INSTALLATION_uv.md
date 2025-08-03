@@ -1,4 +1,4 @@
-[**Erste Schritte**](./getting-started.md) > **Installation** > **uv** _(current)_
+[**Erste Schritte**](./erste-schritte.md) > **Installation** > **uv** _(aktuell)_
 
 ---
 
@@ -27,7 +27,7 @@ Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile
 
 !!! Warning
 
-    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie die Umgebungsvariablen wie folgt und versuchen Sie es erneut:
+    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie bitte die Umgebungsvariablen wie folgt und versuchen Sie es erneut:
 
     === "macOS und Linux"
 

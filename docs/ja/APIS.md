@@ -3,7 +3,7 @@
 > このドキュメントは古くなっていますので、参照しないでください。
 
 <h2 id="toc">目次</h2>
-本プロジェクトは 2 種類の API をサポートしており、すべてのメソッドには Redis が必要です;
+本プロジェクトは 2 種類の API をサポートしており、すべてのメソッドには Redis が必要です。
 
 - [Python での関数呼び出し](#api-python)
 - [HTTP プロトコル](#api-http)
@@ -12,9 +12,9 @@
 
 <h2 id="api-python">Python</h2>
 
-`pdf2zh`は Python のインストール済みモジュールであるため、他のプログラムが任意の Python スクリプトで呼び出せるように 2 つのメソッドを公開しています。
+`pdf2zh`は Python のインストール済みモジュールであるため、他のプログラムから任意の Python スクリプトで呼び出せる 2 つのメソッドを公開しています。
 
-例えば、Google 翻訳を使用して英語から中国語に文書を翻訳したい場合は、次のコードを使用できます：
+例えば、Google 翻訳を使用して英語から中国語に文書を翻訳したい場合、以下のコードを使用できます：
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -52,7 +52,7 @@ with open('example.pdf', 'rb') as f:
    pdf2zh_next --celery worker
    ```
 
-2. HTTP プロトコルを使用する方法：
+2. HTTP プロトコルの使用方法：
 
    - 翻訳タスクの送信
 
@@ -61,14 +61,14 @@ with open('example.pdf', 'rb') as f:
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-   - 進捗状況の確認
+   - 進捗確認
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - 進捗状況の確認 _(完了時)_
+   - 進捗確認 _(完了時)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a

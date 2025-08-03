@@ -1,10 +1,10 @@
-[**Começar**](./getting-started.md) > **Instalação** > **Windows EXE** _(current)_
+[**Começar**](./comecar.md) > **Instalação** > **Windows EXE** _(atual)_
 
 ---
 
 ### Instalar PDFMathTranslate via arquivo .exe
 
-***Passo 1*** | Baixe `pdf2zh-<version>-with-assets-win64.zip` da [página de lançamentos](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).
+***Passo 1*** | Baixe `pdf2zh-<version>-with-assets-win64.zip` na [página de lançamentos](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).
 
 > [!TIP]
 > **Qual é a diferença entre `pdf2zh-<version>-with-assets-win64.zip` e `pdf2zh-<version>-win64.zip`?**
@@ -20,7 +20,7 @@
 > [!TIP]
 > **Não consegue executar o arquivo .exe**
 >
-> Se você tiver algum problema ao executar o pdf2zh.exe, instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.
+> Se você tiver algum problema ao executar pdf2zh.exe, instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.
 
 ***Passo 4*** | Um terminal será exibido após clicar duas vezes no arquivo exe. Após cerca de meio minuto a um minuto, uma página da web será aberta no seu navegador padrão. Se isso não acontecer, você pode tentar acessar manualmente `http://localhost:7860/`.
 

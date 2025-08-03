@@ -1,4 +1,4 @@
-[**开始使用**](./getting-started.md) > **如何安装** > **Docker** _(current)_
+[**快速开始**](./getting-started.md) > **如何安装** > **Docker** _(current)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### 什么是 docker？
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) 是一个用于开发、交付和运行应用程序的开放平台。Docker 使您能够将应用程序与基础设施分离，从而可以快速交付软件。通过 Docker，您可以用管理应用程序的方式来管理基础设施。利用 Docker 的代码交付、测试和部署方法，可以显著减少编写代码与在生产环境中运行代码之间的延迟。
+[Docker](https://docs.docker.com/get-started/docker-overview/) 是一个用于开发、运输和运行应用程序的开放平台。Docker 使您能够将应用程序与基础设施分离，从而快速交付软件。通过 Docker，您可以用管理应用程序的方式来管理基础设施。利用 Docker 的代码运输、测试和部署方法，您可以显著减少编写代码与在生产环境中运行代码之间的延迟。
 
 #### 如何安装
 
@@ -19,12 +19,12 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - 如果无法访问 Docker Hub，请尝试从 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 获取镜像。
+> - 如果无法访问 Docker Hub，请尝试使用 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 上的镜像。
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
->
+> ```
 
 <h4>2. 在默认浏览器中输入此 URL 以打开 WebUI 页面：</h4>
 
@@ -33,10 +33,10 @@ http://localhost:7860/
 ```
 
 > [!NOTE]
-> 如果在使用 WebUI 过程中遇到任何问题，请参考 [如何使用 --> WebUI](./USAGE_webui.md)。
+> 如果在使用 WebUI 时遇到任何问题，请参考[如何使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> 如果在使用命令行过程中遇到任何问题，请参考 [如何使用 --> 命令行](./USAGE_commandline.md)。
+> 如果在使用命令行时遇到任何问题，请参考[如何使用 --> 命令行](./USAGE_commandline.md)。
 <!-- 
 #### For docker deployment on cloud service:
 

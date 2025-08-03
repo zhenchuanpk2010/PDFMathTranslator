@@ -3,7 +3,7 @@
 > Dieses Dokument ist veraltet, bitte beziehen Sie sich nicht darauf.
 
 <h2 id="toc">Inhaltsverzeichnis</h2>
-Das vorliegende Projekt unterstützt zwei Arten von APIs, alle Methoden benötigen den Redis;
+Das vorliegende Projekt unterstützt zwei Arten von APIs, alle Methoden benötigen Redis;
 
 - [Funktionsaufrufe in Python](#api-python)
 - [HTTP-Protokolle](#api-http)
@@ -30,7 +30,7 @@ params = {
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Übersetzen mit Stream:
+Mit Stream übersetzen:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -52,7 +52,7 @@ Auf eine flexiblere Weise können Sie mit dem Programm über HTTP-Protokolle kom
    pdf2zh_next --celery worker
    ```
 
-2. Verwendung der HTTP-Protokolle wie folgt:
+2. HTTP-Protokolle wie folgt verwenden:
 
    - Übersetzungsaufgabe einreichen
 

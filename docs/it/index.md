@@ -1,19 +1,18 @@
-```markdown
 <div align="center">
 
-<img src="./../../docs/images/banner.png" width="320px"  alt="banner"/>
+<img src="./docs/images/banner.png" width="320px"  alt="banner"/>
 
-<h2 id="titolo">PDFMathTranslate</h2>
+<h2 id="title">PDFMathTranslate</h2>
 
 <p>
   <!-- PyPI -->
-<a href="https://pypi.org/project/pdf2zh-next/">
+  <a href="https://pypi.org/project/pdf2zh-next/">
     <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>
-<a href="https://pepy.tech/projects/pdf2zh-next">
+  <a href="https://pepy.tech/projects/pdf2zh-next">
     <img src="https://static.pepy.tech/badge/pdf2zh-next"></a>
-<a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
+  <a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
     <img src="https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next"></a>
-<a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="In primo piano｜HelloGitHub" /></a>
+  <a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="In evidenza｜HelloGitHub" /></a>
   <!-- <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
     <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a> -->
   <!-- <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
@@ -22,10 +21,10 @@
     <!-- <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a> -->
   <!-- <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"></a> -->
-<a href="https://t.me/+Z9_SgnxmsmA5NzBl">
+  <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
   <!-- License -->
-<a href="./LICENSE">
+  <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
 </p>
 
@@ -33,23 +32,23 @@
 
 </div>
 
-Traduzione di articoli scientifici in PDF e confronto bilingue.
+Traduzione di articoli scientifici PDF e confronto bilingue.
 
 - 📊 Conserva formule, grafici, indice e annotazioni _([anteprima](#anteprima))_.
-- 🌐 Supporta [multiple lingue](https://pdf2zh-next.com/supported_languages.html) e diversi [servizi di traduzione](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
-- 🤖 Fornisce [strumento da riga di comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaccia utente interattiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
+- 🌐 Supporta [multiple lingue](https://pdf2zh-next.com/supported_languages.html), e diversi [servizi di traduzione](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
+- 🤖 Fornisce [strumento da riga di comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaccia utente interattiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html), e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-Sentitevi liberi di fornire feedback su [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) o [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
+Sentiti libero di fornire feedback su [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) o [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
 
-Per dettagli su come contribuire, consultate la [Guida al contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Per dettagli su come contribuire, consulta la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="updates">Aggiornamenti</h2>
 
 - [4 giu. 2025] Il progetto è stato rinominato e spostato su [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (da [@awwaawwa](https://github.com/awwaawwa))
 - [3 mar. 2025] Supporto sperimentale per il nuovo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI aggiunto come opzione sperimentale (da [@awwaawwa](https://github.com/awwaawwa))
-- [22 feb. 2025] Migliorato il CI per i rilasci e aggiunto un eseguibile ben confezionato per Windows-amd64 (da [@awwaawwa](https://github.com/awwaawwa))
+- [22 feb. 2025] Miglioramenti al CI per i rilasci e pacchetto Windows-amd64 exe ben confezionato (da [@awwaawwa](https://github.com/awwaawwa))
 - [24 dic. 2024] Il traduttore ora supporta modelli locali su [Xinference](https://github.com/xorbitsai/inference) _(da [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [19 dic. 2024] Ora sono supportati documenti non-PDF/A utilizzando `-cp` _(da [@reycn](https://github.com/reycn))_
+- [19 dic. 2024] Ora sono supportati documenti non PDF/A utilizzando `-cp` _(da [@reycn](https://github.com/reycn))_
 - [13 dic. 2024] Supporto aggiuntivo per il backend _(da [@YadominJinta](https://github.com/YadominJinta))_
 - [10 dic. 2024] Il traduttore ora supporta i modelli OpenAI su Azure _(da [@yidasanqian](https://github.com/yidasanqian))_
 
@@ -64,7 +63,7 @@ Per dettagli su come contribuire, consultate la [Guida al contributo](https://pd
 
 > [!NOTE]
 >
-> pdf2zh 2.0 non fornisce attualmente una demo online
+> pdf2zh 2.0 attualmente non fornisce una demo online
 
 Puoi provare la nostra applicazione utilizzando una delle seguenti demo:
 
@@ -73,7 +72,7 @@ Puoi provare la nostra applicazione utilizzando una delle seguenti demo:
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-Nota che le risorse di calcolo della demo sono limitate, quindi si prega di evitarne l'abuso.
+Nota che le risorse di calcolo della demo sono limitate, quindi si prega di evitare di abusarne.
 
 <h2 id="install">Installazione e Utilizzo</h2>
 
@@ -89,13 +88,13 @@ Nota che le risorse di calcolo della demo sono limitate, quindi si prega di evit
 
 1. [Utilizzando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
 2. [Utilizzando **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programma di terze parti)
-3. [Utilizzando **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
+3. [Utilizzando **Riga di comando**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
 Per diversi casi d'uso, forniamo metodi distinti per utilizzare il nostro programma. Consulta [questa pagina](./getting-started/getting-started.md) per maggiori informazioni.
 
 <h2 id="usage">Opzioni avanzate</h2>
 
-Per spiegazioni dettagliate, consulta il nostro documento su [Utilizzo avanzato](https://pdf2zh-next.com/advanced/advanced.html) per un elenco completo di ogni opzione.
+Per spiegazioni dettagliate, si prega di fare riferimento al nostro documento su [Utilizzo avanzato](https://pdf2zh-next.com/advanced/advanced.html) per un elenco completo di ciascuna opzione.
 
 <h2 id="downstream">Sviluppo secondario (API)</h2>
 
@@ -130,20 +129,19 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 - [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->
 
-<h2 id="acknowledgement">Ringraziamenti</h2>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
 
 - [Immersive Translation](https://immersivetranslate.com) sponsorizza mensilmente codici di riscatto per l'abbonamento Pro per i contributori attivi a questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto
 
 - Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- Nuovo backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
+- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
 - Unione documenti: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
 - Analisi documenti: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
-
-- Estrazione documenti: [MinerU](https://github.com/opendatalab/MinerU)
 
 - Anteprima documenti: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
@@ -153,7 +151,7 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 - Standard documenti: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Font multilingue: [Go Noto Universal](https://github.com/satbyy/go-noto-universal)
+- Font multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
@@ -161,7 +159,7 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 <h2 id="conduct">Prima di inviare il tuo codice</h2>
 
-Accogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, consulta il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Accogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, ti preghiamo di consultare il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Contributori</h2>
 
@@ -171,14 +169,14 @@ Accogliamo con favore la partecipazione attiva dei contributori per migliorare p
 
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<h2 id="star_hist">Storia delle stelle</h2>
+<h2 id="star_hist">Storia delle Stelle</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
-</picture>
+ </picture>
 </a>
 
 <div align="right"> 
