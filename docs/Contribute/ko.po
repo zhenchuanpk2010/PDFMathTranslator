@@ -1066,7 +1066,7 @@ msgstr "<h3 id=\"목차\">목차</h3>\n"
 # This content is from "advanced.md", line 7
 msgctxt "chunk_D18951F5"
 msgid "- [Command Line Args](#command-line-args)\n- [Partial translation](#partial-translation)\n- [Specify source and target languages](#specify-source-and-target-languages)\n- [Translate wih exceptions](#translate-wih-exceptions)\n- [Custom prompt](#custom-prompt)\n- [Custom configuration](#custom-configuration)\n- [Skip clean](#skip-clean)\n- [Translation cache](#translation-cache)\n- [Deployment as a public services](#deployment-as-a-public-services)\n- [Authentication and welcome page](#authentication-and-welcome-page)\n- [Glossary Support](#glossary-support)\n"
-msgstr "- [명령줄 인수](#명령줄 - 인수)\n- [부분 번역](#부분 - 번역)\n- [소스 및 대상 언어 지정](#소스 - 및-대상 - 언어 - 지정)\n- [예외와 함께 번역하기](#예외와 - 함께 - 번역하기)\n- [사용자 지정 프롬프트](#사용자 - 지정 - 프롬프트)\n- [사용자 지정 구성](#사용자 - 지정 - 구성)\n- [클린 건너뛰기](#클린 - 건너뛰기)\n- [번역 캐시](#번역 - 캐시)\n- [공개 서비스로 배포하기](#공개 - 서비스로 - 배포하기)\n- [인증 및 환영 페이지](#인증 - 및-환영 - 페이지)\n- [용어집 지원](#용어집 - 지원)\n"
+msgstr "- [명령줄 인수](#명령줄 - 인수)\n- [부분 번역](#부분 - 번역)\n- [소스 및 대상 언어 지정](#소스 - 및 - 대상 - 언어 - 지정)\n- [예외와 함께 번역하기](#예외와 - 함께 - 번역하기)\n- [사용자 지정 프롬프트](#사용자 - 지정 - 프롬프트)\n- [사용자 지정 구성](#사용자 - 지정 - 구성)\n- [클린 건너뛰기](#클린 - 건너뛰기)\n- [번역 캐시](#번역 - 캐시)\n- [공개 서비스로 배포하기](#공개 - 서비스로 - 배포하기)\n- [인증 및 환영 페이지](#인증 - 및-환영 - 페이지)\n- [용어집 지원](#용어집 - 지원)\n"
 
 # This content is from "advanced.md", line 21
 msgctxt "chunk_3BF1A9B5"
