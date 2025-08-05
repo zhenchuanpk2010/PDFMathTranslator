@@ -1,8 +1,8 @@
-[**Empezar**](./empezar.md) > **Instalación** > **uv** _(actual)_
+[**Empezar**](./getting-started.md) > **Instalación** > **uv** _(actual)_
 
 ---
 
-### Instalar PDFMathTranslate via uv
+### Instalar PDFMathTranslate mediante uv
 
 #### ¿Qué es uv? ¿Cómo instalarlo?
 
@@ -14,24 +14,24 @@ Para instalar uv en tu computadora, consulta [este artículo](https://docs.astra
 
 #### Instalación
 
-1. Python instalado (versión 3.10 <= versión <= 3.13);
+1. Python instalado (versión 3.10 <= versión <= 3.12);
 
 2. Utilice el siguiente comando para usar nuestro paquete:
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 Después de la instalación, puedes comenzar la traducción mediante la **línea de comandos** o **WebUI**.
 
 !!! Warning
 
-    Si ves el error `command not found: pdf2zh_next` al ejecutar, configura las variables de entorno de la siguiente manera e inténtalo de nuevo:
+    Si ves el error `command not found: pdf2zh_next` al ejecutar, por favor configura las variables de entorno de la siguiente manera e intenta nuevamente:
 
-    === "macOS and Linux"
+    === "macOS y Linux"
 
-        Añade lo siguiente a tu ~/.zshrc:
+        Agrega lo siguiente a tu ~/.zshrc:
 
         ```console
         export PATH="$PATH:/Users/Username/.local/bin"

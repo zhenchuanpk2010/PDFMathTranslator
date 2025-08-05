@@ -1,0 +1,125 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/USAGE_commandline.md",
+  "chunks": [
+    {
+      "id": "chunk_1C59CC51",
+      "raw_content": "[**Getting Started**](./getting-started.md) > **Usage** > **Command Line** _(current)_\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "h_rule_93b1e773",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_9C810511",
+      "raw_content": "### Use PDFMathTranslate via command line\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_30052F3A",
+      "raw_content": "#### Basic Usage\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_ACC119CF",
+      "raw_content": "After Installation, please enter this command to translate your PDF.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_0D415785",
+      "raw_content": "```bash\npdf2zh_next document.pdf\n```\n",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": "bash"
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_744BFC94",
+      "raw_content": "> [!NOTE]\n> \n> If your pathname contains spaces, please enclose it in quotation marks.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 15
+    },
+    {
+      "id": "chunk_6375D505",
+      "raw_content": "After execute translation, files generated in **current working directory**.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 23
+    },
+    {
+      "id": "chunk_1E0F4B41",
+      "raw_content": "> [!TIP]\n> **Where is my \"Current Working Directory\" ?**\n> Before entering a command in the terminal, you might see a pathname displayed in your terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> This directory is the \"*Current working directory*.\"\n> \n> If there is no pathname, try running this command in the terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> After executing this command, a pathname will be output. This pathname is the \"**Current working directory**\". The translated files will appear here.\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 25
+    },
+    {
+      "id": "h_rule_15c3269a",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 43
+    },
+    {
+      "id": "chunk_67DBD505",
+      "raw_content": "#### Advance Usage\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 45
+    },
+    {
+      "id": "chunk_98AF19D9",
+      "raw_content": "For detailed explanations of additional command line parameters, please refer to [advanced usage](./../advanced/advanced.md).\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 47
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/Documentation-of-Translation-Services.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_9221A870",
+      "chunk_type": "paragraph",
+      "original_content": "[**Advanced**](./introduction.md) > **Documentation of Translation Services** _(current)_\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh": "[**高级选项**](./introduction.md) > **翻译服务文档** _(当前)_\n",
+        "ja": "[**高度な設定**](./introduction.md) > **翻訳サービスドキュメント** _(現在のページ)_\n",
+        "fr": "[**Options avancées**](./introduction.md) > **Documentation des services de traduction** _(actuel)_\n",
+        "ko": "[**고급 옵션**](./introduction.md) > **번역 서비스 문서** _(현재)_\n",
+        "pt": "[**Opções avançadas**](./introduction.md) > **Documentação dos serviços de tradução** _(atual)_\n",
+        "it": "[**Opzioni avanzate**](./introduction.md) > **Documentazione dei servizi di traduzione** _(current)_\n",
+        "ru": "[**Расширенные параметры**](./introduction.md) > **Документация служб перевода** _(текущая)_\n",
+        "es": "[**Opciones avanzadas**](./introduction.md) > **Documentación de servicios de traducción** _(actual)_\n",
+        "zh_TW": "[**高級選項**](./introduction.md) > **翻譯服務文檔** _(current)_\n",
+        "de": "[**Erweiterte Optionen**](./introduction.md) > **Dokumentation der Übersetzungsdienste** _(aktuell)_\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_57dd5a65",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7775DA81",
+      "chunk_type": "header",
+      "original_content": "### Viewing Available Translate Services via Command Line\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh": "### 通过命令行查看可用的翻译服务\n",
+        "zh_TW": "### 透過命令行查看可用的翻譯服務\n",
+        "ko": "### 명령줄을 통해 사용 가능한 번역 서비스 확인하기\n",
+        "ru": "### Просмотр доступных служб перевода через Командную строку\n",
+        "ja": "### コマンドラインで利用可能な翻訳サービスを表示する\n",
+        "de": "### Verfügbare Übersetzungsdienste über die Kommandozeile anzeigen\n",
+        "pt": "### Visualizando os Serviços de Tradução Disponíveis via Linha de comando\n",
+        "es": "### Visualización de servicios de traducción disponibles mediante la línea de comandos\n",
+        "fr": "### Visualisation des services de traduction disponibles via la ligne de commande\n",
+        "it": "### Visualizzazione dei servizi di traduzione disponibili tramite Riga di comando\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_4919DFD2",
+      "chunk_type": "paragraph",
+      "original_content": "You can confirm the available translate services and their usage by printing the help message in the command line.\n",
+      "start_line_no": 7,
+      "translations": {
+        "zh_TW": "您可以透過在命令行中打印幫助訊息來確認可用的翻譯服務及其使用方法。\n",
+        "zh": "您可以通过在命令行中打印帮助信息来确认可用的翻译服务及其使用方法。\n",
+        "ja": "コマンドラインでヘルプメッセージを表示することで、利用可能な翻訳サービスとその使い方を確認できます。\n",
+        "fr": "Vous pouvez confirmer les services de traduction disponibles et leur utilisation en affichant le message d'aide dans la ligne de commande.\n",
+        "it": "Puoi confermare i servizi di traduzione disponibili e il loro utilizzo stampando il messaggio di aiuto nella Riga di comando.\n",
+        "de": "Sie können die verfügbaren Übersetzungsdienste und deren Verwendung bestätigen, indem Sie die Hilfemeldung in der Kommandozeile ausgeben.\n",
+        "ko": "명령줄에서 도움말 메시지를 출력하여 사용 가능한 번역 서비스와 그 사용법을 확인할 수 있습니다.\n",
+        "ru": "Вы можете проверить доступные службы перевода и их использование, выведя справочное сообщение в Командной строке.\n",
+        "pt": "Você pode confirmar os serviços de tradução disponíveis e seu uso imprimindo a mensagem de ajuda na linha de comando.\n",
+        "es": "Puedes confirmar los servicios de traducción disponibles y su uso imprimiendo el mensaje de ayuda en la línea de comandos.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_756565E6",
+      "chunk_type": "code_block",
+      "original_content": "```bash\npdf2zh_next -h\n```\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "```bash\npdf2zh_next -h\n```\n",
+        "zh_TW": "```bash\npdf2zh_next -h\n```\n",
+        "ja": "```bash\npdf2zh_next -h\n```\n",
+        "ko": "```bash\npdf2zh_next -h\n```\n",
+        "ru": "```bash\npdf2zh_next -h\n```\n",
+        "es": "```bash\npdf2zh_next -h\n```\n",
+        "fr": "```bash\npdf2zh_next -h\n```\n",
+        "de": "```bash\npdf2zh_next -h\n```\n",
+        "it": "```bash\npdf2zh_next -h\n```\n",
+        "pt": "```bash\npdf2zh_next -h\n```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7935E690",
+      "chunk_type": "paragraph",
+      "original_content": "At the end of the help message, you can view detailed information about the different translation services.\n",
+      "start_line_no": 13,
+      "translations": {
+        "zh_TW": "在幫助訊息的最後，您可以查看不同翻譯服務的詳細資訊。\n",
+        "fr": "À la fin du message d'aide, vous pouvez consulter des informations détaillées sur les différents services de traduction.\n",
+        "de": "Am Ende der Hilfenachricht können Sie detaillierte Informationen zu den verschiedenen Übersetzungsdiensten einsehen.\n",
+        "zh": "在帮助信息的末尾，您可以查看不同翻译服务的详细信息。\n",
+        "ru": "В конце сообщения справки вы можете просмотреть подробную информацию о различных службах перевода.\n",
+        "pt": "No final da mensagem de ajuda, você pode visualizar informações detalhadas sobre os diferentes serviços de tradução.\n",
+        "ja": "ヘルプメッセージの最後に、さまざまな翻訳サービスの詳細情報を確認できます。\n",
+        "ko": "도움말 메시지의 끝에서 다양한 번역 서비스에 대한 자세한 정보를 확인할 수 있습니다.\n",
+        "es": "Al final del mensaje de ayuda, puedes ver información detallada sobre los diferentes servicios de traducción.\n",
+        "it": "Alla fine del messaggio di aiuto, puoi visualizzare informazioni dettagliate sui diversi servizi di traduzione.\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/README.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_838C5468",
+      "chunk_type": "paragraph",
+      "original_content": "<div align=\"center\">\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh": "<div align=\"center\">\n",
+        "zh_TW": "<div align=\"center\">\n",
+        "de": "<div align=\"center\">\n",
+        "ja": "<div align=\"center\">\n",
+        "it": "<div align=\"center\">\n",
+        "es": "<div align=\"center\">\n",
+        "ko": "<div align=\"center\">\n",
+        "ru": "<div align=\"center\">\n",
+        "pt": "<div align=\"center\">\n",
+        "fr": "<div align=\"center\">\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_80452A49",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "zh_TW": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "ja": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "ko": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "ru": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "es": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "fr": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "de": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "it": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "pt": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_9CD70BC3",
+      "chunk_type": "paragraph",
+      "original_content": "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>",
+      "start_line_no": 5,
+      "translations": {
+        "ja": "<h2 id=\"タイトル\">PDFMathTranslate</h2>\n\n<p>",
+        "zh_TW": "<h2 id=\"標題\">PDFMathTranslate</h2>\n\n<p>",
+        "ru": "<h2 id=\"заголовок\">PDFMathTranslate</h2>\n\n<p>",
+        "de": "<h2 id=\"titel\">PDFMathTranslate</h2>\n\n<p>",
+        "it": "<h2 id=\"titolo\">PDFMathTranslate</h2>\n\n<p>",
+        "es": "<h2 id=\"titulo\">PDFMathTranslate</h2>\n\n<p>",
+        "zh": "<h2 id=\"标题\">PDFMathTranslate</h2>\n\n<p>",
+        "pt": "<h2 id=\"título\">PDFMathTranslate</h2>\n\n<p>",
+        "fr": "<h2 id=\"titre\">PDFMathTranslate</h2>\n\n<p>",
+        "ko": "<h2 id=\"제목\">PDFMathTranslate</h2>\n\n<p>"
+      }
+    },
+    {
+      "chunk_id": "chunk_FD2827C9",
+      "chunk_type": "html_comment",
+      "original_content": "  <!-- PyPI -->",
+      "start_line_no": 8,
+      "translations": {
+        "zh": "  <!-- PyPI -->",
+        "zh_TW": "  <!-- PyPI -->",
+        "ja": "  <!-- PyPI -->",
+        "ko": "  <!-- PyPI -->",
+        "ru": "  <!-- PyPI -->",
+        "es": "  <!-- PyPI -->",
+        "fr": "  <!-- PyPI -->",
+        "de": "  <!-- PyPI -->",
+        "it": "  <!-- PyPI -->",
+        "pt": "  <!-- PyPI -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_535549DD",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+      "start_line_no": 9,
+      "translations": {
+        "ja": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "zh": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "ru": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "ko": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "pt": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "de": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "fr": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "es": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "it": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+        "zh_TW": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_9D0AE379",
+      "chunk_type": "image",
+      "original_content": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+      "start_line_no": 10,
+      "translations": {
+        "zh": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "zh_TW": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "ja": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "ko": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "ru": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "es": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "fr": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "de": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "it": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+        "pt": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>"
+      }
+    },
+    {
+      "chunk_id": "chunk_2792EF01",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+      "start_line_no": 11,
+      "translations": {
+        "zh": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "zh_TW": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "es": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "de": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "ru": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "ja": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "it": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "fr": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "ko": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+        "pt": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_1DC69FC1",
+      "chunk_type": "image",
+      "original_content": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+      "start_line_no": 12,
+      "translations": {
+        "zh": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "zh_TW": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "ja": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "ko": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "ru": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "es": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "fr": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "de": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "it": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+        "pt": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>"
+      }
+    },
+    {
+      "chunk_id": "chunk_AFCA5ACF",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+      "start_line_no": 13,
+      "translations": {
+        "es": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "ja": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "zh": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "it": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "fr": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "de": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "ru": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "ko": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "pt": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+        "zh_TW": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_132C173F",
+      "chunk_type": "image",
+      "original_content": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+      "start_line_no": 14,
+      "translations": {
+        "zh": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "zh_TW": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "ja": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "ko": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "ru": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "es": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "fr": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "de": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "it": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+        "pt": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>"
+      }
+    },
+    {
+      "chunk_id": "chunk_C3623279",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>",
+      "start_line_no": 15,
+      "translations": {
+        "ko": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"추천｜HelloGitHub\" /></a>",
+        "es": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Destacado｜HelloGitHub\" /></a>",
+        "fr": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"À la une｜HelloGitHub\" /></a>",
+        "zh": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"精选｜HelloGitHub\" /></a>",
+        "zh_TW": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"精選｜HelloGitHub\" /></a>",
+        "de": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>",
+        "ru": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Рекомендуется｜HelloGitHub\" /></a>",
+        "it": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"In primo piano｜HelloGitHub\" /></a>",
+        "pt": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Destaque｜HelloGitHub\" /></a>",
+        "ja": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"注目｜HelloGitHub\" /></a>"
+      }
+    },
+    {
+      "chunk_id": "chunk_76B223CD",
+      "chunk_type": "html_comment",
+      "original_content": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+      "start_line_no": 16,
+      "translations": {
+        "zh": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "zh_TW": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "ja": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "ko": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "ru": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "es": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "fr": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "de": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "it": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+        "pt": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_2D1CFDA0",
+      "chunk_type": "html_comment",
+      "original_content": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+      "start_line_no": 18,
+      "translations": {
+        "zh": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "zh_TW": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "ja": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "ko": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "ru": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "es": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "fr": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "de": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "it": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+        "pt": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_F58C27F2",
+      "chunk_type": "html_comment",
+      "original_content": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+      "start_line_no": 20,
+      "translations": {
+        "zh": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "zh_TW": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "ja": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "ko": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "ru": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "es": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "fr": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "de": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "it": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+        "pt": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_4BF46740",
+      "chunk_type": "html_comment",
+      "original_content": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+      "start_line_no": 21,
+      "translations": {
+        "zh": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "zh_TW": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "ja": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "ko": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "ru": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "es": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "fr": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "de": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "it": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+        "pt": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_9B97248D",
+      "chunk_type": "html_comment",
+      "original_content": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+      "start_line_no": 22,
+      "translations": {
+        "zh": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "zh_TW": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "ja": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "ko": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "ru": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "es": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "fr": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "de": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "it": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+        "pt": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_524DFC76",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+      "start_line_no": 24,
+      "translations": {
+        "zh": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "zh_TW": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "es": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "ru": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "it": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "ko": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "ja": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "pt": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "de": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+        "fr": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_C8740F43",
+      "chunk_type": "image",
+      "original_content": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+      "start_line_no": 25,
+      "translations": {
+        "zh": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "zh_TW": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "ja": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "ko": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "ru": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "es": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "fr": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "de": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "it": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+        "pt": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>"
+      }
+    },
+    {
+      "chunk_id": "chunk_9F43F425",
+      "chunk_type": "html_comment",
+      "original_content": "  <!-- License -->",
+      "start_line_no": 26,
+      "translations": {
+        "zh": "  <!-- License -->",
+        "zh_TW": "  <!-- License -->",
+        "ja": "  <!-- License -->",
+        "ko": "  <!-- License -->",
+        "ru": "  <!-- License -->",
+        "es": "  <!-- License -->",
+        "fr": "  <!-- License -->",
+        "de": "  <!-- License -->",
+        "it": "  <!-- License -->",
+        "pt": "  <!-- License -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_63D768E7",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"./LICENSE\">",
+      "start_line_no": 27,
+      "translations": {
+        "zh": "  <a href=\"./LICENSE\">",
+        "es": "  <a href=\"./LICENSE\">",
+        "ko": "  <a href=\"./LICENSE\">",
+        "ja": "  <a href=\"./LICENSE\">",
+        "ru": "  <a href=\"./LICENSE\">",
+        "it": "  <a href=\"./LICENSE\">",
+        "pt": "  <a href=\"./LICENSE\">",
+        "de": "  <a href=\"./LICENSE\">",
+        "fr": "  <a href=\"./LICENSE\">",
+        "zh_TW": "  <a href=\"./LICENSE\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_C91C1CEC",
+      "chunk_type": "image",
+      "original_content": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+      "start_line_no": 28,
+      "translations": {
+        "zh": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "zh_TW": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "ja": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "ko": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "ru": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "es": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "fr": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "de": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "it": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+        "pt": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>"
+      }
+    },
+    {
+      "chunk_id": "chunk_AF4387C1",
+      "chunk_type": "paragraph",
+      "original_content": "</p>\n",
+      "start_line_no": 29,
+      "translations": {
+        "ru": "</p>\n",
+        "zh": "</p>\n",
+        "fr": "</p>\n",
+        "it": "</p>\n",
+        "pt": "</p>\n",
+        "ja": "</p>\n",
+        "zh_TW": "</p>\n",
+        "es": "</p>\n",
+        "de": "</p>\n",
+        "ko": "</p>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3CF488A3",
+      "chunk_type": "table",
+      "original_content": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+      "start_line_no": 31,
+      "translations": {
+        "ko": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "es": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "ru": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "de": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "pt": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "ja": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "zh": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "it": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "fr": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+        "zh_TW": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_90458E01",
+      "chunk_type": "paragraph",
+      "original_content": "</div>\n\nPDF scientific paper translation and bilingual comparison.\n",
+      "start_line_no": 33,
+      "translations": {
+        "ko": "</div>\n\nPDF 과학 논문 번역 및 이중 언어 비교.\n",
+        "zh_TW": "</div>\n\nPDF 科學論文翻譯與雙語對照。\n",
+        "ru": "</div>\n\nПеревод научных статей в формате PDF и двуязычное сравнение.\n",
+        "zh": "</div>\n\nPDF 科学论文翻译与双语对照。\n",
+        "es": "</div>\n\nTraducción de artículos científicos en PDF y comparación bilingüe.\n",
+        "de": "</div>\n\nÜbersetzung wissenschaftlicher PDF-Papiere und bilingualer Vergleich.\n",
+        "it": "</div>\n\nTraduzione di articoli scientifici PDF e confronto bilingue.\n",
+        "ja": "</div>\n\nPDF 科学論文の翻訳とバイリンガル比較。\n",
+        "fr": "</div>\n\nTraduction de documents scientifiques PDF et comparaison bilingue.\n",
+        "pt": "</div>\n\nTradução de artigos científicos em PDF e comparação bilíngue.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3BE38B9A",
+      "chunk_type": "list",
+      "original_content": "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+      "start_line_no": 37,
+      "translations": {
+        "zh_TW": "- 📊 保留公式、圖表、目錄和註解 _([預覽](#預覽))_。\n- 🌐 支援 [多種語言](https://pdf2zh-next.com/supported_languages.html)，以及多樣的 [翻譯服務](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。\n- 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[互動式用戶界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "fr": "- 📊 Préserve les formules, les graphiques, la table des matières et les annotations _([aperçu](#aperçu))_.\n- 🌐 Prend en charge [plusieurs langues](https://pdf2zh-next.com/supported_languages.html) et divers [services de traduction](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Propose un [outil en ligne de commande](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), une [interface utilisateur interactive](https://pdf2zh-next.com/getting-started/USAGE_webui.html) et [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html).\n",
+        "ja": "- 📊 数式、チャート、目次、注釈を保持 _（[プレビュー](#プレビュー)）_。\n- 🌐 [複数言語](https://pdf2zh-next.com/supported_languages.html) をサポートし、多様な [翻訳サービス](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) に対応。\n- 🤖 [コマンドラインツール](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[インタラクティブユーザーインターフェース](https://pdf2zh-next.com/getting-started/USAGE_webui.html)、[Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) を提供\n",
+        "it": "- 📊 Conserva formule, grafici, indice e annotazioni _([anteprima](#anteprima))_.\n- 🌐 Supporta [multiple lingue](https://pdf2zh-next.com/supported_languages.html) e diversi [servizi di traduzione](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Fornisce [strumento da riga di comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaccia utente interattiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "es": "- 📊 Conserva fórmulas, gráficos, tablas de contenido y anotaciones _([vista previa](#vista-previa))_.\n- 🌐 Soporta [múltiples idiomas](https://pdf2zh-next.com/supported_languages.html) y diversos [servicios de traducción](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Ofrece [herramienta de línea de comandos](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaz de usuario interactiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html) y [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "de": "- 📊 Erhalten Sie Formeln, Diagramme, Inhaltsverzeichnisse und Anmerkungen _([Vorschau](#vorschau))_.\n- 🌐 Unterstützt [mehrere Sprachen](https://pdf2zh-next.com/supported_languages.html) und verschiedene [Übersetzungsdienste](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Bietet [Kommandozeilen-Tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interaktive Benutzeroberfläche](https://pdf2zh-next.com/getting-started/USAGE_webui.html) und [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "zh": "- 📊 保留公式、图表、目录和注释 _([预览](#预览))_。\n- 🌐 支持 [多种语言](https://pdf2zh-next.com/supported_languages.html)，以及多样化的 [翻译服务](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。\n- 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[交互式用户界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "ru": "- 📊 Сохраняет формулы, графики, оглавление и аннотации _([предпросмотр](#предпросмотр))_.\n- 🌐 Поддерживает [множество языков](https://pdf2zh-next.com/supported_languages.html) и различные [службы перевода](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Предоставляет [инструмент командной строки](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [интерактивный пользовательский интерфейс](https://pdf2zh-next.com/getting-started/USAGE_webui.html) и [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "pt": "- 📊 Preserve fórmulas, gráficos, tabela de conteúdo e anotações _([pré-visualização](#pré-visualização))_.\n- 🌐 Suporte a [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Oferece [ferramenta de linha de comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interface de usuário interativa](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+        "ko": "- 📊 수식, 차트, 목차 및 주석 보존 _([미리보기](#미리보기))_.\n- 🌐 [다양한 언어](https://pdf2zh-next.com/supported_languages.html) 및 다양한 [번역 서비스](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) 지원.\n- 🤖 [명령줄 도구](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [대화형 사용자 인터페이스](https://pdf2zh-next.com/getting-started/USAGE_webui.html), [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) 제공.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_CD5D1C28",
+      "chunk_type": "paragraph",
+      "original_content": "Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nFor details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Updates</h2>\n",
+      "start_line_no": 41,
+      "translations": {
+        "es": "Siéntete libre de proporcionar comentarios en [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) o [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nPara obtener detalles sobre cómo contribuir, consulta la [Guía de contribución](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"actualizaciones\">Actualizaciones</h2>\n",
+        "de": "Gerne können Sie Feedback in den [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) oder der [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) geben.\n\nWeitere Details zur Mitwirkung finden Sie im [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Aktualisierungen</h2>\n",
+        "zh_TW": "歡迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) 提供反饋。\n\n如需瞭解如何貢獻，請參閱 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"更新日誌\">更新日誌</h2>\n",
+        "ja": "[GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) または [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) でフィードバックをお寄せください。\n\n貢献方法の詳細については、[Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html) をご覧ください。\n\n<h2 id=\"updates\">更新情報</h2>\n",
+        "zh": "欢迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram 群组](https://t.me/+Z9_SgnxmsmA5NzBl) 中提供反馈。\n\n如需了解如何贡献，请参阅 [贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"更新\">更新</h2>\n",
+        "it": "Sentiti libero di fornire feedback su [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) o [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nPer dettagli su come contribuire, consulta la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"aggiornamenti\">Aggiornamenti</h2>\n",
+        "fr": "N'hésitez pas à fournir des commentaires dans [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nPour plus de détails sur la manière de contribuer, veuillez consulter le [Guide de contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"mises-à-jour\">Mises à jour</h2>\n",
+        "pt": "Sinta-se à vontade para fornecer feedback em [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nPara obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"atualizacoes\">Atualizações</h2>\n",
+        "ko": "[GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 또는 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl)에서 피드백을 자유롭게 제공해 주세요.\n\n기여 방법에 대한 자세한 내용은 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참조하십시오.\n\n<h2 id=\"업데이트\">업데이트</h2>\n",
+        "ru": "Не стесняйтесь оставлять отзывы в [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) или [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nДля получения подробной информации о том, как внести свой вклад, обратитесь к [Руководству по участию](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Обновления</h2>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5E68D02E",
+      "chunk_type": "list",
+      "original_content": "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n",
+      "start_line_no": 47,
+      "translations": {
+        "ru": "- [4 июня 2025] Проект переименован и перемещён в [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (от [@awwaawwa](https://github.com/awwaawwa))\n- [3 марта 2025] Добавлена экспериментальная поддержка нового бэкенда [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI в качестве экспериментальной опции (от [@awwaawwa](https://github.com/awwaawwa))\n- [22 февраля 2025] Улучшен CI для релизов и хорошо упакованный windows-amd64 exe (от [@awwaawwa](https://github.com/awwaawwa))\n- [24 декабря 2024] Переводчик теперь поддерживает локальные модели на [Xinference](https://github.com/xorbitsai/inference) _(от [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 декабря 2024] Теперь поддерживаются документы, не являющиеся PDF/A, с использованием `-cp` _(от [@reycn](https://github.com/reycn))_\n- [13 декабря 2024] Дополнительная поддержка бэкенда от _(от [@YadominJinta](https://github.com/YadominJinta))_\n- [10 декабря 2024] Переводчик теперь поддерживает модели OpenAI на Azure _(от [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "fr": "- [4 juin 2025] Le projet est renommé et déplacé vers [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (par [@awwaawwa](https://github.com/awwaawwa))\n- [3 mars 2025] Support expérimental pour le nouveau backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI ajouté comme option expérimentale (par [@awwaawwa](https://github.com/awwaawwa))\n- [22 février 2025] Meilleure CI de release et exe windows-amd64 bien packagé (par [@awwaawwa](https://github.com/awwaawwa))\n- [24 décembre 2024] Le traducteur supporte désormais les modèles locaux sur [Xinference](https://github.com/xorbitsai/inference) _(par [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 décembre 2024] Les documents non-PDF/A sont désormais supportés en utilisant `-cp` _(par [@reycn](https://github.com/reycn))_\n- [13 décembre 2024] Support supplémentaire pour le backend par _(par [@YadominJinta](https://github.com/YadominJinta))_\n- [10 décembre 2024] Le traducteur supporte désormais les modèles OpenAI sur Azure _(par [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "es": "- [4 de junio de 2025] El proyecto se renombra y se traslada a [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))\n- [3 de marzo de 2025] Soporte experimental para el nuevo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI añadido como una opción experimental (por [@awwaawwa](https://github.com/awwaawwa))\n- [22 de febrero de 2025] Mejor CI de lanzamiento y exe bien empaquetado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))\n- [24 de diciembre de 2024] El traductor ahora soporta modelos locales en [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 de diciembre de 2024] Ahora se soportan documentos no PDF/A usando `-cp` _(por [@reycn](https://github.com/reycn))_\n- [13 de diciembre de 2024] Soporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_\n- [10 de diciembre de 2024] El traductor ahora soporta modelos de OpenAI en Azure _(por [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "ko": "- [2025년 6월 4일] 프로젝트 이름이 변경되어 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)로 이동했습니다 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025년 3월 3일] 새로운 백엔드 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI에 대한 실험적 지원이 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025년 2월 22일] 개선된 릴리스 CI와 잘 패키징된 windows-amd64 exe 파일 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2024년 12월 24일] 번역기가 이제 [Xinference](https://github.com/xorbitsai/inference)의 로컬 모델을 지원합니다 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [2024년 12월 19일] `-cp`를 사용하여 비-PDF/A 문서가 이제 지원됩니다 _(by [@reycn](https://github.com/reycn))_\n- [2024년 12월 13일] 추가 백엔드 지원 _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [2024년 12월 10일] 번역기가 이제 Azure의 OpenAI 모델을 지원합니다 _(by [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "ja": "- [2025年6月4日] プロジェクト名が変更され、[PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) に移動しました（by [@awwaawwa](https://github.com/awwaawwa)）\n- [2025年3月3日] 新しいバックエンド [BabelDOC](https://github.com/funstory-ai/BabelDOC) の実験的サポートが追加され、WebUI が実験的オプションとして利用可能になりました（by [@awwaawwa](https://github.com/awwaawwa)）\n- [2025年2月22日] リリース CI が改善され、Windows-amd64 用の exe ファイルが適切にパッケージ化されました（by [@awwaawwa](https://github.com/awwaawwa)）\n- [2024年12月24日] 翻訳ツールが [Xinference](https://github.com/xorbitsai/inference) 上のローカルモデルをサポートするようになりました（by [@imClumsyPanda](https://github.com/imClumsyPanda)）\n- [2024年12月19日] `-cp` を使用して非 PDF/A ドキュメントがサポートされるようになりました（by [@reycn](https://github.com/reycn)）\n- [2024年12月13日] バックエンドの追加サポートが実装されました（by [@YadominJinta](https://github.com/YadominJinta)）\n- [2024年12月10日] 翻訳ツールが Azure 上の OpenAI モデルをサポートするようになりました（by [@yidasanqian](https://github.com/yidasanqian)）\n",
+        "zh_TW": "- [2025 年 6 月 4 日] 項目更名並遷移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025 年 3 月 3 日] 實驗性支持新後端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作為實驗性選項添加 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025 年 2 月 22 日] 更好的發佈 CI 和打包完善的 windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [2024 年 12 月 24 日] 翻譯器現在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [2024 年 12 月 19 日] 現在支持使用 `-cp` 處理非 PDF/A 文檔 _(by [@reycn](https://github.com/reycn))_\n- [2024 年 12 月 13 日] 新增後端支持 _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [2024 年 12 月 10 日] 翻譯器現在支持 Azure 上的 OpenAI 模型 _(by [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "de": "- [4. Juni 2025] Das Projekt wurde umbenannt und zu [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) verschoben (von [@awwaawwa](https://github.com/awwaawwa))\n- [3. März 2025] Experimentelle Unterstützung für das neue Backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI als experimentelle Option hinzugefügt (von [@awwaawwa](https://github.com/awwaawwa))\n- [22. Februar 2025] Verbesserte Release-CI und gut verpackte Windows-amd64-Exe (von [@awwaawwa](https://github.com/awwaawwa))\n- [24. Dezember 2024] Der Übersetzer unterstützt nun lokale Modelle auf [Xinference](https://github.com/xorbitsai/inference) _(von [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19. Dezember 2024] Nicht-PDF/A-Dokumente werden nun mit `-cp` unterstützt _(von [@reycn](https://github.com/reycn))_\n- [13. Dezember 2024] Zusätzliche Unterstützung für Backend von _(von [@YadominJinta](https://github.com/YadominJinta))_\n- [10. Dezember 2024] Der Übersetzer unterstützt nun OpenAI-Modelle auf Azure _(von [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "it": "- [4 giu. 2025] Il progetto è stato rinominato e spostato su [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (da [@awwaawwa](https://github.com/awwaawwa))\n- [3 mar. 2025] Supporto sperimentale per il nuovo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI aggiunto come opzione sperimentale (da [@awwaawwa](https://github.com/awwaawwa))\n- [22 feb. 2025] Miglioramento del CI per i rilasci e pacchettizzazione ottimizzata dell'eseguibile windows-amd64 (da [@awwaawwa](https://github.com/awwaawwa))\n- [24 dic. 2024] Il traduttore ora supporta modelli locali su [Xinference](https://github.com/xorbitsai/inference) _(da [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 dic. 2024] Ora sono supportati documenti non-PDF/A utilizzando `-cp` _(da [@reycn](https://github.com/reycn))_\n- [13 dic. 2024] Supporto aggiuntivo per il backend _(da [@YadominJinta](https://github.com/YadominJinta))_\n- [10 dic. 2024] Il traduttore ora supporta i modelli OpenAI su Azure _(da [@yidasanqian](https://github.com/yidasanqian))_\n",
+        "zh": "- [2025 年 6 月 4 日] 项目已重命名并迁移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)（由 [@awwaawwa](https://github.com/awwaawwa) 贡献）\n- [2025 年 3 月 3 日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项（由 [@awwaawwa](https://github.com/awwaawwa) 贡献）\n- [2025 年 2 月 22 日] 改进的发布 CI 和打包良好的 Windows-amd64 可执行文件（由 [@awwaawwa](https://github.com/awwaawwa) 贡献）\n- [2024 年 12 月 24 日] 翻译器现在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型（由 [@imClumsyPanda](https://github.com/imClumsyPanda) 贡献）\n- [2024 年 12 月 19 日] 现在支持使用 `-cp` 处理非 PDF/A 文档（由 [@reycn](https://github.com/reycn) 贡献）\n- [2024 年 12 月 13 日] 新增对后端的支持（由 [@YadominJinta](https://github.com/YadominJinta) 贡献）\n- [2024 年 12 月 10 日] 翻译器现在支持 Azure 上的 OpenAI 模型（由 [@yidasanqian](https://github.com/yidasanqian) 贡献）\n",
+        "pt": "- [4 de junho de 2025] O projeto foi renomeado e movido para [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))\n- [3 de março de 2025] Suporte experimental para o novo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI adicionado como uma opção experimental (por [@awwaawwa](https://github.com/awwaawwa))\n- [22 de fevereiro de 2025] Melhor CI de lançamento e exe bem empacotado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))\n- [24 de dezembro de 2024] O tradutor agora suporta modelos locais no [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 de dezembro de 2024] Documentos não-PDF/A agora são suportados usando `-cp` _(por [@reycn](https://github.com/reycn))_\n- [13 de dezembro de 2024] Suporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_\n- [10 de dezembro de 2024] O tradutor agora suporta modelos OpenAI no Azure _(por [@yidasanqian](https://github.com/yidasanqian))_\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2B22A264",
+      "chunk_type": "paragraph",
+      "original_content": "<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">",
+      "start_line_no": 55,
+      "translations": {
+        "ko": "<h2 id=\"preview\">미리보기</h2>\n\n<div align=\"center\">",
+        "ru": "<h2 id=\"preview\">Предварительный просмотр</h2>\n\n<div align=\"center\">",
+        "es": "<h2 id=\"vista-previa\">Vista previa</h2>\n\n<div align=\"center\">",
+        "it": "<h2 id=\"anteprima\">Anteprima</h2>\n\n<div align=\"center\">",
+        "de": "<h2 id=\"vorschau\">Vorschau</h2>\n\n<div align=\"center\">",
+        "ja": "<h2 id=\"preview\">プレビュー</h2>\n\n<div align=\"center\">",
+        "zh_TW": "<h2 id=\"預覽\">預覽</h2>\n\n<div align=\"center\">",
+        "zh": "<h2 id=\"预览\">预览</h2>\n\n<div align=\"center\">",
+        "pt": "<h2 id=\"preview\">Pré-visualização</h2>\n\n<div align=\"center\">",
+        "fr": "<h2 id=\"preview\">Aperçu</h2>\n\n<div align=\"center\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_FF589225",
+      "chunk_type": "html_comment",
+      "original_content": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+      "start_line_no": 58,
+      "translations": {
+        "zh": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "zh_TW": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "ja": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "ko": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "ru": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "es": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "fr": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "de": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "it": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "pt": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_CF255FF9",
+      "chunk_type": "image",
+      "original_content": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+      "start_line_no": 59,
+      "translations": {
+        "zh": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "zh_TW": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "ja": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "ko": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "ru": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "es": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "fr": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "de": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "it": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+        "pt": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>"
+      }
+    },
+    {
+      "chunk_id": "chunk_EBDB9E88",
+      "chunk_type": "paragraph",
+      "original_content": "</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n",
+      "start_line_no": 60,
+      "translations": {
+        "de": "</div>\n\n<h2 id=\"demo\">Online-Service 🌟</h2>\n",
+        "fr": "</div>\n\n<h2 id=\"demo\">Service en ligne 🌟</h2>\n",
+        "zh_TW": "</div>\n\n<h2 id=\"demo\">線上服務 🌟</h2>\n",
+        "ja": "</div>\n\n<h2 id=\"demo\">オンラインサービス 🌟</h2>\n",
+        "es": "</div>\n\n<h2 id=\"demo\">Servicio en línea 🌟</h2>\n",
+        "pt": "</div>\n\n<h2 id=\"demo\">Serviço Online 🌟</h2>\n",
+        "it": "</div>\n\n<h2 id=\"demo\">Servizio Online 🌟</h2>\n",
+        "zh": "</div>\n\n<h2 id=\"demo\">在线服务 🌟</h2>\n",
+        "ru": "</div>\n\n<h2 id=\"demo\">Онлайн-сервис 🌟</h2>\n",
+        "ko": "</div>\n\n<h2 id=\"demo\">온라인 서비스 🌟</h2>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3723C881",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n>\n> pdf2zh 2.0 does not currently provide an online demo\n",
+      "start_line_no": 64,
+      "translations": {
+        "zh_TW": "> [!NOTE]\n>\n> pdf2zh 2.0 目前不提供線上演示\n",
+        "ja": "> [!NOTE]\n>\n> pdf2zh 2.0 は現在オンラインデモを提供していません\n",
+        "zh": "> [!NOTE]\n>\n> pdf2zh 2.0 目前不提供在线演示\n",
+        "pt": "> [!NOTE]\n>\n> O pdf2zh 2.0 atualmente não fornece uma demonstração online\n",
+        "ru": "> [!NOTE]\n>\n> pdf2zh 2.0 в настоящее время не предоставляет онлайн-демонстрацию\n",
+        "de": "> [!NOTE]\n>\n> pdf2zh 2.0 bietet derzeit keine Online-Demo an\n",
+        "fr": "> [!NOTE]\n>\n> pdf2zh 2.0 ne propose actuellement pas de démonstration en ligne\n",
+        "ko": "> [!NOTE]\n>\n> pdf2zh 2.0은 현재 온라인 데모를 제공하지 않습니다\n",
+        "it": "> [!NOTE]\n>\n> pdf2zh 2.0 attualmente non fornisce una demo online\n",
+        "es": "> [!NOTE]\n>\n> pdf2zh 2.0 actualmente no proporciona una demostración en línea\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_1F3D6D5D",
+      "chunk_type": "paragraph",
+      "original_content": "You can try our application out using either of the following demos:\n",
+      "start_line_no": 68,
+      "translations": {
+        "zh": "您可以通过以下任一演示来试用我们的应用程序：\n",
+        "ja": "以下のデモのいずれかを使用して、アプリケーションをお試しください：\n",
+        "zh_TW": "您可以使用以下任一演示來試用我們的應用程式：\n",
+        "fr": "Vous pouvez essayer notre application en utilisant l'une des démonstrations suivantes :\n",
+        "de": "Sie können unsere Anwendung mit einer der folgenden Demos ausprobieren:\n",
+        "ko": "다음 데모 중 하나를 사용하여 저희 애플리케이션을 시험해 볼 수 있습니다:\n",
+        "es": "Puedes probar nuestra aplicación utilizando cualquiera de las siguientes demostraciones:\n",
+        "pt": "Você pode experimentar nosso aplicativo usando qualquer um dos seguintes demonstradores:\n",
+        "ru": "Вы можете попробовать наше приложение, используя любую из следующих демонстрационных версий:\n",
+        "it": "Puoi provare la nostra applicazione utilizzando una delle seguenti demo:\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B617543E",
+      "chunk_type": "list",
+      "original_content": "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_",
+      "start_line_no": 70,
+      "translations": {
+        "zh": "- [v1.x 公共免费服务](https://pdf2zh.com/) 无需安装即可在线使用 _(推荐)_  \n- [沉浸式翻译 - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 页免费额度 _(推荐)_",
+        "zh_TW": "- [v1.x 公開免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_。\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 頁免費額度 _(推薦)_",
+        "es": "- [Servicio público gratuito v1.x](https://pdf2zh.com/) en línea sin instalación _(recomendado)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas al mes. _(recomendado)_",
+        "pt": "- [v1.x Serviço público gratuito](https://pdf2zh.com/) online sem instalação _(recomendado)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas por mês. _(recomendado)_",
+        "de": "- [v1.x Öffentlicher kostenloser Dienst](https://pdf2zh.com/) online ohne Installation _(empfohlen)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 kostenlose Seiten pro Monat. _(empfohlen)_",
+        "it": "- [v1.x Servizio pubblico gratuito](https://pdf2zh.com/) online senza installazione _(consigliato)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 pagine gratuite al mese. _(consigliato)_",
+        "ru": "- [v1.x Бесплатный публичный сервис](https://pdf2zh.com/) доступен онлайн без установки _(рекомендуется)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 бесплатных страниц в месяц. _(рекомендуется)_",
+        "fr": "- [v1.x Service public gratuit](https://pdf2zh.com/) en ligne sans installation _(recommandé)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 pages gratuites par mois. _(recommandé)_",
+        "ja": "- [v1.x パブリック無料サービス](https://pdf2zh.com/) インストール不要でオンライン利用可能 _(推奨)_  \n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 月間1000ページ無料 _(推奨)_",
+        "ko": "- [v1.x 공개 무료 서비스](https://pdf2zh.com/) 설치 없이 온라인에서 사용 가능 _(권장)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 매월 1000페이지 무료 제공. _(권장)_"
+      }
+    },
+    {
+      "chunk_id": "chunk_ECCF6BC0",
+      "chunk_type": "html_comment",
+      "original_content": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+      "start_line_no": 72,
+      "translations": {
+        "zh": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "zh_TW": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "ja": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "ko": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "ru": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "es": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "fr": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "de": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "it": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+        "pt": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FDDD972D",
+      "chunk_type": "paragraph",
+      "original_content": "Note that the computing resources of the demo are limited, so please avoid abusing them.\n\n<h2 id=\"install\">Installation and Usage</h2>\n",
+      "start_line_no": 75,
+      "translations": {
+        "zh": "请注意，演示环境的计算资源有限，请避免滥用。\n\n<h2 id=\"安装\">安装与使用</h2>\n",
+        "zh_TW": "請注意，示範用的計算資源有限，請避免濫用。\n\n<h2 id=\"安裝\">安裝與使用</h2>\n",
+        "it": "Nota che le risorse di calcolo della demo sono limitate, quindi evita di abusarne.\n\n<h2 id=\"install\">Installazione e Utilizzo</h2>\n",
+        "pt": "Observe que os recursos computacionais da demonstração são limitados, portanto, evite abusar deles.\n\n<h2 id=\"instalacao\">Instalação e Uso</h2>\n",
+        "de": "[!NOTE]\nBeachten Sie, dass die Rechenressourcen der Demo begrenzt sind, bitte vermeiden Sie Missbrauch.\n\n<h2 id=\"install\">Installation und Verwendung</h2>\n",
+        "es": "Tenga en cuenta que los recursos informáticos de la demo son limitados, por lo que le recomendamos evitar su abuso.\n\n<h2 id=\"install\">Instalación y Uso</h2>\n",
+        "ko": "[!NOTE]\n데모의 컴퓨팅 리소스는 제한적이므로 남용하지 않도록 주의해 주세요.\n\n<h2 id=\"설치\">설치 및 사용법</h2>\n",
+        "ja": "デモの計算リソースは限られているため、乱用しないようご注意ください。\n\n<h2 id=\"インストール\">インストールと使い方</h2>\n",
+        "fr": "Notez que les ressources de calcul de la démo sont limitées, veuillez donc éviter de les abuser.\n\n<h2 id=\"install\">Installation et Utilisation</h2>\n",
+        "ru": "Обратите внимание, что вычислительные ресурсы демо-версии ограничены, поэтому, пожалуйста, избегайте их злоупотребления.\n\n<h2 id=\"install\">Установка и использование</h2>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_36D1B1ED",
+      "chunk_type": "header",
+      "original_content": "### Installation\n",
+      "start_line_no": 79,
+      "translations": {
+        "es": "### Instalación\n",
+        "it": "### Installazione\n",
+        "ko": "### 설치\n",
+        "ja": "### インストール\n",
+        "fr": "### Installation\n",
+        "ru": "### Установка\n",
+        "zh": "### 如何安装\n",
+        "zh_TW": "### 如何安裝\n",
+        "pt": "### Instalação\n",
+        "de": "### Installation\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_545A02FF",
+      "chunk_type": "list",
+      "original_content": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>\n",
+      "start_line_no": 81,
+      "translations": {
+        "zh_TW": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>推薦用於 Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>推薦用於 Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>推薦用於 macOS</small>\n",
+        "es": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recomendado para Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recomendado para Linux</small>\n3. [**uv** (un gestor de paquetes de Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recomendado para macOS</small>\n",
+        "fr": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommandé pour Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommandé pour Linux</small>\n3. [**uv** (un gestionnaire de paquets Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommandé pour macOS</small>\n",
+        "ru": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Рекомендуется для Windows</small>  \n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Рекомендуется для Linux</small>  \n3. [**uv** (менеджер пакетов Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Рекомендуется для macOS</small>\n",
+        "ja": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 用におすすめ</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 用におすすめ</small>\n3. [**uv** (Python パッケージマネージャー)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 用におすすめ</small>\n",
+        "it": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Consigliato per Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Consigliato per Linux</small>\n3. [**uv** (un gestore di pacchetti Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Consigliato per macOS</small>\n",
+        "zh": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 推荐</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 推荐</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 推荐</small>\n",
+        "ko": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows에 권장</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux에 권장</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS에 권장</small>\n",
+        "de": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Empfohlen für Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Empfohlen für Linux</small>\n3. [**uv** (ein Python-Paketmanager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Empfohlen für macOS</small>\n",
+        "pt": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recomendado para Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recomendado para Linux</small>\n3. [**uv** (um gerenciador de pacotes Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recomendado para macOS</small>\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_56fc15c9",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 85,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_047D6F23",
+      "chunk_type": "header",
+      "original_content": "### Usage\n",
+      "start_line_no": 87,
+      "translations": {
+        "fr": "### Utilisation\n",
+        "zh": "### 如何使用\n",
+        "zh_TW": "### 如何使用\n",
+        "ko": "### 사용법\n",
+        "ru": "### Использование\n",
+        "de": "### Verwendung\n",
+        "es": "### Uso\n",
+        "pt": "### Uso\n",
+        "ja": "### 使い方\n",
+        "it": "### Utilizzo\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_A49D7830",
+      "chunk_type": "list",
+      "original_content": "1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+      "start_line_no": 89,
+      "translations": {
+        "pt": "1. [Usando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)\n3. [Usando **Linha de comando**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "ja": "1. [**WebUI** を使用する](https://pdf2zh-next.com/getting-started/USAGE_webui.html)  \n2. [**Zotero プラグイン** を使用する](https://github.com/guaguastandup/zotero-pdf2zh)（サードパーティ製プログラム）  \n3. [**コマンドライン** を使用する](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "zh": "1. [使用 **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程序)\n3. [使用 **命令行**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "it": "1. [Utilizzo di **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Utilizzo di **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programma di terze parti)\n3. [Utilizzo di **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "zh_TW": "1. [使用 **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [使用 **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程式)\n3. [使用 **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "de": "1. [Verwendung der **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Verwendung des **Zotero-Plugins**](https://github.com/guaguastandup/zotero-pdf2zh) (Drittanbieterprogramm)\n3. [Verwendung der **Kommandozeile**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "fr": "1. [Utilisation de **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Utilisation du **Plugin Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programme tiers)\n3. [Utilisation de la **Ligne de commande**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "ru": "1. [Использование **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Использование **Плагина Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Сторонняя программа)\n3. [Использование **Командной строки**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "es": "1. [Usando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Usando **Plugin de Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceros)\n3. [Usando **Línea de comandos**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+        "ko": "1. [**WebUI** 사용](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [**Zotero 플러그인** 사용](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)\n3. [**명령줄** 사용](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F57A3EE5",
+      "chunk_type": "paragraph",
+      "original_content": "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n",
+      "start_line_no": 93,
+      "translations": {
+        "es": "Para diferentes casos de uso, proporcionamos distintos métodos para utilizar nuestro programa. Consulta [esta página](./getting-started/getting-started.md) para obtener más información.\n\n<h2 id=\"usage\">Opciones avanzadas</h2>\n\nPara explicaciones detalladas, consulta nuestro documento sobre [Uso avanzado](https://pdf2zh-next.com/advanced/advanced.html) para obtener una lista completa de cada opción.\n\n<h2 id=\"downstream\">Desarrollo secundario (APIs)</h2>\n",
+        "zh": "针对不同的使用场景，我们提供了多种使用本程序的方法。更多信息请查看[此页面](./getting-started/getting-started.md)。\n\n<h2 id=\"usage\">高级选项</h2>\n\n如需详细说明，请参阅我们的[高级用法](https://pdf2zh-next.com/advanced/advanced.html)文档，了解每个选项的完整列表。\n\n<h2 id=\"downstream\">二次开发 (APIs)</h2>\n",
+        "ja": "異なるユースケースに対応するため、当プログラムには複数の使用方法を用意しています。詳細については[このページ](./getting-started/getting-started.md)をご覧ください。\n\n<h2 id=\"usage\">高度なオプション</h2>\n\n詳細な説明については、各オプションの完全なリストが記載されている[高度な使い方](https://pdf2zh-next.com/advanced/advanced.html)のドキュメントを参照してください。\n\n<h2 id=\"downstream\">二次開発（API）</h2>\n",
+        "de": "Für verschiedene Anwendungsfälle bieten wir unterschiedliche Methoden zur Nutzung unseres Programms. Weitere Informationen finden Sie auf [dieser Seite](./getting-started/getting-started.md).\n\n<h2 id=\"usage\">Erweiterte Optionen</h2>\n\nFür detaillierte Erklärungen lesen Sie bitte unser Dokument über [Erweiterte Verwendung](https://pdf2zh-next.com/advanced/advanced.html) für eine vollständige Liste aller Optionen.\n\n<h2 id=\"downstream\">Sekundäre Entwicklung (APIs)</h2>\n",
+        "zh_TW": "針對不同的使用情境，我們提供了多種方式來使用我們的程式。更多資訊請查看[此頁面](./getting-started/getting-started.md)。\n\n<h2 id=\"usage\">高級選項</h2>\n\n如需詳細說明，請參考我們關於[高級用法](https://pdf2zh-next.com/advanced/advanced.html)的文件，以獲取每個選項的完整列表。\n\n<h2 id=\"downstream\">二次開發 (APIs)</h2>\n",
+        "ru": "Для различных случаев использования мы предоставляем различные методы работы с нашей программой. Подробнее см. на [этой странице](./getting-started/getting-started.md).\n\n<h2 id=\"usage\">Расширенные параметры</h2>\n\nПодробные объяснения см. в нашем документе о [Расширенном использовании](https://pdf2zh-next.com/advanced/advanced.html) для полного списка каждого параметра.\n\n<h2 id=\"downstream\">Вторичная разработка (API)</h2>\n",
+        "pt": "Para diferentes casos de uso, fornecemos métodos distintos para utilizar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.\n\n<h2 id=\"uso\">Opções Avançadas</h2>\n\nPara explicações detalhadas, consulte nosso documento sobre [Uso Avançado](https://pdf2zh-next.com/advanced/advanced.html) para uma lista completa de cada opção.\n\n<h2 id=\"desenvolvimento-secundario\">Desenvolvimento Secundário (APIs)</h2>\n",
+        "it": "Per diversi casi d'uso, forniamo metodi distinti per utilizzare il nostro programma. Consulta [questa pagina](./getting-started/getting-started.md) per maggiori informazioni.\n\n<h2 id=\"usage\">Opzioni avanzate</h2>\n\nPer spiegazioni dettagliate, si prega di fare riferimento al nostro documento su [Utilizzo avanzato](https://pdf2zh-next.com/advanced/advanced.html) per un elenco completo di ciascuna opzione.\n\n<h2 id=\"downstream\">Sviluppo secondario (APIs)</h2>\n",
+        "fr": "Pour différents cas d'utilisation, nous proposons des méthodes distinctes pour utiliser notre programme. Consultez [cette page](./getting-started/getting-started.md) pour plus d'informations.\n\n<h2 id=\"usage\">Options avancées</h2>\n\nPour des explications détaillées, veuillez vous référer à notre document sur [l'Utilisation avancée](https://pdf2zh-next.com/advanced/advanced.html) pour une liste complète de chaque option.\n\n<h2 id=\"downstream\">Développement secondaire (APIs)</h2>\n",
+        "ko": "다양한 사용 사례에 맞춰, 저희 프로그램을 사용할 수 있는 여러 방법을 제공합니다. 자세한 내용은 [이 페이지](./getting-started/getting-started.md)를 확인해 주세요.\n\n<h2 id=\"usage\">고급 옵션</h2>\n\n자세한 설명은 각 옵션의 전체 목록을 확인할 수 있는 [고급 사용법](https://pdf2zh-next.com/advanced/advanced.html) 문서를 참조해 주세요.\n\n<h2 id=\"downstream\">2차 개발 (API)</h2>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_DF45699B",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n>\n> Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.\n\n",
+      "start_line_no": 101,
+      "translations": {
+        "zh_TW": "> [!NOTE]\n>\n> 目前尚未提供相關文檔。後續將會補充，請耐心等待。\n\n",
+        "zh": "> [!NOTE]\n>\n> 目前未提供相关文档。后续会补充，请耐心等待。\n\n",
+        "ru": "> [!NOTE]\n>\n> В настоящее время соответствующая документация не предоставлена. Она будет дополнена позже. Пожалуйста, ожидайте терпеливо.\n\n",
+        "fr": "> [!NOTE]\n>\n> Actuellement, aucune documentation pertinente n'est fournie. Elle sera complétée ultérieurement. Veuillez patienter.\n\n",
+        "it": "> [!NOTE]\n>\n> Attualmente, non è fornita alcuna documentazione pertinente. Sarà integrata in seguito. Si prega di attendere con pazienza.\n\n",
+        "es": "> [!NOTE]\n>\n> Actualmente, no se proporciona documentación relevante. Se complementará más adelante. Por favor, espere pacientemente.\n\n",
+        "de": "> [!NOTE]\n>\n> Derzeit wird keine relevante Dokumentation bereitgestellt. Sie wird später ergänzt. Bitte haben Sie etwas Geduld.\n\n",
+        "ja": "> [!NOTE]\n>\n> 現在、関連するドキュメントは提供されていません。後日追加されますので、しばらくお待ちください。\n\n",
+        "ko": "> [!NOTE]\n>\n> 현재 관련 문서가 제공되지 않습니다. 나중에 보충될 예정이니, 조금만 기다려 주세요.\n\n",
+        "pt": "> [!NOTE]\n>\n> Atualmente, nenhuma documentação relevante é fornecida. Ela será complementada posteriormente. Por favor, aguarde pacientemente.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_AC02EE07",
+      "chunk_type": "html_comment",
+      "original_content": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+      "start_line_no": 106,
+      "translations": {
+        "zh": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "zh_TW": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "ja": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "ko": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "ru": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "es": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "fr": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "de": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "it": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+        "pt": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FAB5C5B4",
+      "chunk_type": "paragraph",
+      "original_content": "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+      "start_line_no": 111,
+      "translations": {
+        "zh": "<h2 id=\"语言代码\">Language Code</h2>\n\n如果你不知道应该使用什么代码来翻译到你需要的语言，请查看 [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "zh_TW": "<h2 id=\"語言代碼\">Language Code</h2>\n\n如果你不知道該使用什麼代碼來翻譯到你需要的語言，請查看[這份文檔](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "ja": "<h2 id=\"言語コード\">言語コード</h2>\n\n必要な言語に翻訳するためのコードがわからない場合は、[このドキュメント](https://pdf2zh-next.com/advanced/Language-Codes.html)を確認してください。\n",
+        "es": "<h2 id=\"codigodeidioma\">Código de idioma</h2>\n\nSi no sabes qué código usar para traducir al idioma que necesitas, consulta [esta documentación](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "fr": "<h2 id=\"langcode\">Code de langue</h2>\n\nSi vous ne savez pas quel code utiliser pour traduire dans la langue dont vous avez besoin, consultez [cette documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "it": "<h2 id=\"codice-lingua\">Codice lingua</h2>\n\nSe non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno, consulta [questa documentazione](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "ru": "<h2 id=\"langcode\">Код языка</h2>\n\nЕсли вы не знаете, какой код использовать для перевода на нужный вам язык, ознакомьтесь с [этой документацией](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "de": "<h2 id=\"sprachcode\">Sprachcode</h2>\n\nWenn Sie nicht wissen, welchen Code Sie für die Übersetzung in die gewünschte Sprache verwenden sollen, lesen Sie [diese Dokumentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "pt": "<h2 id=\"codigoidioma\">Código do idioma</h2>\n\nSe você não sabe qual código usar para traduzir para o idioma que precisa, confira [esta documentação](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+        "ko": "<h2 id=\"언어코드\">Language Code</h2>\n\n필요한 언어로 번역하기 위해 어떤 코드를 사용해야 할지 모르겠다면 [이 문서](https://pdf2zh-next.com/advanced/Language-Codes.html)를 확인하세요\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8652D374",
+      "chunk_type": "html_comment",
+      "original_content": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+      "start_line_no": 115,
+      "translations": {
+        "zh": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "zh_TW": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "ja": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "ko": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "ru": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "es": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "fr": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "de": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "it": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+        "pt": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_AD3429B4",
+      "chunk_type": "paragraph",
+      "original_content": "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n",
+      "start_line_no": 132,
+      "translations": {
+        "zh": "<h2 id=\"致谢\">致谢</h2>\n",
+        "zh_TW": "<h2 id=\"致謝\">致謝</h2>\n",
+        "ko": "<h2 id=\"감사의-말\">감사의 말</h2>\n",
+        "ru": "<h2 id=\"благодарности\">Благодарности</h2>\n",
+        "fr": "<h2 id=\"remerciements\">Remerciements</h2>\n",
+        "de": "<h2 id=\"danksagung\">Danksagungen</h2>\n",
+        "it": "<h2 id=\"ringraziamenti\">Ringraziamenti</h2>\n",
+        "ja": "<h2 id=\"謝辞\">謝辞</h2>\n",
+        "pt": "<h2 id=\"reconhecimento\">Reconhecimentos</h2>\n",
+        "es": "<h2 id=\"reconocimiento\">Reconocimientos</h2>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7ED9D2AF",
+      "chunk_type": "list",
+      "original_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n",
+      "start_line_no": 134,
+      "translations": {
+        "zh": "- [Immersive Translation](https://immersivetranslate.com) 为该项目活跃贡献者提供每月 Pro 会员兑换码，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 为本项目提供基于大语言模型（LLMs）的免费翻译服务。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 后端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 库：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多语言字体：参见 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [基于多进程的 Rich 日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 Weblate 进行文档国际化：[Weblate](https://weblate.org/)\n",
+        "fr": "- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet. Pour plus de détails, consultez : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet, alimenté par des modèles de langage de grande taille (LLMs).\n\n- Version 1.x : [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend : [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Bibliothèque PDF : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analyse PDF : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Aperçu PDF : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Analyse de mise en page : [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Normes PDF : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Police multilingue : voir [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Journalisation enrichie avec multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n utilisant Weblate : [Weblate](https://weblate.org/)\n",
+        "ru": "- [Immersive Translation](https://immersivetranslate.com) предоставляет ежемесячные коды активации Pro-подписки для активных участников этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта, работающий на основе больших языковых моделей (LLM).\n\n- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Библиотека PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Логирование с использованием multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Локализация документации с помощью Weblate: [Weblate](https://weblate.org/)\n",
+        "zh_TW": "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大型語言模型（LLMs）的免費翻譯服務。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字體：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 Weblate 進行文檔國際化：[Weblate](https://weblate.org/)\n",
+        "ko": "- [Immersive Translation](https://immersivetranslate.com)은 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 리딤 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)에서 확인하세요.\n\n- [SiliconFlow](https://siliconflow.cn)는 이 프로젝트를 위해 대규모 언어 모델(LLM)로 구동되는 무료 번역 서비스를 제공합니다.\n\n- 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 백엔드: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 라이브러리: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 파싱: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 미리보기: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 레이아웃 파싱: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 표준: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 다국어 폰트: [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) 참조\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Weblate를 사용한 문서 국제화: [Weblate](https://weblate.org/)\n",
+        "it": "- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro per i contributori attivi di questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da modelli linguistici di grandi dimensioni (LLM).\n\n- Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Libreria PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analisi PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Anteprima PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Analisi del layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Standard PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Carattere multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registrazione avanzata con multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentazione i18n utilizzando Weblate: [Weblate](https://weblate.org/)\n",
+        "pt": "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).\n\n- Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análise de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fonte Multilíngue: veja [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentação i18n usando Weblate: [Weblate](https://weblate.org/)\n",
+        "ja": "- [Immersive Translation](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者に対して月額プロ会員の引き換えコードを提供しています。詳細はこちらをご覧ください：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) は、このプロジェクトに対して大規模言語モデル（LLM）を活用した無料翻訳サービスを提供しています。\n\n- 1.x バージョン：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- バックエンド：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF ライブラリ：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF プレビュー：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- レイアウト解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多言語フォント：[BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) をご覧ください\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Weblate を使用したドキュメントの国際化：[Weblate](https://weblate.org/)\n",
+        "es": "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales de membresía Pro para contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) proporciona un servicio de traducción gratuito para este proyecto, impulsado por modelos de lenguaje grandes (LLMs).\n\n- Versión 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análisis de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Vista previa de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análisis de diseño: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Estándares PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fuente multilingüe: consulta [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro enriquecido con multiprocesamiento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentación i18n usando Weblate: [Weblate](https://weblate.org/)\n",
+        "de": "- [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt. Details finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) bietet einen kostenlosen Übersetzungsdienst für dieses Projekt, unterstützt durch große Sprachmodelle (LLMs).\n\n- 1.x Version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- Backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF-Bibliothek: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF-Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF-Vorschau: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout-Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF-Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Mehrsprachige Schriftarten: siehe [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Dokumentation i18n mit Weblate: [Weblate](https://weblate.org/)\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5DD24D41",
+      "chunk_type": "paragraph",
+      "original_content": "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+      "start_line_no": 161,
+      "translations": {
+        "zh_TW": "<h2 id=\"conduct\">提交代碼前</h2>\n\n我們歡迎貢獻者的積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的 [行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"contrib\">貢獻者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "zh": "<h2 id=\"conduct\">提交代码前</h2>\n\n我们欢迎贡献者积极参与，让 pdf2zh 变得更好。在您准备提交代码之前，请参阅我们的 [行为准则](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"contrib\">贡献者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "it": "<h2 id=\"conduct\">Prima di inviare il tuo codice</h2>\n\nAccogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, consulta il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributori</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "pt": "<h2 id=\"conduct\">Antes de enviar seu código</h2>\n\nAgradecemos a participação ativa dos colaboradores para tornar o pdf2zh melhor. Antes de enviar seu código, consulte nosso [Código de Conduta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Colaboradores</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "es": "<h2 id=\"conduct\">Antes de enviar tu código</h2>\n\nAgradecemos la participación activa de los colaboradores para mejorar pdf2zh. Antes de que estés listo para enviar tu código, consulta nuestro [Código de Conducta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) y [Guía de Contribución](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Colaboradores</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "fr": "<h2 id=\"conduct\">Avant de soumettre votre code</h2>\n\nNous accueillons favorablement la participation active des contributeurs pour améliorer pdf2zh. Avant de soumettre votre code, veuillez consulter notre [Code de conduite](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) et notre [Guide de contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributeurs</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "de": "<h2 id=\"conduct\">Bevor Sie Ihren Code einreichen</h2>\n\nWir freuen uns über die aktive Teilnahme von Mitwirkenden, um pdf2zh besser zu machen. Bevor Sie Ihren Code einreichen, lesen Sie bitte unseren [Verhaltenskodex](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) und unseren [Leitfaden für Beiträge](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Mitwirkende</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "ko": "<h2 id=\"conduct\">코드 제출 전에</h2>\n\npdf2zh를 더 나은 방향으로 발전시키기 위해 기여자들의 적극적인 참여를 환영합니다. 코드를 제출하기 전에 [행동 강령](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)과 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참고해 주세요.\n\n<h2 id=\"contrib\">기여자</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "ru": "<h2 id=\"conduct\">Перед отправкой вашего кода</h2>\n\nМы приветствуем активное участие участников, чтобы сделать pdf2zh лучше. Прежде чем вы будете готовы отправить свой код, пожалуйста, ознакомьтесь с нашим [Кодексом поведения](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) и [Руководством по вкладу](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Участники</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+        "ja": "<h2 id=\"conduct\">コードを提出する前に</h2>\n\n私たちは、pdf2zh をより良くするために貢献者の積極的な参加を歓迎します。コードを提出する準備が整う前に、[行動規範](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) と [貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html) を参照してください。\n\n<h2 id=\"contrib\">貢献者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_21C4CCC3",
+      "chunk_type": "image",
+      "original_content": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+      "start_line_no": 168,
+      "translations": {
+        "zh": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "zh_TW": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "ja": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "ko": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "ru": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "es": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "fr": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "de": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "it": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+        "pt": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />"
+      }
+    },
+    {
+      "chunk_id": "chunk_B2A74E86",
+      "chunk_type": "paragraph",
+      "original_content": "</a>\n",
+      "start_line_no": 169,
+      "translations": {
+        "zh": "</a>\n",
+        "ru": "</a>\n",
+        "es": "</a>\n",
+        "ko": "</a>\n",
+        "zh_TW": "</a>\n",
+        "fr": "</a>\n",
+        "it": "</a>\n",
+        "de": "</a>\n",
+        "ja": "</a>\n",
+        "pt": "</a>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F1A772A0",
+      "chunk_type": "image",
+      "original_content": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+      "start_line_no": 171,
+      "translations": {
+        "zh": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "zh_TW": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "ja": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "ko": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "ru": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "es": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "fr": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "de": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "it": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+        "pt": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_61BE03EB",
+      "chunk_type": "paragraph",
+      "original_content": "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+      "start_line_no": 173,
+      "translations": {
+        "zh_TW": "<h2 id=\"star_hist\">Star 歷史</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "zh": "<h2 id=\"star_hist\">Star 历史</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "ru": "<h2 id=\"история_звезд\">История звезд</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "ko": "<h2 id=\"star_hist\">스타 히스토리</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "it": "<h2 id=\"star_hist\">Storia delle Stelle</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "ja": "<h2 id=\"star_hist\">スター履歴</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "fr": "<h2 id=\"star_hist\">Historique des étoiles</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "de": "<h2 id=\"star_hist\">Star-Historie</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "pt": "<h2 id=\"histórico_de_estrelas\">Histórico de Estrelas</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+        "es": "<h2 id=\"historial_de_estrellas\">Historial de estrellas</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
+      }
+    },
+    {
+      "chunk_id": "chunk_ACF347AF",
+      "chunk_type": "image",
+      "original_content": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+      "start_line_no": 179,
+      "translations": {
+        "zh": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "zh_TW": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "ja": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "ko": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "ru": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "es": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "fr": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "de": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "it": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+        "pt": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>"
+      }
+    },
+    {
+      "chunk_id": "chunk_64791BB7",
+      "chunk_type": "paragraph",
+      "original_content": " </picture>\n</a>\n",
+      "start_line_no": 180,
+      "translations": {
+        "zh_TW": " </picture>\n</a>\n",
+        "zh": " </picture>\n</a>\n",
+        "ko": " </picture>\n</a>\n",
+        "pt": " </picture>\n</a>\n",
+        "fr": " </picture>\n</a>\n",
+        "ja": " <p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo_dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo_light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo_light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n",
+        "ru": " <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate\">\n    <picture>\n        <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/PDFMathTranslate/PDFMathTranslate/assets/102555215/6a2a3c0e-2c5e-4c8e-9c0e-1d5a5a5b5b5b\">\n        <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/PDFMathTranslate/PDFMathTranslate/assets/102555215/6a2a3c0e-2c5e-4c8e-9c0e-1d5a5a5b5b5b\">\n        <img alt=\"PDFMathTranslate\" src=\"https://github.com/PDFMathTranslate/PDFMathTranslate/assets/102555215/6a2a3c0e-2c5e-4c8e-9c0e-1d5a5a5b5b5b\">\n    </picture>\n</a>\n",
+        "es": " <p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo-light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo-light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n\n<h1 align=\"center\">PDFMathTranslate</h1>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">Home</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started\">Getting Start</a> •\n  <a href=\"https://pdf2zh-next.com/installation\">Installation</a> •\n  <a href=\"https://pdf2zh-next.com/usage\">Usage</a> •\n  <a href=\"https://pdf2zh-next.com/language-code\">Language Code</a> •\n  <a href=\"https://pdf2zh-next.com/documentation-of-translation-services\">Documentation of Translation Services</a>\n</p>\n\n---\n\n## Getting Started\n\n- [Installation](#installation)\n- [Usage](#usage)\n\n## Advanced\n\n- [Supported Languages](#supported-languages)\n\n## Community\n\n- [FAQ](#faq)\n\n---\n\n### Installation\n\n### Usage\n\n---\n\n## License\n\nMIT © [pdf2zh](https://pdf2zh-next.com)\n\n---\n\n### TRANSLATED TEXT\n\n</picture>\n</a>\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo-light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo-light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n\n<h1 align=\"center\">PDFMathTranslate</h1>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">Inicio</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started\">Empezar</a> •\n  <a href=\"https://pdf2zh-next.com/installation\">Instalación</a> •\n  <a href=\"https://pdf2zh-next.com/usage\">Uso</a> •\n  <a href=\"https://pdf2zh-next.com/language-code\">Código de idioma</a> •\n  <a href=\"https://pdf2zh-next.com/documentation-of-translation-services\">Documentación de servicios de traducción</a>\n</p>\n\n---\n\n## Empezar\n\n- [Instalación](#instalación)\n- [Uso](#uso)\n\n## Opciones avanzadas\n\n- [Idiomas soportados](#idiomas-soportados)\n\n## Comunidad\n\n- [Preguntas frecuentes](#preguntas-frecuentes)\n\n---\n\n### Instalación\n\n### Uso\n\n---\n\n## Licencia\n\nMIT © [pdf2zh](https://pdf2zh-next.com)\n\n---\n",
+        "it": " <p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo_dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo_light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo_light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">Home</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started\">Getting Start</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/INSTALLATION.html\">Installation</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_cli.html\">Command Line</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_webui.html\">Usage</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html\">Language Code</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/DOCS.html\">Documentation of Translation Services</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com/getting-started\">Getting Started</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/ADVANCED.html\">Advanced</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html\">Supported Languages</a> •\n  <a href=\"https://pdf2zh-next.com/community\">Community</a> •\n  <a href=\"https://pdf2zh-next.com/faq\">FAQ</a>\n</p>\n\n---\n\n### Installation\n\n### Usage\n\n---\n\n<p align=\"center\">\n  <a href=\"https://github.com/PDFMathTranslate/pdf2zh\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo_dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo_light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo_light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">Home</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started\">Iniziare</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/INSTALLATION.html\">Installazione</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_cli.html\">Riga di comando</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_webui.html\">Utilizzo</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html\">Codice lingua</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/DOCS.html\">Documentazione dei servizi di traduzione</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com/getting-started\">Iniziare</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/ADVANCED.html\">Opzioni avanzate</a> •\n  <a href=\"https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html\">Lingue supportate</a> •\n  <a href=\"https://pdf2zh-next.com/community\">Comunità</a> •\n  <a href=\"https://pdf2zh-next.com/faq\">Domande frequenti</a>\n</p>\n\n---\n\n### Installazione\n\n### Utilizzo\n\n---\n",
+        "de": " <p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo-light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo-light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com/getting-started/INSTALLATION.html\">Installation</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_cli.html\">Command Line</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_webui.html\">WebUI</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_api.html\">API</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/SUPPORTED_LANGUAGES.html\">Supported Languages</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/FAQ.html\">FAQ</a>\n</p>\n\n---\n\n# PDFMathTranslate\n\n`PDFMathTranslate` is a tool designed to extract and translate LaTeX from PDFs (especially those containing mathematical formulas), and then compile them into a new PDF with the translated content.\n\n## Features\n\n- **Extract LaTeX from PDF**: Accurately identify and extract LaTeX content, including mathematical formulas, from PDF files.\n- **Translate LaTeX**: Translate the extracted LaTeX content into the desired language.\n- **Compile Translated LaTeX**: Compile the translated LaTeX back into a new PDF file.\n\n## Getting Started\n\n### Installation\n\nTo install `PDFMathTranslate`, follow the instructions in the [Installation](#installation) section.\n\n### Usage\n\nFor detailed usage instructions, refer to the [Usage](#usage) section.\n\n## Documentation\n\nFor more detailed documentation, visit the [Documentation of Translation Services](#documentation-of-translation-services).\n\n## Community\n\nJoin our community to get help, share ideas, and contribute to the project.\n\n## FAQ\n\nCheck out the [FAQ](#faq) for answers to common questions.\n\n---\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">Home</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/GETTING_STARTED.html\">Getting Started</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/ADVANCED.html\">Advanced</a>\n</p>\n\n---\n\n### TRANSLATED TEXT\n\n </picture>\n</a>\n</p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pdf2zh-next.com/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pdf2zh-next.com/logo-light.svg\">\n      <img alt=\"pdf2zh\" src=\"https://pdf2zh-next.com/logo-light.svg\" width=\"300\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com/getting-started/INSTALLATION.html\">Installation</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_cli.html\">Kommandozeile</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_webui.html\">WebUI</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/USAGE_api.html\">API</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/SUPPORTED_LANGUAGES.html\">Unterstützte Sprachen</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/FAQ.html\">Häufig gestellte Fragen</a>\n</p>\n\n---\n\n# PDFMathTranslate\n\n`PDFMathTranslate` ist ein Tool, das entwickelt wurde, um LaTeX aus PDFs (insbesondere solchen mit mathematischen Formeln) zu extrahieren und zu übersetzen und sie dann in eine neue PDF mit dem übersetzten Inhalt zu kompilieren.\n\n## Funktionen\n\n- **LaTeX aus PDF extrahieren**: LaTeX-Inhalte, einschließlich mathematischer Formeln, präzise identifizieren und aus PDF-Dateien extrahieren.\n- **LaTeX übersetzen**: Die extrahierten LaTeX-Inhalte in die gewünschte Sprache übersetzen.\n- **Übersetztes LaTeX kompilieren**: Das übersetzte LaTeX zurück in eine neue PDF-Datei kompilieren.\n\n## Erste Schritte\n\n### Installation\n\nUm `PDFMathTranslate` zu installieren, folgen Sie den Anweisungen im Abschnitt [Installation](#installation).\n\n### Verwendung\n\nDetaillierte Anweisungen zur Verwendung finden Sie im Abschnitt [Verwendung](#verwendung).\n\n## Dokumentation\n\nFür eine detailliertere Dokumentation besuchen Sie die [Dokumentation der Übersetzungsdienste](#dokumentation-der-übersetzungsdienste).\n\n## Gemeinschaft\n\nTreten Sie unserer Gemeinschaft bei, um Hilfe zu erhalten, Ideen auszutauschen und zum Projekt beizutragen.\n\n## Häufig gestellte Fragen\n\nSchauen Sie sich die [Häufig gestellte Fragen](#häufig-gestellte-fragen) für Antworten auf häufige Fragen an.\n\n---\n\n<p align=\"center\">\n  <a href=\"https://pdf2zh-next.com\">Startseite</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/GETTING_STARTED.html\">Erste Schritte</a>\n  •\n  <a href=\"https://pdf2zh-next.com/getting-started/ADVANCED.html\">Erweiterte Optionen</a>\n</p>\n\n---\n"
+      }
+    }
+  ]
+}

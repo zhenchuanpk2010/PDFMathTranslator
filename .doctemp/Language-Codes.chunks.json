@@ -1,0 +1,985 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/Language-Codes.md",
+  "chunks": [
+    {
+      "id": "chunk_0D65A508",
+      "raw_content": "[**Advanced**](./introduction.md) > **Language Code** _(current)_\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "h_rule_9db20642",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_00D95362",
+      "raw_content": "#### Google\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_C036D2E5",
+      "raw_content": "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organized by GPT-4o.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_89056507",
+      "raw_content": "| Label in Chinese | Label | `Language Code` |\n| --- | --- | --- |\n| 阿姆哈拉语 | Amharic | `am` |",
+      "metadata": {
+        "chunk_type": "longtable_head",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_434D3480",
+      "raw_content": "| 阿拉伯语 | Arabic | `ar` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 12
+    },
+    {
+      "id": "chunk_4E045D6E",
+      "raw_content": "| 巴斯克语 | Basque | `eu` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_8BDA075A",
+      "raw_content": "| 孟加拉语 | Bengali | `bn` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 14
+    },
+    {
+      "id": "chunk_2B8A2E4A",
+      "raw_content": "| 英语（英国） | English (UK) | `en-GB` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 15
+    },
+    {
+      "id": "chunk_10CEEC80",
+      "raw_content": "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 16
+    },
+    {
+      "id": "chunk_40F26E94",
+      "raw_content": "| 保加利亚语 | Bulgarian | `bg` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 17
+    },
+    {
+      "id": "chunk_BAC1D2DD",
+      "raw_content": "| 加泰罗尼亚语 | Catalan | `ca` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 18
+    },
+    {
+      "id": "chunk_D8283F5F",
+      "raw_content": "| 切罗基语 | Cherokee | `chr` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 19
+    },
+    {
+      "id": "chunk_6C504077",
+      "raw_content": "| 克罗地亚语 | Croatian | `hr` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 20
+    },
+    {
+      "id": "chunk_EF7519DD",
+      "raw_content": "| 捷克语 | Czech | `cs` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 21
+    },
+    {
+      "id": "chunk_52641096",
+      "raw_content": "| 丹麦语 | Danish | `da` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 22
+    },
+    {
+      "id": "chunk_22A8086F",
+      "raw_content": "| 荷兰语 | Dutch | `nl` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 23
+    },
+    {
+      "id": "chunk_534B2AA9",
+      "raw_content": "| 英语（美国） | English (US) | `en` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 24
+    },
+    {
+      "id": "chunk_5B49CFFF",
+      "raw_content": "| 爱沙尼亚语 | Estonian | `et` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 25
+    },
+    {
+      "id": "chunk_F3BE0662",
+      "raw_content": "| 菲律宾语 | Filipino | `fil` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 26
+    },
+    {
+      "id": "chunk_AB091AA3",
+      "raw_content": "| 芬兰语 | Finnish | `fi` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 27
+    },
+    {
+      "id": "chunk_E9126CEE",
+      "raw_content": "| 法语 | French | `fr` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 28
+    },
+    {
+      "id": "chunk_6A475C12",
+      "raw_content": "| 德语 | German | `de` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_63D84713",
+      "raw_content": "| 希腊语 | Greek | `el` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 30
+    },
+    {
+      "id": "chunk_A6DD638F",
+      "raw_content": "| 古吉拉特语 | Gujarati | `gu` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 31
+    },
+    {
+      "id": "chunk_B85F863E",
+      "raw_content": "| 希伯来语 | Hebrew | `iw` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 32
+    },
+    {
+      "id": "chunk_108CDAD2",
+      "raw_content": "| 印地语 | Hindi | `hi` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 33
+    },
+    {
+      "id": "chunk_371C85CF",
+      "raw_content": "| 匈牙利语 | Hungarian | `hu` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 34
+    },
+    {
+      "id": "chunk_DFA87215",
+      "raw_content": "| 冰岛语 | Icelandic | `is` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 35
+    },
+    {
+      "id": "chunk_77057FC2",
+      "raw_content": "| 印度尼西亚语 | Indonesian | `id` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 36
+    },
+    {
+      "id": "chunk_FF3C4126",
+      "raw_content": "| 意大利语 | Italian | `it` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 37
+    },
+    {
+      "id": "chunk_652E29EB",
+      "raw_content": "| 日语 | Japanese | `ja` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 38
+    },
+    {
+      "id": "chunk_93927FAF",
+      "raw_content": "| 卡纳达语 | Kannada | `kn` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 39
+    },
+    {
+      "id": "chunk_56BC5C4A",
+      "raw_content": "| 韩语 | Korean | `ko` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 40
+    },
+    {
+      "id": "chunk_F96E1E17",
+      "raw_content": "| 拉脱维亚语 | Latvian | `lv` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 41
+    },
+    {
+      "id": "chunk_55EC6BB8",
+      "raw_content": "| 立陶宛语 | Lithuanian | `lt` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 42
+    },
+    {
+      "id": "chunk_D4EE46C1",
+      "raw_content": "| 马来语 | Malay | `ms` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 43
+    },
+    {
+      "id": "chunk_81884171",
+      "raw_content": "| 马拉雅拉姆语 | Malayalam | `ml` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 44
+    },
+    {
+      "id": "chunk_2560880A",
+      "raw_content": "| 马拉地语 | Marathi | `mr` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 45
+    },
+    {
+      "id": "chunk_FA300B7A",
+      "raw_content": "| 挪威语 | Norwegian | `no` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 46
+    },
+    {
+      "id": "chunk_7EBAF4DE",
+      "raw_content": "| 波兰语 | Polish | `pl` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 47
+    },
+    {
+      "id": "chunk_07BEC358",
+      "raw_content": "| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 48
+    },
+    {
+      "id": "chunk_0A7A2233",
+      "raw_content": "| 罗马尼亚语 | Romanian | `ro` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 49
+    },
+    {
+      "id": "chunk_AD2D309D",
+      "raw_content": "| 俄语 | Russian | `ru` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 50
+    },
+    {
+      "id": "chunk_9BA57E97",
+      "raw_content": "| 塞尔维亚语 | Serbian | `sr` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 51
+    },
+    {
+      "id": "chunk_9240CC91",
+      "raw_content": "| 中文（中国） | Chinese (PRC) | `zh-CN` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 52
+    },
+    {
+      "id": "chunk_A2F7B475",
+      "raw_content": "| 斯洛伐克语 | Slovak | `sk` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 53
+    },
+    {
+      "id": "chunk_4188ADDD",
+      "raw_content": "| 斯洛文尼亚语 | Slovenian | `sl` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 54
+    },
+    {
+      "id": "chunk_E4F70BC1",
+      "raw_content": "| 西班牙语 | Spanish | `es` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 55
+    },
+    {
+      "id": "chunk_08CB79D0",
+      "raw_content": "| 斯瓦希里语 | Swahili | `sw` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 56
+    },
+    {
+      "id": "chunk_5DCBD4C6",
+      "raw_content": "| 瑞典语 | Swedish | `sv` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 57
+    },
+    {
+      "id": "chunk_A604BFF4",
+      "raw_content": "| 泰米尔语 | Tamil | `ta` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 58
+    },
+    {
+      "id": "chunk_7E308345",
+      "raw_content": "| 泰卢固语 | Telugu | `te` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 59
+    },
+    {
+      "id": "chunk_B766F3D4",
+      "raw_content": "| 泰语 | Thai | `th` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 60
+    },
+    {
+      "id": "chunk_C1B06A67",
+      "raw_content": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 61
+    },
+    {
+      "id": "chunk_4F10E5FB",
+      "raw_content": "| 土耳其语 | Turkish | `tr` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 62
+    },
+    {
+      "id": "chunk_1B069A9E",
+      "raw_content": "| 乌尔都语 | Urdu | `ur` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 63
+    },
+    {
+      "id": "chunk_906AD05C",
+      "raw_content": "| 乌克兰语 | Ukrainian | `uk` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 64
+    },
+    {
+      "id": "chunk_275139A2",
+      "raw_content": "| 越南语 | Vietnamese | `vi` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 65
+    },
+    {
+      "id": "chunk_CADB0DBE",
+      "raw_content": "| 威尔士语 | Welsh | `cy` |\n\n",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 66
+    },
+    {
+      "id": "chunk_CD5EA97F",
+      "raw_content": "#### DeepL",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 69
+    },
+    {
+      "id": "chunk_CD419A2D",
+      "raw_content": "Source <https://developers.deepl.com/docs/resources/supported-languages>, organized by GPT-4o.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 70
+    },
+    {
+      "id": "chunk_73C925CB",
+      "raw_content": "| Label in Chinese | Label | `Language Code`| Supports |\n| --- | --- | --- | --- |\n| 阿拉伯语 | Arabic | `AR` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_head",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 72
+    },
+    {
+      "id": "chunk_449EF659",
+      "raw_content": "| 保加利亚语 | Bulgarian | `BG` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 75
+    },
+    {
+      "id": "chunk_F1AC6529",
+      "raw_content": "| 捷克语 | Czech | `CS` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 76
+    },
+    {
+      "id": "chunk_499838A9",
+      "raw_content": "| 丹麦语 | Danish | `DA` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 77
+    },
+    {
+      "id": "chunk_6E7A86D5",
+      "raw_content": "| 德语 | German | `DE` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 78
+    },
+    {
+      "id": "chunk_11DB586F",
+      "raw_content": "| 希腊语 | Greek | `EL` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 79
+    },
+    {
+      "id": "chunk_B38960C2",
+      "raw_content": "| 英语 | English | `EN` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 80
+    },
+    {
+      "id": "chunk_04ACBE3E",
+      "raw_content": "| 英语（英国） | English (British) | `EN-GB` | `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 81
+    },
+    {
+      "id": "chunk_16A4376D",
+      "raw_content": "| 英语（美国） | English (American) | `EN-US` | `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 82
+    },
+    {
+      "id": "chunk_B4390A6E",
+      "raw_content": "| 西班牙语 | Spanish | `ES` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 83
+    },
+    {
+      "id": "chunk_BB651F90",
+      "raw_content": "| 爱沙尼亚语 | Estonian | `ET` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 84
+    },
+    {
+      "id": "chunk_8C2548A1",
+      "raw_content": "| 芬兰语 | Finnish | `FI` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 85
+    },
+    {
+      "id": "chunk_9D18F62B",
+      "raw_content": "| 法语 | French | `FR` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 86
+    },
+    {
+      "id": "chunk_9E56C34E",
+      "raw_content": "| 匈牙利语 | Hungarian | `HU` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 87
+    },
+    {
+      "id": "chunk_B22D2080",
+      "raw_content": "| 印度尼西亚语 | Indonesian | `ID` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 88
+    },
+    {
+      "id": "chunk_4033F9B6",
+      "raw_content": "| 意大利语 | Italian | `IT` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 89
+    },
+    {
+      "id": "chunk_69D4C3F5",
+      "raw_content": "| 日语 | Japanese | `JA` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 90
+    },
+    {
+      "id": "chunk_D3B9AFD6",
+      "raw_content": "| 韩语 | Korean | `KO` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 91
+    },
+    {
+      "id": "chunk_82B11E30",
+      "raw_content": "| 立陶宛语 | Lithuanian | `LT` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 92
+    },
+    {
+      "id": "chunk_8EE65B58",
+      "raw_content": "| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 93
+    },
+    {
+      "id": "chunk_BE638C29",
+      "raw_content": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 94
+    },
+    {
+      "id": "chunk_6A6B98E7",
+      "raw_content": "| 荷兰语 | Dutch | `NL` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 95
+    },
+    {
+      "id": "chunk_830AFF98",
+      "raw_content": "| 波兰语 | Polish | `PL` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 96
+    },
+    {
+      "id": "chunk_49AAA50E",
+      "raw_content": "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 97
+    },
+    {
+      "id": "chunk_FF12E792",
+      "raw_content": "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 98
+    },
+    {
+      "id": "chunk_7E188EC0",
+      "raw_content": "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 99
+    },
+    {
+      "id": "chunk_557425BD",
+      "raw_content": "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 100
+    },
+    {
+      "id": "chunk_0FBF4463",
+      "raw_content": "| 俄语 | Russian | `RU` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 101
+    },
+    {
+      "id": "chunk_11FAA384",
+      "raw_content": "| 斯洛伐克语 | Slovak | `SK` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 102
+    },
+    {
+      "id": "chunk_117E9013",
+      "raw_content": "| 斯洛文尼亚语 | Slovenian | `SL` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 103
+    },
+    {
+      "id": "chunk_EF0CF035",
+      "raw_content": "| 瑞典语 | Swedish | `SV` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 104
+    },
+    {
+      "id": "chunk_41772AFF",
+      "raw_content": "| 土耳其语 | Turkish | `TR` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 105
+    },
+    {
+      "id": "chunk_95BAEB3E",
+      "raw_content": "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 106
+    },
+    {
+      "id": "chunk_DED8F856",
+      "raw_content": "| 中文 | Chinese | `ZH` | `source`, `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 107
+    },
+    {
+      "id": "chunk_8EC779FC",
+      "raw_content": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 108
+    },
+    {
+      "id": "chunk_357772FB",
+      "raw_content": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
+      "metadata": {
+        "chunk_type": "longtable_content",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 109
+    }
+  ]
+}

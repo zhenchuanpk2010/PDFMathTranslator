@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="./../../docs/images/banner.png" width="320px"  alt="banner"/>
+<img src="./docs/images/banner.png" width="320px"  alt="banner"/>
 
 <h2 id="titel">PDFMathTranslate</h2>
 
 <p>
   <!-- PyPI -->
-<a href="https://pypi.org/project/pdf2zh-next/">
+  <a href="https://pypi.org/project/pdf2zh-next/">
     <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>
-<a href="https://pepy.tech/projects/pdf2zh-next">
+  <a href="https://pepy.tech/projects/pdf2zh-next">
     <img src="https://static.pepy.tech/badge/pdf2zh-next"></a>
-<a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
+  <a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
     <img src="https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next"></a>
-<a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Featured｜HelloGitHub" /></a>
+  <a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Featured｜HelloGitHub" /></a>
   <!-- <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
     <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a> -->
   <!-- <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
@@ -21,10 +21,10 @@
     <!-- <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a> -->
   <!-- <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"></a> -->
-<a href="https://t.me/+Z9_SgnxmsmA5NzBl">
+  <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
   <!-- License -->
-<a href="./LICENSE">
+  <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
 </p>
 
@@ -32,17 +32,17 @@
 
 </div>
 
-PDF wissenschaftliche Artikel Übersetzung und bilingualer Vergleich.
+Übersetzung wissenschaftlicher PDF-Papiere und bilingualer Vergleich.
 
-- 📊 Formeln, Diagramme, Inhaltsverzeichnisse und Anmerkungen beibehalten _([Vorschau](#preview))_.
+- 📊 Erhalten Sie Formeln, Diagramme, Inhaltsverzeichnisse und Anmerkungen _([Vorschau](#vorschau))_.
 - 🌐 Unterstützt [mehrere Sprachen](https://pdf2zh-next.com/supported_languages.html) und verschiedene [Übersetzungsdienste](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Bietet [Kommandozeilen-Tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interaktive Benutzeroberfläche](https://pdf2zh-next.com/getting-started/USAGE_webui.html) und [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-Geben Sie gerne Feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) oder [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
+Gerne können Sie Feedback in den [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) oder der [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) geben.
 
-Details zur Mitwirkung finden Sie im [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Weitere Details zur Mitwirkung finden Sie im [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="updates">Updates</h2>
+<h2 id="updates">Aktualisierungen</h2>
 
 - [4. Juni 2025] Das Projekt wurde umbenannt und zu [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) verschoben (von [@awwaawwa](https://github.com/awwaawwa))
 - [3. März 2025] Experimentelle Unterstützung für das neue Backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI als experimentelle Option hinzugefügt (von [@awwaawwa](https://github.com/awwaawwa))
@@ -63,7 +63,7 @@ Details zur Mitwirkung finden Sie im [Contribution Guide](https://pdf2zh-next.co
 
 > [!NOTE]
 >
-> pdf2zh 2.0 bietet derzeit keine Online-Demo
+> pdf2zh 2.0 bietet derzeit keine Online-Demo an
 
 Sie können unsere Anwendung mit einer der folgenden Demos ausprobieren:
 
@@ -72,7 +72,8 @@ Sie können unsere Anwendung mit einer der folgenden Demos ausprobieren:
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-Beachten Sie, dass die Rechenressourcen der Demo begrenzt sind, daher vermeiden Sie bitte deren Missbrauch.
+[!NOTE]
+Beachten Sie, dass die Rechenressourcen der Demo begrenzt sind, bitte vermeiden Sie Missbrauch.
 
 <h2 id="install">Installation und Verwendung</h2>
 
@@ -94,7 +95,7 @@ Für verschiedene Anwendungsfälle bieten wir unterschiedliche Methoden zur Nutz
 
 <h2 id="usage">Erweiterte Optionen</h2>
 
-Detaillierte Erklärungen finden Sie in unserem Dokument über [Erweiterte Verwendung](https://pdf2zh-next.com/advanced/advanced.html) für eine vollständige Liste jeder Option.
+Für detaillierte Erklärungen lesen Sie bitte unser Dokument über [Erweiterte Verwendung](https://pdf2zh-next.com/advanced/advanced.html) für eine vollständige Liste aller Optionen.
 
 <h2 id="downstream">Sekundäre Entwicklung (APIs)</h2>
 
@@ -108,9 +109,9 @@ Detaillierte Erklärungen finden Sie in unserem Dokument über [Erweiterte Verwe
 - [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
 - [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
 
-<h2 id="langcode">Sprachcode</h2>
+<h2 id="sprachcode">Sprachcode</h2>
 
-Wenn Sie nicht wissen, welchen Code Sie für die gewünschte Sprache verwenden sollen, lesen Sie [diese Dokumentation](https://pdf2zh-next.com/advanced/Language-Codes.html)
+Wenn Sie nicht wissen, welchen Code Sie für die Übersetzung in die gewünschte Sprache verwenden sollen, lesen Sie [diese Dokumentation](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
 <!-- 
 <h2 id="todo">TODOs</h2>
@@ -131,32 +132,32 @@ Wenn Sie nicht wissen, welchen Code Sie für die gewünschte Sprache verwenden s
 
 <h2 id="danksagung">Danksagungen</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt, Einzelheiten finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt. Details finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+
+- [SiliconFlow](https://siliconflow.cn) bietet einen kostenlosen Übersetzungsdienst für dieses Projekt, unterstützt durch große Sprachmodelle (LLMs).
 
 - 1.x Version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- Neues Backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
+- Backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Dokumentenzusammenführung: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- PDF-Bibliothek: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
-- Dokumentenanalyse: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- PDF-Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- Dokumentenextraktion: [MinerU](https://github.com/opendatalab/MinerU)
+- PDF-Vorschau: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Dokumentenvorschau: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
+- Layout-Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- Mehrfädige Übersetzung: [MathTranslate](https://github.com/SUSYUSTC/MathTranslate)
+- PDF-Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Layoutanalyse: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
-
-- Dokumentenstandard: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
-
-- Mehrsprachige Schriftart: [Go Noto Universal](https://github.com/satbyy/go-noto-universal)
+- Mehrsprachige Schriftarten: siehe [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+
+- Dokumentation i18n mit Weblate: [Weblate](https://weblate.org/)
 
 <h2 id="conduct">Bevor Sie Ihren Code einreichen</h2>
 
@@ -177,8 +178,149 @@ Wir freuen uns über die aktive Teilnahme von Mitwirkenden, um pdf2zh besser zu 
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
-</picture>
+ <p align="center">
+  <a href="https://pdf2zh-next.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pdf2zh-next.com/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://pdf2zh-next.com/logo-light.svg">
+      <img alt="pdf2zh" src="https://pdf2zh-next.com/logo-light.svg" width="300">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com/getting-started/INSTALLATION.html">Installation</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_cli.html">Command Line</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_webui.html">WebUI</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_api.html">API</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/SUPPORTED_LANGUAGES.html">Supported Languages</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/FAQ.html">FAQ</a>
+</p>
+
+---
+
+# PDFMathTranslate
+
+`PDFMathTranslate` is a tool designed to extract and translate LaTeX from PDFs (especially those containing mathematical formulas), and then compile them into a new PDF with the translated content.
+
+## Features
+
+- **Extract LaTeX from PDF**: Accurately identify and extract LaTeX content, including mathematical formulas, from PDF files.
+- **Translate LaTeX**: Translate the extracted LaTeX content into the desired language.
+- **Compile Translated LaTeX**: Compile the translated LaTeX back into a new PDF file.
+
+## Getting Started
+
+### Installation
+
+To install `PDFMathTranslate`, follow the instructions in the [Installation](#installation) section.
+
+### Usage
+
+For detailed usage instructions, refer to the [Usage](#usage) section.
+
+## Documentation
+
+For more detailed documentation, visit the [Documentation of Translation Services](#documentation-of-translation-services).
+
+## Community
+
+Join our community to get help, share ideas, and contribute to the project.
+
+## FAQ
+
+Check out the [FAQ](#faq) for answers to common questions.
+
+---
+
+<p align="center">
+  <a href="https://pdf2zh-next.com">Home</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/GETTING_STARTED.html">Getting Started</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/ADVANCED.html">Advanced</a>
+</p>
+
+---
+
+### TRANSLATED TEXT
+
+ </picture>
 </a>
+</p align="center">
+  <a href="https://pdf2zh-next.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pdf2zh-next.com/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://pdf2zh-next.com/logo-light.svg">
+      <img alt="pdf2zh" src="https://pdf2zh-next.com/logo-light.svg" width="300">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com/getting-started/INSTALLATION.html">Installation</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_cli.html">Kommandozeile</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_webui.html">WebUI</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_api.html">API</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/SUPPORTED_LANGUAGES.html">Unterstützte Sprachen</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/FAQ.html">Häufig gestellte Fragen</a>
+</p>
+
+---
+
+# PDFMathTranslate
+
+`PDFMathTranslate` ist ein Tool, das entwickelt wurde, um LaTeX aus PDFs (insbesondere solchen mit mathematischen Formeln) zu extrahieren und zu übersetzen und sie dann in eine neue PDF mit dem übersetzten Inhalt zu kompilieren.
+
+## Funktionen
+
+- **LaTeX aus PDF extrahieren**: LaTeX-Inhalte, einschließlich mathematischer Formeln, präzise identifizieren und aus PDF-Dateien extrahieren.
+- **LaTeX übersetzen**: Die extrahierten LaTeX-Inhalte in die gewünschte Sprache übersetzen.
+- **Übersetztes LaTeX kompilieren**: Das übersetzte LaTeX zurück in eine neue PDF-Datei kompilieren.
+
+## Erste Schritte
+
+### Installation
+
+Um `PDFMathTranslate` zu installieren, folgen Sie den Anweisungen im Abschnitt [Installation](#installation).
+
+### Verwendung
+
+Detaillierte Anweisungen zur Verwendung finden Sie im Abschnitt [Verwendung](#verwendung).
+
+## Dokumentation
+
+Für eine detailliertere Dokumentation besuchen Sie die [Dokumentation der Übersetzungsdienste](#dokumentation-der-übersetzungsdienste).
+
+## Gemeinschaft
+
+Treten Sie unserer Gemeinschaft bei, um Hilfe zu erhalten, Ideen auszutauschen und zum Projekt beizutragen.
+
+## Häufig gestellte Fragen
+
+Schauen Sie sich die [Häufig gestellte Fragen](#häufig-gestellte-fragen) für Antworten auf häufige Fragen an.
+
+---
+
+<p align="center">
+  <a href="https://pdf2zh-next.com">Startseite</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/GETTING_STARTED.html">Erste Schritte</a>
+  •
+  <a href="https://pdf2zh-next.com/getting-started/ADVANCED.html">Erweiterte Optionen</a>
+</p>
+
+---
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

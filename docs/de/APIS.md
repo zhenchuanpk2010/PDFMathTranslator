@@ -3,7 +3,7 @@
 > Dieses Dokument ist veraltet, bitte beziehen Sie sich nicht darauf.
 
 <h2 id="toc">Inhaltsverzeichnis</h2>
-Das vorliegende Projekt unterstützt zwei Arten von APIs, alle Methoden benötigen den Redis;
+Das vorliegende Projekt unterstützt zwei Arten von APIs, alle Methoden benötigen Redis;
 
 - [Funktionsaufrufe in Python](#api-python)
 - [HTTP-Protokolle](#api-http)
@@ -12,7 +12,7 @@ Das vorliegende Projekt unterstützt zwei Arten von APIs, alle Methoden benötig
 
 <h2 id="api-python">Python</h2>
 
-Da `pdf2zh` ein installiertes Modul in Python ist, stellen wir zwei Methoden zur Verfügung, die von anderen Programmen in beliebigen Python-Skripten aufgerufen werden können.
+Da `pdf2zh` ein installiertes Modul in Python ist, stellen wir zwei Methoden für andere Programme zur Verfügung, die in beliebigen Python-Skripten aufgerufen werden können.
 
 Wenn Sie beispielsweise ein Dokument von Englisch nach Chinesisch mit Google Translate übersetzen möchten, können Sie den folgenden Code verwenden:
 
@@ -26,11 +26,30 @@ params = {
     'thread': 4,
 }
 ```
-Übersetzen mit Dateien:
+```bash
+pdf2zh -i input.pdf -o output.pdf
+```
+
+[Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+
+[Using **Command Line**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)
+
+---
+
+### TRANSLATED TEXT
+
+Mit Dateien übersetzen:  
+```bash
+pdf2zh -i input.pdf -o output.pdf
+```
+
+[Verwendung der **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+
+[Verwendung der **Kommandozeile**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Übersetzen mit Stream:
+Mit Stream übersetzen:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -52,7 +71,7 @@ Auf eine flexiblere Weise können Sie mit dem Programm über HTTP-Protokolle kom
    pdf2zh_next --celery worker
    ```
 
-2. Verwendung der HTTP-Protokolle wie folgt:
+2. HTTP-Protokolle wie folgt verwenden:
 
    - Übersetzungsaufgabe einreichen
 

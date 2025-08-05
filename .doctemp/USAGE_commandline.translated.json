@@ -1,0 +1,222 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/USAGE_commandline.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_1C59CC51",
+      "chunk_type": "paragraph",
+      "original_content": "[**Getting Started**](./getting-started.md) > **Usage** > **Command Line** _(current)_\n",
+      "start_line_no": 1,
+      "translations": {
+        "ja": "[**開始**](./getting-started.md) > **使い方** > **コマンドライン** _(現在)_\n",
+        "zh_TW": "[**開始使用**](./getting-started.md) > **如何使用** > **命令行** _(current)_\n",
+        "es": "[**Empezar**](./getting-started.md) > **Uso** > **Línea de comandos** _(actual)_\n",
+        "it": "[**Iniziare**](./getting-started.md) > **Utilizzo** > **Riga di comando** _(current)_\n",
+        "pt": "[**Começar**](./getting-started.md) > **Uso** > **Linha de comando** _(atual)_\n",
+        "fr": "[**Commencer**](./getting-started.md) > **Utilisation** > **Ligne de commande** _(actuel)_\n",
+        "ru": "[**Начало работы**](./getting-started.md) > **Использование** > **Командная строка** _(текущая)_\n",
+        "de": "[**Erste Schritte**](./getting-started.md) > **Verwendung** > **Kommandozeile** _(aktuell)_\n",
+        "ko": "[**시작하기**](./getting-started.md) > **사용법** > **명령줄** _(현재)_\n",
+        "zh": "[**开始使用**](./getting-started.md) > **如何使用** > **命令行** _(当前)_\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_93b1e773",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_9C810511",
+      "chunk_type": "header",
+      "original_content": "### Use PDFMathTranslate via command line\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh_TW": "### 通過命令行使用 PDFMathTranslate\n",
+        "zh": "### 通过命令行使用 PDFMathTranslate\n",
+        "fr": "### Utiliser PDFMathTranslate via la ligne de commande\n",
+        "it": "### Utilizzare PDFMathTranslate tramite riga di comando\n",
+        "ru": "### Использование PDFMathTranslate через командную строку\n",
+        "de": "### Verwenden Sie PDFMathTranslate über die Kommandozeile\n",
+        "ko": "### 명령줄을 통해 PDFMathTranslate 사용하기\n",
+        "es": "### Usar PDFMathTranslate mediante la línea de comandos\n",
+        "pt": "### Usar PDFMathTranslate via linha de comando\n",
+        "ja": "### コマンドラインで PDFMathTranslate を使用する\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_30052F3A",
+      "chunk_type": "header",
+      "original_content": "#### Basic Usage\n",
+      "start_line_no": 7,
+      "translations": {
+        "ko": "#### 기본 사용법\n",
+        "ru": "#### Основное использование\n",
+        "fr": "#### Utilisation de base\n",
+        "pt": "#### Uso básico\n",
+        "zh": "#### 基本用法\n",
+        "it": "#### Utilizzo di base\n",
+        "ja": "#### 基本的な使い方\n",
+        "zh_TW": "#### 基本用法\n",
+        "de": "#### Grundlegende Verwendung\n",
+        "es": "#### Uso básico\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_ACC119CF",
+      "chunk_type": "paragraph",
+      "original_content": "After Installation, please enter this command to translate your PDF.\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "安装完成后，请输入以下命令来翻译您的 PDF。\n",
+        "ja": "インストール後、以下のコマンドを入力して PDF を翻訳してください。\n",
+        "it": "Dopo l'Installazione, inserisci questo comando per tradurre il tuo PDF.\n",
+        "zh_TW": "安裝完成後，請輸入以下指令來翻譯您的 `PDF` 文件。\n",
+        "fr": "Après l'installation, veuillez entrer cette commande pour traduire votre PDF.\n",
+        "ru": "После установки введите эту команду для перевода вашего PDF.\n",
+        "de": "Nach der Installation geben Sie bitte diesen Befehl ein, um Ihr PDF zu übersetzen.\n",
+        "pt": "Após a Instalação, digite este comando para traduzir seu PDF.\n",
+        "ko": "설치 후, 다음 명령어를 입력하여 `PDF`를 번역하세요.\n",
+        "es": "Después de la instalación, por favor ingrese este comando para traducir su PDF.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_0D415785",
+      "chunk_type": "code_block",
+      "original_content": "```bash\npdf2zh_next document.pdf\n```\n",
+      "start_line_no": 11,
+      "translations": {
+        "zh": "```bash\npdf2zh_next document.pdf\n```\n",
+        "zh_TW": "```bash\npdf2zh_next document.pdf\n```\n",
+        "ja": "```bash\npdf2zh_next document.pdf\n```\n",
+        "ko": "```bash\npdf2zh_next document.pdf\n```\n",
+        "ru": "```bash\npdf2zh_next document.pdf\n```\n",
+        "es": "```bash\npdf2zh_next document.pdf\n```\n",
+        "fr": "```bash\npdf2zh_next document.pdf\n```\n",
+        "de": "```bash\npdf2zh_next document.pdf\n```\n",
+        "it": "```bash\npdf2zh_next document.pdf\n```\n",
+        "pt": "```bash\npdf2zh_next document.pdf\n```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_744BFC94",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n> \n> If your pathname contains spaces, please enclose it in quotation marks.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+      "start_line_no": 15,
+      "translations": {
+        "ko": "> [!NOTE]\n> \n> 경로명에 공백이 포함된 경우 따옴표로 묶어주세요.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "zh": "> [!NOTE]\n> \n> 如果您的路径名包含空格，请用引号将其括起来。\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "zh_TW": "> [!NOTE]\n> \n> 如果您的路徑名稱包含空格，請將其用引號括起來。\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "de": "> [!NOTE]\n> \n> Wenn Ihr Pfadname Leerzeichen enthält, schließen Sie ihn bitte in Anführungszeichen ein.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "ja": "> [!NOTE]\n> \n> パス名にスペースが含まれている場合は、引用符で囲んでください。\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "ru": "> [!NOTE]\n> \n> Если имя пути содержит пробелы, заключите его в кавычки.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "it": "> [!NOTE]\n> \n> Se il tuo percorso contiene spazi, per favore racchiudilo tra virgolette.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "es": "> [!NOTE]\n> \n> Si el nombre de la ruta contiene espacios, por favor enciérrelo entre comillas.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "pt": "> [!NOTE]\n> \n> Se o caminho do arquivo contiver espaços, por favor, coloque-o entre aspas.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n",
+        "fr": "> [!NOTE]\n> \n> Si votre chemin d'accès contient des espaces, veuillez l'encadrer de guillemets.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_6375D505",
+      "chunk_type": "paragraph",
+      "original_content": "After execute translation, files generated in **current working directory**.\n",
+      "start_line_no": 23,
+      "translations": {
+        "zh": "执行翻译后，文件生成于 **当前工作目录**。\n",
+        "zh_TW": "執行翻譯後，檔案會生成在 **當前工作目錄** 中。\n",
+        "ko": "번역을 실행한 후, **현재 작업 디렉토리**에 생성된 파일들입니다.\n",
+        "ja": "翻訳を実行した後、**現在の作業ディレクトリ**にファイルが生成されます。\n",
+        "pt": "Após executar a tradução, arquivos são gerados no **diretório de trabalho atual**.\n",
+        "es": "Después de ejecutar la traducción, los archivos se generan en el **directorio de trabajo actual**.\n",
+        "it": "Dopo aver eseguito la traduzione, i file vengono generati nella **directory di lavoro corrente**.\n",
+        "fr": "Après avoir exécuté la traduction, les fichiers sont générés dans le **répertoire de travail actuel**.\n",
+        "de": "Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** erstellt.\n",
+        "ru": "После выполнения перевода файлы создаются в **текущей рабочей директории**.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_1E0F4B41",
+      "chunk_type": "blockquote",
+      "original_content": "> [!TIP]\n> **Where is my \"Current Working Directory\" ?**\n> Before entering a command in the terminal, you might see a pathname displayed in your terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> This directory is the \"*Current working directory*.\"\n> \n> If there is no pathname, try running this command in the terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> After executing this command, a pathname will be output. This pathname is the \"**Current working directory**\". The translated files will appear here.\n",
+      "start_line_no": 25,
+      "translations": {
+        "zh_TW": "> [!TIP]\n> **我的「當前工作目錄」在哪裡？**\n> 在終端機中輸入指令前，你可能會看到終端機顯示一個路徑名稱：\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> 這個目錄就是「*當前工作目錄*」。\n> \n> 如果沒有顯示路徑名稱，可以嘗試在終端機執行這個指令：\n> \n> ```bash\n> pwd\n> ```\n> \n> 執行後會輸出一組路徑名稱，這就是「**當前工作目錄**」。翻譯完成的檔案會出現在此目錄。\n",
+        "es": "> [!TIP]\n> **¿Dónde está mi \"Directorio de trabajo actual\"?**\n> Antes de ingresar un comando en la terminal, es posible que veas una ruta mostrada en tu terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Este directorio es el \"*Directorio de trabajo actual*\".\n> \n> Si no hay una ruta visible, intenta ejecutar este comando en la terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> Después de ejecutar este comando, se mostrará una ruta. Esta ruta es el \"**Directorio de trabajo actual**\". Los archivos traducidos aparecerán aquí.\n",
+        "it": "> [!TIP]\n> **Dov'è la mia \"Cartella di lavoro corrente\"?**\n> Prima di inserire un comando nel terminale, potresti vedere un percorso visualizzato nel tuo terminale:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Questa directory è la \"*Cartella di lavoro corrente*\".\n> \n> Se non c'è un percorso, prova a eseguire questo comando nel terminale:\n> \n> ```bash\n> pwd\n> ```\n> \n> Dopo aver eseguito questo comando, verrà visualizzato un percorso. Questo percorso è la \"**Cartella di lavoro corrente**\". I file tradotti appariranno qui.\n",
+        "ru": "> [!TIP]\n> **Где находится моя \"Текущая рабочая директория\"?**\n> Перед вводом команды в терминале вы можете увидеть путь, отображаемый в вашем терминале:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Эта директория является \"*Текущей рабочей директорией*.\"\n> \n> Если путь не отображается, попробуйте выполнить эту команду в терминале:\n> \n> ```bash\n> pwd\n> ```\n> \n> После выполнения этой команды будет выведен путь. Этот путь является \"**Текущей рабочей директорией**\". Переведённые файлы появятся здесь.\n",
+        "pt": "> [!TIP]\n> **Onde está o meu \"Diretório de Trabalho Atual\"?**\n> Antes de inserir um comando no terminal, você pode ver um nome de caminho exibido no seu terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Este diretório é o \"*Diretório de trabalho atual*\".\n> \n> Se não houver um nome de caminho, tente executar este comando no terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> Após executar este comando, um nome de caminho será exibido. Este nome de caminho é o \"**Diretório de trabalho atual**\". Os arquivos traduzidos aparecerão aqui.\n",
+        "fr": "> [!TIP]\n> **Où se trouve mon \"Répertoire de travail actuel\" ?**\n> Avant d'entrer une commande dans le terminal, vous pourriez voir un chemin affiché dans votre terminal :\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Ce répertoire est le \"*Répertoire de travail actuel*.\"\n> \n> S'il n'y a pas de chemin, essayez d'exécuter cette commande dans le terminal :\n> \n> ```bash\n> pwd\n> ```\n> \n> Après avoir exécuté cette commande, un chemin sera affiché. Ce chemin est le \"**Répertoire de travail actuel**\". Les fichiers traduits apparaîtront ici.\n",
+        "zh": "> [!TIP]\n> **我的“当前工作目录”在哪里？**\n> 在终端中输入命令之前，你可能会在终端中看到一个路径名：\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> 这个目录就是“*当前工作目录*”。\n> \n> 如果没有显示路径名，可以尝试在终端中运行以下命令：\n> \n> ```bash\n> pwd\n> ```\n> \n> 执行该命令后，会输出一个路径名。这个路径名就是“**当前工作目录**”。翻译后的文件将出现在这里。\n",
+        "ko": "> [!TIP]\n> **\"현재 작업 디렉토리\"는 어디에 있나요?**\n> 터미널에 명령을 입력하기 전에 터미널에 다음과 같은 경로명이 표시될 수 있습니다:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> 이 디렉토리가 바로 \"*현재 작업 디렉토리*\"입니다.\n> \n> 경로명이 표시되지 않는 경우, 터미널에서 다음 명령을 실행해 보세요:\n> \n> ```bash\n> pwd\n> ```\n> \n> 이 명령을 실행하면 경로명이 출력됩니다. 이 경로명이 바로 \"**현재 작업 디렉토리**\"입니다. 번역된 파일은 이 위치에 생성됩니다.\n",
+        "ja": "> [!TIP]\n> **「現在の作業ディレクトリ」はどこですか？**\n> ターミナルでコマンドを入力する前に、ターミナルに次のようなパス名が表示されている場合があります：\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> このディレクトリが「*現在の作業ディレクトリ*」です。\n> \n> パス名が表示されていない場合は、ターミナルで次のコマンドを実行してみてください：\n> \n> ```bash\n> pwd\n> ```\n> \n> このコマンドを実行すると、パス名が出力されます。このパス名が「**現在の作業ディレクトリ**」です。翻訳されたファイルはここに表示されます。\n",
+        "de": "> [!TIP]\n> **Wo ist mein \"Aktuelles Arbeitsverzeichnis\"?**\n> Bevor Sie einen Befehl im Terminal eingeben, sehen Sie möglicherweise einen Pfadnamen in Ihrem Terminal angezeigt:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Dieses Verzeichnis ist das \"*Aktuelle Arbeitsverzeichnis*.\"\n> \n> Wenn kein Pfadname angezeigt wird, versuchen Sie, diesen Befehl im Terminal auszuführen:\n> \n> ```bash\n> pwd\n> ```\n> \n> Nach der Ausführung dieses Befehls wird ein Pfadname ausgegeben. Dieser Pfadname ist das \"**Aktuelle Arbeitsverzeichnis**\". Die übersetzten Dateien werden hier erscheinen.\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_15c3269a",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 43,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_67DBD505",
+      "chunk_type": "header",
+      "original_content": "#### Advance Usage\n",
+      "start_line_no": 45,
+      "translations": {
+        "ja": "#### 高度な設定\n",
+        "it": "#### Opzioni avanzate\n",
+        "ko": "#### 고급 옵션\n",
+        "zh_TW": "#### 高級用法\n",
+        "es": "#### Opciones avanzadas\n",
+        "de": "#### Erweiterte Optionen\n",
+        "zh": "#### 高级用法\n",
+        "ru": "#### Расширенные параметры\n",
+        "pt": "#### Opções avançadas\n",
+        "fr": "#### Options avancées\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_98AF19D9",
+      "chunk_type": "paragraph",
+      "original_content": "For detailed explanations of additional command line parameters, please refer to [advanced usage](./../advanced/advanced.md).\n",
+      "start_line_no": 47,
+      "translations": {
+        "zh": "有关其他命令行参数的详细说明，请参阅[高级用法](./../advanced/advanced.md)。\n",
+        "ru": "Для подробного объяснения дополнительных параметров командной строки обратитесь к [расширенным параметрам](./../advanced/advanced.md).\n",
+        "ko": "추가 명령줄 매개변수에 대한 자세한 설명은 [고급 옵션](./../advanced/advanced.md)을 참조하세요.\n",
+        "de": "Für detaillierte Erklärungen zusätzlicher Kommandozeilenparameter lesen Sie bitte [erweiterte Optionen](./../advanced/advanced.md).\n",
+        "fr": "Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez vous référer à [Options avancées](./../advanced/advanced.md).\n",
+        "es": "Para explicaciones detalladas de los parámetros adicionales de la línea de comandos, consulta [opciones avanzadas](./../advanced/advanced.md).\n",
+        "ja": "追加のコマンドラインパラメータの詳細な説明については、[高度な設定](./../advanced/advanced.md)を参照してください。\n",
+        "it": "Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, si prega di fare riferimento a [opzioni avanzate](./../advanced/advanced.md).\n",
+        "zh_TW": "有關其他命令行參數的詳細說明，請參閱[高級用法](./../advanced/advanced.md)。\n",
+        "pt": "Para explicações detalhadas sobre parâmetros adicionais da linha de comando, consulte [opções avançadas](./../advanced/advanced.md).\n"
+      }
+    }
+  ]
+}

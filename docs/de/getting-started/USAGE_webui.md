@@ -1,14 +1,14 @@
-[**Erste Schritte**](./getting-started.md) > **Installation** > **WebUI** _(current)_
+[**Erste Schritte**](./getting-started.md) > **Installation** > **WebUI** _(aktuell)_
 
 ---
 
-### PDFMathTranslate über Webui verwenden
+### Verwenden Sie PDFMathTranslate über Webui
 
 #### So öffnen Sie die WebUI-Seite:
 
 Es gibt mehrere Methoden, um die WebUI-Oberfläche zu öffnen. Wenn Sie **Windows** verwenden, lesen Sie bitte [diesen Artikel](./INSTALLATION_winexe.md);
 
-1. Python installiert (3.10 <= Version <= 3.13)
+1. Python installiert (3.10 <= Version <= 3.12)
 
 2. Installieren Sie unser Paket:
 
@@ -24,7 +24,7 @@ Es gibt mehrere Methoden, um die WebUI-Oberfläche zu öffnen. Wenn Sie **Window
     http://localhost:7860/
     ```
 
-    Legen Sie die PDF-Datei in das Fenster und klicken Sie auf `Translate`.
+    Ziehen Sie die `PDF`-Datei in das Fenster und klicken Sie auf `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
@@ -42,6 +42,8 @@ Sie können die Quell- und Zielsprachen mit Umgebungsvariablen festlegen:
 <img src="./../images/after.png" width="500"/>
 
 ## Wartung
+
+### TRANSLATION RESULT
 
 GUI wird von [Rongxin](https://github.com/reycn) gewartet
 

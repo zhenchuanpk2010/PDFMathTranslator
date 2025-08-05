@@ -1,0 +1,165 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/USAGE_webui.md",
+  "chunks": [
+    {
+      "id": "chunk_03FD0E12",
+      "raw_content": "[**Getting Started**](./getting-started.md) > **Installation** > **WebUI** _(current)_\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "h_rule_00301744",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_EDC72645",
+      "raw_content": "### Use PDFMathTranslate via Webui\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_D75BD342",
+      "raw_content": "#### How to open the WebUI page:\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_65E65B28",
+      "raw_content": "There are several methods to open the WebUI interface. If you are using **Windows**, please refer to [this article](./INSTALLATION_winexe.md);\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_2A12C8AD",
+      "raw_content": "1. Python installed (3.10 <= version <= 3.12)\n\n2. Install our package:\n\n3. Start using in browser:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. If your browswer has not been started automatically, goto\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Drop the PDF file into the window and click `Translate`.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_F5A7DD64",
+      "raw_content": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_FFA0F1F7",
+      "raw_content": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 30
+    },
+    {
+      "id": "chunk_2FDC0409",
+      "raw_content": "### Environment Variables\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 32
+    },
+    {
+      "id": "chunk_7865A8EB",
+      "raw_content": "You can set the source and target languages using environment variables:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 34
+    },
+    {
+      "id": "chunk_104D91B6",
+      "raw_content": "- `PDF2ZH_LANG_FROM`: Sets the source language. Defaults to \"English\".\n- `PDF2ZH_LANG_TO`: Sets the target language. Defaults to \"Simplified Chinese\".\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 36
+    },
+    {
+      "id": "chunk_EEBEC547",
+      "raw_content": "## Preview\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 39
+    },
+    {
+      "id": "chunk_D7787657",
+      "raw_content": "<img src=\"./../images/before.png\" width=\"500\"/>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 41
+    },
+    {
+      "id": "chunk_4685028B",
+      "raw_content": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 42
+    },
+    {
+      "id": "chunk_742C5FE6",
+      "raw_content": "## Maintainance\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 44
+    },
+    {
+      "id": "chunk_3D5EA421",
+      "raw_content": "GUI maintained by [Rongxin](https://github.com/reycn)",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 46
+    }
+  ]
+}

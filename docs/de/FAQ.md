@@ -9,16 +9,16 @@ Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumen
 
 ## Download unterbrochen?
 - **Frage**:
-Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?
+Ich bin auf den folgenden Unterbrechungsfehler beim Herunterladen des Modells gestoßen. Was soll ich tun?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Antwort**:
 Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.
 
-## Wie aktualisiert man auf die neueste Version?
+## Wie aktualisiere ich auf die neueste Version?
 - **Frage**:
-Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
+Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?
 
 - **Antwort**:
 `pip install -U pdf2zh`
@@ -36,7 +36,7 @@ Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `Die folge
 
 ## SSL-Fehler und andere Netzwerkprobleme
 - **Problem**:
-Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
+Beim Herunterladen von Hugging-Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
 - **Lösung**:
   - [GFW umgehen](https://github.com/clash-verge-rev/clash-verge-rev).
@@ -50,7 +50,7 @@ Bitte sehen Sie unten.
 
 ## Fehler beim Starten der GUI mit 0.0.0.0
 - **Problem**:
-Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [Issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Lösung**:
 Verwenden Sie den Regelmodus

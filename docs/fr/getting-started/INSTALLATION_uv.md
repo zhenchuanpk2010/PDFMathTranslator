@@ -1,4 +1,4 @@
-[**Commencer**](./commencer.md) > **Installation** > **uv** _(current)_
+[**Commencer**](./getting-started.md) > **Installation** > **uv** _(current)_
 
 ---
 
@@ -14,13 +14,13 @@ Pour installer uv sur votre ordinateur, veuillez consulter [cet article](https:/
 
 #### Installation
 
-1. Python installé (version 3.10 <= version <= 3.13) ;
+1. Python installé (version 3.10 <= version <= 3.12) ;
 
 2. Utilisez la commande suivante pour utiliser notre package :
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 Après l'installation, vous pouvez commencer la traduction via la **ligne de commande** ou **WebUI**.
@@ -50,7 +50,7 @@ Après l'installation, vous pouvez commencer la traduction via la **ligne de com
         Puis redémarrez votre terminal
 
 > [!NOTE]
-> Si vous rencontrez des problèmes lors de l'utilisation de l'interface Web, veuillez consulter [Utilisation --> Interface Web](./USAGE_webui.md).
+> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [Utilisation --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Si vous rencontrez des problèmes lors de l'utilisation de la ligne de commande, veuillez consulter [Utilisation --> Ligne de commande](./USAGE_commandline.md).

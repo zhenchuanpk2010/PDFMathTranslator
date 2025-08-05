@@ -15,7 +15,7 @@ PDFMathTranslate 是一個強大的 PDF 翻譯工具。您可以通過多種方�
 ### 如何使用
 
 1. [使用 **WebUI**](./USAGE_webui.md)
-2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程序)
+2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程式)
 3. [使用 **命令行**](./USAGE_commandline.md)
 
 <div align="right"> 

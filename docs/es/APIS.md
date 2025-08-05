@@ -2,7 +2,7 @@
 >
 > Este documento está desactualizado, por favor no lo consultes.
 
-<h2 id="toc">Tabla de contenido</h2>
+<h2 id="indice">Tabla de contenido</h2>
 El presente proyecto soporta dos tipos de APIs, todos los métodos necesitan Redis;
 
 - [Llamadas funcionales en Python](#api-python)
@@ -36,13 +36,13 @@ with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
 ```
 
-[⬆️ Volver al inicio](#toc)
+[⬆️ Volver arriba](#toc)
 
 ---
 
 <h2 id="api-http">HTTP</h2>
 
-De una manera más flexible, puedes comunicarte con el programa usando protocolos HTTP, si:
+De una manera más flexible, puedes comunicarte con el programa utilizando protocolos HTTP, si:
 
 1. Instalar y ejecutar el backend
 
@@ -52,7 +52,7 @@ De una manera más flexible, puedes comunicarte con el programa usando protocolo
    pdf2zh_next --celery worker
    ```
 
-2. Usar protocolos HTTP de la siguiente manera:
+2. Usar los protocolos HTTP de la siguiente manera:
 
    - Enviar tarea de traducción
 
@@ -92,7 +92,7 @@ De una manera más flexible, puedes comunicarte con el programa usando protocolo
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
 
-[⬆️ Volver al inicio](#toc)
+[⬆️ Volver arriba](#toc)
 
 ---
 

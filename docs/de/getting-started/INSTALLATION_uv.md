@@ -1,10 +1,10 @@
-[**Erste Schritte**](./getting-started.md) > **Installation** > **uv** _(current)_
+[**Erste Schritte**](./getting-started.md) > **Installation** > **uv** _(aktuell)_
 
 ---
 
 ### Installieren Sie PDFMathTranslate über uv
 
-#### Was ist uv? Wie wird es installiert?
+#### Was ist uv? Wie installiert man es?
 
 uv ist ein extrem schneller Python-Paket- und Projektmanager, geschrieben in Rust.
 <br>
@@ -14,13 +14,13 @@ Um uv auf Ihrem Computer zu installieren, lesen Sie bitte [diesen Artikel](https
 
 #### Installation
 
-1. Python installiert (3.10 <= Version <= 3.13);
+1. Python installiert (3.10 <= Version <= 3.12);
 
 2. Verwenden Sie den folgenden Befehl, um unser Paket zu nutzen:
 
     ```bash
     pip install uv
-    uv tool install --python 3.13 pdf2zh-next
+    uv tool install --python 3.12 pdf2zh-next
     ```
 
 Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile** oder **WebUI** beginnen.

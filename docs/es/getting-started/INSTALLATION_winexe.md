@@ -1,4 +1,4 @@
-[**Empezar**](./empezar.md) > **Instalación** > **Windows EXE** _(actual)_
+[**Empezar**](./getting-started.md) > **Instalación** > **Windows EXE** _(actual)_
 
 ---
 
@@ -9,8 +9,8 @@
 > [!TIP]
 > **¿Cuál es la diferencia entre `pdf2zh-<version>-with-assets-win64.zip` y `pdf2zh-<version>-win64.zip`?**
 >
-> - Si estás descargando y usando PDFMathTranslate por primera vez, se recomienda descargar `pdf2zh-<version>-with-assets-win64.zip`.
-> - El `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.
+> - Si es la primera vez que descargas y usas PDFMathTranslate, se recomienda descargar `pdf2zh-<version>-with-assets-win64.zip`.
+> - El archivo `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.
 > - La versión sin recursos también descargará dinámicamente los recursos al ejecutarse, pero la descarga puede fallar debido a problemas de red.
 
 ***Paso 2*** | Descomprime `pdf2zh-<version>-with-assets-win64.zip` y navega hasta la carpeta `pdf2zh`. La descompresión puede tardar un poco, por favor ten paciencia.
@@ -26,7 +26,7 @@
 
 > [!NOTE]
 >
-> Si encuentras algún problema durante el uso de WebUI, consulta [esta página web](./USAGE_webui.md).
+> Si encuentras algún problema al usar WebUI, por favor consulta [esta página web](./USAGE_webui.md).
 
 ***Paso 5*** | ¡Disfruta!
 

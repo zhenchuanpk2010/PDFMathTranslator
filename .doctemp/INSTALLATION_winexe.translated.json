@@ -1,0 +1,204 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/INSTALLATION_winexe.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_E5616440",
+      "chunk_type": "paragraph",
+      "original_content": "[**Getting Started**](./getting-started.md) > **Installation** > **Windows EXE** _(current)_\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh_TW": "[**開始使用**](./getting-started.md) > **如何安裝** > **Windows EXE** _(current)_\n",
+        "ko": "[**시작하기**](./getting-started.md) > **설치** > **Windows EXE** _(현재)_\n",
+        "zh": "[**开始使用**](./getting-started.md) > **如何安装** > **Windows EXE** _(current)_\n",
+        "ru": "[**Начало работы**](./getting-started.md) > **Установка** > **Windows EXE** _(текущая)_\n",
+        "it": "[**Iniziare**](./getting-started.md) > **Installazione** > **Windows EXE** _(current)_\n",
+        "fr": "[**Commencer**](./getting-started.md) > **Installation** > **Windows EXE** _(actuel)_\n",
+        "pt": "[**Começar**](./getting-started.md) > **Instalação** > **Windows EXE** _(atual)_\n",
+        "de": "[**Erste Schritte**](./getting-started.md) > **Installation** > **Windows EXE** _(aktuell)_\n",
+        "ja": "[**開始**](./getting-started.md) > **インストール** > **Windows EXE** _(現在)_\n",
+        "es": "[**Empezar**](./getting-started.md) > **Instalación** > **Windows EXE** _(actual)_\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_687270ee",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F372470F",
+      "chunk_type": "header",
+      "original_content": "### Install PDFMathTranslate via .exe file\n",
+      "start_line_no": 5,
+      "translations": {
+        "es": "### Instalar PDFMathTranslate mediante archivo .exe\n",
+        "ko": "### .exe 파일로 PDFMathTranslate 설치하기\n",
+        "fr": "### Installer PDFMathTranslate via un fichier .exe\n",
+        "ru": "### Установка PDFMathTranslate через файл .exe\n",
+        "it": "### Installa PDFMathTranslate tramite file .exe\n",
+        "pt": "### Instalar o PDFMathTranslate via arquivo .exe\n",
+        "ja": "### .exe ファイル経由で PDFMathTranslate をインストールする\n",
+        "zh": "### 通过 .exe 文件安装 PDFMathTranslate\n",
+        "de": "### Installieren Sie PDFMathTranslate über eine .exe-Datei\n",
+        "zh_TW": "### 透過 .exe 文件安裝 PDFMathTranslate\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_D3A98932",
+      "chunk_type": "table",
+      "original_content": "***Step 1*** | Download `pdf2zh-<version>-with-assets-win64.zip` from [release page](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n",
+      "start_line_no": 7,
+      "translations": {
+        "zh_TW": "***步驟 1*** | 從 [release page](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases) 下載 `pdf2zh-<version>-with-assets-win64.zip`。\n",
+        "zh": "***步骤 1*** | 从 [release page](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases) 下载 `pdf2zh-<version>-with-assets-win64.zip`。\n",
+        "ko": "***1단계*** | [릴리스 페이지](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases)에서 `pdf2zh-<version>-with-assets-win64.zip`을 다운로드하세요.\n",
+        "ru": "***Шаг 1*** | Скачайте `pdf2zh-<version>-with-assets-win64.zip` со [страницы релизов](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n",
+        "ja": "***ステップ 1*** | [リリースページ](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases) から `pdf2zh-<version>-with-assets-win64.zip` をダウンロードします。\n",
+        "de": "***Schritt 1*** | Laden Sie `pdf2zh-<version>-with-assets-win64.zip` von der [release page](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases) herunter.\n",
+        "it": "***Passo 1*** | Scarica `pdf2zh-<version>-with-assets-win64.zip` dalla [pagina delle release](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n",
+        "es": "***Paso 1*** | Descarga `pdf2zh-<version>-with-assets-win64.zip` desde la [página de lanzamientos](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n",
+        "fr": "***Étape 1*** | Téléchargez `pdf2zh-<version>-with-assets-win64.zip` depuis la [page des versions](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n",
+        "pt": "***Passo 1*** | Baixe `pdf2zh-<version>-with-assets-win64.zip` da [página de lançamentos](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_29FE8C1D",
+      "chunk_type": "blockquote",
+      "original_content": "> [!TIP]\n> **What is the difference between `pdf2zh-<version>-with-assets-win64.zip` and `pdf2zh-<version>-win64.zip`?**\n>\n> - If you are downloading and using PDFMathTranslate for the first time, it is recommended to download `pdf2zh-<version>-with-assets-win64.zip`.\n> - The `pdf2zh-<version>-with-assets-win64.zip` includes resource files (such as fonts and models) compared to `pdf2zh-<version>-win64.zip`.\n> - The version without assets will also dynamically download resources when running, but the download may fail due to network issues.\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "> [!TIP]\n> **`pdf2zh-<version>-with-assets-win64.zip` 和 `pdf2zh-<version>-win64.zip` 有什么区别？**\n>\n> - 如果你是首次下载并使用 PDFMathTranslate，建议下载 `pdf2zh-<version>-with-assets-win64.zip`。\n> - 相比 `pdf2zh-<version>-win64.zip`，`pdf2zh-<version>-with-assets-win64.zip` 包含了资源文件（如字体和模型）。\n> - 不含资源的版本在运行时也会动态下载资源，但可能因网络问题导致下载失败。\n",
+        "zh_TW": "> [!TIP]\n> **`pdf2zh-<version>-with-assets-win64.zip` 和 `pdf2zh-<version>-win64.zip` 有什麼區別？**\n>\n> - 如果你是第一次下載並使用 PDFMathTranslate，建議下載 `pdf2zh-<version>-with-assets-win64.zip`。\n> - 與 `pdf2zh-<version>-win64.zip` 相比，`pdf2zh-<version>-with-assets-win64.zip` 包含了資源文件（例如字體和模型）。\n> - 不包含資源的版本在運行時也會動態下載資源，但由於網絡問題可能會導致下載失敗。\n",
+        "ru": "> [!TIP]\n> **В чем разница между `pdf2zh-<version>-with-assets-win64.zip` и `pdf2zh-<version>-win64.zip`?**\n>\n> - Если вы скачиваете и используете PDFMathTranslate впервые, рекомендуется загрузить `pdf2zh-<version>-with-assets-win64.zip`.\n> - В `pdf2zh-<version>-with-assets-win64.zip` включены файлы ресурсов (например, шрифты и модели) по сравнению с `pdf2zh-<version>-win64.zip`.\n> - Версия без ресурсов также будет динамически загружать их при запуске, но загрузка может завершиться неудачей из-за проблем с сетью.\n",
+        "ja": "> [!TIP]\n> **`pdf2zh-<version>-with-assets-win64.zip` と `pdf2zh-<version>-win64.zip` の違いは何ですか？**\n>\n> - PDFMathTranslate を初めてダウンロードして使用する場合は、`pdf2zh-<version>-with-assets-win64.zip` をダウンロードすることをお勧めします。\n> - `pdf2zh-<version>-with-assets-win64.zip` には、`pdf2zh-<version>-win64.zip` と比較してリソースファイル（フォントやモデルなど）が含まれています。\n> - アセットなしのバージョンも実行時にリソースを動的にダウンロードしますが、ネットワークの問題によりダウンロードが失敗する可能性があります。\n",
+        "pt": "> [!TIP]\n> **Qual é a diferença entre `pdf2zh-<version>-with-assets-win64.zip` e `pdf2zh-<version>-win64.zip`?**\n>\n> - Se você está baixando e usando o PDFMathTranslate pela primeira vez, é recomendado baixar `pdf2zh-<version>-with-assets-win64.zip`.\n> - O `pdf2zh-<version>-with-assets-win64.zip` inclui arquivos de recursos (como fontes e modelos) em comparação com `pdf2zh-<version>-win64.zip`.\n> - A versão sem recursos também irá baixar os recursos dinamicamente durante a execução, mas o download pode falhar devido a problemas de rede.\n",
+        "fr": "> [!TIP]\n> **Quelle est la différence entre `pdf2zh-<version>-with-assets-win64.zip` et `pdf2zh-<version>-win64.zip` ?**\n>\n> - Si vous téléchargez et utilisez PDFMathTranslate pour la première fois, il est recommandé de télécharger `pdf2zh-<version>-with-assets-win64.zip`.\n> - Le fichier `pdf2zh-<version>-with-assets-win64.zip` inclut les fichiers de ressources (tels que les polices et les modèles) contrairement à `pdf2zh-<version>-win64.zip`.\n> - La version sans ressources téléchargera également les ressources dynamiquement lors de l'exécution, mais le téléchargement peut échouer en raison de problèmes de réseau.\n",
+        "de": "> [!TIP]\n> **Was ist der Unterschied zwischen `pdf2zh-<version>-with-assets-win64.zip` und `pdf2zh-<version>-win64.zip`?**\n>\n> - Wenn Sie PDFMathTranslate zum ersten Mal herunterladen und verwenden, wird empfohlen, `pdf2zh-<version>-with-assets-win64.zip` herunterzuladen.\n> - Die `pdf2zh-<version>-with-assets-win64.zip` enthält im Vergleich zu `pdf2zh-<version>-win64.zip` zusätzliche Ressourcendateien (wie Schriftarten und Modelle).\n> - Die Version ohne Assets lädt die Ressourcen beim Ausführen dynamisch nach, aber der Download kann aufgrund von Netzwerkproblemen fehlschlagen.\n",
+        "ko": "> [!TIP]\n> **`pdf2zh-<version>-with-assets-win64.zip`와 `pdf2zh-<version>-win64.zip`의 차이점은 무엇인가요?**\n>\n> - PDFMathTranslate를 처음 다운로드하여 사용하는 경우 `pdf2zh-<version>-with-assets-win64.zip`을 다운로드하는 것을 권장합니다.\n> - `pdf2zh-<version>-with-assets-win64.zip`은 `pdf2zh-<version>-win64.zip`에 비해 리소스 파일(예: 폰트 및 모델)을 포함하고 있습니다.\n> - 리소스가 없는 버전도 실행 시 동적으로 리소스를 다운로드하지만, 네트워크 문제로 인해 다운로드가 실패할 수 있습니다.\n",
+        "es": "> [!TIP]\n> **¿Cuál es la diferencia entre `pdf2zh-<version>-with-assets-win64.zip` y `pdf2zh-<version>-win64.zip`?**\n>\n> - Si es la primera vez que descargas y usas PDFMathTranslate, se recomienda descargar `pdf2zh-<version>-with-assets-win64.zip`.\n> - El archivo `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.\n> - La versión sin recursos también descargará dinámicamente los recursos al ejecutarse, pero la descarga puede fallar debido a problemas de red.\n",
+        "it": "> [!TIP]\n> **Qual è la differenza tra `pdf2zh-<version>-with-assets-win64.zip` e `pdf2zh-<version>-win64.zip`?**\n>\n> - Se stai scaricando e utilizzando PDFMathTranslate per la prima volta, si consiglia di scaricare `pdf2zh-<version>-with-assets-win64.zip`.\n> - Il file `pdf2zh-<version>-with-assets-win64.zip` include file di risorse (come font e modelli) rispetto a `pdf2zh-<version>-win64.zip`.\n> - La versione senza risorse scaricherà dinamicamente le risorse durante l'esecuzione, ma il download potrebbe fallire a causa di problemi di rete.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_17427D5A",
+      "chunk_type": "table",
+      "original_content": "***Step 2*** | Unzip `pdf2zh-<version>-with-assets-win64.zip` and navigate `pdf2zh` folder. It takes a while to decompress, please be patient.\n\n***Step 3*** | Navigate `pdf2zh` folder, then Double-click `pdf2zh.exe`.\n",
+      "start_line_no": 16,
+      "translations": {
+        "zh": "***步骤 2*** | 解压 `pdf2zh-<version>-with-assets-win64.zip` 并进入 `pdf2zh` 文件夹。解压需要一些时间，请耐心等待。\n\n***步骤 3*** | 进入 `pdf2zh` 文件夹，然后双击 `pdf2zh.exe`。\n",
+        "pt": "***Passo 2*** | Descompacte `pdf2zh-<version>-with-assets-win64.zip` e navegue até a pasta `pdf2zh`. Leva um tempo para descompactar, por favor, seja paciente.\n\n***Passo 3*** | Navegue até a pasta `pdf2zh`, então clique duas vezes em `pdf2zh.exe`.\n",
+        "fr": "***Étape 2*** | Dézippez `pdf2zh-<version>-with-assets-win64.zip` et naviguez vers le dossier `pdf2zh`. La décompression prend un certain temps, soyez patient.\n\n***Étape 3*** | Naviguez vers le dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.\n",
+        "de": "***Schritt 2*** | Entpacken Sie `pdf2zh-<version>-with-assets-win64.zip` und navigieren Sie zum Ordner `pdf2zh`. Das Entpacken dauert eine Weile, bitte haben Sie Geduld.\n\n***Schritt 3*** | Navigieren Sie zum Ordner `pdf2zh` und doppelklicken Sie dann auf `pdf2zh.exe`.\n",
+        "ja": "***ステップ 2*** | `pdf2zh-<version>-with-assets-win64.zip` を解凍し、`pdf2zh` フォルダに移動します。解凍には時間がかかる場合がありますので、しばらくお待ちください。\n\n***ステップ 3*** | `pdf2zh` フォルダに移動し、`pdf2zh.exe` をダブルクリックします。\n",
+        "it": "***Passo 2*** | Decomprimi `pdf2zh-<version>-with-assets-win64.zip` e naviga nella cartella `pdf2zh`. Ci vuole un po' di tempo per decomprimere, sii paziente.\n\n***Passo 3*** | Naviga nella cartella `pdf2zh`, quindi fai doppio clic su `pdf2zh.exe`.\n",
+        "es": "***Paso 2*** | Descomprime `pdf2zh-<version>-with-assets-win64.zip` y navega hasta la carpeta `pdf2zh`. La descompresión puede tardar un poco, por favor ten paciencia.\n\n***Paso 3*** | Navega hasta la carpeta `pdf2zh`, luego haz doble clic en `pdf2zh.exe`.\n",
+        "ko": "***2단계*** | `pdf2zh-<version>-with-assets-win64.zip` 파일의 압축을 풀고 `pdf2zh` 폴더로 이동합니다. 압축 해제에는 시간이 소요될 수 있으니 기다려 주세요.\n\n***3단계*** | `pdf2zh` 폴더로 이동한 후 `pdf2zh.exe` 파일을 더블클릭합니다.\n",
+        "zh_TW": "***步驟 2*** | 解壓縮 `pdf2zh-<version>-with-assets-win64.zip` 並進入 `pdf2zh` 資料夾。解壓縮需要一些時間，請耐心等待。\n\n***步驟 3*** | 進入 `pdf2zh` 資料夾，然後雙擊 `pdf2zh.exe`。\n",
+        "ru": "***Шаг 2*** | Распакуйте `pdf2zh-<version>-with-assets-win64.zip` и перейдите в папку `pdf2zh`. Распаковка может занять некоторое время, пожалуйста, наберитесь терпения.\n\n***Шаг 3*** | Перейдите в папку `pdf2zh`, затем дважды щелкните по файлу `pdf2zh.exe`.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B4068DB4",
+      "chunk_type": "blockquote",
+      "original_content": "> [!TIP]\n> **Cannot run the .exe file**\n>\n> If you have some problems running pdf2zh.exe, please install `https://aka.ms/vs/17/release/vc_redist.x64.exe` and try again.\n",
+      "start_line_no": 20,
+      "translations": {
+        "zh": "> [!TIP]\n> **无法运行 .exe 文件**\n>\n> 如果您在运行 pdf2zh.exe 时遇到问题，请安装 `https://aka.ms/vs/17/release/vc_redist.x64.exe` 后重试。\n",
+        "zh_TW": "> [!TIP]\n> **無法執行 .exe 文件**\n>\n> 如果您在執行 pdf2zh.exe 時遇到問題，請安裝 `https://aka.ms/vs/17/release/vc_redist.x64.exe` 後再試一次。\n",
+        "it": "> [!TIP]\n> **Impossibile eseguire il file .exe**\n>\n> Se hai problemi nell'eseguire pdf2zh.exe, installa `https://aka.ms/vs/17/release/vc_redist.x64.exe` e riprova.\n",
+        "ko": "> [!TIP]\n> **.exe 파일 실행 불가**\n>\n> pdf2zh.exe 실행에 문제가 있는 경우, `https://aka.ms/vs/17/release/vc_redist.x64.exe`를 설치한 후 다시 시도해 주세요.\n",
+        "pt": "> [!TIP]\n> **Não é possível executar o arquivo .exe**\n>\n> Se você tiver algum problema ao executar o pdf2zh.exe, por favor instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.\n",
+        "es": "> [!TIP]\n> **No se puede ejecutar el archivo .exe**\n>\n> Si tienes problemas al ejecutar pdf2zh.exe, por favor instala `https://aka.ms/vs/17/release/vc_redist.x64.exe` e inténtalo de nuevo.\n",
+        "de": "> [!TIP]\n> **Kann die .exe-Datei nicht ausführen**\n>\n> Wenn Sie Probleme beim Ausführen von pdf2zh.exe haben, installieren Sie bitte `https://aka.ms/vs/17/release/vc_redist.x64.exe` und versuchen Sie es erneut.\n",
+        "ru": "> [!TIP]\n> **Не удается запустить файл .exe**\n>\n> Если у вас возникли проблемы с запуском pdf2zh.exe, установите `https://aka.ms/vs/17/release/vc_redist.x64.exe` и попробуйте снова.\n",
+        "fr": "> [!TIP]\n> **Impossible d'exécuter le fichier .exe**\n>\n> Si vous rencontrez des problèmes pour exécuter pdf2zh.exe, veuillez installer `https://aka.ms/vs/17/release/vc_redist.x64.exe` et réessayer.\n",
+        "ja": "> [!TIP]\n> **.exe ファイルが実行できない場合**\n>\n> pdf2zh.exe の実行に問題がある場合は、`https://aka.ms/vs/17/release/vc_redist.x64.exe` をインストールしてから再度お試しください。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_68C037E0",
+      "chunk_type": "table",
+      "original_content": "***Step 4*** | A terminal will pop up after double-clicking the exe file. After about half a minute to a minute, a webpage will open in your default browser. If it does not happen, you can try to manually access `http://localhost:7860/`.\n",
+      "start_line_no": 25,
+      "translations": {
+        "zh": "***步骤 4*** | 双击 exe 文件后，终端窗口将弹出。大约半分钟到一分钟后，默认浏览器会自动打开一个网页。如果未自动打开，您可以尝试手动访问 `http://localhost:7860/`。\n",
+        "zh_TW": "***步驟 4*** | 雙擊 exe 文件後會彈出終端。大約半分鐘到一分鐘後，您的默認瀏覽器會打開一個網頁。如果沒有發生這種情況，您可以嘗試手動訪問 `http://localhost:7860/`。\n",
+        "ja": "***ステップ 4*** | exe ファイルをダブルクリックすると、ターミナルが表示されます。約 30 秒から 1 分後に、デフォルトのブラウザでウェブページが開きます。開かない場合は、手動で `http://localhost:7860/` にアクセスしてみてください。\n",
+        "fr": "***Étape 4*** | Un terminal s'ouvrira après avoir double-cliqué sur le fichier exe. Après environ une demi-minute à une minute, une page web s'ouvrira dans votre navigateur par défaut. Si cela ne se produit pas, vous pouvez essayer d'accéder manuellement à `http://localhost:7860/`.\n",
+        "es": "***Paso 4*** | Aparecerá una terminal después de hacer doble clic en el archivo exe. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.\n",
+        "pt": "***Passo 4*** | Um terminal será exibido após clicar duas vezes no arquivo .exe. Após cerca de meio minuto a um minuto, uma página da web será aberta no seu navegador padrão. Se isso não acontecer, você pode tentar acessar manualmente `http://localhost:7860/`.\n",
+        "ru": "***Шаг 4*** | После двойного клика по файлу .exe откроется терминал. Примерно через полминуты или минуту в вашем браузере по умолчанию откроется веб-страница. Если этого не произошло, попробуйте вручную перейти по адресу `http://localhost:7860/`.\n",
+        "de": "***Schritt 4*** | Nach dem Doppelklicken auf die exe-Datei öffnet sich ein Terminal. Nach etwa einer halben bis einer Minute öffnet sich eine Webseite in Ihrem Standardbrowser. Falls dies nicht geschieht, können Sie versuchen, manuell auf `http://localhost:7860/` zuzugreifen.\n",
+        "it": "***Passo 4*** | Dopo aver fatto doppio clic sul file .exe, apparirà un terminale. Dopo circa mezzo minuto o un minuto, una pagina web si aprirà nel tuo browser predefinito. Se ciò non accade, puoi provare ad accedere manualmente a `http://localhost:7860/`.\n",
+        "ko": "***4단계*** | exe 파일을 더블 클릭하면 터미널이 팝업됩니다. 약 30초에서 1분 후에 기본 브라우저에서 웹페이지가 열립니다. 이렇게 되지 않으면 `http://localhost:7860/`에 수동으로 접속해 볼 수 있습니다.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E9C46195",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n>\n> If you encounter any issues during use WebUI, please refer to [this webpage](./USAGE_webui.md).\n",
+      "start_line_no": 27,
+      "translations": {
+        "zh_TW": "> [!NOTE]\n>\n> 如果在使用 WebUI 時遇到任何問題，請參考[此網頁](./USAGE_webui.md)。\n",
+        "ko": "> [!NOTE]\n>\n> WebUI 사용 중 문제가 발생하면 [이 웹페이지](./USAGE_webui.md)를 참조하세요.\n",
+        "ru": "> [!NOTE]\n>\n> Если у вас возникли проблемы при использовании WebUI, обратитесь к [этой веб-странице](./USAGE_webui.md).\n",
+        "zh": "> [!NOTE]\n>\n> 如果在使用 WebUI 时遇到任何问题，请参考 [此网页](./USAGE_webui.md)。\n",
+        "it": "> [!NOTE]\n>\n> Se riscontri problemi durante l'utilizzo di WebUI, consulta [questa pagina web](./USAGE_webui.md).\n",
+        "ja": "> [!NOTE]\n>\n> WebUI の使用中に問題が発生した場合は、[このウェブページ](./USAGE_webui.md) を参照してください。\n",
+        "de": "> [!NOTE]\n>\n> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [diese Webseite](./USAGE_webui.md).\n",
+        "es": "> [!NOTE]\n>\n> Si encuentras algún problema al usar WebUI, por favor consulta [esta página web](./USAGE_webui.md).\n",
+        "fr": "> [!NOTE]\n>\n> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [cette page web](./USAGE_webui.md).\n",
+        "pt": "> [!NOTE]\n>\n> Se você encontrar qualquer problema durante o uso do WebUI, consulte [esta página](./USAGE_webui.md).\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_703B946D",
+      "chunk_type": "table",
+      "original_content": "***Step 5*** | Enjoy!\n",
+      "start_line_no": 31,
+      "translations": {
+        "ko": "***5단계*** | 즐기세요!\n",
+        "ja": "***ステップ 5*** | お楽しみください！\n",
+        "zh": "***步骤 5*** | 尽情享受吧！\n",
+        "ru": "***Шаг 5*** | Наслаждайтесь!\n",
+        "es": "***Paso 5*** | ¡Disfruta!\n",
+        "fr": "***Étape 5*** | Profitez-en !\n",
+        "de": "***Schritt 5*** | Viel Spaß!\n",
+        "zh_TW": "***步驟 5*** | 開始使用！\n",
+        "pt": "***Passo 5*** | Aproveite!\n",
+        "it": "***Passo 5*** | Divertiti!\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_BF8657F3",
+      "chunk_type": "blockquote",
+      "original_content": "> [!TIP]\n> **You can use the .exe file via command line**\n>\n> Use the .exe file through command line as follows:\n>\n> - Launch your terminal and navigate to the folder containing the .exe file:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Call the .exe file:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> You can use other command line parameters as normal:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> If you need more information about command line usage, please refer to this article.\n",
+      "start_line_no": 33,
+      "translations": {
+        "zh": "> [!TIP]\n> **你可以通过命令行使用 .exe 文件**\n>\n> 通过命令行使用 .exe 文件的方法如下：\n>\n> - 打开终端并导航至包含 .exe 文件的文件夹：\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - 调用 .exe 文件：\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> 你可以正常使用其他命令行参数：\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> 如需了解更多关于命令行使用的信息，请参考这篇文章。\n",
+        "zh_TW": "> [!TIP]\n> **您可以透過命令行使用 .exe 文件**\n>\n> 透過命令行使用 .exe 文件的方法如下：\n>\n> - 打開終端機並導航至包含 .exe 文件的資料夾：\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - 呼叫 .exe 文件：\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> 您可以正常使用其他命令行參數：\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> 如需更多關於命令行使用的資訊，請參考這篇文章。\n",
+        "ja": "> [!TIP]\n> **.exe ファイルはコマンドラインから使用できます**\n>\n> .exe ファイルをコマンドラインから使用する方法は以下の通りです：\n>\n> - ターミナルを起動し、.exe ファイルが含まれるフォルダに移動します：\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - .exe ファイルを呼び出します：\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> 他のコマンドラインパラメータも通常通り使用できます：\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> コマンドラインの使い方についてさらに詳しい情報が必要な場合は、こちらの記事を参照してください。\n",
+        "it": "> [!TIP]\n> **Puoi utilizzare il file .exe tramite riga di comando**\n>\n> Utilizza il file .exe tramite riga di comando come segue:\n>\n> - Avvia il terminale e naviga nella cartella contenente il file .exe:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Chiama il file .exe:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Puoi utilizzare altri parametri della riga di comando come al solito:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Se hai bisogno di maggiori informazioni sull'utilizzo della riga di comando, consulta questo articolo.\n",
+        "fr": "> [!TIP]\n> **Vous pouvez utiliser le fichier .exe via la ligne de commande**\n>\n> Utilisez le fichier .exe via la ligne de commande comme suit :\n>\n> - Lancez votre terminal et naviguez vers le dossier contenant le fichier .exe :\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Appelez le fichier .exe :\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Vous pouvez utiliser d'autres paramètres de ligne de commande comme d'habitude :\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Si vous avez besoin de plus d'informations sur l'utilisation de la ligne de commande, veuillez vous référer à cet article.\n",
+        "ru": "> [!TIP]\n> **Вы можете использовать файл .exe через командную строку**\n>\n> Используйте файл .exe через командную строку следующим образом:\n>\n> - Запустите терминал и перейдите в папку, содержащую файл .exe:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Вызовите файл .exe:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Вы можете использовать другие параметры командной строки как обычно:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Если вам нужно больше информации об использовании командной строки, обратитесь к этой статье.\n",
+        "pt": "> [!TIP]\n> **Você pode usar o arquivo .exe via linha de comando**\n>\n> Use o arquivo .exe através da linha de comando da seguinte forma:\n>\n> - Inicie seu terminal e navegue até a pasta que contém o arquivo .exe:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Chame o arquivo .exe:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Você pode usar outros parâmetros de linha de comando normalmente:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Se precisar de mais informações sobre o uso da linha de comando, consulte este artigo.\n",
+        "ko": "> [!TIP]\n> **명령줄을 통해 .exe 파일을 사용할 수 있습니다**\n>\n> 다음과 같이 명령줄을 통해 .exe 파일을 사용하세요:\n>\n> - 터미널을 실행하고 .exe 파일이 있는 폴더로 이동합니다:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - .exe 파일을 호출합니다:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> 다른 명령줄 매개변수도 정상적으로 사용할 수 있습니다:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> 명령줄 사용법에 대한 더 많은 정보가 필요하면 이 문서를 참조하세요.\n",
+        "de": "> [!TIP]\n> **Sie können die .exe-Datei über die Kommandozeile verwenden**\n>\n> Verwenden Sie die .exe-Datei wie folgt über die Kommandozeile:\n>\n> - Starten Sie Ihr Terminal und navigieren Sie zum Ordner, der die .exe-Datei enthält:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Rufen Sie die .exe-Datei auf:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Sie können andere Kommandozeilenparameter wie gewohnt verwenden:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Wenn Sie weitere Informationen zur Verwendung der Kommandozeile benötigen, lesen Sie bitte diesen Artikel.\n",
+        "es": "> [!TIP]\n> **Puedes usar el archivo .exe mediante la línea de comandos**\n>\n> Usa el archivo .exe a través de la línea de comandos de la siguiente manera:\n>\n> - Abre tu terminal y navega hasta la carpeta que contiene el archivo .exe:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Llama al archivo .exe:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Puedes usar otros parámetros de línea de comandos como de costumbre:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Si necesitas más información sobre el uso de la línea de comandos, consulta este artículo.\n"
+      }
+    }
+  ]
+}
