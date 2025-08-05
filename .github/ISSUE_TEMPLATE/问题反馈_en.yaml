@@ -20,6 +20,11 @@ body:
       - label: I have uploaded the original file, or confirmed that the issue is unrelated to the original file
         required: true
       - label: I confirm that this issue is not related to the project's API (Before the API documentation is released, any questions regarding API usage will not be accepted!)
+        required: true
+      - label: I have confirmed that due to limited resources, the maintainers of this project do not have the ability to provide high-quality answers. If you have high requirements for the answer quality, please do not submit an issue.
+        required: true
+      - label: I have confirmed that this project is provided "as is" under the AGPL v3 license, and no guarantees are provided for the quality and performance of the program. **The entire risk of the program's quality and performance is borne by you.** If the program is found to be defective, you will be responsible for all necessary service, repair, or correction costs.
+        required: true
   - type: markdown
     attributes:
       value: |
