@@ -37,6 +37,10 @@ class SiliconFlowTranslator(BaseTranslator):
         self.send_enable_thinking_param = (
             settings.translate_engine_settings.siliconflow_send_enable_thinking_param
         )
+        self.add_cache_impact_parameters("enable_thinking", self.enable_thinking)
+        self.add_cache_impact_parameters(
+            "send_enable_thinking_param", self.send_enable_thinking_param
+        )
         self.add_cache_impact_parameters("model", self.model)
         self.add_cache_impact_parameters("prompt", self.prompt(""))
         self.token_count = AtomicInteger()
