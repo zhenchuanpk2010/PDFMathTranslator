@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-05 18:01+0800\n"
-"PO-Revision-Date: 2025-08-05 18:01+0800\n"
+"POT-Creation-Date: 2025-08-05 18:31+0800\n"
+"PO-Revision-Date: 2025-08-05 18:31+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,7 +66,7 @@ msgstr "</div>\n\nPDF 學術論文翻譯與雙語對照。\n"
 # This content is from "README.md", line 37
 msgctxt "chunk_3BE38B9A"
 msgid "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
-msgstr "- 📊 保留公式、圖表、目錄和註解 _([預覽](#預覽))_。\n- 🌐 支援[多種語言](https://pdf2zh-next.com/supported_languages.html)，以及多樣化的[翻譯服務](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。\n- 🤖 提供[命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[互動式用戶界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html)和[Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
+msgstr "- 📊 保留公式、圖表、目錄和註解 _([預覽](#預覽))_。\n- 🌐 支援 [多種語言](https://pdf2zh-next.com/supported_languages.html)，以及多樣化的 [翻譯服務](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。\n- 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[互動式用戶界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
 
 # This content is from "README.md", line 41
 msgctxt "chunk_CD5D1C28"
@@ -76,7 +76,7 @@ msgstr "歡迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTra
 # This content is from "README.md", line 47
 msgctxt "chunk_5E68D02E"
 msgid "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
-msgstr "- [2025年6月4日] 项目更名为 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) 并迁移至此仓库 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025年3月3日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项加入 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025年2月22日] 优化发布CI流程并完善Windows-amd64可执行文件打包 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2024年12月24日] 翻译器现支持 [Xinference](https://github.com/xorbitsai/inference) 本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [2024年12月19日] 通过 `-cp` 参数现支持非PDF/A格式文档 _(by [@reycn](https://github.com/reycn))_\n- [2024年12月13日] 新增后端支持 _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [2024年12月10日] 翻译器现支持Azure平台上的OpenAI模型 _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
+msgstr "- [2025 年 6 月 4 日] 项目更名为 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) 并迁移至此仓库 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025 年 3 月 3 日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项加入 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025 年 2 月 22 日] 优化发布 CI 流程并完善 Windows-amd64 可执行文件打包 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2024 年 12 月 24 日] 翻译器现支持 [Xinference](https://github.com/xorbitsai/inference) 本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [2024 年 12 月 19 日] 通过 `-cp` 参数现支持非 PDF/A 格式文档 _(by [@reycn](https://github.com/reycn))_\n- [2024 年 12 月 13 日] 新增后端支持 _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [2024 年 12 月 10 日] 翻译器现支持 Azure 平台上的 OpenAI 模型 _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
 
 # This content is from "README.md", line 55
 msgctxt "chunk_2B22A264"
@@ -101,7 +101,7 @@ msgstr "您可以使用以下任一演示來試用我們的應用程式：\n"
 # This content is from "README.md", line 70
 msgctxt "chunk_B617543E"
 msgid "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_"
-msgstr "- [v1.x 公共免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_。\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月1000頁免費額度 _(推薦)_"
+msgstr "- [v1.x 公共免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_。\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 頁免費額度 _(推薦)_"
 
 # This content is from "README.md", line 75
 msgctxt "chunk_FDDD972D"
@@ -131,7 +131,7 @@ msgstr "1. [使用 **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webu
 # This content is from "README.md", line 93
 msgctxt "chunk_F57A3EE5"
 msgid "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n"
-msgstr "針對不同的使用情境，我們提供了多種方式來使用我們的程式。更多資訊請參閱[此頁面](./getting-started/getting-started.md)。\n\n<h2 id=\"usage\">高級選項</h2>\n\n如需詳細說明，請參閱我們的[高級使用](https://pdf2zh-next.com/advanced/advanced.html)文件，以獲取每個選項的完整列表。\n\n<h2 id=\"downstream\">二次開發 (APIs)</h2>\n"
+msgstr "針對不同的使用情境，我們提供了多種方式來使用我們的程式。更多資訊請參閱 [此頁面](./getting-started/getting-started.md)。\n\n<h2 id=\"usage\">高級選項</h2>\n\n如需詳細說明，請參閱我們的 [高級使用](https://pdf2zh-next.com/advanced/advanced.html) 文件，以獲取每個選項的完整列表。\n\n<h2 id=\"downstream\">二次開發 (APIs)</h2>\n"
 
 # This content is from "README.md", line 101
 msgctxt "chunk_DF45699B"
@@ -141,7 +141,7 @@ msgstr "> [!NOTE]\n>\n> 目前尚未提供相關文檔。後續將會補充，�
 # This content is from "README.md", line 111
 msgctxt "chunk_FAB5C5B4"
 msgid "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
-msgstr "<h2 id=\"語言代碼\">Language Code</h2>\n\n如果你不知道該使用什麼代碼來翻譯到你需要的語言，請查閱[這份文檔](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
+msgstr "<h2 id=\"語言代碼\">Language Code</h2>\n\n如果你不知道該使用什麼代碼來翻譯到你需要的語言，請查閱 [這份文檔](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
 
 # This content is from "README.md", line 132
 msgctxt "chunk_AD3429B4"
@@ -151,12 +151,12 @@ msgstr "<h2 id=\"致謝\">致謝</h2>\n"
 # This content is from "README.md", line 134
 msgctxt "chunk_7ED9D2AF"
 msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n"
-msgstr "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月Pro會員兌換碼，詳見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大語言模型(LLMs)的免費翻譯服務。\n\n- 1.x版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF函式庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字型：參見 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用Weblate實現文檔國際化：[Weblate](https://weblate.org/)\n"
+msgstr "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大語言模型 (LLMs) 的免費翻譯服務。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 函式庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字型：參見 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 Weblate 實現文檔國際化：[Weblate](https://weblate.org/)\n"
 
 # This content is from "README.md", line 161
 msgctxt "chunk_5DD24D41"
 msgid "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
-msgstr "<h2 id=\"conduct\">提交代碼前</h2>\n\n我們歡迎貢獻者積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的[行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)和[貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"contrib\">貢獻者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
+msgstr "<h2 id=\"conduct\">提交代碼前</h2>\n\n我們歡迎貢獻者積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的 [行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"contrib\">貢獻者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
 
 # This content is from "README.md", line 169
 msgctxt "chunk_B2A74E86"
@@ -181,7 +181,7 @@ msgstr "> [!CAUTION]\n>\n> 本文件已過時，請勿參考。\n"
 # This content is from "APIS.md", line 5
 msgctxt "chunk_3CA8722C"
 msgid "<h2 id=\"toc\">Table of Content</h2>\nThe present project supports two types of APIs, All methods need the Redis;\n"
-msgstr "<h2 id=\"目錄\">目錄</h2>\n本項目支持兩種類型的API，所有方法都需要Redis；\n"
+msgstr "<h2 id=\"目錄\">目錄</h2>\n本項目支持兩種類型的 API，所有方法都需要 Redis；\n"
 
 # This content is from "APIS.md", line 8
 msgctxt "chunk_AE8C8A31"
@@ -216,7 +216,7 @@ msgstr "<h2 id=\"api-http\">HTTP</h2>\n\n以更靈活的方式，您可以使用
 # This content is from "APIS.md", line 47
 msgctxt "chunk_5C9E9558"
 msgid "1. Install and run backend\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. Using HTTP protocols as follows:\n\n   - Submit translate task\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - Check Progress\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - Check Progress _(if finished)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - Save monolingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - Save bilingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - Interrupt if running and delete the task\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
-msgstr "1. 安裝並運行後端\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. 使用以下HTTP協議：\n\n   - 提交翻譯任務\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - 檢查進度\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - 檢查進度 _(如果已完成)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - 保存單語文件\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - 保存雙語文件\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - 如果正在運行則中斷並刪除任務\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
+msgstr "1. 安裝並運行後端\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. 使用以下 HTTP 協議：\n\n   - 提交翻譯任務\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - 檢查進度\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - 檢查進度 _(如果已完成)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - 保存單語文件\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - 保存雙語文件\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - 如果正在運行則中斷並刪除任務\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
 
 # This content is from "CODE_OF_CONDUCT.md", line 1
 msgctxt "chunk_D4E24BCF"
@@ -356,7 +356,7 @@ msgstr "一些問題經常被問到，因此我們為遇到類似問題的用戶
 # This content is from "FAQ.md", line 3
 msgctxt "chunk_2B5D23E7"
 msgid "## Is a GPU required?"
-msgstr "## 是否需要GPU？"
+msgstr "## 是否需要 GPU？"
 
 # This content is from "FAQ.md", line 20
 msgctxt "chunk_A85F81AE"
@@ -366,7 +366,7 @@ msgstr "- **問題**:"
 # This content is from "FAQ.md", line 5
 msgctxt "chunk_8E573398"
 msgid "As the program uses artificial intelligence to recognize and extract documents, is GPU required?\n"
-msgstr "由於程式使用人工智慧來辨識與提取文件，是否需要GPU？\n"
+msgstr "由於程式使用人工智慧來辨識與提取文件，是否需要 GPU？\n"
 
 # This content is from "FAQ.md", line 23
 msgctxt "chunk_FE846FC9"
@@ -431,17 +431,17 @@ msgstr "- **解決方案**:\n  - 在檔案所在的目錄中開啟命令行，�
 # This content is from "FAQ.md", line 37
 msgctxt "chunk_F523458B"
 msgid "## SSL Error and Other Network Issues"
-msgstr "If you encounter SSL errors or other network-related issues when using **pdf2zh**, follow these steps to troubleshoot:\n\n1. **Check Your Internet Connection**  \n   Ensure that your device is connected to the internet and can access other websites.\n\n2. **Verify the URL**  \n   Make sure you are using the correct URL for the service. For example:  \n   - `https://pdf2zh-next.com`  \n   - `https://api.pdf2zh.com`\n\n3. **Update Your System Time**  \n   SSL certificates rely on accurate system time. If your device's time is incorrect, SSL validation may fail.\n\n4. **Disable VPN or Proxy**  \n   Some VPNs or proxies may interfere with SSL connections. Try disabling them temporarily.\n\n5. **Clear Browser Cache**  \n   Cached SSL certificates might be outdated. Clear your browser cache and restart the browser.\n\n6. **Try Another Browser or Device**  \n   If the issue persists, test the service on a different browser or device.\n\n7. **Contact Support**  \n   If none of the above steps resolve the issue, reach out to our [Community](#community) for assistance.\n\n---\n\n## SSL 錯誤與其他網路問題\n\n如果您在使用 **pdf2zh** 時遇到 SSL 錯誤或其他與網路相關的問題，請按照以下步驟進行故障排除：\n\n1. **檢查您的網路連線**  \n   確保您的裝置已連接到網路，並且可以訪問其他網站。\n\n2. **驗證網址**  \n   確認您使用的是正確的服務網址。例如：  \n   - `https://pdf2zh-next.com`  \n   - `https://api.pdf2zh.com`\n\n3. **更新系統時間**  \n   SSL 憑證依賴準確的系統時間。如果您的裝置時間不正確，SSL 驗證可能會失敗。\n\n4. **停用 VPN 或代理**  \n   某些 VPN 或代理可能會干擾 SSL 連線。嘗試暫時停用它們。\n\n5. **清除瀏覽器快取**  \n   快取的 SSL 憑證可能已過期。清除瀏覽器快取並重新啟動瀏覽器。\n\n6. **嘗試其他瀏覽器或裝置**  \n   如果問題仍然存在，請在不同的瀏覽器或裝置上測試服務。\n\n7. **聯繫支援**  \n   如果上述步驟均無法解決問題，請聯繫我們的[社區](#社區)以獲得協助。"
+msgstr "If you encounter SSL errors or other network-related issues when using **pdf2zh**, follow these steps to troubleshoot:\n\n1. **Check Your Internet Connection**  \n   Ensure that your device is connected to the internet and can access other websites.\n\n2. **Verify the URL**  \n   Make sure you are using the correct URL for the service. For example:  \n   - `https://pdf2zh-next.com`  \n   - `https://api.pdf2zh.com`\n\n3. **Update Your System Time**  \n   SSL certificates rely on accurate system time. If your device's time is incorrect, SSL validation may fail.\n\n4. **Disable VPN or Proxy**  \n   Some VPNs or proxies may interfere with SSL connections. Try disabling them temporarily.\n\n5. **Clear Browser Cache**  \n   Cached SSL certificates might be outdated. Clear your browser cache and restart the browser.\n\n6. **Try Another Browser or Device**  \n   If the issue persists, test the service on a different browser or device.\n\n7. **Contact Support**  \n   If none of the above steps resolve the issue, reach out to our [Community](#community) for assistance.\n\n---\n\n## SSL 錯誤與其他網路問題\n\n如果您在使用 **pdf2zh** 時遇到 SSL 錯誤或其他與網路相關的問題，請按照以下步驟進行故障排除：\n\n1. **檢查您的網路連線**  \n   確保您的裝置已連接到網路，並且可以訪問其他網站。\n\n2. **驗證網址**  \n   確認您使用的是正確的服務網址。例如：  \n   - `https://pdf2zh-next.com`  \n   - `https://api.pdf2zh.com`\n\n3. **更新系統時間**  \n   SSL 憑證依賴準確的系統時間。如果您的裝置時間不正確，SSL 驗證可能會失敗。\n\n4. **停用 VPN 或代理**  \n   某些 VPN 或代理可能會干擾 SSL 連線。嘗試暫時停用它們。\n\n5. **清除瀏覽器快取**  \n   快取的 SSL 憑證可能已過期。清除瀏覽器快取並重新啟動瀏覽器。\n\n6. **嘗試其他瀏覽器或裝置**  \n   如果問題仍然存在，請在不同的瀏覽器或裝置上測試服務。\n\n7. **聯繫支援**  \n   如果上述步驟均無法解決問題，請聯繫我們的 [社區](#社區) 以獲得協助。"
 
 # This content is from "FAQ.md", line 39
 msgctxt "chunk_DF99BBC1"
 msgid "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
-msgstr "在中國下載 hugging face 模型時，使用者可能會遇到網路錯誤。例如，在[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)中。\n"
+msgstr "在中國下載 hugging face 模型時，使用者可能會遇到網路錯誤。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。\n"
 
 # This content is from "FAQ.md", line 41
 msgctxt "chunk_AC4D20E5"
 msgid "- **Solution**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Use Hugging Face Mirror](https://hf-mirror.com/).\n  - [Use Portable version](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Use Docker instead](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Update Certificates](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), as suggested in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n"
-msgstr "- **解決方案**:\n  - [繞過防火長城](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [使用 Hugging Face 鏡像](https://hf-mirror.com/).\n  - [使用便攜版本](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [更新憑證](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如[問題 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)所建議。\n"
+msgstr "- **解決方案**:\n  - [繞過防火長城](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [使用 Hugging Face 鏡像](https://hf-mirror.com/).\n  - [使用便攜版本](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [更新憑證](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如 [問題 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 所建議。\n"
 
 # This content is from "FAQ.md", line 48
 msgctxt "chunk_8AA448AC"
@@ -1021,7 +1021,7 @@ msgstr "### 隱私政策\n"
 # This content is from "SiliconFlow.md", line 26
 msgctxt "chunk_E40E083F"
 msgid "The file content will be sent to the server of the project maintainer [@awwaawwa](https://github.com/awwaawwa), and then forwarded to SiliconFlow for translation.\n\nThe maintainers of this project will only collect error information returned by SiliconFlow for debugging related services. Your file content will not be collected.\n\nSiliconFlow Privacy Policy: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
-msgstr "檔案內容將會傳送至專案維護者 [@awwaawwa](https://github.com/awwaawwa) 的伺服器，然後轉發至 SiliconFlow 進行翻譯。\n\n本專案的維護者僅會收集 SiliconFlow 回傳的錯誤資訊，用於調試相關服務。您的檔案內容將不會被收集。\n\nSiliconFlow 隱私政策: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
+msgstr "檔案內容將會傳送至專案維護者 [@awwaawwa](https://github.com/awwaawwa) 的伺服器，然後轉發至 SiliconFlow 進行翻譯。\n\n本專案的維護者僅會收集 SiliconFlow 回傳的錯誤資訊，用於調試相關服務。您的檔案內容將不會被收集。\n\nSiliconFlow 隱私政策：[简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
 
 # This content is from "SiliconFlow.md", line 34
 msgctxt "chunk_86238772"
@@ -1076,7 +1076,7 @@ msgstr "#### 命令行參數\n"
 # This content is from "advanced.md", line 23
 msgctxt "chunk_A2860DDF"
 msgid "Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).\n"
-msgstr "在命令行中執行翻譯指令，於當前工作目錄下生成翻譯後的文檔 `example-mono.pdf` 與雙語文檔 `example-dual.pdf`。預設使用 Google 作為翻譯服務。更多支援的翻譯服務可參閱[此處](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)。\n"
+msgstr "在命令行中執行翻譯指令，於當前工作目錄下生成翻譯後的文檔 `example-mono.pdf` 與雙語文檔 `example-dual.pdf`。預設使用 Google 作為翻譯服務。更多支援的翻譯服務可參閱 [此處](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)。\n"
 
 # This content is from "advanced.md", line 27
 msgctxt "chunk_B3EB591F"
@@ -1106,7 +1106,7 @@ msgstr "| `--output`                      | 檔案輸出目錄                  
 # This content is from "advanced.md", line 36
 msgctxt "chunk_D7ED91EE"
 msgid "| `--<Services>`                  | Use [**specific service**](./Documentation-of-Translation-Services.md) for translation | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
-msgstr "| `--<Services>`                  | 使用[**特定服務**](./Documentation-of-Translation-Services.md)進行翻譯 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
+msgstr "| `--<Services>`                  | 使用 [**特定服務**](./Documentation-of-Translation-Services.md) 進行翻譯 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
 
 # This content is from "advanced.md", line 37
 msgctxt "chunk_00AF4E48"
@@ -1291,7 +1291,7 @@ msgstr "| `--ocr-workaround`              | 強制將翻譯文字設為黑色並
 # This content is from "advanced.md", line 73
 msgctxt "chunk_E4BD664E"
 msgid "| `--auto-enable-ocr-workaround`  | Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
-msgstr "| `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若偵測到文件為重度掃描檔，將嘗試啟用 OCR 處理並跳過後續掃描偵測。詳見文檔說明。(預設值: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
+msgstr "| `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若偵測到文件為重度掃描檔，將嘗試啟用 OCR 處理並跳過後續掃描偵測。詳見文檔說明。(預設值：False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
 
 # This content is from "advanced.md", line 74
 msgctxt "chunk_6803D13A"
@@ -1371,7 +1371,7 @@ msgstr "- 如果頁碼是連續的，可以這樣寫：\n"
 # This content is from "advanced.md", line 109
 msgctxt "chunk_773EEC89"
 msgid "> [!TIP]\n> `25-` includes all pages after page 25. If your document has 100 pages, this is equivalent to `25-100`.\n> \n> Similarly, `-25` includes all pages before page 25, which is equivalent to `1-25`.\n"
-msgstr "> [!TIP]\n> `25-` 包含第25頁之後的所有頁面。如果您的文件有100頁，這等同於 `25-100`。\n> \n> 同樣地，`-25` 包含第25頁之前的所有頁面，這等同於 `1-25`。\n"
+msgstr "> [!TIP]\n> `25-` 包含第 25 頁之後的所有頁面。如果您的文件有 100 頁，這等同於 `25-100`。\n> \n> 同樣地，`-25` 包含第 25 頁之前的所有頁面，這等同於 `1-25`。\n"
 
 # This content is from "advanced.md", line 114
 msgctxt "chunk_1A89F075"
@@ -1391,7 +1391,7 @@ msgstr "- 如果頁面包含連續與非連續範圍，你也可以用逗號連�
 # This content is from "advanced.md", line 128
 msgctxt "chunk_16D6BA70"
 msgid "This command will translate the first page, the third page, pages 10-20, and all pages from 25 to the end.\n\n\n[⬆️ Back to top](#toc)\n"
-msgstr "這個命令將翻譯第一頁、第三頁、第10至20頁，以及從第25頁開始的所有頁面。\n\n\n[⬆️ 回到頂部](#目錄)\n"
+msgstr "這個命令將翻譯第一頁、第三頁、第 10 至 20 頁，以及從第 25 頁開始的所有頁面。\n\n\n[⬆️ 回到頂部](#目錄)\n"
 
 # This content is from "advanced.md", line 135
 msgctxt "chunk_482C5F18"
@@ -1451,7 +1451,7 @@ msgstr "- 透過 **命令行參數** 修改配置\n"
 # This content is from "advanced.md", line 194
 msgctxt "chunk_4579F74D"
 msgid "For most cases, you can directly pass your desired settings through command line arguments. Please refer to [Command Line Args](#cmd) for more information.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n"
-msgstr "在大多數情況下，您可以直接通過命令行參數傳遞所需的設置。更多資訊請參閱[命令行參數](#命令行參數)。\n\n例如，如果您想啟用圖形界面窗口，可以使用以下命令：\n"
+msgstr "在大多數情況下，您可以直接通過命令行參數傳遞所需的設置。更多資訊請參閱 [命令行參數](#命令行參數)。\n\n例如，如果您想啟用圖形界面窗口，可以使用以下命令：\n"
 
 # This content is from "advanced.md", line 202
 msgctxt "chunk_85CC4581"
@@ -1761,7 +1761,7 @@ msgstr "<h4 id=\"doctypo\">8. 文件格式設定</h4>\n"
 # This content is from "Contribution-Guide.md", line 90
 msgctxt "chunk_320F91BE"
 msgid "   - For `README.md` formatting, please follow the [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Ensure that both English and Chinese documentation are always up to date; other language documentation updates are optional.\n"
-msgstr "   - 對於 `README.md` 的格式，請遵循[中文文案排版指南](https://github.com/sparanoid/chinese-copywriting-guidelines)。\n   - 確保英文和中文文檔始終保持最新；其他語言文檔的更新是可選的。\n"
+msgstr "   - 對於 `README.md` 的格式，請遵循 [中文文案排版指南](https://github.com/sparanoid/chinese-copywriting-guidelines)。\n   - 確保英文和中文文檔始終保持最新；其他語言文檔的更新是可選的。\n"
 
 # This content is from "Contribution-Guide.md", line 93
 msgctxt "chunk_126AF33C"
@@ -1846,7 +1846,7 @@ msgstr "<h4>2. 在您的預設瀏覽器中輸入此 URL 以開啟 WebUI 頁面�
 # This content is from "INSTALLATION_docker.md", line 35
 msgctxt "chunk_B5C49A1E"
 msgid "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md)."
-msgstr "> [!NOTE]\n> 如果在使用 WebUI 時遇到任何問題，請參考[如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用命令行時遇到任何問題，請參考[如何使用 --> 命令行](./USAGE_commandline.md)。"
+msgstr "> [!NOTE]\n> 如果在使用 WebUI 時遇到任何問題，請參考 [如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用命令行時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。"
 
 # This content is from "INSTALLATION_uv.md", line 1
 msgctxt "chunk_23005398"
@@ -1866,7 +1866,7 @@ msgstr "#### 什麼是 uv？如何安裝它？\n"
 # This content is from "INSTALLATION_uv.md", line 9
 msgctxt "chunk_8963BEA0"
 msgid "uv is an extremely fast Python package and project manager, written in Rust.\n<br>\nTo install uv on your computer, please refer to [this article](https://docs.astral.sh/uv/getting-started/installation/).\n"
-msgstr "uv 是一個極其快速的 Python 套件和專案管理器，使用 Rust 編寫。\n<br>\n要在您的電腦上安裝 uv，請參考[這篇文章](https://docs.astral.sh/uv/getting-started/installation/)。\n"
+msgstr "uv 是一個極其快速的 Python 套件和專案管理器，使用 Rust 編寫。\n<br>\n要在您的電腦上安裝 uv，請參考 [這篇文章](https://docs.astral.sh/uv/getting-started/installation/)。\n"
 
 # This content is from "INSTALLATION_uv.md", line 15
 msgctxt "chunk_6EBC627B"
@@ -1891,7 +1891,7 @@ msgstr "!!! Warning\n\n    如果在執行時看到錯誤 `command not found: pd
 # This content is from "INSTALLATION_uv.md", line 52
 msgctxt "chunk_C86DFF6A"
 msgid "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).\n"
-msgstr "> [!NOTE]\n> 如果在使用 WebUI 時遇到任何問題，請參考[如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用命令行時遇到任何問題，請參考[如何使用 --> 命令行](./USAGE_commandline.md)。\n"
+msgstr "> [!NOTE]\n> 如果在使用 WebUI 時遇到任何問題，請參考 [如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用命令行時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。\n"
 
 # This content is from "INSTALLATION_winexe.md", line 1
 msgctxt "chunk_E5616440"
@@ -1931,7 +1931,7 @@ msgstr "***步驟 4*** | 雙擊 exe 檔案後，終端機將會彈出。大約�
 # This content is from "INSTALLATION_winexe.md", line 27
 msgctxt "chunk_E9C46195"
 msgid "> [!NOTE]\n>\n> If you encounter any issues during use WebUI, please refer to [this webpage](./USAGE_webui.md).\n"
-msgstr "> [!NOTE]\n>\n> 如果在使用 WebUI 時遇到任何問題，請參考[此網頁](./USAGE_webui.md)。\n"
+msgstr "> [!NOTE]\n>\n> 如果在使用 WebUI 時遇到任何問題，請參考 [此網頁](./USAGE_webui.md)。\n"
 
 # This content is from "INSTALLATION_winexe.md", line 31
 msgctxt "chunk_703B946D"
@@ -1986,7 +1986,7 @@ msgstr "#### 高級用法\n"
 # This content is from "USAGE_commandline.md", line 47
 msgctxt "chunk_98AF19D9"
 msgid "For detailed explanations of additional command line parameters, please refer to [advanced usage](./../advanced/advanced.md).\n"
-msgstr "有關其他命令行參數的詳細說明，請參閱[高級用法](./../advanced/advanced.md)。\n"
+msgstr "有關其他命令行參數的詳細說明，請參閱 [高級用法](./../advanced/advanced.md)。\n"
 
 # This content is from "USAGE_webui.md", line 1
 msgctxt "chunk_03FD0E12"
@@ -2006,7 +2006,7 @@ msgstr "#### 如何開啟 WebUI 頁面：\n"
 # This content is from "USAGE_webui.md", line 9
 msgctxt "chunk_65E65B28"
 msgid "There are several methods to open the WebUI interface. If you are using **Windows**, please refer to [this article](./INSTALLATION_winexe.md);\n"
-msgstr "有幾種方法可以開啟 WebUI 介面。如果您使用的是 **Windows**，請參考[這篇文章](./INSTALLATION_winexe.md)；\n"
+msgstr "有幾種方法可以開啟 WebUI 介面。如果您使用的是 **Windows**，請參考 [這篇文章](./INSTALLATION_winexe.md)；\n"
 
 # This content is from "USAGE_webui.md", line 11
 msgctxt "chunk_2A12C8AD"
@@ -2076,4 +2076,4 @@ msgstr "1. [使用 **WebUI**](./USAGE_webui.md)\n2. [使用 **Zotero 插件**](h
 # This content is from "supported_languages.md", line 1
 msgctxt "chunk_C7A7730D"
 msgid "> [!NOTE]\n> Please [click here](https://funstory-ai.github.io/BabelDOC/supported_languages/) to navigate to the *BabelDOC Supported Language* page. The information there also applies to pdf2zh."
-msgstr "> [!NOTE]\n> 請[點擊這裡](https://funstory-ai.github.io/BabelDOC/supported_languages/)前往 *BabelDOC 支持的語言* 頁面。該處的資訊同樣適用於 pdf2zh。"
+msgstr "> [!NOTE]\n> 請 [點擊這裡](https://funstory-ai.github.io/BabelDOC/supported_languages/) 前往 *BabelDOC 支持的語言* 頁面。該處的資訊同樣適用於 pdf2zh。"

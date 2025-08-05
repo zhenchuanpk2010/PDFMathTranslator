@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-05 18:01+0800\n"
-"PO-Revision-Date: 2025-08-05 18:01+0800\n"
+"POT-Creation-Date: 2025-08-05 18:31+0800\n"
+"PO-Revision-Date: 2025-08-05 18:31+0800\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -436,7 +436,7 @@ msgstr "## Errore SSL e Altri Problemi di Rete"
 # This content is from "FAQ.md", line 39
 msgctxt "chunk_DF99BBC1"
 msgid "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
-msgstr "在下载Hugging Face模型时，中国用户可能会遇到网络错误。例如，在[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)中提到的案例。\n"
+msgstr "在下载 Hugging Face 模型时，中国用户可能会遇到网络错误。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中提到的案例。\n"
 
 # This content is from "FAQ.md", line 41
 msgctxt "chunk_AC4D20E5"
