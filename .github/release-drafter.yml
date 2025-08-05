@@ -33,6 +33,12 @@ version-resolver:
       - 'patch'
   default: patch
 template: |
+  > [!WARNING]
+  >
+  > This project is provided "as is" under the AGPL v3 license, and no guarantees are provided for the quality and performance of the program. **The entire risk of the program's quality and performance is borne by you.** If the program is found to be defective, you will be responsible for all necessary service, repair, or correction costs.
+  >
+  > Due to limited resources, we do not provide any form of usage assistance or problem-solving. Related issues will be closed directly! (Welcome to submit PRs to improve this project's documentation; Bugs or friendly issues are not affected by this.)
+
   ## Changes
 
   $CHANGES
