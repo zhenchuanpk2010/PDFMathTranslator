@@ -1,6 +1,6 @@
 ### Erste Schritte
 
-PDFMathTranslate ist ein leistungsstarkes PDF-Übersetzungstool. Sie können dieses Tool auf verschiedene Arten installieren und mit der Verwendung beginnen.
+PDFMathTranslate ist ein leistungsstarkes PDF-Übersetzungstool. Sie können dieses Tool auf verschiedene Arten installieren und verwenden.
 
 ---
 

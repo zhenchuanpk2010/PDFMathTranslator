@@ -3,7 +3,7 @@
 > 이 문서는 오래된 문서이므로 참고하지 마십시오.
 
 <h2 id="목차">목차</h2>
-현재 프로젝트는 두 가지 유형의 API 를 지원하며, 모든 메서드는 Redis 가 필요합니다.
+현재 프로젝트는 두 가지 유형의 API 를 지원하며, 모든 방법에는 Redis 가 필요합니다.
 
 - [Python 에서의 함수 호출](#api-python)
 - [HTTP 프로토콜](#api-http)
@@ -12,7 +12,7 @@
 
 <h2 id="api-python">Python</h2>
 
-`pdf2zh`는 Python 에 설치된 모듈이므로, 다른 프로그램에서 호출할 수 있는 두 가지 메서드를 Python 스크립트에서 사용할 수 있습니다.
+`pdf2zh`는 Python 에 설치된 모듈이므로, 다른 프로그램에서 어떤 Python 스크립트에서든 호출할 수 있는 두 가지 메서드를 제공합니다.
 
 예를 들어, Google Translate 를 사용하여 영어 문서를 중국어로 번역하려면 다음 코드를 사용할 수 있습니다:
 
@@ -36,13 +36,13 @@ with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
 ```
 
-[⬆️ 맨 위로 이동](#toc)
+[⬆️ 맨 위로 돌아가기](#toc)
 
 ---
 
 <h2 id="api-http">HTTP</h2>
 
-보다 유연한 방식으로, 다음과 같은 경우에 HTTP 프로토콜을 사용하여 프로그램과 통신할 수 있습니다:
+보다 유연한 방식으로, 다음과 같은 경우 HTTP 프로토콜을 사용하여 프로그램과 통신할 수 있습니다:
 
 1. 백엔드 설치 및 실행
 
@@ -92,7 +92,7 @@ with open('example.pdf', 'rb') as f:
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
 
-[⬆️ 맨 위로 이동](#toc)
+[⬆️ 맨 위로 돌아가기](#toc)
 
 ---
 

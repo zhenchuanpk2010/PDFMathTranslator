@@ -1,0 +1,85 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/introduction.md",
+  "chunks": [
+    {
+      "id": "chunk_0D45C98F",
+      "raw_content": "### Advanced\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_F16EF37C",
+      "raw_content": "This section is intended for advanced users of this software. Here you can find:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_5FC80BEA",
+      "raw_content": "1. [**Advanced Usage**](./advanced.md)",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_7B3D7A76",
+      "raw_content": "<br>\nIn this section, you can explore specify source/target languages, switch translation services, and more.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 6
+    },
+    {
+      "id": "chunk_7A0A4B36",
+      "raw_content": "2. [**Language Code**](./Language-Codes.md)",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_298EB9AE",
+      "raw_content": "<br>\nIf you are unsure about which codes to use for translating your source/target languages, you can find them here.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 10
+    },
+    {
+      "id": "chunk_A956AA16",
+      "raw_content": "3. [**Documentation of Translation Services**](./Documentation-of-Translation-Services.md)",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_49F0D79D",
+      "raw_content": "<br>\nIf you need to review the documentation provided by the translation services you are using, please refer to this page.",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 14
+    }
+  ]
+}

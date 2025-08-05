@@ -12,7 +12,7 @@
     <img src="https://static.pepy.tech/badge/pdf2zh-next"></a>
   <a href="https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags">
     <img src="https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next"></a>
-  <a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Featured｜HelloGitHub" /></a>
+  <a href="https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small" alt="Empfohlen｜HelloGitHub" /></a>
   <!-- <a href="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview">
     <img src="https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg"></a> -->
   <!-- <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
@@ -32,24 +32,24 @@
 
 </div>
 
-PDFMathTranslate: Übersetzung wissenschaftlicher Artikel und bilingualer Vergleich.
+PDF wissenschaftliche Artikelübersetzung und bilingualer Vergleich.
 
 - 📊 Erhalten Sie Formeln, Diagramme, Inhaltsverzeichnisse und Anmerkungen _([Vorschau](#vorschau))_.
-- 🌐 Unterstützt [mehrere Sprachen](https://pdf2zh-next.com/supported_languages.html) und diverse [Übersetzungsdienste](https://pdf2zh-next.com/advanced/Dokumentation-der-Übersetzungsdienste.html).
-- 🤖 Bietet [Kommandozeilen-Tool](https://pdf2zh-next.com/erste-schritte/Verwendung_kommandozeile.html), [interaktive Benutzeroberfläche](https://pdf2zh-next.com/erste-schritte/Verwendung_webui.html) und [Docker](https://pdf2zh-next.com/erste-schritte/Installation_docker.html)
+- 🌐 Unterstützt [mehrere Sprachen](https://pdf2zh-next.com/supported_languages.html) und diverse [Übersetzungsdienste](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
+- 🤖 Bietet [Kommandozeilen-Tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interaktive Benutzeroberfläche](https://pdf2zh-next.com/getting-started/USAGE_webui.html) und [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) an.
 
-Fühlen Sie sich frei, Feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) oder der [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) zu geben.
+Gerne können Sie Feedback in den [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) oder der [Telegram-Gruppe](https://t.me/+Z9_SgnxmsmA5NzBl) geben.
 
 Weitere Details zur Mitwirkung finden Sie im [Beitragsleitfaden](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="updates">Updates</h2>
+<h2 id="updates">Aktualisierungen</h2>
 
 - [4. Juni 2025] Das Projekt wurde umbenannt und zu [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) verschoben (von [@awwaawwa](https://github.com/awwaawwa))
-- [3. März 2025] Experimentelle Unterstützung für das neue Backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI wurde als experimentelle Option hinzugefügt (von [@awwaawwa](https://github.com/awwaawwa))
+- [3. März 2025] Experimentelle Unterstützung für das neue Backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI als experimentelle Option hinzugefügt (von [@awwaawwa](https://github.com/awwaawwa))
 - [22. Februar 2025] Verbesserte Release-CI und gut verpackte Windows-amd64-Exe (von [@awwaawwa](https://github.com/awwaawwa))
 - [24. Dezember 2024] Der Übersetzer unterstützt nun lokale Modelle auf [Xinference](https://github.com/xorbitsai/inference) _(von [@imClumsyPanda](https://github.com/imClumsyPanda))_
 - [19. Dezember 2024] Nicht-PDF/A-Dokumente werden nun mit `-cp` unterstützt _(von [@reycn](https://github.com/reycn))_
-- [13. Dezember 2024] Zusätzliche Unterstützung für das Backend von _(von [@YadominJinta](https://github.com/YadominJinta))_
+- [13. Dezember 2024] Zusätzliche Unterstützung für Backend von _(von [@YadominJinta](https://github.com/YadominJinta))_
 - [10. Dezember 2024] Der Übersetzer unterstützt nun OpenAI-Modelle auf Azure _(von [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="vorschau">Vorschau</h2>
@@ -86,15 +86,15 @@ Beachten Sie, dass die Rechenressourcen der Demo begrenzt sind, daher vermeiden 
 
 ### Verwendung
 
-1. [Verwendung der **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)  
-2. [Verwendung des **Zotero-Plugins**](https://github.com/guaguastandup/zotero-pdf2zh) (Drittanbieterprogramm)  
-3. [Verwendung der **Kommandozeile**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
+1. [Verwendung von **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)  
+2. [Verwendung von **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Drittanbieterprogramm)  
+3. [Verwendung von **Kommandozeile**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
 Für verschiedene Anwendungsfälle bieten wir unterschiedliche Methoden zur Nutzung unseres Programms. Weitere Informationen finden Sie auf [dieser Seite](./getting-started/getting-started.md).
 
 <h2 id="usage">Erweiterte Optionen</h2>
 
-Detaillierte Erklärungen finden Sie in unserem Dokument über [Erweiterte Verwendung](https://pdf2zh-next.com/advanced/advanced.html) für eine vollständige Liste jeder Option.
+Für detaillierte Erklärungen lesen Sie bitte unser Dokument über [Erweiterte Verwendung](https://pdf2zh-next.com/advanced/advanced.html) für eine vollständige Liste jeder Option.
 
 <h2 id="downstream">Sekundäre Entwicklung (APIs)</h2>
 
@@ -108,7 +108,7 @@ Detaillierte Erklärungen finden Sie in unserem Dokument über [Erweiterte Verwe
 - [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
 - [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
 
-<h2 id="sprachcode">Language Code</h2>
+<h2 id="langcode">Sprachcode</h2>
 
 Wenn Sie nicht wissen, welchen Code Sie für die gewünschte Sprache verwenden sollen, lesen Sie [diese Dokumentation](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
@@ -133,7 +133,7 @@ Wenn Sie nicht wissen, welchen Code Sie für die gewünschte Sprache verwenden s
 
 - [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) bietet kostenlose Übersetzungsdienste für dieses Projekt an
+- [SiliconFlow](https://siliconflow.cn) stellt für dieses Projekt einen kostenlosen Übersetzungsservice bereit, der von großen Sprachmodellen (LLMs) unterstützt wird.
 
 - 1.x Version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -156,9 +156,11 @@ Wenn Sie nicht wissen, welchen Code Sie für die gewünschte Sprache verwenden s
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
+- Dokumentation i18n mit Weblate: [Weblate](https://weblate.org/)
+
 <h2 id="conduct">Bevor Sie Ihren Code einreichen</h2>
 
-Wir freuen uns über die aktive Teilnahme von Mitwirkenden, um pdf2zh besser zu machen. Bevor Sie Ihren Code einreichen, lesen Sie bitte unseren [Verhaltenskodex](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) und unseren [Leitfaden für Beiträge](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Wir begrüßen die aktive Teilnahme von Mitwirkenden, um pdf2zh besser zu machen. Bevor Sie bereit sind, Ihren Code einzureichen, lesen Sie bitte unseren [Verhaltenskodex](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) und unseren [Leitfaden für Beiträge](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Mitwirkende</h2>
 
@@ -168,80 +170,15 @@ Wir freuen uns über die aktive Teilnahme von Mitwirkenden, um pdf2zh besser zu 
 
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<h2 id="star_hist">Star-Historie</h2>
+<h2 id="sternverlauf">Star History</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
- # PDFMathTranslate
-
-[![PyPI version](https://badge.fury.io/py/pdf2zh.svg)](https://badge.fury.io/py/pdf2zh)
-[![Downloads](https://static.pepy.tech/badge/pdf2zh)](https://pepy.tech/project/pdf2zh)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-PDFMathTranslate is a tool designed to convert PDF files containing mathematical formulas into a format that can be translated while preserving the structure and meaning of the mathematical content.
-
-## Features
-
-- **Preservation of Formulas**: Keeps mathematical formulas intact during translation.
-- **Support for Multiple Languages**: Translates text around formulas into desired languages.
-- **Easy Integration**: Can be used via command line or integrated into other Python projects.
-
-## Table of Contents
-
-- [Startseite](#startseite)
-- [Erste Schritte](#erste-schritte)
-  - [Installation](#installation)
-  - [Verwendung](#verwendung)
-- [Dokumentation der Übersetzungsdienste](#dokumentation-der-übersetzungsdienste)
-- [Erweiterte Optionen](#erweiterte-optionen)
-- [Unterstützte Sprachen](#unterstützte-sprachen)
-- [Gemeinschaft](#gemeinschaft)
-- [Häufig gestellte Fragen](#häufig-gestellte-fragen)
-
-## Startseite
-
-PDFMathTranslate is a powerful tool for translating PDF documents with mathematical content. It ensures that the mathematical formulas remain unchanged while the surrounding text is translated accurately.
-
-## Erste Schritte
-
-### Installation
-
-To install PDFMathTranslate, run the following command:
-
-```bash
-pip install pdf2zh
-```
-
-### Verwendung
-
-After installation, you can use PDFMathTranslate via the Kommandozeile:
-
-```bash
-pdf2zh input.pdf output.pdf --target_lang de
-```
-
-## Dokumentation der Übersetzungsdienste
-
-For detailed documentation on how to use the translation services, refer to the [Dokumentation der Übersetzungsdienste](#dokumentation-der-übersetzungsdienste).
-
-## Erweiterte Optionen
-
-PDFMathTranslate offers advanced options for customization, such as specifying the Sprachcode for translation or adjusting the formatting of the output.
-
-## Unterstützte Sprachen
-
-PDFMathTranslate supports a wide range of languages. For a complete list, check the [Unterstützte Sprachen](#unterstützte-sprachen) section.
-
-## Gemeinschaft
-
-Join our community to get help, share ideas, and contribute to the project.
-
-## Häufig gestellte Fragen
-
-For answers to common questions, visit the [Häufig gestellte Fragen](#häufig-gestellte-fragen) section.
+ </picture>
+</a>
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

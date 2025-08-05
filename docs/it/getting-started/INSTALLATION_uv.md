@@ -14,9 +14,9 @@ Per installare uv sul tuo computer, consulta [questo articolo](https://docs.astr
 
 #### Installazione
 
-1. Python installato (versione compresa tra 3.10 e 3.12);
+1. Python installato (versione 3.10 <= versione <= 3.12);
 
-2. Utilizzare il seguente comando per utilizzare il nostro pacchetto:
+2. Utilizza il seguente comando per usare il nostro pacchetto:
 
     ```bash
     pip install uv
@@ -50,7 +50,7 @@ Dopo l'installazione, puoi iniziare la traduzione tramite la **riga di comando**
         Quindi riavvia il terminale
 
 > [!NOTE]
-> Se riscontri problemi durante l'utilizzo della WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
+> Se riscontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Se riscontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).

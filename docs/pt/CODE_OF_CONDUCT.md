@@ -13,16 +13,16 @@ diversa, inclusiva e saudável.
 
 ## Nossos Padrões
 
-Exemplos de comportamentos que contribuem para um ambiente positivo em nossa
+Exemplos de comportamento que contribuem para um ambiente positivo em nossa
 comunidade incluem:
 
-* Demonstrar empatia e gentileza em relação às outras pessoas  
+* Demonstrar empatia e gentileza em relação aos outros  
 * Ser respeitoso com opiniões, pontos de vista e experiências diferentes  
-* Dar e aceitar com elegância feedbacks construtivos  
-* Assumir responsabilidade e pedir desculpas àqueles afetados por nossos erros, e aprender com a experiência  
-* Focar no que é melhor não apenas para nós como indivíduos, mas para a comunidade como um todo
+* Dar e aceitar graciosamente feedback construtivo  
+* Aceitar responsabilidade e pedir desculpas àqueles afetados por nossos erros, aprendendo com a experiência  
+* Focar no que é melhor não apenas para nós como indivíduos, mas para toda a comunidade
 
-Exemplos de comportamentos inaceitáveis incluem:
+Exemplos de comportamento inaceitável incluem:
 
 * O uso de linguagem ou imagens sexualizadas, e atenção ou avanços sexuais de qualquer tipo  
 * Provocações, comentários insultuosos ou depreciativos, e ataques pessoais ou políticos  
@@ -32,28 +32,25 @@ Exemplos de comportamentos inaceitáveis incluem:
 
 ## Responsabilidades de Execução
 
-Os líderes da comunidade são responsáveis por esclarecer e fazer cumprir nossos padrões de
-comportamento aceitável e tomarão medidas corretivas apropriadas e justas em
-resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo,
-ou prejudicial.
+Os líderes da comunidade são responsáveis por esclarecer e fazer cumprir nossos padrões de comportamento aceitável e tomarão medidas corretivas apropriadas e justas em resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo ou prejudicial.
 
-Os líderes da comunidade têm o direito e a responsabilidade de remover, editar ou rejeitar
-comentários, commits, código, edições de wiki, problemas e outras contribuições que não estejam
-alinhadas a este Código de Conduta, e comunicarão os motivos das decisões de moderação
-quando apropriado.
+Os líderes da comunidade têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, problemas e outras contribuições que não estejam alinhadas com este Código de Conduta, e comunicarão os motivos das decisões de moderação quando apropriado.
 
 ## Escopo
 
-Este Código de Conduta aplica-se dentro de todos os espaços da comunidade e também quando um indivíduo está representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem o uso de um endereço de e-mail oficial, postagens por meio de uma conta oficial de mídia social ou atuar como representante designado em um evento online ou offline.
+Este Código de Conduta aplica-se dentro de todos os espaços da comunidade e também se aplica quando um indivíduo está representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem o uso de um endereço de e-mail oficial, postagens por meio de uma conta oficial de mídia social ou atuar como representante designado em um evento online ou offline.
 
 ## Aplicação
 
-Casos de comportamento abusivo, assédio ou qualquer outro comportamento inaceitável podem ser relatados aos líderes da comunidade responsáveis pela aplicação das regras em aw@funstory.ai.  
-Todas as reclamações serão revisadas e investigadas de forma rápida e justa.  
+Casos de comportamento abusivo, assediador ou inaceitável podem ser
+reportados aos líderes da comunidade responsáveis pela aplicação em
+aw@funstory.ai.
+Todas as reclamações serão revisadas e investigadas prontamente e de forma justa.
 
-Todos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança do denunciante de qualquer incidente.
+Todos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança do
+denunciante de qualquer incidente.
 
-## Diretrizes de aplicação
+## Diretrizes de Execução
 
 Os líderes da comunidade seguirão estas Diretrizes de Impacto na Comunidade ao determinar
 as consequências para qualquer ação que considerem em violação deste Código de Conduta:
@@ -68,19 +65,19 @@ as consequências para qualquer ação que considerem em violação deste Códig
 
 **Impacto na Comunidade**: Uma violação através de um único incidente ou série de ações.
 
-**Consequência**: Um aviso com consequências para comportamento contínuo. Nenhuma interação com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, por um período de tempo especificado. Isso inclui evitar interações nos espaços da comunidade, bem como em canais externos como mídias sociais. Violar esses termos pode levar a uma suspensão temporária ou permanente.
+**Consequência**: Um aviso com consequências para comportamento contínuo. Nenhuma interação com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, por um período de tempo especificado. Isso inclui evitar interações em espaços da comunidade, bem como canais externos como mídias sociais. Violar esses termos pode levar a um banimento temporário ou permanente.
 
-### 3. Suspensão temporária
+### 3. Banimento Temporário
 
-**Impacto na Comunidade**: Uma violação grave dos padrões da comunidade, incluindo comportamento inadequado contínuo.
+**Impacto na Comunidade**: Uma violação grave dos padrões da comunidade, incluindo comportamento inadequado sustentado.
 
-**Consequência**: Uma suspensão temporária de qualquer tipo de interação ou comunicação pública com a comunidade por um período de tempo especificado. Nenhuma interação pública ou privada com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, é permitida durante este período. Violar esses termos pode levar a uma suspensão permanente.
+**Consequência**: Um banimento temporário de qualquer tipo de interação ou comunicação pública com a comunidade por um período de tempo especificado. Nenhuma interação pública ou privada com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, é permitida durante este período. Violar esses termos pode levar a um banimento permanente.
 
 ### 4. Banimento permanente
 
-**Impacto na Comunidade**: Demonstrar um padrão de violação dos padrões da comunidade, incluindo comportamento inadequado contínuo, assédio a um indivíduo ou agressão ou difamação de classes de indivíduos.
+**Impacto na Comunidade**: Demonstrar um padrão de violação dos padrões da comunidade, incluindo comportamento inadequado persistente, assédio a um indivíduo ou agressão ou difamação de classes de indivíduos.
 
-**Consequência**: Uma proibição permanente de qualquer tipo de interação pública dentro da comunidade.
+**Consequência**: Um banimento permanente de qualquer tipo de interação pública dentro da comunidade.
 
 ## Atribuição
 
@@ -88,12 +85,11 @@ Este Código de Conduta é adaptado do [Contributor Covenant][homepage],
 versão 2.0, disponível em  
 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.  
 
-As Diretrizes de Impacto na Comunidade foram inspiradas pelo [código de conduta  
-de escalonamento de aplicação da Mozilla](https://github.com/mozilla/diversity).  
+As Diretrizes de Impacto na Comunidade foram inspiradas pela [escada de aplicação do código de conduta da Mozilla](https://github.com/mozilla/diversity).  
 
 [homepage]: https://www.contributor-covenant.org  
 
-Para respostas a perguntas comuns sobre este código de conduta, consulte as [Perguntas frequentes](#perguntas-frequentes) em  
+Para respostas a perguntas comuns sobre este código de conduta, consulte as Perguntas frequentes em  
 https://www.contributor-covenant.org/faq. Traduções estão disponíveis em  
 https://www.contributor-covenant.org/translations.
 

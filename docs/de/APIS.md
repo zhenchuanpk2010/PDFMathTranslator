@@ -12,7 +12,7 @@ Das vorliegende Projekt unterstützt zwei Arten von APIs, alle Methoden benötig
 
 <h2 id="api-python">Python</h2>
 
-Da `pdf2zh` ein installiertes Modul in Python ist, stellen wir zwei Methoden zur Verfügung, die von anderen Programmen in beliebigen Python-Skripten aufgerufen werden können.
+Da `pdf2zh` ein installiertes Modul in Python ist, stellen wir zwei Methoden für andere Programme zur Verfügung, die in beliebigen Python-Skripten aufgerufen werden können.
 
 Wenn Sie beispielsweise ein Dokument von Englisch nach Chinesisch mit Google Translate übersetzen möchten, können Sie den folgenden Code verwenden:
 

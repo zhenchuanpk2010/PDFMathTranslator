@@ -18,12 +18,12 @@ pdf2zh_next --siliconflowfree example.pdf
 
 1. 「翻訳オプション」の「サービス」ドロップダウンリストから「SiliconFlowFree」を選択します。
 2. ページ下部の「翻訳」ボタンをクリックして翻訳を開始します。
-3. 翻訳が完了すると、ページ下部の「翻訳済み」セクションで翻訳された PDF ファイルを見つけることができます。
+3. 翻訳が完了したら、ページ下部の「翻訳済み」セクションで翻訳された PDF ファイルを見つけることができます。
 
 
 ### プライバシーポリシー
 
-ファイルの内容はプロジェクトのメンテナー [@awwaawwa](https://github.com/awwaawwa) のサーバーに送信され、その後 SiliconFlow に転送されて翻訳されます。
+ファイルの内容は、プロジェクトのメンテナー [@awwaawwa](https://github.com/awwaawwa) のサーバーに送信され、その後 SiliconFlow に転送されて翻訳されます。
 
 このプロジェクトのメンテナーは、SiliconFlow から返されるエラー情報のみを収集し、関連サービスのデバッグに使用します。ファイルの内容は収集されません。
 
@@ -59,7 +59,7 @@ pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --si
 
 ## 謝辞
 
-このプロジェクトに無料翻訳サービスを提供してくださった[SiliconFlow](https://siliconflow.cn)に感謝します。
+[SiliconFlow](https://siliconflow.cn)に、このプロジェクトのために無料翻訳サービスを提供していただき感謝いたします。
 
 <div align="right"> 
 <h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

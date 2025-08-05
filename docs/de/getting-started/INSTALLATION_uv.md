@@ -1,10 +1,10 @@
-[**Erste Schritte**](./erste-schritte.md) > **Installation** > **uv** _(aktuell)_
+[**Erste Schritte**](./getting-started.md) > **Installation** > **uv** _(aktuell)_
 
 ---
 
 ### Installieren Sie PDFMathTranslate über uv
 
-#### Was ist uv? Wie wird es installiert?
+#### Was ist uv? Wie installiert man es?
 
 uv ist ein extrem schneller Python-Paket- und Projektmanager, geschrieben in Rust.
 <br>
@@ -50,7 +50,7 @@ Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile
         Starten Sie dann Ihr Terminal neu
 
 > [!NOTE]
-> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).
+> Wenn Sie Probleme bei der Verwendung von WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Wenn Sie Probleme bei der Verwendung der Kommandozeile haben, lesen Sie bitte [Verwendung --> Kommandozeile](./USAGE_commandline.md).

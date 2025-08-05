@@ -2,19 +2,19 @@
 
 > [!CAUTION]
 >
-> Os mantenedores atuais do projeto estão pesquisando a internacionalização automatizada da documentação. Portanto, qualquer PR relacionado à internacionalização/tradução da documentação NÃO será aceito!
+> Os mantenedores atuais do projeto estão pesquisando sobre internacionalização automatizada de documentação. Portanto, qualquer PR relacionado à internacionalização/tradução de documentação NÃO será aceito!
 >
-> Por favor, NÃO envie PRs relacionados à internacionalização/tradução da documentação!
+> Por favor, NÃO envie PRs relacionados à internacionalização/tradução de documentação!
 
 Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reserve um tempo para ler as seguintes diretrizes para garantir que sua contribuição possa ser aceita sem problemas.
 
 ## Tipos de Contribuições Não Aceitas
 
-1. Documentação de internacionalização/tradução  
-2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  
-3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
-4. Outras contribuições consideradas inadequadas pelos mantenedores.  
-5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.  
+1. Documentação de internacionalização/tradução
+2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.
+3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
+4. Outras contribuições consideradas inadequadas pelos mantenedores.
+5. Documentação de contribuição, mas alterando a documentação em idiomas diferentes do inglês.
 6. PRs que exigem modificação de arquivos PDF.
 
 Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
@@ -39,7 +39,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!TIP]
 >
-> Você não precisa esperar até que seu desenvolvimento esteja totalmente completo para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.
+> Você não precisa esperar até que seu desenvolvimento esteja totalmente concluído para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.
 >
 > Se você tiver alguma dúvida sobre o código-fonte ou assuntos relacionados, entre em contato com o mantenedor em aw@funstory.ai.
 >
@@ -59,12 +59,12 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
    - Use o comando `pip install -e .` para desenvolvimento e teste.
 
 
-<h4 id="format">3. Formatação de código</h4>
+<h4 id="format">3. Formatação de Código</h4>
 
    - Configure a ferramenta `pre-commit` e habilite `black` e `flake8` para formatação de código.
 
 
-<h4 id="requpdate">4. Atualizações de dependências</h4>
+<h4 id="requpdate">4. Atualizações de Dependências</h4>
 
    - Se você introduzir novas dependências, atualize a lista de dependências no arquivo `pyproject.toml` em tempo hábil.
 
@@ -79,7 +79,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
    - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por exemplo: `feat(translator): add openai`.
 
 
-<h4 id="codestyle">7. Estilo de Codificação</h4>
+<h4 id="estilocodigo">7. Estilo de Codificação</h4>
 
    - Certifique-se de que o código enviado adere aos padrões básicos de estilo de codificação.
    - Use snake_case ou camelCase para nomeação de variáveis.
@@ -88,7 +88,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 <h4 id="doctypo">8. Formatação de Documentação</h4>
 
    - Para a formatação de `README.md`, siga as [Diretrizes de Redação em Chinês](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações da documentação em outros idiomas são opcionais.
+   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações de documentação em outros idiomas são opcionais.
 
 ## Adicionando um mecanismo de tradução
 
@@ -98,25 +98,25 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!NOTE]
 >
-> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.
+> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para tais mecanismos.
 
-## Estrutura do projeto
+## Estrutura do Projeto
 
-- **pasta config**: Sistema de configuração.  
-- **pasta translator**: Implementações relacionadas ao tradutor.  
-- **gui.py**: Fornece a interface gráfica.  
-- **const.py**: Algumas constantes.  
-- **main.py**: Fornece a ferramenta de linha de comando.  
-- **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.  
-- **http_api.py**: Fornece API HTTP (não iniciado).
+- **config folder**: Sistema de configuração.
+- **translator folder**: Implementações relacionadas ao tradutor.
+- **gui.py**: Fornece a interface gráfica.
+- **const.py**: Algumas constantes.
+- **main.py**: Fornece a ferramenta de linha de comando.
+- **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.
+- **http_api.py**: Fornece API HTTP (não iniciada).
 
 ## Entre em contato conosco
 
-Se você tiver alguma dúvida, envie um feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
+Se você tiver alguma dúvida, por favor, envie um feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) patrocina mensalmente códigos de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) patrocina códigos mensais de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [Regras de Recompensa para Contribuidores do BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

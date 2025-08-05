@@ -1,4 +1,4 @@
-[**Расширенные параметры**](./introduction.md) > **Код языка** _(current)_
+[**Расширенные параметры**](./introduction.md) > **Код языка** _(текущая)_
 
 ---
 
@@ -6,26 +6,25 @@
 
 Источник <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, организовано GPT-4o.
 
-| Метка на китайском | Метка | `Language Code` |
+| Название на китайском | Название | `Код языка` |
 | --- | --- | --- |
 | Амхарский | Amharic | `am` |
 | Арабский | Arabic | `ar` |
-| Баскский | Basque | `eu` |
+| Баскский | `eu` |
 | Бенгальский | Bengali | `bn` |
-| 英语（美国） | English (US) | `en-US` |
-| 中文（简体） | Chinese (Simplified) | `zh-CN` |
+| Английский (Великобритания) | English (UK) | `en-GB` |
 | Португальский (Бразилия) | Portuguese (Brazil) | `pt-BR` |
 | Болгарский | Bulgarian | `bg` |
 | Каталанский | Catalan | `ca` |
-| 切罗基语 | Cherokee | `chr` |
+| Чероки | Cherokee | `chr` |
 | Хорватский | Croatian | `hr` |
 | Чешский | Czech | `cs` |
 | Датский | Danish | `da` |
-| 荷兰语 | Dutch | `nl` |
-| Английский (США) | English (US) | `en` |
+| Голландский | Dutch | `nl` |
+| 英语（美国） | English (US) | `en` |
 | Эстонский | Estonian | `et` |
 | Филиппинский | Filipino | `fil` |
-| 芬兰语 | Finnish | `fi` |
+| Финский | Finnish | `fi` |
 | Французский | French | `fr` |
 | Немецкий | German | `de` |
 | Греческий | Greek | `el` |
@@ -36,30 +35,30 @@
 | Исландский | Icelandic | `is` |
 | Индонезийский | Indonesian | `id` |
 | Итальянский | Italian | `it` |
-| 日语 | Japanese | `ja` |
-| Каннада | Kannada | `kn` |
-| 韩语 | Korean | `ko` |
-| Латышский | Latvian | `lv` |
-| 立陶宛语 | Литовский | `lt` |
+| Японский | Japanese | `ja` |
+| 卡纳达语 | Каннада | `kn` |
+| Корейский | Korean | `ko` |
+| Латвийский | Latvian | `lv` |
+| Литовский | Lithuanian | `lt` |
 | Малайский | Malay | `ms` |
 | Малаялам | Malayalam | `ml` |
-| 马拉地语 | Маратхи | `mr` |
+| Маратхи | Marathi | `mr` |
 | Норвежский | Norwegian | `no` |
 | Польский | Polish | `pl` |
 | Португальский (Португалия) | Portuguese (Portugal) | `pt-PT` |
 | Румынский | Romanian | `ro` |
 | Русский | Russian | `ru` |
-| 塞尔维亚语 | Сербский | `sr` |
+| Сербский | Serbian | `sr` |
 | Русский (Россия) | Russian (Russia) | `ru-RU` |
 | Словацкий | Slovak | `sk` |
 | Словенский | Slovenian | `sl` |
 | Испанский | Spanish | `es` |
-| Суахили | Swahili | `sw` |
+| Свахили | Swahili | `sw` |
 | Шведский | Swedish | `sv` |
 | Тамильский | Tamil | `ta` |
 | Телугу | Telugu | `te` |
 | Тайский | Thai | `th` |
-| 中文（台湾） | Китайский (Тайвань) | `zh-TW` |
+| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
 | Турецкий | Turkish | `tr` |
 | Урду | Urdu | `ur` |
 | Украинский | Ukrainian | `uk` |
@@ -78,7 +77,9 @@
 | Датский | Danish | `DA` | `source`, `target` |
 | Немецкий | German | `DE` | `source`, `target` |
 | Греческий | Greek | `EL` | `source`, `target` |
-| Английский | English | `EN` | `source`, `target` |
+| Русский | Russian | `RU` | `source`, `target` |
+|------|---------|------|-------------------|------|---------|---------|------|-------------------|
+| 英语 | English | `EN` | `source`, `target` | Русский | Russian | `RU` | `source`, `target` |
 | Английский (Великобритания) | English (British) | `EN-GB` | `target` |
 | Английский (США) | English (American) | `EN-US` | `target` |
 | Испанский | Spanish | `ES` | `source`, `target` |
@@ -97,17 +98,17 @@
 | Польский | Polish | `PL` | `source`, `target` |
 | Португальский | Portuguese | `PT` | `source`, `target` |
 | Португальский (Бразилия) | Portuguese (Brazilian) | `PT-BR` | `target` |
-| Португальский (Европа) | Portuguese (European) | `PT-PT` | `target` |
+| Португальский (Европейский) | Portuguese (European) | `PT-PT` | `target` |
 | Румынский | Romanian | `RO` | `source`, `target` |
 | Русский | Russian | `RU` | `source`, `target` |
 | Словацкий | Slovak | `SK` | `source`, `target` |
 | Словенский | Slovenian | `SL` | `source`, `target` |
 | Шведский | Swedish | `SV` | `source`, `target` |
-| Турецкий | Turkish | `TR` | `source`, `target` |
+| 土耳其语 | Turkish | `TR` | `source`, `target` |
 | Украинский | Ukrainian | `UK` | `source`, `target` |
 | Русский | Russian | `RU` | `source`, `target` |
-| 俄语 | Russian | `RU` | `target` |
-| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
+| Китайский (традиционный) | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>Часть содержимого этой страницы была переведена GPT и может содержать ошибки.</small></h6>

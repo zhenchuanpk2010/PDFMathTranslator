@@ -1,10 +1,13 @@
-[**開始**](./getting-started.md) > **インストール** > **uv** _(current)_
+[**開始**](./getting-started.md) > **インストール** > **uv** _(現在)_
 
 ---
 
 ### uv 経由で PDFMathTranslate をインストール
 
 #### uv とは何ですか？インストール方法は？
+
+[!NOTE]
+uv は Python のパッケージマネージャーで、pip の代替として高速で信頼性の高いパッケージ管理を提供します。
 
 uv は、Rust で書かれた非常に高速な Python パッケージおよびプロジェクトマネージャーです。
 <br>
@@ -14,40 +17,40 @@ uv をコンピュータにインストールするには、[この記事](https
 
 #### インストール
 
-1. Python がインストールされていること（3.10 <= バージョン <= 3.12）;
+1. Python がインストールされていること（3.10 <= バージョン <= 3.12）；
 
-2. 以下のコマンドを使用してパッケージを利用できます：
+2. 以下のコマンドを使用してパッケージを利用します：
 
     ```bash
     pip install uv
     uv tool install --python 3.12 pdf2zh-next
     ```
 
-インストール後、**コマンドライン**または**WebUI**から翻訳を開始できます。
+インストール後、**コマンドライン**または**WebUI**を介して翻訳を開始できます。
 
 !!! Warning
 
-    `command not found: pdf2zh_next` というエラーが表示された場合、以下のように環境変数を設定して再度試してください:
+    `command not found: pdf2zh_next` というエラーが表示された場合、以下のように環境変数を設定して再度試してください：
 
-    === "macOS and Linux"
+    === "macOS と Linux"
 
-        ~/.zshrc に以下を追加:
+        ~/.zshrc に以下を追加：
 
         ```console
         export PATH="$PATH:/Users/Username/.local/bin"
         ```
 
-        その後ターミナルを再起動
+        その後、ターミナルを再起動
 
     === "Windows"
 
-        PowerShell で以下を入力:
+        PowerShell で以下を入力：
 
         ```powershell
         $env:Path = "C:\Users\Username\.local\bin;$env:Path"
         ```
 
-        その後ターミナルを再起動
+        その後、ターミナルを再起動
 
 > [!NOTE]
 > WebUI の使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md)を参照してください。

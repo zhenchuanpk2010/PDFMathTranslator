@@ -2,13 +2,13 @@
 
 > [!CAUTION]
 >
-> Die aktuellen Projektbetreuer erforschen die automatisierte Internationalisierung der Dokumentation. Daher werden keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation akzeptiert!
+> Die aktuellen Projektbetreuer erforschen automatisierte Dokumentationsinternationalisierung. Daher werden keine PRs im Zusammenhang mit Dokumentationsinternationalisierung/-übersetzung akzeptiert!
 >
-> Bitte reichen Sie keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation ein!
+> Bitte reichen Sie KEINE PRs im Zusammenhang mit Dokumentationsinternationalisierung/-übersetzung ein!
 
-Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, um die folgenden Richtlinien zu lesen, damit Ihr Beitrag problemlos akzeptiert werden kann.
+Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, um die folgenden Richtlinien zu lesen, um sicherzustellen, dass Ihr Beitrag problemlos akzeptiert werden kann.
 
-## Nicht akzeptierte Beitragsarten
+## Arten von Beiträgen, die nicht akzeptiert werden
 
 1. Dokumentationsinternationalisierung/-übersetzung
 2. Beiträge zur Kerninfrastruktur, wie z.B. HTTP-API usw.
@@ -43,9 +43,9 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 >
 > Wenn Sie Fragen zum Quellcode oder verwandten Themen haben, wenden Sie sich bitte an den Maintainer unter aw@funstory.ai.
 >
-> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen der zugehörigen Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
+> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen verwandter Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
 
-## Grundlegende Anforderungen
+## Grundvoraussetzungen
 
 <h4 id="sop">1. Arbeitsablauf</h4>
 
@@ -54,7 +54,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
    - Wenn Ihr PR die automatisierten Prüfungen nicht besteht (angezeigt durch `checks failed` und ein rotes Kreuz), überprüfen Sie bitte die entsprechenden `details` und passen Sie Ihre Einreichung an, um sicherzustellen, dass der neue PR alle Prüfungen besteht.
 
 
-<h4 id="entwicklung&test">2. Entwicklung und Test</h4>
+<h4 id="dev&test">2. Entwicklung und Tests</h4>
 
    - Verwenden Sie den Befehl `pip install -e .` für Entwicklung und Tests.
 
@@ -71,7 +71,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 <h4 id="docupdate">5. Dokumentationsaktualisierungen</h4>
 
-   - Wenn Sie neue Kommandozeilenoptionen hinzufügen, aktualisieren Sie bitte die Liste der Kommandozeilenoptionen in allen Sprachversionen der `README.md`-Datei entsprechend.
+   - Wenn Sie neue Kommandozeilen-Optionen hinzufügen, aktualisieren Sie bitte die Liste der Kommandozeilen-Optionen in allen Sprachversionen der `README.md`-Datei entsprechend.
 
 
 <h4 id="commitmsg">6. Commit-Nachrichten</h4>
@@ -79,9 +79,9 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
    - Verwenden Sie [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), zum Beispiel: `feat(translator): add openai`.
 
 
-<h4 id="codestyle">7. Programmierstil</h4>
+<h4 id="codestyle">7. Codierungsstil</h4>
 
-   - Stellen Sie sicher, dass Ihr eingereichter Code grundlegenden Codierungsstilstandards entspricht.
+   - Stellen Sie sicher, dass Ihr eingereichter Code grundlegende Codierungsstilstandards einhält.
    - Verwenden Sie entweder snake_case oder camelCase für die Benennung von Variablen.
 
 
@@ -103,12 +103,12 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 ## Projektstruktur
 
 - **config folder**: Konfigurationssystem.
-- **translator folder**: Implementierungen im Zusammenhang mit dem Übersetzer.
-- **gui.py**: Stellt die GUI-Schnittstelle bereit.
+- **translator folder**: Implementierungen im Zusammenhang mit Übersetzern.
+- **gui.py**: Bietet die GUI-Oberfläche.
 - **const.py**: Einige Konstanten.
-- **main.py**: Stellt das Kommandozeilen-Tool bereit.
+- **main.py**: Bietet das Kommandozeilen-Tool.
 - **high_level.py**: Hochrangige Schnittstellen basierend auf BabelDOC.
-- **http_api.py**: Stellt HTTP-API bereit (nicht gestartet).
+- **http_api.py**: Bietet HTTP-API (nicht gestartet).
 
 ## Kontaktieren Sie uns
 

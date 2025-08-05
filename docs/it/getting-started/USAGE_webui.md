@@ -2,13 +2,13 @@
 
 ---
 
-### Utilizzare PDFMathTranslate tramite Webui
+### Utilizzo di PDFMathTranslate tramite Webui
 
 #### Come aprire la pagina WebUI:
 
 Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Windows**, consulta [questo articolo](./INSTALLATION_winexe.md);
 
-1. Python installato (versione compresa tra 3.10 e 3.12)
+1. Python installato (versione 3.10 <= versione <= 3.12)
 
 2. Installa il nostro pacchetto:
 
@@ -31,7 +31,7 @@ Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Wi
 
 ### Variabili d'ambiente
 
-È possibile impostare le lingue di origine e di destinazione utilizzando le variabili d'ambiente:
+Puoi impostare le lingue di origine e di destinazione utilizzando le variabili d'ambiente:
 
 - `PDF2ZH_LANG_FROM`: Imposta la lingua di origine. Predefinito è "English".
 - `PDF2ZH_LANG_TO`: Imposta la lingua di destinazione. Predefinito è "Simplified Chinese".

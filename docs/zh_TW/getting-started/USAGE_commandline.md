@@ -1,4 +1,4 @@
-[**快速開始**](./getting-started.md) > **如何使用** > **命令行** _(current)_
+[**開始使用**](./getting-started.md) > **如何使用** > **命令行** _(當前)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### 基本用法
 
-安裝完成後，請輸入此命令來翻譯您的 PDF。
+安裝完成後，請輸入此命令以翻譯您的 PDF。
 
 ```bash
 pdf2zh_next document.pdf
@@ -14,17 +14,17 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> 如果您的路徑名稱包含空格，請用引號將其括起來。
+> 如果您的路徑名稱包含空格，請將其用引號括起來。
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
 > ```
 
-執行翻譯後，檔案將生成於**當前工作目錄**中。
+執行翻譯後，文件將生成於**當前工作目錄**中。
 
 > [!TIP]
 > **我的「當前工作目錄」在哪裡？**
-> 在終端機中輸入指令前，你可能會看到路徑名稱顯示在終端機中：
+> 在終端機中輸入指令前，你可能會看到終端機中顯示了一個路徑名稱：
 > 
 > ```powershell
 > PS C:\Users\XXX>
@@ -38,13 +38,13 @@ pdf2zh_next document.pdf
 > pwd
 > ```
 > 
-> 執行這個指令後，會輸出路徑名稱。這個路徑名稱就是「**當前工作目錄**」。翻譯後的檔案會出現在這裡。
+> 執行這個指令後，會輸出一個路徑名稱。這個路徑名稱就是「**當前工作目錄**」。翻譯後的檔案會出現在這裡。
 
 ---
 
-#### 高級選項
+#### 高級用法
 
-有關其他命令行參數的詳細說明，請參閱[高級選項](./../advanced/advanced.md)。
+有關其他命令行參數的詳細說明，請參閱[高級用法](./../advanced/advanced.md)。
 
 <div align="right"> 
 <h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

@@ -2,7 +2,7 @@
 
 ## Kostenloser Übersetzungsdienst
 
-[SiliconFlow](https://siliconflow.cn) bietet für dieses Projekt einen kostenlosen Übersetzungsdienst an.
+[SiliconFlow](https://siliconflow.cn) bietet einen kostenlosen Übersetzungsdienst für dieses Projekt an.
 
 Derzeit wird für den kostenlosen Übersetzungsdienst das Modell `THUDM/GLM-4-9B-0414` verwendet.
 
@@ -14,7 +14,7 @@ Derzeit wird für den kostenlosen Übersetzungsdienst das Modell `THUDM/GLM-4-9B
 pdf2zh_next --siliconflowfree example.pdf 
 ```
 
-#### Web-Oberfläche
+#### WebUI
 
 1. Wählen Sie "SiliconFlowFree" aus der Dropdown-Liste "Übersetzungsoptionen" - "Dienst" aus.
 2. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um die Übersetzung zu starten.
@@ -33,11 +33,11 @@ SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn
 
 ## Andere Modelle von SiliconFlow verwenden
 
-[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für die Übersetzung an.
+[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für Übersetzungen an.
 
 ### Verwendung
 
-1. Registrieren Sie ein Konto auf [SiliconFlow](https://siliconflow.cn)
+1. Registrieren Sie ein Konto bei [SiliconFlow](https://siliconflow.cn)
 
 2. Erstellen Sie einen API-Schlüssel unter [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Klicken Sie dann auf den Schlüssel, um ihn zu kopieren.
 
@@ -47,7 +47,7 @@ SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn
 pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --siliconflow-api-key <your-api-key> example.pdf
 ```
 
-#### Web-Oberfläche
+#### WebUI
 
 1. "Übersetzungsoptionen" - **"Dienst"** Dropdown-Liste: Wählen Sie "SiliconFlow" aus  
 2. "Übersetzungsoptionen" - **"Basis-URL für SiliconFlow API"**: Behalten Sie den Standardwert bei  

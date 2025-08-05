@@ -1,4 +1,4 @@
-[**Empezar**](./empezar.md) > **Instalación** > **Windows EXE** _(actual)_
+[**Empezar**](./getting-started.md) > **Instalación** > **Windows EXE** _(actual)_
 
 ---
 
@@ -20,13 +20,13 @@
 > [!TIP]
 > **No se puede ejecutar el archivo .exe**
 >
-> Si tienes problemas al ejecutar pdf2zh.exe, instala `https://aka.ms/vs/17/release/vc_redist.x64.exe` e inténtalo de nuevo.
+> Si tienes problemas al ejecutar pdf2zh.exe, por favor instala `https://aka.ms/vs/17/release/vc_redist.x64.exe` e inténtalo de nuevo.
 
 ***Paso 4*** | Al hacer doble clic en el archivo exe, aparecerá una terminal. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
 
 > [!NOTE]
 >
-> Si encuentras algún problema al usar la interfaz web, consulta [esta página](./USAGE_webui.md).
+> Si encuentras algún problema al usar WebUI, consulta [esta página web](./USAGE_webui.md).
 
 ***Paso 5*** | ¡Disfruta!
 

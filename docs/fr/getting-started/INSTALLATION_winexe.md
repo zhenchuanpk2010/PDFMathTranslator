@@ -26,7 +26,7 @@
 
 > [!NOTE]
 >
-> Si vous rencontrez des problèmes lors de l'utilisation de l'interface Web, veuillez consulter [cette page web](./USAGE_webui.md).
+> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [cette page web](./USAGE_webui.md).
 
 ***Étape 5*** | Profitez-en !
 
@@ -35,7 +35,7 @@
 >
 > Utilisez le fichier .exe via la ligne de commande comme suit :
 >
-> - Lancez votre terminal et naviguez jusqu'au dossier contenant le fichier .exe :
+> - Lancez votre terminal et naviguez vers le dossier contenant le fichier .exe :
 >
 > ```bash
 > cd /path/pdf2zh_next/build

@@ -4,7 +4,7 @@
 
 ### Verfügbare Übersetzungsdienste über die Kommandozeile anzeigen
 
-Sie können die verfügbaren Übersetzungsdienste und ihre Verwendung bestätigen, indem Sie die Hilfemeldung in der Kommandozeile ausgeben.
+Sie können die verfügbaren Übersetzungsdienste und deren Verwendung bestätigen, indem Sie die Hilfemeldung in der Kommandozeile ausgeben.
 
 ```bash
 pdf2zh_next -h

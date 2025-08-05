@@ -12,9 +12,9 @@
 
 <h2 id="api-python">Python</h2>
 
-由于 `pdf2zh` 是 Python 中已安装的模块，我们公开了两个方法供其他程序在任何 Python 脚本中调用。
+由于 `pdf2zh` 是一个已安装的 Python 模块，我们提供了两种方法供其他程序在任何 Python 脚本中调用。
 
-例如，如果你想使用 Google 翻译将文档从英语翻译成中文，可以使用以下代码：
+例如，如果你想使用谷歌翻译将文档从英文翻译成中文，可以使用以下代码：
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -42,9 +42,9 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更灵活的方式，您可以通过 HTTP 协议与程序通信，如果：
+以更灵活的方式，您可以通过 HTTP 协议与程序交互，前提是：
 
-1. 安装并运行后端服务
+1. 安装并运行后端
 
    ```bash
    pip install pdf2zh_next[backend]
@@ -68,7 +68,7 @@ with open('example.pdf', 'rb') as f:
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - 检查进度 _(若已完成)_
+   - 检查进度 _(如果已完成)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a

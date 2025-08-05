@@ -12,7 +12,7 @@ Merci de votre intérêt pour ce projet ! Avant de commencer à contribuer, veui
 
 1. Documentation internationalisation/traduction  
 2. Contributions liées à l'infrastructure principale, telles que l'API HTTP, etc.  
-3. Problèmes explicitement marqués comme "Aide non nécessaire" (y compris les problèmes dans les dépôts [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) et [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
+3. Problèmes explicitement marqués comme "Aucune aide nécessaire" (y compris les problèmes dans les dépôts [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) et [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
 4. Autres contributions jugées inappropriées par les mainteneurs.  
 5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.  
 6. PRs nécessitant la modification de fichiers PDF.
@@ -49,9 +49,9 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 <h4 id="sop">1. Flux de travail</h4>
 
-   - Veuillez forker à partir de la branche `main` et développer sur votre branche forkée.
+   - Veuillez forker à partir de la branche `main` et développer sur votre branche forké.
    - Lors de la soumission d'une Pull Request (PR), fournissez une description détaillée de vos modifications.
-   - Si votre PR ne passe pas les vérifications automatisées (indiquées par `checks failed` et une croix rouge), veuillez consulter les `details` correspondants et modifier votre soumission pour garantir que la nouvelle PR passe toutes les vérifications.
+   - Si votre PR ne passe pas les vérifications automatisées (indiquées par `checks failed` et une croix rouge), veuillez examiner les `details` correspondants et modifier votre soumission pour garantir que la nouvelle PR passe toutes les vérifications.
 
 
 <h4 id="dev&test">2. Développement et tests</h4>
@@ -61,10 +61,10 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 <h4 id="format">3. Formatage du code</h4>
 
-   - Configurez l'outil `pre-commit` et activez `black` et `flake8` pour le formatage du code.
+   - Configurer l'outil `pre-commit` et activer `black` et `flake8` pour le formatage du code.
 
 
-<h4 id="requpdate">4. Mise à jour des dépendances</h4>
+<h4 id="requpdate">4. Mises à jour des dépendances</h4>
 
    - Si vous introduisez de nouvelles dépendances, veuillez mettre à jour la liste des dépendances dans le fichier `pyproject.toml` en temps opportun.
 
@@ -76,7 +76,7 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 <h4 id="commitmsg">6. Messages de commit</h4>
 
-   - Utilisez les [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), par exemple : `feat(translator): add openai`.
+   - Utilisez [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), par exemple : `feat(translator): add openai`.
 
 
 <h4 id="codestyle">7. Style de codage</h4>
@@ -87,10 +87,10 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 <h4 id="doctypo">8. Formatage de la documentation</h4>
 
-   - Pour le formatage de `README.md`, veuillez suivre les [Directives de rédaction chinoise](https://github.com/sparanoid/chinese-copywriting-guidelines).
+   - Pour le formatage de `README.md`, veuillez suivre les [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).
    - Assurez-vous que la documentation en anglais et en chinois est toujours à jour ; les mises à jour de la documentation dans d'autres langues sont facultatives.
 
-## Ajout d'un moteur de traduction
+## Ajouter un moteur de traduction
 
 1. Ajoutez une nouvelle classe de configuration de traducteur dans le fichier `pdf2zh/config/translate_engine_model.py`.
 2. Ajoutez une instance de la nouvelle classe de configuration de traducteur à l'alias de type `TRANSLATION_ENGINE_SETTING_TYPE` dans le même fichier.
@@ -98,12 +98,12 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 > [!NOTE]
 >
-> Ce projet ne prévoit pas de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour de tels moteurs.
+> Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour ces moteurs.
 
 ## Structure du projet
 
-- **dossier config** : Système de configuration.
-- **dossier translator** : Implémentations liées au traducteur.
+- **config folder** : Système de configuration.
+- **translator folder** : Implémentations liées au traducteur.
 - **gui.py** : Fournit l'interface graphique.
 - **const.py** : Quelques constantes.
 - **main.py** : Fournit l'outil en ligne de commande.
@@ -116,7 +116,7 @@ Si vous avez des questions, veuillez soumettre vos commentaires via Issue ou rej
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs de ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs à ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

@@ -1,0 +1,355 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/community/Contribution-Guide.md",
+  "chunks": [
+    {
+      "id": "chunk_53390D48",
+      "raw_content": "# Contributing to the Project\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 1,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_A71D833E",
+      "raw_content": "> [!CAUTION]\n>\n> The current project maintainers are researching automated documentation internationalization. Therefore, any PRs related to documentation internationalization/translation will NOT be accepted!\n>\n> Please do NOT submit PRs related to documentation internationalization/translation!\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_D57757D9",
+      "raw_content": "Thank you for your interest in this project! Before you start contributing, please take some time to read the following guidelines to ensure your contribution can be smoothly accepted.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_FB836CBD",
+      "raw_content": "## Types of Contributions Not Accepted\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_F2331818",
+      "raw_content": "1. Documentation internationalization/translation\n2. Contributions related to core infrastructure, such as HTTP API, etc.\n3. Issues explicitly marked as \"No help needed\" (including issues in the [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) and the [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) repository).\n4. Other contributions deemed inappropriate by the maintainers.\n5. Contributing documentation, but changing the documentation in languages other than English.\n6. PRs that require modifying PDF files.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_7828B7C7",
+      "raw_content": "Please do NOT submit PRs related to the above types.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 20
+    },
+    {
+      "id": "chunk_56FADEC9",
+      "raw_content": "> [!NOTE]\n>\n> If you want to contribute documentation, please **only modify the English version of the documentation**. Other language versions are translated by contributors themselves.\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 22
+    },
+    {
+      "id": "chunk_485712CB",
+      "raw_content": "## Contribution Process\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 26
+    },
+    {
+      "id": "chunk_4D698FBF",
+      "raw_content": "1. Fork this repository and clone it locally.\n2. Create a new branch: `git checkout -b feature/<feature-name>`.\n3. Develop and ensure your code meets the requirements.\n4. Commit your code:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Push to your repository: `git push origin feature/<feature-name>`.\n6. Create a PR on GitHub, provide a detailed description, and request a review from [@awwaawwa](https://github.com/awwaawwa).\n7. Ensure all automated checks pass.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 28
+    },
+    {
+      "id": "chunk_89A6F55A",
+      "raw_content": "> [!TIP]\n>\n> You do not need to wait until your development is fully complete to create a PR. Creating one early allows us to review your implementation and provide suggestions.\n>\n> If you have any questions about the source code or related matters, please contact the maintainer at aw@funstory.ai.\n>\n> Resource files for version 2.0 are shared with [BabelDOC](https://github.com/funstory-ai/BabelDOC). The code for downloading related resources is in BabelDOC. If you want to add new resource files, please contact the BabelDOC maintainer at aw@funstory.ai.\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 40
+    },
+    {
+      "id": "chunk_E7638696",
+      "raw_content": "## Basic Requirements\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 48
+    },
+    {
+      "id": "chunk_4D251FB3",
+      "raw_content": "<h4 id=\"sop\">1. Workflow</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 50
+    },
+    {
+      "id": "chunk_8FDDA473",
+      "raw_content": "   - Please fork from the `main` branch and develop on your forked branch.\n   - When submitting a Pull Request (PR), provide a detailed description of your changes.\n   - If your PR does not pass automated checks (indicated by `checks failed` and a red cross), please review the corresponding `details` and modify your submission to ensure the new PR passes all checks.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 52
+    },
+    {
+      "id": "chunk_19D447DF",
+      "raw_content": "<h4 id=\"dev&test\">2. Development and Testing</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 57
+    },
+    {
+      "id": "chunk_65AB8932",
+      "raw_content": "   - Use the command `pip install -e .` for development and testing.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 59
+    },
+    {
+      "id": "chunk_B4865580",
+      "raw_content": "<h4 id=\"format\">3. Code Formatting</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 62
+    },
+    {
+      "id": "chunk_E8324FFA",
+      "raw_content": "   - Configure the `pre-commit` tool and enable `black` and `flake8` for code formatting.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 64
+    },
+    {
+      "id": "chunk_7A584B10",
+      "raw_content": "<h4 id=\"requpdate\">4. Dependency Updates</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 67
+    },
+    {
+      "id": "chunk_BE2E8298",
+      "raw_content": "   - If you introduce new dependencies, please update the dependency list in the `pyproject.toml` file in a timely manner.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 69
+    },
+    {
+      "id": "chunk_1615D8D8",
+      "raw_content": "<h4 id=\"docupdate\">5. Documentation Updates</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 72
+    },
+    {
+      "id": "chunk_725E4B8A",
+      "raw_content": "   - If you add new command-line options, please update the list of command-line options in all language versions of the `README.md` file accordingly.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 74
+    },
+    {
+      "id": "chunk_09178615",
+      "raw_content": "<h4 id=\"commitmsg\">6. Commit Messages</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 77
+    },
+    {
+      "id": "chunk_8007BC97",
+      "raw_content": "   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), for example: `feat(translator): add openai`.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 79
+    },
+    {
+      "id": "chunk_F5439516",
+      "raw_content": "<h4 id=\"codestyle\">7. Coding Style</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 82
+    },
+    {
+      "id": "chunk_22ECCE1D",
+      "raw_content": "   - Ensure your submitted code adheres to basic coding style standards.\n   - Use either snake_case or camelCase for variable naming.\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 84
+    },
+    {
+      "id": "chunk_2F60B8EB",
+      "raw_content": "<h4 id=\"doctypo\">8. Documentation Formatting</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 88
+    },
+    {
+      "id": "chunk_320F91BE",
+      "raw_content": "   - For `README.md` formatting, please follow the [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Ensure that both English and Chinese documentation are always up to date; other language documentation updates are optional.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 90
+    },
+    {
+      "id": "chunk_126AF33C",
+      "raw_content": "## Adding a Translation Engine\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 93
+    },
+    {
+      "id": "chunk_38A36DFF",
+      "raw_content": "1. Add a new translator configuration class in the `pdf2zh/config/translate_engine_model.py` file.\n2. Add an instance of the new translator configuration class to the `TRANSLATION_ENGINE_SETTING_TYPE` type alias in the same file.\n3. Add the new translator implementation class in the `pdf2zh/translator/translator_impl` folder.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 95
+    },
+    {
+      "id": "chunk_5B4684E1",
+      "raw_content": "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 99
+    },
+    {
+      "id": "chunk_7ED6230D",
+      "raw_content": "## Project Structure\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 103
+    },
+    {
+      "id": "chunk_9004E6A3",
+      "raw_content": "- **config folder**: Configuration system.\n- **translator folder**: Translator-related implementations.\n- **gui.py**: Provides the GUI interface.\n- **const.py**: Some constants.\n- **main.py**: Provides the command-line tool.\n- **high_level.py**: High-level interfaces based on BabelDOC.\n- **http_api.py**: Provides HTTP API (not started).\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 105
+    },
+    {
+      "id": "chunk_0C087ADF",
+      "raw_content": "## Contact Us\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 113
+    },
+    {
+      "id": "chunk_2FB8F835",
+      "raw_content": "If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 115
+    },
+    {
+      "id": "chunk_C2A414AC",
+      "raw_content": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 117
+    }
+  ]
+}

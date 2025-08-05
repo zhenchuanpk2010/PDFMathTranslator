@@ -1,6 +1,6 @@
 > [!CAUTION]
 >
-> Este documento está desatualizado, por favor não o consulte.
+> Este documento está desatualizado, por favor, não o consulte.
 
 <h2 id="toc">Índice</h2>
 O presente projeto suporta dois tipos de APIs, Todos os métodos precisam do Redis;
@@ -52,7 +52,7 @@ De uma forma mais flexível, você pode se comunicar com o programa usando proto
    pdf2zh_next --celery worker
    ```
 
-2. Usando protocolos HTTP da seguinte forma:
+2. Usando protocolos HTTP conforme abaixo:
 
    - Enviar tarefa de tradução
 

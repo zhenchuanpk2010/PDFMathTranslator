@@ -2,23 +2,23 @@ Einige Fragen werden häufig gestellt, daher haben wir eine Liste für Benutzer 
 
 ## Wird eine GPU benötigt?
 - **Frage**:
-Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumenten verwendet, wird eine GPU benötigt?
+## Wird eine GPU benötigt?
 
 - **Antwort**:
 **Eine GPU ist nicht erforderlich.** Aber wenn Sie eine GPU haben, wird das Programm diese automatisch für eine höhere Leistung nutzen.
 
 ## Download unterbrochen?
 - **Frage**:
-Beim Herunterladen des Modells ist mir der folgende Unterbrechungsfehler aufgetreten. Was soll ich tun?
+Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Antwort**:
 Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.
 
-## Wie aktualisiere ich auf die neueste Version?
+## Wie aktualisiert man auf die neueste Version?
 - **Frage**:
-Ich möchte einige der Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
+Ich möchte einige der Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?
 
 - **Antwort**:
 `pip install -U pdf2zh`
@@ -26,7 +26,7 @@ Ich möchte einige der Funktionen der neuesten Version nutzen, wie aktualisiere 
 
 ## Die folgenden Dateien existieren nicht: example.pdf
 - **Problem**:
-Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `Die folgenden Dateien existieren nicht: example.pdf`, wenn das Dokument nicht gefunden wurde.
+Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `The following files do not exist: example.pdf`, wenn das Dokument nicht gefunden wurde.
 
 - **Lösung**:
   - Öffnen Sie die Kommandozeile in dem Verzeichnis, in dem sich die Datei befindet, oder
@@ -35,8 +35,34 @@ Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `Die folge
 
 
 ## SSL-Fehler und andere Netzwerkprobleme
+
+Wenn Sie beim Herunterladen von Modellen oder beim Ausführen von pdf2zh auf SSL-Fehler stoßen, liegt dies wahrscheinlich an Netzwerkproblemen. Hier sind einige Lösungsansätze:
+
+1. **Überprüfen Sie Ihre Internetverbindung**  
+   Stellen Sie sicher, dass Ihr Gerät mit dem Internet verbunden ist und eine stabile Verbindung hat.
+
+2. **Proxy-Einstellungen**  
+   Wenn Sie einen Proxy verwenden, stellen Sie sicher, dass dieser korrekt konfiguriert ist. Sie können auch versuchen, den Proxy vorübergehend zu deaktivieren, um zu sehen, ob das Problem dadurch behoben wird.
+
+3. **SSL-Zertifikate**  
+   Einige Netzwerke blockieren oder verändern SSL-Zertifikate. Sie können versuchen, die SSL-Überprüfung zu deaktivieren (nicht empfohlen für Produktionsumgebungen):
+
+   ```bash
+   export PYTHONHTTPSVERIFY=0
+   ```
+
+4. **Alternative Download-Quellen**  
+   Wenn das Problem beim Herunterladen von Modellen auftritt, können Sie versuchen, die Modelle manuell von einer alternativen Quelle herunterzuladen und sie dann in den entsprechenden Ordner zu verschieben.
+
+5. **Firewall und Antivirensoftware**  
+   Überprüfen Sie, ob Ihre Firewall oder Antivirensoftware die Verbindung blockiert. Fügen Sie pdf2zh zur Whitelist hinzu oder deaktivieren Sie die Software vorübergehend.
+
+6. **DNS-Einstellungen**  
+   Manchmal können Probleme mit dem DNS-Server zu Verbindungsproblemen führen. Versuchen Sie, Ihren DNS-Server zu ändern (z.B. zu Google DNS: `8.8.8.8` oder `8.8.4.4`).
+
+Wenn das Problem weiterhin besteht, können Sie sich an die [Community](#community) wenden oder die [FAQ](#faq) konsultieren.
 - **Problem**:
-Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
+Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
 - **Lösung**:
   - [GFW umgehen](https://github.com/clash-verge-rev/clash-verge-rev).
@@ -50,7 +76,7 @@ Bitte siehe unten.
 
 ## Fehler beim Starten der GUI mit 0.0.0.0
 - **Problem**:
-Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Beispielsweise in [Issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Lösung**:
 Verwenden Sie den Regelmodus

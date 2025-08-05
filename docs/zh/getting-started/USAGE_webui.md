@@ -1,4 +1,4 @@
-[**快速开始**](./getting-started.md) > **如何安装** > **WebUI** _(current)_
+[**开始使用**](./getting-started.md) > **如何安装** > **WebUI** _(当前)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### 如何打开 WebUI 页面：
 
-有多种方法可以打开 WebUI 界面。如果您使用的是 **Windows**，请参考[这篇文章](./INSTALLATION_winexe.md)；
+有几种方法可以打开 WebUI 界面。如果您使用的是 **Windows**，请参考[这篇文章](./INSTALLATION_winexe.md)；
 
 1. 已安装 Python（3.10 <= 版本 <= 3.12）
 

@@ -34,7 +34,7 @@
 
 Tradução de artigos científicos em PDF e comparação bilíngue.
 
-- 📊 Preserve fórmulas, gráficos, sumários e anotações _([pré-visualização](#pré-visualização))_.
+- 📊 Preservar fórmulas, gráficos, sumário e anotações _([pré-visualização](#pré-visualização))_.
 - 🌐 Suporta [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Oferece [ferramenta de linha de comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interface de usuário interativa](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
@@ -42,15 +42,15 @@ Sinta-se à vontade para fornecer feedback em [GitHub Issues](https://github.com
 
 Para obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="updates">Atualizações</h2>
+<h2 id="atualizacoes">Atualizações</h2>
 
-- [4 de jun. de 2025] O projeto foi renomeado e movido para [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))  
-- [3 de mar. de 2025] Suporte experimental para o novo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI adicionado como uma opção experimental (por [@awwaawwa](https://github.com/awwaawwa))  
-- [22 de fev. de 2025] Melhor CI de lançamento e exe bem empacotado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))  
-- [24 de dez. de 2024] O tradutor agora suporta modelos locais no [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_  
-- [19 de dez. de 2024] Documentos não-PDF/A agora são suportados usando `-cp` _(por [@reycn](https://github.com/reycn))_  
-- [13 de dez. de 2024] Suporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_  
-- [10 de dez. de 2024] O tradutor agora suporta modelos OpenAI no Azure _(por [@yidasanqian](https://github.com/yidasanqian))_
+- [4 de junho de 2025] O projeto foi renomeado e movido para [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))
+- [3 de março de 2025] Suporte experimental para o novo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI adicionado como uma opção experimental (por [@awwaawwa](https://github.com/awwaawwa))
+- [22 de fevereiro de 2025] Melhor CI de lançamento e exe bem empacotado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))
+- [24 de dezembro de 2024] O tradutor agora suporta modelos locais no [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [19 de dezembro de 2024] Documentos não-PDF/A agora são suportados usando `-cp` _(por [@reycn](https://github.com/reycn))_
+- [13 de dezembro de 2024] Suporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_
+- [10 de dezembro de 2024] O tradutor agora suporta modelos OpenAI no Azure _(por [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="preview">Pré-visualização</h2>
 
@@ -63,11 +63,11 @@ Para obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](h
 
 > [!NOTE]
 >
-> pdf2zh 2.0 atualmente não oferece uma demonstração online
+> O pdf2zh 2.0 atualmente não oferece uma demonstração online
 
 Você pode experimentar nosso aplicativo usando qualquer um dos seguintes demonstrações:
 
-- [Serviço público gratuito v1.x](https://pdf2zh.com/) online sem instalação _(recomendado)_.
+- [v1.x Serviço público gratuito](https://pdf2zh.com/) online sem instalação _(recomendado)_.
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas por mês. _(recomendado)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
@@ -86,21 +86,21 @@ Observe que os recursos computacionais da demonstração são limitados, portant
 
 ### Uso
 
-1. [Usando a **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-2. [Usando o **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)
-3. [Usando a **Linha de comando**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
+1. [Usando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)
+3. [Usando **Linha de comando**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-Para diferentes casos de uso, fornecemos métodos distintos para usar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.
+Para diferentes casos de uso, fornecemos métodos distintos para utilizar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.
 
-<h2 id="usage">Opções avançadas</h2>
+<h2 id="uso">Opções Avançadas</h2>
 
-Para explicações detalhadas, consulte nosso documento sobre [Uso avançado](https://pdf2zh-next.com/advanced/advanced.html) para uma lista completa de cada opção.
+Para explicações detalhadas, consulte nosso documento sobre [Uso Avançado](https://pdf2zh-next.com/advanced/advanced.html) para uma lista completa de cada opção.
 
-<h2 id="downstream">Desenvolvimento secundário (APIs)</h2>
+<h2 id="desenvolvimento-secundario">Desenvolvimento Secundário (APIs)</h2>
 
 > [!NOTE]
 >
-> Atualmente, nenhuma documentação relevante é fornecida. Será complementada posteriormente. Por favor, aguarde pacientemente.
+> Atualmente, nenhuma documentação relevante foi fornecida. Ela será complementada posteriormente. Por favor, aguarde pacientemente.
 
 
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
@@ -108,7 +108,7 @@ Para explicações detalhadas, consulte nosso documento sobre [Uso avançado](ht
 - [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
 - [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
 
-<h2 id="langcode">Código do idioma</h2>
+<h2 id="codigoidioma">Código do idioma</h2>
 
 Se você não sabe qual código usar para traduzir para o idioma que precisa, confira [esta documentação](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
@@ -131,9 +131,9 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 <h2 id="reconhecimento">Reconhecimentos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina mensalmente códigos de resgate para assinatura Pro para contribuidores ativos deste projeto, veja detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) fornece serviço de tradução gratuito para este projeto
+- [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).
 
 - Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -146,15 +146,17 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 - Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Fonte Multilíngue: veja [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
 - [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+
+- Documentação i18n usando Weblate: [Weblate](https://weblate.org/)
 
 <h2 id="conduct">Antes de enviar seu código</h2>
 

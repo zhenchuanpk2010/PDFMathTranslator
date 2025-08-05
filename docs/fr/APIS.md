@@ -3,7 +3,7 @@
 > Ce document est obsolète, veuillez ne pas vous y référer.
 
 <h2 id="toc">Table des matières</h2>
-Le présent projet prend en charge deux types d'API, toutes les méthodes nécessitent Redis ;
+Le présent projet prend en charge deux types d'APIs, toutes les méthodes nécessitent Redis ;
 
 - [Appels fonctionnels en Python](#api-python)
 - [Protocoles HTTP](#api-http)
@@ -30,7 +30,7 @@ Traduire avec des fichiers :
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Traduire avec flux :
+Traduction avec flux :
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -52,7 +52,7 @@ De manière plus flexible, vous pouvez communiquer avec le programme en utilisan
    pdf2zh_next --celery worker
    ```
 
-2. Utiliser les protocoles HTTP comme suit :
+2. Utilisation des protocoles HTTP comme suit :
 
    - Soumettre une tâche de traduction
 

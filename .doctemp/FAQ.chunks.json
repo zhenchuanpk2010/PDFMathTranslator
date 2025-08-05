@@ -1,0 +1,335 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/FAQ.md",
+  "chunks": [
+    {
+      "id": "chunk_BBFC419C",
+      "raw_content": "Some questions are frequently asked, so we have provided a list for users who encounter similar issues.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_2B5D23E7",
+      "raw_content": "## Is a GPU required?",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_A85F81AE",
+      "raw_content": "- **Question**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 4
+    },
+    {
+      "id": "chunk_8E573398",
+      "raw_content": "As the program uses artificial intelligence to recognize and extract documents, is GPU required?\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_FE846FC9",
+      "raw_content": "- **Answer**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_63C892F6",
+      "raw_content": "**GPU is not required.** But if you have a GPU, the program will automatically use it for higher performance.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 8
+    },
+    {
+      "id": "chunk_610DD2DC",
+      "raw_content": "## Downloading interrupted?",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 10
+    },
+    {
+      "id": "chunk_A85F81AE",
+      "raw_content": "- **Question**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_53B66922",
+      "raw_content": "I encountered the following interrupt error while downloading the model. What should I do?\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 12
+    },
+    {
+      "id": "chunk_663B9855",
+      "raw_content": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 14
+    },
+    {
+      "id": "chunk_FE846FC9",
+      "raw_content": "- **Answer**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 16
+    },
+    {
+      "id": "chunk_2A133C40",
+      "raw_content": "The network is receiving interference, please use a stable network link or try to bypass network intervention.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 17
+    },
+    {
+      "id": "chunk_ABB33668",
+      "raw_content": "## How to update to the latest version?",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 19
+    },
+    {
+      "id": "chunk_A85F81AE",
+      "raw_content": "- **Question**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 20
+    },
+    {
+      "id": "chunk_981A22AF",
+      "raw_content": "I want to use some of the features of the latest version, how do I update it?\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 21
+    },
+    {
+      "id": "chunk_FE846FC9",
+      "raw_content": "- **Answer**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 23
+    },
+    {
+      "id": "chunk_E6E8A1D1",
+      "raw_content": "`pip install -U pdf2zh`\n\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 24
+    },
+    {
+      "id": "chunk_9FB0E3EA",
+      "raw_content": "## The following files do not exist: example.pdf",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 27
+    },
+    {
+      "id": "chunk_22B1E6C4",
+      "raw_content": "- **Issue**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 28
+    },
+    {
+      "id": "chunk_FAB807CC",
+      "raw_content": "When executing the program, users would have the following outputs: `The following files do not exist: example.pdf` if the document was not found.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_E7371FD6",
+      "raw_content": "- **Solution**:\n  - Open the command line in the directory where the file is located, or\n  - Enter the full path of the file directly after pdf2zh, or\n  - Use the interactive mode `pdf2zh -i` to drag and drop files directly\n\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 31
+    },
+    {
+      "id": "chunk_F523458B",
+      "raw_content": "## SSL Error and Other Network Issues",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 37
+    },
+    {
+      "id": "chunk_22B1E6C4",
+      "raw_content": "- **Issue**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 38
+    },
+    {
+      "id": "chunk_DF99BBC1",
+      "raw_content": "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 39
+    },
+    {
+      "id": "chunk_AC4D20E5",
+      "raw_content": "- **Solution**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Use Hugging Face Mirror](https://hf-mirror.com/).\n  - [Use Portable version](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Use Docker instead](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Update Certificates](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), as suggested in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 41
+    },
+    {
+      "id": "chunk_8AA448AC",
+      "raw_content": "## Localhost is not accessible",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 48
+    },
+    {
+      "id": "chunk_4E814B7B",
+      "raw_content": "Please see below.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 49
+    },
+    {
+      "id": "chunk_EA897629",
+      "raw_content": "## Error launching GUI using 0.0.0.0",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 51
+    },
+    {
+      "id": "chunk_22B1E6C4",
+      "raw_content": "- **Issue**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 52
+    },
+    {
+      "id": "chunk_D65A22CE",
+      "raw_content": "Using proxy software in global mode may prevent Gradio from starting properly. For example, in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 53
+    },
+    {
+      "id": "chunk_587F7FBA",
+      "raw_content": "- **Solution**:  ",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 55
+    },
+    {
+      "id": "chunk_E7C819A4",
+      "raw_content": "Use rule mode\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 56
+    },
+    {
+      "id": "chunk_E6DC933A",
+      "raw_content": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 58
+    }
+  ]
+}
