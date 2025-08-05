@@ -34,6 +34,13 @@ class SiliconFlowTranslator(BaseTranslator):
         self.enable_thinking = (
             settings.translate_engine_settings.siliconflow_enable_thinking
         )
+        self.send_enable_thinking_param = (
+            settings.translate_engine_settings.siliconflow_send_enable_thinking_param
+        )
+        self.add_cache_impact_parameters("enable_thinking", self.enable_thinking)
+        self.add_cache_impact_parameters(
+            "send_enable_thinking_param", self.send_enable_thinking_param
+        )
         self.add_cache_impact_parameters("model", self.model)
         self.add_cache_impact_parameters("prompt", self.prompt(""))
         self.token_count = AtomicInteger()
@@ -51,7 +58,9 @@ class SiliconFlowTranslator(BaseTranslator):
             model=self.model,
             **self.options,
             messages=self.prompt(text),
-            extra_body={"enable_thinking": self.enable_thinking},
+            extra_body={"enable_thinking": self.enable_thinking}
+            if self.send_enable_thinking_param
+            else None,
         )
         self.token_count.inc(response.usage.total_tokens)
         self.prompt_token_count.inc(response.usage.prompt_tokens)
@@ -79,7 +88,9 @@ class SiliconFlowTranslator(BaseTranslator):
                     "content": text,
                 },
             ],
-            extra_body={"enable_thinking": self.enable_thinking},
+            extra_body={"enable_thinking": self.enable_thinking}
+            if self.send_enable_thinking_param
+            else None,
         )
         self.token_count.inc(response.usage.total_tokens)
         self.prompt_token_count.inc(response.usage.prompt_tokens)
