@@ -17,11 +17,11 @@ body:
         required: true
       - label: 我已填写环境信息
         required: true
-      - label: 我已上传原始文件，或确认该问题与原始文件无关
+      - label: 我已上传原始文件，或确认该问题与原始文件无关（若该问题需要原始文件来复现，但您未提供，则 issue 会被直接关闭）
+        required: true
+      - label: 我已上传日志，或知晓不上传日志会导致此 issue 被直接关闭
         required: true
       - label: 我确认此问题与本项目的 api 无关（在 api 文档写出来之前，不受理任何有关 api 使用的疑问！）
-        required: true
-      - label: 我已知晓受限于精力有限，本项目维护者没有能力提供高质量的解答，若您对解答质量有较高要求，请勿提交 issue。
         required: true
       - label: 我已知晓本项目按 AGPL v3 许可协议“按原样”提供，在适用法律允许的范围内，对该程序没有任何保证。除非另有书面说明，否则版权持有人和/或其他各方 "按原样 "提供该程序，不提供任何明示或暗示的保证，包括但不限于对适销性和特定用途的适用性的暗示保证。**关于程序的质量和性能的全部风险由您承担。**如果该程序被证明有缺陷，您将承担所有必要的服务、修理或纠正的费用。
         required: true
@@ -30,7 +30,15 @@ body:
     attributes:
       value: |
         感谢您使用本项目并反馈！
-        请再次确认上述复选框所述的内容已经认真执行！
+        请再次确认上述复选框所述的内容已经认真执行！（若您未认真执行，则 issue 会被直接关闭，且不会得到任何回复）
+
+        另请注意：
+        > [!WARNING]
+        >
+        > 受限于精力有限，本项目维护者没有能力提供高质量的解答，若您对解答质量有较高要求，请勿提交 issue。
+        >
+        > 由于作者精力有限，我们不提供任何形式的使用协助或问题解答。相关Issue将直接关闭！（欢迎提交PR以改进本项目文档；Bug或友善且遵循issue模板的不受此影响）
+
   - type: textarea
     id: environment
     attributes:
@@ -89,7 +97,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: 相关 Logs
+      label: 相关 Logs（
       description: |
         请复制并粘贴任何相关的日志输出。建议将 log 保存到 txt 中然后上传。不上传 log 的 issue 将会被直接关闭。
       render: Text

@@ -19,6 +19,8 @@ body:
         required: true
       - label: I have uploaded the original file, or confirmed that the issue is unrelated to the original file
         required: true
+      - label: I have uploaded logs, or acknowledge that not uploading logs will cause this issue to be closed directly
+        required: true
       - label: I confirm that this issue is not related to the project's API (Before the API documentation is released, any questions regarding API usage will not be accepted!)
         required: true
       - label: I have confirmed that due to limited resources, the maintainers of this project do not have the ability to provide high-quality answers. If you have high requirements for the answer quality, please do not submit an issue.
@@ -29,6 +31,14 @@ body:
     attributes:
       value: |
         Thank you for using this project and providing feedback!
+        Please confirm again that the above checklist items have been carefully executed! (If you have not carefully executed them, the issue will be closed directly without any response)
+
+        Please also note:
+        > [!WARNING]
+        >
+        > Due to limited resources, the maintainers of this project do not have the ability to provide high-quality answers. If you have high requirements for the answer quality, please do not submit an issue.
+        >
+        > Due to the maintainers' limited energy, we do not provide any form of usage assistance or problem-solving. Related issues will be closed directly! (Pull requests to improve project documentation are welcome; bugs or friendly issues that follow the issue template are not affected by this)
   - type: textarea
     id: environment
     attributes:
@@ -44,7 +54,7 @@ body:
   - type: textarea
     id: translation-config
     attributes:
-      label: lease paste the translation engine configuration you are using. Issues without specifying the configuration will be closed directly.
+      label: Please paste the translation engine configuration you are using. Issues without specifying the configuration will be closed directly.
       render: markdown
     validations:
       required: true
@@ -87,8 +97,9 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. It's recommended to save the log to a .txt file and upload it. Issues without logs will be closed directly.
+      label: Relevant Logs
+      description: |
+        Please copy and paste any relevant log output. It's recommended to save the log to a .txt file and upload it. Issues without logs will be closed directly.
       render: Text
     validations:
       required: false
