@@ -279,6 +279,10 @@ class SiliconFlowSettings(BaseModel):
     siliconflow_enable_thinking: bool | None = Field(
         default=False, description="Enable thinking for SiliconFlow service"
     )
+    siliconflow_send_enable_thinking_param: bool | None = Field(
+        default=False,
+        description="Send enable thinking param to SiliconFlow service",
+    )
 
     def validate_settings(self) -> None:
         if not self.siliconflow_api_key:
