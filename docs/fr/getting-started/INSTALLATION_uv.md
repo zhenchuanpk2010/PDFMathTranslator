@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Installation** > **uv** _(actuel)_
+[**Commencer**](./getting-started.md) > **Installation** > **uv** _(current)_
 
 ---
 

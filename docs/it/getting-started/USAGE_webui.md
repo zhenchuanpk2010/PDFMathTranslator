@@ -2,13 +2,13 @@
 
 ---
 
-### Utilizzare PDFMathTranslate tramite Webui
+### Utilizzo di PDFMathTranslate tramite Webui
 
 #### Come aprire la pagina WebUI:
 
-Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Windows**, ti preghiamo di fare riferimento a [questo articolo](./INSTALLATION_winexe.md);
+Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Windows**, ti consigliamo di fare riferimento a [questo articolo](./INSTALLATION_winexe.md);
 
-1. Python installato (3.10 <= versione <= 3.12)
+1. Python installato (versione 3.10 <= versione <= 3.12)
 
 2. Installa il nostro pacchetto:
 
@@ -43,7 +43,7 @@ Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Wi
 
 ## Manutenzione
 
----
+### TRANSLATED TEXT
 
 GUI mantenuta da [Rongxin](https://github.com/reycn)
 

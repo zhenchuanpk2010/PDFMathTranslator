@@ -23,14 +23,14 @@ pdf2zh_next document.pdf
 Dopo aver eseguito la traduzione, i file vengono generati nella **directory di lavoro corrente**.
 
 > [!TIP]
-> **Dov'è la mia "Directory di lavoro corrente"?**
+> **Dov'è la mia "Cartella di lavoro corrente"?**
 > Prima di inserire un comando nel terminale, potresti vedere un percorso visualizzato nel tuo terminale:
 > 
 > ```powershell
 > PS C:\Users\XXX>
 > ```
 > 
-> Questa directory è la "*Directory di lavoro corrente*".
+> Questa directory è la "*Cartella di lavoro corrente*".
 > 
 > Se non c'è un percorso, prova a eseguire questo comando nel terminale:
 > 
@@ -38,7 +38,7 @@ Dopo aver eseguito la traduzione, i file vengono generati nella **directory di l
 > pwd
 > ```
 > 
-> Dopo aver eseguito questo comando, verrà visualizzato un percorso. Questo percorso è la "**Directory di lavoro corrente**". I file tradotti appariranno qui.
+> Dopo aver eseguito questo comando, verrà visualizzato un percorso. Questo percorso è la "**Cartella di lavoro corrente**". I file tradotti appariranno qui.
 
 ---
 

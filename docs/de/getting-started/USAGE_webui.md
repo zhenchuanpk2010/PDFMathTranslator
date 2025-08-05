@@ -2,7 +2,7 @@
 
 ---
 
-### Verwendung von PDFMathTranslate über die WebUI
+### Verwenden Sie PDFMathTranslate über Webui
 
 #### So öffnen Sie die WebUI-Seite:
 
@@ -31,7 +31,7 @@ Es gibt mehrere Methoden, um die WebUI-Oberfläche zu öffnen. Wenn Sie **Window
 
 ### Umgebungsvariablen
 
-Sie können die Quell- und Zielsprachen mithilfe von Umgebungsvariablen festlegen:
+Sie können die Quell- und Zielsprachen mit Umgebungsvariablen festlegen:
 
 - `PDF2ZH_LANG_FROM`: Legt die Ausgangssprache fest. Standardmäßig "English".
 - `PDF2ZH_LANG_TO`: Legt die Zielsprache fest. Standardmäßig "Simplified Chinese".
@@ -43,7 +43,9 @@ Sie können die Quell- und Zielsprachen mithilfe von Umgebungsvariablen festlege
 
 ## Wartung
 
-GUI gepflegt von [Rongxin](https://github.com/reycn)
+### TRANSLATION RESULT
+
+GUI wird von [Rongxin](https://github.com/reycn) gewartet
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

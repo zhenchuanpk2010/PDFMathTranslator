@@ -9,21 +9,21 @@ Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Bezeichnung auf Chinesisch | Bezeichnung | `Language Code` |
 | --- | --- | --- |
 | Amharisch | Amharic | `am` |
-| Arabisch | Arabisch | `ar` |
+| Arabisch | Arabic | `ar` |
 | Baskisch | Basque | `eu` |
 | Bengalisch | Bengali | `bn` |
-| Englisch (Vereinigtes Königreich) | English (UK) | `en-GB` |
+| Englisch (UK) | `en-GB` |
 | Portugiesisch (Brasilien) | Portuguese (Brazil) | `pt-BR` |
 | Bulgarisch | Bulgarian | `bg` |
 | Katalanisch | Catalan | `ca` |
-| Cherokee | Cherokee | `chr` |
+| 切罗基语 | Cherokee | `chr` |
 | Kroatisch | Croatian | `hr` |
 | Tschechisch | Czech | `cs` |
 | Dänisch | Danish | `da` |
 | Niederländisch | Dutch | `nl` |
-| Englisch (US) | English (US) | `en` |
+| Deutsch (Deutschland) | German (Germany) | `de` |
 | Estnisch | Estonian | `et` |
-| 菲律宾语 | Filipino | `fil` |
+| Philippinisch | Filipino | `fil` |
 | Finnisch | Finnish | `fi` |
 | Französisch | French | `fr` |
 | Deutsch | German | `de` |
@@ -32,15 +32,15 @@ Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Hebräisch | Hebrew | `iw` |
 | Hindi | Hindi | `hi` |
 | Ungarisch | Hungarian | `hu` |
-| Isländisch | Icelandic | `is` |
+| Isländisch | `is` |
 | Indonesisch | Indonesian | `id` |
 | Italienisch | Italian | `it` |
 | Japanisch | Japanese | `ja` |
 | Kannada | Kannada | `kn` |
-| Korean | `ko` |
-| Lettisch | Lettisch | `lv` |
+| Koreanisch | `ko` |
+| Lettisch | Latvian | `lv` |
 | Litauisch | Lithuanian | `lt` |
-| 马来语 | Malay | `ms` |
+| Malayisch | Malay | `ms` |
 | Malayalam | Malayalam | `ml` |
 | Marathi | `mr` |
 | Norwegisch | Norwegian | `no` |
@@ -49,16 +49,16 @@ Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Rumänisch | Romanian | `ro` |
 | Russisch | Russian | `ru` |
 | Serbisch | Serbian | `sr` |
-| Chinesisch (China) | Chinese (PRC) | `zh-CN` |
+| 中文（中国） | Chinesisch (VR China) | `zh-CN` |
 | Slowakisch | Slovak | `sk` |
 | Slowenisch | Slovenian | `sl` |
 | Spanisch | Spanish | `es` |
-| Swahili | `sw` |
+| Swahili | Swahili | `sw` |
 | Schwedisch | Swedish | `sv` |
-| Tamil | Tamil | `ta` |
+| Tamilisch | Tamil | `ta` |
 | Telugu | Telugu | `te` |
-| 泰语 | Thai | `th` |
-| Chinesisch (Taiwan) | Chinese (Taiwan) | `zh-TW` |
+| Thailändisch | `th` |
+| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
 | Türkisch | Turkish | `tr` |
 | Urdu | Urdu | `ur` |
 | Ukrainisch | Ukrainian | `uk` |
@@ -78,8 +78,8 @@ Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Deutsch | German | `DE` | `source`, `target` |
 | Griechisch | Greek | `EL` | `source`, `target` |
 | Deutsch | German | `DE` | `source`, `target` |
+| Deutsch (Deutschland) | German (Germany) | `DE-DE` | `target` |
 | Deutsch (Deutschland) | German (German) | `DE-DE` | `target` |
-| Englisch (Amerikanisch) | `EN-US` | `target` |
 | Spanisch | Spanish | `ES` | `source`, `target` |
 | Estnisch | Estonian | `ET` | `source`, `target` |
 | Finnisch | Finnish | `FI` | `source`, `target` |
@@ -87,15 +87,15 @@ Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Ungarisch | Hungarian | `HU` | `source`, `target` |
 | Indonesisch | Indonesian | `ID` | `source`, `target` |
 | Italienisch | Italian | `IT` | `source`, `target` |
-| Japanisch | `JA` | `source`, `target` |
+| Japanisch | Japanese | `JA` | `source`, `target` |
 | Koreanisch | Koreanisch | `KO` | `source`, `target` |
 | Litauisch | Lithuanian | `LT` | `source`, `target` |
 | Lettisch | Latvian | `LV` | `source`, `target` |
-| Norwegisch Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |
+| Bokmål (Norwegisch) | Norwegian Bokmål | `NB` | `source`, `target` |
 | Niederländisch | Dutch | `NL` | `source`, `target` |
 | Polnisch | Polish | `PL` | `source`, `target` |
 | Portugiesisch | Portuguese | `PT` | `source`, `target` |
-| Portugiesisch (Brasilianisch) | Portuguese (Brazilian) | `PT-BR` | `target` |
+| Portugiesisch (Brasilien) | Portuguese (Brazilian) | `PT-BR` | `target` |
 | Portugiesisch (Europäisch) | Portuguese (European) | `PT-PT` | `target` |
 | Rumänisch | Romanian | `RO` | `source`, `target` |
 | Russisch | Russian | `RU` | `source`, `target` |
@@ -105,7 +105,27 @@ Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Türkisch | Turkish | `TR` | `source`, `target` |
 | Ukrainisch | Ukrainian | `UK` | `source`, `target` |
 | Deutsch | German | `DE` | `source`, `target` |
-| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
+| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
+|--------------|----------------------|-----------|----------|------|--------------|----------------------|-----------|----------|
+| 英语         | English              | `EN`      | `source` |      | 德语         | German               | `DE`      | `target` |
+| 法语         | French               | `FR`      | `source` |      | 西班牙语     | Spanish              | `ES`      | `target` |
+| 葡萄牙语     | Portuguese           | `PT`      | `source` |      | 意大利语     | Italian              | `IT`      | `target` |
+| 荷兰语       | Dutch                | `NL`      | `source` |      | 波兰语       | Polish               | `PL`      | `target` |
+| 俄语         | Russian              | `RU`      | `source` |      | 日语         | Japanese             | `JA`      | `target` |
+| 韩语         | Korean               | `KO`      | `source` |      | 印尼语       | Indonesian           | `ID`      | `target` |
+
+---
+
+### TRANSLATED TEXT
+
+| Chinesisch (Vereinfacht) | Chinese (Simplified) | `ZH-HANS` | `target` |------| Chinesisch (Traditionell) | Chinese (Traditional) | `ZH-HANT` | `target` |
+|--------------------------|----------------------|-----------|----------|------|---------------------------|----------------------|-----------|----------|
+| Englisch                 | English              | `EN`      | `source` |      | Deutsch                   | German               | `DE`      | `target` |
+| Französisch              | French               | `FR`      | `source` |      | Spanisch                  | Spanish              | `ES`      | `target` |
+| Portugiesisch            | Portuguese           | `PT`      | `source` |      | Italienisch               | Italian              | `IT`      | `target` |
+| Niederländisch           | Dutch                | `NL`      | `source` |      | Polnisch                  | Polish               | `PL`      | `target` |
+| Russisch                 | Russian              | `RU`      | `source` |      | Japanisch                 | Japanese             | `JA`      | `target` |
+| Koreanisch               | Korean               | `KO`      | `source` |      | Indonesisch               | Indonesian           | `ID`      | `target` |
 | 中文（繁体） | Chinesisch (Traditionell) | `ZH-HANT` | `target` |
 
 <div align="right"> 

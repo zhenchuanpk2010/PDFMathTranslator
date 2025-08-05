@@ -14,7 +14,7 @@ Encontré el siguiente error de interrupción mientras descargaba el modelo. ¿Q
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Respuesta**:
-La red está recibiendo interferencias, por favor utiliza un enlace de red estable o intenta evitar la intervención de la red.
+La red está recibiendo interferencias, por favor usa un enlace de red estable o intenta evitar la intervención de la red.
 
 ## ¿Cómo actualizar a la última versión?
 - **Pregunta**:
@@ -34,9 +34,9 @@ Al ejecutar el programa, los usuarios tendrían las siguientes salidas: `The fol
   - Usa el modo interactivo `pdf2zh -i` para arrastrar y soltar archivos directamente
 
 
-## Error de SSL y otros problemas de red
+## Error SSL y otros problemas de red
 - **Problema**:
-Al descargar modelos de Hugging Face, los usuarios en China pueden experimentar errores de red. Por ejemplo, en [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
+Al descargar modelos de hugging face, los usuarios en China pueden experimentar errores de red. Por ejemplo, en [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
 - **Solución**:
   - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).
@@ -50,7 +50,7 @@ Por favor, vea a continuación.
 
 ## Error al iniciar la GUI usando 0.0.0.0
 - **Problema**:
-El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en el [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Solución**:
 Usar modo de reglas

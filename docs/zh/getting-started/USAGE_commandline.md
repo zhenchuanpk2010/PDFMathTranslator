@@ -20,7 +20,7 @@ pdf2zh_next document.pdf
 > pdf2zh_next "path with spaces/document.pdf"
 > ```
 
-执行翻译后，文件生成于**当前工作目录**。
+执行翻译后，文件生成于 **当前工作目录**。
 
 > [!TIP]
 > **我的“当前工作目录”在哪里？**
@@ -47,4 +47,4 @@ pdf2zh_next document.pdf
 有关其他命令行参数的详细说明，请参阅[高级用法](./../advanced/advanced.md)。
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

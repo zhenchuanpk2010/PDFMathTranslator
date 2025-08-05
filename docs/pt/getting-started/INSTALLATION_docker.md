@@ -6,7 +6,7 @@
 
 #### O que é docker?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) é uma plataforma aberta para desenvolver, enviar e executar aplicações. O Docker permite que você separe suas aplicações da sua infraestrutura, para que você possa entregar software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia suas aplicações. Ao aproveitar as metodologias do Docker para enviar, testar e implantar código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo em produção.
+[Docker](https://docs.docker.com/get-started/docker-overview/) é uma plataforma aberta para desenvolver, enviar e executar aplicações. O Docker permite que você separe suas aplicações de sua infraestrutura para que você possa entregar software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia suas aplicações. Ao aproveitar as metodologias do Docker para enviar, testar e implantar código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo em produção.
 
 #### Instalação
 

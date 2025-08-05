@@ -12,7 +12,7 @@
 | アラビア語 | Arabic | `ar` |
 | バスク語 | Basque | `eu` |
 | ベンガル語 | Bengali | `bn` |
-| 英語（イギリス） | English (UK) | `en-GB` |
+|
 | ポルトガル語（ブラジル） | Portuguese (Brazil) | `pt-BR` |
 | ブルガリア語 | Bulgarian | `bg` |
 | カタルーニャ語 | Catalan | `ca` |
@@ -37,10 +37,10 @@
 | イタリア語 | Italian | `it` |
 | 日本語 | Japanese | `ja` |
 | カンナダ語 | Kannada | `kn` |
-| 韓国語 | Korean | `ko` |
+| 韩语 | Korean | `ko` |
 | ラトビア語 | Latvian | `lv` |
 | リトアニア語 | Lithuanian | `lt` |
-| 马来语 | Malay | `ms` |
+| マレー語 | Malay | `ms` |
 | マラヤーラム語 | Malayalam | `ml` |
 | マラーティー語 | Marathi | `mr` |
 | ノルウェー語 | Norwegian | `no` |
@@ -49,7 +49,7 @@
 | ルーマニア語 | Romanian | `ro` |
 | ロシア語 | Russian | `ru` |
 | セルビア語 | Serbian | `sr` |
-| 中国語（中国） | Chinese (PRC) | `zh-CN` |
+| 日本語（日本） | Japanese (Japan) | `ja-JP` |
 | スロバキア語 | Slovak | `sk` |
 | スロベニア語 | Slovenian | `sl` |
 | スペイン語 | Spanish | `es` |
@@ -58,7 +58,7 @@
 | タミル語 | Tamil | `ta` |
 | テルグ語 | Telugu | `te` |
 | タイ語 | Thai | `th` |
-| 日本語（日本） | Japanese (Japan) | `ja-JP` |
+| 中国語（台湾） | Chinese (Taiwan) | `zh-TW` |
 | トルコ語 | Turkish | `tr` |
 | ウルドゥー語 | Urdu | `ur` |
 | ウクライナ語 | Ukrainian | `uk` |
@@ -69,7 +69,7 @@
 #### DeepL
 ソース <https://developers.deepl.com/docs/resources/supported-languages>、GPT-4o によって整理。
 
-| 中国語ラベル | ラベル | `Language Code` | サポート |
+| 中国語ラベル | ラベル | `言語コード` | サポート |
 | --- | --- | --- | --- |
 | アラビア語 | Arabic | `AR` | `source`, `target` |
 | ブルガリア語 | Bulgarian | `BG` | `source`, `target` |
@@ -91,7 +91,7 @@
 | 韓国語 | Korean | `KO` | `source`, `target` |
 | リトアニア語 | Lithuanian | `LT` | `source`, `target` |
 | ラトビア語 | Latvian | `LV` | `source`, `target` |
-| ノルウェー語ブークモール | Norwegian Bokmål | `NB` | `source`, `target` |
+| ノルウェー・ブークモール語 | Norwegian Bokmål | `NB` | `source`, `target` |
 | オランダ語 | Dutch | `NL` | `source`, `target` |
 | ポーランド語 | Polish | `PL` | `source`, `target` |
 | ポルトガル語 | Portuguese | `PT` | `source`, `target` |
@@ -105,8 +105,10 @@
 | トルコ語 | Turkish | `TR` | `source`, `target` |
 | ウクライナ語 | Ukrainian | `UK` | `source`, `target` |
 | 日本語 | Japanese | `JA` | `source`, `target` |
+|---|---|---|---|---|---|---|---|---|
+| 中文 | Chinese | `ZH` | `source`, `target` | 日本語 | Japanese | `JA` | `source`, `target` |
 | 日本語 | Japanese | `JA` | `target` |
 | 中国語（繁体字） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>

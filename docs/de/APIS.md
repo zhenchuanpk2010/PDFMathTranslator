@@ -26,7 +26,26 @@ params = {
     'thread': 4,
 }
 ```
-Mit Dateien übersetzen:
+```bash
+pdf2zh -i input.pdf -o output.pdf
+```
+
+[Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+
+[Using **Command Line**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)
+
+---
+
+### TRANSLATED TEXT
+
+Mit Dateien übersetzen:  
+```bash
+pdf2zh -i input.pdf -o output.pdf
+```
+
+[Verwendung der **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+
+[Verwendung der **Kommandozeile**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```

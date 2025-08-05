@@ -6,7 +6,7 @@
 
 #### Uso básico
 
-Después de la instalación, por favor ingresa este comando para traducir tu `PDF`.
+Después de la instalación, por favor ingrese este comando para traducir su PDF.
 
 ```bash
 pdf2zh_next document.pdf

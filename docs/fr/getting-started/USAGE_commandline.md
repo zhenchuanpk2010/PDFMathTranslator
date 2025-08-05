@@ -30,9 +30,9 @@ Après avoir exécuté la traduction, les fichiers sont générés dans le **ré
 > PS C:\Users\XXX>
 > ```
 > 
-> Ce répertoire est le "*Répertoire de travail actuel*".
+> Ce répertoire est le "*Répertoire de travail actuel*."
 > 
-> S'il n'y a pas de chemin affiché, essayez d'exécuter cette commande dans le terminal :
+> S'il n'y a pas de chemin, essayez d'exécuter cette commande dans le terminal :
 > 
 > ```bash
 > pwd

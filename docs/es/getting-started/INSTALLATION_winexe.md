@@ -13,7 +13,7 @@
 > - El archivo `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.
 > - La versión sin recursos también descargará dinámicamente los recursos al ejecutarse, pero la descarga puede fallar debido a problemas de red.
 
-***Paso 2*** | Descomprime `pdf2zh-<version>-with-assets-win64.zip` y navega hasta la carpeta `pdf2zh`. La descompresión puede tomar un tiempo, por favor ten paciencia.
+***Paso 2*** | Descomprime `pdf2zh-<version>-with-assets-win64.zip` y navega hasta la carpeta `pdf2zh`. La descompresión puede tardar un poco, por favor ten paciencia.
 
 ***Paso 3*** | Navega hasta la carpeta `pdf2zh`, luego haz doble clic en `pdf2zh.exe`.
 
@@ -22,7 +22,7 @@
 >
 > Si tienes problemas al ejecutar pdf2zh.exe, por favor instala `https://aka.ms/vs/17/release/vc_redist.x64.exe` e inténtalo de nuevo.
 
-***Paso 4*** | Al hacer doble clic en el archivo .exe, aparecerá una terminal. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
+***Paso 4*** | Aparecerá una terminal después de hacer doble clic en el archivo exe. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
 
 > [!NOTE]
 >

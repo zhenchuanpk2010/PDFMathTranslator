@@ -12,9 +12,9 @@ O presente projeto suporta dois tipos de APIs, Todos os métodos precisam do Red
 
 <h2 id="api-python">Python</h2>
 
-Como `pdf2zh` é um módulo instalado em Python, expomos dois métodos para outros programas chamarem em qualquer script Python.
+Como `pdf2zh` é um módulo instalado em Python, expomos dois métodos para que outros programas possam chamar em qualquer script Python.
 
-Por exemplo, se você deseja traduzir um documento do inglês para o chinês usando o Google Tradutor, pode usar o seguinte código:
+Por exemplo, se você deseja traduzir um documento do inglês para o chinês usando o Google Tradutor, você pode usar o seguinte código:
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -44,7 +44,7 @@ with open('example.pdf', 'rb') as f:
 
 De uma forma mais flexível, você pode se comunicar com o programa usando protocolos HTTP, se:
 
-1. Instale e execute o backend
+1. Instalar e executar o backend
 
    ```bash
    pip install pdf2zh_next[backend]
@@ -52,7 +52,7 @@ De uma forma mais flexível, você pode se comunicar com o programa usando proto
    pdf2zh_next --celery worker
    ```
 
-2. Usando protocolos HTTP conforme a seguir:
+2. Usar protocolos HTTP conforme a seguir:
 
    - Enviar tarefa de tradução
 

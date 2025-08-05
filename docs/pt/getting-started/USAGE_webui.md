@@ -8,7 +8,7 @@
 
 Existem vários métodos para abrir a interface WebUI. Se você estiver usando **Windows**, consulte [este artigo](./INSTALLATION_winexe.md);
 
-1. Python instalado (versão 3.10 <= versão <= 3.12)
+1. Python instalado (versão entre 3.10 e 3.12)
 
 2. Instale nosso pacote:
 
@@ -18,7 +18,7 @@ Existem vários métodos para abrir a interface WebUI. Se você estiver usando *
     pdf2zh_next --gui
     ```
 
-4. Se o seu navegador não tiver sido iniciado automaticamente, vá para
+4. Se o seu navegador não tiver sido iniciado automaticamente, acesse
 
     ```bash
     http://localhost:7860/

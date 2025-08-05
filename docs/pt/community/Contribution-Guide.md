@@ -1,4 +1,4 @@
-# Contribuindo para o Projeto
+# Contribuindo para o projeto
 
 > [!CAUTION]
 >
@@ -10,18 +10,18 @@ Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reser
 
 ## Tipos de Contribuições Não Aceitas
 
-1. Documentação de internacionalização/tradução
-2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.
-3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
-4. Outras contribuições consideradas inadequadas pelos mantenedores.
-5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.
-6. PRs que exigem modificação de arquivos `PDF`.
+1. Documentação de internacionalização/tradução  
+2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  
+3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
+4. Outras contribuições consideradas inadequadas pelos mantenedores.  
+5. Documentação de contribuição, mas alterando a documentação em idiomas diferentes do inglês.  
+6. PRs que exigem modificação de arquivos PDF.
 
 Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!NOTE]
 >
-> Se você deseja contribuir com a documentação, por favor **modifique apenas a versão em inglês da documentação**. As outras versões em idiomas são traduzidas pelos próprios contribuidores.
+> Se você deseja contribuir com a documentação, por favor **modifique apenas a versão em inglês da documentação**. As outras versões em outros idiomas são traduzidas pelos próprios contribuidores.
 
 ## Processo de Contribuição
 
@@ -49,9 +49,9 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 <h4 id="sop">1. Fluxo de trabalho</h4>
 
-   - Por favor, faça um fork do branch `main` e desenvolva no seu branch bifurcado.
+   - Por favor, faça um fork a partir do branch `main` e desenvolva no seu branch bifurcado.
    - Ao enviar um Pull Request (PR), forneça uma descrição detalhada das suas alterações.
-   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelha), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
+   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelho), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
 
 
 <h4 id="dev&test">2. Desenvolvimento e Teste</h4>
@@ -79,7 +79,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
    - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por exemplo: `feat(translator): add openai`.
 
 
-<h4 id="estilodecodigo">7. Estilo de Código</h4>
+<h4 id="codestyle">7. Estilo de Codificação</h4>
 
    - Certifique-se de que o código enviado adere aos padrões básicos de estilo de codificação.
    - Use snake_case ou camelCase para nomeação de variáveis.
@@ -92,9 +92,9 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 ## Adicionando um mecanismo de tradução
 
-1. Adicione uma nova classe de configuração do tradutor no arquivo `pdf2zh/config/translate_engine_model.py`.
-2. Adicione uma instância da nova classe de configuração do tradutor ao alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` no mesmo arquivo.
-3. Adicione a nova classe de implementação do tradutor na pasta `pdf2zh/translator/translator_impl`.
+1. Adicione uma nova classe de configuração de tradutor no arquivo `pdf2zh/config/translate_engine_model.py`.
+2. Adicione uma instância da nova classe de configuração de tradutor ao alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` no mesmo arquivo.
+3. Adicione a nova classe de implementação de tradutor na pasta `pdf2zh/translator/translator_impl`.
 
 > [!NOTE]
 >
@@ -104,7 +104,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 - **config folder**: Sistema de configuração.
 - **translator folder**: Implementações relacionadas ao tradutor.
-- **gui.py**: Fornece a interface gráfica.
+- **gui.py**: Fornece a interface gráfica do usuário.
 - **const.py**: Algumas constantes.
 - **main.py**: Fornece a ferramenta de linha de comando.
 - **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.
@@ -112,11 +112,11 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 ## Entre em contato conosco
 
-Se você tiver alguma dúvida, por favor, envie seu feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
+Se você tiver alguma dúvida, por favor, envie feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) patrocina códigos mensais de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [Regras de Recompensa para Contribuidores do BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) patrocina códigos mensais de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

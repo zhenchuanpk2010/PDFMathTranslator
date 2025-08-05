@@ -1,14 +1,14 @@
 Certaines questions sont fréquemment posées, nous avons donc fourni une liste pour les utilisateurs qui rencontrent des problèmes similaires.
 
 ## Un GPU est-il nécessaire ?
-- **Question** :
+- **Question**:
 Le programme utilise l'intelligence artificielle pour reconnaître et extraire des documents, un GPU est-il nécessaire ?
 
 - **Réponse** :
 **Un GPU n'est pas nécessaire.** Mais si vous avez un GPU, le programme l'utilisera automatiquement pour une meilleure performance.
 
 ## Téléchargement interrompu ?
-- **Question** :
+- **Question**:
 J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du modèle. Que dois-je faire ?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
@@ -17,8 +17,8 @@ J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du mod
 Le réseau subit des interférences, veuillez utiliser une connexion réseau stable ou essayer de contourner l'intervention du réseau.
 
 ## Comment mettre à jour vers la dernière version ?
-- **Question** :
-Je souhaite utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?
+- **Question**:
+Je veux utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?
 
 - **Réponse** :
 `pip install -U pdf2zh`
@@ -50,7 +50,7 @@ Veuillez voir ci-dessous.
 
 ## Erreur lors du lancement de l'interface graphique avec 0.0.0.0
 - **Problème** :
-L'utilisation de logiciels de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+L'utilisation d'un logiciel de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Solution** :
 Utiliser le mode règle

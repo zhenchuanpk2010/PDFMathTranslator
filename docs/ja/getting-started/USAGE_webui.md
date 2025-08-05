@@ -18,13 +18,13 @@ WebUI インターフェースを開く方法はいくつかあります。**Win
     pdf2zh_next --gui
     ```
 
-4. ブラウザが自動的に起動しない場合、次の URL にアクセス：
+4. ブラウザが自動的に起動しない場合は、以下にアクセス：
 
     ```bash
     http://localhost:7860/
     ```
 
-    PDF ファイルをウィンドウにドロップして、`Translate` をクリック。
+    PDF ファイルをウィンドウにドロップして `Translate` をクリック。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
@@ -46,4 +46,4 @@ WebUI インターフェースを開く方法はいくつかあります。**Win
 [Rongxin](https://github.com/reycn) がメンテナンスする GUI
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>

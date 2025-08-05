@@ -4,36 +4,27 @@
 
 ### uv 経由で PDFMathTranslate をインストール
 
-#### uv とは何ですか？インストール方法は？
+#### uv とは何ですか？ インストール方法は？
 
-`uv` は Python パッケージマネージャーで、`pip` や `conda` の代替として設計されています。高速で信頼性が高く、依存関係の解決が優れていることが特徴です。
+uv は Python のパッケージマネージャーで、`pip` や `pip-tools` の代替として高速で効率的なパッケージ管理を提供します。インストール方法は以下の通りです：
 
-**インストール方法：**
+1. **Python のインストール**: uv を使用するには Python 3.7 以降が必要です。まだインストールしていない場合は、[Python 公式サイト](https://www.python.org/downloads/) からダウンロードしてください。
 
-1. **Python 3.8 以上**がインストールされていることを確認してください。
-2. 以下のコマンドを実行して `uv` をインストールします：
+2. **uv のインストール**: 以下のコマンドを実行して uv をインストールします：
+   ```bash
+   pip install uv
+   ```
 
-```bash
-pip install uv
-```
+3. **動作確認**: インストールが完了したら、以下のコマンドでバージョンを確認します：
+   ```bash
+   uv --version
+   ```
 
-または、最新バージョンを直接インストールする場合は：
-
-```bash
-pip install --upgrade uv
-```
-
-3. インストールが完了したら、以下のコマンドでバージョンを確認できます：
-
-```bash
-uv --version
-```
-
-これで `uv` がシステムにインストールされ、使用できるようになります。
+これで uv が使用可能になります。`pip` と同じように `uv pip install パッケージ名` でパッケージをインストールできますが、より高速に動作します。
 
 uv は Rust で書かれた非常に高速な Python パッケージおよびプロジェクトマネージャーです。
 <br>
-コンピューターに uv をインストールするには、[この記事](https://docs.astral.sh/uv/getting-started/installation/)を参照してください。
+uv をコンピュータにインストールするには、[この記事](https://docs.astral.sh/uv/getting-started/installation/) を参照してください。
 
 ---
 
@@ -52,11 +43,11 @@ uv は Rust で書かれた非常に高速な Python パッケージおよびプ
 
 !!! Warning
 
-    `command not found: pdf2zh_next` というエラーが表示された場合、以下のように環境変数を設定して再度試してください:
+    `command not found: pdf2zh_next` というエラーが表示された場合、以下の手順で環境変数を設定して再度お試しください：
 
-    === "macOS と Linux"
+    === "macOS および Linux"
 
-        ~/.zshrc に以下を追加:
+        ~/.zshrc に以下を追加：
 
         ```console
         export PATH="$PATH:/Users/Username/.local/bin"
@@ -66,7 +57,7 @@ uv は Rust で書かれた非常に高速な Python パッケージおよびプ
 
     === "Windows"
 
-        PowerShell で以下を入力:
+        PowerShell で以下を実行：
 
         ```powershell
         $env:Path = "C:\Users\Username\.local\bin;$env:Path"
@@ -81,4 +72,4 @@ uv は Rust で書かれた非常に高速な Python パッケージおよびプ
 > コマンドラインの使用中に問題が発生した場合は、[使い方 --> コマンドライン](./USAGE_commandline.md) を参照してください。
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>

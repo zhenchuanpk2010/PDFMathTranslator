@@ -6,7 +6,7 @@
 
 #### 什麼是 uv？如何安裝它？
 
-uv 是一款極快的 Python 套件和專案管理工具，使用 Rust 編寫。
+uv 是一款極其快速的 Python 套件和專案管理工具，使用 Rust 編寫。
 <br>
 要在您的電腦上安裝 uv，請參考[這篇文章](https://docs.astral.sh/uv/getting-started/installation/)。
 
@@ -53,7 +53,7 @@ uv 是一款極快的 Python 套件和專案管理工具，使用 Rust 編寫。
 > 如果在使用 WebUI 時遇到任何問題，請參考 [如何使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> 如果在使用 命令行 時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。
+> 如果在使用命令行時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。
 
 <div align="right"> 
 <h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

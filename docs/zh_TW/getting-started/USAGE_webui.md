@@ -1,4 +1,4 @@
-[**開始使用**](./getting-started.md) > **如何安裝** > **WebUI** _(current)_
+[**開始使用**](./getting-started.md) > **如何安裝** > **WebUI** _(目前頁面)_
 
 ---
 
@@ -24,7 +24,7 @@
     http://localhost:7860/
     ```
 
-    將 `PDF` 檔案拖曳至視窗並點擊 `Translate`。
+    將 `PDF` 文件拖放至視窗中並點擊 `Translate`。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
@@ -33,8 +33,8 @@
 
 您可以使用環境變數設定來源與目標語言：
 
-- `PDF2ZH_LANG_FROM`: 設定來源語言。預設為 "English"。
-- `PDF2ZH_LANG_TO`: 設定目標語言。預設為 "Simplified Chinese"。
+- `PDF2ZH_LANG_FROM`: 設定來源語言。預設為「English」。
+- `PDF2ZH_LANG_TO`: 設定目標語言。預設為「Simplified Chinese」。
 
 ## 預覽
 
@@ -43,7 +43,7 @@
 
 ## 維護
 
-由 [Rongxin](https://github.com/reycn) 維護的圖形使用者介面
+由 [Rongxin](https://github.com/reycn) 維護的 GUI
 
 <div align="right"> 
 <h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

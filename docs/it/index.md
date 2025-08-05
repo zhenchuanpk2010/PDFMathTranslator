@@ -34,7 +34,7 @@
 
 Traduzione di articoli scientifici PDF e confronto bilingue.
 
-- 📊 Conserva formule, grafici, indice dei contenuti e annotazioni _([anteprima](#anteprima))_.
+- 📊 Conserva formule, grafici, indice e annotazioni _([anteprima](#anteprima))_.
 - 🌐 Supporta [multiple lingue](https://pdf2zh-next.com/supported_languages.html) e diversi [servizi di traduzione](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Fornisce [strumento da riga di comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaccia utente interattiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
@@ -42,15 +42,15 @@ Sentiti libero di fornire feedback su [GitHub Issues](https://github.com/PDFMath
 
 Per dettagli su come contribuire, consulta la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="updates">Aggiornamenti</h2>
+<h2 id="aggiornamenti">Aggiornamenti</h2>
 
 - [4 giu. 2025] Il progetto è stato rinominato e spostato su [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (da [@awwaawwa](https://github.com/awwaawwa))
 - [3 mar. 2025] Supporto sperimentale per il nuovo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI aggiunto come opzione sperimentale (da [@awwaawwa](https://github.com/awwaawwa))
-- [22 feb. 2025] Migliore CI di rilascio e file eseguibile ben confezionato per windows-amd64 (da [@awwaawwa](https://github.com/awwaawwa))
+- [22 feb. 2025] Miglioramento del CI per i rilasci e pacchettizzazione ottimizzata dell'eseguibile windows-amd64 (da [@awwaawwa](https://github.com/awwaawwa))
 - [24 dic. 2024] Il traduttore ora supporta modelli locali su [Xinference](https://github.com/xorbitsai/inference) _(da [@imClumsyPanda](https://github.com/imClumsyPanda))_
 - [19 dic. 2024] Ora sono supportati documenti non-PDF/A utilizzando `-cp` _(da [@reycn](https://github.com/reycn))_
-- [13 dic. 2024] Supporto aggiuntivo per backend da _(da [@YadominJinta](https://github.com/YadominJinta))_
-- [10 dic. 2024] Il traduttore ora supporta modelli OpenAI su Azure _(da [@yidasanqian](https://github.com/yidasanqian))_
+- [13 dic. 2024] Supporto aggiuntivo per il backend _(da [@YadominJinta](https://github.com/YadominJinta))_
+- [10 dic. 2024] Il traduttore ora supporta i modelli OpenAI su Azure _(da [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="anteprima">Anteprima</h2>
 
@@ -72,7 +72,7 @@ Puoi provare la nostra applicazione utilizzando una delle seguenti demo:
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-Nota che le risorse di calcolo della demo sono limitate, quindi si prega di evitare di abusarne.
+Nota che le risorse di calcolo della demo sono limitate, quindi evita di abusarne.
 
 <h2 id="install">Installazione e Utilizzo</h2>
 
@@ -92,15 +92,15 @@ Nota che le risorse di calcolo della demo sono limitate, quindi si prega di evit
 
 Per diversi casi d'uso, forniamo metodi distinti per utilizzare il nostro programma. Consulta [questa pagina](./getting-started/getting-started.md) per maggiori informazioni.
 
-<h2 id="utilizzo">Opzioni avanzate</h2>
+<h2 id="usage">Opzioni avanzate</h2>
 
 Per spiegazioni dettagliate, si prega di fare riferimento al nostro documento su [Utilizzo avanzato](https://pdf2zh-next.com/advanced/advanced.html) per un elenco completo di ciascuna opzione.
 
-<h2 id="sviluppo-secondario">Sviluppo secondario (API)</h2>
+<h2 id="downstream">Sviluppo secondario (APIs)</h2>
 
 > [!NOTE]
 >
-> Attualmente, non è fornita alcuna documentazione pertinente. Sarà integrata successivamente. Si prega di attendere con pazienza.
+> Attualmente, non è fornita alcuna documentazione pertinente. Sarà integrata in seguito. Si prega di attendere con pazienza.
 
 
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
@@ -131,9 +131,9 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 <h2 id="ringraziamenti">Ringraziamenti</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro per i contributori attivi a questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro per i contributori attivi di questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da grandi modelli linguistici (LLM).
+- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da modelli linguistici di grandi dimensioni (LLM).
 
 - Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -146,11 +146,11 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 - Anteprima PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Analisi layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Analisi del layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Standard PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Font multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Carattere multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
@@ -160,7 +160,7 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 <h2 id="conduct">Prima di inviare il tuo codice</h2>
 
-Accogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, ti preghiamo di consultare il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Accogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, consulta il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Contributori</h2>
 
@@ -177,8 +177,77 @@ Accogliamo con favore la partecipazione attiva dei contributori per migliorare p
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
- </picture>
-</a>
+ <p align="center">
+  <a href="https://pdf2zh-next.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pdf2zh-next.com/logo_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://pdf2zh-next.com/logo_light.svg">
+      <img alt="pdf2zh" src="https://pdf2zh-next.com/logo_light.svg" width="300">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com">Home</a> •
+  <a href="https://pdf2zh-next.com/getting-started">Getting Start</a> •
+  <a href="https://pdf2zh-next.com/getting-started/INSTALLATION.html">Installation</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_cli.html">Command Line</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_webui.html">Usage</a> •
+  <a href="https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html">Language Code</a> •
+  <a href="https://pdf2zh-next.com/getting-started/DOCS.html">Documentation of Translation Services</a>
+</p>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com/getting-started">Getting Started</a> •
+  <a href="https://pdf2zh-next.com/getting-started/ADVANCED.html">Advanced</a> •
+  <a href="https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html">Supported Languages</a> •
+  <a href="https://pdf2zh-next.com/community">Community</a> •
+  <a href="https://pdf2zh-next.com/faq">FAQ</a>
+</p>
+
+---
+
+### Installation
+
+### Usage
+
+---
+
+<p align="center">
+  <a href="https://github.com/PDFMathTranslate/pdf2zh">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pdf2zh-next.com/logo_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://pdf2zh-next.com/logo_light.svg">
+      <img alt="pdf2zh" src="https://pdf2zh-next.com/logo_light.svg" width="300">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com">Home</a> •
+  <a href="https://pdf2zh-next.com/getting-started">Iniziare</a> •
+  <a href="https://pdf2zh-next.com/getting-started/INSTALLATION.html">Installazione</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_cli.html">Riga di comando</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_webui.html">Utilizzo</a> •
+  <a href="https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html">Codice lingua</a> •
+  <a href="https://pdf2zh-next.com/getting-started/DOCS.html">Documentazione dei servizi di traduzione</a>
+</p>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com/getting-started">Iniziare</a> •
+  <a href="https://pdf2zh-next.com/getting-started/ADVANCED.html">Opzioni avanzate</a> •
+  <a href="https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html">Lingue supportate</a> •
+  <a href="https://pdf2zh-next.com/community">Comunità</a> •
+  <a href="https://pdf2zh-next.com/faq">Domande frequenti</a>
+</p>
+
+---
+
+### Installazione
+
+### Utilizzo
+
+---
 
 <div align="right"> 
 <h6><small>Parte del contenuto di questa pagina è stata tradotta da GPT e potrebbe contenere errori.</small></h6>

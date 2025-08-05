@@ -6,7 +6,7 @@
 
 Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.
 
-| Etiqueta en chino | Etiqueta | `Código de idioma` |
+| Etiqueta en español | Etiqueta | `Language Code` |
 | --- | --- | --- |
 | Amárico | Amharic | `am` |
 | Árabe | Arabic | `ar` |
@@ -20,11 +20,11 @@ Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Croata | Croatian | `hr` |
 | Checo | Czech | `cs` |
 | Danés | Danish | `da` |
-| Español | Dutch | `nl` |
-| Inglés (EE. UU.) | English (US) | `en` |
+| Neerlandés | Dutch | `nl` |
+| Español (España) | `es` |
 | Estonio | Estonian | `et` |
 | Filipino | Filipino | `fil` |
-| Finés | Finnish | `fi` |
+| Finlandés | Finnish | `fi` |
 | Francés | French | `fr` |
 | Alemán | German | `de` |
 | Griego | Greek | `el` |
@@ -36,8 +36,8 @@ Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Indonesio | Indonesian | `id` |
 | Italiano | Italian | `it` |
 | Japonés | Japanese | `ja` |
-| Canarés | Kannada | `kn` |
-| Coreano | Coreano | `ko` |
+| Kannada | Kannada | `kn` |
+| Coreano | Korean | `ko` |
 | Letón | Latvian | `lv` |
 | Lituano | Lithuanian | `lt` |
 | Malayo | Malay | `ms` |
@@ -45,24 +45,24 @@ Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Marathi | Marathi | `mr` |
 | Noruego | Norwegian | `no` |
 | Polaco | Polish | `pl` |
-| Portugués (Portugal) | Portuguese (Portugal) | `pt-PT` |
+| Portugués (Portugal) | Portugués (Portugal) | `pt-PT` |
 | Rumano | Romanian | `ro` |
-| Ruso | Russian | `ru` |
+| Español | Spanish | `es` |
 | Serbio | Serbian | `sr` |
-| Español (España) | Spanish (Spain) | `es-ES` |
+| 中文（中国） | Chinese (PRC) | `zh-CN` |
 | Eslovaco | Slovak | `sk` |
 | Esloveno | Slovenian | `sl` |
 | Español | Spanish | `es` |
-| Suajili | Swahili | `sw` |
-| 瑞典语 | Sueco | `sv` |
+| 斯瓦希里语 | Swahili | `sw` |
+| Sueco | Swedish | `sv` |
 | Tamil | Tamil | `ta` |
 | Telugu | Telugu | `te` |
 | Tailandés | Thai | `th` |
-| Español (España) | Spanish (Spain) | `es-ES` |
+| Chino (Taiwán) | Chinese (Taiwan) | `zh-TW` |
 | Turco | Turkish | `tr` |
 | Urdu | Urdu | `ur` |
 | Ucraniano | Ukrainian | `uk` |
-| 越南语 | Vietnamese | `vi` |
+| Vietnamita | Vietnamita | `vi` |
 | Galés | Welsh | `cy` |
 
 
@@ -78,7 +78,9 @@ Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Alemán | German | `DE` | `source`, `target` |
 | Griego | Greek | `EL` | `source`, `target` |
 | Español | `ES` | `source`, `target` |
-| Inglés (Británico) | English (British) | `EN-GB` | `target` |
+|---|---|---|---|---|---|---|---|
+| 中文 | Chinese | `ZH` | `source`, `target` |
+| Inglés (Británico) | `EN-GB` | `target` |
 | Español (Estados Unidos) | English (American) | `EN-US` | `target` |
 | Español | Spanish | `ES` | `source`, `target` |
 | Estonio | Estonian | `ET` | `source`, `target` |
@@ -95,20 +97,20 @@ Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Neerlandés | Dutch | `NL` | `source`, `target` |
 | Polaco | Polish | `PL` | `source`, `target` |
 | Portugués | Portuguese | `PT` | `source`, `target` |
-| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |
-| Portugués (Europeo) | Portugués (Europeo) | `PT-PT` | `target` |
+| Português (Brasileiro) | `PT-BR` | `targeto` |
+| Português (Europeu) | Portuguese (European) | `PT-PT` | `target` |
 | Rumano | Romanian | `RO` | `source`, `target` |
 | Ruso | Russian | `RU` | `source`, `target` |
-### TRANSLATION RESULT
-
 | Eslovaco | Slovak | `SK` | `source`, `target` |
 | Esloveno | Slovenian | `SL` | `source`, `target` |
 | Sueco | Swedish | `SV` | `source`, `target` |
 | Turco | Turkish | `TR` | `source`, `target` |
 | Ucraniano | Ukrainian | `UK` | `source`, `target` |
 | Español | Spanish | `ES` | `source`, `target` |
-| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
-| Español tradicional | Chino (Tradicional) | `ZH-HANT` | `target` |
+| Español | Spanish | `ES` | `target` |
+|--------------|----------------------|-----------|----------|--------|---------|---------|------|----------|
+| 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |        | Español | Spanish | `ES` | `target` |
+| Chino tradicional | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

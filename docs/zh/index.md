@@ -35,22 +35,22 @@
 PDF 科学论文翻译与双语对照。
 
 - 📊 保留公式、图表、目录和注释 _([预览](#预览))_。
-- 🌐 支持 [多种语言](https://pdf2zh-next.com/supported_languages.html) 和多样化的 [翻译服务](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。
+- 🌐 支持 [多种语言](https://pdf2zh-next.com/supported_languages.html)，以及多样化的 [翻译服务](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。
 - 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[交互式用户界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-欢迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) 中提供反馈。
+欢迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram 群组](https://t.me/+Z9_SgnxmsmA5NzBl) 中提供反馈。
 
 如需了解如何贡献，请参阅 [贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
 
-<h2 id="更新日志">更新日志</h2>
+<h2 id="更新">更新</h2>
 
-- [2025 年 6 月 4 日] 项目更名为 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) 并迁移至该仓库 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025 年 3 月 3 日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025 年 2 月 22 日] 改进发布 CI 并完善 Windows-amd64 可执行文件打包 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2024 年 12 月 24 日] 翻译器现支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [2024 年 12 月 19 日] 现通过 `-cp` 参数支持非 PDF/A 格式文档 _(by [@reycn](https://github.com/reycn))_
-- [2024 年 12 月 13 日] 新增后端支持 _(by [@YadominJinta](https://github.com/YadominJinta))_
-- [2024 年 12 月 10 日] 翻译器现支持 Azure 上的 OpenAI 模型 _(by [@yidasanqian](https://github.com/yidasanqian))_
+- [2025 年 6 月 4 日] 项目已重命名并迁移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)（由 [@awwaawwa](https://github.com/awwaawwa) 贡献）
+- [2025 年 3 月 3 日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项（由 [@awwaawwa](https://github.com/awwaawwa) 贡献）
+- [2025 年 2 月 22 日] 改进的发布 CI 和打包良好的 Windows-amd64 可执行文件（由 [@awwaawwa](https://github.com/awwaawwa) 贡献）
+- [2024 年 12 月 24 日] 翻译器现在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型（由 [@imClumsyPanda](https://github.com/imClumsyPanda) 贡献）
+- [2024 年 12 月 19 日] 现在支持使用 `-cp` 处理非 PDF/A 文档（由 [@reycn](https://github.com/reycn) 贡献）
+- [2024 年 12 月 13 日] 新增对后端的支持（由 [@YadominJinta](https://github.com/YadominJinta) 贡献）
+- [2024 年 12 月 10 日] 翻译器现在支持 Azure 上的 OpenAI 模型（由 [@yidasanqian](https://github.com/yidasanqian) 贡献）
 
 <h2 id="预览">预览</h2>
 
@@ -67,20 +67,20 @@ PDF 科学论文翻译与双语对照。
 
 您可以通过以下任一演示来试用我们的应用程序：
 
-- [v1.x 公共免费服务](https://pdf2zh.com/) 无需安装即可在线使用 _(推荐)_。
+- [v1.x 公共免费服务](https://pdf2zh.com/) 无需安装即可在线使用 _(推荐)_  
 - [沉浸式翻译 - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 页免费额度 _(推荐)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-请注意，演示版的计算资源有限，请避免滥用。
+请注意，演示环境的计算资源有限，请避免滥用。
 
-<h2 id="install">安装与使用</h2>
+<h2 id="安装">安装与使用</h2>
 
 ### 如何安装
 
 1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 推荐</small>
 2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 推荐</small>
-3. [**uv** (Python 包管理器)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 推荐</small>
+3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 推荐</small>
 
 ---
 
@@ -90,17 +90,17 @@ PDF 科学论文翻译与双语对照。
 2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程序)
 3. [使用 **命令行**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-针对不同的使用场景，我们提供了多种使用程序的方法。更多信息请查看[此页面](./getting-started/getting-started.md)。
+针对不同的使用场景，我们提供了多种使用本程序的方法。更多信息请查看[此页面](./getting-started/getting-started.md)。
 
 <h2 id="usage">高级选项</h2>
 
-如需详细说明，请参阅我们关于[高级用法](https://pdf2zh-next.com/advanced/advanced.html)的文档，其中包含每个选项的完整列表。
+如需详细说明，请参阅我们的[高级用法](https://pdf2zh-next.com/advanced/advanced.html)文档，了解每个选项的完整列表。
 
 <h2 id="downstream">二次开发 (APIs)</h2>
 
 > [!NOTE]
 >
-> 目前未提供相关文档。后续会进行补充，请耐心等待。
+> 目前未提供相关文档。后续会补充，请耐心等待。
 
 
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
@@ -110,7 +110,7 @@ PDF 科学论文翻译与双语对照。
 
 <h2 id="语言代码">Language Code</h2>
 
-如果你不知道应该使用什么代码来翻译到你需要的语言，请查看[此文档](https://pdf2zh-next.com/advanced/Language-Codes.html)
+如果你不知道应该使用什么代码来翻译到你需要的语言，请查看 [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
 <!-- 
 <h2 id="todo">TODOs</h2>
@@ -131,7 +131,7 @@ PDF 科学论文翻译与双语对照。
 
 <h2 id="致谢">致谢</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码，详情参见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) 为该项目活跃贡献者提供每月 Pro 会员兑换码，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) 为本项目提供基于大语言模型（LLMs）的免费翻译服务。
 
@@ -160,7 +160,7 @@ PDF 科学论文翻译与双语对照。
 
 <h2 id="conduct">提交代码前</h2>
 
-我们欢迎贡献者积极参与，让 pdf2zh 变得更好。在您准备提交代码之前，请参考我们的 [行为准则](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
+我们欢迎贡献者积极参与，让 pdf2zh 变得更好。在您准备提交代码之前，请参阅我们的 [行为准则](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
 
 <h2 id="contrib">贡献者</h2>
 
@@ -181,4 +181,4 @@ PDF 科学论文翻译与双语对照。
 </a>
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

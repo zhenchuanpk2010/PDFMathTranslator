@@ -1,6 +1,6 @@
 ### Iniziare
 
-PDFMathTranslate è un potente strumento di traduzione PDF. Puoi installare e iniziare a utilizzare questo strumento in vari modi.
+PDFMathTranslate è un potente strumento di traduzione di PDF. Puoi installare e iniziare a utilizzare questo strumento in vari modi.
 
 ---
 

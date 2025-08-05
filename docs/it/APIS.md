@@ -5,14 +5,14 @@
 <h2 id="toc">Indice dei contenuti</h2>
 Il presente progetto supporta due tipi di API, tutti i metodi necessitano del Redis;
 
-- [Chiamate di funzione in Python](#api-python)
+- [Chiamate funzionali in Python](#api-python)
 - [Protocolli HTTP](#api-http)
 
 ---
 
 <h2 id="api-python">Python</h2>
 
-Poiché `pdf2zh` è un modulo installato in Python, esponiamo due metodi che altri programmi possono chiamare in qualsiasi script Python.
+Poiché `pdf2zh` è un modulo installato in Python, esponiamo due metodi per essere chiamati da altri programmi in qualsiasi script Python.
 
 Ad esempio, se desideri tradurre un documento dall'inglese al cinese utilizzando Google Translate, puoi utilizzare il seguente codice:
 
@@ -26,54 +26,7 @@ params = {
     'thread': 4,
 }
 ```
-bash
-pdf2zh -i input.pdf -o output.pdf
-```
-
-### Advanced
-
-```bash
-pdf2zh -i input.pdf -o output.pdf -s "zh" -t "en" -p "azure" -k "your-key"
-```
-
-### Supported Languages
-
-```bash
-pdf2zh --list-languages
-```
-
-### Translation Services
-
-```bash
-pdf2zh --list-services
-```
-
----
-
-### TRANSLATION RESULT
-
-Translate con file:
-
-```bash
-pdf2zh -i input.pdf -o output.pdf
-```
-
-### Opzioni avanzate
-
-```bash
-pdf2zh -i input.pdf -o output.pdf -s "zh" -t "en" -p "azure" -k "your-key"
-```
-
-### Lingue supportate
-
-```bash
-pdf2zh --list-languages
-```
-
-### Servizi di traduzione
-
-```bash
-pdf2zh --list-services
+Traduci con file:
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
@@ -101,7 +54,7 @@ In un modo più flessibile, puoi comunicare con il programma utilizzando i proto
 
 2. Utilizza i protocolli HTTP come segue:
 
-   - Invia un task di traduzione
+   - Invia un'attività di traduzione
 
      ```bash
      curl http://localhost:11008/v1/translate -F "file=@example.pdf" -F "data={\"lang_in\":\"en\",\"lang_out\":\"zh\",\"service\":\"google\",\"thread\":4}"
@@ -134,7 +87,7 @@ In un modo più flessibile, puoi comunicare con il programma utilizzando i proto
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-   - Interrompi se in esecuzione ed elimina il task
+   - Interrompi se in esecuzione ed elimina l'attività
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```

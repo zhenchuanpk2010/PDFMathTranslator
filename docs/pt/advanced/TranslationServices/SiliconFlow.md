@@ -8,7 +8,7 @@ Atualmente, o serviço de tradução gratuito utilizará o modelo `THUDM/GLM-4-9
 
 ### Uso
 
-#### Linha de comando
+#### cli
 
 ```bash
 pdf2zh_next --siliconflowfree example.pdf 
@@ -41,7 +41,7 @@ Política de Privacidade do SiliconFlow: [简体中文](https://docs.siliconflow
 
 2. Crie uma chave de API em [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Em seguida, clique na chave para copiá-la.
 
-#### Linha de comando
+#### cli
 
 ```bash
 pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --siliconflow-api-key <your-api-key> example.pdf

@@ -10,7 +10,7 @@ Vous pouvez confirmer les services de traduction disponibles et leur utilisation
 pdf2zh_next -h
 ```
 
-À la fin du message d'aide, vous pouvez visualiser des informations détaillées sur les différents services de traduction.
+À la fin du message d'aide, vous pouvez consulter des informations détaillées sur les différents services de traduction.
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

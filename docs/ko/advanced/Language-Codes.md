@@ -4,17 +4,73 @@
 
 #### Google
 
-소스 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o 에 의해 정리됨.
+소스 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o에 의해 정리됨.
 
 | 중국어 레이블 | 레이블 | `Language Code` |
 | --- | --- | --- |
 | 암하라어 | Amharic | `am` |
+| 아랍어 | Arabic | `ar` |
 ### 번역 결과
 
-| 아랍어 | Arabic | `ar` |
 | 바스크어 | Basque | `eu` |
-| 벵골어 | Bengali | `bn` |
-|
+| 孟加拉语 | Bengali | `bn` |
+| 英语（美国） | English (US) | `en-US` |
+|---|---|---|---|---|---|---|
+| 简体中文 | Chinese (Simplified) | `zh-CN` | 繁体中文 | Chinese (Traditional) | `zh-TW` |
+| 日语 | Japanese | `ja` | 韩语 | Korean | `ko` |
+| 法语 | French | `fr` | 德语 | German | `de` |
+| 意大利语 | Italian | `it` | 西班牙语 | Spanish | `es` |
+| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` | 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |
+| 俄语 | Russian | `ru` | 阿拉伯语 | Arabic | `ar` |
+| 荷兰语 | Dutch | `nl` | 波兰语 | Polish | `pl` |
+| 土耳其语 | Turkish | `tr` | 瑞典语 | Swedish | `sv` |
+| 芬兰语 | Finnish | `fi` | 丹麦语 | Danish | `da` |
+| 挪威语 | Norwegian | `no` | 泰语 | Thai | `th` |
+| 越南语 | Vietnamese | `vi` | 印尼语 | Indonesian | `id` |
+| 乌克兰语 | Ukrainian | `uk` | 捷克语 | Czech | `cs` |
+| 希腊语 | Greek | `el` | 匈牙利语 | Hungarian | `hu` |
+| 罗马尼亚语 | Romanian | `ro` | 斯洛伐克语 | Slovak | `sk` |
+| 保加利亚语 | Bulgarian | `bg` | 克罗地亚语 | Croatian | `hr` |
+| 斯洛文尼亚语 | Slovenian | `sl` | 塞尔维亚语 | Serbian | `sr` |
+| 爱沙尼亚语 | Estonian | `et` | 拉脱维亚语 | Latvian | `lv` |
+| 立陶宛语 | Lithuanian | `lt` | 马来语 | Malay | `ms` |
+| 希伯来语 | Hebrew | `he` | 波斯语 | Persian | `fa` |
+| 孟加拉语 | Bengali | `bn` | 印地语 | Hindi | `hi` |
+| 泰米尔语 | Tamil | `ta` | 泰卢固语 | Telugu | `te` |
+| 卡纳达语 | Kannada | `kn` | 马拉雅拉姆语 | Malayalam | `ml` |
+| 古吉拉特语 | Gujarati | `gu` | 马拉地语 | Marathi | `mr` |
+| 旁遮普语 | Punjabi | `pa` | 乌尔都语 | Urdu | `ur` |
+
+---
+
+### TRANSLATED TEXT
+
+| 영어 (영국) | English (UK) | `en-GB` | 영어 (미국) | English (US) | `en-US` |
+|---|---|---|---|---|---|
+| 중국어 (간체) | Chinese (Simplified) | `zh-CN` | 중국어 (번체) | Chinese (Traditional) | `zh-TW` |
+| 일본어 | Japanese | `ja` | 한국어 | Korean | `ko` |
+| 프랑스어 | French | `fr` | 독일어 | German | `de` |
+| 이탈리아어 | Italian | `it` | 스페인어 | Spanish | `es` |
+| 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` | 포르투갈어 (포르투갈) | Portuguese (Portugal) | `pt-PT` |
+| 러시아어 | Russian | `ru` | 아랍어 | Arabic | `ar` |
+| 네덜란드어 | Dutch | `nl` | 폴란드어 | Polish | `pl` |
+| 터키어 | Turkish | `tr` | 스웨덴어 | Swedish | `sv` |
+| 핀란드어 | Finnish | `fi` | 덴마크어 | Danish | `da` |
+| 노르웨이어 | Norwegian | `no` | 태국어 | Thai | `th` |
+| 베트남어 | Vietnamese | `vi` | 인도네시아어 | Indonesian | `id` |
+| 우크라이나어 | Ukrainian | `uk` | 체코어 | Czech | `cs` |
+| 그리스어 | Greek | `el` | 헝가리어 | Hungarian | `hu` |
+| 루마니아어 | Romanian | `ro` | 슬로바키아어 | Slovak | `sk` |
+| 불가리아어 | Bulgarian | `bg` | 크로아티아어 | Croatian | `hr` |
+| 슬로베니아어 | Slovenian | `sl` | 세르비아어 | Serbian | `sr` |
+| 에스토니아어 | Estonian | `et` | 라트비아어 | Latvian | `lv` |
+| 리투아니아어 | Lithuanian | `lt` | 말레이어 | Malay | `ms` |
+| 히브리어 | Hebrew | `he` | 페르시아어 | Persian | `fa` |
+| 벵골어 | Bengali | `bn` | 힌디어 | Hindi | `hi` |
+| 타밀어 | Tamil | `ta` | 텔루구어 | Telugu | `te` |
+| 칸나다어 | Kannada | `kn` | 말라얄람어 | Malayalam | `ml` |
+| 구자라트어 | Gujarati | `gu` | 마라티어 | Marathi | `mr` |
+| 펀자브어 | Punjabi | `pa` | 우르두어 | Urdu | `ur` |
 | 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` |
 | 불가리아어 | Bulgarian | `bg` |
 | 카탈루냐어 | Catalan | `ca` |
@@ -23,21 +79,21 @@
 | 체코어 | Czech | `cs` |
 | 덴마크어 | Danish | `da` |
 | 네덜란드어 | Dutch | `nl` |
-|
+| 英语（美国） | English (US) | `en` |
 | 에스토니아어 | Estonian | `et` |
-| 필리핀어 | Filipino | `fil` |
-| 芬兰语 | Finnish | `fi` |
+| Filipino | `fil` |
+| 핀란드어 | Finnish | `fi` |
 | 프랑스어 | French | `fr` |
 | 독일어 | German | `de` |
 | 그리스어 | Greek | `el` |
-| Gujarati | `gu` |
+| 구자라트어 | Gujarati | `gu` |
 | 히브리어 | Hebrew | `iw` |
-| 印地语 | Hindi | `hi` |
+| 힌디어 | Hindi | `hi` |
 | 헝가리어 | Hungarian | `hu` |
 | 아이슬란드어 | Icelandic | `is` |
 | 인도네시아어 | Indonesian | `id` |
-| 이탈리아어 | Italian | `it` |
-| 일본어 | Japanese | `ja` |
+| 意大利语 | Italian | `it` |
+| 日语 | Japanese | `ja` |
 | 칸나다어 | Kannada | `kn` |
 | 한국어 | Korean | `ko` |
 | 라트비아어 | Latvian | `lv` |
@@ -46,33 +102,22 @@
 | 말라얄람어 | Malayalam | `ml` |
 | 마라티어 | Marathi | `mr` |
 | 노르웨이어 | Norwegian | `no` |
-| 폴란드어 | Polish | `pl` |
-| 포르투갈어 (포르투갈) | Portuguese (Portugal) | `pt-PT` |
+| 波兰어 | Polish | `pl` |
+| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |
+| 罗马尼亚语 | Romanian | `ro` |
 | 루마니아어 | Romanian | `ro` |
 | 러시아어 | Russian | `ru` |
 | 세르비아어 | Serbian | `sr` |
-| 한국어 | Korean | `ko` |
-|-------------|--------------|---------|--------|--------|--------|------|
-| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |        | 영어 | English | `en` |
-| 日本語 | Japanese | `ja` |        | Deutsch | German | `de` |
-| Français | French | `fr` |        | Español | Spanish | `es` |
-| Italiano | Italian | `it` |        | Português | Portuguese | `pt` |
-| Русский | Russian | `ru` |        | Nederlands | Dutch | `nl` |
-| Polski | Polish | `pl` |        | Українська | Ukrainian | `uk` |
-| العربية | Arabic | `ar` |        | हिन्दी | Hindi | `hi` |
-| ภาษาไทย | Thai | `th` |        | Tiếng Việt | Vietnamese | `vi` |
-| Bahasa Indonesia | Indonesian | `id` |        | Türkçe | Turkish | `tr` |
+| 한국어 (대한민국) | Korean (South Korea) | `ko-KR` |
 | 슬로바키아어 | Slovak | `sk` |
-### 번역 결과
-
 | 슬로베니아어 | Slovenian | `sl` |
 | 스페인어 | Spanish | `es` |
 | 스와힐리어 | Swahili | `sw` |
 | 스웨덴어 | Swedish | `sv` |
-| 泰米尔语 | Tamil | `ta` |
+| 타밀어 | Tamil | `ta` |
 | 텔루구어 | Telugu | `te` |
 | 태국어 | Thai | `th` |
-| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
+| 한국어 | Korean | `ko` |
 | 터키어 | Turkish | `tr` |
 | 우르두어 | Urdu | `ur` |
 | 우크라이나어 | Ukrainian | `uk` |
@@ -81,7 +126,7 @@
 
 
 #### DeepL
-소스 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o 가 정리함.
+소스 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o 정리.
 
 | 중국어 레이블 | 레이블 | `Language Code` | 지원 여부 |
 | --- | --- | --- | --- |
@@ -92,8 +137,8 @@
 | 독일어 | German | `DE` | `source`, `target` |
 | 그리스어 | Greek | `EL` | `source`, `target` |
 | 영어 | English | `EN` | `source`, `target` |
-| 영어 (영국) | English (British) | `EN-GB` | `target` |
-| 한국어 | Korean | `KO` | `target` |
+|
+| 英语（美国） | English (American) | `EN-US` | `target` |
 | 스페인어 | Spanish | `ES` | `source`, `target` |
 | 에스토니아어 | Estonian | `ET` | `source`, `target` |
 | 핀란드어 | Finnish | `FI` | `source`, `target` |
@@ -110,7 +155,7 @@
 | 폴란드어 | Polish | `PL` | `source`, `target` |
 | 포르투갈어 | Portuguese | `PT` | `source`, `target` |
 | 포르투갈어 (브라질) | Portuguese (Brazilian) | `PT-BR` | `target` |
-| 포르투갈어 (유럽) | Portuguese (European) | `PT-PT` | `target` |
+| 포르투갈어(유럽) | Portuguese (European) | `PT-PT` | `target` |
 | 루마니아어 | Romanian | `RO` | `source`, `target` |
 | 러시아어 | Russian | `RU` | `source`, `target` |
 | 슬로바키아어 | Slovak | `SK` | `source`, `target` |
@@ -119,15 +164,8 @@
 | 터키어 | Turkish | `TR` | `source`, `target` |
 | 우크라이나어 | Ukrainian | `UK` | `source`, `target` |
 | 한국어 | Korean | `KO` | `source`, `target` |
-|---|---|---|---|---|---|---|---|---|
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Home](../README.md) | [홈](../README.md) | [Home](../README.md) | [Getting Start](README.md) | [시작하기](README.md) | [Getting Started](README.md) | [Installation](INSTALLATION.md) | [설치](INSTALLATION.md) | [Installation](INSTALLATION.md) |
-| [Command Line](USAGE_cli.md) | [명령줄](USAGE_cli.md) | [Command Line](USAGE_cli.md) | [Usage](USAGE.md) | [사용법](USAGE.md) | [Usage](USAGE.md) | [Language Code](LANGUAGE_CODE.md) | [언어 코드](LANGUAGE_CODE.md) | [Language Code](LANGUAGE_CODE.md) |
-| [Documentation of Translation Services](TRANSLATION_SERVICES.md) | [번역 서비스 문서](TRANSLATION_SERVICES.md) | [Documentation of Translation Services](TRANSLATION_SERVICES.md) | [Advanced](ADVANCED.md) | [고급 옵션](ADVANCED.md) | [Advanced](ADVANCED.md) | [Supported Languages](SUPPORTED_LANGUAGES.md) | [지원 언어](SUPPORTED_LANGUAGES.md) | [Supported Languages](SUPPORTED_LANGUAGES.md) |
-| [Community](COMMUNITY.md) | [커뮤니티](COMMUNITY.md) | [Community](COMMUNITY.md) | [FAQ](FAQ.md) | [자주 묻는 질문](FAQ.md) | [FAQ](FAQ.md) | #### Google | #### Google | #### Google |
-| #### DeepL | #### DeepL | #### DeepL | --- | --- | --- | --- | --- | --- |
-| 한국어 | Korean | `KO` | `target` |
-| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
+| 중국어 (번체) | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

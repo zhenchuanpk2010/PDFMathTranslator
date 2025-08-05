@@ -3,7 +3,7 @@
 > 本文档已过时，请勿参考。
 
 <h2 id="目录">目录</h2>
-当前项目支持两种类型的 API，所有方法都需要 Redis；
+本项目支持两种类型的 API，所有方法都需要 Redis；
 
 - [Python 中的函数调用](#api-python)
 - [HTTP 协议](#api-http)
@@ -26,7 +26,7 @@ params = {
     'thread': 4,
 }
 ```
-通过文件翻译：
+使用文件翻译：
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
@@ -42,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更灵活的方式，你可以通过 HTTP 协议与程序通信，如果：
+以更灵活的方式，你可以通过 HTTP 协议与程序进行通信，如果：
 
 1. 安装并运行后端
 
@@ -68,7 +68,7 @@ with open('example.pdf', 'rb') as f:
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - 检查进度 _(如果完成)_
+   - 检查进度 _(如果已完成)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
@@ -97,4 +97,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

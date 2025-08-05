@@ -30,7 +30,7 @@ params = {
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-使用串流翻譯：
+即時串流翻譯：
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -42,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更靈活的方式，你可以使用 HTTP 協議與程序進行通信，如果：
+以更靈活的方式，您可以使用 HTTP 協議與程式進行通信，如果：
 
 1. 安裝並運行後端
 
@@ -52,7 +52,7 @@ with open('example.pdf', 'rb') as f:
    pdf2zh_next --celery worker
    ```
 
-2. 使用以下 HTTP 協議：
+2. 使用 HTTP 協議如下：
 
    - 提交翻譯任務
 
