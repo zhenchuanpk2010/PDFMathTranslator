@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Installation** > **WebUI** _(current)_
+[**Commencer**](./getting-started.md) > **Installation** > **WebUI** _(actuel)_
 
 ---
 
@@ -33,8 +33,8 @@ Il existe plusieurs méthodes pour ouvrir l'interface WebUI. Si vous utilisez **
 
 Vous pouvez définir les langues source et cible en utilisant des variables d'environnement :
 
-- `PDF2ZH_LANG_FROM`: Définit la langue source. Par défaut "English".
-- `PDF2ZH_LANG_TO`: Définit la langue cible. Par défaut "Simplified Chinese".
+- `PDF2ZH_LANG_FROM`: Définit la langue source. Par défaut, "English".
+- `PDF2ZH_LANG_TO`: Définit la langue cible. Par défaut, "Simplified Chinese".
 
 ## Aperçu
 
@@ -42,6 +42,8 @@ Vous pouvez définir les langues source et cible en utilisant des variables d'en
 <img src="./../images/after.png" width="500"/>
 
 ## Maintenance
+
+### TRANSLATION RESULT
 
 GUI maintenu par [Rongxin](https://github.com/reycn)
 

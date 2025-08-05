@@ -14,11 +14,11 @@ J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du mod
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Réponse** :
-Le réseau subit des interférences, veuillez utiliser une liaison réseau stable ou essayer de contourner l'intervention du réseau.
+Le réseau subit des interférences, veuillez utiliser une connexion réseau stable ou essayer de contourner l'intervention du réseau.
 
 ## Comment mettre à jour vers la dernière version ?
 - **Question** :
-Je veux utiliser certaines fonctionnalités de la dernière version, comment la mettre à jour ?
+Je souhaite utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?
 
 - **Réponse** :
 `pip install -U pdf2zh`
@@ -34,28 +34,7 @@ Lors de l'exécution du programme, les utilisateurs auront les sorties suivantes
   - Utilisez le mode interactif `pdf2zh -i` pour glisser-déposer les fichiers directement
 
 
-## Erreur SSL et autres problèmes réseau
-
-### Common Causes
-1. **SSL Certificate Issues**: The server's SSL certificate might be expired or self-signed.
-2. **Proxy Settings**: Misconfigured proxy settings can block the connection.
-3. **Firewall Restrictions**: Corporate or personal firewalls may block the API endpoint.
-4. **Network Latency**: High latency or unstable connections can cause timeouts.
-
-### Solutions
-- **For SSL Errors**:
-  - Use `--verify_ssl=false` to bypass SSL verification (not recommended for production).
-  - Update your system's CA certificates.
-  
-- **For Proxy Issues**:
-  - Configure the proxy correctly using environment variables or CLI flags.
-  
-- **For Firewall Issues**:
-  - Whitelist the API endpoint (`api.pdf2zh.com`).
-
-- **General Tips**:
-  - Test connectivity using `curl` or `ping`.
-  - Contact your network administrator if the issue persists.
+## Erreur SSL et autres problèmes de réseau
 - **Problème** :
 Lors du téléchargement des modèles de Hugging Face, les utilisateurs en Chine peuvent rencontrer des erreurs réseau. Par exemple, dans les [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) et [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
@@ -67,11 +46,11 @@ Lors du téléchargement des modèles de Hugging Face, les utilisateurs en Chine
   - [Mettre à jour les certificats](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), comme suggéré dans [l'issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).
 
 ## Localhost n'est pas accessible
-Veuillez consulter ci-dessous.
+Veuillez voir ci-dessous.
 
 ## Erreur lors du lancement de l'interface graphique avec 0.0.0.0
 - **Problème** :
-L'utilisation d'un logiciel de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+L'utilisation de logiciels de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Solution** :
 Utiliser le mode règle

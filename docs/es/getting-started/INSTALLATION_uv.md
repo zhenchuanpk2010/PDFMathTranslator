@@ -27,11 +27,11 @@ Después de la instalación, puedes comenzar la traducción mediante la **línea
 
 !!! Warning
 
-    Si ves el error `command not found: pdf2zh_next` al ejecutar, por favor configura las variables de entorno de la siguiente manera e intenta nuevamente:
+    Si ves el error `command not found: pdf2zh_next` al ejecutar, por favor configura las variables de entorno de la siguiente manera e inténtalo de nuevo:
 
     === "macOS y Linux"
 
-        Agrega lo siguiente a tu ~/.zshrc:
+        Añade lo siguiente a tu ~/.zshrc:
 
         ```console
         export PATH="$PATH:/Users/Username/.local/bin"

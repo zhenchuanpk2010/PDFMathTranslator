@@ -50,7 +50,7 @@ Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile
         Starten Sie dann Ihr Terminal neu
 
 > [!NOTE]
-> Wenn Sie Probleme bei der Verwendung von WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).
+> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Wenn Sie Probleme bei der Verwendung der Kommandozeile haben, lesen Sie bitte [Verwendung --> Kommandozeile](./USAGE_commandline.md).

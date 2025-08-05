@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 >
-> Os mantenedores atuais do projeto estão pesquisando sobre internacionalização automatizada de documentação. Portanto, qualquer PR relacionado à internacionalização/tradução de documentação NÃO será aceito!
+> Os mantenedores atuais do projeto estão pesquisando a internacionalização automatizada de documentação. Portanto, qualquer PR relacionado à internacionalização/tradução de documentação NÃO será aceito!
 >
 > Por favor, NÃO envie PRs relacionados à internacionalização/tradução de documentação!
 
@@ -14,14 +14,14 @@ Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reser
 2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.
 3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
 4. Outras contribuições consideradas inadequadas pelos mantenedores.
-5. Documentação de contribuição, mas alterando a documentação em idiomas diferentes do inglês.
-6. PRs que exigem modificação de arquivos PDF.
+5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.
+6. PRs que exigem modificação de arquivos `PDF`.
 
 Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!NOTE]
 >
-> Se você deseja contribuir com a documentação, por favor **modifique apenas a versão em inglês da documentação**. As outras versões em outros idiomas são traduzidas pelos próprios contribuidores.
+> Se você deseja contribuir com a documentação, por favor **modifique apenas a versão em inglês da documentação**. As outras versões em idiomas são traduzidas pelos próprios contribuidores.
 
 ## Processo de Contribuição
 
@@ -39,7 +39,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!TIP]
 >
-> Você não precisa esperar até que seu desenvolvimento esteja totalmente concluído para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.
+> Você não precisa esperar até que seu desenvolvimento esteja totalmente completo para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.
 >
 > Se você tiver alguma dúvida sobre o código-fonte ou assuntos relacionados, entre em contato com o mantenedor em aw@funstory.ai.
 >
@@ -49,12 +49,12 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 <h4 id="sop">1. Fluxo de trabalho</h4>
 
-   - Por favor, faça um fork a partir do branch `main` e desenvolva no seu branch bifurcado.
+   - Por favor, faça um fork do branch `main` e desenvolva no seu branch bifurcado.
    - Ao enviar um Pull Request (PR), forneça uma descrição detalhada das suas alterações.
-   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelho), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
+   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelha), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
 
 
-<h4 id="dev&test">2. Desenvolvimento e Testes</h4>
+<h4 id="dev&test">2. Desenvolvimento e Teste</h4>
 
    - Use o comando `pip install -e .` para desenvolvimento e teste.
 
@@ -79,7 +79,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
    - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por exemplo: `feat(translator): add openai`.
 
 
-<h4 id="estilocodigo">7. Estilo de Codificação</h4>
+<h4 id="estilodecodigo">7. Estilo de Código</h4>
 
    - Certifique-se de que o código enviado adere aos padrões básicos de estilo de codificação.
    - Use snake_case ou camelCase para nomeação de variáveis.
@@ -88,7 +88,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 <h4 id="doctypo">8. Formatação de Documentação</h4>
 
    - Para a formatação de `README.md`, siga as [Diretrizes de Redação em Chinês](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações de documentação em outros idiomas são opcionais.
+   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações da documentação em outros idiomas são opcionais.
 
 ## Adicionando um mecanismo de tradução
 
@@ -98,7 +98,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!NOTE]
 >
-> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para tais mecanismos.
+> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.
 
 ## Estrutura do Projeto
 
@@ -112,7 +112,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 ## Entre em contato conosco
 
-Se você tiver alguma dúvida, por favor, envie um feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
+Se você tiver alguma dúvida, por favor, envie seu feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
 
 > [!TIP]
 >

@@ -15,14 +15,14 @@
 
 ***Passo 2*** | Descompacte `pdf2zh-<version>-with-assets-win64.zip` e navegue até a pasta `pdf2zh`. Pode levar um tempo para descompactar, por favor, seja paciente.
 
-***Passo 3*** | Navegue até a pasta `pdf2zh`, depois clique duas vezes em `pdf2zh.exe`.
+***Passo 3*** | Navegue até a pasta `pdf2zh`, em seguida, clique duas vezes em `pdf2zh.exe`.
 
 > [!TIP]
 > **Não consegue executar o arquivo .exe**
 >
-> Se você tiver algum problema ao executar pdf2zh.exe, por favor instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.
+> Se você tiver algum problema ao executar pdf2zh.exe, por favor, instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.
 
-***Passo 4*** | Um terminal será exibido após clicar duas vezes no arquivo exe. Após cerca de meio minuto a um minuto, uma página da web será aberta no seu navegador padrão. Se isso não acontecer, você pode tentar acessar manualmente `http://localhost:7860/`.
+***Passo 4*** | Um terminal será exibido após clicar duas vezes no arquivo .exe. Após cerca de meio minuto a um minuto, uma página da web será aberta no seu navegador padrão. Se isso não acontecer, você pode tentar acessar manualmente `http://localhost:7860/`.
 
 > [!NOTE]
 >
@@ -35,7 +35,7 @@
 >
 > Use o arquivo .exe através da linha de comando da seguinte forma:
 >
-> - Abra seu terminal e navegue até a pasta que contém o arquivo .exe:
+> - Inicie seu terminal e navegue até a pasta que contém o arquivo .exe:
 >
 > ```bash
 > cd /path/pdf2zh_next/build

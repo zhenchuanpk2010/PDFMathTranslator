@@ -5,14 +5,14 @@
 <h2 id="목차">목차</h2>
 현재 프로젝트는 두 가지 유형의 API 를 지원하며, 모든 방법에는 Redis 가 필요합니다.
 
-- [Python 에서의 함수 호출](#api-python)
+- [Python 의 함수 호출](#api-python)
 - [HTTP 프로토콜](#api-http)
 
 ---
 
 <h2 id="api-python">Python</h2>
 
-`pdf2zh`는 Python 에 설치된 모듈이므로, 다른 프로그램에서 어떤 Python 스크립트에서든 호출할 수 있는 두 가지 메서드를 제공합니다.
+`pdf2zh`는 Python 에 설치된 모듈이므로, 다른 프로그램에서 호출할 수 있는 두 가지 메서드를 Python 스크립트에서 제공합니다.
 
 예를 들어, Google Translate 를 사용하여 영어 문서를 중국어로 번역하려면 다음 코드를 사용할 수 있습니다:
 
@@ -36,7 +36,7 @@ with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
 ```
 
-[⬆️ 맨 위로 돌아가기](#toc)
+[⬆️ 맨 위로 이동](#toc)
 
 ---
 
@@ -87,12 +87,12 @@ with open('example.pdf', 'rb') as f:
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-   - 실행 중인 경우 중단하고 작업 삭제
+   - 실행 중인 경우 중단 및 작업 삭제
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```
 
-[⬆️ 맨 위로 돌아가기](#toc)
+[⬆️ 맨 위로 이동](#toc)
 
 ---
 

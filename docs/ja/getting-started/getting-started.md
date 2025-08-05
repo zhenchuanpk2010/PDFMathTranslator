@@ -1,14 +1,14 @@
 ### 開始
 
-PDFMathTranslate は強力な PDF 翻訳ツールです。このツールをさまざまな方法でインストールし、使い始めることができます。
+PDFMathTranslate は強力な PDF 翻訳ツールです。このツールはさまざまな方法でインストールして使い始めることができます。
 
 ---
 
 ### インストール
 
-1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Windows 向け推奨</small>
-2. [**Docker**](./INSTALLATION_docker.md) <small>Linux 向け推奨</small>
-3. [**uv** (Python パッケージマネージャー)](./INSTALLATION_uv.md) <small>macOS 向け推奨</small>
+1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Windows におすすめ</small>
+2. [**Docker**](./INSTALLATION_docker.md) <small>Linux におすすめ</small>
+3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>macOS におすすめ</small>
 
 ---
 

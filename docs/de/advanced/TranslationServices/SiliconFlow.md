@@ -17,15 +17,15 @@ pdf2zh_next --siliconflowfree example.pdf
 #### WebUI
 
 1. Wählen Sie "SiliconFlowFree" aus der Dropdown-Liste "Übersetzungsoptionen" - "Dienst" aus.
-2. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um die Übersetzung zu starten.
-3. Nach Abschluss der Übersetzung finden Sie die übersetzte PDF-Datei im Abschnitt "Übersetzt" am unteren Rand der Seite.
+2. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um mit der Übersetzung zu beginnen.
+3. Nach Abschluss der Übersetzung finden Sie die übersetzte `PDF`-Datei im Abschnitt "Übersetzt" am unteren Rand der Seite.
 
 
 ### Datenschutzrichtlinie
 
-Die Dateiinhalte werden an den Server des Projektbetreuers [@awwaawwa](https://github.com/awwaawwa) gesendet und dann an SiliconFlow zur Übersetzung weitergeleitet.
+Die Dateiinhalte werden an den Server des Projektbetreibers [@awwaawwa](https://github.com/awwaawwa) gesendet und dann an SiliconFlow zur Übersetzung weitergeleitet.
 
-Die Betreuer dieses Projekts sammeln nur Fehlerinformationen, die von SiliconFlow zurückgegeben werden, um damit verbundene Dienste zu debuggen. Ihre Dateiinhalte werden nicht gesammelt.
+Die Betreiber dieses Projekts sammeln nur Fehlerinformationen, die von SiliconFlow zurückgegeben werden, um damit verbundene Dienste zu debuggen. Ihre Dateiinhalte werden nicht gesammelt.
 
 SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)
 
@@ -33,7 +33,7 @@ SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn
 
 ## Andere Modelle von SiliconFlow verwenden
 
-[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für Übersetzungen an.
+[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für die Übersetzung an.
 
 ### Verwendung
 
@@ -49,8 +49,8 @@ pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --si
 
 #### WebUI
 
-1. "Übersetzungsoptionen" - **"Dienst"** Dropdown-Liste: Wählen Sie "SiliconFlow" aus  
-2. "Übersetzungsoptionen" - **"Basis-URL für SiliconFlow API"**: Behalten Sie den Standardwert bei  
+1. "Übersetzungsoptionen" - **"Dienst"** Dropdown-Liste: Wählen Sie "SiliconFlow"  
+2. "Übersetzungsoptionen" - **"Basis-URL für SiliconFlow API"**: Standard beibehalten  
 3. "Übersetzungsoptionen" - **"Zu verwendendes SiliconFlow-Modell"**: Geben Sie "Pro/deepseek-ai/DeepSeek-V3" oder andere Modelle ein  
 4. "Übersetzungsoptionen" - **"API-Schlüssel für SiliconFlow-Dienst"**: Fügen Sie Ihren API-Schlüssel ein  
 5. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um die Übersetzung zu starten  

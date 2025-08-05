@@ -2,7 +2,7 @@
 >
 > Este documento está desactualizado, por favor no lo consultes.
 
-<h2 id="toc">Tabla de contenido</h2>
+<h2 id="indice">Tabla de contenido</h2>
 El presente proyecto soporta dos tipos de APIs, todos los métodos necesitan Redis;
 
 - [Llamadas funcionales en Python](#api-python)

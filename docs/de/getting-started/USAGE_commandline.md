@@ -14,13 +14,13 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Wenn Ihr Pfadname Leerzeichen enthält, schließen Sie ihn bitte in Anführungszeichen ein.
+> Wenn Ihr Pfadname Leerzeichen enthält, setzen Sie ihn bitte in Anführungszeichen.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
 > ```
 
-Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** generiert.
+Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** erstellt.
 
 > [!TIP]
 > **Wo ist mein "Aktuelles Arbeitsverzeichnis"?**

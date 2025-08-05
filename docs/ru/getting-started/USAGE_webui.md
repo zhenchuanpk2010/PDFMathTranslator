@@ -8,7 +8,7 @@
 
 Есть несколько способов открыть интерфейс WebUI. Если вы используете **Windows**, обратитесь к [этой статье](./INSTALLATION_winexe.md);
 
-1. Установленный Python (версия от 3.10 до 3.12 включительно)
+1. Установленный Python (версия от 3.10 до 3.12)
 
 2. Установите наш пакет:
 
@@ -24,7 +24,7 @@
     http://localhost:7860/
     ```
 
-    Перетащите PDF-файл в окно и нажмите `Translate`.
+    Перетащите `PDF` файл в окно и нажмите `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
@@ -42,6 +42,8 @@
 <img src="./../images/after.png" width="500"/>
 
 ## Обслуживание
+
+### TRANSLATION
 
 GUI поддерживается [Rongxin](https://github.com/reycn)
 

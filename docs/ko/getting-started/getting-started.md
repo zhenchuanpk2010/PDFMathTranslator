@@ -8,7 +8,7 @@ PDFMathTranslate 는 강력한 PDF 번역 도구입니다. 다양한 방법으�
 
 1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Windows 에 권장</small>
 2. [**Docker**](./INSTALLATION_docker.md) <small>Linux 에 권장</small>
-3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>macOS 에 권장</small>
+3. [**uv** (Python 패키지 매니저)](./INSTALLATION_uv.md) <small>macOS 에 권장</small>
 
 ---
 

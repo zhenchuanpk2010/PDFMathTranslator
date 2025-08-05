@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Installation** > **Docker** _(actuel)_
+[**Commencer**](./getting-started.md) > **Installation** > **Docker** _(current)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### Qu'est-ce que docker ?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) est une plateforme open source pour développer, livrer et exécuter des applications. Docker vous permet de séparer vos applications de votre infrastructure afin de livrer des logiciels rapidement. Avec Docker, vous pouvez gérer votre infrastructure de la même manière que vous gérez vos applications. En tirant parti des méthodologies de Docker pour la livraison, les tests et le déploiement de code, vous pouvez réduire considérablement le délai entre l'écriture du code et son exécution en production.
+[Docker](https://docs.docker.com/get-started/docker-overview/) est une plateforme open source pour développer, expédier et exécuter des applications. Docker vous permet de séparer vos applications de votre infrastructure afin de livrer des logiciels rapidement. Avec Docker, vous pouvez gérer votre infrastructure de la même manière que vous gérez vos applications. En tirant parti des méthodologies de Docker pour l'expédition, les tests et le déploiement de code, vous pouvez réduire considérablement le délai entre l'écriture du code et son exécution en production.
 
 #### Installation
 
@@ -19,7 +19,7 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - Si vous ne pouvez pas accéder à Docker Hub, essayez l'image sur [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
+> - Si vous ne pouvez pas accéder à Docker Hub, veuillez essayer l'image sur [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next

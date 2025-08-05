@@ -14,11 +14,11 @@
 pdf2zh_next --siliconflowfree example.pdf 
 ```
 
-#### Web 界面
+#### WebUI
 
-1. 从“翻译选项” - “服务”下拉列表中选择“SiliconFlowFree”。
-2. 点击页面底部的“翻译”按钮开始翻译。
-3. 翻译完成后，您可以在页面底部的“已翻译”部分找到翻译好的 PDF 文件。
+1. 从「Translation Options」-「Service」下拉列表中选择「SiliconFlowFree」。
+2. 点击页面底部的「Translate」按钮开始翻译。
+3. 翻译完成后，您可以在页面底部的「Translated」部分找到翻译好的 `PDF` 文件。
 
 
 ### 隐私政策
@@ -33,13 +33,13 @@ SiliconFlow 隐私政策：[简体中文](https://docs.siliconflow.cn/cn/legals/
 
 ## 使用 SiliconFlow 的其他模型
 
-[SiliconFlow](https://siliconflow.cn) 还提供了其他翻译模型。
+[SiliconFlow](https://siliconflow.cn) 还提供了其他用于翻译的模型。
 
 ### 如何使用
 
-1. 在 [SiliconFlow](https://siliconflow.cn) 注册账号
+1. 在 [SiliconFlow](https://siliconflow.cn) 注册一个账号
 
-2. 前往 [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak) 创建 API 密钥，然后点击密钥进行复制。
+2. 在 [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak) 创建一个 API 密钥。然后，点击密钥进行复制。
 
 #### 命令行
 
@@ -47,14 +47,14 @@ SiliconFlow 隐私政策：[简体中文](https://docs.siliconflow.cn/cn/legals/
 pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --siliconflow-api-key <your-api-key> example.pdf
 ```
 
-#### Web 界面
+#### WebUI
 
-1. "翻译选项" - **"服务"** 下拉列表：选择 "SiliconFlow"
-2. "翻译选项" - **"SiliconFlow API 基础 URL"**：保持默认
-3. "翻译选项" - **"要使用的 SiliconFlow 模型"**：输入 "Pro/deepseek-ai/DeepSeek-V3" 或其他模型
-4. "翻译选项" - **"SiliconFlow 服务的 API 密钥"**：粘贴您的 API 密钥
-5. 点击页面底部的翻译按钮开始翻译
-6. 翻译完成后，您可以在页面底部的 "已翻译" 部分找到翻译后的 PDF 文件。
+1. "翻译选项" - **"服务"** 下拉列表：选择 "SiliconFlow"  
+2. "翻译选项" - **"SiliconFlow API 基础 URL"**: 保持默认  
+3. "翻译选项" - **"要使用的 SiliconFlow 模型"**: 输入 "Pro/deepseek-ai/DeepSeek-V3" 或其他模型  
+4. "翻译选项" - **"SiliconFlow 服务的 API 密钥"**: 粘贴您的 API 密钥  
+5. 点击页面底部的翻译按钮开始翻译  
+6. 翻译完成后，您可以在页面底部的 "已翻译" 部分找到翻译好的 `PDF` 文件。
 
 
 ## 致谢

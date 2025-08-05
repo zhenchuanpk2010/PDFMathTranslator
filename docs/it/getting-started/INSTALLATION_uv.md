@@ -50,10 +50,10 @@ Dopo l'installazione, puoi iniziare la traduzione tramite la **riga di comando**
         Quindi riavvia il terminale
 
 > [!NOTE]
-> Se riscontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
+> Se incontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
-> Se riscontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).
+> Se incontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).
 
 <div align="right"> 
 <h6><small>Parte del contenuto di questa pagina è stata tradotta da GPT e potrebbe contenere errori.</small></h6>

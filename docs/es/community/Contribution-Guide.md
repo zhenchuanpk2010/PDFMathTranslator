@@ -6,22 +6,22 @@
 >
 > ¡Por favor, NO envíes PRs relacionados con la internacionalización/traducción de la documentación!
 
-Gracias por tu interés en este proyecto. Antes de comenzar a contribuir, por favor tómate un tiempo para leer las siguientes pautas para asegurarte de que tu contribución pueda ser aceptada sin problemas.
+Gracias por tu interés en este proyecto. Antes de que comiences a contribuir, por favor tómate un tiempo para leer las siguientes pautas para asegurar que tu contribución pueda ser aceptada sin problemas.
 
 ## Tipos de contribuciones no aceptadas
 
-1. Documentación de internacionalización/traducción  
-2. Contribuciones relacionadas con la infraestructura central, como API HTTP, etc.  
-3. Problemas marcados explícitamente como "No se necesita ayuda" (incluyendo problemas en los repositorios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) y [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
-4. Otras contribuciones consideradas inapropiadas por los mantenedores.  
-5. Contribuir a la documentación, pero modificando la documentación en idiomas distintos al inglés.  
+1. Documentación de internacionalización/traducción
+2. Contribuciones relacionadas con la infraestructura central, como API HTTP, etc.
+3. Problemas marcados explícitamente como "No se necesita ayuda" (incluyendo problemas en el repositorio [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) y [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
+4. Otras contribuciones consideradas inapropiadas por los mantenedores.
+5. Contribuir a la documentación, pero modificando la documentación en idiomas distintos al inglés.
 6. PRs que requieran modificar archivos PDF.
 
 Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 > [!NOTE]
 >
-> Si deseas contribuir con la documentación, por favor **solo modifiques la versión en inglés de la documentación**. Las versiones en otros idiomas son traducidas por los propios contribuyentes.
+> Si deseas contribuir con documentación, por favor **solo modifiques la versión en inglés de la documentación**. Las versiones en otros idiomas son traducidas por los propios contribuyentes.
 
 ## Proceso de contribución
 
@@ -35,7 +35,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
    ```
 5. Sube los cambios a tu repositorio: `git push origin feature/<feature-name>`.
 6. Crea un PR en GitHub, proporciona una descripción detallada y solicita una revisión a [@awwaawwa](https://github.com/awwaawwa).
-7. Asegúrate de que todas las verificaciones automáticas pasen.
+7. Asegúrate de que todas las verificaciones automatizadas pasen.
 
 > [!TIP]
 >
@@ -43,7 +43,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 >
 > Si tienes alguna pregunta sobre el código fuente o temas relacionados, por favor contacta al mantenedor en aw@funstory.ai.
 >
-> Los archivos de recursos para la versión 2.0 se comparten con [BabelDOC](https://github.com/funstory-ai/BabelDOC). El código para descargar los recursos relacionados está en BabelDOC. Si deseas agregar nuevos archivos de recursos, por favor contacta al mantenedor de BabelDOC en aw@funstory.ai.
+> Los archivos de recursos para la versión 2.0 se comparten con [BabelDOC](https://github.com/funstory-ai/BabelDOC). El código para descargar recursos relacionados está en BabelDOC. Si deseas agregar nuevos archivos de recursos, por favor contacta al mantenedor de BabelDOC en aw@funstory.ai.
 
 ## Requisitos básicos
 
@@ -51,7 +51,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
    - Por favor, haz un fork desde la rama `main` y desarrolla en tu rama bifurcada.
    - Al enviar un Pull Request (PR), proporciona una descripción detallada de tus cambios.
-   - Si tu PR no pasa los controles automatizados (indicado por `checks failed` y una cruz roja), revisa los `details` correspondientes y modifica tu envío para asegurar que el nuevo PR pase todos los controles.
+   - Si tu PR no pasa las verificaciones automatizadas (indicadas por `checks failed` y una cruz roja), revisa los `details` correspondientes y modifica tu envío para asegurar que el nuevo PR pase todas las verificaciones.
 
 
 <h4 id="dev&test">2. Desarrollo y Pruebas</h4>
@@ -59,9 +59,9 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
    - Usa el comando `pip install -e .` para desarrollo y pruebas.
 
 
-<h4 id="formato">3. Formato de código</h4>
+<h4 id="formato">3. Formateo de código</h4>
 
-   - Configurar la herramienta `pre-commit` y habilitar `black` y `flake8` para el formato del código.
+   - Configura la herramienta `pre-commit` y habilita `black` y `flake8` para el formato del código.
 
 
 <h4 id="requpdate">4. Actualizaciones de dependencias</h4>
@@ -71,7 +71,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 <h4 id="docupdate">5. Actualizaciones de documentación</h4>
 
-   - Si agregas nuevas opciones de línea de comandos, actualiza la lista de opciones de línea de comandos en todas las versiones de idioma del archivo `README.md` en consecuencia.
+   - Si agregas nuevas opciones de línea de comandos, por favor actualiza la lista de opciones de línea de comandos en todas las versiones de idioma del archivo `README.md` correspondientemente.
 
 
 <h4 id="commitmsg">6. Mensajes de commit</h4>
@@ -81,14 +81,14 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 <h4 id="codestyle">7. Estilo de codificación</h4>
 
-   - Asegúrate de que el código que envías cumple con los estándares básicos de estilo de codificación.
-   - Utiliza snake_case o camelCase para nombrar variables.
+   - Asegúrate de que el código enviado cumpla con los estándares básicos de estilo de codificación.
+   - Utiliza snake_case o camelCase para el nombrado de variables.
 
 
 <h4 id="doctypo">8. Formato de documentación</h4>
 
    - Para el formato de `README.md`, sigue las [Directrices de redacción en chino](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Asegúrate de que tanto la documentación en inglés como en chino estén siempre actualizadas; las actualizaciones de documentación en otros idiomas son opcionales.
+   - Asegúrate de que tanto la documentación en inglés como en chino estén siempre actualizadas; las actualizaciones de la documentación en otros idiomas son opcionales.
 
 ## Agregar un motor de traducción
 
@@ -98,16 +98,16 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 > [!NOTE]
 >
-> Este proyecto no tiene la intención de admitir ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíes soporte para dichos motores.
+> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíes soporte para dichos motores.
 
 ## Estructura del proyecto
 
-- **config folder**: Sistema de configuración.
-- **translator folder**: Implementaciones relacionadas con el traductor.
-- **gui.py**: Proporciona la interfaz gráfica de usuario.
-- **const.py**: Algunas constantes.
-- **main.py**: Proporciona la herramienta de línea de comandos.
-- **high_level.py**: Interfaces de alto nivel basadas en BabelDOC.
+- **config folder**: Sistema de configuración.  
+- **translator folder**: Implementaciones relacionadas con el traductor.  
+- **gui.py**: Proporciona la interfaz gráfica de usuario.  
+- **const.py**: Algunas constantes.  
+- **main.py**: Proporciona la herramienta de línea de comandos.  
+- **high_level.py**: Interfaces de alto nivel basadas en BabelDOC.  
 - **http_api.py**: Proporciona API HTTP (no iniciado).
 
 ## Contáctanos

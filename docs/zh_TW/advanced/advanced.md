@@ -1,4 +1,4 @@
-[**高級選項**](./introduction.md) > **高級選項** _(當前)_
+[**高級選項**](./introduction.md) > **高級選項** _(目前頁面)_
 
 ---
 
@@ -7,38 +7,38 @@
 - [命令行參數](#命令行參數)
 - [部分翻譯](#部分翻譯)
 - [指定來源與目標語言](#指定來源與目標語言)
-- [例外翻譯](#例外翻譯)
-- [自訂提示](#自訂提示)
-- [自訂配置](#自訂配置)
+- [翻譯例外情況](#翻譯例外情況)
+- [自定義提示](#自定義提示)
+- [自定義配置](#自定義配置)
 - [跳過清理](#跳過清理)
 - [翻譯快取](#翻譯快取)
 - [部署為公共服務](#部署為公共服務)
-- [驗證與歡迎頁面](#驗證與歡迎頁面)
+- [認證與歡迎頁面](#認證與歡迎頁面)
 - [詞彙表支援](#詞彙表支援)
 
 ---
 
 #### 命令行參數
 
-在命令行中執行翻譯指令，於當前工作目錄下生成翻譯後的文檔 `example-mono.pdf` 與雙語文檔 `example-dual.pdf`。預設使用 Google 作為翻譯服務。更多支援的翻譯服務可參閱[此處](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)。
+在命令行中執行翻譯指令，於當前工作目錄下生成翻譯後的文檔 `example-mono.pdf` 與雙語文檔 `example-dual.pdf`。預設使用 Google 作為翻譯服務。更多支援的翻譯服務可參考 [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)。
 
 <img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
-在下表中，我們列出了所有高級選項供參考：
+在以下表格中，我們列出所有高級選項以供參考：
 
 ##### 參數
 
 | 選項                          | 功能                                                                               | 範例                                                                                                              |
 | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `files`                         | 本地 PDF 文件路徑                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
+| `files`                         | 本地 `PDF` 文件路徑                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
 | `links`                         | 線上文件                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
-| `--output`                      | 檔案輸出目錄                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
-| `--<Services>`                  | 使用[**特定服務**](./Documentation-of-Translation-Services.md)進行翻譯 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
+| `--output`                      | 輸出檔案的目錄                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
+| `--<Services>`                  | 使用 [**特定服務**](./Documentation-of-Translation-Services.md) 進行翻譯 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
 | `--help`, `-h`                  | 顯示幫助訊息並退出                                                             | `pdf2zh -h`                                                                                                          |
 | `--config-file`                 | 設定檔案的路徑                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |
 | `--report-interval`             | 進度報告間隔（秒）                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |
 | `--debug`                       | 使用除錯日誌等級                                                                | `pdf2zh example.pdf --debug`                                                                                         |
-| `--gui`                         | 與圖形界面互動                                                                      | `pdf2zh --gui`                                                                                                       |
+| `--gui`                         | 與 GUI 互動                                                                      | `pdf2zh --gui`                                                                                                       |
 | `--warmup`                      | 僅下載並驗證所需資源後退出                                     | `pdf2zh example.pdf --warmup`                                                                                        |
 | `--generate-offline-assets`     | 在指定目錄中生成離線資源包                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |
 | `--restore-offline-assets`      | 從指定目錄恢復離線資源包                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |
@@ -50,42 +50,42 @@
 | `--rpc-doclayout`               | 用於文件版面分析的 RPC 服務主機地址                                  |                                                                                                                      |
 | `--qps`                         | 翻譯服務的 QPS 限制                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
 | `--ignore-cache`                | 忽略翻譯快取                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |
-| `--custom-system-prompt`        | 自訂翻譯的系統提示。用於 Qwen 3 中的 `/no_think`                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
-| `--pool-max-worker`             | 翻譯池的最大工作線程數。若未設置，將使用 qps 作為工作線程數量 | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
+| `--custom-system-prompt`        | 自定義翻譯系統提示。用於 Qwen 3 中的 `/no_think`                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
+| `--pool-max-worker`             | 翻譯池的最大工作線程數。若未設置，將使用 qps 作為工作線程數 | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
 | `--no-auto-extract-glossary`    | 禁用自動提取詞彙表                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
 | `--primary-font-family`         | 覆蓋翻譯文字的主要字體家族。選項：'serif' 用於襯線字體，'sans-serif' 用於無襯線字體，'script' 用於手寫/斜體字體。若未指定，則根據原始文字屬性自動選擇字體。 | `pdf2zh example.pdf --primary-font-family serif` |
-| `--no-dual`                     | 不輸出雙語 PDF 檔案                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
-| `--no-mono`                     | 不輸出單語種 PDF 檔案                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
+| `--no-dual`                     | 不輸出雙語 PDF 文件                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
+| `--no-mono`                     | 不輸出單語種 PDF 文件                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | 用於識別公式文字的字型模式                                                  | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
-| `--formular-char-pattern`       | 用於識別公式文字的字元模式                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
+| `--formular-char-pattern`       | 用於識別公式文字的字符模式                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
 | `--split-short-line`            | 強制將短行拆分為不同段落                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
-| `--short-line-split-factor`     | 短行分割閾值因子                                                 |                                                                                                                      |
+| `--short-line-split-factor`     | 短行分割的閾值因子                                                 |                                                                                                                      |
 | `--skip-clean`                  | 跳過 PDF 清理步驟                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
 | `--dual-translate-first`        | 在雙 PDF 模式下優先放置翻譯頁                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
 | `--disable-rich-text-translate` | 停用富文本翻譯                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | 啟用所有相容性增強選項                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
 | `--use-alternating-pages-dual`  | 使用交替頁面模式處理雙語 PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
 | `--watermark-output-mode`       | PDF 檔案的水印輸出模式                                                    | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
-| `--max-pages-per-part`          | 分割翻譯時每部分的最大頁數                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
+| `--max-pages-per-part`          | 每次分割翻譯的最大頁數                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
 | `--translate-table-text`        | 翻譯表格文字（實驗性功能）                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
 | `--skip-scanned-detection`      | 跳過掃描檢測                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | 強制將翻譯文字設為黑色並添加白色背景                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
-| `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若偵測到文件為重度掃描檔，將嘗試啟用 OCR 處理並跳過後續掃描偵測。詳見文檔說明。(預設值：False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page`| 僅在輸出 PDF 中包含已翻譯的頁面。僅在使用 --pages 參數時有效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
-| `--glossaries`                  | 用於翻譯的自訂詞彙表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
+| `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若檢測到文件為重度掃描文件，將嘗試啟用 OCR 處理並跳過後續掃描檢測。詳情請參閱文檔。（預設值：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
+| `--only-include-translated-page` | 僅在輸出 PDF 中包含已翻譯的頁面。僅在使用 `--pages` 參數時有效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page` |
+| `--glossaries`                  | 用於翻譯的自定義詞彙表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 儲存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
 
-##### 圖形界面參數
+##### GUI 參數
 
 | 選項                          | 功能                               | 範例                                         |
 | ------------------------------- | -------------------------------------- | ----------------------------------------------- |
 | `--share`                       | 啟用分享模式                    | `pdf2zh --gui --share`                          |
-| `--auth-file`                   | 驗證檔案路徑        | `pdf2zh --gui --auth-file /path`                |
+| `--auth-file`                   | 認證檔案路徑        | `pdf2zh --gui --auth-file /path`                |
 | `--welcome-page`                | 歡迎頁面 HTML 檔案路徑          | `pdf2zh --gui --welcome-page /path`             |
 | `--enabled-services`            | 啟用的翻譯服務           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
-| `--disable-gui-sensitive-input` | 停用圖形界面敏感輸入            | `pdf2zh --gui --disable-gui-sensitive-input`    |
-| `--disable-config-auto-save`    | 禁用自動配置儲存 | `pdf2zh --gui --disable-config-auto-save`       |
+| `--disable-gui-sensitive-input` | 禁用 GUI 敏感輸入            | `pdf2zh --gui --disable-gui-sensitive-input`    |
+| `--disable-config-auto-save`    | 禁用自動配置保存 | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | WebUI 端口                             | `pdf2zh --gui --server-port 7860`               |
 
 [⬆️ 返回頂部](#目錄)
@@ -144,15 +144,15 @@ pdf2zh_next example.pdf --lang-in en -lang-out ja
 
 ---
 
-#### 例外翻譯
+#### 翻譯例外情況
 
-使用正則表達式指定需要保留的公式字體與字元：
+使用正則表達式來指定需要保留的公式字體與字元：
 
 ```bash
 pdf2zh_next example.pdf --formular-font-pattern "(CM[^RT].*|MS.*|.*Ital)" --formular-char-pattern "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
 ```
 
-預設保留 `Latex`、`Mono`、`Code`、`Italic`、`Symbol` 與 `Math` 字體：
+預設保留 `Latex`、`Mono`、`Code`、`Italic`、`Symbol` 和 `Math` 字體：
 
 ```bash
 pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
@@ -162,11 +162,11 @@ pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|
 
 ---
 
-#### 自訂提示
+#### 自定義提示
 
 <!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->
 
-自訂系統提示用於翻譯。主要用於在提示中加入 Qwen 3 的 `/no_think` 指令。
+翻譯用的自訂系統提示。主要用於在提示中加入 Qwen 3 的 `/no_think` 指令。
 
 ```bash
 pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
@@ -176,24 +176,24 @@ pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional
 
 ---
 
-#### 自訂配置
+#### 自定義配置
 
-有多種方式可以修改並導入設定檔。
+有多種方式可以修改和導入配置檔案。
 
 > [!NOTE]
-> **配置文件層級**
+> **設定檔層級結構**
 >
-> 當使用不同方法修改同一參數時，軟體將依照以下優先級順序套用變更。
+> 當使用不同方法修改相同參數時，軟體會依照以下優先順序套用變更。
 >
-> 較高優先級的修改會覆蓋較低優先級的設定。
+> 較高優先層級的修改會覆蓋較低層級的設定。
 >
 > **cli/gui > env > 使用者設定檔 > 預設設定檔**
 
 - 透過 **命令行參數** 修改配置
 
-在大多數情況下，您可以直接通過命令行參數傳遞所需的設置。更多資訊請參閱[命令行參數](#命令行參數)。
+在大多數情況下，您可以直接通過命令行參數傳遞所需的設定。更多資訊請參考[命令行參數](#命令行參數)。
 
-例如，如果您想啟用圖形界面窗口，可以使用以下命令：
+例如，如果您想啟用 GUI 視窗，可以使用以下命令：
 
 ```bash
 pdf2zh_next --gui
@@ -203,7 +203,7 @@ pdf2zh_next --gui
 
 你可以將命令列參數中的 `--` 替換為 `PDF2ZH_`，使用 `=` 連接參數，並將 `-` 替換為 `_` 作為環境變數。
 
-例如，如果你想啟用圖形界面視窗，可以使用以下命令：
+舉例來說，如果你想啟用 GUI 視窗，可以使用以下命令：
 
 ```bash
 PDF2ZH_GUI=TRUE pdf2zh_next
@@ -219,18 +219,18 @@ PDF2ZH_GUI=TRUE pdf2zh_next
 pdf2zh_next --config-file '/path/config.toml'
 ```
 
-如果您不確定配置文件的格式，請參考下方描述的預設配置文件。
+如果您不確定配置文件的格式，請參考下方描述的默認配置文件。
 
 - **預設設定檔**
 
 預設的設定檔位於 `~/.config/pdf2zh`。  
 請勿修改 `default` 目錄中的設定檔。  
-強烈建議參考此設定檔的內容，並使用**自訂配置**來實作您自己的設定檔。
+強烈建議參考此設定檔的內容，並使用 **使用者自訂設定檔** 來實作您自己的設定檔。
 
 > [!TIP]
-> - 預設情況下，pdf2zh 2.0 每次在圖形界面點擊翻譯按鈕時，會自動將當前配置保存至 `~/.config/pdf2zh/config.v3.toml`。此配置文件將在下次啟動時自動載入。
-> - `default` 目錄中的配置文件由程序自動生成，您可以複製它們進行修改，但請勿直接修改這些文件。
-> - 配置文件中可能包含「v2」、「v3」等版本號，這些是**配置文件的版本號**，**並非** pdf2zh 本身的版本號。
+> - 預設情況下，pdf2zh 2.0 每次在 GUI 中點擊翻譯按鈕時，會自動將當前配置保存到 `~/.config/pdf2zh/config.v3.toml`。此配置文件將在下次啟動時預設加載。
+> - `default` 目錄中的配置文件由程序自動生成。您可以複製它們進行修改，但請勿直接修改。
+> - 配置文件中可能包含 "v2"、"v3" 等版本號。這些是**配置文件的版本號**，**並非** pdf2zh 本身的版本號。
 
 
 [⬆️ 返回頂部](#目錄)
@@ -239,7 +239,7 @@ pdf2zh_next --config-file '/path/config.toml'
 
 #### 跳過清理
 
-當此參數設為 True 時，將跳過 PDF 清理步驟，這可提升相容性並避免部分字體處理問題。
+當此參數設為 True 時，將跳過 PDF 清理步驟，這可以提高兼容性並避免一些字體處理問題。
 
 使用方法：
 
@@ -254,13 +254,13 @@ PDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf
 ```
 
 > [!TIP]
-> 當啟用 `--enhance-compatibility` 時，跳過清理會自動啟用。
+> 當 `--enhance-compatibility` 啟用時，跳過清理會自動啟用。
 
 ---
 
 #### 翻譯快取
 
-PDFMathTranslate 會快取已翻譯的文字，以提升速度並避免對相同內容進行不必要的 API 呼叫。你可以使用 `--ignore-cache` 選項來忽略翻譯快取並強制重新翻譯。
+PDFMathTranslate 會快取已翻譯的文字，以提高速度並避免對相同內容進行不必要的 API 呼叫。你可以使用 `--ignore-cache` 選項來忽略翻譯快取並強制重新翻譯。
 
 ```bash
 pdf2zh_next example.pdf --ignore-cache
@@ -272,13 +272,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 #### 部署為公共服務
 
-在公共服務上部署 pdf2zh 圖形界面時，您應按照以下說明修改配置檔案。
+當在公共服務上部署 pdf2zh GUI 時，您應按照以下說明修改配置檔案。
 
 > [!TIP]
-> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 和 `disable_config_auto_save`。
-> - 使用*英文逗號* <kbd>,</kbd> 分隔不同的可用服務。
+> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 與 `disable_config_auto_save`。
+> - 使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。
 
-可用的配置如下：
+一個可用的配置如下：
 
 ```toml title="config.toml"
 [basic]
@@ -294,9 +294,9 @@ disable_config_auto_save = true
 
 ---
 
-#### 驗證與歡迎頁面
+#### 認證與歡迎頁面
 
-當使用驗證與歡迎頁面來指定哪些用戶可以使用 Web UI 並自訂登入頁面時：
+當使用 認證與歡迎頁面 來指定哪些使用者可以使用 Web UI 並自訂登入頁面時：
 
 範例 auth.txt
 每行包含兩個元素，使用者名稱和密碼，以逗號分隔。
@@ -325,10 +325,10 @@ test,test123
 ```
 
 > [!NOTE]
-> 歡迎頁面僅在驗證檔案不為空時才會生效。
-> 若驗證檔案為空，則不會進行驗證。 :)
+> 歡迎頁面僅在認證檔案不為空白時才會運作。
+> 若認證檔案為空白，則不會有任何認證。 :)
 
-可用的配置如下：
+一個可用的配置如下：
 
 ```toml title="config.toml"
 [basic]
@@ -345,8 +345,8 @@ welcome_page = "/path/to/welcome/html/file"
 
 #### 詞彙表支援
 
-PDFMathTranslate 支援詞彙表功能。詞彙表檔案應為 `csv` 格式。
-檔案中包含三欄位。以下是一個示範詞彙表檔案：
+PDFMathTranslate 支援詞彙表功能。詞彙表檔案應為 `csv` 格式。  
+檔案中包含三欄，以下是一個示範詞彙表檔案：
 
 | source | target  | tgt_lng |
 |--------|---------|---------|
@@ -356,7 +356,7 @@ PDFMathTranslate 支援詞彙表功能。詞彙表檔案應為 `csv` 格式。
 
 
 對於 CLI 使用者：
-您可以使用多個檔案作為詞彙表，不同檔案之間應以 `,` 分隔。
+您可以使用多個檔案作為詞彙表。不同檔案應以 `,` 分隔。
 
 ```bash
 pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
@@ -364,9 +364,9 @@ pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
 
 對於 WebUI 使用者：
 
-您現在可以上傳自己的詞彙表檔案。上傳檔案後，您可以點擊檔案名稱查看內容，內容會顯示在下方。
+您現在可以上傳自己的詞彙表檔案。上傳檔案後，您可以點擊檔案名稱來查看內容，內容會顯示在下方。
 
-[⬆️ 回到頂部](#目錄)
+[⬆️ 回到頂部](#toc)
 
 <div align="right"> 
 <h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

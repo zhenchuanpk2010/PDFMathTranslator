@@ -9,12 +9,12 @@
 
 ## Загрузка прервана?
 - **Вопрос**:
-При загрузке модели возникла следующая ошибка прерывания. Что делать?
+При загрузке модели я столкнулся со следующей ошибкой прерывания. Что мне делать?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Ответ**:
-Сеть подвергается помехам, пожалуйста, используйте стабильное сетевое соединение или попробуйте обойти вмешательство сети.
+Сеть подвергается помехам, пожалуйста, используйте стабильное сетевое соединение или попробуйте обойти вмешательство в сеть.
 
 ## Как обновиться до последней версии?
 - **Вопрос**:
@@ -26,7 +26,7 @@
 
 ## Следующие файлы не существуют: example.pdf
 - **Проблема**:
-При выполнении программы пользователи могут получить следующий вывод: `The following files do not exist: example.pdf`, если документ не был найден.
+При выполнении программы пользователи могут получить следующие сообщения: `The following files do not exist: example.pdf`, если документ не был найден.
 
 - **Решение**:
   - Откройте командную строку в директории, где находится файл, или
@@ -39,7 +39,7 @@
 При загрузке моделей с hugging face пользователи из Китая могут столкнуться с сетевой ошибкой. Например, в [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
 - **Решение**:
-  - [Обойти GFW](https://github.com/clash-verge-rev/clash-verge-rev).
+  - [Обход GFW](https://github.com/clash-verge-rev/clash-verge-rev).
   - [Использовать зеркало Hugging Face](https://hf-mirror.com/).
   - [Использовать портативную версию](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).
   - [Использовать Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).

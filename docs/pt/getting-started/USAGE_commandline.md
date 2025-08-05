@@ -2,11 +2,11 @@
 
 ---
 
-### Usar PDFMathTranslate via linha de comando
+### Usar o PDFMathTranslate via linha de comando
 
-#### Uso Básico
+#### Uso básico
 
-Após a Instalação, digite este comando para traduzir seu PDF.
+Após a instalação, por favor, digite este comando para traduzir seu PDF.
 
 ```bash
 pdf2zh_next document.pdf

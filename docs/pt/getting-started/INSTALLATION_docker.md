@@ -2,11 +2,11 @@
 
 ---
 
-### Instalar o PDFMathTranslate via docker
+### Instalar PDFMathTranslate via docker
 
 #### O que é docker?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) é uma plataforma aberta para desenvolver, enviar e executar aplicações. O Docker permite que você separe suas aplicações da sua infraestrutura, para que possa entregar software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia suas aplicações. Ao aproveitar as metodologias do Docker para envio, teste e implantação de código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo em produção.
+[Docker](https://docs.docker.com/get-started/docker-overview/) é uma plataforma aberta para desenvolver, enviar e executar aplicações. O Docker permite que você separe suas aplicações da sua infraestrutura, para que você possa entregar software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia suas aplicações. Ao aproveitar as metodologias do Docker para enviar, testar e implantar código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo em produção.
 
 #### Instalação
 
@@ -26,17 +26,17 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > ```
 
-<h4>2. Digite este URL no seu navegador padrão para abrir a página WebUI:</h4>
+<h4>2. Insira este URL no seu navegador padrão para abrir a página WebUI:</h4>
 
 ```
 http://localhost:7860/
 ```
 
 > [!NOTE]
-> Se você encontrar qualquer problema ao usar o WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).
+> Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
-> Se você encontrar qualquer problema ao usar a linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).
+> Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).
 <!-- 
 #### For docker deployment on cloud service:
 

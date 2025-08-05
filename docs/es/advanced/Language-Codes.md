@@ -6,7 +6,7 @@
 
 Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.
 
-| Etiqueta en español | Etiqueta | `Language Code` |
+| Etiqueta en chino | Etiqueta | `Código de idioma` |
 | --- | --- | --- |
 | Amárico | Amharic | `am` |
 | Árabe | Arabic | `ar` |
@@ -20,60 +20,47 @@ Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | Croata | Croatian | `hr` |
 | Checo | Czech | `cs` |
 | Danés | Danish | `da` |
-| Español | Spanish | `es` |
-| Español (España) | Spanish (Spain) | `es` |
+| Español | Dutch | `nl` |
+| Inglés (EE. UU.) | English (US) | `en` |
 | Estonio | Estonian | `et` |
 | Filipino | Filipino | `fil` |
 | Finés | Finnish | `fi` |
 | Francés | French | `fr` |
 | Alemán | German | `de` |
-| Griego | `el` |
+| Griego | Greek | `el` |
 | Gujarati | Gujarati | `gu` |
 | Hebreo | Hebrew | `iw` |
 | Hindi | Hindi | `hi` |
-| 匈牙利语 | Hungarian | `hu` |
+| Húngaro | Hungarian | `hu` |
 | Islandés | Icelandic | `is` |
-| 印度尼西亚语 | Indonesio | `id` |
+| Indonesio | Indonesian | `id` |
 | Italiano | Italian | `it` |
-| Español | Spanish | `es` |
-|---|---|---|---|---|---|---|
-| 日语 | Japonés | `ja` |
-| Kannada | `kn` |
-| Español | `es` |
-|------|--------|------|--------|--------|------|
-| 韩语 | Coreano | `ko` |
+| Japonés | Japanese | `ja` |
+| Canarés | Kannada | `kn` |
+| Coreano | Coreano | `ko` |
 | Letón | Latvian | `lv` |
 | Lituano | Lithuanian | `lt` |
 | Malayo | Malay | `ms` |
 | Malayalam | Malayalam | `ml` |
-| Marathi | `mr` |
+| Marathi | Marathi | `mr` |
 | Noruego | Norwegian | `no` |
 | Polaco | Polish | `pl` |
-| Portugués (Portugal) | Portugués (Portugal) | `pt-PT` |
+| Portugués (Portugal) | Portuguese (Portugal) | `pt-PT` |
 | Rumano | Romanian | `ro` |
-| Español | Spanish | `es` |
-|---|---|---|---|---|---|---|
-| 日语 | Japanese | `ja` |
+| Ruso | Russian | `ru` |
 | Serbio | Serbian | `sr` |
 | Español (España) | Spanish (Spain) | `es-ES` |
 | Eslovaco | Slovak | `sk` |
 | Esloveno | Slovenian | `sl` |
 | Español | Spanish | `es` |
-| 斯瓦希里语 | Swahili | `sw` |
-| Español | Swedish | `sv` |
+| Suajili | Swahili | `sw` |
+| 瑞典语 | Sueco | `sv` |
 | Tamil | Tamil | `ta` |
-| Telugu | `te` |
+| Telugu | Telugu | `te` |
 | Tailandés | Thai | `th` |
 | Español (España) | Spanish (Spain) | `es-ES` |
-
----
-
-### TRANSLATED TEXT
-
-| Chino (Taiwán) | Chinese (Taiwan) | `zh-TW` |  
-| Español (España) | Spanish (Spain) | `es-ES` |
 | Turco | Turkish | `tr` |
-| Urdu | `ur` |
+| Urdu | Urdu | `ur` |
 | Ucraniano | Ukrainian | `uk` |
 | 越南语 | Vietnamese | `vi` |
 | Galés | Welsh | `cy` |
@@ -91,37 +78,37 @@ Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Alemán | German | `DE` | `source`, `target` |
 | Griego | Greek | `EL` | `source`, `target` |
 | Español | `ES` | `source`, `target` |
-|---|---|---|---|---|---|---|---|
-| 中文 | Chinese | `ZH` | `source`, `target` |
-| Español (España) | Spanish (Spain) | `ES-ES` | `target` |
-| Inglés (EE. UU.) | English (American) | `EN-US` | `target` |
+| Inglés (Británico) | English (British) | `EN-GB` | `target` |
+| Español (Estados Unidos) | English (American) | `EN-US` | `target` |
 | Español | Spanish | `ES` | `source`, `target` |
 | Estonio | Estonian | `ET` | `source`, `target` |
-| Finlandés | Finnish | `FI` | `source`, `target` |
+| Finés | Finnish | `FI` | `source`, `target` |
 | Francés | French | `FR` | `source`, `target` |
 | Húngaro | Hungarian | `HU` | `source`, `target` |
 | Indonesio | Indonesian | `ID` | `source`, `target` |
 | Italiano | Italian | `IT` | `source`, `target` |
 | Japonés | Japanese | `JA` | `source`, `target` |
-| Coreano | `KO` | `source`, `target` |
+| Coreano | Korean | `KO` | `source`, `target` |
 | Lituano | Lithuanian | `LT` | `source`, `target` |
 | Letón | Latvian | `LV` | `source`, `target` |
-| Bokmål noruego | Norwegian Bokmål | `NB` | `source`, `target` |
+| Noruego Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |
 | Neerlandés | Dutch | `NL` | `source`, `target` |
 | Polaco | Polish | `PL` | `source`, `target` |
 | Portugués | Portuguese | `PT` | `source`, `target` |
-| Português (Brasileiro) | `PT-BR` | `target` |
-| Português (Europeu) | Português (Europeu) | `PT-PT` | `target` |
+| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |
+| Portugués (Europeo) | Portugués (Europeo) | `PT-PT` | `target` |
 | Rumano | Romanian | `RO` | `source`, `target` |
 | Ruso | Russian | `RU` | `source`, `target` |
+### TRANSLATION RESULT
+
 | Eslovaco | Slovak | `SK` | `source`, `target` |
 | Esloveno | Slovenian | `SL` | `source`, `target` |
 | Sueco | Swedish | `SV` | `source`, `target` |
-| Turco | `TR` | `source`, `target` |
+| Turco | Turkish | `TR` | `source`, `target` |
 | Ucraniano | Ukrainian | `UK` | `source`, `target` |
 | Español | Spanish | `ES` | `source`, `target` |
-| Español (España) | Spanish (Spain) | `ES-ES` | `target` |
-| Chino (tradicional) | Chino (tradicional) | `ZH-HANT` | `target` |
+| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
+| Español tradicional | Chino (Tradicional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

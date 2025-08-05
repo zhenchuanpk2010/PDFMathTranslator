@@ -1,12 +1,12 @@
-[**開始**](./getting-started.md) > **インストール** > **Docker** _(現在)_
+[**開始**](./getting-started.md) > **インストール** > **Docker** _(current)_
 
 ---
 
-### docker で PDFMathTranslate をインストール
+### Docker で PDFMathTranslate をインストールする
 
 #### Docker とは何ですか？
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) は、アプリケーションの開発、配布、実行のためのオープンプラットフォームです。Docker を使用すると、アプリケーションとインフラストラクチャを分離できるため、ソフトウェアを迅速に提供できます。Docker では、アプリケーションを管理するのと同じ方法でインフラストラクチャを管理できます。Docker のコード配布、テスト、デプロイの方法論を活用することで、コードを記述して本番環境で実行するまでの遅延を大幅に削減できます。
+[Docker](https://docs.docker.com/get-started/docker-overview/) は、アプリケーションの開発、配布、実行のためのオープンプラットフォームです。Docker を使用すると、アプリケーションをインフラストラクチャから分離できるため、ソフトウェアを迅速に提供できます。Docker では、アプリケーションを管理するのと同じ方法でインフラストラクチャを管理できます。Docker のコード配布、テスト、デプロイの方法論を活用することで、コードを書いてから本番環境で実行するまでの遅延を大幅に削減できます。
 
 #### インストール
 
@@ -19,7 +19,7 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - Docker Hub にアクセスできない場合は、[GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) のイメージをお試しください。
+> - Docker Hub にアクセスできない場合は、[GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) のイメージを試してください。
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next

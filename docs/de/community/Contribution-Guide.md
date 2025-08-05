@@ -2,16 +2,16 @@
 
 > [!CAUTION]
 >
-> Die aktuellen Projektbetreuer erforschen automatisierte Dokumentationsinternationalisierung. Daher werden keine PRs im Zusammenhang mit Dokumentationsinternationalisierung/-übersetzung akzeptiert!
+> Die aktuellen Projektbetreuer erforschen die automatisierte Internationalisierung der Dokumentation. Daher werden keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation akzeptiert!
 >
-> Bitte reichen Sie KEINE PRs im Zusammenhang mit Dokumentationsinternationalisierung/-übersetzung ein!
+> Bitte reichen Sie keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation ein!
 
-Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, um die folgenden Richtlinien zu lesen, um sicherzustellen, dass Ihr Beitrag problemlos akzeptiert werden kann.
+Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, die folgenden Richtlinien zu lesen, um sicherzustellen, dass Ihr Beitrag problemlos akzeptiert werden kann.
 
 ## Arten von Beiträgen, die nicht akzeptiert werden
 
 1. Dokumentationsinternationalisierung/-übersetzung
-2. Beiträge zur Kerninfrastruktur, wie z.B. HTTP-API usw.
+2. Beiträge zur Kerninfrastruktur, wie z. B. HTTP-API usw.
 3. Probleme, die explizit als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) und im [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) Repository).
 4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.
 5. Beitrag zur Dokumentation, aber Änderung der Dokumentation in anderen Sprachen als Englisch.
@@ -43,14 +43,14 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 >
 > Wenn Sie Fragen zum Quellcode oder verwandten Themen haben, wenden Sie sich bitte an den Maintainer unter aw@funstory.ai.
 >
-> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen verwandter Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
+> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen der zugehörigen Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
 
 ## Grundvoraussetzungen
 
 <h4 id="sop">1. Arbeitsablauf</h4>
 
-   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.
-   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.
+   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.  
+   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.  
    - Wenn Ihr PR die automatisierten Prüfungen nicht besteht (angezeigt durch `checks failed` und ein rotes Kreuz), überprüfen Sie bitte die entsprechenden `details` und passen Sie Ihre Einreichung an, um sicherzustellen, dass der neue PR alle Prüfungen besteht.
 
 
@@ -71,7 +71,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 <h4 id="docupdate">5. Dokumentationsaktualisierungen</h4>
 
-   - Wenn Sie neue Kommandozeilen-Optionen hinzufügen, aktualisieren Sie bitte die Liste der Kommandozeilen-Optionen in allen Sprachversionen der `README.md`-Datei entsprechend.
+   - Wenn Sie neue Kommandozeilenoptionen hinzufügen, aktualisieren Sie bitte die Liste der Kommandozeilenoptionen in allen Sprachversionen der `README.md`-Datei entsprechend.
 
 
 <h4 id="commitmsg">6. Commit-Nachrichten</h4>
@@ -104,7 +104,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 - **config folder**: Konfigurationssystem.
 - **translator folder**: Implementierungen im Zusammenhang mit Übersetzern.
-- **gui.py**: Bietet die GUI-Oberfläche.
+- **gui.py**: Bietet die GUI-Schnittstelle.
 - **const.py**: Einige Konstanten.
 - **main.py**: Bietet das Kommandozeilen-Tool.
 - **high_level.py**: Hochrangige Schnittstellen basierend auf BabelDOC.
@@ -112,11 +112,11 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 ## Kontaktieren Sie uns
 
-Wenn Sie Fragen haben, senden Sie bitte Feedback über ein Issue oder treten Sie unserer Telegram-Gruppe bei. Vielen Dank für Ihren Beitrag!
+Wenn Sie Fragen haben, senden Sie bitte Feedback über Issue oder treten Sie unserer Telegram-Gruppe bei. Vielen Dank für Ihren Beitrag!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschaftscodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschaftscodes für aktive Mitwirkende an diesem Projekt. Weitere Einzelheiten finden Sie unter: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

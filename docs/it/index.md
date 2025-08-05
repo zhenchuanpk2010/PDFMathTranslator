@@ -2,7 +2,7 @@
 
 <img src="./docs/images/banner.png" width="320px"  alt="banner"/>
 
-<h2 id="Titolo">PDFMathTranslate</h2>
+<h2 id="titolo">PDFMathTranslate</h2>
 
 <p>
   <!-- PyPI -->
@@ -34,7 +34,7 @@
 
 Traduzione di articoli scientifici PDF e confronto bilingue.
 
-- 📊 Conserva formule, grafici, indice e annotazioni _([anteprima](#anteprima))_.
+- 📊 Conserva formule, grafici, indice dei contenuti e annotazioni _([anteprima](#anteprima))_.
 - 🌐 Supporta [multiple lingue](https://pdf2zh-next.com/supported_languages.html) e diversi [servizi di traduzione](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Fornisce [strumento da riga di comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaccia utente interattiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
@@ -42,15 +42,15 @@ Sentiti libero di fornire feedback su [GitHub Issues](https://github.com/PDFMath
 
 Per dettagli su come contribuire, consulta la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="aggiornamenti">Aggiornamenti</h2>
+<h2 id="updates">Aggiornamenti</h2>
 
-- [4 giugno 2025] Il progetto è stato rinominato e spostato su [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (da [@awwaawwa](https://github.com/awwaawwa))
-- [3 marzo 2025] Supporto sperimentale per il nuovo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI aggiunto come opzione sperimentale (da [@awwaawwa](https://github.com/awwaawwa))
-- [22 febbraio 2025] Miglioramento del CI per i rilasci e pacchettizzazione ottimizzata dell'eseguibile windows-amd64 (da [@awwaawwa](https://github.com/awwaawwa))
-- [24 dicembre 2024] Il traduttore ora supporta modelli locali su [Xinference](https://github.com/xorbitsai/inference) _(da [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [19 dicembre 2024] Ora sono supportati documenti non-PDF/A utilizzando `-cp` _(da [@reycn](https://github.com/reycn))_
-- [13 dicembre 2024] Supporto aggiuntivo per il backend _(da [@YadominJinta](https://github.com/YadominJinta))_
-- [10 dicembre 2024] Il traduttore ora supporta i modelli OpenAI su Azure _(da [@yidasanqian](https://github.com/yidasanqian))_
+- [4 giu. 2025] Il progetto è stato rinominato e spostato su [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (da [@awwaawwa](https://github.com/awwaawwa))
+- [3 mar. 2025] Supporto sperimentale per il nuovo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI aggiunto come opzione sperimentale (da [@awwaawwa](https://github.com/awwaawwa))
+- [22 feb. 2025] Migliore CI di rilascio e file eseguibile ben confezionato per windows-amd64 (da [@awwaawwa](https://github.com/awwaawwa))
+- [24 dic. 2024] Il traduttore ora supporta modelli locali su [Xinference](https://github.com/xorbitsai/inference) _(da [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [19 dic. 2024] Ora sono supportati documenti non-PDF/A utilizzando `-cp` _(da [@reycn](https://github.com/reycn))_
+- [13 dic. 2024] Supporto aggiuntivo per backend da _(da [@YadominJinta](https://github.com/YadominJinta))_
+- [10 dic. 2024] Il traduttore ora supporta modelli OpenAI su Azure _(da [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="anteprima">Anteprima</h2>
 
@@ -72,7 +72,7 @@ Puoi provare la nostra applicazione utilizzando una delle seguenti demo:
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-Si noti che le risorse di calcolo della demo sono limitate, quindi si prega di evitarne l'abuso.
+Nota che le risorse di calcolo della demo sono limitate, quindi si prega di evitare di abusarne.
 
 <h2 id="install">Installazione e Utilizzo</h2>
 
@@ -92,15 +92,15 @@ Si noti che le risorse di calcolo della demo sono limitate, quindi si prega di e
 
 Per diversi casi d'uso, forniamo metodi distinti per utilizzare il nostro programma. Consulta [questa pagina](./getting-started/getting-started.md) per maggiori informazioni.
 
-<h2 id="usage">Opzioni avanzate</h2>
+<h2 id="utilizzo">Opzioni avanzate</h2>
 
-Per spiegazioni dettagliate, consulta il nostro documento su [Utilizzo avanzato](https://pdf2zh-next.com/advanced/advanced.html) per un elenco completo di ciascuna opzione.
+Per spiegazioni dettagliate, si prega di fare riferimento al nostro documento su [Utilizzo avanzato](https://pdf2zh-next.com/advanced/advanced.html) per un elenco completo di ciascuna opzione.
 
-<h2 id="downstream">Sviluppo secondario (API)</h2>
+<h2 id="sviluppo-secondario">Sviluppo secondario (API)</h2>
 
 > [!NOTE]
 >
-> Attualmente, non è fornita alcuna documentazione pertinente. Sarà integrata in seguito. Si prega di attendere con pazienza.
+> Attualmente, non è fornita alcuna documentazione pertinente. Sarà integrata successivamente. Si prega di attendere con pazienza.
 
 
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
@@ -108,7 +108,7 @@ Per spiegazioni dettagliate, consulta il nostro documento su [Utilizzo avanzato]
 - [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
 - [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
 
-<h2 id="langcode">Codice lingua</h2>
+<h2 id="codice-lingua">Codice lingua</h2>
 
 Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno, consulta [questa documentazione](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
@@ -131,9 +131,9 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 <h2 id="ringraziamenti">Ringraziamenti</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro per i contributori attivi di questo progetto. Per i dettagli, consulta: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro per i contributori attivi a questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da modelli linguistici di grandi dimensioni (LLM).
+- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da grandi modelli linguistici (LLM).
 
 - Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -146,11 +146,11 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 - Anteprima PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Analisi del layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Analisi layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Standard PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Font multilingue: consulta [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Font multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
@@ -160,7 +160,7 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 <h2 id="conduct">Prima di inviare il tuo codice</h2>
 
-Accogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, consulta il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Accogliamo con favore la partecipazione attiva dei contributori per migliorare pdf2zh. Prima di essere pronto a inviare il tuo codice, ti preghiamo di consultare il nostro [Codice di Condotta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Contributori</h2>
 

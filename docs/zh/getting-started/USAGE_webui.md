@@ -24,7 +24,7 @@
     http://localhost:7860/
     ```
 
-    将 PDF 文件拖入窗口并点击 `Translate`。
+    将 `PDF` 文件拖入窗口并点击 `Translate`。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>

@@ -8,7 +8,7 @@ Actualmente, el servicio de traducción gratuito utilizará el modelo `THUDM/GLM
 
 ### Uso
 
-#### cli
+#### Línea de comandos
 
 ```bash
 pdf2zh_next --siliconflowfree example.pdf 
@@ -16,14 +16,14 @@ pdf2zh_next --siliconflowfree example.pdf
 
 #### webui
 
-1. Selecciona "SiliconFlowFree" de la lista desplegable "Opciones de traducción" - "Servicio".
-2. Haz clic en el botón Traducir en la parte inferior de la página para comenzar la traducción.
-3. Una vez completada la traducción, podrás encontrar el archivo PDF traducido en la sección "Traducido" en la parte inferior de la página.
+1. Selecciona "SiliconFlowFree" de la lista desplegable "Translation Options" - "Service".
+2. Haz clic en el botón Translate en la parte inferior de la página para comenzar la traducción.
+3. Una vez completada la traducción, puedes encontrar el archivo PDF traducido en la sección "Translated" en la parte inferior de la página.
 
 
 ### Política de privacidad
 
-El contenido del archivo será enviado al servidor del mantenedor del proyecto [@awwaawwa](https://github.com/awwaawwa), y luego reenviado a SiliconFlow para su traducción.
+El contenido del archivo se enviará al servidor del mantenedor del proyecto [@awwaawwa](https://github.com/awwaawwa), y luego se reenviará a SiliconFlow para su traducción.
 
 Los mantenedores de este proyecto solo recopilarán información de error devuelta por SiliconFlow para depurar los servicios relacionados. No se recopilará el contenido de su archivo.
 
@@ -33,7 +33,7 @@ Política de privacidad de SiliconFlow: [简体中文](https://docs.siliconflow.
 
 ## Usar otros modelos de SiliconFlow
 
-[SiliconFlow](https://siliconflow.cn) también ofrece otros modelos para traducción.
+[SiliconFlow](https://siliconflow.cn) también proporciona otros modelos para traducción.
 
 ### Uso
 
@@ -41,7 +41,7 @@ Política de privacidad de SiliconFlow: [简体中文](https://docs.siliconflow.
 
 2. Crea una clave API en [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Luego, haz clic en la clave para copiarla.
 
-#### cli
+#### Línea de comandos
 
 ```bash
 pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --siliconflow-api-key <your-api-key> example.pdf
@@ -57,7 +57,7 @@ pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --si
 6. Una vez completada la traducción, podrás encontrar el archivo PDF traducido en la sección "Traducido" al final de la página.
 
 
-## Agradecimientos
+## Reconocimiento
 
 Gracias a [SiliconFlow](https://siliconflow.cn) por proporcionar el servicio de traducción gratuito para este proyecto.
 

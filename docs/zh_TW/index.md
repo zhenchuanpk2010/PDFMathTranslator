@@ -32,25 +32,25 @@
 
 </div>
 
-PDF 學術論文翻譯與雙語對照。
+PDF 科學論文翻譯與雙語對照。
 
 - 📊 保留公式、圖表、目錄和註解 _([預覽](#預覽))_。
-- 🌐 支援[多種語言](https://pdf2zh-next.com/supported_languages.html)，以及多樣化的[翻譯服務](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。
-- 🤖 提供[命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[互動式用戶界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html)和[Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
+- 🌐 支援 [多種語言](https://pdf2zh-next.com/supported_languages.html)，以及多樣的 [翻譯服務](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。
+- 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[互動式使用者介面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-歡迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) 提供反饋。
+歡迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram 群組](https://t.me/+Z9_SgnxmsmA5NzBl) 提供反饋。
 
 如需瞭解如何貢獻，請參閱 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
 
-<h2 id="更新">更新</h2>
+<h2 id="更新日誌">更新日誌</h2>
 
-- [2025 年 6 月 4 日] 项目更名为 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) 并迁移至此仓库 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025 年 3 月 3 日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项加入 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025 年 2 月 22 日] 优化发布 CI 流程并完善 Windows-amd64 可执行文件打包 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2024 年 12 月 24 日] 翻译器现支持 [Xinference](https://github.com/xorbitsai/inference) 本地模型 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [2024 年 12 月 19 日] 通过 `-cp` 参数现支持非 PDF/A 格式文档 _(by [@reycn](https://github.com/reycn))_
-- [2024 年 12 月 13 日] 新增后端支持 _(by [@YadominJinta](https://github.com/YadominJinta))_
-- [2024 年 12 月 10 日] 翻译器现支持 Azure 平台上的 OpenAI 模型 _(by [@yidasanqian](https://github.com/yidasanqian))_
+- [2025 年 6 月 4 日] 项目更名为 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)（由 [@awwaawwa](https://github.com/awwaawwa) 发起）
+- [2025 年 3 月 3 日] 实验性支持新后端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作为实验性选项（由 [@awwaawwa](https://github.com/awwaawwa) 发起）
+- [2025 年 2 月 22 日] 改进的发布 CI 和打包良好的 windows-amd64 exe（由 [@awwaawwa](https://github.com/awwaawwa) 发起）
+- [2024 年 12 月 24 日] 翻译器现在支持 [Xinference](https://github.com/xorbitsai/inference) 上的本地模型（由 [@imClumsyPanda](https://github.com/imClumsyPanda) 发起）
+- [2024 年 12 月 19 日] 现在支持使用 `-cp` 处理非 PDF/A 文档（由 [@reycn](https://github.com/reycn) 发起）
+- [2024 年 12 月 13 日] 额外支持的后端（由 [@YadominJinta](https://github.com/YadominJinta) 发起）
+- [2024 年 12 月 10 日] 翻译器现在支持 Azure 上的 OpenAI 模型（由 [@yidasanqian](https://github.com/yidasanqian) 发起）
 
 <h2 id="預覽">預覽</h2>
 
@@ -63,16 +63,16 @@ PDF 學術論文翻譯與雙語對照。
 
 > [!NOTE]
 >
-> pdf2zh 2.0 目前未提供線上示範
+> pdf2zh 2.0 目前不提供線上示範
 
 您可以使用以下任一演示來試用我們的應用程式：
 
-- [v1.x 公共免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_。
+- [v1.x 公開免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_。
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 頁免費額度 _(推薦)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-請注意，演示環境的計算資源有限，請避免濫用。
+請注意，演示版的計算資源有限，請避免濫用。
 
 <h2 id="install">安裝與使用</h2>
 
@@ -90,11 +90,11 @@ PDF 學術論文翻譯與雙語對照。
 2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程式)
 3. [使用 **命令行**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-針對不同的使用情境，我們提供了多種方式來使用我們的程式。更多資訊請參閱[此頁面](./getting-started/getting-started.md)。
+針對不同的使用情境，我們提供了多種方式來使用我們的程式。更多資訊請查看[此頁面](./getting-started/getting-started.md)。
 
 <h2 id="usage">高級選項</h2>
 
-如需詳細說明，請參閱我們的[高級使用](https://pdf2zh-next.com/advanced/advanced.html)文件，以獲取每個選項的完整列表。
+如需詳細說明，請參閱我們的[高級使用](https://pdf2zh-next.com/advanced/advanced.html)文檔，以獲取每個選項的完整列表。
 
 <h2 id="downstream">二次開發 (APIs)</h2>
 
@@ -110,7 +110,7 @@ PDF 學術論文翻譯與雙語對照。
 
 <h2 id="語言代碼">Language Code</h2>
 
-如果你不知道該使用什麼代碼來翻譯到你需要的語言，請查閱[這份文檔](https://pdf2zh-next.com/advanced/Language-Codes.html)
+如果你不知道該使用什麼代碼來翻譯到你需要的語言，請查看[這份文檔](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
 <!-- 
 <h2 id="todo">TODOs</h2>
@@ -131,9 +131,9 @@ PDF 學術論文翻譯與雙語對照。
 
 <h2 id="致謝">致謝</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大語言模型 (LLMs) 的免費翻譯服務。
+- [SiliconFlow](https://siliconflow.cn) 為本專案提供免費的翻譯服務，由大型語言模型（LLMs）驅動。
 
 - 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -150,17 +150,17 @@ PDF 學術論文翻譯與雙語對照。
 
 - PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- 多語言字型：參見 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- 多語言字型：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- 使用 Weblate 實現文檔國際化：[Weblate](https://weblate.org/)
+- 使用 Weblate 進行文檔國際化：[Weblate](https://weblate.org/)
 
 <h2 id="conduct">提交代碼前</h2>
 
-我們歡迎貢獻者積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的[行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)和[貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
+我們歡迎貢獻者的積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的 [行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
 
 <h2 id="contrib">貢獻者</h2>
 

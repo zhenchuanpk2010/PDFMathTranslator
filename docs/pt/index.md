@@ -34,7 +34,7 @@
 
 Tradução de artigos científicos em PDF e comparação bilíngue.
 
-- 📊 Preservar fórmulas, gráficos, sumário e anotações _([pré-visualização](#pré-visualização))_.
+- 📊 Preserve fórmulas, gráficos, tabela de conteúdos e anotações _([pré-visualização](#pré-visualização))_.
 - 🌐 Suporta [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Oferece [ferramenta de linha de comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interface de usuário interativa](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
@@ -63,11 +63,11 @@ Para obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](h
 
 > [!NOTE]
 >
-> O pdf2zh 2.0 atualmente não oferece uma demonstração online
+> O pdf2zh 2.0 atualmente não fornece uma demonstração online
 
 Você pode experimentar nosso aplicativo usando qualquer um dos seguintes demonstrações:
 
-- [v1.x Serviço público gratuito](https://pdf2zh.com/) online sem instalação _(recomendado)_.
+- [Serviço público gratuito v1.x](https://pdf2zh.com/) online sem instalação _(recomendado)_.
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas por mês. _(recomendado)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
@@ -92,15 +92,15 @@ Observe que os recursos computacionais da demonstração são limitados, portant
 
 Para diferentes casos de uso, fornecemos métodos distintos para utilizar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.
 
-<h2 id="uso">Opções Avançadas</h2>
+<h2 id="usage">Opções Avançadas</h2>
 
 Para explicações detalhadas, consulte nosso documento sobre [Uso Avançado](https://pdf2zh-next.com/advanced/advanced.html) para uma lista completa de cada opção.
 
-<h2 id="desenvolvimento-secundario">Desenvolvimento Secundário (APIs)</h2>
+<h2 id="downstream">Desenvolvimento Secundário (APIs)</h2>
 
 > [!NOTE]
 >
-> Atualmente, nenhuma documentação relevante foi fornecida. Ela será complementada posteriormente. Por favor, aguarde pacientemente.
+> Atualmente, nenhuma documentação relevante é fornecida. Ela será complementada posteriormente. Por favor, aguarde pacientemente.
 
 
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
@@ -129,9 +129,9 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 - [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->
 
-<h2 id="reconhecimento">Reconhecimentos</h2>
+<h2 id="reconhecimentos">Reconhecimentos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).
 
@@ -146,11 +146,11 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 - Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Fonte Multilíngue: veja [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
@@ -170,7 +170,7 @@ Agradecemos a participação ativa dos contribuidores para tornar o pdf2zh melho
 
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<h2 id="hist_estrela">Histórico de Estrelas</h2>
+<h2 id="hist_estrela">História das Estrelas</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>

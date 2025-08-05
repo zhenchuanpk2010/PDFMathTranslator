@@ -61,14 +61,14 @@ De manière plus flexible, vous pouvez communiquer avec le programme en utilisan
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-   - Vérifier la progression
+   - Vérifier l'avancement
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - Vérifier la progression _(si terminé)_
+   - Vérifier l'avancement _(si terminé)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a

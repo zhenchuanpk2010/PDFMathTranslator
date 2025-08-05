@@ -11,14 +11,14 @@
 >
 > - Se stai scaricando e utilizzando PDFMathTranslate per la prima volta, si consiglia di scaricare `pdf2zh-<version>-with-assets-win64.zip`.
 > - Il file `pdf2zh-<version>-with-assets-win64.zip` include file di risorse (come font e modelli) rispetto a `pdf2zh-<version>-win64.zip`.
-> - La versione senza risorse scaricherà dinamicamente le risorse durante l'esecuzione, ma il download potrebbe fallire a causa di problemi di rete.
+> - La versione senza risorse scaricherà anche dinamicamente le risorse durante l'esecuzione, ma il download potrebbe fallire a causa di problemi di rete.
 
-***Passo 2*** | Decomprimi `pdf2zh-<version>-with-assets-win64.zip` e naviga nella cartella `pdf2zh`. Ci vuole un po' di tempo per decomprimere, sii paziente.
+***Passo 2*** | Decomprimi `pdf2zh-<version>-with-assets-win64.zip` e accedi alla cartella `pdf2zh`. Ci vuole un po' di tempo per decomprimere, sii paziente.
 
-***Passo 3*** | Naviga nella cartella `pdf2zh`, quindi fai doppio clic su `pdf2zh.exe`.
+***Passo 3*** | Accedi alla cartella `pdf2zh`, quindi fai doppio clic su `pdf2zh.exe`.
 
 > [!TIP]
-> **Non riesci eseguire il file .exe**
+> **Impossibile eseguire il file .exe**
 >
 > Se hai problemi nell'eseguire pdf2zh.exe, installa `https://aka.ms/vs/17/release/vc_redist.x64.exe` e riprova.
 
@@ -28,14 +28,14 @@
 >
 > Se riscontri problemi durante l'utilizzo di WebUI, consulta [questa pagina web](./USAGE_webui.md).
 
-***Passo 5*** | Goditi!
+***Passo 5*** | Divertiti!
 
 > [!TIP]
 > **Puoi utilizzare il file .exe tramite riga di comando**
 >
 > Utilizza il file .exe tramite riga di comando come segue:
 >
-> - Avvia il terminale e naviga nella cartella contenente il file .exe:
+> - Avvia il terminale e naviga fino alla cartella contenente il file .exe:
 >
 > ```bash
 > cd /path/pdf2zh_next/build
@@ -47,7 +47,7 @@
 > ./pdf2zh_next.exe "document.pdf"
 > ```
 >
-> Puoi utilizzare altri parametri della riga di comando normalmente:
+> Puoi utilizzare altri parametri della riga di comando come al solito:
 >
 > ```bash
 > ./pdf2zh_next.exe "document.pdf" --lang-in en --lang-out ja

@@ -7,7 +7,7 @@
 - [命令行参数](#命令行参数)
 - [部分翻译](#部分翻译)
 - [指定源语言和目标语言](#指定源语言和目标语言)
-- [带例外翻译](#带例外翻译)
+- [翻译时的例外情况](#翻译时的例外情况)
 - [自定义提示](#自定义提示)
 - [自定义配置](#自定义配置)
 - [跳过清理](#跳过清理)
@@ -20,23 +20,23 @@
 
 #### 命令行参数
 
-在命令行中执行翻译命令，在当前工作目录下生成翻译后的文档 `example-mono.pdf` 和双语文档 `example-dual.pdf`。默认使用 Google 作为翻译服务。更多支持的翻译服务可查看[此处](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)。
+在命令行中执行翻译命令，在当前工作目录下生成翻译后的文档 `example-mono.pdf` 和双语文档 `example-dual.pdf`。默认使用 Google 作为翻译服务。更多支持的翻译服务可以在 [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services) 找到。
 
 <img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
-在以下表格中，我们列出了所有高级选项供参考：
+在下表中，我们列出了所有高级选项以供参考：
 
 ##### 参数
 
 | 选项                          | 功能                                                                               | 示例                                                                                                              |
 | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `files`                         | 本地 PDF 文件路径                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
-| `链接`                         | 在线文件                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
+| `files`                         | 本地 `PDF` 文件路径                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
+| `links`                         | 在线文件                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
 | `--output`                      | 文件输出目录                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
-| `--<Services>`                  | 使用[**特定服务**](./Documentation-of-Translation-Services.md)进行翻译 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
+| `--<Services>`                  | 使用 [**特定服务**](./Documentation-of-Translation-Services.md) 进行翻译 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
 | `--help`, `-h`                  | 显示帮助信息并退出                                                             | `pdf2zh -h`                                                                                                          |
 | `--config-file`                 | 配置文件路径                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |
-| `--report-interval`             | 进度报告间隔（秒）                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |
+| `--report-interval`             | 进度报告间隔时间（秒）                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |
 | `--debug`                       | 使用调试日志级别                                                                | `pdf2zh example.pdf --debug`                                                                                         |
 | `--gui`                         | 与 GUI 交互                                                                      | `pdf2zh --gui`                                                                                                       |
 | `--warmup`                      | 仅下载并验证所需资源后退出                                     | `pdf2zh example.pdf --warmup`                                                                                        |
@@ -44,34 +44,34 @@
 | `--restore-offline-assets`      | 从指定目录恢复离线资源包                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |
 | `--version`                     | 显示版本号后退出                                                                 | `pdf2zh --version`                                                                                                   |
 | `--pages`                       | 部分文档翻译                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |
-| `--lang-in`                     | 源语言的语言代码                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |
-| `--lang-out`                    | 目标语言的语言代码                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |
+| `--lang-in`                     | 源语言的代码                                                                           | `pdf2zh example.pdf --lang-in en`                                                                                    |
+| `--lang-out`                    | 目标语言的代码                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |
 | `--min-text-length`             | 最小翻译文本长度                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |
 | `--rpc-doclayout`               | 用于文档布局分析的 RPC 服务主机地址                                  |                                                                                                                      |
 | `--qps`                         | 翻译服务的 QPS 限制                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
 | `--ignore-cache`                | 忽略翻译缓存                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |
-| `--custom-system-prompt`        | 翻译使用的自定义系统提示。适用于 Qwen 3 中的 `/no_think` 指令                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
+| `--custom-system-prompt`        | 用于翻译的自定义系统提示。适用于 Qwen 3 中的 `/no_think`                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
 | `--pool-max-worker`             | 翻译池的最大工作线程数。如果未设置，将使用 qps 作为工作线程数 | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
 | `--no-auto-extract-glossary`    | 禁用自动提取术语表                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
-| `--primary-font-family`         | 覆盖翻译文本的主字体家族。可选值：'serif'表示衬线字体，'sans-serif'表示无衬线字体，'script'表示手写体/斜体字体。若未指定，则根据原文属性自动选择字体。 | `pdf2zh example.pdf --primary-font-family serif` |
+| `--primary-font-family`         | 覆盖翻译文本的主要字体家族。可选值：'serif' 表示衬线字体，'sans-serif' 表示无衬线字体，'script' 表示手写体/斜体字体。若未指定，则根据原文属性自动选择字体。 | `pdf2zh example.pdf --primary-font-family serif` |
 | `--no-dual`                     | 不输出双语 PDF 文件                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
-| `--no-mono`                     | 不输出单语种 PDF 文件                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
+| `--no-mono`                     | 不输出单语 PDF 文件                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | 用于识别公式文本的字体模式                                                  | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
 | `--formular-char-pattern`       | 用于识别公式文本的字符模式                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
-| `--split-short-line`            | 强制将短行拆分为不同段落                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
+| `--split-short-line`            | 强制将短行分割为不同段落                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
 | `--short-line-split-factor`     | 短行分割阈值因子                                                 |                                                                                                                      |
 | `--skip-clean`                  | 跳过 PDF 清理步骤                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
 | `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
 | `--disable-rich-text-translate` | 禁用富文本翻译                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | 启用所有兼容性增强选项                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
-| `--use-alternating-pages-dual`  | 使用交替页面模式处理双语 PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
+| `--use-alternating-pages-dual`  | 为双页 PDF 使用交替页面模式                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
 | `--watermark-output-mode`       | PDF 文件的水印输出模式                                                    | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
 | `--max-pages-per-part`          | 分块翻译时每部分的最大页数                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
 | `--translate-table-text`        | 翻译表格文本（实验性功能）                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
 | `--skip-scanned-detection`      | 跳过扫描检测                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | 强制将翻译文本设为黑色并添加白色背景                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
-| `--auto-enable-ocr-workaround`  | 启用自动 OCR 变通方案。如果检测到文档为重度扫描件，将尝试启用 OCR 处理并跳过进一步的扫描检测。详情参阅文档。(默认值：False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page` | 仅在输出 PDF 中包含已翻译的页面。仅在指定--pages 参数时生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
+| `--auto-enable-ocr-workaround`  | 启用自动 OCR 临时解决方案。如果检测到文档为重度扫描件，将尝试启用 OCR 处理并跳过进一步的扫描检测。详情请参阅文档。（默认值：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
+| `--only-include-translated-page` | 仅在输出 PDF 中包含已翻译的页面。仅在使用了 `--pages` 参数时生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page` |
 | `--glossaries`                  | 自定义翻译术语表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 保存自动提取的术语表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
@@ -80,8 +80,8 @@
 
 | 选项                          | 功能                               | 示例                                         |
 | ------------------------------- | -------------------------------------- | ----------------------------------------------- |
-| `--share`                       | 启用共享模式                    | `pdf2zh --gui --share`                          |
-| `--auth-file`                   | 认证文件路径        | `pdf2zh --gui --auth-file /path`                |
+| `--share`                       | 启用分享模式                    | `pdf2zh --gui --share`                          |
+| `--auth-file`                   | 认证文件的路径        | `pdf2zh --gui --auth-file /path`                |
 | `--welcome-page`                | 欢迎页面的 HTML 文件路径          | `pdf2zh --gui --welcome-page /path`             |
 | `--enabled-services`            | 启用的翻译服务           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
 | `--disable-gui-sensitive-input` | 禁用 GUI 敏感输入            | `pdf2zh --gui --disable-gui-sensitive-input`    |
@@ -107,11 +107,11 @@ pdf2zh_next example.pdf --pages 25-
 ```
 
 > [!TIP]
-> `25-` 包含第 25 页之后的所有页面。如果您的文档有 100 页，这相当于 `25-100`。
+> `25-` 包含第 25 页之后的所有页面。如果您的文档有 100 页，则相当于 `25-100`。
 > 
 > 类似地，`-25` 包含第 25 页之前的所有页面，相当于 `1-25`。
 
-- 如果页面不连续，可以使用逗号 `,` 进行分隔。
+- 如果页面不连续，可以使用逗号 `,` 分隔。
 
 例如，如果你想翻译第一页和第三页，可以使用以下命令：
 
@@ -119,7 +119,7 @@ pdf2zh_next example.pdf --pages 25-
 pdf2zh_next example.pdf --pages "1,3"
 ```
 
-- 如果页面同时包含连续和非连续范围，也可以用逗号连接，例如：
+- 如果页面同时包含连续和非连续的范围，你也可以用逗号连接它们，像这样：
 
 ```bash
 pdf2zh_next example.pdf --pages "1,3,10-20,25-"
@@ -144,7 +144,7 @@ pdf2zh_next example.pdf --lang-in en -lang-out ja
 
 ---
 
-#### 带例外翻译
+#### 翻译时的例外情况
 
 使用正则表达式指定需要保留的公式字体和字符：
 
@@ -166,7 +166,7 @@ pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|
 
 <!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->
 
-自定义翻译系统提示。主要用于在提示中添加 Qwen 3 的 `/no_think` 指令。
+翻译时使用的自定义系统提示。主要用于在提示中添加 Qwen 3 的 `/no_think` 指令。
 
 ```bash
 pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
@@ -183,13 +183,13 @@ pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional
 > [!NOTE]
 > **配置文件层级**
 >
-> 当通过不同方式修改同一参数时，软件将按照以下优先级顺序应用变更。
+> 当使用不同方法修改同一参数时，软件将按照以下优先级顺序应用更改。
 >
-> 更高优先级的修改会覆盖较低优先级的设置。
+> 较高优先级的修改将覆盖较低优先级的修改。
 >
 > **命令行/图形界面 > 环境变量 > 用户配置文件 > 默认配置文件**
 
-- 通过**命令行参数**修改配置
+- 通过 **命令行参数** 修改配置
 
 在大多数情况下，您可以直接通过命令行参数传递所需的设置。更多信息请参阅[命令行参数](#命令行参数)。
 
@@ -201,9 +201,9 @@ pdf2zh_next --gui
 
 - 通过 **环境变量** 修改配置
 
-您可以将命令行参数中的 `--` 替换为 `PDF2ZH_`，使用 `=` 连接参数，并将 `-` 替换为 `_` 作为环境变量。
+你可以将命令行参数中的 `--` 替换为 `PDF2ZH_`，使用 `=` 连接参数，并将 `-` 替换为 `_` 作为环境变量。
 
-例如，如果您想启用 GUI 窗口，可以使用以下命令：
+例如，如果你想启用 GUI 窗口，可以使用以下命令：
 
 ```bash
 PDF2ZH_GUI=TRUE pdf2zh_next
@@ -211,9 +211,9 @@ PDF2ZH_GUI=TRUE pdf2zh_next
 
 <img src="./../images/ev_light.svg" width="580px"  alt="env"/>
 
-- 用户指定的**配置文件**
+- 用户指定的 **配置文件**
 
-您可以通过以下命令行参数指定配置文件：
+您可以使用以下命令行参数指定配置文件：
 
 ```bash
 pdf2zh_next --config-file '/path/config.toml'
@@ -241,7 +241,7 @@ pdf2zh_next --config-file '/path/config.toml'
 
 当此参数设置为 True 时，将跳过 PDF 清理步骤，这可以提高兼容性并避免一些字体处理问题。
 
-使用方法：
+用法：
 
 ```bash
 pdf2zh_next example.pdf --skip-clean
@@ -260,7 +260,7 @@ PDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf
 
 #### 翻译缓存
 
-PDFMathTranslate 会缓存已翻译的文本以提高速度，并避免对相同内容进行不必要的 API 调用。您可以使用 `--ignore-cache` 选项来忽略翻译缓存并强制重新翻译。
+PDFMathTranslate 会缓存已翻译的文本以提高速度，并避免对相同内容进行不必要的 API 调用。你可以使用 `--ignore-cache` 选项来忽略翻译缓存并强制重新翻译。
 
 ```bash
 pdf2zh_next example.pdf --ignore-cache
@@ -272,11 +272,11 @@ pdf2zh_next example.pdf --ignore-cache
 
 #### 部署为公共服务
 
-在公共服务上部署 pdf2zh GUI 时，应按照以下说明修改配置文件。
+在公共服务器上部署 pdf2zh GUI 时，您应按照以下说明修改配置文件。
 
 > [!TIP]
 > - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save`。
-> - 用*英文逗号* <kbd>,</kbd> 分隔不同的可用服务。
+> - 使用*英文逗号* <kbd>,</kbd> 分隔不同的可用服务。
 
 可用的配置如下：
 
@@ -296,10 +296,10 @@ disable_config_auto_save = true
 
 #### 认证与欢迎页面
 
-当使用认证与欢迎页面来指定哪些用户可以使用 Web UI 并自定义登录页面时：
+当使用 认证与欢迎页面 来指定哪些用户可以使用 Web UI 并自定义登录页面时：
 
 示例 auth.txt
-每行包含两个元素，用户名和密码，以逗号分隔。
+每行包含两个元素，用户名和密码，用逗号分隔。
 
 ```
 admin,123456
@@ -325,8 +325,8 @@ test,test123
 ```
 
 > [!NOTE]
-> 欢迎页面仅在认证文件非空时生效。
-> 若认证文件为空，则不会进行认证。 :)
+> 欢迎页面仅在认证文件不为空时生效。
+> 如果认证文件为空，则不会进行认证。 :)
 
 可用的配置如下：
 
@@ -346,7 +346,7 @@ welcome_page = "/path/to/welcome/html/file"
 #### 术语表支持
 
 PDFMathTranslate 支持术语表功能。术语表文件应为 `csv` 格式。  
-文件包含三列数据。以下是一个示例术语表文件：
+文件中包含三列数据。以下是一个示例术语表文件：
 
 | source | target  | tgt_lng |
 |--------|---------|---------|
@@ -356,7 +356,7 @@ PDFMathTranslate 支持术语表功能。术语表文件应为 `csv` 格式。
 
 
 对于 CLI 用户：
-您可以使用多个文件作为术语表。不同文件之间应以 `,` 分隔。
+你可以使用多个文件作为术语表。不同文件之间应该用 `,` 分隔。
 
 ```bash
 pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
@@ -364,7 +364,7 @@ pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
 
 对于 WebUI 用户：
 
-您现在可以上传自己的术语表文件了。上传文件后，可以通过点击文件名查看内容，内容将显示在下方。
+现在您可以上传自己的术语表文件了。上传文件后，点击文件名即可查看其内容，内容将显示在下方。
 
 [⬆️ 返回顶部](#目录)
 

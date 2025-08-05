@@ -17,23 +17,23 @@ pdf2zh_next --siliconflowfree example.pdf
 #### 웹 UI
 
 1. "번역 옵션" - "서비스" 드롭다운 목록에서 "SiliconFlowFree"를 선택합니다.
-2. 페이지 하단의 "번역" 버튼을 클릭하여 번역을 시작합니다.
-3. 번역이 완료된 후, 페이지 하단의 "번역된 파일" 섹션에서 번역된 PDF 파일을 찾을 수 있습니다.
+2. 페이지 하단의 번역 버튼을 클릭하여 번역을 시작합니다.
+3. 번역이 완료되면 페이지 하단의 "번역된 파일" 섹션에서 번역된 `PDF` 파일을 찾을 수 있습니다.
 
 
-### 개인정보 보호정책
+### 개인정보 처리방침
 
 파일 내용은 프로젝트 관리자 [@awwaawwa](https://github.com/awwaawwa)의 서버로 전송된 후, SiliconFlow 로 전달되어 번역됩니다.
 
 이 프로젝트의 관리자들은 SiliconFlow 에서 반환된 오류 정보만을 수집하여 관련 서비스 디버깅에 사용할 뿐, 귀하의 파일 내용은 수집하지 않습니다.
 
-SiliconFlow 개인정보 보호정책: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)
+SiliconFlow 개인정보 처리방침: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)
 
 
 
 ## SiliconFlow 에서 다른 모델 사용하기
 
-[SiliconFlow](https://siliconflow.cn)는 번역을 위한 다른 모델들도 제공합니다.
+[SiliconFlow](https://siliconflow.cn)는 번역을 위한 다른 모델도 제공합니다.
 
 ### 사용법
 
@@ -54,7 +54,7 @@ pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --si
 3. "번역 옵션" - **"사용할 SiliconFlow 모델"**: "Pro/deepseek-ai/DeepSeek-V3" 또는 다른 모델 입력
 4. "번역 옵션" - **"SiliconFlow 서비스 API 키"**: API 키 붙여넣기
 5. 페이지 하단의 번역 버튼을 클릭하여 번역 시작
-6. 번역이 완료된 후, 페이지 하단의 "번역됨" 섹션에서 번역된 PDF 파일을 찾을 수 있습니다.
+6. 번역이 완료된 후, 페이지 하단의 "번역됨" 섹션에서 번역된 `PDF` 파일을 찾을 수 있습니다.
 
 
 ## 감사의 말

@@ -10,7 +10,7 @@
 pdf2zh_next -h
 ```
 
-在幫助訊息的最後，您可以查看不同翻譯服務的詳細資訊。
+在幫助訊息的最後，您可以查看有關不同翻譯服務的詳細資訊。
 
 <div align="right"> 
 <h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

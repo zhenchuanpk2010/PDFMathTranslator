@@ -26,11 +26,58 @@ params = {
     'thread': 4,
 }
 ```
-Traduci con file:
+bash
+pdf2zh -i input.pdf -o output.pdf
+```
+
+### Advanced
+
+```bash
+pdf2zh -i input.pdf -o output.pdf -s "zh" -t "en" -p "azure" -k "your-key"
+```
+
+### Supported Languages
+
+```bash
+pdf2zh --list-languages
+```
+
+### Translation Services
+
+```bash
+pdf2zh --list-services
+```
+
+---
+
+### TRANSLATION RESULT
+
+Translate con file:
+
+```bash
+pdf2zh -i input.pdf -o output.pdf
+```
+
+### Opzioni avanzate
+
+```bash
+pdf2zh -i input.pdf -o output.pdf -s "zh" -t "en" -p "azure" -k "your-key"
+```
+
+### Lingue supportate
+
+```bash
+pdf2zh --list-languages
+```
+
+### Servizi di traduzione
+
+```bash
+pdf2zh --list-services
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Traduzione con flusso:
+Traduci con flusso:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -44,7 +91,7 @@ with open('example.pdf', 'rb') as f:
 
 In un modo più flessibile, puoi comunicare con il programma utilizzando i protocolli HTTP, se:
 
-1. Installare ed eseguire il backend
+1. Installa ed esegui il backend
 
    ```bash
    pip install pdf2zh_next[backend]
@@ -52,42 +99,42 @@ In un modo più flessibile, puoi comunicare con il programma utilizzando i proto
    pdf2zh_next --celery worker
    ```
 
-2. Utilizzare i protocolli HTTP come segue:
+2. Utilizza i protocolli HTTP come segue:
 
-   - Inviare un'attività di traduzione
+   - Invia un task di traduzione
 
      ```bash
      curl http://localhost:11008/v1/translate -F "file=@example.pdf" -F "data={\"lang_in\":\"en\",\"lang_out\":\"zh\",\"service\":\"google\",\"thread\":4}"
      {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
      ```
 
-   - Controllare lo stato di avanzamento
+   - Controlla lo stato di avanzamento
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - Controllare lo stato di avanzamento _(se completato)_
+   - Controlla lo stato di avanzamento _(se completato)_
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
      {"state":"SUCCESS"}
      ```
 
-   - Salvare il file monolingue
+   - Salva il file monolingue
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf
      ```
 
-   - Salvare il file bilingue
+   - Salva il file bilingue
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf
      ```
 
-   - Interrompere se in esecuzione ed eliminare l'attività
+   - Interrompi se in esecuzione ed elimina il task
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE
      ```

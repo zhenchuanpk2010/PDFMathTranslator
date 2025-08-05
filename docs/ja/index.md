@@ -35,8 +35,8 @@
 PDF 科学論文の翻訳とバイリンガル比較。
 
 - 📊 数式、チャート、目次、注釈を保持 _([プレビュー](#プレビュー))_。
-- 🌐 [複数言語](https://pdf2zh-next.com/supported_languages.html)をサポートし、多様な[翻訳サービス](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)に対応。
-- 🤖 [コマンドラインツール](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[インタラクティブユーザーインターフェース](https://pdf2zh-next.com/getting-started/USAGE_webui.html)、[Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)を提供。
+- 🌐 [複数言語](https://pdf2zh-next.com/supported_languages.html) をサポートし、多様な [翻訳サービス](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) を提供。
+- 🤖 [コマンドラインツール](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[インタラクティブユーザーインターフェース](https://pdf2zh-next.com/getting-started/USAGE_webui.html)、[Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) を提供。
 
 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) または [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) でフィードバックをお寄せください。
 
@@ -44,15 +44,15 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 <h2 id="updates">更新情報</h2>
 
-- [2025 年 6 月 4 日] プロジェクト名が変更され、[PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) に移行しました（by [@awwaawwa](https://github.com/awwaawwa)）
-- [2025 年 3 月 3 日] 新しいバックエンド [BabelDOC](https://github.com/funstory-ai/BabelDOC) の WebUI が実験的オプションとして追加されました（by [@awwaawwa](https://github.com/awwaawwa)）
-- [2025 年 2 月 22 日] リリース CI の改善と、Windows-amd64 用の exe ファイルが適切にパッケージ化されました（by [@awwaawwa](https://github.com/awwaawwa)）
+- [2025 年 6 月 4 日] プロジェクト名が変更され、[PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) に移動しました（by [@awwaawwa](https://github.com/awwaawwa)）
+- [2025 年 3 月 3 日] 新しいバックエンド [BabelDOC](https://github.com/funstory-ai/BabelDOC) の実験的サポートが追加され、WebUI が実験的オプションとして利用可能になりました（by [@awwaawwa](https://github.com/awwaawwa)）
+- [2025 年 2 月 22 日] リリース CI が改善され、Windows-amd64 用の exe ファイルが適切にパッケージ化されました（by [@awwaawwa](https://github.com/awwaawwa)）
 - [2024 年 12 月 24 日] 翻訳ツールが [Xinference](https://github.com/xorbitsai/inference) 上のローカルモデルをサポートするようになりました（by [@imClumsyPanda](https://github.com/imClumsyPanda)）
 - [2024 年 12 月 19 日] `-cp` を使用して非 PDF/A ドキュメントがサポートされるようになりました（by [@reycn](https://github.com/reycn)）
-- [2024 年 12 月 13 日] バックエンドの追加サポートが実装されました（by [@YadominJinta](https://github.com/YadominJinta)）
+- [2024 年 12 月 13 日] 追加のバックエンドサポートが実装されました（by [@YadominJinta](https://github.com/YadominJinta)）
 - [2024 年 12 月 10 日] 翻訳ツールが Azure 上の OpenAI モデルをサポートするようになりました（by [@yidasanqian](https://github.com/yidasanqian)）
 
-<h2 id="preview">プレビュー</h2>
+<h2 id="プレビュー">プレビュー</h2>
 
 <div align="center">
 <!-- <img src="./docs/images/preview.gif" width="80%"  alt="preview"/> -->
@@ -65,22 +65,22 @@ PDF 科学論文の翻訳とバイリンガル比較。
 >
 > pdf2zh 2.0 は現在オンラインデモを提供していません
 
-以下のデモのいずれかを使用して、当社のアプリケーションをお試しいただけます：
+以下のデモのいずれかを使用して、アプリケーションをお試しください：
 
 - [v1.x パブリック無料サービス](https://pdf2zh.com/) インストール不要でオンライン利用可能 _(推奨)_
-- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 月に 1000 ページまで無料 _(推奨)_
+- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 毎月 1000 ページ無料 _(推奨)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-デモの計算リソースは限られているため、乱用は避けてください。
+デモの計算リソースは限られているため、乱用しないようにご注意ください。
 
 <h2 id="インストール">インストールと使い方</h2>
 
 ### インストール
 
-1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 向け推奨</small>
-2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 向け推奨</small>
-3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 向け推奨</small>
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 用推奨</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 用推奨</small>
+3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 用推奨</small>
 
 ---
 
@@ -110,7 +110,7 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 <h2 id="言語コード">言語コード</h2>
 
-必要な言語に翻訳する際に使用するコードがわからない場合は、[このドキュメント](https://pdf2zh-next.com/advanced/Language-Codes.html)を参照してください。
+必要な言語に翻訳するためのコードがわからない場合は、[このドキュメント](https://pdf2zh-next.com/advanced/Language-Codes.html)を確認してください。
 
 <!-- 
 <h2 id="todo">TODOs</h2>
@@ -131,7 +131,7 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 <h2 id="謝辞">謝辞</h2>
 
-- [Immersive Translate](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額 Pro メンバーシップの引き換えコードを提供しています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translate](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額 Pro メンバーシップの引き換えコードを提供しています。詳細はこちらをご覧ください：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) は、大規模言語モデル（LLM）を活用した無料翻訳サービスをこのプロジェクトに提供しています。
 
@@ -144,23 +144,23 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 - PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
-- PDF プレビュー：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
+- PDF プレビュー: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
 - レイアウト解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
 - 多言語フォント：[BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) を参照
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [マルチプロセス対応のリッチロギング](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
 - Weblate を使用したドキュメントの国際化：[Weblate](https://weblate.org/)
 
 <h2 id="conduct">コードを提出する前に</h2>
 
-私たちは、pdf2zh をより良くするために貢献者の積極的な参加を歓迎します。コードを提出する準備が整う前に、[行動規範](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)と[貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html)を参照してください。
+pdf2zh をより良くするために、貢献者の積極的な参加を歓迎します。コードを提出する準備が整ったら、[行動規範](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) と [貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html) を参照してください。
 
 <h2 id="contrib">貢献者</h2>
 

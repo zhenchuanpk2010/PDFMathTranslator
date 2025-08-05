@@ -6,7 +6,7 @@
 
 ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>、GPT-4o によって整理されました。
 
-| 中国語でのラベル | ラベル | `Language Code` |
+| 中国語ラベル | ラベル | `言語コード` |
 | --- | --- | --- |
 | アムハラ語 | Amharic | `am` |
 | アラビア語 | Arabic | `ar` |
@@ -40,7 +40,7 @@
 | 韓国語 | Korean | `ko` |
 | ラトビア語 | Latvian | `lv` |
 | リトアニア語 | Lithuanian | `lt` |
-| マレー語 | Malay | `ms` |
+| 马来语 | Malay | `ms` |
 | マラヤーラム語 | Malayalam | `ml` |
 | マラーティー語 | Marathi | `mr` |
 | ノルウェー語 | Norwegian | `no` |
@@ -58,23 +58,7 @@
 | タミル語 | Tamil | `ta` |
 | テルグ語 | Telugu | `te` |
 | タイ語 | Thai | `th` |
-| 繁体中文（台湾） |
-| 中文（香港） | Chinese (Hong Kong) | `zh-HK` | 繁体中文（香港） |
-| 中文（澳门） | Chinese (Macau) | `zh-MO` | 繁体中文（澳门） |
-| 中文（新加坡） | Chinese (Singapore) | `zh-SG` | 简体中文（新加坡） |
-| 中文（简体） | Chinese (Simplified) | `zh-CN` | 简体中文（中国大陆） |
-| 中文（繁体） | Chinese (Traditional) | `zh` | 繁体中文 |
-
----
-
-### TRANSLATION
-
-| 中国語（台湾） | Chinese (Taiwan) | `zh-TW` | 繁体中国語（台湾） |
-| 中国語（香港） | Chinese (Hong Kong) | `zh-HK` | 繁体中国語（香港） |
-| 中国語（マカオ） | Chinese (Macau) | `zh-MO` | 繁体中国語（マカオ） |
-| 中国語（シンガポール） | Chinese (Singapore) | `zh-SG` | 簡体中国語（シンガポール） |
-| 中国語（簡体字） | Chinese (Simplified) | `zh-CN` | 簡体中国語（中国本土） |
-| 中国語（繁体字） | Chinese (Traditional) | `zh` | 繁体中国語 |
+| 日本語（日本） | Japanese (Japan) | `ja-JP` |
 | トルコ語 | Turkish | `tr` |
 | ウルドゥー語 | Urdu | `ur` |
 | ウクライナ語 | Ukrainian | `uk` |
@@ -104,10 +88,10 @@
 | インドネシア語 | Indonesian | `ID` | `source`, `target` |
 | イタリア語 | Italian | `IT` | `source`, `target` |
 | 日本語 | Japanese | `JA` | `source`, `target` |
-| 韩语 | Korean | `KO` | `source`, `target` |
+| 韓国語 | Korean | `KO` | `source`, `target` |
 | リトアニア語 | Lithuanian | `LT` | `source`, `target` |
 | ラトビア語 | Latvian | `LV` | `source`, `target` |
-| ノルウェー語（ブークモール） | Norwegian Bokmål | `NB` | `source`, `target` |
+| ノルウェー語ブークモール | Norwegian Bokmål | `NB` | `source`, `target` |
 | オランダ語 | Dutch | `NL` | `source`, `target` |
 | ポーランド語 | Polish | `PL` | `source`, `target` |
 | ポルトガル語 | Portuguese | `PT` | `source`, `target` |
@@ -121,10 +105,8 @@
 | トルコ語 | Turkish | `TR` | `source`, `target` |
 | ウクライナ語 | Ukrainian | `UK` | `source`, `target` |
 | 日本語 | Japanese | `JA` | `source`, `target` |
-|---|---|---|---|---|---|---|---|---|
-| 中文 | Chinese | `ZH` | `source`, `target` | 日本語 | Japanese | `JA` | `source`, `target` |
 | 日本語 | Japanese | `JA` | `target` |
-| 繁体字中国語 | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 中国語（繁体字） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

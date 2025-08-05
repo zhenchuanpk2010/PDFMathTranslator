@@ -5,7 +5,7 @@
 프로그램이 인공 지능을 사용하여 문서를 인식하고 추출하기 때문에 GPU 가 필요한가요?
 
 - **답변**:
-**GPU 가 필요하지 않습니다.** 하지만 GPU 가 있는 경우 프로그램은 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.
+**GPU 가 필요하지 않습니다.** 하지만 GPU 가 있는 경우 프로그램이 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.
 
 ## 다운로드가 중단되었나요?
 - **질문**:
@@ -26,7 +26,7 @@
 
 ## 다음 파일이 존재하지 않습니다: example.pdf
 - **문제**:
-프로그램을 실행할 때, 사용자는 문서를 찾을 수 없는 경우 `다음 파일이 존재하지 않습니다: example.pdf`와 같은 출력을 보게 됩니다.
+프로그램을 실행할 때, 문서를 찾을 수 없는 경우 사용자에게 다음과 같은 출력이 표시됩니다: `다음 파일이 존재하지 않습니다: example.pdf`.
 
 - **해결 방법**:
   - 파일이 위치한 디렉토리에서 명령줄을 열거나,
@@ -36,21 +36,21 @@
 
 ## SSL 오류 및 기타 네트워크 문제
 - **문제**:
-허깅 페이스 모델을 다운로드할 때 중국 사용자는 네트워크 오류를 겪을 수 있습니다. 예를 들어, [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서 확인할 수 있습니다.
+허깅 페이스 모델을 다운로드할 때 중국 사용자들은 네트워크 오류를 겪을 수 있습니다. 예를 들어, [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서 확인할 수 있습니다.
 
 - **해결 방법**:
   - [GFW 우회](https://github.com/clash-verge-rev/clash-verge-rev).
   - [Hugging Face 미러 사용](https://hf-mirror.com/).
   - [포터블 버전 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).
   - [대신 Docker 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
-  - [인증서 업데이트](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)에서 제안된 대로.
+  - [인증서 업데이트](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)에서 제안된 대로.
 
 ## 로컬호스트에 접근할 수 없음
 아래를 참조하세요.
 
 ## 0.0.0.0 을 사용하여 GUI 를 실행할 때 발생하는 오류
 - **문제**:
-전역 모드에서 프록시 소프트웨어를 사용하면 Gradio 가 제대로 시작되지 않을 수 있습니다. 예를 들어, [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.
+글로벌 모드에서 프록시 소프트웨어를 사용하면 Gradio 가 제대로 시작되지 않을 수 있습니다. 예를 들어, [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.
 
 - **해결 방법**:
 규칙 모드 사용

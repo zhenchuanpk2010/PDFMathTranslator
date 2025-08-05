@@ -8,20 +8,20 @@
       "original_content": "[**Advanced**](./introduction.md) > **Language Code** _(current)_\n",
       "start_line_no": 1,
       "translations": {
+        "ko": "[**고급 옵션**](./introduction.md) > **언어 코드** _(현재)_\n",
+        "ru": "[**Расширенные параметры**](./introduction.md) > **Код языка** _(текущий)_\n",
+        "fr": "[**Options avancées**](./introduction.md) > **Code de langue** _(actuel)_\n",
         "zh": "[**高级选项**](./introduction.md) > **语言代码** _(当前)_\n",
         "ja": "[**高度な設定**](./introduction.md) > **言語コード** _(現在)_\n",
-        "zh_TW": "[**高級選項**](./introduction.md) > **語言代碼** _(當前)_\n",
+        "it": "[**Opzioni avanzate**](./introduction.md) > **Codice lingua** _(attuale)_\n",
         "de": "[**Erweiterte Optionen**](./introduction.md) > **Sprachcode** _(aktuell)_\n",
-        "fr": "[**Options avancées**](./introduction.md) > **Code de langue** _(actuel)_\n",
-        "ru": "[**Расширенные параметры**](./introduction.md) > **Код языка** _(текущая)_\n",
-        "es": "[**Opciones avanzadas**](./introduction.md) > **Código de idioma** _(actual)_\n",
-        "ko": "[**고급 옵션**](./introduction.md) > **언어 코드** _(현재)_\n",
         "pt": "[**Opções avançadas**](./introduction.md) > **Código do idioma** _(atual)_\n",
-        "it": "[**Opzioni avanzate**](./introduction.md) > **Codice lingua** _(current)_\n"
+        "zh_TW": "[**高級選項**](./introduction.md) > **語言代碼** _(current)_\n",
+        "es": "[**Opciones avanzadas**](./introduction.md) > **Código de idioma** _(actual)_\n"
       }
     },
     {
-      "chunk_id": "h_rule_c8431071",
+      "chunk_id": "h_rule_4913f260",
       "chunk_type": "h_rule",
       "original_content": "---\n",
       "start_line_no": 3,
@@ -44,16 +44,16 @@
       "original_content": "#### Google\n",
       "start_line_no": 5,
       "translations": {
-        "ru": "#### Google\n",
-        "zh_TW": "#### Google\n",
-        "ko": "#### Google\n",
-        "fr": "#### Google\n",
-        "es": "#### Google\n",
         "pt": "#### Google\n",
-        "ja": "#### Google\n",
+        "fr": "#### Google\n",
         "it": "#### Google\n",
+        "ja": "#### Google\n",
+        "es": "#### Google\n",
+        "ru": "#### Google\n",
+        "ko": "#### Google\n",
         "de": "#### Google\n",
-        "zh": "#### Google\n"
+        "zh": "#### Google\n",
+        "zh_TW": "#### Google\n"
       }
     },
     {
@@ -62,16 +62,16 @@
       "original_content": "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organized by GPT-4o.\n",
       "start_line_no": 7,
       "translations": {
-        "ru": "Источник <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, организовано GPT-4o.\n",
-        "ja": "ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>、GPT-4oによって整理されました。\n",
-        "zh_TW": "來源 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>，由 GPT-4o 整理。\n",
-        "de": "Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organisiert von GPT-4o.\n",
-        "fr": "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organisé par GPT-4o.\n",
-        "it": "Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizzato da GPT-4o.\n",
         "es": "Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.\n",
-        "ko": "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o에 의해 정리됨.\n",
+        "ru": "Источник <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, организовано GPT-4o.\n",
+        "pt": "Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.\n",
+        "de": "Quelle <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organisiert von GPT-4o.\n",
+        "ko": "소스 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o에 의해 정리됨.\n",
         "zh": "来源 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>，由 GPT-4o 整理。\n",
-        "pt": "Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.\n"
+        "fr": "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organisé par GPT-4o.\n",
+        "ja": "ソース <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>、GPT-4o によって整理されました。\n",
+        "zh_TW": "來源 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>，由 GPT-4o 整理。\n",
+        "it": "Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizzato da GPT-4o.\n"
       }
     },
     {
@@ -80,16 +80,16 @@
       "original_content": "| Label in Chinese | Label | `Language Code` |\n| --- | --- | --- |\n| 阿姆哈拉语 | Amharic | `am` |",
       "start_line_no": 9,
       "translations": {
-        "zh": "| 中文标签 | 英文标签 | `语言代码` |\n| --- | --- | --- |\n| 阿姆哈拉语 | Amharic | `am` |",
+        "zh": "| 中文标签 | 标签 | `语言代码` |\n| --- | --- | --- |\n| 阿姆哈拉语 | Amharic | `am` |",
         "zh_TW": "| 中文標籤 | 標籤 | `語言代碼` |\n| --- | --- | --- |\n| 阿姆哈拉語 | Amharic | `am` |",
-        "ru": "| Название на китайском | Название | `Код языка` |\n| --- | --- | --- |\n| Амхарский | Amharic | `am` |",
-        "pt": "| Rótulo em Chinês | Rótulo | `Language Code` |\n| --- | --- | --- |\n| Amárico | Amharic | `am` |",
         "ko": "| 중국어 레이블 | 레이블 | `Language Code` |\n| --- | --- | --- |\n| 암하라어 | Amharic | `am` |",
-        "it": "| Etichetta in cinese | Etichetta | `Language Code` |\n| --- | --- | --- |\n| Amarico | Amharic | `am` |",
-        "de": "| Bezeichnung auf Deutsch | Label | `Language Code` |\n| --- | --- | --- |\n| Amharisch | Amharic | `am` |",
-        "ja": "| 中国語でのラベル | ラベル | `Language Code` |\n| --- | --- | --- |\n| アムハラ語 | Amharic | `am` |",
-        "es": "| Etiqueta en español | Etiqueta | `Language Code` |\n| --- | --- | --- |\n| Amárico | Amharic | `am` |",
-        "fr": "| Libellé en chinois | Libellé | `Language Code` |\n| --- | --- | --- |\n| Amharique | Amharic | `am` |"
+        "pt": "| Rótulo em português | Rótulo | `Language Code` |\n| --- | --- | --- |\n| Amárico | Amharic | `am` |",
+        "de": "| Bezeichnung auf Chinesisch | Bezeichnung | `Language Code` |\n| --- | --- | --- |\n| Amharisch | Amharic | `am` |",
+        "fr": "| Libellé en chinois | Libellé | `Language Code` |\n| --- | --- | --- |\n| Amharique | Amharic | `am` |",
+        "it": "| Etichetta in cinese | Etichetta | `Codice lingua` |\n| --- | --- | --- |\n| Amarico | Amharic | `am` |",
+        "es": "| Etiqueta en chino | Etiqueta | `Código de idioma` |\n| --- | --- | --- |\n| Amárico | Amharic | `am` |",
+        "ru": "| Название на китайском | Название | `Код языка` |\n| --- | --- | --- |\n| Амхарский язык | Amharic | `am` |",
+        "ja": "| 中国語ラベル | ラベル | `言語コード` |\n| --- | --- | --- |\n| アムハラ語 | Amharic | `am` |"
       }
     },
     {
@@ -98,16 +98,16 @@
       "original_content": "| 阿拉伯语 | Arabic | `ar` |",
       "start_line_no": 12,
       "translations": {
-        "ja": "| アラビア語 | Arabic | `ar` |",
-        "de": "| Arabisch | Arabisch | `ar` |",
-        "ru": "| Арабский | Arabic | `ar` |",
-        "pt": "| Árabe | `ar` |",
+        "zh_TW": "| 阿拉伯語 | Arabic | `ar` |",
         "zh": "| 阿拉伯语 | Arabic | `ar` |",
-        "zh_TW": "| 阿拉伯语 | Arabic | `ar` |",
-        "ko": "| 阿拉伯语 | Arabic | `ar` |",
+        "ru": "| Арабский | Arabic | `ar` |",
+        "ja": "| アラビア語 | Arabic | `ar` |",
         "es": "| Árabe | Arabic | `ar` |",
+        "pt": "| Árabe | Arabic | `ar` |",
+        "de": "| Arabisch | Arabisch | `ar` |",
         "it": "| Arabo | Arabic | `ar` |",
-        "fr": "| Arabe | Arabic | `ar` |"
+        "fr": "| Arabe | Arabic | `ar` |",
+        "ko": "### 번역 결과\n\n| 아랍어 | Arabic | `ar` |"
       }
     },
     {
@@ -116,16 +116,16 @@
       "original_content": "| 巴斯克语 | Basque | `eu` |",
       "start_line_no": 13,
       "translations": {
-        "zh": "| 巴斯克语 | Basque | `eu` |",
-        "ru": "| Баскский | `eu` |",
-        "ja": "| バスク語 | Basque | `eu` |",
+        "zh_TW": "| 巴斯克語 | Basque | `eu` |",
         "ko": "| 바스크어 | Basque | `eu` |",
+        "ru": "| Баскский | Basque | `eu` |",
+        "de": "| Baskisch | Basque | `eu` |",
         "fr": "| Basque | Basque | `eu` |",
         "es": "| Euskara | Basque | `eu` |",
         "it": "| 巴斯克语 | Basque | `eu` |",
-        "pt": "| Basco | Basque | `eu` |",
-        "de": "| Baskisch | Basque | `eu` |",
-        "zh_TW": "### 翻譯結果\n\n| 巴斯克語 | Basque | `eu` |"
+        "ja": "| バスク語 | Basque | `eu` |",
+        "zh": "| 巴斯克语 | Basque | `eu` |",
+        "pt": "| Basco | `eu` |"
       }
     },
     {
@@ -135,15 +135,15 @@
       "start_line_no": 14,
       "translations": {
         "zh": "| 孟加拉语 | Bengali | `bn` |",
-        "ru": "| Бенгальский | Bengali | `bn` |",
-        "es": "| Bengalí | Bengali | `bn` |",
-        "de": "| Bengalisch | Bengali | `bn` |",
         "ja": "| ベンガル語 | Bengali | `bn` |",
-        "fr": "| Bengali | Bengali | `bn` |",
-        "ko": "| 孟加拉语 | Bengali | `bn` |",
+        "zh_TW": "| 孟加拉語 | Bengali | `bn` |",
+        "ko": "| 벵골어 | Bengali | `bn` |",
         "pt": "| Bengali | Bengali | `bn` |",
-        "zh_TW": "| 孟加拉语 | Bengali | `bn` |",
-        "it": "| Bengalese | Bengali | `bn` |"
+        "it": "| Bengalese | Bengali | `bn` |",
+        "ru": "| Бенгальский | Bengali | `bn` |",
+        "fr": "| Bengali | Bengali | `bn` |",
+        "es": "| Bengalí | Bengali | `bn` |",
+        "de": "| Bengalisch | Bengali | `bn` |"
       }
     },
     {
@@ -152,16 +152,16 @@
       "original_content": "| 英语（英国） | English (UK) | `en-GB` |",
       "start_line_no": 15,
       "translations": {
-        "fr": "| Français | French | `fr` |",
-        "it": "| Italiano | Italian | `it` |",
         "ko": "|",
-        "zh_TW": "| 英語（英國） | English (UK) | `en-GB` |",
-        "pt": "| Inglês (Reino Unido) | English (UK) | `en-GB` |",
-        "es": "| Español (España) | Spanish (Spain) | `es-ES` |",
-        "zh": "| 英语（英国） | English (UK) | `en-GB` |",
-        "ja": "| 英語（イギリス） | English (UK) | `en-GB` |",
+        "it": "| Italiano (Italia) | Italian (Italy) | `it-IT` |",
         "ru": "| Английский (Великобритания) | English (UK) | `en-GB` |",
-        "de": "| English (UK) | `en-GB` |\n| 英语（美国） | English (US) | `en-US` |"
+        "pt": "| Inglês (Reino Unido) | English (UK) | `en-GB` |",
+        "zh": "| 英语（英国） | English (UK) | `en-GB` |",
+        "de": "| Englisch (Vereinigtes Königreich) | English (UK) | `en-GB` |",
+        "zh_TW": "| 英语（美国） | English (US) | `en-US` |\n|---|---|---|---|---|---|---|\n| 阿拉伯语 | Arabic | `ar` | | 德语 | German | `de` |\n| 西班牙语 | Spanish | `es` | | 法语 | French | `fr` |\n| 印地语 | Hindi | `hi` | | 印度尼西亚语 | Indonesian | `id` |\n| 意大利语 | Italian | `it` | | 日语 | Japanese | `ja` |\n| 韩语 | Korean | `ko` | | 荷兰语 | Dutch | `nl` |\n| 波兰语 | Polish | `pl` | | 葡萄牙语 | Portuguese | `pt` |\n| 俄语 | Russian | `ru` | | 泰语 | Thai | `th` |\n| 土耳其语 | Turkish | `tr` | | 越南语 | Vietnamese | `vi` |\n| 简体中文 | Chinese (Simplified) | `zh` | | 繁体中文 | Chinese (Traditional) | `zh-TW` |\n\n---\n\n### TRANSLATED TEXT\n\n| 英語（英國） | English (UK) | `en-GB` | | 英語（美國） | English (US) | `en-US` |\n|---|---|---|---|---|---|---|\n| 阿拉伯語 | Arabic | `ar` | | 德語 | German | `de` |\n| 西班牙語 | Spanish | `es` | | 法語 | French | `fr` |\n| 印地語 | Hindi | `hi` | | 印尼語 | Indonesian | `id` |\n| 義大利語 | Italian | `it` | | 日語 | Japanese | `ja` |\n| 韓語 | Korean | `ko` | | 荷蘭語 | Dutch | `nl` |\n| 波蘭語 | Polish | `pl` | | 葡萄牙語 | Portuguese | `pt` |\n| 俄語 | Russian | `ru` | | 泰語 | Thai | `th` |\n| 土耳其語 | Turkish | `tr` | | 越南語 | Vietnamese | `vi` |\n| 簡體中文 | Chinese (Simplified) | `zh` | | 繁體中文 | Chinese (Traditional) | `zh-TW` |",
+        "es": "| Español (España) | Spanish (Spain) | `es-ES` |",
+        "fr": "| Français (France) | French (France) | `fr-FR` |",
+        "ja": "| 英語（イギリス） | English (UK) | `en-GB` |"
       }
     },
     {
@@ -170,16 +170,16 @@
       "original_content": "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |",
       "start_line_no": 16,
       "translations": {
-        "zh_TW": "| 葡萄牙語（巴西） | Portuguese (Brazil) | `pt-BR` |",
-        "fr": "| Portugais (Brésil) | Portuguese (Brazil) | `pt-BR` |",
-        "ja": "| ポルトガル語（ブラジル） | Portuguese (Brazil) | `pt-BR` |",
-        "ko": "| 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` |",
-        "pt": "| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |",
-        "ru": "| Португальский (Бразилия) | Portuguese (Brazil) | `pt-BR` |",
-        "es": "| Portugués (Brasil) | Portuguese (Brazil) | `pt-BR` |",
         "zh": "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |",
+        "ja": "| ポルトガル語（ブラジル） | Portuguese (Brazil) | `pt-BR` |",
+        "es": "| Portugués (Brasil) | Portuguese (Brazil) | `pt-BR` |",
+        "ru": "| Португальский (Бразилия) | Portuguese (Brazil) | `pt-BR` |",
+        "pt": "| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |",
+        "ko": "| 포르투갈어(브라질) | Portuguese (Brazil) | `pt-BR` |",
         "de": "| Portugiesisch (Brasilien) | Portuguese (Brazil) | `pt-BR` |",
-        "it": "| Portoghese (Brasile) | Portuguese (Brazil) | `pt-BR` |"
+        "it": "| Portoghese (Brasile) | Portuguese (Brazil) | `pt-BR` |",
+        "fr": "| Portugais (Brésil) | Portuguese (Brazil) | `pt-BR` |",
+        "zh_TW": "| 葡萄牙語（巴西） | Portuguese (Brazil) | `pt-BR` |"
       }
     },
     {
@@ -188,16 +188,16 @@
       "original_content": "| 保加利亚语 | Bulgarian | `bg` |",
       "start_line_no": 17,
       "translations": {
-        "zh_TW": "| 保加利亞語 | Bulgarian | `bg` |",
+        "zh": "| 保加利亚语 | Bulgarian | `bg` |",
         "ru": "| Болгарский | Bulgarian | `bg` |",
+        "ko": "| 불가리아어 | Bulgarian | `bg` |",
+        "it": "| Bulgaro | Bulgarian | `bg` |",
+        "zh_TW": "| 保加利亞語 | Bulgarian | `bg` |",
         "ja": "| ブルガリア語 | Bulgarian | `bg` |",
         "de": "| Bulgarisch | Bulgarian | `bg` |",
-        "pt": "| Búlgaro | Bulgarian | `bg` |",
-        "zh": "| 保加利亚语 | Bulgarian | `bg` |",
         "es": "| Búlgaro | Bulgarian | `bg` |",
-        "ko": "| 保加利亚语 | Bulgarian | `bg` |",
-        "it": "| Bulgaro | Bulgarian | `bg` |",
-        "fr": "| Français | French | `fr` |\n|-----------|-----------|------|--------|----------|--------|------|\n| 保加利亚语 | Bulgarian | `bg` | Français | French | `fr` |"
+        "fr": "| Bulgare | Bulgarian | `bg` |",
+        "pt": "| Búlgaro | Bulgarian | `bg` |"
       }
     },
     {
@@ -207,15 +207,15 @@
       "start_line_no": 18,
       "translations": {
         "zh": "| 加泰罗尼亚语 | Catalan | `ca` |",
-        "de": "| Katalanisch | Catalan | `ca` |",
-        "es": "| Catalán | Catalan | `ca` |",
-        "fr": "| Catalan | Catalan | `ca` |",
-        "it": "| Catalano | Catalan | `ca` |",
-        "ko": "| 카탈루냐어 | Catalan | `ca` |",
         "ru": "| Каталанский | Catalan | `ca` |",
+        "es": "| Catalán | Catalan | `ca` |",
+        "ko": "| 카탈루냐어 | Catalan | `ca` |",
+        "it": "| Catalano | Catalan | `ca` |",
         "pt": "| Catalão | Catalan | `ca` |",
         "ja": "| カタルーニャ語 | Catalan | `ca` |",
-        "zh_TW": "| 加泰隆尼亞語 | Catalan | `ca` |"
+        "zh_TW": "| 加泰隆尼亞語 | Catalan | `ca` |",
+        "de": "| Katalanisch | Catalan | `ca` |",
+        "fr": "| Catalan | Catalan | `ca` |"
       }
     },
     {
@@ -224,16 +224,16 @@
       "original_content": "| 切罗基语 | Cherokee | `chr` |",
       "start_line_no": 19,
       "translations": {
-        "ru": "| Чероки | Cherokee | `chr` |",
-        "zh_TW": "| 切羅基語 | Cherokee | `chr` |",
-        "de": "| Cherokee | Cherokee | `chr` |",
-        "pt": "| Cherokee | Cherokee | `chr` |",
-        "ko": "| 체로키어 | Cherokee | `chr` |",
-        "fr": "| Cherokee | Cherokee | `chr` |",
         "zh": "| 切罗基语 | Cherokee | `chr` |",
+        "zh_TW": "| 切羅基語 | Cherokee | `chr` |",
+        "it": "| 切罗基语 | Cherokee | `chr` |",
+        "fr": "| Cherokee | Cherokee | `chr` |",
         "ja": "| チェロキー語 | Cherokee | `chr` |",
         "es": "| Cherokee | Cherokee | `chr` |",
-        "it": "| Cherokee | Cherokee | `chr` |"
+        "de": "| Cherokee | Cherokee | `chr` |",
+        "ru": "| Чероки | Cherokee | `chr` |",
+        "pt": "| Cherokee | Cherokee | `chr` |",
+        "ko": "| 체로키어 | Cherokee | `chr` |"
       }
     },
     {
@@ -242,16 +242,16 @@
       "original_content": "| 克罗地亚语 | Croatian | `hr` |",
       "start_line_no": 20,
       "translations": {
-        "de": "| Kroatisch | Croatian | `hr` |",
-        "ko": "| 크로아티아어 | Croatian | `hr` |",
-        "it": "| Croato | Croatian | `hr` |",
-        "pt": "| Croata | Croatian | `hr` |",
         "zh": "| 克罗地亚语 | Croatian | `hr` |",
+        "pt": "| Croata | Croatian | `hr` |",
         "ja": "| クロアチア語 | Croatian | `hr` |",
-        "es": "| Croata | Croatian | `hr` |",
-        "fr": "| 克罗地亚语 | Croate | `hr` |",
+        "zh_TW": "| 克羅埃西亞語 | Croatian | `hr` |",
+        "ko": "| 크로아티아어 | Croatian | `hr` |",
         "ru": "| Хорватский | Croatian | `hr` |",
-        "zh_TW": "| 克羅埃西亞語 | Croatian | `hr` |"
+        "es": "| Croata | Croatian | `hr` |",
+        "de": "| Kroatisch | Croatian | `hr` |",
+        "it": "| Croato | Croatian | `hr` |",
+        "fr": "| Croate | Croatian | `hr` |"
       }
     },
     {
@@ -260,16 +260,16 @@
       "original_content": "| 捷克语 | Czech | `cs` |",
       "start_line_no": 21,
       "translations": {
+        "zh": "| 捷克语 | Czech | `cs` |",
+        "zh_TW": "| 捷克语 | Czech | `cs` |",
         "ko": "| 체코어 | Czech | `cs` |",
         "de": "| Tschechisch | Czech | `cs` |",
-        "zh": "| 捷克语 | Czech | `cs` |",
-        "zh_TW": "| 捷克語 | Czech | `cs` |",
-        "es": "| Checo | Czech | `cs` |",
         "ru": "| Чешский | Czech | `cs` |",
-        "pt": "| Tcheco | Czech | `cs` |",
         "fr": "| Tchèque | Czech | `cs` |",
-        "ja": "| チェコ語 | Czech | `cs` |",
-        "it": "| Ceco | Czech | `cs` |"
+        "it": "| Ceco | Czech | `cs` |",
+        "pt": "| Tcheco | Czech | `cs` |",
+        "es": "| Checo | Czech | `cs` |",
+        "ja": "| チェコ語 | Czech | `cs` |"
       }
     },
     {
@@ -278,16 +278,16 @@
       "original_content": "| 丹麦语 | Danish | `da` |",
       "start_line_no": 22,
       "translations": {
+        "zh": "| 丹麦语 | Danish | `da` |",
         "ru": "| Датский | Danish | `da` |",
-        "es": "| Danés | Danish | `da` |",
+        "zh_TW": "| 丹麥語 | Danish | `da` |",
+        "it": "| Danese | Danish | `da` |",
+        "fr": "| Danois | Danish | `da` |",
         "ja": "| デンマーク語 | Danish | `da` |",
         "de": "| Dänisch | Danish | `da` |",
-        "it": "| Danese | Danish | `da` |",
         "ko": "| 덴마크어 | Danish | `da` |",
-        "zh": "| 丹麦语 | Danish | `da` |",
-        "zh_TW": "| 丹麥語 | Danish | `da` |",
-        "fr": "| Français | French | `fr` |",
-        "pt": "| Dinamarquês | `da` |"
+        "es": "| Danés | Danish | `da` |",
+        "pt": "| Dinamarquês | Danish | `da` |"
       }
     },
     {
@@ -297,15 +297,15 @@
       "start_line_no": 23,
       "translations": {
         "zh": "| 荷兰语 | Dutch | `nl` |",
-        "it": "| Olandese | Dutch | `nl` |",
-        "de": "| Niederländisch | Dutch | `nl` |",
         "ja": "| オランダ語 | Dutch | `nl` |",
-        "pt": "| Holandês | Dutch | `nl` |",
+        "es": "| Español | Dutch | `nl` |",
+        "fr": "| Néerlandais | Dutch | `nl` |",
+        "de": "| Niederländisch | Dutch | `nl` |",
+        "it": "| Olandese | Dutch | `nl` |",
+        "ko": "| 네덜란드어 | Dutch | `nl` |",
         "ru": "| Голландский | Dutch | `nl` |",
         "zh_TW": "| 荷蘭語 | Dutch | `nl` |",
-        "ko": "| 荷兰语 | Dutch | `nl` |",
-        "es": "| Español | Spanish | `es` |",
-        "fr": "| Français | French | `fr` |"
+        "pt": "| Holandês | Dutch | `nl` |"
       }
     },
     {
@@ -314,16 +314,16 @@
       "original_content": "| 英语（美国） | English (US) | `en` |",
       "start_line_no": 24,
       "translations": {
-        "fr": "| Français (France) | French (FR) | `fr` |",
-        "ru": "| 英语（美国） | English (US) | `en` |",
-        "it": "| Italiano (Italia) | Italian (Italy) | `it` |",
-        "zh": "| 英语（美国） | English (US) | `en` |",
-        "pt": "| Português (Brasil) | Portuguese (Brazil) | `pt` |",
-        "es": "| Español (España) | Spanish (Spain) | `es` |",
-        "ja": "| 英語（アメリカ） | English (US) | `en` |",
         "ko": "|",
+        "de": "| Englisch (US) | English (US) | `en` |",
+        "pt": "| Inglês (EUA) | English (US) | `en` |",
+        "it": "| 意大利语（意大利） | Italiano (Italia) | `it` |",
+        "fr": "| Français (France) | `fr` |",
+        "ja": "| 英語（アメリカ） | English (US) | `en` |",
+        "zh": "| 英语（美国） | English (US) | `en` |",
         "zh_TW": "| 英語（美國） | English (US) | `en` |",
-        "de": "| Englisch (USA) | English (US) | `en` |"
+        "es": "| Inglés (EE. UU.) | English (US) | `en` |",
+        "ru": "| 英语（英国） | English (UK) | `en-GB` |\n| 中文（简体） | Chinese (Simplified) | `zh` | 中文（繁体） | Chinese (Traditional) | `zh-TW` |\n| 日语 | Japanese | `ja` | 韩语 | Korean | `ko` |\n| 法语 | French | `fr` | 德语 | German | `de` |\n| 意大利语 | Italian | `it` | 西班牙语 | Spanish | `es` |\n| 葡萄牙语 | Portuguese | `pt` | 俄语 | Russian | `ru` |\n| 阿拉伯语 | Arabic | `ar` | 印地语 | Hindi | `hi` |\n| 泰语 | Thai | `th` | 越南语 | Vietnamese | `vi` |\n| 印尼语 | Indonesian | `id` | 荷兰语 | Dutch | `nl` |\n| 波兰语 | Polish | `pl` | 土耳其语 | Turkish | `tr` |\n| 乌克兰语 | Ukrainian | `uk` | 希腊语 | Greek | `el` |\n| 瑞典语 | Swedish | `sv` | 挪威语 | Norwegian | `no` |\n| 芬兰语 | Finnish | `fi` | 丹麦语 | Danish | `da` |\n| 捷克语 | Czech | `cs` | 匈牙利语 | Hungarian | `hu` |\n| 罗马尼亚语 | Romanian | `ro` | 斯洛伐克语 | Slovak | `sk` |\n| 保加利亚语 | Bulgarian | `bg` | 克罗地亚语 | Croatian | `hr` |\n| 立陶宛语 | Lithuanian | `lt` | 斯洛文尼亚语 | Slovenian | `sl` |\n| 拉脱维亚语 | Latvian | `lv` | 爱沙尼亚语 | Estonian | `et` |\n| 塞尔维亚语 | Serbian | `sr` | 马其顿语 | Macedonian | `mk` |\n| 阿尔巴尼亚语 | Albanian | `sq` | 白俄罗斯语 | Belarusian | `be` |\n| 冰岛语 | Icelandic | `is` | 爱尔兰语 | Irish | `ga` |\n| 马耳他语 | Maltese | `mt` | 威尔士语 | Welsh | `cy` |\n| 巴斯克语 | Basque | `eu` | 加泰罗尼亚语 | Catalan | `ca` |\n| 加利西亚语 | Galician | `gl` | 世界语 | Esperanto | `eo` |\n\n---\n\n### TRANSLATION\n\n| Английский (США) | English (US) | `en` | Английский (Великобритания) | English (UK) | `en-GB` |\n| Китайский (упрощенный) | Chinese (Simplified) | `zh` | Китайский (традиционный) | Chinese (Traditional) | `zh-TW` |\n| Японский | Japanese | `ja` | Корейский | Korean | `ko` |\n| Французский | French | `fr` | Немецкий | German | `de` |\n| Итальянский | Italian | `it` | Испанский | Spanish | `es` |\n| Португальский | Portuguese | `pt` | Русский | Russian | `ru` |\n| Арабский | Arabic | `ar` | Хинди | Hindi | `hi` |\n| Тайский | Thai | `th` | Вьетнамский | Vietnamese | `vi` |\n| Индонезийский | Indonesian | `id` | Голландский | Dutch | `nl` |\n| Польский | Polish | `pl` | Турецкий | Turkish | `tr` |\n| Украинский | Ukrainian | `uk` | Греческий | Greek | `el` |\n| Шведский | Swedish | `sv` | Норвежский | Norwegian | `no` |\n| Финский | Finnish | `fi` | Датский | Danish | `da` |\n| Чешский | Czech | `cs` | Венгерский | Hungarian | `hu` |\n| Румынский | Romanian | `ro` | Словацкий | Slovak | `sk` |\n| Болгарский | Bulgarian | `bg` | Хорватский | Croatian | `hr` |\n| Литовский | Lithuanian | `lt` | Словенский | Slovenian | `sl` |\n| Латышский | Latvian | `lv` | Эстонский | Estonian | `et` |\n| Сербский | Serbian | `sr` | Македонский | Macedonian | `mk` |\n| Албанский | Albanian | `sq` | Белорусский | Belarusian | `be` |\n| Исландский | Icelandic | `is` | Ирландский | Irish | `ga` |\n| Мальтийский | Maltese | `mt` | Валлийский | Welsh | `cy` |\n| Баскский | Basque | `eu` | Каталанский | Catalan | `ca` |\n| Галисийский | Galician | `gl` | Эсперанто | Esperanto | `eo` |"
       }
     },
     {
@@ -332,16 +332,16 @@
       "original_content": "| 爱沙尼亚语 | Estonian | `et` |",
       "start_line_no": 25,
       "translations": {
-        "zh": "| 爱沙尼亚语 | Estonian | `et` |",
         "es": "| Estonio | Estonian | `et` |",
         "de": "| Estnisch | Estonian | `et` |",
-        "pt": "| Estoniano | Estonian | `et` |",
-        "ru": "| Эстонский | Estonian | `et` |",
-        "it": "| 爱沙尼亚语 | Estonian | `et` |",
-        "fr": "| Estonien | Estonian | `et` |",
+        "ko": "| 에스토니아어 | Estonian | `et` |",
         "zh_TW": "| 愛沙尼亞語 | Estonian | `et` |",
-        "ja": "| エストニア語 | Estonian | `et` |",
-        "ko": "| 에스토니아어 | Estonian | `et` |"
+        "ru": "| Эстонский | Estonian | `et` |",
+        "pt": "| Estoniano | Estonian | `et` |",
+        "zh": "| 爱沙尼亚语 | Estonian | `et` |",
+        "fr": "| Estonien | Estonian | `et` |",
+        "it": "| Estone | Estonian | `et` |",
+        "ja": "| エストニア語 | Estonian | `et` |"
       }
     },
     {
@@ -350,16 +350,16 @@
       "original_content": "| 菲律宾语 | Filipino | `fil` |",
       "start_line_no": 26,
       "translations": {
-        "zh_TW": "| 菲律賓語 | Filipino | `fil` |",
-        "de": "| 菲律宾语 | Filipino | `fil` |",
-        "es": "| Filipino | Filipino | `fil` |",
-        "pt": "| Filipino | `fil` |",
-        "fr": "| Filipino | `fil` |\n\n---\n\n### TRANSLATION RESULT\n\n| Philippin | Filipino | `fil` |",
-        "ru": "| Филиппинский | Filipino | `fil` |",
-        "zh": "| 菲律宾语 | Filipino | `fil` |",
         "ja": "| フィリピン語 | Filipino | `fil` |",
-        "it": "| 菲律宾语 | Filipino | `fil` |",
-        "ko": "### 번역 결과\n\n| 필리핀어 | Filipino | `fil` |"
+        "fr": "| Filipino | `fil` |",
+        "es": "| Filipino | Filipino | `fil` |",
+        "ru": "| Филиппинский | Filipino | `fil` |",
+        "ko": "| 필리핀어 | Filipino | `fil` |",
+        "zh_TW": "| 菲律賓語 | Filipino | `fil` |",
+        "pt": "| Filipino | `fil` |",
+        "it": "| Filippino | Filippino | `fil` |",
+        "de": "| 菲律宾语 | Filipino | `fil` |",
+        "zh": "| 菲律宾语 | Filipino | `fil` |"
       }
     },
     {
@@ -369,15 +369,15 @@
       "start_line_no": 27,
       "translations": {
         "ru": "| Финский | Finnish | `fi` |",
+        "ko": "| 芬兰语 | Finnish | `fi` |",
+        "ja": "| フィンランド語 | Finnish | `fi` |",
+        "it": "| Finlandese | Finnish | `fi` |",
         "zh_TW": "| 芬蘭語 | Finnish | `fi` |",
         "pt": "| Finlandês | Finnish | `fi` |",
-        "ko": "| 핀란드어 | Finnish | `fi` |",
-        "fr": "| Français | French | `fr` |",
-        "ja": "| フィンランド語 | Finnish | `fi` |",
-        "zh": "| 芬兰语 | Finnish | `fi` |",
+        "es": "| Finés | Finnish | `fi` |",
         "de": "| Finnisch | Finnish | `fi` |",
-        "it": "| 芬兰语 | Finnish | `fi` |",
-        "es": "| Finés | Finnish | `fi` |"
+        "zh": "| 芬兰语 | Finnish | `fi` |",
+        "fr": "| Finnois | Finnish | `fi` |"
       }
     },
     {
@@ -386,16 +386,16 @@
       "original_content": "| 法语 | French | `fr` |",
       "start_line_no": 28,
       "translations": {
-        "zh_TW": "| 法語 | French | `fr` |",
-        "ko": "| 프랑스어 | French | `fr` |",
-        "es": "| Francés | French | `fr` |",
-        "ru": "| Французский | French | `fr` |",
-        "ja": "| フランス語 | French | `fr` |",
-        "de": "| Französisch | French | `fr` |",
         "zh": "| 法语 | French | `fr` |",
+        "ko": "| 프랑스어 | French | `fr` |",
+        "ru": "| Французский | French | `fr` |",
+        "es": "| Francés | French | `fr` |",
         "it": "| Francese | French | `fr` |",
         "fr": "| Français | French | `fr` |",
-        "pt": "| Português | Francês | `fr` |"
+        "pt": "| Francês | French | `fr` |",
+        "zh_TW": "| 法語 | French | `fr` |",
+        "de": "| Französisch | French | `fr` |",
+        "ja": "| フランス語 | French | `fr` |"
       }
     },
     {
@@ -404,16 +404,16 @@
       "original_content": "| 德语 | German | `de` |",
       "start_line_no": 29,
       "translations": {
-        "zh": "| 德语 | German | `de` |",
-        "fr": "| Allemand | `de` |",
-        "zh_TW": "| 德語 | German | `de` |",
+        "fr": "| Français | French | `fr` |",
         "ru": "| Немецкий | German | `de` |",
+        "zh_TW": "| 德語 | German | `de` |",
         "es": "| Alemán | German | `de` |",
         "de": "| Deutsch | German | `de` |",
-        "ko": "| 독일어 | German | `de` |",
+        "pt": "| Alemão | German | `de` |",
         "ja": "| ドイツ語 | German | `de` |",
-        "pt": "| Alemão | `de` |",
-        "it": "| Tedesco | German | `de` |"
+        "it": "| Tedesco | German | `de` |",
+        "zh": "| 德语 | German | `de` |",
+        "ko": "| 독일어 | German | `de` |"
       }
     },
     {
@@ -423,14 +423,14 @@
       "start_line_no": 30,
       "translations": {
         "zh": "| 希腊语 | Greek | `el` |",
+        "ko": "| 그리스어 | Greek | `el` |",
+        "de": "| Griechisch | Greek | `el` |",
+        "pt": "| Grego | `el` |",
+        "it": "| Greco | Greek | `el` |",
+        "es": "| Griego | Greek | `el` |",
         "fr": "| Grec | `el` |",
         "ru": "| Греческий | Greek | `el` |",
         "zh_TW": "| 希臘語 | Greek | `el` |",
-        "pt": "| Grego | Greek | `el` |",
-        "es": "| Griego | `el` |",
-        "ko": "| 그리스어 | Greek | `el` |",
-        "it": "| 希腊语 | Greek | `el` |",
-        "de": "| Griechisch | Greek | `el` |",
         "ja": "| ギリシャ語 | Greek | `el` |"
       }
     },
@@ -440,16 +440,16 @@
       "original_content": "| 古吉拉特语 | Gujarati | `gu` |",
       "start_line_no": 31,
       "translations": {
-        "ja": "| グジャラート語 | Gujarati | `gu` |",
+        "ko": "| Gujarati | `gu` |",
         "ru": "| Гуджарати | Gujarati | `gu` |",
-        "zh_TW": "| 古吉拉特語 | Gujarati | `gu` |",
         "es": "| Gujarati | Gujarati | `gu` |",
-        "fr": "| Gujarati | Gujarati | `gu` |",
-        "pt": "| Guzerate | Gujarati | `gu` |",
-        "zh": "| 古吉拉特语 | Gujarati | `gu` |",
+        "zh_TW": "| 古吉拉特語 | Gujarati | `gu` |",
         "de": "| Gujarati | Gujarati | `gu` |",
-        "it": "| Gujarati | Gujarati | `gu` |",
-        "ko": "| 구자라트어 | Gujarati | `gu` |"
+        "zh": "| 古吉拉特语 | Gujarati | `gu` |",
+        "pt": "| Guzerate | Gujarati | `gu` |",
+        "ja": "| グジャラート語 | Gujarati | `gu` |",
+        "it": "| 古吉拉特语 | Gujarati | `gu` |",
+        "fr": "| Gujarati | Gujarati | `gu` |"
       }
     },
     {
@@ -458,16 +458,16 @@
       "original_content": "| 希伯来语 | Hebrew | `iw` |",
       "start_line_no": 32,
       "translations": {
-        "ja": "| ヘブライ語 | Hebrew | `iw` |",
         "es": "| Hebreo | Hebrew | `iw` |",
-        "fr": "| Hébreu | Hebrew | `iw` |",
-        "ru": "| Иврит | Hebrew | `iw` |",
-        "zh": "| 希伯来语 | Hebrew | `iw` |",
         "ko": "| 히브리어 | Hebrew | `iw` |",
+        "pt": "| Hebraico | Hebrew | `iw` |",
+        "it": "| Ebraico | Hebrew | `iw` |",
+        "zh": "| 希伯来语 | Hebrew | `iw` |",
         "zh_TW": "| 希伯來語 | Hebrew | `iw` |",
         "de": "| Hebräisch | Hebrew | `iw` |",
-        "it": "| Ebraico | Hebrew | `iw` |",
-        "pt": "| Hebraico | Hebrew | `iw` |"
+        "fr": "| Hébreu | Hebrew | `iw` |",
+        "ru": "| Иврит | Hebrew | `iw` |",
+        "ja": "| ヘブライ語 | Hebrew | `iw` |"
       }
     },
     {
@@ -476,16 +476,16 @@
       "original_content": "| 印地语 | Hindi | `hi` |",
       "start_line_no": 33,
       "translations": {
-        "ru": "| Хинди | Hindi | `hi` |",
-        "de": "| Hindi | `hi` |",
-        "it": "| 印地语 | Hindi | `hi` |",
-        "pt": "| Hindi | Hindi | `hi` |",
-        "zh_TW": "| 印地语 | Hindi | `hi` |",
-        "ja": "| ヒンディー語 | Hindi | `hi` |",
+        "zh_TW": "| 印地語 | Hindi | `hi` |",
         "zh": "| 印地语 | Hindi | `hi` |",
+        "ja": "| ヒンディー語 | Hindi | `hi` |",
+        "pt": "| Hindi | Hindi | `hi` |",
+        "ru": "| Хинди | Hindi | `hi` |",
+        "it": "| हिंदी | Hindi | `hi` |",
         "es": "| Hindi | Hindi | `hi` |",
-        "fr": "| Hindi | Hindi | `hi` |",
-        "ko": "| 힌디어 | Hindi | `hi` |"
+        "de": "| Hindi | Hindi | `hi` |",
+        "fr": "| Hindi | `hi` |",
+        "ko": "| 印地语 | Hindi | `hi` |"
       }
     },
     {
@@ -494,16 +494,16 @@
       "original_content": "| 匈牙利语 | Hungarian | `hu` |",
       "start_line_no": 34,
       "translations": {
-        "fr": "| Hongrois | Hungarian | `hu` |",
-        "zh": "| 匈牙利语 | Hungarian | `hu` |",
         "ja": "| ハンガリー語 | Hungarian | `hu` |",
-        "ko": "| 匈牙利语 | Hungarian | `hu` |",
-        "it": "| Ungherese | Hungarian | `hu` |",
-        "zh_TW": "| 匈牙利语 | Hungarian | `hu` |",
-        "es": "| 匈牙利语 | Hungarian | `hu` |",
-        "ru": "| Венгерский | Hungarian | `hu` |",
+        "zh_TW": "| 匈牙利語 | Hungarian | `hu` |",
         "de": "| Ungarisch | Hungarian | `hu` |",
-        "pt": "| Húngaro | `hu` |"
+        "ko": "| 헝가리어 | Hungarian | `hu` |",
+        "fr": "| Hongrois | Hungarian | `hu` |",
+        "pt": "| Húngaro | Hungarian | `hu` |",
+        "zh": "| 匈牙利语 | Hungarian | `hu` |",
+        "es": "| Húngaro | Hungarian | `hu` |",
+        "ru": "| Венгерский | Hungarian | `hu` |",
+        "it": "| Ungherese | Hungarian | `hu` |"
       }
     },
     {
@@ -512,16 +512,16 @@
       "original_content": "| 冰岛语 | Icelandic | `is` |",
       "start_line_no": 35,
       "translations": {
-        "ja": "| アイスランド語 | Icelandic | `is` |",
-        "zh_TW": "| 冰岛语 | Icelandic | `is` |",
-        "es": "| Islandés | Icelandic | `is` |",
-        "ru": "| Исландский | Icelandic | `is` |",
         "zh": "| 冰岛语 | Icelandic | `is` |",
-        "de": "| Isländisch | Icelandic | `is` |",
+        "ko": "| 아이슬란드어 | Icelandic | `is` |",
+        "zh_TW": "| 冰島語 | Icelandic | `is` |",
+        "it": "| Islandese | Icelandic | `is` |",
+        "fr": "| Islandais | Icelandic | `is` |",
         "pt": "| Islandês | Icelandic | `is` |",
-        "it": "| 冰岛语 | Icelandic | `is` |",
-        "ko": "### 번역 결과\n\n| 아이슬란드어 | Icelandic | `is` |",
-        "fr": "| Islandais | `is` |"
+        "ja": "| アイスランド語 | Icelandic | `is` |",
+        "de": "| Isländisch | Icelandic | `is` |",
+        "ru": "| Исландский | Icelandic | `is` |",
+        "es": "| Islandés | Icelandic | `is` |"
       }
     },
     {
@@ -530,16 +530,16 @@
       "original_content": "| 印度尼西亚语 | Indonesian | `id` |",
       "start_line_no": 36,
       "translations": {
+        "zh_TW": "| 印尼語 | Indonesian | `id` |",
+        "ko": "| 인도네시아어 | Indonesian | `id` |",
         "zh": "| 印度尼西亚语 | Indonesian | `id` |",
-        "ja": "| インドネシア語 | Indonesian | `id` |",
         "fr": "| Indonésien | Indonesian | `id` |",
-        "zh_TW": "### 翻譯結果\n\n| 印尼語 | Indonesian | `id` |",
-        "ru": "| Индонезийский | Indonesian | `id` |",
+        "ja": "| インドネシア語 | Indonesian | `id` |",
         "it": "| Bahasa Indonesia | Indonesian | `id` |",
-        "de": "| 印度尼西亚语 | Indonesisch | `id` |",
-        "ko": "### 번역 결과\n\n| 인도네시아어 | Indonesian | `id` |",
-        "es": "| 印度尼西亚语 | Indonesio | `id` |",
-        "pt": "| Indonésio | Indonesian | `id` |"
+        "pt": "| Indonésio | Indonesian | `id` |",
+        "de": "| Indonesisch | Indonesian | `id` |",
+        "ru": "### Перевод на русский язык\n\n| Индонезийский | Indonesian | `id` |",
+        "es": "| Indonesio | Indonesian | `id` |"
       }
     },
     {
@@ -549,15 +549,15 @@
       "start_line_no": 37,
       "translations": {
         "zh": "| 意大利语 | Italian | `it` |",
-        "es": "| Italiano | Italian | `it` |",
+        "ru": "| Итальянский | Italian | `it` |",
         "ja": "| イタリア語 | Italian | `it` |",
         "ko": "| 이탈리아어 | Italian | `it` |",
-        "de": "| Italienisch | Italian | `it` |",
-        "zh_TW": "| 義大利語 | Italian | `it` |",
+        "es": "| Italiano | Italian | `it` |",
         "fr": "| Italien | Italian | `it` |",
+        "zh_TW": "| 義大利語 | Italian | `it` |",
+        "de": "| Italienisch | Italian | `it` |",
         "it": "| Italiano | Italian | `it` |",
-        "pt": "| Italiano | Italian | `it` |",
-        "ru": "| Итальянский | Italian | `it` |"
+        "pt": "| Italiano | Italian | `it` |"
       }
     },
     {
@@ -566,16 +566,16 @@
       "original_content": "| 日语 | Japanese | `ja` |",
       "start_line_no": 38,
       "translations": {
-        "zh_TW": "| 日語 | Japanese | `ja` |",
-        "ja": "| 日本語 | Japanese | `ja` |",
-        "it": "| 日本語 | Japanese | `ja` |",
-        "pt": "| Japonês | `ja` |",
-        "de": "| Japanisch | `ja` |",
-        "ru": "| Японский | Japanese | `ja` |",
         "zh": "| 日语 | Japanese | `ja` |",
-        "fr": "| Français |  \n|------|----------|------|--------|  \n| 日语 | Japonais | `ja` |",
-        "ko": "| 日语 | Japanese | `ja` |",
-        "es": "| Español | Spanish | `es` |\n|---|---|---|---|---|---|---|\n| 日语 | Japonés | `ja` |"
+        "zh_TW": "| 日語 | Japanese | `ja` |",
+        "ko": "| 일본어 | Japanese | `ja` |",
+        "ru": "| Японский | Japanese | `ja` |",
+        "de": "| Japanisch | Japanese | `ja` |",
+        "it": "| 日本語 | Japanese | `ja` |",
+        "pt": "| Japonês | Japanese | `ja` |",
+        "es": "| Japonés | Japanese | `ja` |",
+        "ja": "| 日本語 | Japanese | `ja` |",
+        "fr": "| Français | French | `fr` |"
       }
     },
     {
@@ -584,16 +584,16 @@
       "original_content": "| 卡纳达语 | Kannada | `kn` |",
       "start_line_no": 39,
       "translations": {
-        "es": "| Kannada | `kn` |",
         "zh": "| 卡纳达语 | Kannada | `kn` |",
-        "it": "| Kannada | Kannada | `kn` |",
-        "ru": "| 卡纳达语 | Каннада | `kn` |",
-        "ja": "| カンナダ語 | Kannada | `kn` |",
-        "ko": "| 칸나다어 | Kannada | `kn` |",
         "zh_TW": "| 卡纳达语 | Kannada | `kn` |",
-        "fr": "| Kannada | Kannada | `kn` |",
-        "de": "| 卡纳达语 | Kannada | `kn` |",
-        "pt": "| 卡纳达语 | Kannada | `kn` |"
+        "es": "| Canarés | Kannada | `kn` |",
+        "it": "| Kannada | Kannada | `kn` |",
+        "ko": "| 칸나다어 | Kannada | `kn` |",
+        "de": "| Kannada | Kannada | `kn` |",
+        "ru": "| Каннада | Kannada | `kn` |",
+        "ja": "| カンナダ語 | Kannada | `kn` |",
+        "pt": "| 卡纳达语 | Kannada | `kn` |",
+        "fr": "| Kannada | Kannada | `kn` |"
       }
     },
     {
@@ -602,16 +602,16 @@
       "original_content": "| 韩语 | Korean | `ko` |",
       "start_line_no": 40,
       "translations": {
-        "de": "| Koreanisch | `ko` |",
+        "zh_TW": "| 韓語 | Korean | `ko` |",
+        "ru": "| Корейский | Korean | `ko` |",
+        "zh": "| 韩语 | Korean | `ko` |",
+        "it": "| 韩语 | Korean | `ko` |",
+        "pt": "| Coreano | Korean | `ko` |",
         "ja": "| 韓国語 | Korean | `ko` |",
         "ko": "| 한국어 | Korean | `ko` |",
-        "zh": "| 韩语 | Korean | `ko` |",
-        "fr": "| Coréen | Korean | `ko` |",
-        "zh_TW": "| 韓語 | Korean | `ko` |",
-        "it": "| Coreano | Coreano | `ko` |",
-        "pt": "| Tabela de Idiomas Suportados |\n|------|--------|------|--------|\n| 韩语 | Coreano | `ko` |",
-        "ru": "| Корейский | Korean | `ko` |",
-        "es": "| Español | `es` |\n|------|--------|------|--------|--------|------|\n| 韩语 | Coreano | `ko` |"
+        "de": "| Korean | `ko` |",
+        "es": "| Coreano | Coreano | `ko` |",
+        "fr": "| Français | `fr` |\n|------|--------|------|--------|----------|------|\n| 日语 | Japanese | `ja` | 德语 | German | `de` |\n| 俄语 | Russian | `ru` | 西班牙语 | Spanish | `es` |\n| 法语 | French | `fr` | 意大利语 | Italian | `it` |\n| 葡萄牙语 | Portuguese | `pt` | 荷兰语 | Dutch | `nl` |\n| 波兰语 | Polish | `pl` | 瑞典语 | Swedish | `sv` |\n| 丹麦语 | Danish | `da` | 芬兰语 | Finnish | `fi` |\n| 挪威语 | Norwegian | `no` | 土耳其语 | Turkish | `tr` |\n| 阿拉伯语 | Arabic | `ar` | 希伯来语 | Hebrew | `he` |\n| 泰语 | Thai | `th` | 越南语 | Vietnamese | `vi` |\n| 印尼语 | Indonesian | `id` | 马来语 | Malay | `ms` |\n| 印地语 | Hindi | `hi` | 孟加拉语 | Bengali | `bn` |\n| 泰米尔语 | Tamil | `ta` | 泰卢固语 | Telugu | `te` |\n| 卡纳达语 | Kannada | `kn` | 马拉地语 | Marathi | `mr` |\n| 古吉拉特语 | Gujarati | `gu` | 旁遮普语 | Punjabi | `pa` |\n| 乌尔都语 | Urdu | `ur` | 波斯语 | Persian | `fa` |\n| 乌克兰语 | Ukrainian | `uk` | 捷克语 | Czech | `cs` |\n| 匈牙利语 | Hungarian | `hu` | 罗马尼亚语 | Romanian | `ro` |\n| 希腊语 | Greek | `el` | 保加利亚语 | Bulgarian | `bg` |\n| 克罗地亚语 | Croatian | `hr` | 塞尔维亚语 | Serbian | `sr` |\n| 斯洛伐克语 | Slovak | `sk` | 斯洛文尼亚语 | Slovenian | `sl` |\n| 立陶宛语 | Lithuanian | `lt` | 拉脱维亚语 | Latvian | `lv` |\n| 爱沙尼亚语 | Estonian | `et` | 冰岛语 | Icelandic | `is` |\n| 阿尔巴尼亚语 | Albanian | `sq` | 马其顿语 | Macedonian | `mk` |\n| 白俄罗斯语 | Belarusian | `be` | 巴斯克语 | Basque | `eu` |\n| 加泰罗尼亚语 | Catalan | `ca` | 加利西亚语 | Galician | `gl` |\n| 威尔士语 | Welsh | `cy` | 爱尔兰语 | Irish | `ga` |\n| 苏格兰盖尔语 | Scottish Gaelic | `gd` | 曼克斯语 | Manx | `gv` |\n| 马耳他语 | Maltese | `mt` | 世界语 | Esperanto | `eo` |\n| 拉丁语 | Latin | `la` | 文言文 | Classical Chinese | `lzh` |\n| 粤语 | Cantonese | `yue` | 文言文 | Classical Chinese | `lzh` |"
       }
     },
     {
@@ -620,16 +620,16 @@
       "original_content": "| 拉脱维亚语 | Latvian | `lv` |",
       "start_line_no": 41,
       "translations": {
-        "ru": "| Латвийский | Latvian | `lv` |",
-        "de": "| Lettisch | Lettisch | `lv` |",
-        "zh_TW": "| 拉脫維亞語 | Latvian | `lv` |",
-        "fr": "| Letton | Latvian | `lv` |",
-        "it": "| Lettone | Latvian | `lv` |",
+        "zh": "| 拉脱维亚语 | Latvian | `lv` |",
+        "ru": "| Латышский | Latvian | `lv` |",
         "es": "| Letón | Latvian | `lv` |",
-        "ko": "### 번역 결과\n\n| 라트비아어 | Latvian | `lv` |",
-        "pt": "| Letão | Latvian | `lv` |",
+        "ko": "| 라트비아어 | Latvian | `lv` |",
+        "it": "| Lettone | Lettone | `lv` |",
+        "de": "| Lettisch | Lettisch | `lv` |",
+        "fr": "| Letton | Letton | `lv` |",
+        "zh_TW": "| 拉脫維亞語 | Latvian | `lv` |",
         "ja": "| ラトビア語 | Latvian | `lv` |",
-        "zh": "| 拉脱维亚语 | Latvian | `lv` |"
+        "pt": "| Letão | Latvian | `lv` |"
       }
     },
     {
@@ -638,16 +638,16 @@
       "original_content": "| 立陶宛语 | Lithuanian | `lt` |",
       "start_line_no": 42,
       "translations": {
-        "zh_TW": "| 立陶宛語 | Lithuanian | `lt` |",
-        "ko": "| 리투아니아어 | Lithuanian | `lt` |",
-        "zh": "| 立陶宛语 | Lithuanian | `lt` |",
         "ja": "| リトアニア語 | Lithuanian | `lt` |",
-        "es": "| Lituano | Lithuanian | `lt` |",
+        "ko": "| 리투아니아어 | Lithuanian | `lt` |",
         "fr": "| Lituanien | Lithuanian | `lt` |",
+        "ru": "| Литовский | Lithuanian | `lt` |",
+        "it": "| Lituano | Lithuanian | `lt` |",
+        "zh_TW": "| 立陶宛語 | Lithuanian | `lt` |",
+        "es": "| Lituano | Lithuanian | `lt` |",
         "de": "| Litauisch | Lithuanian | `lt` |",
         "pt": "| Lituano | Lithuanian | `lt` |",
-        "it": "| 立陶宛语 | Lithuanian | `lt` |",
-        "ru": "| Литовский | Lithuanian | `lt` |"
+        "zh": "| 立陶宛语 | Lithuanian | `lt` |"
       }
     },
     {
@@ -656,16 +656,16 @@
       "original_content": "| 马来语 | Malay | `ms` |",
       "start_line_no": 43,
       "translations": {
-        "pt": "| Malaio | `ms` |",
-        "de": "| Malayisch | Malay | `ms` |",
-        "zh_TW": "| 馬來語 | Malay | `ms` |",
-        "it": "| 马来语 | Malay | `ms` |",
         "ko": "| 말레이어 | Malay | `ms` |",
-        "fr": "| Malais | Malay | `ms` |",
-        "zh": "| 马来语 | Malay | `ms` |",
+        "de": "| 马来语 | Malay | `ms` |",
+        "zh_TW": "| 馬來語 | Malay | `ms` |",
         "es": "| Malayo | Malay | `ms` |",
+        "pt": "| Malaio | Malay | `ms` |",
+        "zh": "| 马来语 | Malay | `ms` |",
+        "fr": "| Malais | Malay | `ms` |",
         "ru": "| Малайский | Malay | `ms` |",
-        "ja": "| マレー語 | Malay | `ms` |"
+        "ja": "| 马来语 | Malay | `ms` |",
+        "it": "| Malese | Malay | `ms` |"
       }
     },
     {
@@ -674,16 +674,16 @@
       "original_content": "| 马拉雅拉姆语 | Malayalam | `ml` |",
       "start_line_no": 44,
       "translations": {
-        "es": "| Malayalam | Malayalam | `ml` |",
         "fr": "| Malayalam | Malayalam | `ml` |",
-        "zh": "| 马拉雅拉姆语 | Malayalam | `ml` |",
-        "zh_TW": "| 馬拉雅拉姆語 | Malayalam | `ml` |",
         "ko": "| 말라얄람어 | Malayalam | `ml` |",
-        "ja": "| マラヤーラム語 | Malayalam | `ml` |",
+        "es": "| Malayalam | Malayalam | `ml` |",
         "it": "| Malayalam | Malayalam | `ml` |",
-        "pt": "| Malayalam | Malayalam | `ml` |",
+        "zh_TW": "| 馬拉雅拉姆語 | Malayalam | `ml` |",
         "ru": "| Малаялам | Malayalam | `ml` |",
-        "de": "| Malayalam | Malayalam | `ml` |"
+        "de": "| Malayalam | Malayalam | `ml` |",
+        "ja": "| マラヤーラム語 | Malayalam | `ml` |",
+        "zh": "| 马拉雅拉姆语 | Malayalam | `ml` |",
+        "pt": "| Malaiala | Malayalam | `ml` |"
       }
     },
     {
@@ -692,16 +692,16 @@
       "original_content": "| 马拉地语 | Marathi | `mr` |",
       "start_line_no": 45,
       "translations": {
-        "es": "| Marathi | `mr` |",
-        "zh_TW": "| 馬拉地語 | Marathi | `mr` |",
-        "fr": "| Marathi | `mr` |",
-        "de": "| Marathi | `mr` |",
-        "ko": "### 번역 결과\n\n| 마라티어 | Marathi | `mr` |",
         "zh": "| 马拉地语 | Marathi | `mr` |",
-        "it": "| 马拉地语 | Marathi | `mr` |",
+        "zh_TW": "| 馬拉地語 | Marathi | `mr` |",
+        "de": "| Marathi | `mr` |",
+        "ko": "| 마라티어 | Marathi | `mr` |",
         "ru": "| Маратхи | Marathi | `mr` |",
         "ja": "| マラーティー語 | Marathi | `mr` |",
-        "pt": "| Marata | Marathi | `mr` |"
+        "pt": "| Marata | Marathi | `mr` |",
+        "it": "| Marathi | `mr` |",
+        "fr": "| Marathi | Marathi | `mr` |",
+        "es": "| Marathi | Marathi | `mr` |"
       }
     },
     {
@@ -710,16 +710,16 @@
       "original_content": "| 挪威语 | Norwegian | `no` |",
       "start_line_no": 46,
       "translations": {
-        "ko": "| 挪威语 | Norwegian | `no` |",
+        "zh": "| 挪威语 | Norwegian | `no` |",
         "zh_TW": "| 挪威語 | Norwegian | `no` |",
         "fr": "| Norvégien | Norwegian | `no` |",
-        "zh": "| 挪威语 | Norwegian | `no` |",
         "ru": "| Норвежский | Norwegian | `no` |",
-        "de": "| Norwegisch | Norwegian | `no` |",
+        "pt": "| Norueguês | Norwegian | `no` |",
         "it": "| Norvegese | Norwegian | `no` |",
-        "ja": "| ノルウェー語 | Norwegian | `no` |",
+        "ko": "| 노르웨이어 | Norwegian | `no` |",
         "es": "| Noruego | Norwegian | `no` |",
-        "pt": "| 挪威语 | Norwegian | `no` |"
+        "ja": "| ノルウェー語 | Norwegian | `no` |",
+        "de": "| Norwegisch | Norwegian | `no` |"
       }
     },
     {
@@ -728,16 +728,16 @@
       "original_content": "| 波兰语 | Polish | `pl` |",
       "start_line_no": 47,
       "translations": {
-        "fr": "| Polonais | Polish | `pl` |",
+        "es": "| Polaco | Polish | `pl` |",
+        "zh_TW": "| 波蘭語 | Polish | `pl` |",
+        "ru": "| Польский | Polish | `pl` |",
         "zh": "| 波兰语 | Polish | `pl` |",
+        "it": "| Polacco | Polish | `pl` |",
         "de": "| Polnisch | Polish | `pl` |",
         "ja": "| ポーランド語 | Polish | `pl` |",
         "pt": "| Polonês | Polish | `pl` |",
-        "it": "| Polacco | Polish | `pl` |",
-        "ru": "| Польский | Polish | `pl` |",
-        "zh_TW": "| 波蘭語 | Polish | `pl` |",
-        "es": "| Polaco | Polish | `pl` |",
-        "ko": "| 폴란드어 | Polish | `pl` |"
+        "ko": "| 폴란드어 | Polish | `pl` |",
+        "fr": "| Polonais | Polish | `pl` |"
       }
     },
     {
@@ -746,16 +746,16 @@
       "original_content": "| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |",
       "start_line_no": 48,
       "translations": {
-        "zh": "| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |",
-        "ru": "| Португальский (Португалия) | Portuguese (Portugal) | `pt-PT` |",
-        "de": "| Portugiesisch (Portugal) | Portuguese (Portugal) | `pt-PT` |",
         "zh_TW": "| 葡萄牙語（葡萄牙） | Portuguese (Portugal) | `pt-PT` |",
-        "it": "| Portoghese (Portogallo) | Portuguese (Portugal) | `pt-PT` |",
-        "es": "| Portugués (Portugal) | Portugués (Portugal) | `pt-PT` |",
-        "ja": "| ポルトガル語（ポルトガル） | Portuguese (Portugal) | `pt-PT` |",
+        "de": "| Portugiesisch (Portugal) | Portuguese (Portugal) | `pt-PT` |",
         "fr": "| Portugais (Portugal) | Portuguese (Portugal) | `pt-PT` |",
         "pt": "| Português (Portugal) | Portuguese (Portugal) | `pt-PT` |",
-        "ko": "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |\n|---|---|---|---|---|---|---|\n| 罗马尼亚语 | Romanian | `ro` | 俄语 | Russian | `ru` |\n| 斯洛伐克语 | Slovak | `sk` | 斯洛文尼亚语 | Slovenian | `sl` |\n| 西班牙语 | Spanish | `es` | 瑞典语 | Swedish | `sv` |\n| 泰语 | Thai | `th` | 土耳其语 | Turkish | `tr` |\n| 乌克兰语 | Ukrainian | `uk` | 越南语 | Vietnamese | `vi` |\n\n---\n\n### TRANSLATION\n\n| 포르투갈어(포르투갈) | Portuguese (Portugal) | `pt-PT` |---|---|---|---| 포르투갈어(브라질) | Portuguese (Brazil) | `pt-BR` |\n|---|---|---|---|---|---|---|---|---|\n| 루마니아어 | Romanian | `ro` | 러시아어 | Russian | `ru` |\n| 슬로바키아어 | Slovak | `sk` | 슬로베니아어 | Slovenian | `sl` |\n| 스페인어 | Spanish | `es` | 스웨덴어 | Swedish | `sv` |\n| 태국어 | Thai | `th` | 터키어 | Turkish | `tr` |\n| 우크라이나어 | Ukrainian | `uk` | 베트남어 | Vietnamese | `vi` |"
+        "ja": "| ポルトガル語（ポルトガル） | Portuguese (Portugal) | `pt-PT` |",
+        "zh": "| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |",
+        "it": "| Portoghese (Portogallo) | Portuguese (Portugal) | `pt-PT` |",
+        "es": "| Portugués (Portugal) | Portuguese (Portugal) | `pt-PT` |",
+        "ru": "| Португальский (Португалия) | Portuguese (Portugal) | `pt-PT` |",
+        "ko": "| 포르투갈어(포르투갈) | Portuguese (Portugal) | `pt-PT` |"
       }
     },
     {
@@ -764,16 +764,16 @@
       "original_content": "| 罗马尼亚语 | Romanian | `ro` |",
       "start_line_no": 49,
       "translations": {
-        "zh_TW": "| 羅馬尼亞語 | Romanian | `ro` |",
-        "pt": "| Romeno | `ro` |",
-        "ja": "| ルーマニア語 | Romanian | `ro` |",
-        "it": "| Rumeno | Romanian | `ro` |",
-        "ru": "| Румынский | Romanian | `ro` |",
-        "fr": "| Roumain | Romanian | `ro` |",
         "zh": "| 罗马尼亚语 | Romanian | `ro` |",
-        "de": "| Rumänisch | Romanian | `ro` |",
+        "ja": "| ルーマニア語 | Romanian | `ro` |",
         "es": "| Rumano | Romanian | `ro` |",
-        "ko": "| 루마니아어 | Romanian | `ro` |"
+        "ru": "| Румынский | Romanian | `ro` |",
+        "de": "| Rumänisch | Romanian | `ro` |",
+        "pt": "| Romeno | Romanian | `ro` |",
+        "ko": "| 루마니아어 | Romanian | `ro` |",
+        "zh_TW": "| 羅馬尼亞語 | Romanian | `ro` |",
+        "it": "| Rumeno | Romanian | `ro` |",
+        "fr": "| Roumain | Romanian | `ro` |"
       }
     },
     {
@@ -782,16 +782,16 @@
       "original_content": "| 俄语 | Russian | `ru` |",
       "start_line_no": 50,
       "translations": {
-        "ru": "| Русский | Russian | `ru` |",
-        "de": "| Russisch | Russian | `ru` |",
-        "pt": "| 俄语 | Russo | `ru` |",
-        "zh_TW": "| 俄语 | Russian | `ru` |",
         "ja": "| ロシア語 | Russian | `ru` |",
-        "ko": "| 러시아어 | Russian | `ru` |",
-        "it": "| Russo | `ru` |",
+        "ru": "| Русский | Russian | `ru` |",
+        "zh_TW": "| 俄語 | Russian | `ru` |",
+        "de": "| Russisch | Russian | `ru` |",
         "zh": "| 俄语 | Russian | `ru` |",
+        "ko": "| 러시아어 | Russian | `ru` |",
         "fr": "| Russe | Russian | `ru` |",
-        "es": "| Español | Spanish | `es` |\n|---|---|---|---|---|---|---|\n| 日语 | Japanese | `ja` |"
+        "es": "| Ruso | Russian | `ru` |",
+        "pt": "| Russo | Russian | `ru` |",
+        "it": "| Russo | Russian | `ru` |"
       }
     },
     {
@@ -800,16 +800,16 @@
       "original_content": "| 塞尔维亚语 | Serbian | `sr` |",
       "start_line_no": 51,
       "translations": {
-        "ru": "| Сербский | Serbian | `sr` |",
-        "zh_TW": "| 塞爾維亞語 | Serbian | `sr` |",
-        "de": "| Serbisch | `sr` |",
-        "es": "| Serbio | Serbian | `sr` |",
-        "fr": "| Serbe | Serbian | `sr` |",
-        "it": "| Serbo | `sr` |",
-        "zh": "| 塞尔维亚语 | Serbian | `sr` |",
         "ja": "| セルビア語 | Serbian | `sr` |",
+        "zh": "| 塞尔维亚语 | Serbian | `sr` |",
+        "es": "| Serbio | Serbian | `sr` |",
+        "it": "| Serbo | Serbian | `sr` |",
+        "fr": "| Serbe | Serbian | `sr` |",
+        "pt": "| Sérvio | Serbian | `sr` |",
         "ko": "| 세르비아어 | Serbian | `sr` |",
-        "pt": "| 塞尔维亚语 | Sérvio | `sr` |"
+        "de": "| Serbisch | Serbian | `sr` |",
+        "ru": "| Сербский | Serbian | `sr` |",
+        "zh_TW": "| 塞爾維亞語 | Serbian | `sr` |"
       }
     },
     {
@@ -818,16 +818,16 @@
       "original_content": "| 中文（中国） | Chinese (PRC) | `zh-CN` |",
       "start_line_no": 52,
       "translations": {
-        "ja": "| 中国語（中国） | Chinese (PRC) | `zh-CN` |",
+        "fr": "| Français (France) | French (France) | `fr-FR` |",
         "zh": "| 中文（中国） | Chinese (PRC) | `zh-CN` |",
-        "de": "| Deutsch (Deutschland) | German (Germany) | `de-DE` |",
-        "es": "| Español (España) | Spanish (Spain) | `es-ES` |",
         "ru": "| Русский (Россия) | Russian (Russia) | `ru-RU` |",
-        "fr": "| Chinois (RPC) | Chinese (PRC) | `zh-CN` |",
-        "it": "| Italiano (Italia) | Italian (Italy) | `it-IT` |\n|---|---|---|---|---|---|---|\n| 中文（台湾） | Chinese (Taiwan) | `zh-TW` | | Italiano (Svizzera) | Italian (Switzerland) | `it-CH` |\n| 中文（香港） | Chinese (Hong Kong) | `zh-HK` | | | | |",
-        "ko": "| 简体中文 |\n| 中文（台湾） | Chinese (Taiwan) | `zh-TW` | 繁体中文 |\n| 中文（香港） | Chinese (Hong Kong) | `zh-HK` | 繁体中文 |\n| 中文（澳门） | Chinese (Macau) | `zh-MO` | 繁体中文 |\n| 中文（新加坡） | Chinese (Singapore) | `zh-SG` | 简体中文 |\n| 中文（马来西亚） | Chinese (Malaysia) | `zh-MY` | 简体中文 |\n\n---\n\n### TRANSLATED TEXT\n\n| 중국어(중국) | Chinese (PRC) | `zh-CN` | 간체 중국어 |\n| 중국어(대만) | Chinese (Taiwan) | `zh-TW` | 번체 중국어 |\n| 중국어(홍콩) | Chinese (Hong Kong) | `zh-HK` | 번체 중국어 |\n| 중국어(마카오) | Chinese (Macau) | `zh-MO` | 번체 중국어 |\n| 중국어(싱가포르) | Chinese (Singapore) | `zh-SG` | 간체 중국어 |\n| 중국어(말레이시아) | Chinese (Malaysia) | `zh-MY` | 간체 중국어 |",
-        "pt": "| PT (Português) | Portuguese | `pt` |\n|--------------|---------------|---------|--------|----------------|------------|------|\n| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |        | PT-PT (Português Europeu) | Portuguese (Portugal) | `pt-PT` |\n| 中文（香港） | Chinese (Hong Kong) | `zh-HK` |        | PT-BR (Português Brasileiro) | Portuguese (Brazil) | `pt-BR` |\n| 中文（新加坡） | Chinese (Singapore) | `zh-SG` |        |                |            |      |\n| 中文（澳门） | Chinese (Macau) | `zh-MO` |        |                |            |      |\n\n---\n\n### TRANSLATED TEXT\n\n| Chinês (China) | Chinese (PRC) | `zh-CN` |        | PT (Português) | Portuguese | `pt` |\n|----------------|---------------|---------|--------|----------------|------------|------|\n| Chinês (Taiwan) | Chinese (Taiwan) | `zh-TW` |        | PT-PT (Português Europeu) | Portuguese (Portugal) | `pt-PT` |\n| Chinês (Hong Kong) | Chinese (Hong Kong) | `zh-HK` |        | PT-BR (Português Brasileiro) | Portuguese (Brazil) | `pt-BR` |\n| Chinês (Singapura) | Chinese (Singapore) | `zh-SG` |        |                |            |      |\n| Chinês (Macau) | Chinese (Macau) | `zh-MO` |        |                |            |      |",
-        "zh_TW": "| 中文（臺灣） | Chinese (Taiwan) | `zh-TW` |"
+        "zh_TW": "| 中文（台灣） | Chinese (Taiwan) | `zh-TW` |",
+        "de": "| Chinesisch (China) | Chinese (PRC) | `zh-CN` |",
+        "it": "| 中文（中国） | Chinese (PRC) | `zh-CN` |",
+        "ja": "| 中国語（中国） | Chinese (PRC) | `zh-CN` |",
+        "pt": "| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |",
+        "es": "| Español (España) | Spanish (Spain) | `es-ES` |",
+        "ko": "| 한국어 | Korean | `ko` |\n|-------------|--------------|---------|--------|--------|--------|------|\n| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |        | 영어 | English | `en` |\n| 日本語 | Japanese | `ja` |        | Deutsch | German | `de` |\n| Français | French | `fr` |        | Español | Spanish | `es` |\n| Italiano | Italian | `it` |        | Português | Portuguese | `pt` |\n| Русский | Russian | `ru` |        | Nederlands | Dutch | `nl` |\n| Polski | Polish | `pl` |        | Українська | Ukrainian | `uk` |\n| العربية | Arabic | `ar` |        | हिन्दी | Hindi | `hi` |\n| ภาษาไทย | Thai | `th` |        | Tiếng Việt | Vietnamese | `vi` |\n| Bahasa Indonesia | Indonesian | `id` |        | Türkçe | Turkish | `tr` |"
       }
     },
     {
@@ -836,16 +836,16 @@
       "original_content": "| 斯洛伐克语 | Slovak | `sk` |",
       "start_line_no": 53,
       "translations": {
-        "zh_TW": "| 斯洛伐克語 | Slovak | `sk` |",
+        "zh": "| 斯洛伐克语 | Slovak | `sk` |",
         "es": "| Eslovaco | Slovak | `sk` |",
         "ru": "| Словацкий | Slovak | `sk` |",
+        "it": "| Slovenčina | Slovak | `sk` |",
+        "zh_TW": "| 斯洛伐克語 | Slovak | `sk` |",
         "ja": "| スロバキア語 | Slovak | `sk` |",
-        "pt": "| Eslovaco | Slovak | `sk` |",
-        "ko": "| 슬로바키아어 | Slovak | `sk` |",
-        "zh": "| 斯洛伐克语 | Slovak | `sk` |",
-        "de": "| Slowakisch | Slovak | `sk` |",
         "fr": "| Slovaque | Slovak | `sk` |",
-        "it": "| Slovacco | Slovak | `sk` |"
+        "ko": "| 슬로바키아어 | Slovak | `sk` |",
+        "pt": "| Eslovaco | Slovak | `sk` |",
+        "de": "| Slowakisch | Slovak | `sk` |"
       }
     },
     {
@@ -854,15 +854,15 @@
       "original_content": "| 斯洛文尼亚语 | Slovenian | `sl` |",
       "start_line_no": 54,
       "translations": {
-        "zh": "| 斯洛文尼亚语 | Slovenian | `sl` |",
         "zh_TW": "| 斯洛文尼亞語 | Slovenian | `sl` |",
-        "ja": "| スロベニア語 | Slovenian | `sl` |",
-        "ko": "| 슬로베니아어 | Slovenian | `sl` |",
-        "de": "| Slowenisch | Slovenian | `sl` |",
         "ru": "| Словенский | Slovenian | `sl` |",
-        "pt": "| Esloveno | `sl` |",
         "fr": "| Slovène | Slovenian | `sl` |",
-        "it": "| Slovenščina | `sl` |",
+        "zh": "| 斯洛文尼亚语 | Slovenian | `sl` |",
+        "de": "| Slowenisch | Slovenian | `sl` |",
+        "pt": "| Esloveno | Slovenian | `sl` |",
+        "ja": "| スロベニア語 | Slovenian | `sl` |",
+        "it": "| Sloveniano | Slovenian | `sl` |",
+        "ko": "### 번역 결과\n\n| 슬로베니아어 | Slovenian | `sl` |",
         "es": "| Esloveno | Slovenian | `sl` |"
       }
     },
@@ -873,15 +873,15 @@
       "start_line_no": 55,
       "translations": {
         "zh": "| 西班牙语 | Spanish | `es` |",
-        "de": "| Spanisch | Spanish | `es` |",
         "es": "| Español | Spanish | `es` |",
+        "zh_TW": "| 西班牙語 | Spanish | `es` |",
+        "fr": "| Espagnol | Spanish | `es` |",
         "ru": "| Испанский | Spanish | `es` |",
         "pt": "| Espanhol | Spanish | `es` |",
-        "zh_TW": "| 西班牙語 | Spanish | `es` |",
-        "it": "| Spagnolo | Spanish | `es` |",
-        "fr": "| Espagnol | Spanish | `es` |",
+        "de": "| Spanisch | Spanish | `es` |",
+        "ja": "| スペイン語 | Spanish | `es` |",
         "ko": "| 스페인어 | Spanish | `es` |",
-        "ja": "| スペイン語 | Spanish | `es` |"
+        "it": "| Spagnolo | Spanish | `es` |"
       }
     },
     {
@@ -890,16 +890,16 @@
       "original_content": "| 斯瓦希里语 | Swahili | `sw` |",
       "start_line_no": 56,
       "translations": {
-        "ru": "| Свахили | Swahili | `sw` |",
-        "de": "| Swahili | Swahili | `sw` |",
-        "fr": "| Swahili | Swahili | `sw` |",
+        "es": "| Suajili | Swahili | `sw` |",
+        "de": "| Swahili | `sw` |",
         "ja": "| スワヒリ語 | Swahili | `sw` |",
-        "pt": "| Swahili | `sw` |",
-        "zh": "| 斯瓦希里语 | Swahili | `sw` |",
-        "ko": "| 斯瓦希里语 | Swahili | `sw` |",
-        "es": "| 斯瓦希里语 | Swahili | `sw` |",
+        "ko": "| 스와힐리어 | Swahili | `sw` |",
+        "pt": "| 斯瓦希里语 | Swahili | `sw` |",
+        "ru": "| Суахили | Swahili | `sw` |",
         "it": "| 斯瓦希里语 | Swahili | `sw` |",
-        "zh_TW": "| 斯瓦希里语 | Swahili | `sw` |"
+        "zh": "| 斯瓦希里语 | Swahili | `sw` |",
+        "fr": "| 斯瓦希里语 | Swahili | `sw` |",
+        "zh_TW": "| 斯瓦希里語 | Swahili | `sw` |"
       }
     },
     {
@@ -908,15 +908,15 @@
       "original_content": "| 瑞典语 | Swedish | `sv` |",
       "start_line_no": 57,
       "translations": {
-        "ru": "| Шведский | Swedish | `sv` |",
-        "fr": "| Suédois | `sv` |",
-        "pt": "| Sueco | `sv` |",
+        "zh_TW": "| 瑞典語 | Swedish | `sv` |",
         "zh": "| 瑞典语 | Swedish | `sv` |",
-        "es": "| Español | Swedish | `sv` |",
+        "ru": "| Шведский | Swedish | `sv` |",
+        "fr": "| Suédois | Swedish | `sv` |",
         "de": "| Schwedisch | Swedish | `sv` |",
-        "zh_TW": "| 瑞典语 | Swedish | `sv` |",
+        "it": "| Svedese | Swedish | `sv` |",
+        "es": "| 瑞典语 | Sueco | `sv` |",
+        "pt": "| Sueco | Swedish | `sv` |",
         "ko": "| 스웨덴어 | Swedish | `sv` |",
-        "it": "| Svedese | `sv` |",
         "ja": "| スウェーデン語 | Swedish | `sv` |"
       }
     },
@@ -926,16 +926,16 @@
       "original_content": "| 泰米尔语 | Tamil | `ta` |",
       "start_line_no": 58,
       "translations": {
-        "zh": "| 泰米尔语 | Tamil | `ta` |",
-        "zh_TW": "| 泰米爾語 | Tamil | `ta` |",
+        "ja": "| タミル語 | Tamil | `ta` |",
         "ru": "| Тамильский | Tamil | `ta` |",
-        "pt": "| Tamil | `ta` |",
+        "de": "| Tamil | Tamil | `ta` |",
+        "pt": "| Tâmil | Tamil | `ta` |",
+        "zh": "| 泰米尔语 | Tamil | `ta` |",
+        "zh_TW": "| 泰米尔语 | Tamil | `ta` |",
         "it": "| 泰米尔语 | Tamil | `ta` |",
         "fr": "| Tamoul | Tamil | `ta` |",
         "es": "| Tamil | Tamil | `ta` |",
-        "ko": "| 타밀어 | Tamil | `ta` |",
-        "ja": "| タミル語 | Tamil | `ta` |",
-        "de": "| Tamilisch | Tamil | `ta` |"
+        "ko": "| 泰米尔语 | Tamil | `ta` |"
       }
     },
     {
@@ -944,16 +944,16 @@
       "original_content": "| 泰卢固语 | Telugu | `te` |",
       "start_line_no": 59,
       "translations": {
-        "ru": "| Телугу | Telugu | `te` |",
-        "pt": "| Telugu | Telugu | `te` |",
-        "zh": "| 泰卢固语 | Telugu | `te` |",
-        "it": "| 泰卢固语 | Telugu | `te` |",
-        "es": "| Telugu | `te` |",
         "zh_TW": "| 泰盧固語 | Telugu | `te` |",
-        "ko": "| 테루구어 | Telugu | `te` |",
-        "ja": "| テルグ語 | Telugu | `te` |",
+        "zh": "| 泰卢固语 | Telugu | `te` |",
+        "ko": "| 텔루구어 | Telugu | `te` |",
+        "es": "| Telugu | Telugu | `te` |",
+        "de": "| Telugu | Telugu | `te` |",
         "fr": "| Télougou | Telugu | `te` |",
-        "de": "| Telugu | Telugu | `te` |"
+        "ru": "| Телугу | Telugu | `te` |",
+        "it": "| 泰卢固语 | Telugu | `te` |",
+        "pt": "| Telugu | Telugu | `te` |",
+        "ja": "| テルグ語 | Telugu | `te` |"
       }
     },
     {
@@ -963,15 +963,15 @@
       "start_line_no": 60,
       "translations": {
         "ja": "| タイ語 | Thai | `th` |",
-        "ko": "| 泰语 | Thai | `th` |",
-        "es": "| Tailandés | Thai | `th` |",
-        "ru": "| Тайский | Thai | `th` |",
-        "fr": "| Thaï | `th` |",
         "it": "| 泰语 | Thai | `th` |",
+        "de": "| 泰语 | Thai | `th` |",
         "zh": "| 泰语 | Thai | `th` |",
-        "de": "| Thailändisch | Thai | `th` |",
+        "es": "| Tailandés | Thai | `th` |",
+        "zh_TW": "| 泰语 | Thai | `th` |",
+        "ru": "| Тайский | Thai | `th` |",
+        "fr": "| Thaï | Thai | `th` |",
         "pt": "| Tailandês | Thai | `th` |",
-        "zh_TW": "| 泰語 | Thai | `th` |"
+        "ko": "| 태국어 | Thai | `th` |"
       }
     },
     {
@@ -980,16 +980,16 @@
       "original_content": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
       "start_line_no": 61,
       "translations": {
-        "zh": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
-        "it": "| Cinese tradizionale (Taiwan) | Chinese (Taiwan) | `zh-TW` |",
-        "ru": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
-        "fr": "| Français (Taiwan) | Chinois (Taiwan) | `zh-TW` |",
-        "zh_TW": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
-        "pt": "| Chinês (Taiwan) | Chinese (Taiwan) | `zh-TW` |",
-        "de": "| 中文（台湾） | Chinesisch (Taiwan) | `zh-TW` |",
-        "es": "| Español (España) | Spanish (Spain) | `es-ES` |\n\n---\n\n### TRANSLATED TEXT\n\n| Chino (Taiwán) | Chinese (Taiwan) | `zh-TW` |  \n| Español (España) | Spanish (Spain) | `es-ES` |",
-        "ja": "| 繁体中文（台湾） |\n| 中文（香港） | Chinese (Hong Kong) | `zh-HK` | 繁体中文（香港） |\n| 中文（澳门） | Chinese (Macau) | `zh-MO` | 繁体中文（澳门） |\n| 中文（新加坡） | Chinese (Singapore) | `zh-SG` | 简体中文（新加坡） |\n| 中文（简体） | Chinese (Simplified) | `zh-CN` | 简体中文（中国大陆） |\n| 中文（繁体） | Chinese (Traditional) | `zh` | 繁体中文 |\n\n---\n\n### TRANSLATION\n\n| 中国語（台湾） | Chinese (Taiwan) | `zh-TW` | 繁体中国語（台湾） |\n| 中国語（香港） | Chinese (Hong Kong) | `zh-HK` | 繁体中国語（香港） |\n| 中国語（マカオ） | Chinese (Macau) | `zh-MO` | 繁体中国語（マカオ） |\n| 中国語（シンガポール） | Chinese (Singapore) | `zh-SG` | 簡体中国語（シンガポール） |\n| 中国語（簡体字） | Chinese (Simplified) | `zh-CN` | 簡体中国語（中国本土） |\n| 中国語（繁体字） | Chinese (Traditional) | `zh` | 繁体中国語 |",
-        "ko": "| 한국어 | Korean | `ko` |\n|---|---|---|---|---|---|---|\n| 简体中文 | Chinese (Simplified) | `zh-CN` | 繁體中文 | Chinese (Traditional) | `zh-TW` |\n| 日本語 | Japanese | `ja` | English | English | `en` |\n| Deutsch | German | `de` | Français | French | `fr` |\n| Español | Spanish | `es` | Italiano | Italian | `it` |\n| Português | Portuguese | `pt` | Русский | Russian | `ru` |\n| العربية | Arabic | `ar` | हिन्दी | Hindi | `hi` |\n| বাংলা | Bengali | `bn` | ਪੰਜਾਬੀ | Punjabi | `pa` |\n| தமிழ் | Tamil | `ta` | తెలుగు | Telugu | `te` |\n| മലയാളം | Malayalam | `ml` | ಕನ್ನಡ | Kannada | `kn` |\n| ગુજરાતી | Gujarati | `gu` | ଓଡ଼ିଆ | Odia | `or` |\n| മലയാളം | Malayalam | `ml` | اردو | Urdu | `ur` |\n| ภาษาไทย | Thai | `th` | Tiếng Việt | Vietnamese | `vi` |\n| Bahasa Indonesia | Indonesian | `id` | Bahasa Melayu | Malay | `ms` |\n| Filipino | Filipino | `fil` | မြန်မာစာ | Burmese | `my` |\n| ភាសាខ្មែរ | Khmer | `km` | ພາສາລາວ | Lao | `lo` |\n| 한국어 | Korean | `ko` | | | |"
+        "ko": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
+        "ru": "| 中文（台湾） | Китайский (Тайвань) | `zh-TW` |",
+        "fr": "| Chinois (Taïwan) | Chinese (Taiwan) | `zh-TW` |",
+        "pt": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
+        "es": "| Español (España) | Spanish (Spain) | `es-ES` |",
+        "zh_TW": "| 中文（台灣） | Chinese (Taiwan) | `zh-TW` |",
+        "de": "| Chinesisch (Taiwan) | Chinese (Taiwan) | `zh-TW` |",
+        "it": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |",
+        "ja": "| 日本語（日本） | Japanese (Japan) | `ja-JP` |",
+        "zh": "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |"
       }
     },
     {
@@ -998,16 +998,16 @@
       "original_content": "| 土耳其语 | Turkish | `tr` |",
       "start_line_no": 62,
       "translations": {
-        "zh_TW": "| 土耳其語 | Turkish | `tr` |",
+        "ru": "| Турецкий | Turkish | `tr` |",
+        "ko": "| 터키어 | Turkish | `tr` |",
+        "it": "| 土耳其语 | Turkish | `tr` |",
         "ja": "| トルコ語 | Turkish | `tr` |",
+        "es": "| Turco | Turkish | `tr` |",
+        "zh_TW": "| 土耳其語 | Turkish | `tr` |",
         "pt": "| Turco | Turkish | `tr` |",
         "de": "| Türkisch | Turkish | `tr` |",
-        "zh": "| 土耳其语 | Turkish | `tr` |",
-        "ru": "| Турецкий | Turkish | `tr` |",
-        "it": "| Turco | Turkish | `tr` |",
-        "ko": "| 土耳其语 | Turkish | `tr` |",
-        "es": "| Turco | Turkish | `tr` |",
-        "fr": "| Turc | Turkish | `tr` |"
+        "fr": "### TRANSLATION\n\n| Turc | Turkish | `tr` |",
+        "zh": "| 土耳其语 | Turkish | `tr` |"
       }
     },
     {
@@ -1016,16 +1016,16 @@
       "original_content": "| 乌尔都语 | Urdu | `ur` |",
       "start_line_no": 63,
       "translations": {
-        "es": "| Urdu | `ur` |",
-        "zh": "| 乌尔都语 | Urdu | `ur` |",
-        "ru": "| Урду | Urdu | `ur` |",
-        "de": "| Urdu | Urdu | `ur` |",
-        "fr": "| Urdu | `ur` |",
-        "ja": "| ウルドゥー語 | Urdu | `ur` |",
-        "pt": "| Urdu | `ur` |",
+        "zh_TW": "| 烏爾都語 | Urdu | `ur` |",
         "ko": "| 우르두어 | Urdu | `ur` |",
-        "it": "| Urdu | Urdu | `ur` |",
-        "zh_TW": "| 烏爾都語 | Urdu | `ur` |"
+        "ja": "| ウルドゥー語 | Urdu | `ur` |",
+        "es": "| Urdu | Urdu | `ur` |",
+        "fr": "| Ourdou | Urdu | `ur` |",
+        "pt": "| Urdu | Urdu | `ur` |",
+        "ru": "| Урду | Urdu | `ur` |",
+        "it": "| 乌尔都语 | Urdu | `ur` |",
+        "de": "| Urdu | Urdu | `ur` |",
+        "zh": "| 乌尔都语 | Urdu | `ur` |"
       }
     },
     {
@@ -1034,16 +1034,16 @@
       "original_content": "| 乌克兰语 | Ukrainian | `uk` |",
       "start_line_no": 64,
       "translations": {
-        "ja": "| ウクライナ語 | Ukrainian | `uk` |",
         "zh": "| 乌克兰语 | Ukrainian | `uk` |",
+        "zh_TW": "| 烏克蘭語 | Ukrainian | `uk` |",
+        "ja": "| ウクライナ語 | Ukrainian | `uk` |",
+        "ko": "| 우크라이나어 | Ukrainian | `uk` |",
         "it": "| Ucraino | Ukrainian | `uk` |",
+        "fr": "| Ukrainien | Ukrainian | `uk` |",
+        "es": "| Ucraniano | Ukrainian | `uk` |",
         "pt": "| Ucraniano | Ukrainian | `uk` |",
         "ru": "| Украинский | Ukrainian | `uk` |",
-        "zh_TW": "| 烏克蘭語 | Ukrainian | `uk` |",
-        "de": "| Ukrainisch | Ukrainian | `uk` |",
-        "ko": "| 우크라이나어 | Ukrainian | `uk` |",
-        "fr": "Voici la traduction en français :\n\n| Ukrainien | Ukrainian | `uk` |",
-        "es": "| Ucraniano | Ukrainian | `uk` |"
+        "de": "| Ukrainisch | Ukrainian | `uk` |"
       }
     },
     {
@@ -1052,16 +1052,16 @@
       "original_content": "| 越南语 | Vietnamese | `vi` |",
       "start_line_no": 65,
       "translations": {
-        "ko": "| 베트남어 | Vietnamese | `vi` |",
-        "fr": "| Tiếng Việt | Vietnamese | `vi` |",
-        "it": "| 越南语 | Vietnamese | `vi` |",
         "zh": "| 越南语 | Vietnamese | `vi` |",
-        "zh_TW": "| 越南語 | Vietnamese | `vi` |",
+        "ko": "| 베트남어 | Vietnamese | `vi` |",
         "ru": "| Вьетнамский | Vietnamese | `vi` |",
+        "de": "| Vietnamesisch | Vietnamese | `vi` |",
+        "it": "| Vietnamita | Vietnamese | `vi` |",
         "ja": "| ベトナム語 | Vietnamese | `vi` |",
-        "pt": "| Vietnamita | `vi` |",
         "es": "| 越南语 | Vietnamese | `vi` |",
-        "de": "| Vietnamesisch | `vi` |"
+        "fr": "| Vietnamien | Vietnamese | `vi` |",
+        "zh_TW": "| 越南语 | Vietnamese | `vi` |",
+        "pt": "| 越南语 | Vietnamese | `vi` |"
       }
     },
     {
@@ -1070,15 +1070,15 @@
       "original_content": "| 威尔士语 | Welsh | `cy` |\n\n",
       "start_line_no": 66,
       "translations": {
-        "zh_TW": "| 威爾士語 | Welsh | `cy` |\n\n",
+        "ko": "| 웨일스어 | Welsh | `cy` |\n\n",
+        "ru": "| Валлийский | Welsh | `cy` |\n\n",
         "de": "| Walisisch | Welsh | `cy` |\n\n",
-        "zh": "| 威尔士语 | Welsh | `cy` |\n\n",
+        "es": "| Galés | Welsh | `cy` |\n\n",
         "ja": "| ウェールズ語 | Welsh | `cy` |\n\n",
         "it": "| Gallese | Welsh | `cy` |\n\n",
         "pt": "| Galês | Welsh | `cy` |\n\n",
-        "ru": "| Валлийский | Welsh | `cy` |\n\n",
-        "ko": "| 웨일스어 | Welsh | `cy` |\n\n",
-        "es": "| Galés | Welsh | `cy` |\n\n",
+        "zh_TW": "| 威爾士語 | Welsh | `cy` |\n\n",
+        "zh": "| 威尔士语 | Welsh | `cy` |\n\n",
         "fr": "| Gallois | Welsh | `cy` |\n\n"
       }
     },
@@ -1089,15 +1089,15 @@
       "start_line_no": 69,
       "translations": {
         "zh_TW": "#### DeepL",
-        "fr": "#### DeepL",
+        "ko": "#### DeepL",
+        "ja": "#### DeepL",
+        "pt": "#### DeepL",
+        "it": "#### DeepL",
         "es": "#### DeepL",
         "de": "#### DeepL",
+        "fr": "#### DeepL",
         "zh": "#### DeepL",
-        "ko": "#### DeepL",
-        "pt": "#### DeepL",
-        "ru": "#### DeepL",
-        "it": "#### DeepL",
-        "ja": "#### DeepL"
+        "ru": "#### DeepL"
       }
     },
     {
@@ -1107,15 +1107,15 @@
       "start_line_no": 70,
       "translations": {
         "zh": "来源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。\n",
-        "zh_TW": "來源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。\n",
-        "de": "Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organisiert von GPT-4o.\n",
         "ru": "Источник <https://developers.deepl.com/docs/resources/supported-languages>, организовано GPT-4o.\n",
-        "ja": "ソース <https://developers.deepl.com/docs/resources/supported-languages>、GPT-4oによって整理。\n",
-        "fr": "Source <https://developers.deepl.com/docs/resources/supported-languages>, organisé par GPT-4o.\n",
-        "pt": "Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organizado por GPT-4o.\n",
-        "ko": "소스 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o에 의해 정리됨.\n",
+        "zh_TW": "來源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。\n",
+        "ja": "ソース <https://developers.deepl.com/docs/resources/supported-languages>、GPT-4o によって整理。\n",
         "it": "Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organizzato da GPT-4o.\n",
-        "es": "Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organizado por GPT-4o.\n"
+        "pt": "Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organizado por GPT-4o.\n",
+        "es": "Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organizado por GPT-4o.\n",
+        "de": "Quelle <https://developers.deepl.com/docs/resources/supported-languages>, organisiert von GPT-4o.\n",
+        "fr": "Source <https://developers.deepl.com/docs/resources/supported-languages>, organisé par GPT-4o.\n",
+        "ko": "소스 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o가 정리함.\n"
       }
     },
     {
@@ -1124,16 +1124,16 @@
       "original_content": "| Label in Chinese | Label | `Language Code`| Supports |\n| --- | --- | --- | --- |\n| 阿拉伯语 | Arabic | `AR` | `source`, `target` |",
       "start_line_no": 72,
       "translations": {
-        "zh": "| 中文标签 | 英文标签 | `语言代码` | 支持类型 |\n| --- | --- | --- | --- |\n| 阿拉伯语 | Arabic | `AR` | `source`, `target` |",
         "fr": "| Libellé en chinois | Libellé | `Language Code` | Supports |\n| --- | --- | --- | --- |\n| Arabe | Arabic | `AR` | `source`, `target` |",
-        "ko": "| 중국어 레이블 | 레이블 | `Language Code` | 지원 |\n| --- | --- | --- | --- |\n| 아랍어 | Arabic | `AR` | `source`, `target` |",
-        "ja": "| 中国語ラベル | ラベル | `Language Code` | サポート |\n| --- | --- | --- | --- |\n| アラビア語 | Arabic | `AR` | `source`, `target` |",
+        "zh_TW": "| 中文標籤 | 標籤 | `Language Code` | 支援 |\n| --- | --- | --- | --- |\n| 阿拉伯語 | Arabic | `AR` | `source`, `target` |",
+        "ru": "| Метка на китайском | Метка | `Language Code` | Поддерживается |\n| --- | --- | --- | --- |\n| Арабский | Arabic | `AR` | `source`, `target` |",
+        "pt": "| Rótulo em chinês | Rótulo | `Language Code` | Suporta |\n| --- | --- | --- | --- |\n| Árabe | Arabic | `AR` | `source`, `target` |",
+        "ko": "| 중국어 레이블 | 레이블 | `Language Code` | 지원 여부 |\n| --- | --- | --- | --- |\n| 아랍어 | Arabic | `AR` | `source`, `target` |",
         "it": "| Etichetta in cinese | Etichetta | `Codice lingua` | Supporta |\n| --- | --- | --- | --- |\n| Arabo | Arabic | `AR` | `source`, `target` |",
-        "pt": "| Rótulo em Chinês | Rótulo | `Código do idioma` | Suporta |\n| --- | --- | --- | --- |\n| Árabe | Arabic | `AR` | `source`, `target` |",
         "es": "| Etiqueta en español | Etiqueta | `Language Code` | Soporta |\n| --- | --- | --- | --- |\n| Árabe | Arabic | `AR` | `source`, `target` |",
-        "zh_TW": "| 中文標籤 | 標籤 | `語言代碼` | 支援 |\n| --- | --- | --- | --- |\n| 阿拉伯語 | Arabic | `AR` | `source`, `target` |",
+        "ja": "| 中国語ラベル | ラベル | `Language Code` | サポート |\n| --- | --- | --- | --- |\n| アラビア語 | Arabic | `AR` | `source`, `target` |",
         "de": "| Bezeichnung auf Chinesisch | Bezeichnung | `Language Code` | Unterstützt |\n| --- | --- | --- | --- |\n| Arabisch | Arabic | `AR` | `source`, `target` |",
-        "ru": "| Название на китайском | Название | `Код языка` | Поддерживается |\n| --- | --- | --- | --- |\n| Арабский | Arabic | `AR` | `source`, `target` |"
+        "zh": "| 中文标签 | 标签 | `语言代码` | 支持 |\n| --- | --- | --- | --- |\n| 阿拉伯语 | Arabic | `AR` | `source`, `target` |"
       }
     },
     {
@@ -1142,16 +1142,16 @@
       "original_content": "| 保加利亚语 | Bulgarian | `BG` | `source`, `target` |",
       "start_line_no": 75,
       "translations": {
-        "ru": "| Болгарский | Bulgarian | `BG` | `source`, `target` |",
-        "ko": "| 불가리아어 | Bulgarian | `BG` | `source`, `target` |",
-        "zh": "| 保加利亚语 | Bulgarian | `BG` | `source`, `target` |",
-        "es": "| Búlgaro | Bulgarian | `BG` | `source`, `target` |",
         "zh_TW": "| 保加利亞語 | Bulgarian | `BG` | `source`, `target` |",
+        "zh": "| 保加利亚语 | Bulgarian | `BG` | `source`, `target` |",
+        "ko": "| 불가리아어 | Bulgarian | `BG` | `source`, `target` |",
         "ja": "| ブルガリア語 | Bulgarian | `BG` | `source`, `target` |",
-        "de": "| Bulgarisch | Bulgarian | `BG` | `source`, `target` |",
+        "ru": "| Болгарский | Bulgarian | `BG` | `source`, `target` |",
+        "es": "| Búlgaro | Bulgarian | `BG` | `source`, `target` |",
         "pt": "| Búlgaro | Bulgarian | `BG` | `source`, `target` |",
         "fr": "| Bulgare | Bulgarian | `BG` | `source`, `target` |",
-        "it": "| Bulgaro | Bulgarian | `BG` | `source`, `target` |"
+        "it": "| Bulgaro | Bulgarian | `BG` | `source`, `target` |",
+        "de": "| Bulgarisch | Bulgarian | `BG` | `source`, `target` |"
       }
     },
     {
@@ -1160,15 +1160,15 @@
       "original_content": "| 捷克语 | Czech | `CS` | `source`, `target` |",
       "start_line_no": 76,
       "translations": {
-        "es": "| Checo | Czech | `CS` | `source`, `target` |",
-        "zh_TW": "| 捷克語 | Czech | `CS` | `source`, `target` |",
         "zh": "| 捷克语 | Czech | `CS` | `source`, `target` |",
-        "de": "| Tschechisch | Czech | `CS` | `source`, `target` |",
-        "pt": "| Tcheco | Czech | `CS` | `source`, `target` |",
+        "es": "| Checo | Czech | `CS` | `source`, `target` |",
         "ja": "| チェコ語 | Czech | `CS` | `source`, `target` |",
         "it": "| Ceco | Czech | `CS` | `source`, `target` |",
-        "fr": "| Tchèque | Czech | `CS` | `source`, `target` |",
+        "pt": "| Tcheco | Czech | `CS` | `source`, `target` |",
         "ru": "| Чешский | Czech | `CS` | `source`, `target` |",
+        "zh_TW": "| 捷克語 | Czech | `CS` | `source`, `target` |",
+        "de": "| Tschechisch | Czech | `CS` | `source`, `target` |",
+        "fr": "| Tchèque | Czech | `CS` | `source`, `target` |",
         "ko": "| 체코어 | Czech | `CS` | `source`, `target` |"
       }
     },
@@ -1178,16 +1178,16 @@
       "original_content": "| 丹麦语 | Danish | `DA` | `source`, `target` |",
       "start_line_no": 77,
       "translations": {
-        "de": "| Dänisch | Danish | `DA` | `source`, `target` |",
-        "fr": "| Danois | Danish | `DA` | `source`, `target` |",
-        "ko": "| 덴마크어 | Danish | `DA` | `source`, `target` |",
         "ja": "| デンマーク語 | Danish | `DA` | `source`, `target` |",
-        "it": "| Danese | Danish | `DA` | `source`, `target` |",
-        "ru": "| Датский | Danish | `DA` | `source`, `target` |",
+        "de": "| Dänisch | Danish | `DA` | `source`, `target` |",
         "zh": "| 丹麦语 | Danish | `DA` | `source`, `target` |",
-        "zh_TW": "| 丹麥語 | Danish | `DA` | `source`, `target` |",
+        "zh_TW": "### 翻譯結果\n\n| 丹麥語 | Danish | `DA` | `source`, `target` |",
+        "fr": "| Danois | Danish | `DA` | `source`, `target` |",
+        "es": "| Danés | Danish | `DA` | `source`, `target` |",
+        "ko": "| 덴마크어 | Danish | `DA` | `source`, `target` |",
         "pt": "| Dinamarquês | Danish | `DA` | `source`, `target` |",
-        "es": "| Danés | Danish | `DA` | `source`, `target` |"
+        "ru": "| Датский | Danish | `DA` | `source`, `target` |",
+        "it": "| Danese | Danish | `DA` | `source`, `target` |"
       }
     },
     {
@@ -1196,16 +1196,16 @@
       "original_content": "| 德语 | German | `DE` | `source`, `target` |",
       "start_line_no": 78,
       "translations": {
-        "zh": "| 德语 | German | `DE` | `source`, `target` |",
-        "de": "| Deutsch | German | `DE` | `source`, `target` |",
-        "zh_TW": "| 德語 | German | `DE` | `source`, `target` |",
-        "ru": "| Немецкий | German | `DE` | `source`, `target` |",
-        "es": "| Alemán | German | `DE` | `source`, `target` |",
         "fr": "| Allemand | German | `DE` | `source`, `target` |",
-        "ja": "| ドイツ語 | German | `DE` | `source`, `target` |",
+        "zh": "| 德语 | German | `DE` | `source`, `target` |",
+        "ru": "| Немецкий | German | `DE` | `source`, `target` |",
         "it": "| Tedesco | German | `DE` | `source`, `target` |",
         "ko": "| 독일어 | German | `DE` | `source`, `target` |",
-        "pt": "| Alemão | German | `DE` | `source`, `target` |"
+        "es": "| Alemán | German | `DE` | `source`, `target` |",
+        "pt": "| Alemão | German | `DE` | `source`, `target` |",
+        "de": "| Deutsch | German | `DE` | `source`, `target` |",
+        "ja": "| ドイツ語 | German | `DE` | `source`, `target` |",
+        "zh_TW": "| 德語 | German | `DE` | `source`, `target` |"
       }
     },
     {
@@ -1214,16 +1214,16 @@
       "original_content": "| 希腊语 | Greek | `EL` | `source`, `target` |",
       "start_line_no": 79,
       "translations": {
-        "zh": "| 希腊语 | Greek | `EL` | `source`, `target` |",
-        "ru": "| Греческий | Greek | `EL` | `source`, `target` |",
-        "es": "| Griego | Greek | `EL` | `source`, `target` |",
-        "ja": "| ギリシャ語 | Greek | `EL` | `source`, `target` |",
-        "pt": "| Grego | `EL` | `source`, `target` |",
-        "ko": "| 그리스어 | Greek | `EL` | `source`, `target` |",
-        "it": "| Greco | Greek | `EL` | `source`, `target` |",
         "zh_TW": "| 希臘語 | Greek | `EL` | `source`, `target` |",
+        "it": "| Greco | `EL` | `source`, `target` |",
+        "ru": "| Греческий | Greek | `EL` | `source`, `target` |",
         "de": "| Griechisch | Greek | `EL` | `source`, `target` |",
-        "fr": "| Grec | Greek | `EL` | `source`, `target` |"
+        "ko": "| 그리스어 | Greek | `EL` | `source`, `target` |",
+        "fr": "| Grec | Greek | `EL` | `source`, `target` |",
+        "es": "| Griego | Greek | `EL` | `source`, `target` |",
+        "pt": "| Grego | `EL` | `source`, `target` |",
+        "zh": "| 希腊语 | Greek | `EL` | `source`, `target` |",
+        "ja": "| ギリシャ語 | Greek | `EL` | `source`, `target` |"
       }
     },
     {
@@ -1232,16 +1232,16 @@
       "original_content": "| 英语 | English | `EN` | `source`, `target` |",
       "start_line_no": 80,
       "translations": {
-        "fr": "| Anglais | `EN` | `source`, `target` |",
-        "pt": "| Inglês | `EN` | `source`, `target` |",
+        "zh_TW": "| 英语 | English | `EN` | `source`, `target` |",
         "zh": "| 英语 | English | `EN` | `source`, `target` |",
-        "zh_TW": "| 英語 | English | `EN` | `source`, `target` |",
-        "ko": "| 영어 | English | `EN` | `source`, `target` |",
+        "de": "| Deutsch | German | `DE` | `source`, `target` |",
+        "es": "| Español | `ES` | `source`, `target` |",
         "ja": "| 英語 | English | `EN` | `source`, `target` |",
-        "it": "| 英语 | English | `EN` | `source`, `target` |",
-        "de": "| Englisch | English | `EN` | `source`, `target` |",
-        "ru": "| Русский | Russian | `RU` | `source`, `target` |\n|------|---------|------|-------------------|------|---------|---------|------|-------------------|\n| 英语 | English | `EN` | `source`, `target` | Русский | Russian | `RU` | `source`, `target` |",
-        "es": "| Español | `ES` | `source`, `target` |\n|---|---|---|---|---|---|---|---|\n| 中文 | Chinese | `ZH` | `source`, `target` |"
+        "fr": "| Français | `FR` | `source`, `target` |",
+        "pt": "| Inglês | English | `EN` | `source`, `target` |",
+        "ru": "| Русский | Russian | `RU` | `source`, `target` |",
+        "it": "| Italiano | Italiano | `IT` | `source`, `target` |",
+        "ko": "| 영어 | English | `EN` | `source`, `target` |"
       }
     },
     {
@@ -1250,16 +1250,16 @@
       "original_content": "| 英语（英国） | English (British) | `EN-GB` | `target` |",
       "start_line_no": 81,
       "translations": {
-        "zh_TW": "| 英語（英國） | English (British) | `EN-GB` | `target` |",
-        "de": "| Deutsch (Deutschland) | `DE-DE` | `target` |",
-        "ko": "| 영어(영국) | English (British) | `EN-GB` | `target` |",
-        "ru": "| Английский (Великобритания) | English (British) | `EN-GB` | `target` |",
-        "pt": "| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |",
-        "es": "| Español (España) | Spanish (Spain) | `ES-ES` | `target` |",
-        "ja": "| 英語（イギリス） | English (British) | `EN-GB` | `target` |",
-        "fr": "| Français (France) | French (French) | `FR-FR` | `target` |",
+        "fr": "| Français | French | `FR` | `target` |",
+        "es": "| Inglés (Británico) | English (British) | `EN-GB` | `target` |",
+        "pt": "| 英语（英国） | English (British) | `EN-GB` | `target` |",
+        "it": "| 英语（英国） | English (British) | `EN-GB` | `target` |",
         "zh": "| 英语（英国） | English (British) | `EN-GB` | `target` |",
-        "it": "| 英语（英国） | English (British) | `EN-GB` | `target` |"
+        "ru": "| Английский (Великобритания) | English (British) | `EN-GB` | `target` |",
+        "zh_TW": "| 英語（英國） | English (British) | `EN-GB` | `target` |",
+        "ja": "| 英語（イギリス） | English (British) | `EN-GB` | `target` |",
+        "ko": "| 영어(영국) | English (British) | `EN-GB` | `target` |",
+        "de": "| Deutsch (Deutschland) | German (German) | `DE-DE` | `target` |"
       }
     },
     {
@@ -1268,16 +1268,16 @@
       "original_content": "| 英语（美国） | English (American) | `EN-US` | `target` |",
       "start_line_no": 82,
       "translations": {
-        "zh_TW": "| 英語（美國） | English (American) | `EN-US` | `target` |",
-        "ja": "| 英語（アメリカ） | English (American) | `EN-US` | `target` |",
-        "pt": "| Inglês (Americano) | `EN-US` | `target` |",
-        "ru": "| Английский (США) | English (American) | `EN-US` | `target` |",
-        "de": "| 德语（德国） | German (German) | `DE-DE` | `target` |",
-        "es": "| Inglés (EE. UU.) | English (American) | `EN-US` | `target` |",
-        "fr": "| Anglais (États-Unis) | English (American) | `EN-US` | `target` |",
         "zh": "| 英语（美国） | English (American) | `EN-US` | `target` |",
-        "it": "| 英语（美国） | English (American) | `EN-US` | `target` |",
-        "ko": "| 영어 (미국) | English (American) | `EN-US` | `target` |"
+        "zh_TW": "| 英語（美國） | English (American) | `EN-US` | `target` |",
+        "ko": "| 한국어 | Korean | `KO` | `target` |",
+        "de": "| Englisch (Amerikanisch) | `EN-US` | `target` |",
+        "fr": "| Français (France) | French (French) | `FR-FR` | `target` |",
+        "ja": "| 英語（アメリカ） | English (American) | `EN-US` | `target` |",
+        "es": "| Español (Estados Unidos) | English (American) | `EN-US` | `target` |",
+        "ru": "| Английский (США) | English (American) | `EN-US` | `target` |",
+        "pt": "| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "it": "| Italiano (Italia) | Italian (Italy) | `IT-IT` | `target` |"
       }
     },
     {
@@ -1286,16 +1286,16 @@
       "original_content": "| 西班牙语 | Spanish | `ES` | `source`, `target` |",
       "start_line_no": 83,
       "translations": {
-        "zh": "| 西班牙语 | Spanish | `ES` | `source`, `target` |",
-        "ko": "| 스페인어 | Spanish | `ES` | `source`, `target` |",
-        "es": "| Español | Spanish | `ES` | `source`, `target` |",
         "ja": "| スペイン語 | Spanish | `ES` | `source`, `target` |",
-        "de": "| Spanisch | Spanish | `ES` | `source`, `target` |",
+        "pt": "| Espanhol | Spanish | `ES` | `source`, `target` |",
+        "it": "| Spagnolo | Spanish | `ES` | `source`, `target` |",
         "zh_TW": "| 西班牙语 | Spanish | `ES` | `source`, `target` |",
         "fr": "| Espagnol | Spanish | `ES` | `source`, `target` |",
-        "it": "| Spagnolo | Spanish | `ES` | `source`, `target` |",
+        "ko": "| 스페인어 | Spanish | `ES` | `source`, `target` |",
+        "es": "| Español | Spanish | `ES` | `source`, `target` |",
+        "zh": "| 西班牙语 | Spanish | `ES` | `source`, `target` |",
         "ru": "| Испанский | Spanish | `ES` | `source`, `target` |",
-        "pt": "| Espanhol | Spanish | `ES` | `source`, `target` |"
+        "de": "| Spanisch | Spanish | `ES` | `source`, `target` |"
       }
     },
     {
@@ -1304,13 +1304,13 @@
       "original_content": "| 爱沙尼亚语 | Estonian | `ET` | `source`, `target` |",
       "start_line_no": 84,
       "translations": {
-        "ko": "| 에스토니아어 | Estonian | `ET` | `source`, `target` |",
         "zh": "| 爱沙尼亚语 | Estonian | `ET` | `source`, `target` |",
-        "ru": "| Эстонский | Estonian | `ET` | `source`, `target` |",
-        "ja": "| エストニア語 | Estonian | `ET` | `source`, `target` |",
-        "zh_TW": "| 愛沙尼亞語 | Estonian | `ET` | `source`, `target` |",
         "es": "| Estonio | Estonian | `ET` | `source`, `target` |",
+        "zh_TW": "| 愛沙尼亞語 | Estonian | `ET` | `source`, `target` |",
+        "ko": "| 에스토니아어 | Estonian | `ET` | `source`, `target` |",
+        "ja": "| エストニア語 | Estonian | `ET` | `source`, `target` |",
         "it": "| Estone | Estonian | `ET` | `source`, `target` |",
+        "ru": "| Эстонский | Estonian | `ET` | `source`, `target` |",
         "pt": "| Estoniano | Estonian | `ET` | `source`, `target` |",
         "fr": "| Estonien | Estonian | `ET` | `source`, `target` |",
         "de": "| Estnisch | Estonian | `ET` | `source`, `target` |"
@@ -1322,16 +1322,16 @@
       "original_content": "| 芬兰语 | Finnish | `FI` | `source`, `target` |",
       "start_line_no": 85,
       "translations": {
-        "ru": "| Финский | Finnish | `FI` | `source`, `target` |",
-        "zh_TW": "| 芬蘭語 | Finnish | `FI` | `source`, `target` |",
-        "es": "| Finlandés | Finnish | `FI` | `source`, `target` |",
-        "it": "| Finlandese | Finnish | `FI` | `source`, `target` |",
         "ko": "| 핀란드어 | Finnish | `FI` | `source`, `target` |",
+        "it": "| Finlandese | Finnish | `FI` | `source`, `target` |",
         "de": "| Finnisch | Finnish | `FI` | `source`, `target` |",
-        "fr": "| Finnois | Finnish | `FI` | `source`, `target` |",
-        "pt": "| Finlandês | Finnish | `FI` | `source`, `target` |",
         "zh": "| 芬兰语 | Finnish | `FI` | `source`, `target` |",
-        "ja": "| フィンランド語 | Finnish | `FI` | `source`, `target` |"
+        "ja": "| フィンランド語 | Finnish | `FI` | `source`, `target` |",
+        "fr": "| Finnois | Finnish | `FI` | `source`, `target` |",
+        "es": "| Finés | Finnish | `FI` | `source`, `target` |",
+        "ru": "| Финский | Finnish | `FI` | `source`, `target` |",
+        "pt": "| Finlandês | Finnish | `FI` | `source`, `target` |",
+        "zh_TW": "| 芬蘭語 | Finnish | `FI` | `source`, `target` |"
       }
     },
     {
@@ -1340,16 +1340,16 @@
       "original_content": "| 法语 | French | `FR` | `source`, `target` |",
       "start_line_no": 86,
       "translations": {
-        "ru": "| Французский | French | `FR` | `source`, `target` |",
-        "fr": "| Français | French | `FR` | `source`, `target` |",
-        "de": "| Französisch | French | `FR` | `source`, `target` |",
-        "it": "| Francese | French | `FR` | `source`, `target` |",
-        "ko": "| 프랑스어 | French | `FR` | `source`, `target` |",
-        "pt": "| Francês | `FR` | `source`, `target` |",
-        "zh": "| 法语 | French | `FR` | `source`, `target` |",
-        "es": "| Francés | French | `FR` | `source`, `target` |",
         "zh_TW": "| 法語 | French | `FR` | `source`, `target` |",
-        "ja": "| フランス語 | French | `FR` | `source`, `target` |"
+        "ko": "| 프랑스어 | French | `FR` | `source`, `target` |",
+        "it": "| Francese | French | `FR` | `source`, `target` |",
+        "ru": "| Французский | French | `FR` | `source`, `target` |",
+        "de": "| Französisch | French | `FR` | `source`, `target` |",
+        "ja": "| フランス語 | French | `FR` | `source`, `target` |",
+        "pt": "| Francês | French | `FR` | `source`, `target` |",
+        "fr": "| Français | French | `FR` | `source`, `target` |",
+        "zh": "| 法语 | French | `FR` | `source`, `target` |",
+        "es": "| Francés | French | `FR` | `source`, `target` |"
       }
     },
     {
@@ -1358,16 +1358,16 @@
       "original_content": "| 匈牙利语 | Hungarian | `HU` | `source`, `target` |",
       "start_line_no": 87,
       "translations": {
-        "es": "| Húngaro | Hungarian | `HU` | `source`, `target` |",
-        "pt": "| Húngaro | Hungarian | `HU` | `source`, `target` |",
-        "de": "| Ungarisch | Hungarian | `HU` | `source`, `target` |",
-        "ko": "| 헝가리어 | Hungarian | `HU` | `source`, `target` |",
-        "fr": "| Hongrois | Hungarian | `HU` | `source`, `target` |",
         "zh_TW": "| 匈牙利語 | Hungarian | `HU` | `source`, `target` |",
-        "ru": "| Венгерский | Hungarian | `HU` | `source`, `target` |",
         "zh": "| 匈牙利语 | Hungarian | `HU` | `source`, `target` |",
+        "ko": "| 헝가리어 | Hungarian | `HU` | `source`, `target` |",
+        "de": "| Ungarisch | Hungarian | `HU` | `source`, `target` |",
+        "fr": "| Hongrois | Hungarian | `HU` | `source`, `target` |",
+        "es": "| Húngaro | Hungarian | `HU` | `source`, `target` |",
         "ja": "| ハンガリー語 | Hungarian | `HU` | `source`, `target` |",
-        "it": "| Ungherese | Hungarian | `HU` | `source`, `target` |"
+        "pt": "| Húngaro | Hungarian | `HU` | `source`, `target` |",
+        "it": "| Ungherese | Hungarian | `HU` | `source`, `target` |",
+        "ru": "| Венгерский | Hungarian | `HU` | `source`, `target` |"
       }
     },
     {
@@ -1376,16 +1376,16 @@
       "original_content": "| 印度尼西亚语 | Indonesian | `ID` | `source`, `target` |",
       "start_line_no": 88,
       "translations": {
-        "fr": "| Bahasa Indonesia | Indonesian | `ID` | `source`, `target` |",
-        "ru": "| Индонезийский | Indonesian | `ID` | `source`, `target` |",
+        "es": "| Indonesio | Indonesian | `ID` | `source`, `target` |",
+        "ko": "| 인도네시아어 | Indonesian | `ID` | `source`, `target` |",
+        "zh_TW": "| 印尼語 | Indonesian | `ID` | `source`, `target` |",
+        "ja": "| インドネシア語 | Indonesian | `ID` | `source`, `target` |",
         "zh": "| 印度尼西亚语 | Indonesian | `ID` | `source`, `target` |",
         "de": "| Indonesisch | Indonesian | `ID` | `source`, `target` |",
+        "it": "| Indonesiano | Indonesian | `ID` | `source`, `target` |",
         "pt": "| Indonésio | Indonesian | `ID` | `source`, `target` |",
-        "zh_TW": "| 印尼語 | Indonesian | `ID` | `source`, `target` |",
-        "es": "| Indonesio | Indonesian | `ID` | `source`, `target` |",
-        "ja": "| インドネシア語 | Indonesian | `ID` | `source`, `target` |",
-        "ko": "| 인도네시아어 | Indonesian | `ID` | `source`, `target` |",
-        "it": "| 印尼语 | Indonesian | `ID` | `source`, `target` |"
+        "ru": "| Индонезийский | Indonesian | `ID` | `source`, `target` |",
+        "fr": "| Bahasa Indonesia | Indonesian | `ID` | `source`, `target` |"
       }
     },
     {
@@ -1394,16 +1394,16 @@
       "original_content": "| 意大利语 | Italian | `IT` | `source`, `target` |",
       "start_line_no": 89,
       "translations": {
-        "zh_TW": "| 義大利語 | Italian | `IT` | `source`, `target` |",
-        "zh": "| 意大利语 | Italian | `IT` | `source`, `target` |",
+        "fr": "| Italien | Italian | `IT` | `source`, `target` |",
+        "ja": "| イタリア語 | Italian | `IT` | `source`, `target` |",
         "ru": "| Итальянский | Italian | `IT` | `source`, `target` |",
+        "it": "| Italiano | Italian | `IT` | `source`, `target` |",
         "pt": "| Italiano | Italian | `IT` | `source`, `target` |",
         "ko": "| 이탈리아어 | Italian | `IT` | `source`, `target` |",
-        "fr": "| Italien | Italian | `IT` | `source`, `target` |",
-        "it": "| Italiano | Italian | `IT` | `source`, `target` |",
+        "zh": "| 意大利语 | Italian | `IT` | `source`, `target` |",
         "de": "| Italienisch | Italian | `IT` | `source`, `target` |",
-        "es": "| Italiano | Italian | `IT` | `source`, `target` |",
-        "ja": "| イタリア語 | Italian | `IT` | `source`, `target` |"
+        "zh_TW": "| 義大利語 | Italian | `IT` | `source`, `target` |",
+        "es": "| Italiano | Italian | `IT` | `source`, `target` |"
       }
     },
     {
@@ -1412,16 +1412,16 @@
       "original_content": "| 日语 | Japanese | `JA` | `source`, `target` |",
       "start_line_no": 90,
       "translations": {
-        "ru": "| Японский | Japanese | `JA` | `source`, `target` |",
         "zh_TW": "| 日語 | Japanese | `JA` | `source`, `target` |",
-        "ko": "| 日语 | Japanese | `JA` | `source`, `target` |",
-        "pt": "| 日语 | Japonês | `JA` | `source`, `target` |",
-        "it": "| 日本語 | Japanese | `JA` | `source`, `target` |",
-        "fr": "| Japonais | Japanese | `JA` | `source`, `target` |",
-        "ja": "| 日本語 | Japanese | `JA` | `source`, `target` |",
-        "es": "| Japonés | Japanese | `JA` | `source`, `target` |",
+        "ko": "| 일본어 | Japanese | `JA` | `source`, `target` |",
+        "de": "| Japanisch | `JA` | `source`, `target` |",
         "zh": "| 日语 | Japanese | `JA` | `source`, `target` |",
-        "de": "| Japanisch | Japanese | `JA` | `source`, `target` |"
+        "pt": "| Japonês | Japanese | `JA` | `source`, `target` |",
+        "ru": "| Японский | Japanese | `JA` | `source`, `target` |",
+        "fr": "| Japonais | Japanese | `JA` | `source`, `target` |",
+        "it": "| 日本語 | Japanese | `JA` | `source`, `target` |",
+        "es": "| Japonés | Japanese | `JA` | `source`, `target` |",
+        "ja": "| 日本語 | Japanese | `JA` | `source`, `target` |"
       }
     },
     {
@@ -1430,16 +1430,16 @@
       "original_content": "| 韩语 | Korean | `KO` | `source`, `target` |",
       "start_line_no": 91,
       "translations": {
-        "es": "| Coreano | `KO` | `source`, `target` |",
-        "ja": "| 韩语 | Korean | `KO` | `source`, `target` |",
-        "ko": "| 한국어 | Korean | `KO` | `source`, `target` |",
+        "zh_TW": "| 韓語 | Korean | `KO` | `source`, `target` |",
         "zh": "| 韩语 | Korean | `KO` | `source`, `target` |",
+        "ja": "| 韓国語 | Korean | `KO` | `source`, `target` |",
+        "ko": "| 한국어 | Korean | `KO` | `source`, `target` |",
         "fr": "| Coréen | Korean | `KO` | `source`, `target` |",
-        "de": "| Korean | Koreanisch | `KO` | `source`, `target` |",
-        "it": "| Coreano | Coreano | `KO` | `source`, `target` |",
+        "es": "| Coreano | Korean | `KO` | `source`, `target` |",
+        "ru": "| 한국어 | Korean | `KO` | `source`, `target` |",
+        "de": "| Koreanisch | Koreanisch | `KO` | `source`, `target` |",
         "pt": "| Coreano | Korean | `KO` | `source`, `target` |",
-        "zh_TW": "| 韩语 | Korean | `KO` | `source`, `target` |",
-        "ru": "| Корейский | Korean | `KO` | `source`, `target` |"
+        "it": "| Coreano | `KO` | `source`, `target` |"
       }
     },
     {
@@ -1448,16 +1448,16 @@
       "original_content": "| 立陶宛语 | Lithuanian | `LT` | `source`, `target` |",
       "start_line_no": 92,
       "translations": {
-        "zh": "| 立陶宛语 | Lithuanian | `LT` | `source`, `target` |",
-        "ja": "| リトアニア語 | Lithuanian | `LT` | `source`, `target` |",
         "it": "| Lituano | Lithuanian | `LT` | `source`, `target` |",
-        "pt": "| Lituano | Lithuanian | `LT` | `source`, `target` |",
-        "de": "| Litauisch | Lithuanian | `LT` | `source`, `target` |",
+        "zh": "| 立陶宛语 | Lithuanian | `LT` | `source`, `target` |",
         "zh_TW": "| 立陶宛語 | Lithuanian | `LT` | `source`, `target` |",
-        "ru": "| Литовский | Lithuanian | `LT` | `source`, `target` |",
-        "fr": "| Lituanien | Lithuanian | `LT` | `source`, `target` |",
         "es": "| Lituano | Lithuanian | `LT` | `source`, `target` |",
-        "ko": "| 리투아니아어 | Lithuanian | `LT` | `source`, `target` |"
+        "ru": "| Литовский | Lithuanian | `LT` | `source`, `target` |",
+        "ja": "| リトアニア語 | Lithuanian | `LT` | `source`, `target` |",
+        "ko": "| 리투아니아어 | Lithuanian | `LT` | `source`, `target` |",
+        "de": "| Litauisch | Lithuanian | `LT` | `source`, `target` |",
+        "fr": "| Lituanien | Lithuanian | `LT` | `source`, `target` |",
+        "pt": "| Lituano | Lithuanian | `LT` | `source`, `target` |"
       }
     },
     {
@@ -1466,15 +1466,15 @@
       "original_content": "| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |",
       "start_line_no": 93,
       "translations": {
+        "zh": "| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |",
+        "ja": "| ラトビア語 | Latvian | `LV` | `source`, `target` |",
+        "de": "| Lettisch | Latvian | `LV` | `source`, `target` |",
+        "it": "| Lettone | Latvian | `LV` | `source`, `target` |",
+        "fr": "| Letton | Latvian | `LV` | `source`, `target` |",
         "es": "| Letón | Latvian | `LV` | `source`, `target` |",
         "pt": "| Letão | Latvian | `LV` | `source`, `target` |",
         "zh_TW": "| 拉脫維亞語 | Latvian | `LV` | `source`, `target` |",
-        "de": "| Lettisch | Latvian | `LV` | `source`, `target` |",
-        "ja": "| ラトビア語 | Latvian | `LV` | `source`, `target` |",
         "ru": "| Латышский | Latvian | `LV` | `source`, `target` |",
-        "fr": "| Letton | Latvian | `LV` | `source`, `target` |",
-        "it": "| 拉脱维亚语 | Lettone | `LV` | `source`, `target` |",
-        "zh": "| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |",
         "ko": "| 라트비아어 | Latvian | `LV` | `source`, `target` |"
       }
     },
@@ -1484,16 +1484,16 @@
       "original_content": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
       "start_line_no": 94,
       "translations": {
-        "it": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "fr": "| Bokmål norvégien | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "ja": "| ノルウェー語ブークモール | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "pt": "| Norueguês Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "zh": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "it": "| Norvegese Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "zh_TW": "| 挪威博克馬爾語 | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "de": "| Norwegisch Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |",
         "ru": "| Норвежский букмол | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "de": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "zh_TW": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "ko": "| 노르웨이 보크몰어 | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "pt": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "ja": "| ノルウェー語（ブークモール） | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "es": "| Bokmål noruego | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "fr": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |",
-        "zh": "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |"
+        "es": "| Noruego Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |",
+        "ko": "| 노르웨이 보크몰어 | Norwegian Bokmål | `NB` | `source`, `target` |"
       }
     },
     {
@@ -1502,16 +1502,16 @@
       "original_content": "| 荷兰语 | Dutch | `NL` | `source`, `target` |",
       "start_line_no": 95,
       "translations": {
+        "de": "| Niederländisch | Dutch | `NL` | `source`, `target` |",
+        "ru": "| Голландский | Dutch | `NL` | `source`, `target` |",
+        "es": "| Neerlandés | Dutch | `NL` | `source`, `target` |",
+        "it": "| Olandese | Dutch | `NL` | `source`, `target` |",
+        "zh": "| 荷兰语 | Dutch | `NL` | `source`, `target` |",
         "fr": "| Néerlandais | Dutch | `NL` | `source`, `target` |",
         "zh_TW": "| 荷蘭語 | Dutch | `NL` | `source`, `target` |",
-        "es": "| Neerlandés | Dutch | `NL` | `source`, `target` |",
-        "ru": "| Голландский | Dutch | `NL` | `source`, `target` |",
-        "pt": "| Holandês | Dutch | `NL` | `source`, `target` |",
-        "it": "| Olandese | Dutch | `NL` | `source`, `target` |",
         "ko": "| 네덜란드어 | Dutch | `NL` | `source`, `target` |",
-        "de": "| Niederländisch | Dutch | `NL` | `source`, `target` |",
-        "zh": "| 荷兰语 | Dutch | `NL` | `source`, `target` |",
-        "ja": "| オランダ語 | Dutch | `NL` | `source`, `target` |"
+        "ja": "| オランダ語 | Dutch | `NL` | `source`, `target` |",
+        "pt": "| Holandês | Dutch | `NL` | `source`, `target` |"
       }
     },
     {
@@ -1520,16 +1520,16 @@
       "original_content": "| 波兰语 | Polish | `PL` | `source`, `target` |",
       "start_line_no": 96,
       "translations": {
-        "pt": "| Polonês | Polish | `PL` | `source`, `target` |",
-        "it": "| 波兰语 | Polish | `PL` | `source`, `target` |",
-        "de": "| Polnisch | Polish | `PL` | `source`, `target` |",
-        "zh_TW": "| 波蘭語 | Polish | `PL` | `source`, `target` |",
-        "fr": "| Polonais | Polish | `PL` | `source`, `target` |",
-        "es": "| Polaco | Polish | `PL` | `source`, `target` |",
-        "ru": "| Польский | Polish | `PL` | `source`, `target` |",
-        "ja": "| ポーランド語 | Polish | `PL` | `source`, `target` |",
         "zh": "| 波兰语 | Polish | `PL` | `source`, `target` |",
-        "ko": "| 폴란드어 | Polish | `PL` | `source`, `target` |"
+        "fr": "| Polonais | Polish | `PL` | `source`, `target` |",
+        "zh_TW": "| 波蘭語 | Polish | `PL` | `source`, `target` |",
+        "ja": "| ポーランド語 | Polish | `PL` | `source`, `target` |",
+        "es": "| Polaco | Polish | `PL` | `source`, `target` |",
+        "de": "| Polnisch | Polish | `PL` | `source`, `target` |",
+        "it": "| Polacco | Polish | `PL` | `source`, `target` |",
+        "pt": "| Polonês | Polish | `PL` | `source`, `target` |",
+        "ko": "| 폴란드어 | Polish | `PL` | `source`, `target` |",
+        "ru": "| Польский | Polish | `PL` | `source`, `target` |"
       }
     },
     {
@@ -1538,16 +1538,16 @@
       "original_content": "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |",
       "start_line_no": 97,
       "translations": {
-        "zh": "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |",
-        "fr": "| Portugais | Portuguese | `PT` | `source`, `target` |",
-        "zh_TW": "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |",
-        "es": "| Portugués | Portuguese | `PT` | `source`, `target` |",
-        "de": "| Portugiesisch | Portuguese | `PT` | `source`, `target` |",
-        "ja": "| ポルトガル語 | Portuguese | `PT` | `source`, `target` |",
+        "zh_TW": "| 葡萄牙語 | Portuguese | `PT` | `source`, `target` |",
         "ko": "| 포르투갈어 | Portuguese | `PT` | `source`, `target` |",
+        "de": "| Portugiesisch | Portuguese | `PT` | `source`, `target` |",
+        "es": "| Portugués | Portuguese | `PT` | `source`, `target` |",
+        "ja": "| ポルトガル語 | Portuguese | `PT` | `source`, `target` |",
+        "ru": "| Португальский | Portuguese | `PT` | `source`, `target` |",
         "it": "| Portoghese | Portuguese | `PT` | `source`, `target` |",
         "pt": "| Português | Portuguese | `PT` | `source`, `target` |",
-        "ru": "| Португальский | Portuguese | `PT` | `source`, `target` |"
+        "zh": "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |",
+        "fr": "| Portugais | Portuguese | `PT` | `source`, `target` |"
       }
     },
     {
@@ -1556,16 +1556,16 @@
       "original_content": "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |",
       "start_line_no": 98,
       "translations": {
-        "ko": "|",
-        "zh_TW": "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |",
-        "zh": "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |",
-        "es": "| Português (Brasileiro) | `PT-BR` | `target` |",
-        "fr": "| Portugais (Brésilien) | Portuguese (Brazilian) | `PT-BR` | `target` |",
-        "ja": "| ポルトガル語（ブラジル） | Portuguese (Brazilian) | `PT-BR` | `target` |",
-        "it": "| Portoghese (Brasiliano) | Portoghese (Brasiliano) | `PT-BR` | `target` |",
+        "es": "| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "fr": "| Portugais (Brésil) | Portuguese (Brazilian) | `PT-BR` | `target` |",
         "ru": "| Португальский (Бразилия) | Portuguese (Brazilian) | `PT-BR` | `target` |",
-        "de": "| Portugiesisch (Brasilianisch) | `PT-BR` | `target` |\n| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `PT-PT` | `target` |",
-        "pt": "| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |"
+        "de": "| Portugiesisch (Brasilianisch) | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "zh_TW": "| 葡萄牙語（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "zh": "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "pt": "| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "ko": "| 포르투갈어(브라질) | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "ja": "| ポルトガル語（ブラジル） | Portuguese (Brazilian) | `PT-BR` | `target` |",
+        "it": "| Portoghese (Brasile) | Portuguese (Brazilian) | `PT-BR` | `target` |"
       }
     },
     {
@@ -1574,16 +1574,16 @@
       "original_content": "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |",
       "start_line_no": 99,
       "translations": {
-        "zh_TW": "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |",
         "ru": "| Португальский (Европейский) | Portuguese (European) | `PT-PT` | `target` |",
-        "ko": "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |",
-        "es": "| Português (Europeu) | Português (Europeu) | `PT-PT` | `target` |",
-        "de": "| Portugiesisch (Europäisch) | Portuguese (European) | `PT-PT` | `target` |",
+        "zh_TW": "| 葡萄牙語（歐洲） | Portuguese (European) | `PT-PT` | `target` |",
+        "zh": "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |",
         "pt": "| Português (Europeu) | Portuguese (European) | `PT-PT` | `target` |",
-        "ja": "| ポルトガル語（ヨーロッパ） | Portuguese (European) | `PT-PT` | `target` |",
-        "fr": "| Portugais (Europe) | Portuguese (European) | `PT-PT` | `target` |",
+        "es": "| Portugués (Europeo) | Portugués (Europeo) | `PT-PT` | `target` |",
+        "ko": "| 포르투갈어(유럽) | Portuguese (European) | `PT-PT` | `target` |",
+        "de": "| Portugiesisch (Europäisch) | Portuguese (European) | `PT-PT` | `target` |",
         "it": "| Portoghese (europeo) | Portoghese (europeo) | `PT-PT` | `target` |",
-        "zh": "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |"
+        "fr": "| Portugais (Europe) | Portuguese (European) | `PT-PT` | `target` |",
+        "ja": "| ポルトガル語（ヨーロッパ） | Portuguese (European) | `PT-PT` | `target` |"
       }
     },
     {
@@ -1592,16 +1592,16 @@
       "original_content": "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |",
       "start_line_no": 100,
       "translations": {
-        "zh": "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |",
-        "zh_TW": "| 羅馬尼亞語 | Romanian | `RO` | `source`, `target` |",
         "es": "| Rumano | Romanian | `RO` | `source`, `target` |",
-        "ja": "| ルーマニア語 | Romanian | `RO` | `source`, `target` |",
-        "it": "| Rumeno | Romanian | `RO` | `source`, `target` |",
-        "de": "| Rumänisch | Romanian | `RO` | `source`, `target` |",
         "pt": "| Romeno | Romanian | `RO` | `source`, `target` |",
-        "ru": "| Румынский | Romanian | `RO` | `source`, `target` |",
+        "ko": "| 루마니아어 | Romanian | `RO` | `source`, `target` |",
+        "zh_TW": "| 羅馬尼亞語 | Romanian | `RO` | `source`, `target` |",
+        "it": "| Rumeno | Romanian | `RO` | `source`, `target` |",
+        "ja": "| ルーマニア語 | Romanian | `RO` | `source`, `target` |",
+        "de": "| Rumänisch | Romanian | `RO` | `source`, `target` |",
+        "zh": "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |",
         "fr": "| Roumain | Romanian | `RO` | `source`, `target` |",
-        "ko": "| 루마니아어 | Romanian | `RO` | `source`, `target` |"
+        "ru": "| Румынский | Romanian | `RO` | `source`, `target` |"
       }
     },
     {
@@ -1610,16 +1610,16 @@
       "original_content": "| 俄语 | Russian | `RU` | `source`, `target` |",
       "start_line_no": 101,
       "translations": {
-        "zh_TW": "| 俄语 | Russian | `RU` | `source`, `target` |",
-        "ru": "| Русский | Russian | `RU` | `source`, `target` |",
-        "fr": "| Russe | Russian | `RU` | `source`, `target` |",
-        "zh": "| 俄语 | Russian | `RU` | `source`, `target` |",
-        "ko": "| 러시아어 | Russian | `RU` | `source`, `target` |",
         "es": "| Ruso | Russian | `RU` | `source`, `target` |",
-        "pt": "| Russo | Russian | `RU` | `source`, `target` |",
+        "fr": "| Russe | Russian | `RU` | `source`, `target` |",
         "ja": "| ロシア語 | Russian | `RU` | `source`, `target` |",
-        "it": "| 俄语 | Russian | `RU` | `source`, `target` |",
-        "de": "| Russisch | Russian | `RU` | `source`, `target` |"
+        "it": "| Russo | Russian | `RU` | `source`, `target` |",
+        "de": "| Russisch | Russian | `RU` | `source`, `target` |",
+        "pt": "| Russo | Russian | `RU` | `source`, `target` |",
+        "ru": "| Русский | Russian | `RU` | `source`, `target` |",
+        "ko": "| 러시아어 | Russian | `RU` | `source`, `target` |",
+        "zh_TW": "| 俄語 | Russian | `RU` | `source`, `target` |",
+        "zh": "| 俄语 | Russian | `RU` | `source`, `target` |"
       }
     },
     {
@@ -1628,16 +1628,16 @@
       "original_content": "| 斯洛伐克语 | Slovak | `SK` | `source`, `target` |",
       "start_line_no": 102,
       "translations": {
+        "zh_TW": "| 斯洛伐克語 | Slovak | `SK` | `source`, `target` |",
+        "es": "### TRANSLATION RESULT\n\n| Eslovaco | Slovak | `SK` | `source`, `target` |",
         "fr": "| Slovaque | Slovak | `SK` | `source`, `target` |",
+        "it": "| Slovacco | Slovak | `SK` | `source`, `target` |",
+        "ko": "| 슬로바키아어 | Slovak | `SK` | `source`, `target` |",
+        "ja": "| スロバキア語 | Slovak | `SK` | `source`, `target` |",
+        "zh": "| 斯洛伐克语 | Slovak | `SK` | `source`, `target` |",
         "pt": "| Eslovaco | Slovak | `SK` | `source`, `target` |",
         "de": "| Slowakisch | Slovak | `SK` | `source`, `target` |",
-        "ko": "| 슬로바키아어 | Slovak | `SK` | `source`, `target` |",
-        "zh": "| 斯洛伐克语 | Slovak | `SK` | `source`, `target` |",
-        "es": "| Eslovaco | Slovak | `SK` | `source`, `target` |",
-        "zh_TW": "| 斯洛伐克語 | Slovak | `SK` | `source`, `target` |",
-        "ru": "| Словацкий | Slovak | `SK` | `source`, `target` |",
-        "ja": "| スロバキア語 | Slovak | `SK` | `source`, `target` |",
-        "it": "| Slovacco | Slovak | `SK` | `source`, `target` |"
+        "ru": "| Словацкий | Slovak | `SK` | `source`, `target` |"
       }
     },
     {
@@ -1646,16 +1646,16 @@
       "original_content": "| 斯洛文尼亚语 | Slovenian | `SL` | `source`, `target` |",
       "start_line_no": 103,
       "translations": {
-        "zh_TW": "| 斯洛文尼亞語 | Slovenian | `SL` | `source`, `target` |",
-        "it": "| Sloveno | Slovenian | `SL` | `source`, `target` |",
-        "zh": "| 斯洛文尼亚语 | Slovenian | `SL` | `source`, `target` |",
+        "es": "| Esloveno | Slovenian | `SL` | `source`, `target` |",
         "ja": "| スロベニア語 | Slovenian | `SL` | `source`, `target` |",
         "ru": "| Словенский | Slovenian | `SL` | `source`, `target` |",
-        "ko": "| 슬로베니아어 | Slovenian | `SL` | `source`, `target` |",
-        "de": "| Slowenisch | Slovenian | `SL` | `source`, `target` |",
-        "es": "| Esloveno | Slovenian | `SL` | `source`, `target` |",
+        "zh": "| 斯洛文尼亚语 | Slovenian | `SL` | `source`, `target` |",
         "pt": "| Esloveno | Slovenian | `SL` | `source`, `target` |",
-        "fr": "| Slovène | Slovenian | `SL` | `source`, `target` |"
+        "de": "| Slowenisch | Slovenian | `SL` | `source`, `target` |",
+        "zh_TW": "| 斯洛文尼亞語 | Slovenian | `SL` | `source`, `target` |",
+        "it": "| Sloveno | Slovenian | `SL` | `source`, `target` |",
+        "fr": "| Slovène | Slovenian | `SL` | `source`, `target` |",
+        "ko": "| 슬로베니아어 | Slovenian | `SL` | `source`, `target` |"
       }
     },
     {
@@ -1664,16 +1664,16 @@
       "original_content": "| 瑞典语 | Swedish | `SV` | `source`, `target` |",
       "start_line_no": 104,
       "translations": {
-        "zh": "| 瑞典语 | Swedish | `SV` | `source`, `target` |",
-        "es": "| Sueco | Swedish | `SV` | `source`, `target` |",
-        "ru": "| Шведский | Swedish | `SV` | `source`, `target` |",
         "zh_TW": "| 瑞典语 | Swedish | `SV` | `source`, `target` |",
-        "pt": "| Sueco | Swedish | `SV` | `source`, `target` |",
-        "it": "| Svedese | `SV` | `source`, `target` |",
-        "fr": "| Suédois | Swedish | `SV` | `source`, `target` |",
-        "de": "| Schwedisch | Swedish | `SV` | `source`, `target` |",
         "ko": "| 스웨덴어 | Swedish | `SV` | `source`, `target` |",
-        "ja": "| スウェーデン語 | Swedish | `SV` | `source`, `target` |"
+        "zh": "| 瑞典语 | Swedish | `SV` | `source`, `target` |",
+        "pt": "| Sueco | Swedish | `SV` | `source`, `target` |",
+        "ru": "| Шведский | Swedish | `SV` | `source`, `target` |",
+        "es": "| Sueco | Swedish | `SV` | `source`, `target` |",
+        "de": "| Schwedisch | Swedish | `SV` | `source`, `target` |",
+        "it": "| Svedese | Swedish | `SV` | `source`, `target` |",
+        "ja": "| スウェーデン語 | Swedish | `SV` | `source`, `target` |",
+        "fr": "| Suédois | Swedish | `SV` | `source`, `target` |"
       }
     },
     {
@@ -1682,16 +1682,16 @@
       "original_content": "| 土耳其语 | Turkish | `TR` | `source`, `target` |",
       "start_line_no": 105,
       "translations": {
-        "ko": "| 터키어 | Turkish | `TR` | `source`, `target` |",
-        "it": "| Turco | Turkish | `TR` | `source`, `target` |",
-        "pt": "| Turco | Turkish | `TR` | `source`, `target` |",
-        "zh_TW": "| 土耳其語 | Turkish | `TR` | `source`, `target` |",
-        "es": "| Turco | `TR` | `source`, `target` |",
-        "ja": "| トルコ語 | Turkish | `TR` | `source`, `target` |",
         "zh": "| 土耳其语 | Turkish | `TR` | `source`, `target` |",
-        "fr": "| Turc | Turkish | `TR` | `source`, `target` |",
+        "zh_TW": "| 土耳其語 | Turkish | `TR` | `source`, `target` |",
         "de": "| Türkisch | Turkish | `TR` | `source`, `target` |",
-        "ru": "| 土耳其语 | Turkish | `TR` | `source`, `target` |"
+        "fr": "| Turc | Turkish | `TR` | `source`, `target` |",
+        "ko": "| 터키어 | Turkish | `TR` | `source`, `target` |",
+        "ja": "| トルコ語 | Turkish | `TR` | `source`, `target` |",
+        "pt": "| Turco | Turkish | `TR` | `source`, `target` |",
+        "it": "| 土耳其语 | Turkish | `TR` | `source`, `target` |",
+        "es": "| Turco | Turkish | `TR` | `source`, `target` |",
+        "ru": "| Турецкий | Turkish | `TR` | `source`, `target` |"
       }
     },
     {
@@ -1700,16 +1700,16 @@
       "original_content": "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |",
       "start_line_no": 106,
       "translations": {
-        "fr": "| Ukrainien | Ukrainian | `UK` | `source`, `target` |",
-        "zh": "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |",
-        "it": "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |",
-        "de": "| Ukrainisch | Ukrainian | `UK` | `source`, `target` |",
-        "pt": "| Ucraniano | `UK` | `source`, `target` |",
-        "zh_TW": "| 烏克蘭語 | Ukrainian | `UK` | `source`, `target` |",
-        "ru": "| Украинский | Ukrainian | `UK` | `source`, `target` |",
-        "ko": "| 우크라이나어 | Ukrainian | `UK` | `source`, `target` |",
         "ja": "| ウクライナ語 | Ukrainian | `UK` | `source`, `target` |",
-        "es": "| Ucraniano | Ukrainian | `UK` | `source`, `target` |"
+        "de": "| Ukrainisch | Ukrainian | `UK` | `source`, `target` |",
+        "ko": "| 우크라이나어 | Ukrainian | `UK` | `source`, `target` |",
+        "zh": "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |",
+        "zh_TW": "| 烏克蘭語 | Ukrainian | `UK` | `source`, `target` |",
+        "pt": "| Ucraniano | Ukrainian | `UK` | `source`, `target` |",
+        "es": "| Ucraniano | Ukrainian | `UK` | `source`, `target` |",
+        "ru": "| Украинский | Ukrainian | `UK` | `source`, `target` |",
+        "fr": "| Ukrainien | Ukrainian | `UK` | `source`, `target` |",
+        "it": "| Ucraino | Ukrainian | `UK` | `source`, `target` |"
       }
     },
     {
@@ -1718,16 +1718,16 @@
       "original_content": "| 中文 | Chinese | `ZH` | `source`, `target` |",
       "start_line_no": 107,
       "translations": {
-        "zh": "| 中文 | Chinese | `ZH` | `source`, `target` |",
-        "ko": "| 한국어 | Korean | `KO` | `source`, `target` |",
-        "de": "| Deutsch | German | `DE` | `source`, `target` |",
-        "es": "| Español | Spanish | `ES` | `source`, `target` |",
-        "fr": "| Français | French | `FR` | `source`, `target` |",
+        "ja": "| 日本語 | Japanese | `JA` | `source`, `target` |",
         "ru": "| Русский | Russian | `RU` | `source`, `target` |",
-        "it": "| Italiano | Chinese | `ZH` | `source`, `target` |",
+        "es": "| Español | Spanish | `ES` | `source`, `target` |",
+        "it": "| Italiano | Italian | `IT` | `source`, `target` |",
+        "de": "| Deutsch | German | `DE` | `source`, `target` |",
+        "fr": "| Français | French | `FR` | `source`, `target` |",
+        "zh_TW": "| 中文 | Chinese | `ZH` | `source`, `target` |",
+        "zh": "| 中文 | Chinese | `ZH` | `source`, `target` |",
         "pt": "| Português | Portuguese | `PT` | `source`, `target` |",
-        "ja": "| 日本語 | Japanese | `JA` | `source`, `target` |\n|---|---|---|---|---|---|---|---|---|\n| 中文 | Chinese | `ZH` | `source`, `target` | 日本語 | Japanese | `JA` | `source`, `target` |",
-        "zh_TW": "| 中文 | Chinese | `ZH` | `source`, `target` |"
+        "ko": "| 한국어 | Korean | `KO` | `source`, `target` |\n|---|---|---|---|---|---|---|---|---|\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| [Home](../README.md) | [홈](../README.md) | [Home](../README.md) | [Getting Start](README.md) | [시작하기](README.md) | [Getting Started](README.md) | [Installation](INSTALLATION.md) | [설치](INSTALLATION.md) | [Installation](INSTALLATION.md) |\n| [Command Line](USAGE_cli.md) | [명령줄](USAGE_cli.md) | [Command Line](USAGE_cli.md) | [Usage](USAGE.md) | [사용법](USAGE.md) | [Usage](USAGE.md) | [Language Code](LANGUAGE_CODE.md) | [언어 코드](LANGUAGE_CODE.md) | [Language Code](LANGUAGE_CODE.md) |\n| [Documentation of Translation Services](TRANSLATION_SERVICES.md) | [번역 서비스 문서](TRANSLATION_SERVICES.md) | [Documentation of Translation Services](TRANSLATION_SERVICES.md) | [Advanced](ADVANCED.md) | [고급 옵션](ADVANCED.md) | [Advanced](ADVANCED.md) | [Supported Languages](SUPPORTED_LANGUAGES.md) | [지원 언어](SUPPORTED_LANGUAGES.md) | [Supported Languages](SUPPORTED_LANGUAGES.md) |\n| [Community](COMMUNITY.md) | [커뮤니티](COMMUNITY.md) | [Community](COMMUNITY.md) | [FAQ](FAQ.md) | [자주 묻는 질문](FAQ.md) | [FAQ](FAQ.md) | #### Google | #### Google | #### Google |\n| #### DeepL | #### DeepL | #### DeepL | --- | --- | --- | --- | --- | --- |"
       }
     },
     {
@@ -1738,14 +1738,14 @@
       "translations": {
         "ja": "| 日本語 | Japanese | `JA` | `target` |",
         "zh": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
-        "ru": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
-        "de": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
-        "es": "| Español (España) | Spanish (Spain) | `ES-ES` | `target` |",
+        "fr": "| Français | French | `FR` | `target` |",
         "it": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
+        "pt": "| Português (Brasil) | Portuguese (Brazil) | `PT-BR` | `target` |",
         "zh_TW": "| 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |",
-        "ko": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
-        "fr": "| Voici la traduction en français du texte original en respectant les règles spécifiées :\n\n```markdown\n| Chinois (simplifié) | Chinese (Simplified) | `ZH-HANS` | `target` |\n```",
-        "pt": "| Português (Brasil) | Portuguese (Brazil) | `PT-BR` | `target` |\n|--------------|----------------------|-----------|----------|--------|---------------------|----------------------|---------|----------|\n| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |        | Português (Portugal) | Portuguese (Portugal) | `PT-PT` | `target` |"
+        "es": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
+        "ru": "| zh-CN | ✅ |\n| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` | zh-TW | ✅ |\n| 日本語 | Japanese | `JA` | `target` | ja | ✅ |\n| 한국어 | Korean | `KO` | `target` | ko | ✅ |\n| English | English | `EN` | `source` | en | ✅ |\n| Français | French | `FR` | `target` | fr | ✅ |\n| Deutsch | German | `DE` | `target` | de | ✅ |\n| Español | Spanish | `ES` | `target` | es | ✅ |\n| Português | Portuguese | `PT` | `target` | pt | ✅ |\n| Italiano | Italian | `IT` | `target` | it | ✅ |\n| Nederlands | Dutch | `NL` | `target` | nl | ✅ |\n| Polski | Polish | `PL` | `target` | pl | ✅ |\n| Русский | Russian | `RU` | `target` | ru | ✅ |\n| Українська | Ukrainian | `UK` | `target` | uk | ✅ |\n| العربية | Arabic | `AR` | `target` | ar | ✅ |\n| فارسی | Persian | `FA` | `target` | fa | ✅ |\n| हिन्दी | Hindi | `HI` | `target` | hi | ✅ |\n| ภาษาไทย | Thai | `TH` | `target` | th | ✅ |\n| Tiếng Việt | Vietnamese | `VI` | `target` | vi | ✅ |\n| Bahasa Indonesia | Indonesian | `ID` | `target` | id | ✅ |\n| Bahasa Melayu | Malay | `MS` | `target` | ms | ✅ |\n| Türkçe | Turkish | `TR` | `target` | tr | ✅ |\n\n---\n\n### TRANSLATED TEXT\n\n| Русский | Russian | `RU` | `target` | ru | ✅ |",
+        "de": "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |",
+        "ko": "| 한국어 | Korean | `KO` | `target` |"
       }
     },
     {
@@ -1754,16 +1754,16 @@
       "original_content": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
       "start_line_no": 109,
       "translations": {
+        "ja": "| 中国語（繁体字） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
         "zh": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
+        "de": "| 中文（繁体） | Chinesisch (Traditionell) | `ZH-HANT` | `target` |\n",
         "ko": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "ja": "| 繁体字中国語 | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "de": "| Chinesisch (traditionell) | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "ru": "| Китайский (традиционный) | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "es": "| Chino (tradicional) | Chino (tradicional) | `ZH-HANT` | `target` |\n",
-        "pt": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "it": "| Cinese tradizionale | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "zh_TW": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
-        "fr": "| Chinois (traditionnel) | Chinese (Traditional) | `ZH-HANT` | `target` |\n"
+        "zh_TW": "| 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
+        "es": "| Español tradicional | Chino (Tradicional) | `ZH-HANT` | `target` |\n",
+        "it": "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
+        "fr": "| Chinois traditionnel | Chinese (Traditional) | `ZH-HANT` | `target` |\n",
+        "ru": "| 中文（繁体） | Китайский (Традиционный) | `ZH-HANT` | `target` |\n",
+        "pt": "| 中文（繁体） | Chinês (Tradicional) | `ZH-HANT` | `target` |\n"
       }
     }
   ]

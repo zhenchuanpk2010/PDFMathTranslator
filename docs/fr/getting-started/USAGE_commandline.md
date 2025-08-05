@@ -14,7 +14,7 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Si votre chemin d'accès contient des espaces, veuillez l'encadrer par des guillemets.
+> Si votre chemin d'accès contient des espaces, veuillez l'encadrer de guillemets.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
@@ -32,7 +32,7 @@ Après avoir exécuté la traduction, les fichiers sont générés dans le **ré
 > 
 > Ce répertoire est le "*Répertoire de travail actuel*".
 > 
-> S'il n'y a pas de chemin, essayez d'exécuter cette commande dans le terminal :
+> S'il n'y a pas de chemin affiché, essayez d'exécuter cette commande dans le terminal :
 > 
 > ```bash
 > pwd
@@ -44,7 +44,7 @@ Après avoir exécuté la traduction, les fichiers sont générés dans le **ré
 
 #### Options avancées
 
-Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez consulter [options avancées](./../advanced/advanced.md).
+Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez vous référer à [Options avancées](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

@@ -26,7 +26,7 @@ params = {
     'thread': 4,
 }
 ```
-Übersetzen mit Dateien:
+Mit Dateien übersetzen:
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```

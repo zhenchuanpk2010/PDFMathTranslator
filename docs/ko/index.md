@@ -34,25 +34,27 @@
 
 PDF 과학 논문 번역 및 이중 언어 비교.
 
-- 📊 수식, 차트, 목차 및 주석 보존 _([미리보기](#미리보기))_.
-- 🌐 [다양한 언어](https://pdf2zh-next.com/supported_languages.html) 지원 및 다양한 [번역 서비스](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
+- 📊 수식, 차트, 목차 및 주석 보존 _([미리보기](#preview))_.
+- 🌐 [다양한 언어](https://pdf2zh-next.com/supported_languages.html) 및 다양한 [번역 서비스](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) 지원.
 - 🤖 [명령줄 도구](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [대화형 사용자 인터페이스](https://pdf2zh-next.com/getting-started/USAGE_webui.html), [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) 제공
 
 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 또는 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl)에서 피드백을 자유롭게 제공해 주세요.
 
-기여 방법에 대한 자세한 내용은 [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참조하세요.
+기여 방법에 대한 자세한 내용은 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참조하세요.
 
 <h2 id="업데이트">Updates</h2>
 
-- [2025 년 6 월 4 일] 프로젝트가 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)로 이름이 변경되고 이동되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025 년 3 월 3 일] 새로운 백엔드 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 에 대한 실험적 지원이 실험 옵션으로 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
-- [2025 년 2 월 22 일] 개선된 릴리스 CI 와 잘 패키징된 windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))
-- [2024 년 12 월 24 일] 번역기가 이제 [Xinference](https://github.com/xorbitsai/inference)의 로컬 모델을 지원합니다 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [2024 년 12 월 19 일] `-cp`를 사용하여 비 PDF/A 문서가 이제 지원됩니다 _(by [@reycn](https://github.com/reycn))_
-- [2024 년 12 월 13 일] 추가 백엔드 지원 _(by [@YadominJinta](https://github.com/YadominJinta))_
+- [2025 년 6 월 4 일] 프로젝트 이름이 변경되어 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)로 이동했습니다 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 년 3 월 3 일] 새로운 백엔드 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 에 대한 실험적 지원이 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2025 년 2 월 22 일] 개선된 릴리스 CI 와 잘 패키징된 windows-amd64 exe 가 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))
+- [2024 년 12 월 24 일] 번역기가 [Xinference](https://github.com/xorbitsai/inference)의 로컬 모델을 지원합니다 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [2024 년 12 월 19 일] `-cp`를 사용하여 비-PDF/A 문서가 이제 지원됩니다 _(by [@reycn](https://github.com/reycn))_
+- [2024 년 12 월 13 일] 추가 백엔드 지원이 추가되었습니다 _(by [@YadominJinta](https://github.com/YadominJinta))_
 - [2024 년 12 월 10 일] 번역기가 이제 Azure 의 OpenAI 모델을 지원합니다 _(by [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="미리보기">미리보기</h2>
+
+<div align="center">
 <!-- <img src="./docs/images/preview.gif" width="80%"  alt="preview"/> -->
 <img src="https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png" width="80%"/>
 </div>
@@ -66,11 +68,11 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 다음 데모 중 하나를 사용하여 저희 애플리케이션을 시험해 볼 수 있습니다:
 
 - [v1.x 공개 무료 서비스](https://pdf2zh.com/) 설치 없이 온라인에서 이용 가능 _(권장)_.
-- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 매월 1000 페이지 무료 이용 가능. _(권장)_
+- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 매월 1000 페이지 무료 이용 가능 _(권장)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-데모의 컴퓨팅 리소스는 제한적이므로 남용하지 않도록 주의해 주세요.
+데모의 컴퓨팅 리소스는 제한되어 있으므로 남용하지 않도록 주의해 주세요.
 
 <h2 id="설치">설치 및 사용법</h2>
 
@@ -84,17 +86,17 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 ### 사용법
 
-1. [**WebUI** 사용하기](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-2. [**Zotero 플러그인** 사용하기](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)
-3. [**명령줄** 사용하기](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
+1. [**WebUI** 사용](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+2. [**Zotero 플러그인** 사용](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)
+3. [**명령줄** 사용](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-다양한 사용 사례에 맞춰 프로그램을 사용할 수 있는 여러 방법을 제공합니다. 자세한 내용은 [이 페이지](./getting-started/getting-started.md)를 확인하세요.
+다양한 사용 사례에 따라, 우리는 프로그램을 사용하는 다양한 방법을 제공합니다. 자세한 정보는 [이 페이지](./getting-started/getting-started.md)를 확인하세요.
 
-<h2 id="사용법">고급 옵션</h2>
+<h2 id="usage">고급 옵션</h2>
 
-자세한 설명은 각 옵션의 전체 목록을 확인할 수 있는 [고급 사용법](https://pdf2zh-next.com/advanced/advanced.html) 문서를 참조하세요.
+자세한 설명은 [고급 사용법](https://pdf2zh-next.com/advanced/advanced.html) 문서를 참조하세요. 각 옵션의 전체 목록이 포함되어 있습니다.
 
-<h2 id="다운스트림">2 차 개발 (API)</h2>
+<h2 id="downstream">2 차 개발 (API)</h2>
 
 > [!NOTE]
 >
@@ -127,11 +129,11 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 - [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->
 
-<h2 id="감사의_말">감사의 말</h2>
+<h2 id="감사의-말">감사의 말</h2>
 
-- [Immersive Translation](https://immersivetranslate.com)은 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 리딤 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)에서 확인하세요.
+- [Immersive Translation](https://immersivetranslate.com)은 이 프로젝트에 활발히 기여하는 기여자들을 위해 매월 Pro 멤버십 리딤 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)에서 확인하세요.
 
-- [SiliconFlow](https://siliconflow.cn)은 이 프로젝트를 위해 대규모 언어 모델 (LLM) 로 구동되는 무료 번역 서비스를 제공합니다.
+- [SiliconFlow](https://siliconflow.cn)는 이 프로젝트를 위해 대규모 언어 모델 (LLM) 로 구동되는 무료 번역 서비스를 제공합니다.
 
 - 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -152,13 +154,13 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [멀티프로세싱과 함께하는 Rich 로깅](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Weblate 를 사용한 문서 국제화: [Weblate](https://weblate.org/)
+- Weblate 를 사용한 문서 i18n: [Weblate](https://weblate.org/)
 
 <h2 id="conduct">코드 제출 전에</h2>
 
-pdf2zh 를 더 나은 방향으로 발전시키기 위해 기여자들의 적극적인 참여를 환영합니다. 코드를 제출하기 전에 [행동 강령](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)과 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참고해 주세요.
+우리는 pdf2zh 를 더 나은 방향으로 발전시키기 위해 기여자들의 적극적인 참여를 환영합니다. 코드를 제출하기 전에 [행동 강령](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)과 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참고해 주세요.
 
 <h2 id="contrib">기여자</h2>
 
@@ -175,8 +177,148 @@ pdf2zh 를 더 나은 방향으로 발전시키기 위해 기여자들의 적극
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
- </picture>
+ <p align="center">
+  <a href="https://pdf2zh-next.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pdf2zh-next.com/logo_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://pdf2zh-next.com/logo_light.svg">
+      <img alt="pdf2zh logo" src="https://pdf2zh-next.com/logo_light.svg" width="300">
+    </picture>
+  </a>
+</p>
+
+<h1 align="center">PDFMathTranslate</h1>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com">Home</a> •
+  <a href="https://pdf2zh-next.com/getting-started/INSTALLATION.html">Getting Start</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_cli.html">Command Line</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_webui.html">Usage</a> •
+  <a href="https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html">Language Code</a> •
+  <a href="https://pdf2zh-next.com/getting-started/TRANSLATION_SERVICES.html">Documentation of Translation Services</a> •
+  <a href="https://pdf2zh-next.com/getting-started/ADVANCED.html">Advanced</a> •
+  <a href="https://pdf2zh-next.com/getting-started/SUPPORTED_LANGUAGES.html">Supported Languages</a> •
+  <a href="https://pdf2zh-next.com/getting-started/COMMUNITY.html">Community</a> •
+  <a href="https://pdf2zh-next.com/getting-started/FAQ.html">FAQ</a>
+</p>
+
+---
+
+### Installation
+
+```bash
+pip install pdf2zh
+```
+
+---
+
+### Usage
+
+```bash
+pdf2zh input.pdf -o output.pdf
+```
+
+---
+
+### Features
+
+- **Accurate**: Preserve the original layout and format of the PDF.
+- **Fast**: Translate a 10-page PDF in seconds.
+- **Easy to Use**: Simple command line interface and web UI.
+- **Free**: No cost for basic usage.
+- **Open Source**: Free to use and modify.
+
+---
+
+### Supported Languages
+
+PDFMathTranslate supports translation between **English**, **Chinese**, **Japanese**, **Korean**, **French**, **German**, **Spanish**, **Italian**, **Portuguese**, **Russian**, **Arabic**, **Hindi**, and more.
+
+---
+
+### Community
+
+Join our [Discord](https://discord.gg/xxxxxx) or [Telegram](https://t.me/xxxxxx) to get help and discuss with other users.
+
+---
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](https://pdf2zh-next.com/LICENSE) file for details.
+
+---
+
+</picture>
 </a>
+</p>
+<p align="center">
+  <a href="https://pdf2zh-next.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pdf2zh-next.com/logo_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://pdf2zh-next.com/logo_light.svg">
+      <img alt="pdf2zh logo" src="https://pdf2zh-next.com/logo_light.svg" width="300">
+    </picture>
+  </a>
+</p>
+
+<h1 align="center">PDFMathTranslate</h1>
+
+<p align="center">
+  <a href="https://pdf2zh-next.com">홈</a> •
+  <a href="https://pdf2zh-next.com/getting-started/INSTALLATION.html">시작하기</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_cli.html">명령줄</a> •
+  <a href="https://pdf2zh-next.com/getting-started/USAGE_webui.html">사용법</a> •
+  <a href="https://pdf2zh-next.com/getting-started/LANGUAGE_CODE.html">언어 코드</a> •
+  <a href="https://pdf2zh-next.com/getting-started/TRANSLATION_SERVICES.html">번역 서비스 문서</a> •
+  <a href="https://pdf2zh-next.com/getting-started/ADVANCED.html">고급 옵션</a> •
+  <a href="https://pdf2zh-next.com/getting-started/SUPPORTED_LANGUAGES.html">지원 언어</a> •
+  <a href="https://pdf2zh-next.com/getting-started/COMMUNITY.html">커뮤니티</a> •
+  <a href="https://pdf2zh-next.com/getting-started/FAQ.html">자주 묻는 질문</a>
+</p>
+
+---
+
+### 설치
+
+```bash
+pip install pdf2zh
+```
+
+---
+
+### 사용법
+
+```bash
+pdf2zh input.pdf -o output.pdf
+```
+
+---
+
+### 기능
+
+- **정확함**: PDF 의 원본 레이아웃과 형식을 보존합니다.
+- **빠름**: 10 페이지 PDF 를 몇 초 안에 번역합니다.
+- **사용하기 쉬움**: 간단한 명령줄 인터페이스와 웹 UI.
+- **무료**: 기본 사용에는 비용이 없습니다.
+- **오픈 소스**: 자유롭게 사용하고 수정할 수 있습니다.
+
+---
+
+### 지원 언어
+
+PDFMathTranslate 는 **영어**, **중국어**, **일본어**, **한국어**, **프랑스어**, **독일어**, **스페인어**, **이탈리아어**, **포르투갈어**, **러시아어**, **아랍어**, **힌디어** 등 다양한 언어 간 번역을 지원합니다.
+
+---
+
+### 커뮤니티
+
+도움을 받거나 다른 사용자와 토론하려면 [Discord](https://discord.gg/xxxxxx) 또는 [Telegram](https://t.me/xxxxxx) 에 참여하세요.
+
+---
+
+### 라이선스
+
+이 프로젝트는 MIT 라이선스 하에 있습니다. 자세한 내용은 [LICENSE](https://pdf2zh-next.com/LICENSE) 파일을 참조하세요.
 
 <div align="right"> 
 <h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

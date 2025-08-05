@@ -49,8 +49,8 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 <h4 id="sop">1. Flux de travail</h4>
 
-   - Veuillez forker à partir de la branche `main` et développer sur votre branche forké.
-   - Lors de la soumission d'une Pull Request (PR), fournissez une description détaillée de vos modifications.
+   - Veuillez forker à partir de la branche `main` et développer sur votre branche forké.  
+   - Lors de la soumission d'une Pull Request (PR), fournissez une description détaillée de vos modifications.  
    - Si votre PR ne passe pas les vérifications automatisées (indiquées par `checks failed` et une croix rouge), veuillez examiner les `details` correspondants et modifier votre soumission pour garantir que la nouvelle PR passe toutes les vérifications.
 
 
@@ -61,7 +61,7 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 <h4 id="format">3. Formatage du code</h4>
 
-   - Configurer l'outil `pre-commit` et activer `black` et `flake8` pour le formatage du code.
+   - Configurez l'outil `pre-commit` et activez `black` et `flake8` pour le formatage du code.
 
 
 <h4 id="requpdate">4. Mises à jour des dépendances</h4>
@@ -90,7 +90,7 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
    - Pour le formatage de `README.md`, veuillez suivre les [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).
    - Assurez-vous que la documentation en anglais et en chinois est toujours à jour ; les mises à jour de la documentation dans d'autres langues sont facultatives.
 
-## Ajouter un moteur de traduction
+## Ajout d'un moteur de traduction
 
 1. Ajoutez une nouvelle classe de configuration de traducteur dans le fichier `pdf2zh/config/translate_engine_model.py`.
 2. Ajoutez une instance de la nouvelle classe de configuration de traducteur à l'alias de type `TRANSLATION_ENGINE_SETTING_TYPE` dans le même fichier.
@@ -102,8 +102,8 @@ Veuillez NE PAS soumettre de PR liés aux types mentionnés ci-dessus.
 
 ## Structure du projet
 
-- **config folder** : Système de configuration.
-- **translator folder** : Implémentations liées au traducteur.
+- **dossier config** : Système de configuration.
+- **dossier translator** : Implémentations liées au traducteur.
 - **gui.py** : Fournit l'interface graphique.
 - **const.py** : Quelques constantes.
 - **main.py** : Fournit l'outil en ligne de commande.
@@ -116,7 +116,7 @@ Si vous avez des questions, veuillez soumettre vos commentaires via Issue ou rej
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs à ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs de ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs de BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

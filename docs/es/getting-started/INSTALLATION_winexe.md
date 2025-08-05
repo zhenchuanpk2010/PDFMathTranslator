@@ -9,7 +9,7 @@
 > [!TIP]
 > **¿Cuál es la diferencia entre `pdf2zh-<version>-with-assets-win64.zip` y `pdf2zh-<version>-win64.zip`?**
 >
-> - Si estás descargando y usando PDFMathTranslate por primera vez, se recomienda descargar `pdf2zh-<version>-with-assets-win64.zip`.
+> - Si es la primera vez que descargas y usas PDFMathTranslate, se recomienda descargar `pdf2zh-<version>-with-assets-win64.zip`.
 > - El archivo `pdf2zh-<version>-with-assets-win64.zip` incluye archivos de recursos (como fuentes y modelos) en comparación con `pdf2zh-<version>-win64.zip`.
 > - La versión sin recursos también descargará dinámicamente los recursos al ejecutarse, pero la descarga puede fallar debido a problemas de red.
 
@@ -22,11 +22,11 @@
 >
 > Si tienes problemas al ejecutar pdf2zh.exe, por favor instala `https://aka.ms/vs/17/release/vc_redist.x64.exe` e inténtalo de nuevo.
 
-***Paso 4*** | Al hacer doble clic en el archivo exe, aparecerá una terminal. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
+***Paso 4*** | Al hacer doble clic en el archivo .exe, aparecerá una terminal. Después de aproximadamente medio minuto a un minuto, se abrirá una página web en tu navegador predeterminado. Si esto no ocurre, puedes intentar acceder manualmente a `http://localhost:7860/`.
 
 > [!NOTE]
 >
-> Si encuentras algún problema al usar WebUI, consulta [esta página web](./USAGE_webui.md).
+> Si encuentras algún problema al usar WebUI, por favor consulta [esta página web](./USAGE_webui.md).
 
 ***Paso 5*** | ¡Disfruta!
 

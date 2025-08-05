@@ -8,16 +8,16 @@
       "original_content": "Some questions are frequently asked, so we have provided a list for users who encounter similar issues.\n",
       "start_line_no": 1,
       "translations": {
-        "zh_TW": "一些問題經常被問到，因此我們為遇到類似問題的用戶提供了一份清單。\n",
+        "zh": "以下是一些用户经常遇到的问题，我们为遇到类似情况的用户提供了这份列表。\n",
+        "zh_TW": "一些問題經常被問到，因此我們為遇到類似問題的用戶提供了以下列表。\n",
         "ko": "자주 묻는 질문들이 있어, 비슷한 문제를 겪는 사용자들을 위해 목록을 제공합니다.\n",
-        "ru": "Некоторые вопросы задаются часто, поэтому мы предоставили список для пользователей, которые сталкиваются с подобными проблемами.\n",
-        "ja": "よくある質問をまとめました。同じ問題に遭遇したユーザーのためにリストを提供しています。\n",
-        "zh": "以下是一些用户常问的问题，我们为遇到类似情况的用户整理了这份清单。\n",
-        "es": "Algunas preguntas se hacen con frecuencia, por lo que hemos proporcionado una lista para los usuarios que encuentren problemas similares.\n",
         "fr": "Certaines questions sont fréquemment posées, nous avons donc fourni une liste pour les utilisateurs qui rencontrent des problèmes similaires.\n",
-        "it": "Alcune domande vengono poste frequentemente, quindi abbiamo fornito un elenco per gli utenti che incontrano problemi simili.\n",
         "de": "Einige Fragen werden häufig gestellt, daher haben wir eine Liste für Benutzer bereitgestellt, die ähnliche Probleme haben.\n",
-        "pt": "Algumas perguntas são frequentemente feitas, por isso fornecemos uma lista para usuários que enfrentam problemas semelhantes.\n"
+        "it": "Alcune domande vengono poste frequentemente, quindi abbiamo fornito un elenco per gli utenti che incontrano problemi simili.\n",
+        "pt": "Algumas perguntas são frequentemente feitas, então fornecemos uma lista para usuários que encontram problemas semelhantes.\n",
+        "ru": "Некоторые вопросы задаются часто, поэтому мы предоставили список для пользователей, которые сталкиваются с подобными проблемами.\n",
+        "ja": "よくある質問に対して、同様の問題に遭遇したユーザーのためにリストを用意しました。\n",
+        "es": "Algunas preguntas se hacen con frecuencia, por lo que hemos proporcionado una lista para los usuarios que encuentren problemas similares.\n"
       }
     },
     {
@@ -26,16 +26,16 @@
       "original_content": "## Is a GPU required?",
       "start_line_no": 3,
       "translations": {
-        "zh_TW": "## 是否需要GPU？",
         "zh": "## 是否需要 GPU？",
-        "pt": "## É necessária uma GPU?",
-        "fr": "## Un GPU est-il nécessaire ?",
+        "zh_TW": "## 是否需要 GPU？",
+        "ja": "## GPU は必要ですか？",
         "ko": "## GPU가 필요한가요?",
-        "ja": "## GPUは必要ですか？",
-        "it": "## È necessaria una GPU?",
         "es": "## ¿Se requiere una GPU?",
+        "it": "## È necessaria una GPU?",
         "ru": "## Требуется ли GPU?",
-        "de": "## Wird eine GPU benötigt?"
+        "pt": "## É necessária uma GPU?",
+        "de": "## Wird eine GPU benötigt?",
+        "fr": "## Un GPU est-il nécessaire ?"
       }
     },
     {
@@ -45,15 +45,15 @@
       "start_line_no": 20,
       "translations": {
         "zh_TW": "- **問題**:",
-        "zh": "- **问题**:",
         "ja": "- **質問**:",
-        "es": "- **Pregunta**:",
-        "it": "- **Domanda**:",
         "ru": "- **Вопрос**:",
-        "pt": "- **Pergunta**:",
-        "ko": "- **질문**:",
+        "zh": "- **问题**:",
         "fr": "- **Question** :",
-        "de": "- **Frage**:"
+        "ko": "- **질문**:",
+        "pt": "- **Pergunta**:",
+        "de": "- **Frage**:",
+        "es": "- **Pregunta**:",
+        "it": "- **Domanda**:"
       }
     },
     {
@@ -62,16 +62,16 @@
       "original_content": "As the program uses artificial intelligence to recognize and extract documents, is GPU required?\n",
       "start_line_no": 5,
       "translations": {
-        "de": "## Wird eine GPU benötigt?\n",
-        "zh_TW": "由於程式使用人工智慧來辨識與提取文件，是否需要GPU？\n",
-        "es": "## ¿Se requiere una GPU?\n",
-        "zh": "## 是否需要 GPU？\n\n由于该程序使用人工智能来识别和提取文档，是否需要 GPU？\n",
-        "ja": "プログラムは人工知能を使用して文書を認識・抽出するため、GPUは必要ですか？\n",
+        "zh_TW": "## 是否需要 GPU？\n\n由於程式使用人工智慧來識別與提取文件，是否需要 GPU？\n",
+        "zh": "由于程序使用人工智能来识别和提取文档，是否需要 GPU？\n",
+        "ja": "プログラムは人工知能を使用して文書を認識および抽出するため、GPU は必要ですか？\n",
+        "es": "Dado que el programa utiliza inteligencia artificial para reconocer y extraer documentos, ¿se requiere una GPU?\n",
+        "ko": "프로그램이 인공 지능을 사용하여 문서를 인식하고 추출하기 때문에 GPU가 필요한가요?\n",
         "fr": "Le programme utilise l'intelligence artificielle pour reconnaître et extraire des documents, un GPU est-il nécessaire ?\n",
+        "de": "Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumenten verwendet, wird eine GPU benötigt?\n",
         "ru": "Поскольку программа использует искусственный интеллект для распознавания и извлечения документов, требуется ли GPU?\n",
-        "pt": "O programa usa inteligência artificial para reconhecer e extrair documentos, é necessária uma GPU?\n",
-        "it": "## È necessaria una GPU?\n\nIl programma utilizza l'intelligenza artificiale per riconoscere ed estrarre documenti, è necessaria una GPU?\n",
-        "ko": "프로그램이 인공 지능을 사용하여 문서를 인식하고 추출하기 때문에 GPU가 필요한가요?\n"
+        "pt": "Como o programa usa inteligência artificial para reconhecer e extrair documentos, é necessária uma GPU?\n",
+        "it": "## È necessaria una GPU?\n\nPoiché il programma utilizza l'intelligenza artificiale per riconoscere ed estrarre documenti, è necessaria una GPU?\n"
       }
     },
     {
@@ -80,16 +80,16 @@
       "original_content": "- **Answer**:  ",
       "start_line_no": 23,
       "translations": {
-        "ja": "- **回答**:",
-        "zh": "- **答案**：",
-        "zh_TW": "- **回答**:",
-        "ru": "- **Ответ**:",
-        "es": "- **Respuesta**:",
-        "fr": "- **Réponse** :",
+        "zh": "- **回答**:",
+        "zh_TW": "- **答案**:",
         "ko": "- **답변**:",
+        "ja": "- **回答**:",
+        "de": "- **Antwort**:",
         "pt": "- **Resposta**:",
         "it": "- **Risposta**:",
-        "de": "- **Antwort**:"
+        "ru": "- **Ответ**:",
+        "fr": "- **Réponse** :",
+        "es": "- **Respuesta**:"
       }
     },
     {
@@ -99,13 +99,13 @@
       "start_line_no": 8,
       "translations": {
         "zh_TW": "**不需要 GPU。** 但如果您有 GPU，程式會自動使用它以獲得更高的效能。\n",
-        "zh": "**不需要 GPU。** 但如果您有 GPU，程序会自动使用它以获得更高性能。\n",
-        "ru": "**GPU не требуется.** Но если у вас есть GPU, программа автоматически использует его для повышения производительности.\n",
-        "es": "**No se requiere una GPU.** Pero si tienes una GPU, el programa la usará automáticamente para un mayor rendimiento.\n",
-        "ja": "**GPUは必要ありません。** ただし、GPUがある場合、プログラムは自動的にそれを使用してより高いパフォーマンスを発揮します。\n",
-        "pt": "**Não é necessária uma GPU.** Mas se você tiver uma GPU, o programa usará automaticamente para melhor desempenho.\n",
-        "ko": "**GPU가 필요하지 않습니다.** 하지만 GPU가 있는 경우 프로그램은 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.\n",
+        "zh": "**不需要 GPU。** 但如果你有 GPU，程序会自动使用它以获得更高性能。\n",
         "it": "**Non è necessaria una GPU.** Ma se hai una GPU, il programma la utilizzerà automaticamente per prestazioni più elevate.\n",
+        "es": "**No se requiere una GPU.** Pero si tienes una GPU, el programa la usará automáticamente para un mayor rendimiento.\n",
+        "ko": "**GPU가 필요하지 않습니다.** 하지만 GPU가 있는 경우 프로그램이 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.\n",
+        "ja": "**GPU は必要ありません。** ただし、GPU がある場合、プログラムは自動的にそれを使用してより高いパフォーマンスを発揮します。\n",
+        "pt": "**Não é necessária uma GPU.** Mas se você tiver uma GPU, o programa usará automaticamente para obter um desempenho maior.\n",
+        "ru": "**GPU не требуется.** Но если у вас есть GPU, программа автоматически использует его для повышения производительности.\n",
         "fr": "**Un GPU n'est pas nécessaire.** Mais si vous avez un GPU, le programme l'utilisera automatiquement pour une meilleure performance.\n",
         "de": "**Eine GPU ist nicht erforderlich.** Aber wenn Sie eine GPU haben, wird das Programm diese automatisch für eine höhere Leistung nutzen.\n"
       }
@@ -116,16 +116,16 @@
       "original_content": "## Downloading interrupted?",
       "start_line_no": 10,
       "translations": {
-        "de": "## Download unterbrochen?",
+        "zh": "## 下载中断了？",
         "es": "## ¿Descarga interrumpida?",
         "ru": "## Загрузка прервана?",
-        "fr": "## Téléchargement interrompu ?",
-        "ko": "## 다운로드가 중단되었나요?",
-        "ja": "## ダウンロードが中断されましたか？",
-        "it": "## Download interrotta?",
-        "zh": "## 下载中断了？",
         "zh_TW": "## 下載中斷了嗎？",
-        "pt": "## Download interrompido?"
+        "it": "## Download interrotta?",
+        "fr": "## Téléchargement interrompu ?",
+        "pt": "## Download interrompida?",
+        "ko": "## 다운로드가 중단되었나요?",
+        "de": "## Download unterbrochen?",
+        "ja": "## ダウンロードが中断されましたか？"
       }
     },
     {
@@ -134,16 +134,16 @@
       "original_content": "I encountered the following interrupt error while downloading the model. What should I do?\n",
       "start_line_no": 12,
       "translations": {
-        "ru": "При загрузке модели возникла следующая ошибка прерывания. Что делать?\n",
-        "zh_TW": "我在下載模型時遇到以下中斷錯誤。該怎麼辦？\n",
-        "ko": "모델을 다운로드하는 동안 다음과 같은 중단 오류가 발생했습니다. 어떻게 해야 하나요?\n",
-        "ja": "モデルのダウンロード中に以下の中断エラーが発生しました。どうすればよいですか？\n",
+        "zh": "我在下载模型时遇到了以下中断错误。我该怎么办？\n",
         "es": "Encontré el siguiente error de interrupción mientras descargaba el modelo. ¿Qué debo hacer?\n",
+        "ko": "모델을 다운로드하는 동안 다음과 같은 중단 오류가 발생했습니다. 어떻게 해야 하나요?\n",
+        "ru": "При загрузке модели я столкнулся со следующей ошибкой прерывания. Что мне делать?\n",
+        "pt": "Encontrei o seguinte erro de interrupção ao baixar o modelo. O que devo fazer?\n",
         "fr": "J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du modèle. Que dois-je faire ?\n",
+        "ja": "モデルのダウンロード中に以下の中断エラーが発生しました。どうすればよいですか？\n",
         "it": "Ho riscontrato il seguente errore di interruzione durante il download del modello. Cosa devo fare?\n",
         "de": "Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?\n",
-        "zh": "我在下载模型时遇到了以下中断错误。我该怎么办？\n",
-        "pt": "Encontrei o seguinte erro de interrupção ao baixar o modelo. O que devo fazer?\n"
+        "zh_TW": "我在下載模型時遇到以下中斷錯誤。該怎麼辦？\n"
       }
     },
     {
@@ -171,14 +171,14 @@
       "start_line_no": 17,
       "translations": {
         "zh": "网络受到干扰，请使用稳定的网络链接或尝试绕过网络干预。\n",
-        "zh_TW": "網路正受到干擾，請使用穩定的網路連結或嘗試繞過網路干預。\n",
         "ja": "ネットワークが干渉を受けています。安定したネットワークリンクを使用するか、ネットワーク介入を回避してください。\n",
-        "it": "La rete sta subendo interferenze, utilizza un collegamento di rete stabile o prova a bypassare l'intervento della rete.\n",
+        "fr": "Le réseau subit des interférences, veuillez utiliser une connexion réseau stable ou essayer de contourner l'intervention du réseau.\n",
         "es": "La red está recibiendo interferencias, por favor utiliza un enlace de red estable o intenta evitar la intervención de la red.\n",
         "ko": "네트워크에 간섭이 발생하고 있습니다. 안정적인 네트워크 링크를 사용하거나 네트워크 간섭을 우회해 보세요.\n",
-        "fr": "Le réseau subit des interférences, veuillez utiliser une liaison réseau stable ou essayer de contourner l'intervention du réseau.\n",
-        "pt": "A rede está recebendo interferência, por favor, use um link de rede estável ou tente contornar a intervenção da rede.\n",
-        "ru": "Сеть подвергается помехам, пожалуйста, используйте стабильное сетевое соединение или попробуйте обойти вмешательство сети.\n",
+        "zh_TW": "網路正受到干擾，請使用穩定的網路連結或嘗試繞過網路干預。\n",
+        "pt": "A rede está recebendo interferência, por favor use uma conexão de rede estável ou tente contornar a intervenção da rede.\n",
+        "ru": "Сеть подвергается помехам, пожалуйста, используйте стабильное сетевое соединение или попробуйте обойти вмешательство в сеть.\n",
+        "it": "La rete sta subendo interferenze, utilizza un collegamento di rete stabile o prova a bypassare l'intervento della rete.\n",
         "de": "Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.\n"
       }
     },
@@ -189,15 +189,15 @@
       "start_line_no": 19,
       "translations": {
         "zh_TW": "## 如何更新至最新版本？",
-        "zh": "## 如何更新到最新版本？",
-        "es": "## ¿Cómo actualizar a la última versión?",
-        "ja": "## 最新バージョンに更新する方法は？",
-        "it": "## Come aggiornare all'ultima versione?",
-        "pt": "## Como atualizar para a versão mais recente?",
         "fr": "## Comment mettre à jour vers la dernière version ?",
         "ru": "## Как обновиться до последней версии?",
+        "ja": "## 最新バージョンに更新する方法は？",
+        "pt": "## Como atualizar para a versão mais recente?",
+        "zh": "## 如何更新到最新版本？",
+        "it": "## Come aggiornare all'ultima versione?",
         "ko": "## 최신 버전으로 업데이트하는 방법은 무엇인가요?",
-        "de": "## Wie aktualisiert man auf die neueste Version?"
+        "de": "## Wie aktualisiere ich auf die neueste Version?",
+        "es": "## ¿Cómo actualizar a la última versión?"
       }
     },
     {
@@ -206,16 +206,16 @@
       "original_content": "I want to use some of the features of the latest version, how do I update it?\n",
       "start_line_no": 21,
       "translations": {
-        "zh_TW": "我想使用最新版本的一些功能，如何更新它？\n",
         "zh": "我想使用最新版本的一些功能，如何更新它？\n",
-        "es": "Quiero usar algunas de las funciones de la última versión, ¿cómo la actualizo?\n",
-        "ru": "Я хочу использовать некоторые функции последней версии, как мне обновиться?\n",
+        "zh_TW": "我想使用最新版本的一些功能，如何更新它？\n",
+        "ja": "最新バージョンの機能の一部を使用したいのですが、どのように更新すればよいですか？\n",
         "ko": "최신 버전의 일부 기능을 사용하고 싶은데, 어떻게 업데이트하나요?\n",
-        "fr": "Je veux utiliser certaines fonctionnalités de la dernière version, comment la mettre à jour ?\n",
+        "ru": "Я хочу использовать некоторые функции последней версии, как мне обновиться?\n",
+        "fr": "Je souhaite utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?\n",
+        "es": "Quiero usar algunas de las funciones de la última versión, ¿cómo la actualizo?\n",
         "it": "Voglio utilizzare alcune funzionalità dell'ultima versione, come posso aggiornarla?\n",
-        "pt": "Quero usar alguns dos recursos da versão mais recente, como atualizo?\n",
-        "de": "Ich möchte einige der Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?\n",
-        "ja": "最新バージョンの機能の一部を使用したいのですが、更新する方法は？\n"
+        "de": "Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?\n",
+        "pt": "Quero usar alguns dos recursos da versão mais recente, como faço para atualizá-la?\n"
       }
     },
     {
@@ -224,16 +224,16 @@
       "original_content": "`pip install -U pdf2zh`\n\n",
       "start_line_no": 24,
       "translations": {
-        "ru": "`pip install -U pdf2zh`\n\n",
-        "ko": "`pip install -U pdf2zh`\n\n",
-        "zh": "`pip install -U pdf2zh`\n\n",
-        "zh_TW": "`pip install -U pdf2zh`\n\n",
-        "fr": "`pip install -U pdf2zh`\n\n",
-        "pt": "`pip install -U pdf2zh`\n\n",
-        "es": "`pip install -U pdf2zh`\n\n",
         "ja": "`pip install -U pdf2zh`\n\n",
+        "pt": "`pip install -U pdf2zh`\n\n",
+        "ko": "`pip install -U pdf2zh`\n\n",
         "de": "`pip install -U pdf2zh`\n\n",
-        "it": "`pip install -U pdf2zh`\n\n"
+        "ru": "`pip install -U pdf2zh`\n\n",
+        "es": "`pip install -U pdf2zh`\n\n",
+        "fr": "`pip install -U pdf2zh`\n\n",
+        "it": "`pip install -U pdf2zh`\n\n",
+        "zh": "`pip install -U pdf2zh`\n\n",
+        "zh_TW": "`pip install -U pdf2zh`\n\n"
       }
     },
     {
@@ -242,16 +242,16 @@
       "original_content": "## The following files do not exist: example.pdf",
       "start_line_no": 27,
       "translations": {
+        "zh": "## 以下文件不存在：example.pdf",
         "zh_TW": "## 以下檔案不存在：example.pdf",
+        "ko": "## 다음 파일이 존재하지 않습니다: example.pdf",
+        "ja": "## 以下のファイルが存在しません：example.pdf",
+        "it": "## I seguenti file non esistono: example.pdf",
         "fr": "## Les fichiers suivants n'existent pas : example.pdf",
         "de": "## Die folgenden Dateien existieren nicht: example.pdf",
-        "it": "## I seguenti file non esistono: example.pdf",
-        "ru": "## Следующие файлы не существуют: example.pdf",
         "pt": "## Os seguintes arquivos não existem: example.pdf",
-        "ja": "## 以下のファイルは存在しません: example.pdf",
         "es": "## Los siguientes archivos no existen: example.pdf",
-        "ko": "## 다음 파일이 존재하지 않습니다: example.pdf",
-        "zh": "## 以下文件不存在：example.pdf"
+        "ru": "## Следующие файлы не существуют: example.pdf"
       }
     },
     {
@@ -260,16 +260,16 @@
       "original_content": "- **Issue**:  ",
       "start_line_no": 52,
       "translations": {
-        "ja": "- **問題**:",
-        "de": "- **Problem**:",
-        "ko": "- **문제**:",
-        "fr": "- **Problème** :",
-        "pt": "- **Problema**:",
-        "es": "- **Problema**:",
         "zh": "- **问题**:",
+        "zh_TW": "- **問題**:",
+        "es": "- **Problema**:",
+        "de": "- **Problem**:",
         "it": "- **Problema**:",
+        "fr": "- **Problème** :",
         "ru": "- **Проблема**:",
-        "zh_TW": "- **問題**:"
+        "ja": "- **問題**:",
+        "ko": "- **문제**:",
+        "pt": "- **Problema**:"
       }
     },
     {
@@ -278,16 +278,16 @@
       "original_content": "When executing the program, users would have the following outputs: `The following files do not exist: example.pdf` if the document was not found.\n",
       "start_line_no": 29,
       "translations": {
-        "zh_TW": "執行程序時，如果找不到文件，使用者會看到以下輸出：`以下檔案不存在：example.pdf`。\n",
-        "zh": "执行程序时，如果未找到文档，用户会看到以下输出：`The following files do not exist: example.pdf`。\n",
-        "de": "Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `The following files do not exist: example.pdf`, wenn das Dokument nicht gefunden wurde.\n",
-        "ru": "При выполнении программы пользователи могут получить следующий вывод: `The following files do not exist: example.pdf`, если документ не был найден.\n",
-        "pt": "Ao executar o programa, os usuários terão as seguintes saídas: `The following files do not exist: example.pdf` se o documento não for encontrado.\n",
-        "ko": "프로그램을 실행할 때, 사용자는 문서를 찾을 수 없는 경우 `다음 파일이 존재하지 않습니다: example.pdf`와 같은 출력을 보게 됩니다.\n",
-        "es": "Al ejecutar el programa, los usuarios tendrían las siguientes salidas: `The following files do not exist: example.pdf` si el documento no se encontró.\n",
+        "zh": "执行程序时，如果未找到文档，用户将看到以下输出：`The following files do not exist: example.pdf`。\n",
+        "ru": "При выполнении программы пользователи могут получить следующие сообщения: `The following files do not exist: example.pdf`, если документ не был найден.\n",
         "it": "Durante l'esecuzione del programma, gli utenti otterranno i seguenti output: `The following files do not exist: example.pdf` se il documento non viene trovato.\n",
-        "fr": "Lors de l'exécution du programme, les utilisateurs auront les sorties suivantes : `The following files do not exist: example.pdf` si le document n'a pas été trouvé.\n",
-        "ja": "プログラムを実行する際、ユーザーは以下の出力を受け取ります：`以下のファイルは存在しません: example.pdf`（ドキュメントが見つからなかった場合）。\n"
+        "es": "Al ejecutar el programa, los usuarios tendrían las siguientes salidas: `The following files do not exist: example.pdf` si el documento no se encontró.\n",
+        "ko": "프로그램을 실행할 때, 문서를 찾을 수 없는 경우 사용자에게 다음과 같은 출력이 표시됩니다: `다음 파일이 존재하지 않습니다: example.pdf`.\n",
+        "pt": "Ao executar o programa, os usuários terão as seguintes saídas: `The following files do not exist: example.pdf` se o documento não for encontrado.\n",
+        "ja": "プログラムを実行する際、ユーザーは以下の出力を受け取ります：`以下のファイルが存在しません：example.pdf` もしドキュメントが見つからなかった場合。\n",
+        "zh_TW": "執行程序時，如果找不到文件，用戶會看到以下輸出：`以下檔案不存在：example.pdf`。\n",
+        "de": "Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `Die folgenden Dateien existieren nicht: example.pdf`, wenn das Dokument nicht gefunden wurde.\n",
+        "fr": "Lors de l'exécution du programme, les utilisateurs auront les sorties suivantes : `The following files do not exist: example.pdf` si le document n'a pas été trouvé.\n"
       }
     },
     {
@@ -296,16 +296,16 @@
       "original_content": "- **Solution**:\n  - Open the command line in the directory where the file is located, or\n  - Enter the full path of the file directly after pdf2zh, or\n  - Use the interactive mode `pdf2zh -i` to drag and drop files directly\n\n",
       "start_line_no": 31,
       "translations": {
-        "zh": "- **解决方案**：\n  - 在文件所在目录打开命令行，或\n  - 直接在 pdf2zh 后输入文件的完整路径，或\n  - 使用交互模式 `pdf2zh -i` 直接拖放文件\n\n",
-        "zh_TW": "- **解決方案**:\n  - 在檔案所在的目錄中開啟命令行，或\n  - 直接在 pdf2zh 後輸入檔案的完整路徑，或\n  - 使用互動模式 `pdf2zh -i` 直接拖放檔案\n\n",
-        "fr": "- **Solution** :\n  - Ouvrez la ligne de commande dans le répertoire où se trouve le fichier, ou\n  - Entrez le chemin complet du fichier directement après pdf2zh, ou\n  - Utilisez le mode interactif `pdf2zh -i` pour glisser-déposer les fichiers directement\n\n",
-        "ru": "- **Решение**:\n  - Откройте командную строку в директории, где находится файл, или\n  - Введите полный путь к файлу непосредственно после pdf2zh, или\n  - Используйте интерактивный режим `pdf2zh -i` для прямого перетаскивания файлов\n\n",
-        "ja": "- **解決方法**:\n  - ファイルが存在するディレクトリでコマンドラインを開く、または\n  - pdf2zh の後にファイルのフルパスを直接入力する、または\n  - インタラクティブモード `pdf2zh -i` を使用してファイルを直接ドラッグ＆ドロップする\n\n",
+        "zh_TW": "- **解決方案**：\n  - 在檔案所在的目錄中打開命令行，或\n  - 直接在 pdf2zh 後輸入檔案的完整路徑，或\n  - 使用互動模式 `pdf2zh -i` 直接拖放檔案\n\n",
+        "zh": "- **解决方案**：\n  - 在文件所在目录下打开命令行，或\n  - 在 pdf2zh 后直接输入文件的完整路径，或\n  - 使用交互模式 `pdf2zh -i` 直接拖放文件\n\n",
+        "ja": "- **解決策**：\n  - ファイルが存在するディレクトリでコマンドラインを開く、または\n  - `pdf2zh` の後にファイルのフルパスを直接入力する、または\n  - インタラクティブモード `pdf2zh -i` を使用してファイルを直接ドラッグ＆ドロップする\n\n",
         "es": "- **Solución**:\n  - Abre la línea de comandos en el directorio donde se encuentra el archivo, o\n  - Ingresa la ruta completa del archivo directamente después de pdf2zh, o\n  - Usa el modo interactivo `pdf2zh -i` para arrastrar y soltar archivos directamente\n\n",
-        "ko": "- **해결 방법**:\n  - 파일이 위치한 디렉토리에서 명령줄을 열거나,\n  - pdf2zh 뒤에 파일의 전체 경로를 직접 입력하거나,\n  - 대화형 모드 `pdf2zh -i`를 사용하여 파일을 직접 드래그 앤 드롭하세요.\n\n",
         "pt": "- **Solução**:\n  - Abra a linha de comando no diretório onde o arquivo está localizado, ou\n  - Insira o caminho completo do arquivo diretamente após pdf2zh, ou\n  - Use o modo interativo `pdf2zh -i` para arrastar e soltar arquivos diretamente\n\n",
+        "de": "- **Lösung**:\n  - Öffnen Sie die Kommandozeile in dem Verzeichnis, in dem sich die Datei befindet, oder\n  - Geben Sie den vollständigen Pfad der Datei direkt nach pdf2zh ein, oder\n  - Verwenden Sie den interaktiven Modus `pdf2zh -i`, um Dateien direkt per Drag & Drop einzufügen\n\n",
+        "ko": "- **해결 방법**:\n  - 파일이 위치한 디렉토리에서 명령줄을 열거나,\n  - pdf2zh 뒤에 파일의 전체 경로를 직접 입력하거나,\n  - 대화형 모드 `pdf2zh -i`를 사용하여 파일을 직접 드래그 앤 드롭하세요.\n\n",
+        "ru": "- **Решение**:\n  - Откройте командную строку в директории, где находится файл, или\n  - Введите полный путь к файлу непосредственно после pdf2zh, или\n  - Используйте интерактивный режим `pdf2zh -i` для прямого перетаскивания файлов\n\n",
         "it": "- **Soluzione**:\n  - Apri la riga di comando nella directory dove si trova il file, oppure\n  - Inserisci il percorso completo del file direttamente dopo pdf2zh, oppure\n  - Usa la modalità interattiva `pdf2zh -i` per trascinare e rilasciare i file direttamente\n\n",
-        "de": "- **Lösung**:\n  - Öffnen Sie die Kommandozeile in dem Verzeichnis, in dem sich die Datei befindet, oder\n  - Geben Sie den vollständigen Pfad der Datei direkt nach pdf2zh ein, oder\n  - Verwenden Sie den interaktiven Modus `pdf2zh -i`, um Dateien direkt per Drag & Drop einzufügen\n\n"
+        "fr": "- **Solution** :\n  - Ouvrez la ligne de commande dans le répertoire où se trouve le fichier, ou\n  - Entrez le chemin complet du fichier directement après pdf2zh, ou\n  - Utilisez le mode interactif `pdf2zh -i` pour glisser-déposer les fichiers directement\n\n"
       }
     },
     {
@@ -314,16 +314,16 @@
       "original_content": "## SSL Error and Other Network Issues",
       "start_line_no": 37,
       "translations": {
-        "ja": "## SSLエラーとその他のネットワーク問題",
         "zh": "## SSL 错误与其他网络问题",
-        "ru": "## Ошибка SSL и другие сетевые проблемы",
+        "ja": "## SSL エラーとその他のネットワーク問題",
+        "fr": "## Erreur SSL et autres problèmes de réseau",
+        "es": "## Error de SSL y otros problemas de red",
+        "zh_TW": "## SSL 錯誤與其他網路問題",
         "pt": "## Erro SSL e Outros Problemas de Rede",
-        "it": "## Errore SSL e Altri Problemi di Rete",
+        "de": "## SSL-Fehler und andere Netzwerkprobleme",
         "ko": "## SSL 오류 및 기타 네트워크 문제",
-        "fr": "## Erreur SSL et autres problèmes réseau\n\n### Common Causes\n1. **SSL Certificate Issues**: The server's SSL certificate might be expired or self-signed.\n2. **Proxy Settings**: Misconfigured proxy settings can block the connection.\n3. **Firewall Restrictions**: Corporate or personal firewalls may block the API endpoint.\n4. **Network Latency**: High latency or unstable connections can cause timeouts.\n\n### Solutions\n- **For SSL Errors**:\n  - Use `--verify_ssl=false` to bypass SSL verification (not recommended for production).\n  - Update your system's CA certificates.\n  \n- **For Proxy Issues**:\n  - Configure the proxy correctly using environment variables or CLI flags.\n  \n- **For Firewall Issues**:\n  - Whitelist the API endpoint (`api.pdf2zh.com`).\n\n- **General Tips**:\n  - Test connectivity using `curl` or `ping`.\n  - Contact your network administrator if the issue persists.",
-        "es": "## Error de SSL y otros problemas de red\n\nSi estás utilizando **pdf2zh** y te encuentras con un error de SSL u otros problemas de red, aquí hay algunas soluciones comunes:\n\n1. **Verifica tu conexión a Internet**:\n   - Asegúrate de que tu conexión a Internet sea estable.\n   - Intenta acceder a otros sitios web para confirmar que no hay problemas generales de red.\n\n2. **Actualiza tu sistema operativo y software**:\n   - Asegúrate de que tu sistema operativo y **pdf2zh** estén actualizados a la última versión.\n\n3. **Configuración de proxy**:\n   - Si estás detrás de un proxy, configura **pdf2zh** para que lo use. Consulta la [Documentación de servicios de traducción](#documentación-de-servicios-de-traducción) para más detalles.\n\n4. **Desactiva temporalmente el firewall/antivirus**:\n   - A veces, el firewall o el antivirus pueden bloquear la conexión. Intenta desactivarlos temporalmente para ver si resuelve el problema.\n\n5. **Verifica la fecha y hora de tu sistema**:\n   - Un error común de SSL ocurre cuando la fecha y hora de tu sistema son incorrectas. Asegúrate de que estén configuradas correctamente.\n\n6. **Reinstala los certificados SSL**:\n   - Si el problema persiste, reinstala los certificados SSL en tu sistema.\n\nSi ninguno de estos pasos resuelve el problema, consulta la sección [Comunidad](#comunidad) para obtener ayuda adicional.",
-        "zh_TW": "If you encounter SSL errors or other network-related issues when using **pdf2zh**, follow these steps to troubleshoot:\n\n1. **Check Your Internet Connection**  \n   Ensure that your device is connected to the internet and can access other websites.\n\n2. **Verify the URL**  \n   Make sure you are using the correct URL for the service. For example:  \n   - `https://pdf2zh-next.com`  \n   - `https://api.pdf2zh.com`\n\n3. **Update Your System Time**  \n   SSL certificates rely on accurate system time. If your device's time is incorrect, SSL validation may fail.\n\n4. **Disable VPN or Proxy**  \n   Some VPNs or proxies may interfere with SSL connections. Try disabling them temporarily.\n\n5. **Clear Browser Cache**  \n   Cached SSL certificates might be outdated. Clear your browser cache and restart the browser.\n\n6. **Try Another Browser or Device**  \n   If the issue persists, test the service on a different browser or device.\n\n7. **Contact Support**  \n   If none of the above steps resolve the issue, reach out to our [Community](#community) for assistance.\n\n---\n\n## SSL 錯誤與其他網路問題\n\n如果您在使用 **pdf2zh** 時遇到 SSL 錯誤或其他與網路相關的問題，請按照以下步驟進行故障排除：\n\n1. **檢查您的網路連線**  \n   確保您的裝置已連接到網路，並且可以訪問其他網站。\n\n2. **驗證網址**  \n   確認您使用的是正確的服務網址。例如：  \n   - `https://pdf2zh-next.com`  \n   - `https://api.pdf2zh.com`\n\n3. **更新系統時間**  \n   SSL 憑證依賴準確的系統時間。如果您的裝置時間不正確，SSL 驗證可能會失敗。\n\n4. **停用 VPN 或代理**  \n   某些 VPN 或代理可能會干擾 SSL 連線。嘗試暫時停用它們。\n\n5. **清除瀏覽器快取**  \n   快取的 SSL 憑證可能已過期。清除瀏覽器快取並重新啟動瀏覽器。\n\n6. **嘗試其他瀏覽器或裝置**  \n   如果問題仍然存在，請在不同的瀏覽器或裝置上測試服務。\n\n7. **聯繫支援**  \n   如果上述步驟均無法解決問題，請聯繫我們的[社區](#社區)以獲得協助。",
-        "de": "## SSL-Fehler und andere Netzwerkprobleme\n\nWenn Sie beim Herunterladen von Modellen oder beim Ausführen von pdf2zh auf SSL-Fehler stoßen, liegt dies wahrscheinlich an Netzwerkproblemen. Hier sind einige Lösungsansätze:\n\n1. **Überprüfen Sie Ihre Internetverbindung**  \n   Stellen Sie sicher, dass Ihr Gerät mit dem Internet verbunden ist und eine stabile Verbindung hat.\n\n2. **Proxy-Einstellungen**  \n   Wenn Sie einen Proxy verwenden, stellen Sie sicher, dass dieser korrekt konfiguriert ist. Sie können auch versuchen, den Proxy vorübergehend zu deaktivieren, um zu sehen, ob das Problem dadurch behoben wird.\n\n3. **SSL-Zertifikate**  \n   Einige Netzwerke blockieren oder verändern SSL-Zertifikate. Sie können versuchen, die SSL-Überprüfung zu deaktivieren (nicht empfohlen für Produktionsumgebungen):\n\n   ```bash\n   export PYTHONHTTPSVERIFY=0\n   ```\n\n4. **Alternative Download-Quellen**  \n   Wenn das Problem beim Herunterladen von Modellen auftritt, können Sie versuchen, die Modelle manuell von einer alternativen Quelle herunterzuladen und sie dann in den entsprechenden Ordner zu verschieben.\n\n5. **Firewall und Antivirensoftware**  \n   Überprüfen Sie, ob Ihre Firewall oder Antivirensoftware die Verbindung blockiert. Fügen Sie pdf2zh zur Whitelist hinzu oder deaktivieren Sie die Software vorübergehend.\n\n6. **DNS-Einstellungen**  \n   Manchmal können Probleme mit dem DNS-Server zu Verbindungsproblemen führen. Versuchen Sie, Ihren DNS-Server zu ändern (z.B. zu Google DNS: `8.8.8.8` oder `8.8.4.4`).\n\nWenn das Problem weiterhin besteht, können Sie sich an die [Community](#community) wenden oder die [FAQ](#faq) konsultieren."
+        "ru": "## Ошибка SSL и другие сетевые проблемы",
+        "it": "If you encounter SSL errors or other network-related issues while using **pdf2zh**, follow these steps to troubleshoot:\n\n1. **Check Your Internet Connection**  \n   Ensure your device is connected to the internet. Try accessing other websites to confirm.\n\n2. **Update Your System's CA Certificates**  \n   SSL errors often occur due to outdated or missing CA certificates.  \n   - On **Linux**, run:  \n     ```bash\n     sudo apt-get update && sudo apt-get install ca-certificates\n     ```\n   - On **macOS**, ensure your system is up-to-date via `Software Update`.  \n   - On **Windows**, update via `Windows Update`.\n\n3. **Disable SSL Verification (Temporary Fix)**  \n   If the issue persists, you can temporarily disable SSL verification (not recommended for long-term use):  \n   ```bash\n   pdf2zh --no-ssl-verify\n   ```\n\n4. **Use a VPN or Proxy**  \n   Some network restrictions may block connections. Try using a VPN or proxy service.\n\n5. **Check Firewall/Antivirus Settings**  \n   Firewalls or antivirus software might block **pdf2zh**. Add it to the allowlist.\n\n6. **Contact Support**  \n   If none of the above works, [open an issue on GitHub](https://github.com/pdf2zh/issues) with details of your error.\n\n---\n\n### TRANSLATION RESULT\n\n## Errore SSL e altri problemi di rete\n\nSe incontri errori SSL o altri problemi legati alla rete mentre utilizzi **pdf2zh**, segui questi passaggi per risolverli:\n\n1. **Controlla la tua connessione internet**  \n   Assicurati che il tuo dispositivo sia connesso a internet. Prova ad accedere ad altri siti web per confermare.\n\n2. **Aggiorna i certificati CA del tuo sistema**  \n   Gli errori SSL spesso si verificano a causa di certificati CA obsoleti o mancanti.  \n   - Su **Linux**, esegui:  \n     ```bash\n     sudo apt-get update && sudo apt-get install ca-certificates\n     ```\n   - Su **macOS**, assicurati che il tuo sistema sia aggiornato tramite `Software Update`.  \n   - Su **Windows**, aggiorna tramite `Windows Update`.\n\n3. **Disabilita la verifica SSL (soluzione temporanea)**  \n   Se il problema persiste, puoi temporaneamente disabilitare la verifica SSL (non raccomandato per uso a lungo termine):  \n   ```bash\n   pdf2zh --no-ssl-verify\n   ```\n\n4. **Usa una VPN o un proxy**  \n   Alcune restrizioni di rete potrebbero bloccare le connessioni. Prova a utilizzare un servizio VPN o proxy.\n\n5. **Controlla le impostazioni del firewall/antivirus**  \n   Firewall o software antivirus potrebbero bloccare **pdf2zh**. Aggiungilo alla lista dei permessi.\n\n6. **Contatta il supporto**  \n   Se nessuna delle soluzioni sopra funziona, [apri un issue su GitHub](https://github.com/pdf2zh/issues) con i dettagli del tuo errore."
       }
     },
     {
@@ -332,16 +332,16 @@
       "original_content": "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
       "start_line_no": 39,
       "translations": {
-        "it": "在下载Hugging Face模型时，中国用户可能会遇到网络错误。例如，在[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)中提到的案例。\n",
-        "zh": "在下载 Hugging Face 模型时，中国用户可能会遇到网络错误。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 和 [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。\n",
-        "de": "Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
-        "es": "Al descargar modelos de Hugging Face, los usuarios en China pueden experimentar errores de red. Por ejemplo, en los [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) y [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
         "fr": "Lors du téléchargement des modèles de Hugging Face, les utilisateurs en Chine peuvent rencontrer des erreurs réseau. Par exemple, dans les [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) et [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
-        "ja": "Hugging Faceのモデルをダウンロードする際、中国のユーザーはネットワークエラーに遭遇する可能性があります。例えば、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)や[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)で報告されています。\n",
         "ru": "При загрузке моделей с hugging face пользователи из Китая могут столкнуться с сетевой ошибкой. Например, в [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
-        "ko": "허깅 페이스 모델을 다운로드할 때 중국 사용자는 네트워크 오류를 겪을 수 있습니다. 예를 들어, [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서 확인할 수 있습니다.\n",
-        "pt": "Ao baixar modelos do Hugging Face, usuários na China podem enfrentar erros de rede. Por exemplo, nos [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
-        "zh_TW": "在中國下載 hugging face 模型時，使用者可能會遇到網路錯誤。例如，在[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)中。\n"
+        "zh": "在下载 hugging face 模型时，中国用户可能会遇到网络错误。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 和 [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。\n",
+        "ja": "Hugging Face のモデルをダウンロードする際、中国のユーザーはネットワークエラーに遭遇する可能性があります。例えば、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) で報告されています。\n",
+        "pt": "Ao baixar modelos do hugging face, usuários na China podem enfrentar erros de rede. Por exemplo, nos [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "ko": "허깅 페이스 모델을 다운로드할 때 중국 사용자들은 네트워크 오류를 겪을 수 있습니다. 예를 들어, [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서 확인할 수 있습니다.\n",
+        "zh_TW": "在下載 hugging face 模型時，中國用戶可能會遇到網路錯誤。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 和 [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。\n",
+        "it": "Durante il download dei modelli di Hugging Face, gli utenti in Cina potrebbero riscontrare errori di rete. Ad esempio, nei [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "de": "Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "es": "Al descargar modelos de Hugging Face, los usuarios en China pueden experimentar errores de red. Por ejemplo, en [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
       }
     },
     {
@@ -350,15 +350,15 @@
       "original_content": "- **Solution**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Use Hugging Face Mirror](https://hf-mirror.com/).\n  - [Use Portable version](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Use Docker instead](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Update Certificates](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), as suggested in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
       "start_line_no": 41,
       "translations": {
-        "ko": "- **해결 방법**:\n  - [GFW 우회](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face 미러 사용](https://hf-mirror.com/).\n  - [포터블 버전 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [대신 Docker 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [인증서 업데이트](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)에서 제안된 대로.\n",
-        "zh_TW": "- **解決方案**:\n  - [繞過防火長城](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [使用 Hugging Face 鏡像](https://hf-mirror.com/).\n  - [使用便攜版本](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [更新憑證](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如[問題 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)所建議。\n",
-        "it": "- **Soluzione**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usa Hugging Face Mirror](https://hf-mirror.com/).\n  - [Usa la versione Portable](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usa Docker invece](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Aggiorna i Certificati](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), come suggerito in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
-        "zh": "- **解决方案**：\n  - [绕过 GFW](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [使用 Hugging Face 镜像](https://hf-mirror.com/)。\n  - [使用便携版](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [更新证书](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 中建议。\n",
-        "pt": "- **Solução**:\n  - [Contornar o GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usar o Espelho do Hugging Face](https://hf-mirror.com/).\n  - [Usar a versão Portátil](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usar Docker em vez disso](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Atualizar Certificados](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), conforme sugerido no [problema #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
         "es": "- **Solución**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usar espejo de Hugging Face](https://hf-mirror.com/).\n  - [Usar versión portable](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usar Docker en su lugar](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Actualizar certificados](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), como se sugiere en [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
-        "ru": "- **Решение**:\n  - [Обойти GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Использовать зеркало Hugging Face](https://hf-mirror.com/).\n  - [Использовать портативную версию](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Использовать Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Обновить сертификаты](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), как предложено в [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
-        "ja": "- **解決策**:\n  - [GFWをバイパスする](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [Hugging Faceミラーを使用する](https://hf-mirror.com/)。\n  - [ポータブル版を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [代わりにDockerを使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [証明書を更新する](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)で提案されている通り。\n",
+        "zh": "- **解决方案**：\n  - [绕过 GFW](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [使用 Hugging Face 镜像](https://hf-mirror.com/)。\n  - [使用便携版](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [更新证书](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 中建议。\n",
+        "ja": "- **解決策**:\n  - [GFW をバイパスする](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [Hugging Face ミラーを使用する](https://hf-mirror.com/)。\n  - [ポータブル版を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [代わりに Docker を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [証明書を更新する](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) で提案されている通り。\n",
         "de": "- **Lösung**:\n  - [GFW umgehen](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face Mirror verwenden](https://hf-mirror.com/).\n  - [Portable Version verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Docker stattdessen verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Zertifikate aktualisieren](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), wie in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) vorgeschlagen.\n",
+        "pt": "- **Solução**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usar Espelho do Hugging Face](https://hf-mirror.com/).\n  - [Usar versão Portátil](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usar Docker em vez disso](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Atualizar Certificados](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), como sugerido em [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "it": "- **Soluzione**:\n  - [Bypassa il GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usa lo specchio di Hugging Face](https://hf-mirror.com/).\n  - [Usa la versione portatile](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usa Docker invece](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Aggiorna i certificati](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), come suggerito nell'[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "ru": "- **Решение**:\n  - [Обход GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Использовать зеркало Hugging Face](https://hf-mirror.com/).\n  - [Использовать портативную версию](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Использовать Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Обновить сертификаты](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), как предложено в [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "zh_TW": "- **解決方案**：\n  - [繞過防火長城](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [使用 Hugging Face 鏡像](https://hf-mirror.com/)。\n  - [使用便攜版本](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [更新憑證](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如[問題 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)中所建議。\n",
+        "ko": "- **해결 방법**:\n  - [GFW 우회](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face 미러 사용](https://hf-mirror.com/).\n  - [포터블 버전 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [대신 Docker 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [인증서 업데이트](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)에서 제안된 대로.\n",
         "fr": "- **Solution** :\n  - [Contourner le GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Utiliser le miroir Hugging Face](https://hf-mirror.com/).\n  - [Utiliser la version portable](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Utiliser Docker à la place](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Mettre à jour les certificats](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), comme suggéré dans [l'issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n"
       }
     },
@@ -368,16 +368,16 @@
       "original_content": "## Localhost is not accessible",
       "start_line_no": 48,
       "translations": {
-        "zh_TW": "## 無法存取本地主機",
-        "de": "## Localhost ist nicht erreichbar",
         "fr": "## Localhost n'est pas accessible",
-        "ja": "## ローカルホストにアクセスできない",
         "ru": "## Локальный хост недоступен",
         "ko": "## 로컬호스트에 접근할 수 없음",
-        "es": "# Localhost no es accesible\n\nSi estás ejecutando `pdf2zh` en un servidor remoto (como un servidor en la nube), es posible que no puedas acceder a la interfaz web a través de `localhost` o `127.0.0.1`. Esto se debe a que la interfaz web solo está vinculada a la dirección IP local del servidor.\n\nPara solucionar esto, puedes:\n\n1. **Usar un túnel SSH** (recomendado para servidores remotos):\n   ```bash\n   ssh -L 8501:localhost:8501 tu_usuario@tu_servidor\n   ```\n   Luego, abre `http://localhost:8501` en tu navegador local.\n\n2. **Cambiar el host de la interfaz web** (no recomendado para entornos de producción):\n   ```bash\n   pdf2zh --host 0.0.0.0\n   ```\n   Esto hará que la interfaz web sea accesible desde cualquier dirección IP, pero ten en cuenta los riesgos de seguridad.",
-        "it": "# Localhost non è accessibile\n\nSe stai utilizzando pdf2zh su un server remoto e non riesci ad accedere all'interfaccia utente web tramite `localhost`, potresti dover configurare il server per consentire l'accesso esterno.  \n\n### Soluzioni:  \n\n1. **Specifica un indirizzo IP pubblico o `0.0.0.0`**  \n   - Modifica il comando di avvio per includere `--host 0.0.0.0`:  \n     ```bash\n     pdf2zh --host 0.0.0.0\n     ```\n   - Questo renderà il servizio accessibile da qualsiasi indirizzo IP sulla rete.  \n\n2. **Configura le regole del firewall**  \n   - Assicurati che la porta predefinita (`5000`) sia aperta nel firewall del server.  \n   - Esempio per `ufw` (Ubuntu):  \n     ```bash\n     sudo ufw allow 5000\n     ```\n\n3. **Usa un proxy inverso (opzionale)**  \n   - Per maggiore sicurezza, configura Nginx o Apache come proxy inverso.  \n\n4. **Verifica l'accessibilità**  \n   - Dopo aver applicato le modifiche, accedi all'interfaccia tramite:  \n     ```\n     http://<SERVER_IP>:5000\n     ```\n\nPer ulteriori dettagli, consulta la sezione [Utilizzo](#utilizzo) o la documentazione del tuo server.  \n\n---",
-        "zh": "If you are unable to access the localhost address (e.g., `http://127.0.0.1:5000`), please check the following:\n\n1. **Ensure the service is running**:\n   - Run `pdf2zh --webui` in the terminal and check if there are any error messages.\n   - If you see `Running on http://127.0.0.1:5000`, the service is running normally.\n\n2. **Check the port**:\n   - The default port is `5000`. If this port is occupied, the service will automatically switch to another port (e.g., `5001`).\n   - You can specify a port manually using `pdf2zh --webui --port <port_number>`.\n\n3. **Firewall settings**:\n   - Ensure your firewall is not blocking the port. You may need to add an exception for the port in your firewall settings.\n\n4. **Network configuration**:\n   - If you are using a VPN or proxy, try disabling it temporarily to see if that resolves the issue.\n\n5. **Browser cache**:\n   - Clear your browser cache or try accessing the address in a different browser.\n\nIf the issue persists, please [submit an issue](https://github.com/PDFMathTranslate/pdf2zh/issues) with the error message you encountered.\n\n---\n\n## 无法访问本地主机\n\n如果您无法访问本地主机地址（例如 `http://127.0.0.1:5000`），请检查以下内容：\n\n1. **确保服务正在运行**：\n   - 在终端中运行 `pdf2zh --webui` 并检查是否有错误消息。\n   - 如果看到 `Running on http://127.0.0.1:5000`，则表示服务正常运行。\n\n2. **检查端口**：\n   - 默认端口为 `5000`。如果该端口被占用，服务会自动切换到另一个端口（例如 `5001`）。\n   - 您可以使用 `pdf2zh --webui --port <端口号>` 手动指定端口。\n\n3. **防火墙设置**：\n   - 确保您的防火墙没有阻止该端口。您可能需要在防火墙设置中添加对该端口的例外。\n\n4. **网络配置**：\n   - 如果您正在使用 VPN 或代理，请尝试暂时禁用它，看看是否能解决问题。\n\n5. **浏览器缓存**：\n   - 清除浏览器缓存或尝试在其他浏览器中访问该地址。\n\n如果问题仍然存在，请[提交问题](https://github.com/PDFMathTranslate/pdf2zh/issues)并提供您遇到的错误消息。",
-        "pt": "If you cannot access the localhost address (e.g., `http://127.0.0.1:5000`), please check the following:\n\n1. **Check if the service is running**  \n   Run `pdf2zh --version` in the terminal to confirm that the service is installed and running. If not, please refer to the [Installation](#installation) guide.\n\n2. **Check the port**  \n   The default port is `5000`. If it's occupied, the service will automatically switch to another port. You can check the actual port in the terminal logs.\n\n3. **Check the firewall**  \n   Ensure that your firewall or security software is not blocking the port. You may need to add an exception for `pdf2zh`.\n\n4. **Try another browser**  \n   Some browsers or extensions may block localhost access. Try accessing it in incognito mode or another browser.\n\n5. **Check the network configuration**  \n   If you are using a proxy or VPN, disable them temporarily to see if the issue persists.\n\nIf the problem persists, please refer to the [FAQ](#faq) or seek help in the [Community](#community).\n\n---\n\n## Localhost não está acessível\n\nSe você não consegue acessar o endereço localhost (por exemplo, `http://127.0.0.1:5000`), verifique o seguinte:\n\n1. **Verifique se o serviço está em execução**  \n   Execute `pdf2zh --version` no terminal para confirmar que o serviço está instalado e em execução. Caso não esteja, consulte o guia de [Instalação](#instalação).\n\n2. **Verifique a porta**  \n   A porta padrão é `5000`. Se estiver ocupada, o serviço mudará automaticamente para outra porta. Você pode verificar a porta real nos logs do terminal.\n\n3. **Verifique o firewall**  \n   Certifique-se de que seu firewall ou software de segurança não está bloqueando a porta. Talvez seja necessário adicionar uma exceção para `pdf2zh`.\n\n4. **Tente outro navegador**  \n   Alguns navegadores ou extensões podem bloquear o acesso ao localhost. Tente acessar no modo anônimo ou em outro navegador.\n\n5. **Verifique a configuração de rede**  \n   Se você estiver usando um proxy ou VPN, desative-os temporariamente para ver se o problema persiste.\n\nSe o problema persistir, consulte as [Perguntas frequentes](#perguntas-frequentes) ou busque ajuda na [Comunidade](#comunidade)."
+        "it": "## Localhost non è accessibile",
+        "ja": "## ローカルホストにアクセスできない",
+        "es": "## Localhost no es accesible",
+        "de": "## Localhost ist nicht erreichbar",
+        "zh": "## 无法访问本地主机",
+        "pt": "## O localhost não está acessível",
+        "zh_TW": "If you are unable to access the localhost address (e.g., `http://127.0.0.1:5000`), please check the following:\n\n1. **Check if the service is running**  \n   Run the following command in the terminal to check if the service is running:  \n   ```bash\n   ps aux | grep pdf2zh\n   ```\n   If the service is not running, start it with:  \n   ```bash\n   pdf2zh --webui\n   ```\n\n2. **Check the port**  \n   The default port is `5000`. If the port is occupied, you can specify another port with:  \n   ```bash\n   pdf2zh --webui --port 5001\n   ```\n\n3. **Check the firewall**  \n   Ensure that your firewall is not blocking the port. For example, on Ubuntu, you can allow the port with:  \n   ```bash\n   sudo ufw allow 5000\n   ```\n\n4. **Check the network**  \n   If you are using a proxy or VPN, try disabling it temporarily.\n\n5. **Check the browser**  \n   Try accessing the address in a different browser or in incognito mode.\n\nIf the issue persists, please [open an issue](https://github.com/PDFMathTranslate/pdf2zh/issues) on GitHub.\n\n---\n\n## 無法訪問本地主機\n\n如果您無法訪問本地主機地址（例如 `http://127.0.0.1:5000`），請檢查以下內容：\n\n1. **檢查服務是否正在運行**  \n   在終端中運行以下命令以檢查服務是否正在運行：  \n   ```bash\n   ps aux | grep pdf2zh\n   ```\n   如果服務未運行，請使用以下命令啟動：  \n   ```bash\n   pdf2zh --webui\n   ```\n\n2. **檢查端口**  \n   默認端口為 `5000`。如果端口被佔用，您可以指定另一個端口：  \n   ```bash\n   pdf2zh --webui --port 5001\n   ```\n\n3. **檢查防火牆**  \n   確保您的防火牆沒有阻止該端口。例如，在 Ubuntu 上，您可以使用以下命令允許該端口：  \n   ```bash\n   sudo ufw allow 5000\n   ```\n\n4. **檢查網絡**  \n   如果您正在使用代理或 VPN，請嘗試暫時禁用它們。\n\n5. **檢查瀏覽器**  \n   嘗試在不同的瀏覽器或隱私模式下訪問該地址。\n\n如果問題仍然存在，請在 GitHub 上[提交問題](https://github.com/PDFMathTranslate/pdf2zh/issues)。"
       }
     },
     {
@@ -386,16 +386,16 @@
       "original_content": "Please see below.\n",
       "start_line_no": 49,
       "translations": {
-        "zh": "请参阅下文。\n",
-        "ru": "Пожалуйста, смотрите ниже.\n",
-        "it": "Per favore vedi sotto.\n",
         "zh_TW": "請參閱下方內容。\n",
         "ko": "아래를 참조하세요.\n",
-        "fr": "Veuillez consulter ci-dessous.\n",
         "de": "Bitte siehe unten.\n",
-        "es": "Por favor, consulta a continuación.\n",
+        "zh": "请见下文。\n",
+        "ja": "以下をご覧ください。\n",
+        "es": "Por favor, vea a continuación.\n",
         "pt": "Por favor, veja abaixo.\n",
-        "ja": "以下をご覧ください。\n"
+        "it": "Per favore vedi sotto.\n",
+        "ru": "Пожалуйста, смотрите ниже.\n",
+        "fr": "Veuillez voir ci-dessous.\n"
       }
     },
     {
@@ -404,16 +404,16 @@
       "original_content": "## Error launching GUI using 0.0.0.0",
       "start_line_no": 51,
       "translations": {
-        "zh": "## 使用 0.0.0.0 启动 GUI 时出错",
-        "ru": "## Ошибка при запуске GUI с использованием 0.0.0.0",
-        "ko": "## 0.0.0.0을 사용하여 GUI를 실행할 때 발생하는 오류",
-        "ja": "## GUI を 0.0.0.0 で起動する際のエラー",
-        "de": "## Fehler beim Starten der GUI mit 0.0.0.0",
         "zh_TW": "## 使用 0.0.0.0 啟動 GUI 時出現錯誤",
-        "fr": "## Erreur lors du lancement de l'interface graphique avec 0.0.0.0",
+        "ja": "## GUI を 0.0.0.0 で起動する際のエラー",
         "es": "## Error al iniciar la GUI usando 0.0.0.0",
+        "ko": "## 0.0.0.0을 사용하여 GUI를 실행할 때 발생하는 오류",
         "pt": "## Erro ao iniciar a GUI usando 0.0.0.0",
-        "it": "# Errore durante l'avvio della GUI utilizzando 0.0.0.0"
+        "de": "## Fehler beim Starten der GUI mit 0.0.0.0",
+        "fr": "## Erreur lors du lancement de l'interface graphique avec 0.0.0.0",
+        "it": "## Errore durante l'avvio della GUI utilizzando 0.0.0.0",
+        "ru": "## Ошибка при запуске GUI с использованием 0.0.0.0",
+        "zh": "## 使用 0.0.0.0 启动 GUI 时出错"
       }
     },
     {
@@ -422,16 +422,16 @@
       "original_content": "Using proxy software in global mode may prevent Gradio from starting properly. For example, in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
       "start_line_no": 53,
       "translations": {
-        "zh": "在全局模式下使用代理软件可能会阻止 Gradio 正常启动。例如，在 [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) 中。\n",
-        "es": "El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en el [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
-        "it": "L'utilizzo di software proxy in modalità globale potrebbe impedire il corretto avvio di Gradio. Ad esempio, nel [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
-        "fr": "L'utilisation d'un logiciel de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
-        "ru": "Использование прокси-программ в глобальном режиме может помешать правильному запуску Gradio. Например, в [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
-        "zh_TW": "在全域模式下使用代理軟體可能會導致 Gradio 無法正常啟動。例如，在 [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) 中。\n",
+        "zh": "使用全局模式的代理软件可能会阻止 Gradio 正常启动。例如，在 [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) 中。\n",
         "de": "Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
-        "pt": "O uso de software de proxy no modo global pode impedir que o Gradio seja iniciado corretamente. Por exemplo, no [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
-        "ko": "전역 모드에서 프록시 소프트웨어를 사용하면 Gradio가 제대로 시작되지 않을 수 있습니다. 예를 들어, [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.\n",
-        "ja": "グローバルモードでプロキシソフトウェアを使用すると、Gradioが正常に起動しない場合があります。例として、[issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) をご覧ください。\n"
+        "ko": "글로벌 모드에서 프록시 소프트웨어를 사용하면 Gradio가 제대로 시작되지 않을 수 있습니다. 예를 들어, [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.\n",
+        "pt": "O uso de software de proxy no modo global pode impedir que o Gradio inicie corretamente. Por exemplo, no [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "ru": "Использование прокси-программ в глобальном режиме может помешать правильному запуску Gradio. Например, в [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "fr": "L'utilisation de logiciels de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "ja": "グローバルモードでプロキシソフトウェアを使用すると、Gradio が正常に起動しない場合があります。例えば、[issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) で報告されています。\n",
+        "zh_TW": "在全局模式下使用代理軟體可能會導致 Gradio 無法正常啟動。例如，在[問題 #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)中。\n",
+        "it": "L'utilizzo di software proxy in modalità globale potrebbe impedire a Gradio di avviarsi correttamente. Ad esempio, nell'[issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "es": "El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n"
       }
     },
     {
@@ -440,16 +440,16 @@
       "original_content": "- **Solution**:  ",
       "start_line_no": 55,
       "translations": {
-        "zh": "- **解决方案**：",
-        "it": "- **Soluzione**:",
-        "ru": "- **Решение**:",
-        "pt": "- **Solução**:",
-        "zh_TW": "- **解決方案**:",
+        "zh": "- **解决方案**:",
         "es": "- **Solución**:",
-        "de": "- **Lösung**:",
+        "zh_TW": "- **解決方案**：",
+        "pt": "- **Solução**:",
+        "it": "- **Soluzione**:",
+        "fr": "- **Solution** :",
         "ja": "- **解決策**:",
         "ko": "- **해결 방법**:",
-        "fr": "- **Solution** :"
+        "de": "- **Lösung**:",
+        "ru": "- **Решение**:"
       }
     },
     {
@@ -458,16 +458,16 @@
       "original_content": "Use rule mode\n",
       "start_line_no": 56,
       "translations": {
-        "fr": "Utiliser le mode règle\n",
+        "zh_TW": "使用規則模式\n",
         "ru": "Использовать режим правил\n",
-        "ja": "ルールモードを使用する\n",
-        "es": "Usar modo de regla\n",
         "de": "Verwenden Sie den Regelmodus\n",
-        "pt": "Usar modo de regra\n",
         "it": "Utilizza la modalità regola\n",
         "ko": "규칙 모드 사용\n",
+        "pt": "Usar modo de regra\n",
+        "es": "Usar modo de reglas\n",
+        "fr": "Utiliser le mode règle\n",
         "zh": "使用规则模式\n",
-        "zh_TW": "使用規則模式\n"
+        "ja": "ルールモードを使用\n"
       }
     },
     {

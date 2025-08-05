@@ -1,6 +1,6 @@
 > [!CAUTION]
 >
-> Este documento está desatualizado, por favor, não o consulte.
+> Este documento está desatualizado, por favor não o consulte.
 
 <h2 id="toc">Índice</h2>
 O presente projeto suporta dois tipos de APIs, Todos os métodos precisam do Redis;
@@ -12,7 +12,7 @@ O presente projeto suporta dois tipos de APIs, Todos os métodos precisam do Red
 
 <h2 id="api-python">Python</h2>
 
-Como `pdf2zh` é um módulo instalado em Python, expomos dois métodos para que outros programas possam chamar em qualquer script Python.
+Como `pdf2zh` é um módulo instalado em Python, expomos dois métodos para outros programas chamarem em qualquer script Python.
 
 Por exemplo, se você deseja traduzir um documento do inglês para o chinês usando o Google Tradutor, pode usar o seguinte código:
 
@@ -30,7 +30,7 @@ Traduzir com arquivos:
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Traduzir com fluxo:
+Traduzir com transmissão:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -52,7 +52,7 @@ De uma forma mais flexível, você pode se comunicar com o programa usando proto
    pdf2zh_next --celery worker
    ```
 
-2. Usando protocolos HTTP conforme abaixo:
+2. Usando protocolos HTTP conforme a seguir:
 
    - Enviar tarefa de tradução
 

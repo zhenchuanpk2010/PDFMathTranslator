@@ -15,7 +15,7 @@ PDFMathTranslate é uma ferramenta poderosa de tradução de PDF. Você pode ins
 ### Uso
 
 1. [Usando **WebUI**](./USAGE_webui.md)
-2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)
+2. [Usando **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)
 3. [Usando **Linha de comando**](./USAGE_commandline.md)
 
 <div align="right"> 
