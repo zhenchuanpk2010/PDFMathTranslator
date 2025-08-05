@@ -1,4 +1,4 @@
-[**快速開始**](./getting-started.md) > **如何安裝** > **WebUI** _(current)_
+[**開始使用**](./getting-started.md) > **如何安裝** > **WebUI** _(目前頁面)_
 
 ---
 
@@ -6,9 +6,9 @@
 
 #### 如何開啟 WebUI 頁面：
 
-有數種方法可以開啟 WebUI 介面。如果您使用的是 **Windows**，請參考[這篇文章](./INSTALLATION_winexe.md)；
+有幾種方法可以開啟 WebUI 介面。如果您使用的是 **Windows**，請參考[這篇文章](./INSTALLATION_winexe.md)；
 
-1. 已安裝 Python（版本需介於 3.10 至 3.12 之間）
+1. 已安裝 Python（3.10 <= 版本 <= 3.12）
 
 2. 安裝我們的套件：
 
@@ -18,23 +18,23 @@
     pdf2zh_next --gui
     ```
 
-4. 若瀏覽器未自動啟動，請前往
+4. 如果瀏覽器未自動啟動，請前往
 
     ```bash
     http://localhost:7860/
     ```
 
-    將 PDF 檔案拖曳至視窗並點擊 `Translate`。
+    將 `PDF` 文件拖放至視窗中並點擊 `Translate`。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### 環境變數
 
-你可以透過環境變數設定來源與目標語言：
+您可以使用環境變數設定來源與目標語言：
 
-- `PDF2ZH_LANG_FROM`: 設定來源語言。預設為 "English"。
-- `PDF2ZH_LANG_TO`: 設定目標語言。預設為 "Simplified Chinese"。
+- `PDF2ZH_LANG_FROM`: 設定來源語言。預設為「English」。
+- `PDF2ZH_LANG_TO`: 設定目標語言。預設為「Simplified Chinese」。
 
 ## 預覽
 

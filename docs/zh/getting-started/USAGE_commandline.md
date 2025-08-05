@@ -1,4 +1,4 @@
-[**快速开始**](./getting-started.md) > **如何使用** > **命令行** _(当前)_
+[**开始使用**](./getting-started.md) > **如何使用** > **命令行** _(当前)_
 
 ---
 
@@ -14,17 +14,17 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> 如果路径名包含空格，请用引号将其括起来。
+> 如果您的路径名包含空格，请用引号将其括起来。
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
 > ```
 
-执行翻译后，文件将在**当前工作目录**中生成。
+执行翻译后，文件生成于 **当前工作目录**。
 
 > [!TIP]
 > **我的“当前工作目录”在哪里？**
-> 在终端中输入命令之前，你可能会在终端中看到一个路径名显示：
+> 在终端中输入命令之前，你可能会在终端中看到一个路径名：
 > 
 > ```powershell
 > PS C:\Users\XXX>
@@ -42,9 +42,9 @@ pdf2zh_next document.pdf
 
 ---
 
-#### 高级选项
+#### 高级用法
 
-有关其他命令行参数的详细说明，请参阅[高级选项](./../advanced/advanced.md)。
+有关其他命令行参数的详细说明，请参阅[高级用法](./../advanced/advanced.md)。
 
 <div align="right"> 
-<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>

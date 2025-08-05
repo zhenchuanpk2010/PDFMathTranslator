@@ -1,0 +1,135 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/INSTALLATION_docker.md",
+  "chunks": [
+    {
+      "id": "chunk_F3B96F2D",
+      "raw_content": "[**Getting Started**](./getting-started.md) > **Installation** > **Docker** _(current)_\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "h_rule_7609554c",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_3EBE8361",
+      "raw_content": "### Install PDFMathTranslate via docker\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_760A6888",
+      "raw_content": "#### What is docker?\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_41775DAE",
+      "raw_content": "[Docker](https://docs.docker.com/get-started/docker-overview/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_6EBC627B",
+      "raw_content": "#### Installation\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_BA8550C2",
+      "raw_content": "<h4>1. Pull and run:</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_D49885F5",
+      "raw_content": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": "bash"
+      },
+      "start_line_no": 15
+    },
+    {
+      "id": "chunk_B1F3E7B5",
+      "raw_content": "> [!NOTE]\n> \n> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 20
+    },
+    {
+      "id": "chunk_0222B95B",
+      "raw_content": "<h4>2. Enter this URL in your default browser to open the WebUI page:</h4>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_29F610F5",
+      "raw_content": "```\nhttp://localhost:7860/\n```\n",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": ""
+      },
+      "start_line_no": 31
+    },
+    {
+      "id": "chunk_B5C49A1E",
+      "raw_content": "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 35
+    },
+    {
+      "id": "chunk_0B40829E",
+      "raw_content": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 40
+    }
+  ]
+}

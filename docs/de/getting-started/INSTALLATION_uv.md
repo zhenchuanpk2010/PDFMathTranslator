@@ -1,10 +1,10 @@
-[**Erste Schritte**](./erste-schritte.md) > **Installation** > **uv** _(aktuell)_
+[**Erste Schritte**](./getting-started.md) > **Installation** > **uv** _(aktuell)_
 
 ---
 
 ### Installieren Sie PDFMathTranslate über uv
 
-#### Was ist uv? Wie wird es installiert?
+#### Was ist uv? Wie installiert man es?
 
 uv ist ein extrem schneller Python-Paket- und Projektmanager, geschrieben in Rust.
 <br>
@@ -27,7 +27,7 @@ Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile
 
 !!! Warning
 
-    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie bitte die Umgebungsvariablen wie folgt und versuchen Sie es erneut:
+    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie die Umgebungsvariablen wie folgt und versuchen Sie es erneut:
 
     === "macOS und Linux"
 

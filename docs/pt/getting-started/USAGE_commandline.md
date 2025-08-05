@@ -2,7 +2,7 @@
 
 ---
 
-### Usar o PDFMathTranslate via linha de comando
+### Usar PDFMathTranslate via linha de comando
 
 #### Uso básico
 
@@ -20,17 +20,17 @@ pdf2zh_next document.pdf
 > pdf2zh_next "path with spaces/document.pdf"
 > ```
 
-Após executar a tradução, os arquivos são gerados no **diretório de trabalho atual**.
+Após executar a tradução, arquivos são gerados no **diretório de trabalho atual**.
 
 > [!TIP]
-> **Onde está o meu "Diretório de trabalho atual"?**
+> **Onde está o meu "Diretório de Trabalho Atual"?**
 > Antes de inserir um comando no terminal, você pode ver um nome de caminho exibido no seu terminal:
 > 
 > ```powershell
 > PS C:\Users\XXX>
 > ```
 > 
-> Este diretório é o "*Diretório de trabalho atual*."
+> Este diretório é o "*Diretório de trabalho atual*".
 > 
 > Se não houver um nome de caminho, tente executar este comando no terminal:
 > 

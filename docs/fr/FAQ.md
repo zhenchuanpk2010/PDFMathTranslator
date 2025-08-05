@@ -1,24 +1,24 @@
 Certaines questions sont fréquemment posées, nous avons donc fourni une liste pour les utilisateurs qui rencontrent des problèmes similaires.
 
 ## Un GPU est-il nécessaire ?
-- **Question** :
-Comme le programme utilise l'intelligence artificielle pour reconnaître et extraire des documents, un GPU est-il nécessaire ?
+- **Question**:
+Le programme utilise l'intelligence artificielle pour reconnaître et extraire des documents, un GPU est-il nécessaire ?
 
 - **Réponse** :
-**Un GPU est-il nécessaire ?** Non, un GPU n'est pas requis. Mais si vous en avez un, le programme l'utilisera automatiquement pour une meilleure performance.
+**Un GPU n'est pas nécessaire.** Mais si vous avez un GPU, le programme l'utilisera automatiquement pour une meilleure performance.
 
 ## Téléchargement interrompu ?
-- **Question** :
+- **Question**:
 J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du modèle. Que dois-je faire ?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Réponse** :
-Le réseau subit des interférences, veuillez utiliser une liaison réseau stable ou essayer de contourner l'intervention du réseau.
+Le réseau subit des interférences, veuillez utiliser une connexion réseau stable ou essayer de contourner l'intervention du réseau.
 
 ## Comment mettre à jour vers la dernière version ?
-- **Question** :
-Je souhaite utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?
+- **Question**:
+Je veux utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?
 
 - **Réponse** :
 `pip install -U pdf2zh`
@@ -34,9 +34,9 @@ Lors de l'exécution du programme, les utilisateurs auront les sorties suivantes
   - Utilisez le mode interactif `pdf2zh -i` pour glisser-déposer les fichiers directement
 
 
-## Erreur SSL et autres problèmes réseau
+## Erreur SSL et autres problèmes de réseau
 - **Problème** :
-Lors du téléchargement des modèles de hugging face, les utilisateurs en Chine peuvent rencontrer des erreurs réseau. Par exemple, dans [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
+Lors du téléchargement des modèles de Hugging Face, les utilisateurs en Chine peuvent rencontrer des erreurs réseau. Par exemple, dans les [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) et [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
 - **Solution** :
   - [Contourner le GFW](https://github.com/clash-verge-rev/clash-verge-rev).
@@ -45,12 +45,12 @@ Lors du téléchargement des modèles de hugging face, les utilisateurs en Chine
   - [Utiliser Docker à la place](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
   - [Mettre à jour les certificats](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), comme suggéré dans [l'issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).
 
-## L'accès à localhost est impossible
-Veuillez consulter ci-dessous.
+## Localhost n'est pas accessible
+Veuillez voir ci-dessous.
 
 ## Erreur lors du lancement de l'interface graphique avec 0.0.0.0
 - **Problème** :
-L'utilisation d'un logiciel de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [l'issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+L'utilisation d'un logiciel de proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Solution** :
 Utiliser le mode règle

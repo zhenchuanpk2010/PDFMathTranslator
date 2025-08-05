@@ -1,4 +1,4 @@
-[**Commencer**](./commencer.md) > **Installation** > **uv** _(current)_
+[**Commencer**](./getting-started.md) > **Installation** > **uv** _(current)_
 
 ---
 
@@ -8,7 +8,7 @@
 
 uv est un gestionnaire de paquets et de projets Python extrêmement rapide, écrit en Rust.
 <br>
-Pour installer uv sur votre ordinateur, veuillez vous référer à [cet article](https://docs.astral.sh/uv/getting-started/installation/).
+Pour installer uv sur votre ordinateur, veuillez consulter [cet article](https://docs.astral.sh/uv/getting-started/installation/).
 
 ---
 
@@ -27,7 +27,7 @@ Après l'installation, vous pouvez commencer la traduction via la **ligne de com
 
 !!! Warning
 
-    Si vous rencontrez l'erreur `command not found: pdf2zh_next` lors de l'exécution, veuillez configurer les variables d'environnement comme suit et réessayer :
+    Si vous voyez l'erreur `command not found: pdf2zh_next` lors de l'exécution, veuillez configurer les variables d'environnement comme suit et réessayer :
 
     === "macOS et Linux"
 
@@ -50,7 +50,7 @@ Après l'installation, vous pouvez commencer la traduction via la **ligne de com
         Puis redémarrez votre terminal
 
 > [!NOTE]
-> Si vous rencontrez des problèmes lors de l'utilisation de l'interface Web, veuillez consulter [Utilisation --> Interface Web](./USAGE_webui.md).
+> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [Utilisation --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Si vous rencontrez des problèmes lors de l'utilisation de la ligne de commande, veuillez consulter [Utilisation --> Ligne de commande](./USAGE_commandline.md).

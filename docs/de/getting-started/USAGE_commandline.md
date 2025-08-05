@@ -6,7 +6,7 @@
 
 #### Grundlegende Verwendung
 
-Nach der Installation geben Sie bitte diesen Befehl ein, um Ihre PDF zu übersetzen.
+Nach der Installation geben Sie bitte diesen Befehl ein, um Ihr PDF zu übersetzen.
 
 ```bash
 pdf2zh_next document.pdf
@@ -14,17 +14,17 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Wenn Ihr Pfadname Leerzeichen enthält, setzen Sie ihn bitte in Anführungszeichen.
+> Wenn Ihr Pfadname Leerzeichen enthält, schließen Sie ihn bitte in Anführungszeichen ein.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
 > ```
 
-Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** generiert.
+Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** erstellt.
 
 > [!TIP]
-> **Wo befindet sich mein "Aktuelles Arbeitsverzeichnis"?**
-> Bevor Sie einen Befehl in das Terminal eingeben, sehen Sie möglicherweise einen Pfadnamen in Ihrem Terminal angezeigt:
+> **Wo ist mein "Aktuelles Arbeitsverzeichnis"?**
+> Bevor Sie einen Befehl im Terminal eingeben, sehen Sie möglicherweise einen Pfadnamen in Ihrem Terminal angezeigt:
 > 
 > ```powershell
 > PS C:\Users\XXX>

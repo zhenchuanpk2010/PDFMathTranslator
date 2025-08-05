@@ -2,7 +2,7 @@
 
 ---
 
-### Utilizzare PDFMathTranslate tramite Riga di comando
+### Utilizzare PDFMathTranslate tramite riga di comando
 
 #### Utilizzo di base
 
@@ -14,7 +14,7 @@ pdf2zh_next document.pdf
 
 > [!NOTE]
 > 
-> Se il percorso contiene spazi, si prega di racchiuderlo tra virgolette.
+> Se il tuo percorso contiene spazi, per favore racchiudilo tra virgolette.
 > 
 > ```bash
 > pdf2zh_next "path with spaces/document.pdf"
@@ -23,28 +23,28 @@ pdf2zh_next document.pdf
 Dopo aver eseguito la traduzione, i file vengono generati nella **directory di lavoro corrente**.
 
 > [!TIP]
-> **Dov'è la mia "Directory di lavoro corrente"?**
+> **Dov'è la mia "Cartella di lavoro corrente"?**
 > Prima di inserire un comando nel terminale, potresti vedere un percorso visualizzato nel tuo terminale:
 > 
 > ```powershell
 > PS C:\Users\XXX>
 > ```
 > 
-> Questa directory è la "*Directory di lavoro corrente*."
+> Questa directory è la "*Cartella di lavoro corrente*".
 > 
-> Se non viene visualizzato alcun percorso, prova a eseguire questo comando nel terminale:
+> Se non c'è un percorso, prova a eseguire questo comando nel terminale:
 > 
 > ```bash
 > pwd
 > ```
 > 
-> Dopo aver eseguito questo comando, verrà visualizzato un percorso. Questo percorso è la "**Directory di lavoro corrente**". I file tradotti appariranno qui.
+> Dopo aver eseguito questo comando, verrà visualizzato un percorso. Questo percorso è la "**Cartella di lavoro corrente**". I file tradotti appariranno qui.
 
 ---
 
 #### Opzioni avanzate
 
-Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, fare riferimento a [Opzioni avanzate](./../advanced/advanced.md).
+Per spiegazioni dettagliate sui parametri aggiuntivi della riga di comando, si prega di fare riferimento a [opzioni avanzate](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Parte del contenuto di questa pagina è stata tradotta da GPT e potrebbe contenere errori.</small></h6>

@@ -6,7 +6,7 @@
 
 #### Cos'è Docker?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) è una piattaforma open per sviluppare, distribuire ed eseguire applicazioni. Docker ti consente di separare le tue applicazioni dall'infrastruttura, permettendoti di fornire software rapidamente. Con Docker, puoi gestire la tua infrastruttura nello stesso modo in cui gestisci le tue applicazioni. Sfruttando le metodologie di Docker per la distribuzione, il testing e il deployment del codice, puoi ridurre significativamente il ritardo tra la scrittura del codice e la sua esecuzione in produzione.
+[Docker](https://docs.docker.com/get-started/docker-overview/) è una piattaforma open per lo sviluppo, la distribuzione e l'esecuzione di applicazioni. Docker ti consente di separare le tue applicazioni dalla tua infrastruttura in modo da poter fornire software rapidamente. Con Docker, puoi gestire la tua infrastruttura nello stesso modo in cui gestisci le tue applicazioni. Sfruttando le metodologie di Docker per la distribuzione, il testing e l'implementazione del codice, puoi ridurre significativamente il ritardo tra la scrittura del codice e la sua esecuzione in produzione.
 
 #### Installazione
 
@@ -33,7 +33,7 @@ http://localhost:7860/
 ```
 
 > [!NOTE]
-> Se riscontri problemi durante l'utilizzo dell'interfaccia Web, consulta [Utilizzo --> Interfaccia Web](./USAGE_webui.md).
+> Se riscontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Se riscontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).

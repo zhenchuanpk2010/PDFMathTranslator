@@ -1,0 +1,204 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/INSTALLATION_uv.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_23005398",
+      "chunk_type": "paragraph",
+      "original_content": "[**Getting Started**](./getting-started.md) > **Installation** > **uv** _(current)_\n",
+      "start_line_no": 1,
+      "translations": {
+        "ja": "[**開始**](./getting-started.md) > **インストール** > **uv** _(現在)_\n",
+        "fr": "[**Commencer**](./getting-started.md) > **Installation** > **uv** _(current)_\n",
+        "es": "[**Empezar**](./getting-started.md) > **Instalación** > **uv** _(actual)_\n",
+        "ko": "[**시작하기**](./getting-started.md) > **설치** > **uv** _(현재)_\n",
+        "zh": "[**开始使用**](./getting-started.md) > **如何安装** > **uv** _(current)_\n",
+        "ru": "[**Начало работы**](./getting-started.md) > **Установка** > **uv** _(текущая)_\n",
+        "de": "[**Erste Schritte**](./getting-started.md) > **Installation** > **uv** _(aktuell)_\n",
+        "pt": "[**Começar**](./getting-started.md) > **Instalação** > **uv** _(atual)_\n",
+        "zh_TW": "[**開始使用**](./getting-started.md) > **如何安裝** > **uv** _(current)_\n",
+        "it": "[**Iniziare**](./getting-started.md) > **Installazione** > **uv** _(current)_\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_d088a71e",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_D43EE31C",
+      "chunk_type": "header",
+      "original_content": "### Install PDFMathTranslate via uv\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh": "### 通过 uv 安装 PDFMathTranslate\n",
+        "fr": "### Installer PDFMathTranslate via uv\n",
+        "ko": "### uv를 통해 PDFMathTranslate 설치하기\n",
+        "it": "### Installa PDFMathTranslate tramite uv\n",
+        "es": "### Instalar PDFMathTranslate mediante uv\n",
+        "de": "### Installieren Sie PDFMathTranslate über uv\n",
+        "ja": "### uv 経由で PDFMathTranslate をインストール\n",
+        "zh_TW": "### 透過 uv 安裝 PDFMathTranslate\n",
+        "pt": "### Instalar PDFMathTranslate via uv\n",
+        "ru": "### Установка PDFMathTranslate через uv\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_1BF9C99B",
+      "chunk_type": "header",
+      "original_content": "#### What is uv? How to install it?\n",
+      "start_line_no": 7,
+      "translations": {
+        "ru": "#### Что такое uv? Как его установить?\n",
+        "zh_TW": "#### 什麼是 uv？如何安裝它？\n",
+        "zh": "#### 什么是 uv？如何安装它？\n",
+        "de": "#### Was ist uv? Wie installiert man es?\n",
+        "ko": "#### uv란 무엇인가요? 어떻게 설치하나요?\n",
+        "pt": "#### O que é uv? Como instalá-lo?\n",
+        "it": "#### Cos'è uv? Come installarlo?\n",
+        "fr": "#### Qu'est-ce que uv ? Comment l'installer ?\n",
+        "es": "#### ¿Qué es uv? ¿Cómo instalarlo?\n",
+        "ja": "#### uv とは何ですか？ インストール方法は？\n\nuv は Python のパッケージマネージャーで、`pip` や `pip-tools` の代替として高速で効率的なパッケージ管理を提供します。インストール方法は以下の通りです：\n\n1. **Python のインストール**: uv を使用するには Python 3.7 以降が必要です。まだインストールしていない場合は、[Python 公式サイト](https://www.python.org/downloads/) からダウンロードしてください。\n\n2. **uv のインストール**: 以下のコマンドを実行して uv をインストールします：\n   ```bash\n   pip install uv\n   ```\n\n3. **動作確認**: インストールが完了したら、以下のコマンドでバージョンを確認します：\n   ```bash\n   uv --version\n   ```\n\nこれで uv が使用可能になります。`pip` と同じように `uv pip install パッケージ名` でパッケージをインストールできますが、より高速に動作します。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8963BEA0",
+      "chunk_type": "paragraph",
+      "original_content": "uv is an extremely fast Python package and project manager, written in Rust.\n<br>\nTo install uv on your computer, please refer to [this article](https://docs.astral.sh/uv/getting-started/installation/).\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "uv 是一款极其快速的 Python 包和项目管理器，使用 Rust 编写。\n<br>\n要在您的计算机上安装 uv，请参考[这篇文章](https://docs.astral.sh/uv/getting-started/installation/)。\n",
+        "zh_TW": "uv 是一款極其快速的 Python 套件和專案管理工具，使用 Rust 編寫。\n<br>\n要在您的電腦上安裝 uv，請參考[這篇文章](https://docs.astral.sh/uv/getting-started/installation/)。\n",
+        "ko": "uv는 Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 매니저입니다.\n<br>\n컴퓨터에 uv를 설치하려면 [이 글](https://docs.astral.sh/uv/getting-started/installation/)을 참조하세요.\n",
+        "es": "uv es un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en Rust.\n<br>\nPara instalar uv en tu computadora, consulta [este artículo](https://docs.astral.sh/uv/getting-started/installation/).\n",
+        "ru": "uv — это чрезвычайно быстрый менеджер пакетов и проектов Python, написанный на Rust.\n<br>\nЧтобы установить uv на ваш компьютер, обратитесь к [этой статье](https://docs.astral.sh/uv/getting-started/installation/).\n",
+        "ja": "uv は Rust で書かれた非常に高速な Python パッケージおよびプロジェクトマネージャーです。\n<br>\nuv をコンピュータにインストールするには、[この記事](https://docs.astral.sh/uv/getting-started/installation/) を参照してください。\n",
+        "fr": "uv est un gestionnaire de paquets et de projets Python extrêmement rapide, écrit en Rust.\n<br>\nPour installer uv sur votre ordinateur, veuillez consulter [cet article](https://docs.astral.sh/uv/getting-started/installation/).\n",
+        "it": "uv è un gestore di pacchetti e progetti Python estremamente veloce, scritto in Rust.\n<br>\nPer installare uv sul tuo computer, consulta [questo articolo](https://docs.astral.sh/uv/getting-started/installation/).\n",
+        "de": "uv ist ein extrem schneller Python-Paket- und Projektmanager, geschrieben in Rust.\n<br>\nUm uv auf Ihrem Computer zu installieren, lesen Sie bitte [diesen Artikel](https://docs.astral.sh/uv/getting-started/installation/).\n",
+        "pt": "uv é um gerenciador de pacotes e projetos Python extremamente rápido, escrito em Rust.\n<br>\nPara instalar o uv no seu computador, consulte [este artigo](https://docs.astral.sh/uv/getting-started/installation/).\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_77e28a17",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 13,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_6EBC627B",
+      "chunk_type": "header",
+      "original_content": "#### Installation\n",
+      "start_line_no": 15,
+      "translations": {
+        "zh_TW": "#### 如何安裝\n",
+        "ko": "#### 설치\n",
+        "ru": "#### Установка\n",
+        "de": "#### Installation\n",
+        "fr": "#### Installation\n",
+        "pt": "#### Instalação\n",
+        "zh": "#### 如何安装\n",
+        "ja": "#### インストール\n",
+        "it": "#### Installazione\n",
+        "es": "#### Instalación\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_05BD0E93",
+      "chunk_type": "list",
+      "original_content": "1. Python installed (3.10 <= version <= 3.12);\n\n2. Use the following command to use our package:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+      "start_line_no": 17,
+      "translations": {
+        "fr": "1. Python installé (version 3.10 <= version <= 3.12) ;\n\n2. Utilisez la commande suivante pour utiliser notre package :\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "zh_TW": "1. 已安裝 Python（3.10 <= 版本 <= 3.12）；\n\n2. 使用以下命令來使用我們的套件：\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "es": "1. Python instalado (versión 3.10 <= versión <= 3.12);\n\n2. Utilice el siguiente comando para usar nuestro paquete:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "ja": "1. Python がインストールされていること（3.10 <= バージョン <= 3.12）；\n\n2. 以下のコマンドを使用してパッケージをインストールします：\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "it": "1. Python installato (versione 3.10 <= versione <= 3.12);\n\n2. Utilizza il seguente comando per usare il nostro pacchetto:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "de": "1. Python installiert (3.10 <= Version <= 3.12);\n\n2. Verwenden Sie den folgenden Befehl, um unser Paket zu nutzen:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "ru": "1. Установленный Python (версия от 3.10 до 3.12 включительно);\n\n2. Используйте следующую команду для установки нашего пакета:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "pt": "1. Python instalado (versão 3.10 <= versão <= 3.12);\n\n2. Use o seguinte comando para utilizar nosso pacote:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "ko": "1. Python 설치 (3.10 <= 버전 <= 3.12);\n\n2. 다음 명령어를 사용하여 패키지를 사용하세요:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+        "zh": "1. 已安装 Python（3.10 <= 版本 <= 3.12）；\n\n2. 使用以下命令来使用我们的包：\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_74F9EC5E",
+      "chunk_type": "paragraph",
+      "original_content": "After installation, you can start translation via the **command line** or **WebUI**.\n",
+      "start_line_no": 26,
+      "translations": {
+        "zh": "安装完成后，您可以通过 **命令行** 或 **WebUI** 开始翻译。\n",
+        "fr": "Après l'installation, vous pouvez commencer la traduction via la **ligne de commande** ou **WebUI**.\n",
+        "es": "Después de la instalación, puedes comenzar la traducción mediante la **línea de comandos** o **WebUI**.\n",
+        "pt": "Após a instalação, você pode começar a tradução via **linha de comando** ou **WebUI**.\n",
+        "ru": "После установки вы можете начать перевод через **командную строку** или **WebUI**.\n",
+        "ja": "インストール後、**コマンドライン**または **WebUI** 経由で翻訳を開始できます。\n",
+        "it": "Dopo l'installazione, puoi iniziare la traduzione tramite la **riga di comando** o **WebUI**.\n",
+        "ko": "설치 후, **명령줄** 또는 **WebUI**를 통해 번역을 시작할 수 있습니다.\n",
+        "de": "Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile** oder **WebUI** beginnen.\n",
+        "zh_TW": "安裝完成後，您可以透過 **命令行** 或 **WebUI** 開始翻譯。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_747DC3A8",
+      "chunk_type": "callout_mkdocs",
+      "original_content": "!!! Warning\n\n    If you see the error `command not found: pdf2zh_next` when running, please configure the environment variables as follows and try again:\n\n    === \"macOS and Linux\"\n\n        Add the following to your ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Then restart your terminal\n\n    === \"Windows\"\n\n        Enter the following in PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Then restart your terminal\n",
+      "start_line_no": 28,
+      "translations": {
+        "zh_TW": "!!! Warning\n\n    如果在執行時看到錯誤 `command not found: pdf2zh_next`，請按照以下方式配置環境變量後重試：\n\n    === \"macOS 和 Linux\"\n\n        將以下內容添加到您的 ~/.zshrc 文件中：\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        然後重新啟動終端機\n\n    === \"Windows\"\n\n        在 PowerShell 中輸入以下內容：\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        然後重新啟動終端機\n",
+        "pt": "!!! Warning\n\n    Se você vir o erro `command not found: pdf2zh_next` ao executar, configure as variáveis de ambiente da seguinte forma e tente novamente:\n\n    === \"macOS e Linux\"\n\n        Adicione o seguinte ao seu ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Em seguida, reinicie seu terminal\n\n    === \"Windows\"\n\n        Digite o seguinte no PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Em seguida, reinicie seu terminal\n",
+        "ja": "!!! Warning\n\n    `command not found: pdf2zh_next` というエラーが表示された場合、以下の手順で環境変数を設定して再度お試しください：\n\n    === \"macOS および Linux\"\n\n        ~/.zshrc に以下を追加：\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        その後、ターミナルを再起動\n\n    === \"Windows\"\n\n        PowerShell で以下を実行：\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        その後、ターミナルを再起動\n",
+        "es": "!!! Warning\n\n    Si ves el error `command not found: pdf2zh_next` al ejecutar, por favor configura las variables de entorno de la siguiente manera e intenta nuevamente:\n\n    === \"macOS y Linux\"\n\n        Agrega lo siguiente a tu ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Luego reinicia tu terminal\n\n    === \"Windows\"\n\n        Ingresa lo siguiente en PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Luego reinicia tu terminal\n",
+        "ko": "!!! Warning\n\n    `command not found: pdf2zh_next` 오류가 발생하면 다음과 같이 환경 변수를 설정한 후 다시 시도해 주세요:\n\n    === \"macOS 및 Linux\"\n\n        ~/.zshrc 파일에 다음을 추가하세요:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        그런 다음 터미널을 재시작하세요\n\n    === \"Windows\"\n\n        PowerShell에서 다음을 입력하세요:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        그런 다음 터미널을 재시작하세요\n",
+        "zh": "!!! Warning\n\n    如果在运行时看到错误 `command not found: pdf2zh_next`，请按以下方式配置环境变量后重试：\n\n    === \"macOS 和 Linux\"\n\n        将以下内容添加到你的 ~/.zshrc 文件中：\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        然后重启终端\n\n    === \"Windows\"\n\n        在 PowerShell 中输入以下内容：\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        然后重启终端\n",
+        "fr": "!!! Warning\n\n    Si vous voyez l'erreur `command not found: pdf2zh_next` lors de l'exécution, veuillez configurer les variables d'environnement comme suit et réessayer :\n\n    === \"macOS et Linux\"\n\n        Ajoutez ce qui suit à votre ~/.zshrc :\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Puis redémarrez votre terminal\n\n    === \"Windows\"\n\n        Entrez ce qui suit dans PowerShell :\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Puis redémarrez votre terminal\n",
+        "ru": "!!! Warning\n\n    Если при запуске вы видите ошибку `command not found: pdf2zh_next`, настройте переменные окружения следующим образом и попробуйте снова:\n\n    === \"macOS и Linux\"\n\n        Добавьте следующее в ваш ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Затем перезапустите терминал\n\n    === \"Windows\"\n\n        Введите следующее в PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Затем перезапустите терминал\n",
+        "it": "!!! Warning\n\n    Se vedi l'errore `command not found: pdf2zh_next` durante l'esecuzione, configura le variabili d'ambiente come segue e riprova:\n\n    === \"macOS e Linux\"\n\n        Aggiungi quanto segue al tuo ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Quindi riavvia il terminale\n\n    === \"Windows\"\n\n        Inserisci quanto segue in PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Quindi riavvia il terminale\n",
+        "de": "!!! Warning\n\n    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie die Umgebungsvariablen wie folgt und versuchen Sie es erneut:\n\n    === \"macOS und Linux\"\n\n        Fügen Sie Folgendes zu Ihrer ~/.zshrc hinzu:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Starten Sie dann Ihr Terminal neu\n\n    === \"Windows\"\n\n        Geben Sie Folgendes in PowerShell ein:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Starten Sie dann Ihr Terminal neu\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_C86DFF6A",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).\n",
+      "start_line_no": 52,
+      "translations": {
+        "zh": "> [!NOTE]\n> 如果在使用 WebUI 过程中遇到任何问题，请参考 [如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用 命令行 过程中遇到任何问题，请参考 [如何使用 --> 命令行](./USAGE_commandline.md)。\n",
+        "zh_TW": "> [!NOTE]\n> 如果在使用 WebUI 時遇到任何問題，請參考 [如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用命令行時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。\n",
+        "es": "> [!NOTE]\n> Si encuentras algún problema al usar WebUI, consulta [Uso --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Si encuentras algún problema al usar la línea de comandos, consulta [Uso --> Línea de comandos](./USAGE_commandline.md).\n",
+        "ru": "> [!NOTE]\n> Если у вас возникли проблемы при использовании WebUI, обратитесь к разделу [Использование --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Если у вас возникли проблемы при использовании командной строки, обратитесь к разделу [Использование --> Командная строка](./USAGE_commandline.md).\n",
+        "ko": "> [!NOTE]\n> WebUI 사용 중 문제가 발생하면 [사용법 --> WebUI](./USAGE_webui.md)를 참조하세요.\n\n> [!NOTE]\n> 명령줄 사용 중 문제가 발생하면 [사용법 --> Command Line](./USAGE_commandline.md)를 참조하세요.\n",
+        "fr": "> [!NOTE]\n> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [Utilisation --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Si vous rencontrez des problèmes lors de l'utilisation de la ligne de commande, veuillez consulter [Utilisation --> Ligne de commande](./USAGE_commandline.md).\n",
+        "de": "> [!NOTE]\n> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Wenn Sie Probleme bei der Verwendung der Kommandozeile haben, lesen Sie bitte [Verwendung --> Kommandozeile](./USAGE_commandline.md).\n",
+        "pt": "> [!NOTE]\n> Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).\n",
+        "ja": "> [!NOTE]\n> WebUI の使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md) を参照してください。\n\n> [!NOTE]\n> コマンドラインの使用中に問題が発生した場合は、[使い方 --> コマンドライン](./USAGE_commandline.md) を参照してください。\n",
+        "it": "> [!NOTE]\n> Se riscontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Se riscontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).\n"
+      }
+    }
+  ]
+}

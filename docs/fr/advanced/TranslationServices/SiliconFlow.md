@@ -2,22 +2,22 @@
 
 ## Service de traduction gratuit
 
-[SiliconFlow](https://siliconflow.cn) propose un service de traduction gratuit pour ce projet.
+[SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet.
 
-Actuellement, le service de traduction gratuit utilise le modèle `THUDM/GLM-4-9B-0414`.
+Actuellement, le service de traduction gratuit utilisera le modèle `THUDM/GLM-4-9B-0414`.
 
 ### Utilisation
 
-#### cli
+#### Ligne de commande
 
 ```bash
 pdf2zh_next --siliconflowfree example.pdf 
 ```
 
-#### interface web
+#### webui
 
 1. Sélectionnez "SiliconFlowFree" dans la liste déroulante "Options de traduction" - "Service".
-2. Cliquez sur le bouton Traduire en bas de la page pour commencer la traduction.
+2. Cliquez sur le bouton Traduire en bas de la page pour démarrer la traduction.
 3. Une fois la traduction terminée, vous pouvez trouver le fichier PDF traduit dans la section "Traduit" en bas de la page.
 
 
@@ -41,25 +41,25 @@ Politique de confidentialité de SiliconFlow : [简体中文](https://docs.silic
 
 2. Créez une clé API sur [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Ensuite, cliquez sur la clé pour la copier.
 
-#### cli
+#### Ligne de commande
 
 ```bash
 pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --siliconflow-api-key <your-api-key> example.pdf
 ```
 
-#### interface web
+#### webui
 
-1. "Options de traduction" - **"Service"** menu déroulant : Sélectionnez "SiliconFlow"  
+1. "Options de traduction" - Liste déroulante **"Service"** : Sélectionnez "SiliconFlow"  
 2. "Options de traduction" - **"URL de base pour l'API SiliconFlow"** : Conservez la valeur par défaut  
-3. "Options de traduction" - **"Modèle SiliconFlow à utiliser"** : Saisissez "Pro/deepseek-ai/DeepSeek-V3" ou d'autres modèles  
+3. "Options de traduction" - **"Modèle SiliconFlow à utiliser"** : Entrez "Pro/deepseek-ai/DeepSeek-V3" ou d'autres modèles  
 4. "Options de traduction" - **"Clé API pour le service SiliconFlow"** : Collez votre clé API  
-5. Cliquez sur le bouton Traduire en bas de la page pour lancer la traduction  
+5. Cliquez sur le bouton Traduire en bas de la page pour démarrer la traduction  
 6. Une fois la traduction terminée, vous pouvez trouver le fichier PDF traduit dans la section "Traduits" en bas de la page.
 
 
 ## Remerciements
 
-Merci à [SiliconFlow](https://siliconflow.cn) d'avoir fourni un service de traduction gratuit pour ce projet.
+Merci à [SiliconFlow](https://siliconflow.cn) pour avoir fourni un service de traduction gratuit pour ce projet.
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

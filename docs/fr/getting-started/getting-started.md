@@ -1,6 +1,6 @@
 ### Commencer
 
-PDFMathTranslate est un outil de traduction PDF puissant. Vous pouvez installer et commencer à utiliser cet outil de différentes manières.
+PDFMathTranslate est un outil puissant de traduction de PDF. Vous pouvez installer et commencer à utiliser cet outil de différentes manières.
 
 ---
 
@@ -14,9 +14,9 @@ PDFMathTranslate est un outil de traduction PDF puissant. Vous pouvez installer 
 
 ### Utilisation
 
-1. [Utilisation de l'**interface Web**](./USAGE_webui.md)  
-2. [Utilisation du **plugin Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programme tiers)  
-3. [Utilisation de la **ligne de commande**](./USAGE_commandline.md)
+1. [Utilisation de **WebUI**](./USAGE_webui.md)  
+2. [Utilisation de **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programme tiers)  
+3. [Utilisation de **Ligne de commande**](./USAGE_commandline.md)
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

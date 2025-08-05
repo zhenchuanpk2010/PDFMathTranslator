@@ -2,15 +2,15 @@
 
 ---
 
-### docker 를 통해 PDFMathTranslate 설치하기
+### 도커를 통해 PDFMathTranslate 설치하기
 
-#### Docker 란 무엇인가요?
+#### Docker란 무엇인가?
 
-[Docker](https://docs.docker.com/get-started/docker-overview/)는 애플리케이션 개발, 배송 및 실행을 위한 오픈 플랫폼입니다. Docker 를 사용하면 인프라와 애플리케이션을 분리하여 소프트웨어를 빠르게 제공할 수 있습니다. Docker 를 통해 인프라를 애플리케이션과 동일한 방식으로 관리할 수 있습니다. Docker 의 코드 배송, 테스트 및 배포 방법론을 활용하면 코드 작성과 프로덕션 환경에서 실행 사이의 지연을 크게 줄일 수 있습니다.
+[Docker](https://docs.docker.com/get-started/docker-overview/)는 애플리케이션을 개발, 배송 및 실행하기 위한 오픈 플랫폼입니다. Docker를 사용하면 애플리케이션을 인프라와 분리하여 소프트웨어를 빠르게 제공할 수 있습니다. Docker를 통해 인프라를 애플리케이션과 동일한 방식으로 관리할 수 있습니다. Docker의 코드 배송, 테스트 및 배포 방법론을 활용하면 코드 작성과 프로덕션 환경에서 실행 사이의 지연 시간을 크게 줄일 수 있습니다.
 
 #### 설치
 
-<h4>1. Pull 하고 실행하기:</h4>
+<h4>1. 풀하고 실행하기:</h4>
 
 ```bash
 docker pull awwaawwa/pdfmathtranslate-next
@@ -19,14 +19,14 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - Docker Hub 에 접근할 수 없는 경우 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate)의 이미지를 사용해 보세요.
+> - Docker Hub에 접근할 수 없는 경우, [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate)의 이미지를 사용해 보세요.
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next
 > ```
 
-<h4>2. 기본 브라우저에서 이 URL 을 입력하여 WebUI 페이지를 엽니다:</h4>
+<h4>2. 기본 브라우저에서 이 URL을 입력하여 WebUI 페이지를 엽니다:</h4>
 
 ```
 http://localhost:7860/
@@ -54,4 +54,4 @@ http://localhost:7860/
 -->
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

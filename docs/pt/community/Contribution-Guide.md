@@ -1,10 +1,10 @@
-# Contribuindo para o Projeto
+# Contribuindo para o projeto
 
 > [!CAUTION]
 >
-> Os mantenedores atuais do projeto estão pesquisando a internacionalização automatizada da documentação. Portanto, qualquer PR relacionado à internacionalização/tradução da documentação NÃO será aceito!
+> Os mantenedores atuais do projeto estão pesquisando a internacionalização automatizada de documentação. Portanto, qualquer PR relacionado à internacionalização/tradução de documentação NÃO será aceito!
 >
-> Por favor, NÃO envie PRs relacionados à internacionalização/tradução da documentação!
+> Por favor, NÃO envie PRs relacionados à internacionalização/tradução de documentação!
 
 Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reserve um tempo para ler as seguintes diretrizes para garantir que sua contribuição possa ser aceita sem problemas.
 
@@ -14,7 +14,7 @@ Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reser
 2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  
 3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
 4. Outras contribuições consideradas inadequadas pelos mantenedores.  
-5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.  
+5. Documentação de contribuição, mas alterando a documentação em idiomas diferentes do inglês.  
 6. PRs que exigem modificação de arquivos PDF.
 
 Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
@@ -54,17 +54,17 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
    - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelho), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.
 
 
-<h4 id="dev&test">2. Desenvolvimento e Testes</h4>
+<h4 id="dev&test">2. Desenvolvimento e Teste</h4>
 
    - Use o comando `pip install -e .` para desenvolvimento e teste.
 
 
-<h4 id="format">3. Formatação de código</h4>
+<h4 id="format">3. Formatação de Código</h4>
 
    - Configure a ferramenta `pre-commit` e habilite `black` e `flake8` para formatação de código.
 
 
-<h4 id="requpdate">4. Atualizações de dependências</h4>
+<h4 id="requpdate">4. Atualizações de Dependências</h4>
 
    - Se você introduzir novas dependências, atualize a lista de dependências no arquivo `pyproject.toml` em tempo hábil.
 
@@ -92,31 +92,31 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 ## Adicionando um mecanismo de tradução
 
-1. Adicione uma nova classe de configuração do tradutor no arquivo `pdf2zh/config/translate_engine_model.py`.
-2. Adicione uma instância da nova classe de configuração do tradutor ao alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` no mesmo arquivo.
-3. Adicione a nova classe de implementação do tradutor na pasta `pdf2zh/translator/translator_impl`.
+1. Adicione uma nova classe de configuração de tradutor no arquivo `pdf2zh/config/translate_engine_model.py`.
+2. Adicione uma instância da nova classe de configuração de tradutor ao alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` no mesmo arquivo.
+3. Adicione a nova classe de implementação de tradutor na pasta `pdf2zh/translator/translator_impl`.
 
 > [!NOTE]
 >
 > Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.
 
-## Estrutura do projeto
+## Estrutura do Projeto
 
-- **pasta config**: Sistema de configuração.  
-- **pasta translator**: Implementações relacionadas ao tradutor.  
-- **gui.py**: Fornece a interface gráfica.  
-- **const.py**: Algumas constantes.  
-- **main.py**: Fornece a ferramenta de linha de comando.  
-- **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.  
-- **http_api.py**: Fornece API HTTP (não iniciado).
+- **config folder**: Sistema de configuração.
+- **translator folder**: Implementações relacionadas ao tradutor.
+- **gui.py**: Fornece a interface gráfica do usuário.
+- **const.py**: Algumas constantes.
+- **main.py**: Fornece a ferramenta de linha de comando.
+- **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.
+- **http_api.py**: Fornece API HTTP (não iniciada).
 
 ## Entre em contato conosco
 
-Se você tiver alguma dúvida, envie um feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
+Se você tiver alguma dúvida, por favor, envie feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) patrocina mensalmente códigos de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) patrocina códigos mensais de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

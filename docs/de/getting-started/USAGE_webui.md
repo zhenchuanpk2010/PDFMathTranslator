@@ -1,8 +1,8 @@
-[**Erste Schritte**](./erste-schritte.md) > **Installation** > **WebUI** _(aktuell)_
+[**Erste Schritte**](./getting-started.md) > **Installation** > **WebUI** _(aktuell)_
 
 ---
 
-### Verwenden Sie PDFMathTranslate über die Webui
+### Verwenden Sie PDFMathTranslate über Webui
 
 #### So öffnen Sie die WebUI-Seite:
 
@@ -24,14 +24,14 @@ Es gibt mehrere Methoden, um die WebUI-Oberfläche zu öffnen. Wenn Sie **Window
     http://localhost:7860/
     ```
 
-    Ziehen Sie die PDF-Datei in das Fenster und klicken Sie auf `Translate`.
+    Ziehen Sie die `PDF`-Datei in das Fenster und klicken Sie auf `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### Umgebungsvariablen
 
-Sie können die Quell- und Zielsprachen mithilfe von Umgebungsvariablen festlegen:
+Sie können die Quell- und Zielsprachen mit Umgebungsvariablen festlegen:
 
 - `PDF2ZH_LANG_FROM`: Legt die Ausgangssprache fest. Standardmäßig "English".
 - `PDF2ZH_LANG_TO`: Legt die Zielsprache fest. Standardmäßig "Simplified Chinese".
@@ -42,6 +42,8 @@ Sie können die Quell- und Zielsprachen mithilfe von Umgebungsvariablen festlege
 <img src="./../images/after.png" width="500"/>
 
 ## Wartung
+
+### TRANSLATION RESULT
 
 GUI wird von [Rongxin](https://github.com/reycn) gewartet
 

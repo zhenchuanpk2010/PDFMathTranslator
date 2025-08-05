@@ -1,0 +1,65 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/Documentation-of-Translation-Services.md",
+  "chunks": [
+    {
+      "id": "chunk_9221A870",
+      "raw_content": "[**Advanced**](./introduction.md) > **Documentation of Translation Services** _(current)_\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "h_rule_57dd5a65",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_7775DA81",
+      "raw_content": "### Viewing Available Translate Services via Command Line\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_4919DFD2",
+      "raw_content": "You can confirm the available translate services and their usage by printing the help message in the command line.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_756565E6",
+      "raw_content": "```bash\npdf2zh_next -h\n```\n",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": "bash"
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_7935E690",
+      "raw_content": "At the end of the help message, you can view detailed information about the different translation services.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    }
+  ]
+}

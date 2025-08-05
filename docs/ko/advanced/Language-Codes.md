@@ -1,30 +1,87 @@
-[**고급 옵션**](./introduction.md) > **언어 코드** _(current)_
+[**고급 옵션**](./introduction.md) > **언어 코드** _(현재)_
 
 ---
 
 #### Google
 
-소스 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o 가 정리함.
+소스 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o에 의해 정리됨.
 
 | 중국어 레이블 | 레이블 | `Language Code` |
 | --- | --- | --- |
 | 암하라어 | Amharic | `am` |
 | 아랍어 | Arabic | `ar` |
+### 번역 결과
+
 | 바스크어 | Basque | `eu` |
-| 벵골어 | Bengali | `bn` |
-| 영어 (영국) | English (UK) | `en-GB` |
+| 孟加拉语 | Bengali | `bn` |
+| 英语（美国） | English (US) | `en-US` |
+|---|---|---|---|---|---|---|
+| 简体中文 | Chinese (Simplified) | `zh-CN` | 繁体中文 | Chinese (Traditional) | `zh-TW` |
+| 日语 | Japanese | `ja` | 韩语 | Korean | `ko` |
+| 法语 | French | `fr` | 德语 | German | `de` |
+| 意大利语 | Italian | `it` | 西班牙语 | Spanish | `es` |
+| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` | 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |
+| 俄语 | Russian | `ru` | 阿拉伯语 | Arabic | `ar` |
+| 荷兰语 | Dutch | `nl` | 波兰语 | Polish | `pl` |
+| 土耳其语 | Turkish | `tr` | 瑞典语 | Swedish | `sv` |
+| 芬兰语 | Finnish | `fi` | 丹麦语 | Danish | `da` |
+| 挪威语 | Norwegian | `no` | 泰语 | Thai | `th` |
+| 越南语 | Vietnamese | `vi` | 印尼语 | Indonesian | `id` |
+| 乌克兰语 | Ukrainian | `uk` | 捷克语 | Czech | `cs` |
+| 希腊语 | Greek | `el` | 匈牙利语 | Hungarian | `hu` |
+| 罗马尼亚语 | Romanian | `ro` | 斯洛伐克语 | Slovak | `sk` |
+| 保加利亚语 | Bulgarian | `bg` | 克罗地亚语 | Croatian | `hr` |
+| 斯洛文尼亚语 | Slovenian | `sl` | 塞尔维亚语 | Serbian | `sr` |
+| 爱沙尼亚语 | Estonian | `et` | 拉脱维亚语 | Latvian | `lv` |
+| 立陶宛语 | Lithuanian | `lt` | 马来语 | Malay | `ms` |
+| 希伯来语 | Hebrew | `he` | 波斯语 | Persian | `fa` |
+| 孟加拉语 | Bengali | `bn` | 印地语 | Hindi | `hi` |
+| 泰米尔语 | Tamil | `ta` | 泰卢固语 | Telugu | `te` |
+| 卡纳达语 | Kannada | `kn` | 马拉雅拉姆语 | Malayalam | `ml` |
+| 古吉拉特语 | Gujarati | `gu` | 马拉地语 | Marathi | `mr` |
+| 旁遮普语 | Punjabi | `pa` | 乌尔都语 | Urdu | `ur` |
+
+---
+
+### TRANSLATED TEXT
+
+| 영어 (영국) | English (UK) | `en-GB` | 영어 (미국) | English (US) | `en-US` |
+|---|---|---|---|---|---|
+| 중국어 (간체) | Chinese (Simplified) | `zh-CN` | 중국어 (번체) | Chinese (Traditional) | `zh-TW` |
+| 일본어 | Japanese | `ja` | 한국어 | Korean | `ko` |
+| 프랑스어 | French | `fr` | 독일어 | German | `de` |
+| 이탈리아어 | Italian | `it` | 스페인어 | Spanish | `es` |
+| 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` | 포르투갈어 (포르투갈) | Portuguese (Portugal) | `pt-PT` |
+| 러시아어 | Russian | `ru` | 아랍어 | Arabic | `ar` |
+| 네덜란드어 | Dutch | `nl` | 폴란드어 | Polish | `pl` |
+| 터키어 | Turkish | `tr` | 스웨덴어 | Swedish | `sv` |
+| 핀란드어 | Finnish | `fi` | 덴마크어 | Danish | `da` |
+| 노르웨이어 | Norwegian | `no` | 태국어 | Thai | `th` |
+| 베트남어 | Vietnamese | `vi` | 인도네시아어 | Indonesian | `id` |
+| 우크라이나어 | Ukrainian | `uk` | 체코어 | Czech | `cs` |
+| 그리스어 | Greek | `el` | 헝가리어 | Hungarian | `hu` |
+| 루마니아어 | Romanian | `ro` | 슬로바키아어 | Slovak | `sk` |
+| 불가리아어 | Bulgarian | `bg` | 크로아티아어 | Croatian | `hr` |
+| 슬로베니아어 | Slovenian | `sl` | 세르비아어 | Serbian | `sr` |
+| 에스토니아어 | Estonian | `et` | 라트비아어 | Latvian | `lv` |
+| 리투아니아어 | Lithuanian | `lt` | 말레이어 | Malay | `ms` |
+| 히브리어 | Hebrew | `he` | 페르시아어 | Persian | `fa` |
+| 벵골어 | Bengali | `bn` | 힌디어 | Hindi | `hi` |
+| 타밀어 | Tamil | `ta` | 텔루구어 | Telugu | `te` |
+| 칸나다어 | Kannada | `kn` | 말라얄람어 | Malayalam | `ml` |
+| 구자라트어 | Gujarati | `gu` | 마라티어 | Marathi | `mr` |
+| 펀자브어 | Punjabi | `pa` | 우르두어 | Urdu | `ur` |
 | 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` |
 | 불가리아어 | Bulgarian | `bg` |
-| 카탈로니아어 | Catalan | `ca` |
+| 카탈루냐어 | Catalan | `ca` |
 | 체로키어 | Cherokee | `chr` |
 | 크로아티아어 | Croatian | `hr` |
 | 체코어 | Czech | `cs` |
 | 덴마크어 | Danish | `da` |
 | 네덜란드어 | Dutch | `nl` |
-| 영어 (미국) | English (US) | `en` |
+| 英语（美国） | English (US) | `en` |
 | 에스토니아어 | Estonian | `et` |
 | Filipino | `fil` |
-| 芬兰语 | Finnish | `fin` |
 | 핀란드어 | Finnish | `fi` |
 | 프랑스어 | French | `fr` |
 | 독일어 | German | `de` |
@@ -34,59 +91,24 @@
 | 힌디어 | Hindi | `hi` |
 | 헝가리어 | Hungarian | `hu` |
 | 아이슬란드어 | Icelandic | `is` |
-| 印尼语 | Indonesian | `id` |
+| 인도네시아어 | Indonesian | `id` |
 | 意大利语 | Italian | `it` |
-| 일본어 | Japanese | `ja` |
+| 日语 | Japanese | `ja` |
 | 칸나다어 | Kannada | `kn` |
 | 한국어 | Korean | `ko` |
 | 라트비아어 | Latvian | `lv` |
 | 리투아니아어 | Lithuanian | `lt` |
-| 马来语 | Malay | `ms` |
+| 말레이어 | Malay | `ms` |
 | 말라얄람어 | Malayalam | `ml` |
 | 마라티어 | Marathi | `mr` |
 | 노르웨이어 | Norwegian | `no` |
-| 폴란드어 | Polish | `pl` |
-| 포르투갈어 (포르투갈) | Portuguese (Portugal) | `pt-PT` |
+| 波兰어 | Polish | `pl` |
+| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |
+| 罗马尼亚语 | Romanian | `ro` |
 | 루마니아어 | Romanian | `ro` |
-| 俄语 | Russian | `ru` |
-| `sr-Latn` |
-| 斯洛伐克语 | Slovak | `sk` | | |
-| 斯洛文尼亚语 | Slovenian | `sl` | | |
-| 索马里语 | Somali | `so` | | |
-| 西班牙语 | Spanish | `es` | | |
-| 斯瓦希里语 | Swahili | `sw` | | |
-| 瑞典语 | Swedish | `sv` | | |
-| 泰米尔语 | Tamil | `ta` | | |
-| 泰卢固语 | Telugu | `te` | | |
-| 泰语 | Thai | `th` | | |
-| 土耳其语 | Turkish | `tr` | | |
-| 乌克兰语 | Ukrainian | `uk` | | |
-| 乌尔都语 | Urdu | `ur` | | |
-| 越南语 | Vietnamese | `vi` | | |
-| 威尔士语 | Welsh | `cy` | | |
-| 祖鲁语 | Zulu | `zu` | | |
-
----
-
-### Translated Markdown:
-
-| 세르비아어 | Serbian | `sr` | | `sr-Latn` |
-| 슬로바키아어 | Slovak | `sk` | | |
-| 슬로베니아어 | Slovenian | `sl` | | |
-| 소말리아어 | Somali | `so` | | |
-| 스페인어 | Spanish | `es` | | |
-| 스와힐리어 | Swahili | `sw` | | |
-| 스웨덴어 | Swedish | `sv` | | |
-| 타밀어 | Tamil | `ta` | | |
-| 텔루구어 | Telugu | `te` | | |
-| 태국어 | Thai | `th` | | |
-| 터키어 | Turkish | `tr` | | |
-| 우크라이나어 | Ukrainian | `uk` | | |
-| 우르두어 | Urdu | `ur` | | |
-| 베트남어 | Vietnamese | `vi` | | |
-| 웨일스어 | Welsh | `cy` | | |
-| 줄루어 | Zulu | `zu` | | |
-| 中文（중국） | Chinese (PRC) | `zh-CN` |
+| 러시아어 | Russian | `ru` |
+| 세르비아어 | Serbian | `sr` |
+| 한국어 (대한민국) | Korean (South Korea) | `ko-KR` |
 | 슬로바키아어 | Slovak | `sk` |
 | 슬로베니아어 | Slovenian | `sl` |
 | 스페인어 | Spanish | `es` |
@@ -94,19 +116,19 @@
 | 스웨덴어 | Swedish | `sv` |
 | 타밀어 | Tamil | `ta` |
 | 텔루구어 | Telugu | `te` |
-|  태국어 | Thai | `th` |
-| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
+| 태국어 | Thai | `th` |
+| 한국어 | Korean | `ko` |
 | 터키어 | Turkish | `tr` |
 | 우르두어 | Urdu | `ur` |
-| 乌克兰语 | Ukrainian | `uk` |
-|
+| 우크라이나어 | Ukrainian | `uk` |
+| 베트남어 | Vietnamese | `vi` |
 | 웨일스어 | Welsh | `cy` |
 
 
 #### DeepL
-DeepL 에서 지원하는 언어 목록은 <https://developers.deepl.com/docs/resources/supported-languages>에서 확인할 수 있으며, 이는 GPT-4o 에 의해 정리되었습니다.
+소스 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o 정리.
 
-| 중국어 레이블 | 레이블 | `Language Code`| 지원 여부 |
+| 중국어 레이블 | 레이블 | `Language Code` | 지원 여부 |
 | --- | --- | --- | --- |
 | 아랍어 | Arabic | `AR` | `source`, `target` |
 | 불가리아어 | Bulgarian | `BG` | `source`, `target` |
@@ -115,8 +137,8 @@ DeepL 에서 지원하는 언어 목록은 <https://developers.deepl.com/docs/re
 | 독일어 | German | `DE` | `source`, `target` |
 | 그리스어 | Greek | `EL` | `source`, `target` |
 | 영어 | English | `EN` | `source`, `target` |
-| 영어 (영국) | English (British) | `EN-GB` | `target` |
-| 영어 (미국) | English (American) | `EN-US` | `target` |
+|
+| 英语（美国） | English (American) | `EN-US` | `target` |
 | 스페인어 | Spanish | `ES` | `source`, `target` |
 | 에스토니아어 | Estonian | `ET` | `source`, `target` |
 | 핀란드어 | Finnish | `FI` | `source`, `target` |
@@ -132,8 +154,8 @@ DeepL 에서 지원하는 언어 목록은 <https://developers.deepl.com/docs/re
 | 네덜란드어 | Dutch | `NL` | `source`, `target` |
 | 폴란드어 | Polish | `PL` | `source`, `target` |
 | 포르투갈어 | Portuguese | `PT` | `source`, `target` |
-| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |
-| 포르투갈어 (유럽) | Portuguese (European) | `PT-PT` | `target` |
+| 포르투갈어 (브라질) | Portuguese (Brazilian) | `PT-BR` | `target` |
+| 포르투갈어(유럽) | Portuguese (European) | `PT-PT` | `target` |
 | 루마니아어 | Romanian | `RO` | `source`, `target` |
 | 러시아어 | Russian | `RU` | `source`, `target` |
 | 슬로바키아어 | Slovak | `SK` | `source`, `target` |
@@ -142,8 +164,8 @@ DeepL 에서 지원하는 언어 목록은 <https://developers.deepl.com/docs/re
 | 터키어 | Turkish | `TR` | `source`, `target` |
 | 우크라이나어 | Ukrainian | `UK` | `source`, `target` |
 | 한국어 | Korean | `KO` | `source`, `target` |
-| 한국어 | Korean | `KO` | `target` |
+| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
 | 중국어 (번체) | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

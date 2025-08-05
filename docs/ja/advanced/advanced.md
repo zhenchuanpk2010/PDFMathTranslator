@@ -1,16 +1,16 @@
-[**高度な設定**](./introduction.md) > **高度な設定** _(current)_
+[**高度な設定**](./introduction.md) > **高度な設定** _(現在)_
 
 ---
 
-<h3 id="toc">目次</h3>
+<h3 id="目次">目次</h3>
 
 - [コマンドライン引数](#コマンドライン引数)
 - [部分翻訳](#部分翻訳)
 - [ソース言語とターゲット言語を指定する](#ソース言語とターゲット言語を指定する)
-- [例外付きで翻訳する](#例外付きで翻訳する)
+- [例外付き翻訳](#例外付き翻訳)
 - [カスタムプロンプト](#カスタムプロンプト)
 - [カスタム設定](#カスタム設定)
-- [クリーンをスキップ](#クリーンをスキップ)
+- [クリーン処理をスキップ](#クリーン処理をスキップ)
 - [翻訳キャッシュ](#翻訳キャッシュ)
 - [公開サービスとしてのデプロイ](#公開サービスとしてのデプロイ)
 - [認証とウェルカムページ](#認証とウェルカムページ)
@@ -20,26 +20,26 @@
 
 #### コマンドライン引数
 
-コマンドラインで翻訳コマンドを実行し、現在の作業ディレクトリに翻訳済みドキュメント `example-mono.pdf` とバイリンガルドキュメント `example-dual.pdf` を生成します。デフォルトの翻訳サービスとして Google を使用します。その他のサポート翻訳サービスは[こちら](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)で確認できます。
+コマンドラインで翻訳コマンドを実行し、現在の作業ディレクトリに翻訳済みドキュメント `example-mono.pdf` とバイリンガルドキュメント `example-dual.pdf` を生成します。デフォルトの翻訳サービスとして Google を使用します。その他のサポートされている翻訳サービスは[こちら](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)で確認できます。
 
 <img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
-以下の表に、すべての高度なオプションを参考として記載します：
+以下の表に、すべての高度なオプションを参考としてリストアップします：
 
 ##### 引数
 
 | オプション                          | 機能                                                                               | 例                                                                                                              |
 | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `files`                         | ローカル PDF ファイルパス                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
+| `files`                         | ローカル `PDF` ファイルのパス                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |
 | `links`                         | オンラインファイル                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |
-| `--output`                      | ファイルの出力ディレクトリ                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
-| `--<Services>`                  | [**特定のサービス**](./翻訳サービスドキュメント.md)を使用して翻訳を行う | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
+| `--output`                      | 出力ディレクトリを指定                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |
+| `--<Services>`                  | [**特定のサービス**](./Documentation-of-Translation-Services.md) を使用して翻訳を行う | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |
 | `--help`, `-h`                  | ヘルプメッセージを表示して終了                                                             | `pdf2zh -h`                                                                                                          |
-| `--config-file`                 | 設定ファイルへのパス                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |
+| `--config-file`                 | 設定ファイルのパス                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |
 | `--report-interval`             | 進捗レポートの間隔（秒単位）                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |
 | `--debug`                       | デバッグログレベルを使用する                                                                | `pdf2zh example.pdf --debug`                                                                                         |
 | `--gui`                         | GUI と対話する                                                                      | `pdf2zh --gui`                                                                                                       |
-| `--warmup`                      | 必要なアセットをダウンロードして検証した後、終了する                                     | `pdf2zh example.pdf --warmup`                                                                                        |
+| `--warmup`                      | 必要なアセットをダウンロードして検証し、終了するのみ                                     | `pdf2zh example.pdf --warmup`                                                                                        |
 | `--generate-offline-assets`     | 指定されたディレクトリにオフラインアセットパッケージを生成する                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |
 | `--restore-offline-assets`      | 指定されたディレクトリからオフラインアセットパッケージを復元する                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |
 | `--version`                     | バージョンを表示して終了                                                                 | `pdf2zh --version`                                                                                                   |
@@ -50,43 +50,41 @@
 | `--rpc-doclayout`               | ドキュメントレイアウト分析用の RPC サービスホストアドレス                                  |                                                                                                                      |
 | `--qps`                         | 翻訳サービスの QPS 制限                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |
 | `--ignore-cache`                | 翻訳キャッシュを無視する                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |
-以下が翻訳結果です：
-
-| `--custom-system-prompt`        | 翻訳用のカスタムシステムプロンプト。Qwen 3 の`/no_think`で使用                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
+| `--custom-system-prompt`        | 翻訳用のカスタムシステムプロンプト。Qwen 3 の `/no_think` で使用されます                   | `pdf2zh example.pdf --custom-system-prompt "/no_think You are a professional, authentic machine translation engine"` |
 | `--pool-max-worker`             | 翻訳プールの最大ワーカー数。設定されていない場合、qps をワーカー数として使用します | `pdf2zh example.pdf --pool-max-worker 100`                                                                |
 | `--no-auto-extract-glossary`    | 用語集の自動抽出を無効にする                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |
-| `--primary-font-family`         | 翻訳テキストのプライマリフォントファミリーを上書きします。選択肢：'serif'（セリフ体）、'sans-serif'（サンセリフ体）、'script'（スクリプト/イタリック体）。指定しない場合、元のテキストプロパティに基づいて自動的にフォントが選択されます。 | `pdf2zh example.pdf --primary-font-family serif` |
+| `--primary-font-family`         | 翻訳テキストのプライマリフォントファミリーを上書きします。選択肢: 'serif' はセリフフォント、'sans-serif' はサンセリフフォント、'script' はスクリプト/イタリックフォント用です。指定しない場合、元のテキストプロパティに基づいて自動フォント選択が使用されます。 | `pdf2zh example.pdf --primary-font-family serif` |
 | `--no-dual`                     | バイリンガル PDF ファイルを出力しない                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |
 | `--no-mono`                     | 単一言語の PDF ファイルを出力しない                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |
 | `--formular-font-pattern`       | 数式テキストを識別するためのフォントパターン                                                  | `pdf2zh example.pdf --formular-font-pattern "(MS.*)"`                                                                |
 | `--formular-char-pattern`       | 数式テキストを識別するための文字パターン                                             | `pdf2zh example.pdf --formular-char-pattern "(MS.*)"`                                                                |
 | `--split-short-line`            | 短い行を強制的に異なる段落に分割する                                       | `pdf2zh example.pdf --split-short-line`                                                                              |
-| `--short-line-split-factor`     | 短い行の分割閾値係数                                                 |                                                                                                                      |
-| `--skip-clean`                  | PDF のクリーン手順をスキップ                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
+| `--short-line-split-factor`     | 短い行の分割しきい値係数                                                 |                                                                                                                      |
+| `--skip-clean`                  | PDF のクリーン処理ステップをスキップ                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |
 | `--dual-translate-first`        | デュアル PDF モードで翻訳ページを優先的に配置する                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |
 | `--disable-rich-text-translate` | リッチテキスト翻訳を無効にする                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |
 | `--enhance-compatibility`       | すべての互換性向上オプションを有効にする                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |
-| `--use-alternating-pages-dual`  | デュアル PDF 用の交互ページモードを使用する                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
+| `--use-alternating-pages-dual`  | デュアル PDF 用に交互ページモードを使用する                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |
 | `--watermark-output-mode`       | PDF ファイルの透かし出力モード                                                    | `pdf2zh example.pdf --watermark-output-mode "NoWaterMark"`                                                           |
 | `--max-pages-per-part`          | 分割翻訳におけるパートごとの最大ページ数                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |
-| `--translate-table-text`        | テーブルテキストを翻訳する（実験的機能）                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
-| `--skip-scanned-detection`      | スキャンされた文書の検出をスキップ                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
+| `--translate-table-text`        | テーブルテキストを翻訳（実験的機能）                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |
+| `--skip-scanned-detection`      | スキャンされた文書の検出をスキップする                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |
 | `--ocr-workaround`              | 翻訳されたテキストを強制的に黒色にし、白い背景を追加する                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |
-| `--auto-enable-ocr-workaround`  | 自動 OCR 回避策を有効化します。文書が重度にスキャンされていると検出された場合、OCR 処理を有効化し、それ以上のスキャン検出をスキップしようと試みます。詳細はドキュメントを参照してください。（デフォルト：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
-| `--only-include-translated-page`| 出力 PDF に翻訳済みのページのみを含める。--pages が使用されている場合にのみ有効。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
+| `--auto-enable-ocr-workaround`  | 自動 OCR 回避策を有効化します。文書がスキャンされたものと検出された場合、OCR 処理を有効化し、それ以上のスキャン検出をスキップしようと試みます。詳細はドキュメントを参照してください。（デフォルト: False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
+| `--only-include-translated-page`| 翻訳済みのページのみを出力 PDF に含めます。--pages が使用されている場合のみ有効です。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | 翻訳用のカスタム用語集。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| 自動抽出された用語集を保存する。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| 自動抽出された用語集を保存します。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
 
 
 ##### GUI 引数
 
 | オプション                          | 機能                               | 例                                         |
 | ------------------------------- | -------------------------------------- | ----------------------------------------------- |
-| `--share`                       | 共有モードを有効にする                    | `pdf2zh --gui --share`                          |
-| `--auth-file`                   | 認証ファイルへのパス        | `pdf2zh --gui --auth-file /path`                |
+| `--share`                       | 共有モードを有効化                    | `pdf2zh --gui --share`                          |
+| `--auth-file`                   | 認証ファイルのパス        | `pdf2zh --gui --auth-file /path`                |
 | `--welcome-page`                | ウェルカム HTML ファイルのパス          | `pdf2zh --gui --welcome-page /path`             |
-| `--enabled-services`            | 有効化する翻訳サービス           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
-| `--disable-gui-sensitive-input` | GUI のセンシティブ入力を無効にする            | `pdf2zh --gui --disable-gui-sensitive-input`    |
+| `--enabled-services`            | 有効な翻訳サービス           | `pdf2zh --gui --enabled-services "Bing,OpenAI"` |
+| `--disable-gui-sensitive-input` | GUI のセンシティブな入力を無効にする | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | 自動設定保存を無効にする | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | WebUI ポート                             | `pdf2zh --gui --server-port 7860`               |
 
@@ -109,25 +107,25 @@ pdf2zh_next example.pdf --pages 25-
 ```
 
 > [!TIP]
-> `25-` は 25 ページ以降のすべてのページを含みます。ドキュメントが 100 ページある場合、これは`25-100`と同等です。
+> `25-` は25ページ以降のすべてのページを含みます。ドキュメントが100ページある場合、これは `25-100` と同等です。
 > 
-> 同様に、`-25`は 25 ページより前のすべてのページを含み、これは`1-25`と同等です。
+> 同様に、`-25` は25ページより前のすべてのページを含み、これは `1-25` と同等です。
 
-- ページが連続していない場合は、カンマ `,` で区切ることができます。
+- ページが連続していない場合は、コンマ `,` で区切ることができます。
 
-例えば、最初のページと 3 番目のページを翻訳したい場合は、次のコマンドを使用できます：
+例えば、最初のページと3ページ目を翻訳したい場合、以下のコマンドを使用できます：
 
 ```bash
 pdf2zh_next example.pdf --pages "1,3"
 ```
 
-- ページに連続した範囲と非連続した範囲の両方が含まれている場合、それらをカンマで接続することもできます。例えば以下のようになります：
+- ページに連続した範囲と非連続した範囲の両方が含まれている場合、以下のようにカンマで接続することもできます：
 
 ```bash
 pdf2zh_next example.pdf --pages "1,3,10-20,25-"
 ```
 
-このコマンドは、最初のページ、3 ページ目、10～20 ページ、および 25 ページ以降のすべてのページを翻訳します。
+このコマンドは、最初のページ、3 ページ目、10 ～ 20 ページ、および 25 ページから最後までのすべてのページを翻訳します。
 
 
 [⬆️ トップに戻る](#toc)
@@ -136,7 +134,7 @@ pdf2zh_next example.pdf --pages "1,3,10-20,25-"
 
 #### ソース言語とターゲット言語を指定する
 
-[Google 言語コード](https://developers.google.com/admin-sdk/directory/v1/languages)、[DeepL 言語コード](https://developers.deepl.com/docs/resources/supported-languages)を参照してください
+[Google 言語コード](https://developers.google.com/admin-sdk/directory/v1/languages)、[DeepL 言語コード](https://developers.deepl.com/docs/resources/supported-languages) を参照してください
 
 ```bash
 pdf2zh_next example.pdf --lang-in en -lang-out ja
@@ -146,9 +144,9 @@ pdf2zh_next example.pdf --lang-in en -lang-out ja
 
 ---
 
-#### 例外付きで翻訳する
+#### 例外付き翻訳
 
-正規表現を使用して、保持する必要のある数式フォントと文字を指定します：
+正規表現を使用して、保持する必要がある数式フォントと文字を指定します：
 
 ```bash
 pdf2zh_next example.pdf --formular-font-pattern "(CM[^RT].*|MS.*|.*Ital)" --formular-char-pattern "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
@@ -168,7 +166,7 @@ pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|
 
 <!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->
 
-翻訳用のカスタムシステムプロンプト。主に Qwen 3 の'/no_think'指示をプロンプトに追加するために使用されます。
+翻訳用のカスタムシステムプロンプト。主に Qwen 3 の `/no_think` 命令をプロンプトに追加するために使用されます。
 
 ```bash
 pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:"
@@ -191,21 +189,21 @@ pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional
 >
 > **cli/gui > env > ユーザー設定ファイル > デフォルト設定ファイル**
 
-- **コマンドライン引数**による設定の変更
+- **コマンドライン引数** を介した設定の変更
 
-ほとんどの場合、コマンドライン引数を通じて直接設定を渡すことができます。詳細については[コマンドライン引数](#cmd)を参照してください。
+ほとんどの場合、コマンドライン引数を通じて希望の設定を直接渡すことができます。詳細については、[コマンドライン引数](#cmd)を参照してください。
 
-例えば、GUI ウィンドウを有効にしたい場合は、次のコマンドを使用できます：
+例えば、GUI ウィンドウを有効にしたい場合は、以下のコマンドを使用できます：
 
 ```bash
 pdf2zh_next --gui
 ```
 
-- **環境変数**を介した設定の変更
+- **環境変数**による設定の変更
 
 コマンドライン引数の `--` を `PDF2ZH_` に置き換え、パラメータを `=` で接続し、`-` を `_` に置き換えて環境変数として使用できます。
 
-例えば、GUI ウィンドウを有効にするには、次のコマンドを使用できます：
+例えば、GUI ウィンドウを有効にするには、以下のコマンドを使用できます：
 
 ```bash
 PDF2ZH_GUI=TRUE pdf2zh_next
@@ -221,17 +219,17 @@ PDF2ZH_GUI=TRUE pdf2zh_next
 pdf2zh_next --config-file '/path/config.toml'
 ```
 
-設定ファイルの形式がわからない場合は、以下のデフォルト設定ファイルを参照してください。
+設定ファイルの形式が分からない場合は、以下のデフォルト設定ファイルを参照してください。
 
 - **デフォルト設定ファイル**
 
 デフォルトの設定ファイルは `~/.config/pdf2zh` にあります。  
 `default` ディレクトリ内の設定ファイルは変更しないでください。  
-この設定ファイルの内容を参照し、**ユーザー指定の設定ファイル**を使用して独自の設定ファイルを実装することを強く推奨します。
+この設定ファイルの内容を参照し、**ユーザー指定の設定ファイル**を使用して独自の設定ファイルを実装することを強くお勧めします。
 
 > [!TIP]
-> - デフォルトでは、pdf2zh 2.0 は GUI で翻訳ボタンをクリックするたびに現在の設定を`~/.config/pdf2zh/config.v3.toml`に自動保存します。この設定ファイルは次回起動時にデフォルトで読み込まれます。
-> - `default`ディレクトリ内の設定ファイルはプログラムによって自動生成されます。修正用にコピーすることは可能ですが、直接編集しないでください。
+> - デフォルトでは、pdf2zh 2.0 は GUI で翻訳ボタンをクリックするたびに、現在の設定を `~/.config/pdf2zh/config.v3.toml` に自動的に保存します。この設定ファイルは次回起動時にデフォルトで読み込まれます。
+> - `default` ディレクトリ内の設定ファイルはプログラムによって自動生成されます。変更する場合はコピーして使用してください。直接編集しないでください。
 > - 設定ファイルには「v2」「v3」などのバージョン番号が含まれる場合があります。これらは**設定ファイルのバージョン番号**であり、pdf2zh 自体のバージョン番号では**ありません**。
 
 
@@ -239,9 +237,9 @@ pdf2zh_next --config-file '/path/config.toml'
 
 ---
 
-#### クリーンをスキップ
+#### クリーン処理をスキップ
 
-このパラメータを True に設定すると、PDF のクリーンアップステップがスキップされ、互換性が向上し、一部のフォント処理の問題を回避できます。
+このパラメータを `True` に設定すると、`PDF` のクリーン処理ステップがスキップされます。これにより互換性が向上し、一部のフォント処理問題を回避できます。
 
 使い方：
 
@@ -256,13 +254,13 @@ PDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf
 ```
 
 > [!TIP]
-> `--enhance-compatibility` が有効な場合、クリーンをスキップは自動的に有効になります。
+> `--enhance-compatibility` が有効な場合、クリーン処理をスキップは自動的に有効になります。
 
 ---
 
 #### 翻訳キャッシュ
 
-PDFMathTranslate は翻訳済みのテキストをキャッシュし、同じ内容に対する不要な API 呼び出しを避けて速度を向上させます。`--ignore-cache`オプションを使用すると、翻訳キャッシュを無視して強制的に再翻訳を行えます。
+PDFMathTranslate は翻訳済みテキストをキャッシュし、同じ内容に対する不要な API 呼び出しを避けつつ速度を向上させます。`--ignore-cache` オプションを使用すると、翻訳キャッシュを無視して強制的に再翻訳を行うことができます。
 
 ```bash
 pdf2zh_next example.pdf --ignore-cache
@@ -280,7 +278,7 @@ pdf2zh_next example.pdf --ignore-cache
 > - 公開デプロイ時には、`disable_gui_sensitive_input` と `disable_config_auto_save` の両方を有効にする必要があります。
 > - 利用可能な異なるサービスは *英語のカンマ* <kbd>,</kbd> で区切ってください。
 
-使用可能な設定は以下の通りです：
+利用可能な設定は以下の通りです：
 
 ```toml title="config.toml"
 [basic]
@@ -301,7 +299,7 @@ disable_config_auto_save = true
 認証とウェルカムページを使用して、どのユーザーが Web UI を使用し、ログインページをカスタマイズするかを指定する場合：
 
 例 auth.txt
-各行には、ユーザー名とパスワードの 2 つの要素が含まれ、カンマで区切られています。
+各行には、ユーザー名とパスワードの 2 つの要素が含まれており、カンマで区切られています。
 
 ```
 admin,123456
@@ -311,7 +309,7 @@ guest,guest123
 test,test123
 ```
 
-example welcome.html
+例 welcome.html
 
 ```html
 <!DOCTYPE html>
@@ -330,7 +328,7 @@ example welcome.html
 > 認証ファイルが空白でない場合のみ、ウェルカムページが機能します。
 > 認証ファイルが空白の場合、認証は行われません。 :)
 
-使用可能な設定は以下の通りです：
+利用可能な設定は以下の通りです：
 
 ```toml title="config.toml"
 [basic]
@@ -347,8 +345,8 @@ welcome_page = "/path/to/welcome/html/file"
 
 #### 用語集サポート
 
-PDFMathTranslate は用語集テーブルをサポートしています。用語集テーブルファイルは`csv`ファイルである必要があります。
-ファイルには 3 つの列があります。以下はデモ用語集ファイルです：
+PDFMathTranslate は用語集テーブルをサポートしています。用語集テーブルファイルは `csv` ファイルである必要があります。
+ファイルには3つの列があります。以下はデモ用の用語集ファイルです：
 
 | source | target  | tgt_lng |
 |--------|---------|---------|
@@ -358,7 +356,7 @@ PDFMathTranslate は用語集テーブルをサポートしています。用語
 
 
 CLI ユーザー向け：
-用語集には複数のファイルを使用できます。異なるファイルは `,` で区切る必要があります。
+用語集に複数のファイルを使用できます。異なるファイルは `,` で区切る必要があります。
 
 ```bash
 pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
@@ -366,9 +364,9 @@ pdf2zh_next example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"
 
 WebUI ユーザー向け：
 
-独自の用語集ファイルをアップロードできるようになりました。ファイルをアップロード後、名前をクリックすると内容が下に表示されます。
+独自の用語集ファイルをアップロードできるようになりました。ファイルをアップロード後、ファイル名をクリックすると内容が下に表示されますので確認できます。
 
 [⬆️ トップに戻る](#toc)
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>

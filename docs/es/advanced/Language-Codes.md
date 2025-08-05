@@ -10,87 +10,66 @@ Fuente <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>
 | --- | --- | --- |
 | Amárico | Amharic | `am` |
 | Árabe | Arabic | `ar` |
-| 巴斯克语 | Basque | `eu` |
+| Euskara | Basque | `eu` |
 | Bengalí | Bengali | `bn` |
-| Inglés (Reino Unido) | English (UK) | `en-GB` |
+| Español (España) | Spanish (Spain) | `es-ES` |
 | Portugués (Brasil) | Portuguese (Brazil) | `pt-BR` |
 | Búlgaro | Bulgarian | `bg` |
 | Catalán | Catalan | `ca` |
-| Cherokee | `chr` |
+| Cherokee | Cherokee | `chr` |
 | Croata | Croatian | `hr` |
 | Checo | Czech | `cs` |
 | Danés | Danish | `da` |
-| Español | Spanish | `es` |
-| Inglés (EE. UU.) | English (US) | `en` |
-| 爱沙尼亚语 | Estonio | `et` |
+| Neerlandés | Dutch | `nl` |
+| Español (España) | `es` |
+| Estonio | Estonian | `et` |
 | Filipino | Filipino | `fil` |
-| Tabla de idiomas soportados |
-
-| Idioma | Nombre en inglés | Código de idioma | Notas |
-| --- | --- | --- | --- |
-| 芬兰语 | Finnish | `fi` |
+| Finlandés | Finnish | `fi` |
 | Francés | French | `fr` |
-| Español | Spanish | `es` |
-|---|---|---|---|---|---|---|
-| 法语 | French | `fr` | 意大利语 | Italian | `it` |
-| 俄语 | Russian | `ru` | 葡萄牙语 | Portuguese | `pt` |
-| 波兰语 | Polish | `pl` | 土耳其语 | Turkish | `tr` |
-| 荷兰语 | Dutch | `nl` | 瑞典语 | Swedish | `sv` |
-| 印尼语 | Indonesian | `id` | 捷克语 | Czech | `cs` |
-| 阿拉伯语 | Arabic | `ar` | 匈牙利语 | Hungarian | `hu` |
-| 韩语 | Korean | `ko` | 芬兰语 | Finnish | `fi` |
-| 丹麦语 | Danish | `da` | 挪威语 | Norwegian | `no` |
-| 泰语 | Thai | `th` | 希伯来语 | Hebrew | `he` |
-| 希腊语 | Greek | `el` | 罗马尼亚语 | Romanian | `ro` |
-| 斯洛伐克语 | Slovak | `sk` | 克罗地亚语 | Croatian | `hr` |
-| 保加利亚语 | Bulgarian | `bg` | 立陶宛语 | Lithuanian | `lt` |
-| 斯洛文尼亚语 | Slovenian | `sl` | 爱沙尼亚语 | Estonian | `et` |
-| 拉脱维亚语 | Latvian | `lv` | 马耳他语 | Maltese | `mt` |
-| 乌克兰语 | Ukrainian | `uk` | 越南语 | Vietnamese | `vi` |
+| Alemán | German | `de` |
 | Griego | Greek | `el` |
 | Gujarati | Gujarati | `gu` |
 | Hebreo | Hebrew | `iw` |
-| Hindi | `hi` |
-| 匈牙利语 | Hungarian | `hu` |
+| Hindi | Hindi | `hi` |
 | Húngaro | Hungarian | `hu` |
 | Islandés | Icelandic | `is` |
-| Bahasa Indonesia | Indonesia | `id` |
+| Indonesio | Indonesian | `id` |
 | Italiano | Italian | `it` |
 | Japonés | Japanese | `ja` |
-| Kannada | `kn` |
+| Kannada | Kannada | `kn` |
 | Coreano | Korean | `ko` |
-| 立陶宛语 | Lithuanian | `lt` |
+| Letón | Latvian | `lv` |
 | Lituano | Lithuanian | `lt` |
 | Malayo | Malay | `ms` |
 | Malayalam | Malayalam | `ml` |
-| Marathi | `mr` |
-| 挪威语 | Norwegian | `no` |
+| Marathi | Marathi | `mr` |
+| Noruego | Norwegian | `no` |
 | Polaco | Polish | `pl` |
-| Portugués (Portugal) | Portuguese (Portugal) | `pt-PT` |
+| Portugués (Portugal) | Portugués (Portugal) | `pt-PT` |
 | Rumano | Romanian | `ro` |
-| Ruso | Russian | `ru` |
-| 塞尔维亚语 | Serbian | `sr` |
-| Chino (China) | Chinese (PRC) | `zh-CN` |
+| Español | Spanish | `es` |
+| Serbio | Serbian | `sr` |
+| 中文（中国） | Chinese (PRC) | `zh-CN` |
 | Eslovaco | Slovak | `sk` |
 | Esloveno | Slovenian | `sl` |
 | Español | Spanish | `es` |
-| Swahili | `sw` |
-| Sueco | `sv` |
-| Tamil | `ta` |
-| Telugu | `te` |
-| Español | Thai | `th` |
+| 斯瓦希里语 | Swahili | `sw` |
+| Sueco | Swedish | `sv` |
+| Tamil | Tamil | `ta` |
+| Telugu | Telugu | `te` |
+| Tailandés | Thai | `th` |
 | Chino (Taiwán) | Chinese (Taiwan) | `zh-TW` |
-| 土耳其语 | Turkish | `tr` |
-| Urdu | `ur` |
+| Turco | Turkish | `tr` |
+| Urdu | Urdu | `ur` |
 | Ucraniano | Ukrainian | `uk` |
-| Vietnamita | Vietnamese | `vi` |
+| Vietnamita | Vietnamita | `vi` |
 | Galés | Welsh | `cy` |
 
 
 #### DeepL
 Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organizado por GPT-4o.
 
-| Etiqueta en chino | Etiqueta | `Código de idioma`| Soporta |
+| Etiqueta en español | Etiqueta | `Language Code` | Soporta |
 | --- | --- | --- | --- |
 | Árabe | Arabic | `AR` | `source`, `target` |
 | Búlgaro | Bulgarian | `BG` | `source`, `target` |
@@ -98,13 +77,15 @@ Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Danés | Danish | `DA` | `source`, `target` |
 | Alemán | German | `DE` | `source`, `target` |
 | Griego | Greek | `EL` | `source`, `target` |
-| 英语 | Inglés | `EN` | `source`, `target` |
-| Inglés (británico) | English (British) | `EN-GB` | `target` |
-| 英语（美国） | English (American) | `EN-US` | `target` |
+| Español | `ES` | `source`, `target` |
+|---|---|---|---|---|---|---|---|
+| 中文 | Chinese | `ZH` | `source`, `target` |
+| Inglés (Británico) | `EN-GB` | `target` |
+| Español (Estados Unidos) | English (American) | `EN-US` | `target` |
 | Español | Spanish | `ES` | `source`, `target` |
 | Estonio | Estonian | `ET` | `source`, `target` |
 | Finés | Finnish | `FI` | `source`, `target` |
-| Francés | `FR` | `source`, `target` |
+| Francés | French | `FR` | `source`, `target` |
 | Húngaro | Hungarian | `HU` | `source`, `target` |
 | Indonesio | Indonesian | `ID` | `source`, `target` |
 | Italiano | Italian | `IT` | `source`, `target` |
@@ -112,12 +93,12 @@ Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Coreano | Korean | `KO` | `source`, `target` |
 | Lituano | Lithuanian | `LT` | `source`, `target` |
 | Letón | Latvian | `LV` | `source`, `target` |
-| Bokmål noruego | Norwegian Bokmål | `NB` | `source`, `target` |
-| 荷兰语 | Dutch | `NL` | `source`, `target` |
+| Noruego Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |
+| Neerlandés | Dutch | `NL` | `source`, `target` |
 | Polaco | Polish | `PL` | `source`, `target` |
 | Portugués | Portuguese | `PT` | `source`, `target` |
-| Português (Brasileiro) | `PT-BR` | `target` |
-| 葡萄牙语（欧洲） | Português (Europeu) | `PT-PT` | `target` |
+| Português (Brasileiro) | `PT-BR` | `targeto` |
+| Português (Europeu) | Portuguese (European) | `PT-PT` | `target` |
 | Rumano | Romanian | `RO` | `source`, `target` |
 | Ruso | Russian | `RU` | `source`, `target` |
 | Eslovaco | Slovak | `SK` | `source`, `target` |
@@ -126,7 +107,9 @@ Fuente <https://developers.deepl.com/docs/resources/supported-languages>, organi
 | Turco | Turkish | `TR` | `source`, `target` |
 | Ucraniano | Ukrainian | `UK` | `source`, `target` |
 | Español | Spanish | `ES` | `source`, `target` |
-| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |
+| Español | Spanish | `ES` | `target` |
+|--------------|----------------------|-----------|----------|--------|---------|---------|------|----------|
+| 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |        | Español | Spanish | `ES` | `target` |
 | Chino tradicional | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 

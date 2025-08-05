@@ -4,7 +4,7 @@
 
 ### Visualizzazione dei servizi di traduzione disponibili tramite Riga di comando
 
-Puoi verificare i servizi di traduzione disponibili e il loro utilizzo stampando il messaggio di aiuto nella Riga di comando.
+Puoi confermare i servizi di traduzione disponibili e il loro utilizzo stampando il messaggio di aiuto nella Riga di comando.
 
 ```bash
 pdf2zh_next -h

@@ -1,0 +1,150 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/getting-started.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_451D1544",
+      "chunk_type": "header",
+      "original_content": "### Getting Started\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh": "### 开始使用\n",
+        "zh_TW": "### 開始使用\n",
+        "ja": "### 開始\n",
+        "it": "### Iniziare\n",
+        "ko": "### 시작하기\n",
+        "pt": "### Começar\n",
+        "fr": "### Commencer\n",
+        "de": "### Erste Schritte\n",
+        "es": "### Empezar\n",
+        "ru": "### Начало работы\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5534569E",
+      "chunk_type": "paragraph",
+      "original_content": "PDFMathTranslate is a powerful PDF translation tool. You can install and start using this tool in various ways.\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh_TW": "PDFMathTranslate 是一個強大的 PDF 翻譯工具。您可以通過多種方式安裝並開始使用此工具。\n",
+        "ja": "PDFMathTranslate は強力な PDF 翻訳ツールです。このツールはさまざまな方法でインストールして使用を開始できます。\n",
+        "es": "PDFMathTranslate es una potente herramienta de traducción de PDF. Puedes instalar y comenzar a usar esta herramienta de varias formas.\n",
+        "it": "PDFMathTranslate è un potente strumento di traduzione di PDF. Puoi installare e iniziare a utilizzare questo strumento in vari modi.\n",
+        "fr": "PDFMathTranslate est un outil puissant de traduction de PDF. Vous pouvez installer et commencer à utiliser cet outil de différentes manières.\n",
+        "pt": "PDFMathTranslate é uma poderosa ferramenta de tradução de PDF. Você pode instalar e começar a usar esta ferramenta de várias maneiras.\n",
+        "ko": "PDFMathTranslate은 강력한 PDF 번역 도구입니다. 다양한 방법으로 이 도구를 설치하고 사용을 시작할 수 있습니다.\n",
+        "de": "PDFMathTranslate ist ein leistungsstarkes PDF-Übersetzungstool. Sie können dieses Tool auf verschiedene Arten installieren und verwenden.\n",
+        "ru": "PDFMathTranslate — это мощный инструмент для перевода PDF. Вы можете установить и начать использовать этот инструмент различными способами.\n",
+        "zh": "PDFMathTranslate 是一款强大的 PDF 翻译工具。您可以通过多种方式安装并开始使用此工具。\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_2fa6f00f",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_36D1B1ED",
+      "chunk_type": "header",
+      "original_content": "### Installation\n",
+      "start_line_no": 7,
+      "translations": {
+        "ko": "### 설치\n",
+        "fr": "### Installation\n",
+        "de": "### Installation\n",
+        "zh_TW": "### 如何安裝\n",
+        "pt": "### Instalação\n",
+        "es": "### Instalación\n",
+        "zh": "### 如何安装\n",
+        "ja": "### インストール\n",
+        "it": "### Installazione\n",
+        "ru": "### Установка\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_0CAD1479",
+      "chunk_type": "list",
+      "original_content": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recommand for Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>Recommand for macOS</small>\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "1. [**Windows 可执行文件**](./INSTALLATION_winexe.md) <small>推荐用于 Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>推荐用于 Linux</small>\n3. [**uv** (Python 包管理器)](./INSTALLATION_uv.md) <small>推荐用于 macOS</small>\n",
+        "ko": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Windows용 추천</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Linux용 추천</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>macOS용 추천</small>\n",
+        "it": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Consigliato per Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Consigliato per Linux</small>\n3. [**uv** (un gestore di pacchetti Python)](./INSTALLATION_uv.md) <small>Consigliato per macOS</small>\n",
+        "ja": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Windows 用推奨</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Linux 用推奨</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>macOS 用推奨</small>\n",
+        "es": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recomendado para Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recomendado para Linux</small>\n3. [**uv** (un gestor de paquetes Python)](./INSTALLATION_uv.md) <small>Recomendado para macOS</small>\n",
+        "de": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Empfohlen für Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Empfohlen für Linux</small>\n3. [**uv** (ein Python-Paketmanager)](./INSTALLATION_uv.md) <small>Empfohlen für macOS</small>\n",
+        "zh_TW": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>推薦用於 Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>推薦用於 Linux</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>推薦用於 macOS</small>\n",
+        "ru": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Рекомендуется для Windows</small>  \n2. [**Docker**](./INSTALLATION_docker.md) <small>Рекомендуется для Linux</small>  \n3. [**uv** (менеджер пакетов Python)](./INSTALLATION_uv.md) <small>Рекомендуется для macOS</small>\n",
+        "pt": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recomendado para Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recomendado para Linux</small>\n3. [**uv** (um gerenciador de pacotes Python)](./INSTALLATION_uv.md) <small>Recomendado para macOS</small>\n",
+        "fr": "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recommandé pour Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recommandé pour Linux</small>\n3. [**uv** (un gestionnaire de paquets Python)](./INSTALLATION_uv.md) <small>Recommandé pour macOS</small>\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_aab707b2",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 13,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_047D6F23",
+      "chunk_type": "header",
+      "original_content": "### Usage\n",
+      "start_line_no": 15,
+      "translations": {
+        "zh": "### 如何使用\n",
+        "es": "### Uso\n",
+        "de": "### Verwendung\n",
+        "zh_TW": "### 如何使用\n",
+        "ru": "### Использование\n",
+        "ko": "### 사용법\n",
+        "fr": "### Utilisation\n",
+        "ja": "### 使い方\n",
+        "pt": "### Uso\n",
+        "it": "### Utilizzo\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3E32AB82",
+      "chunk_type": "list",
+      "original_content": "1. [Using **WebUI**](./USAGE_webui.md)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](./USAGE_commandline.md)\n",
+      "start_line_no": 17,
+      "translations": {
+        "zh_TW": "1. [使用 **WebUI**](./USAGE_webui.md)\n2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程式)\n3. [使用 **命令行**](./USAGE_commandline.md)\n",
+        "zh": "1. [使用 **WebUI**](./USAGE_webui.md)\n2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh)（第三方程序）\n3. [使用 **命令行**](./USAGE_commandline.md)\n",
+        "es": "1. [Usando **WebUI**](./USAGE_webui.md)  \n2. [Usando **Plugin de Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceros)  \n3. [Usando **Línea de comandos**](./USAGE_commandline.md)\n",
+        "de": "1. [Verwendung von **WebUI**](./USAGE_webui.md)\n2. [Verwendung von **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Drittanbieterprogramm)\n3. [Verwendung von **Kommandozeile**](./USAGE_commandline.md)\n",
+        "fr": "1. [Utilisation de **WebUI**](./USAGE_webui.md)  \n2. [Utilisation de **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programme tiers)  \n3. [Utilisation de **Ligne de commande**](./USAGE_commandline.md)\n",
+        "pt": "1. [Usando **WebUI**](./USAGE_webui.md)  \n2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)  \n3. [Usando **Linha de comando**](./USAGE_commandline.md)\n",
+        "ja": "1. [**WebUI** の使用](./USAGE_webui.md)  \n2. [**Zotero プラグイン** の使用](https://github.com/guaguastandup/zotero-pdf2zh)（サードパーティ製プログラム）  \n3. [**コマンドライン** の使用](./USAGE_commandline.md)\n",
+        "ko": "1. [**WebUI** 사용하기](./USAGE_webui.md)\n2. [**Zotero 플러그인** 사용하기](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)\n3. [**명령줄** 사용하기](./USAGE_commandline.md)\n",
+        "ru": "1. [Использование **WebUI**](./USAGE_webui.md)  \n2. [Использование **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Сторонняя программа)  \n3. [Использование **Commandline**](./USAGE_commandline.md)\n",
+        "it": "1. [Utilizzo di **WebUI**](./USAGE_webui.md)\n2. [Utilizzo di **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Programma di terze parti)\n3. [Utilizzo di **Commandline**](./USAGE_commandline.md)\n"
+      }
+    }
+  ]
+}

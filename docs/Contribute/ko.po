@@ -1,0 +1,2079 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mkdocs-markdown-translator\n"
+"POT-Creation-Date: 2025-08-05 19:19+0800\n"
+"PO-Revision-Date: 2025-08-05 19:19+0800\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# This content is from "README.md", line 1
+msgctxt "chunk_838C5468"
+msgid "<div align=\"center\">\n"
+msgstr "<div align=\"center\">\n"
+
+# This content is from "README.md", line 5
+msgctxt "chunk_9CD70BC3"
+msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
+msgstr "<h2 id=\"제목\">PDFMathTranslate</h2>\n\n<p>"
+
+# This content is from "README.md", line 9
+msgctxt "chunk_535549DD"
+msgid "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
+msgstr "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
+
+# This content is from "README.md", line 11
+msgctxt "chunk_2792EF01"
+msgid "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
+msgstr "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
+
+# This content is from "README.md", line 13
+msgctxt "chunk_AFCA5ACF"
+msgid "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
+msgstr "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
+
+# This content is from "README.md", line 15
+msgctxt "chunk_C3623279"
+msgid "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>"
+msgstr "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"추천｜HelloGitHub\" /></a>"
+
+# This content is from "README.md", line 24
+msgctxt "chunk_524DFC76"
+msgid "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
+msgstr "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
+
+# This content is from "README.md", line 27
+msgctxt "chunk_63D768E7"
+msgid "  <a href=\"./LICENSE\">"
+msgstr "  <a href=\"./LICENSE\">"
+
+# This content is from "README.md", line 29
+msgctxt "chunk_AF4387C1"
+msgid "</p>\n"
+msgstr "</p>\n"
+
+# This content is from "README.md", line 31
+msgctxt "chunk_3CF488A3"
+msgid "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
+msgstr "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
+
+# This content is from "README.md", line 33
+msgctxt "chunk_90458E01"
+msgid "</div>\n\nPDF scientific paper translation and bilingual comparison.\n"
+msgstr "</div>\n\nPDF 과학 논문 번역 및 이중 언어 비교.\n"
+
+# This content is from "README.md", line 37
+msgctxt "chunk_3BE38B9A"
+msgid "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
+msgstr "- 📊 수식, 차트, 목차 및 주석 보존 _([미리보기](#미리보기))_.\n- 🌐 [다양한 언어](https://pdf2zh-next.com/supported_languages.html) 및 다양한 [번역 서비스](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) 지원.\n- 🤖 [명령줄 도구](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [대화형 사용자 인터페이스](https://pdf2zh-next.com/getting-started/USAGE_webui.html), [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) 제공.\n"
+
+# This content is from "README.md", line 41
+msgctxt "chunk_CD5D1C28"
+msgid "Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nFor details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Updates</h2>\n"
+msgstr "[GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 또는 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl)에서 피드백을 자유롭게 제공해 주세요.\n\n기여 방법에 대한 자세한 내용은 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참조하십시오.\n\n<h2 id=\"업데이트\">업데이트</h2>\n"
+
+# This content is from "README.md", line 47
+msgctxt "chunk_5E68D02E"
+msgid "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
+msgstr "- [2025년 6월 4일] 프로젝트 이름이 변경되어 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)로 이동했습니다 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025년 3월 3일] 새로운 백엔드 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI에 대한 실험적 지원이 추가되었습니다 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2025년 2월 22일] 개선된 릴리스 CI와 잘 패키징된 windows-amd64 exe 파일 (by [@awwaawwa](https://github.com/awwaawwa))\n- [2024년 12월 24일] 번역기가 이제 [Xinference](https://github.com/xorbitsai/inference)의 로컬 모델을 지원합니다 _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [2024년 12월 19일] `-cp`를 사용하여 비-PDF/A 문서가 이제 지원됩니다 _(by [@reycn](https://github.com/reycn))_\n- [2024년 12월 13일] 추가 백엔드 지원 _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [2024년 12월 10일] 번역기가 이제 Azure의 OpenAI 모델을 지원합니다 _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
+
+# This content is from "README.md", line 55
+msgctxt "chunk_2B22A264"
+msgid "<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">"
+msgstr "<h2 id=\"preview\">미리보기</h2>\n\n<div align=\"center\">"
+
+# This content is from "README.md", line 60
+msgctxt "chunk_EBDB9E88"
+msgid "</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n"
+msgstr "</div>\n\n<h2 id=\"demo\">온라인 서비스 🌟</h2>\n"
+
+# This content is from "README.md", line 64
+msgctxt "chunk_3723C881"
+msgid "> [!NOTE]\n>\n> pdf2zh 2.0 does not currently provide an online demo\n"
+msgstr "> [!NOTE]\n>\n> pdf2zh 2.0은 현재 온라인 데모를 제공하지 않습니다\n"
+
+# This content is from "README.md", line 68
+msgctxt "chunk_1F3D6D5D"
+msgid "You can try our application out using either of the following demos:\n"
+msgstr "다음 데모 중 하나를 사용하여 저희 애플리케이션을 시험해 볼 수 있습니다:\n"
+
+# This content is from "README.md", line 70
+msgctxt "chunk_B617543E"
+msgid "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_"
+msgstr "- [v1.x 공개 무료 서비스](https://pdf2zh.com/) 설치 없이 온라인에서 사용 가능 _(권장)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 매월 1000페이지 무료 제공. _(권장)_"
+
+# This content is from "README.md", line 75
+msgctxt "chunk_FDDD972D"
+msgid "Note that the computing resources of the demo are limited, so please avoid abusing them.\n\n<h2 id=\"install\">Installation and Usage</h2>\n"
+msgstr "[!NOTE]\n데모의 컴퓨팅 리소스는 제한적이므로 남용하지 않도록 주의해 주세요.\n\n<h2 id=\"설치\">설치 및 사용법</h2>\n"
+
+# This content is from "README.md", line 79
+msgctxt "chunk_36D1B1ED"
+msgid "### Installation\n"
+msgstr "### 설치\n"
+
+# This content is from "README.md", line 81
+msgctxt "chunk_545A02FF"
+msgid "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>\n"
+msgstr "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows에 권장</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux에 권장</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS에 권장</small>\n"
+
+# This content is from "README.md", line 87
+msgctxt "chunk_047D6F23"
+msgid "### Usage\n"
+msgstr "### 사용법\n"
+
+# This content is from "README.md", line 89
+msgctxt "chunk_A49D7830"
+msgid "1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
+msgstr "1. [**WebUI** 사용](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [**Zotero 플러그인** 사용](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)\n3. [**명령줄** 사용](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
+
+# This content is from "README.md", line 93
+msgctxt "chunk_F57A3EE5"
+msgid "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n"
+msgstr "다양한 사용 사례에 맞춰, 저희 프로그램을 사용할 수 있는 여러 방법을 제공합니다. 자세한 내용은 [이 페이지](./getting-started/getting-started.md)를 확인해 주세요.\n\n<h2 id=\"usage\">고급 옵션</h2>\n\n자세한 설명은 각 옵션의 전체 목록을 확인할 수 있는 [고급 사용법](https://pdf2zh-next.com/advanced/advanced.html) 문서를 참조해 주세요.\n\n<h2 id=\"downstream\">2차 개발 (API)</h2>\n"
+
+# This content is from "README.md", line 101
+msgctxt "chunk_DF45699B"
+msgid "> [!NOTE]\n>\n> Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.\n\n"
+msgstr "> [!NOTE]\n>\n> 현재 관련 문서가 제공되지 않습니다. 나중에 보충될 예정이니, 조금만 기다려 주세요.\n\n"
+
+# This content is from "README.md", line 111
+msgctxt "chunk_FAB5C5B4"
+msgid "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
+msgstr "<h2 id=\"언어코드\">Language Code</h2>\n\n필요한 언어로 번역하기 위해 어떤 코드를 사용해야 할지 모르겠다면 [이 문서](https://pdf2zh-next.com/advanced/Language-Codes.html)를 확인하세요\n"
+
+# This content is from "README.md", line 132
+msgctxt "chunk_AD3429B4"
+msgid "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n"
+msgstr "<h2 id=\"감사의-말\">감사의 말</h2>\n"
+
+# This content is from "README.md", line 134
+msgctxt "chunk_7ED9D2AF"
+msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n"
+msgstr "- [Immersive Translation](https://immersivetranslate.com)은 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 리딤 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)에서 확인하세요.\n\n- [SiliconFlow](https://siliconflow.cn)는 이 프로젝트를 위해 대규모 언어 모델(LLM)로 구동되는 무료 번역 서비스를 제공합니다.\n\n- 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 백엔드: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 라이브러리: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 파싱: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 미리보기: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 레이아웃 파싱: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 표준: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 다국어 폰트: [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) 참조\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Weblate를 사용한 문서 국제화: [Weblate](https://weblate.org/)\n"
+
+# This content is from "README.md", line 161
+msgctxt "chunk_5DD24D41"
+msgid "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
+msgstr "<h2 id=\"conduct\">코드 제출 전에</h2>\n\npdf2zh를 더 나은 방향으로 발전시키기 위해 기여자들의 적극적인 참여를 환영합니다. 코드를 제출하기 전에 [행동 강령](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html)과 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참고해 주세요.\n\n<h2 id=\"contrib\">기여자</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
+
+# This content is from "README.md", line 169
+msgctxt "chunk_B2A74E86"
+msgid "</a>\n"
+msgstr "</a>\n"
+
+# This content is from "README.md", line 173
+msgctxt "chunk_61BE03EB"
+msgid "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
+msgstr "<h2 id=\"star_hist\">스타 히스토리</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
+
+# This content is from "README.md", line 180
+msgctxt "chunk_64791BB7"
+msgid " </picture>\n</a>\n"
+msgstr " </picture>\n</a>\n"
+
+# This content is from "APIS.md", line 1
+msgctxt "chunk_F2495A85"
+msgid "> [!CAUTION]\n>\n> This document is outdated, please do not refer to it.\n"
+msgstr "> [!CAUTION]\n>\n> 이 문서는 오래된 문서이므로 참고하지 마십시오.\n"
+
+# This content is from "APIS.md", line 5
+msgctxt "chunk_3CA8722C"
+msgid "<h2 id=\"toc\">Table of Content</h2>\nThe present project supports two types of APIs, All methods need the Redis;\n"
+msgstr "<h2 id=\"목차\">목차</h2>\n현재 프로젝트는 두 가지 유형의 API를 지원하며, 모든 방법은 Redis가 필요합니다;\n"
+
+# This content is from "APIS.md", line 8
+msgctxt "chunk_AE8C8A31"
+msgid "- [Functional calls in Python](#api-python)\n- [HTTP protocols](#api-http)\n"
+msgstr "- [Python에서의 함수 호출](#api-python)\n- [HTTP 프로토콜](#api-http)\n"
+
+# This content is from "APIS.md", line 13
+msgctxt "chunk_1C2FD3FE"
+msgid "<h2 id=\"api-python\">Python</h2>\n\nAs `pdf2zh` is an installed module in Python, we expose two methods for other programs to call in any Python scripts.\n\nFor example, if you want translate a document from English to Chinese using Google Translate, you may use the following code:\n"
+msgstr "<h2 id=\"api-python\">Python</h2>\n\n`pdf2zh`는 Python에 설치된 모듈이므로, 다른 프로그램에서 호출할 수 있는 두 가지 메서드를 제공합니다.\n\n예를 들어, Google Translate를 사용하여 영어 문서를 중국어로 번역하려면 다음 코드를 사용할 수 있습니다:\n"
+
+# This content is from "APIS.md", line 29
+msgctxt "chunk_2DB09B71"
+msgid "Translate with files:"
+msgstr "파일로 번역하기:"
+
+# This content is from "APIS.md", line 33
+msgctxt "chunk_8C07F04C"
+msgid "Translate with stream:"
+msgstr "스트림으로 번역:"
+
+# This content is from "APIS.md", line 95
+msgctxt "chunk_F1B6ECA2"
+msgid "[⬆️ Back to top](#toc)\n"
+msgstr "[⬆️ 맨 위로 이동](#toc)\n"
+
+# This content is from "APIS.md", line 43
+msgctxt "chunk_F96246D5"
+msgid "<h2 id=\"api-http\">HTTP</h2>\n\nIn a more flexible way, you can communicate with the program using HTTP protocols, if:\n"
+msgstr "<h2 id=\"api-http\">HTTP</h2>\n\n보다 유연한 방법으로, 다음과 같은 경우 HTTP 프로토콜을 사용하여 프로그램과 통신할 수 있습니다:\n"
+
+# This content is from "APIS.md", line 47
+msgctxt "chunk_5C9E9558"
+msgid "1. Install and run backend\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. Using HTTP protocols as follows:\n\n   - Submit translate task\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - Check Progress\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - Check Progress _(if finished)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - Save monolingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - Save bilingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - Interrupt if running and delete the task\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
+msgstr "1. 백엔드 설치 및 실행\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. 다음과 같이 HTTP 프로토콜 사용:\n\n   - 번역 작업 제출\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - 진행 상태 확인\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - 진행 상태 확인 _(완료 시)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - 단일 언어 파일 저장\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - 이중 언어 파일 저장\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - 실행 중인 경우 중단하고 작업 삭제\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 1
+msgctxt "chunk_D4E24BCF"
+msgid "# Contributor Covenant Code of Conduct\n"
+msgstr "# 기여자 규약 행동 강령\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 3
+msgctxt "chunk_18B00C61"
+msgid "## Our Pledge\n"
+msgstr "## 우리의 서약\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 5
+msgctxt "chunk_BCEC3AA8"
+msgid "We as members, contributors, and leaders pledge to make participation in our\ncommunity a harassment-free experience for everyone, regardless of age, body\nsize, visible or invisible disability, ethnicity, sex characteristics, gender\nidentity and expression, level of experience, education, socio-economic status,\nnationality, personal appearance, race, religion, or sexual identity\nand orientation.\n\nWe pledge to act and interact in ways that contribute to an open, welcoming,\ndiverse, inclusive, and healthy community.\n"
+msgstr "우리 구성원, 기여자 및 리더로서 우리는 모든 사람이 나이, 체형, 눈에 보이거나 보이지 않는 장애, 민족성, 성적 특성, 성 정체성 및 표현, 경험 수준, 교육, 사회경제적 지위, 국적, 외모, 인종, 종교 또는 성적 정체성과 성적 지향에 관계없이 우리 커뮤니티에서의 참여가 괴롭힘 없는 경험이 되도록 하기 위해 서약합니다.\n\n우리는 개방적이고 환영하는, 다양하며 포용적이고 건강한 커뮤니티에 기여하는 방식으로 행동하고 상호작용할 것을 서약합니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 15
+msgctxt "chunk_45AD4A2F"
+msgid "## Our Standards\n"
+msgstr "## 우리의 기준\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 17
+msgctxt "chunk_5EF2E29F"
+msgid "Examples of behavior that contributes to a positive environment for our\ncommunity include:\n"
+msgstr "우리 커뮤니티에 긍정적인 환경을 조성하는 행동의 예는 다음과 같습니다:\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 20
+msgctxt "chunk_49483E30"
+msgid "* Demonstrating empathy and kindness toward other people\n* Being respectful of differing opinions, viewpoints, and experiences\n* Giving and gracefully accepting constructive feedback\n* Accepting responsibility and apologizing to those affected by our mistakes,\n  and learning from the experience\n* Focusing on what is best not just for us as individuals, but for the\n  overall community\n"
+msgstr "* 다른 사람들에게 공감과 친절을 보여주기\n* 다른 의견, 관점, 경험을 존중하기\n* 건설적인 피드백을 주고 겸손하게 받아들이기\n* 실수로 영향을 받은 사람들에게 책임을 지고 사과하며, 그 경험으로부터 배우기\n* 개인뿐만 아니라 전체 커뮤니티를 위해 최선을 다하기\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 28
+msgctxt "chunk_9D3CC4B6"
+msgid "Examples of unacceptable behavior include:\n"
+msgstr "허용되지 않는 행동의 예시는 다음과 같습니다:\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 30
+msgctxt "chunk_CEF666AD"
+msgid "* The use of sexualized language or imagery, and sexual attention or\n  advances of any kind\n* Trolling, insulting or derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or email\n  address, without their explicit permission\n* Other conduct which could reasonably be considered inappropriate in a\n  professional setting\n"
+msgstr "* 성적인 언어나 이미지 사용, 그리고 어떤 종류의 성적 관심이나 접근\n* 트롤링, 모욕적이거나 비하하는 댓글, 개인적 또는 정치적 공격\n* 공개적 또는 사적인 괴롭힘\n* 명시적인 허락 없이 다른 사람의 개인 정보(예: 물리적 주소 또는 이메일 주소)를 공개하는 행위\n* 전문적인 환경에서 합리적으로 부적절하다고 간주될 수 있는 기타 행위\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 39
+msgctxt "chunk_F1541146"
+msgid "## Enforcement Responsibilities\n"
+msgstr "## 시행 책임\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 41
+msgctxt "chunk_299B9B13"
+msgid "Community leaders are responsible for clarifying and enforcing our standards of\nacceptable behavior and will take appropriate and fair corrective action in\nresponse to any behavior that they deem inappropriate, threatening, offensive,\nor harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject\ncomments, commits, code, wiki edits, issues, and other contributions that are\nnot aligned to this Code of Conduct, and will communicate reasons for moderation\ndecisions when appropriate.\n"
+msgstr "커뮤니티 리더들은 허용 가능한 행동 기준을 명확히 하고 시행할 책임이 있으며, 부적절하거나 위협적이며 공격적이거나 유해한 행동으로 간주되는 모든 행동에 대해 적절하고 공정한 시정 조치를 취할 것입니다.\n\n커뮤니티 리더들은 이 행동 강령에 부합하지 않는 댓글, 커밋, 코드, 위키 편집, 이슈 및 기타 기여를 삭제, 편집 또는 거부할 권리와 책임이 있으며, 적절한 경우 중재 결정에 대한 이유를 설명할 것입니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 51
+msgctxt "chunk_EC6E1121"
+msgid "## Scope\n"
+msgstr "## 범위\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 53
+msgctxt "chunk_105B78AB"
+msgid "This Code of Conduct applies within all community spaces, and also applies when\nan individual is officially representing the community in public spaces.\nExamples of representing our community include using an official e-mail address,\nposting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event.\n"
+msgstr "이 행동 강령은 모든 커뮤니티 공간 내에서 적용되며, 개인이 공식적으로 커뮤니티를 대표하는 공공 장소에서도 적용됩니다.  \n우리 커뮤니티를 대표하는 예로는 공식 이메일 주소 사용, 공식 소셜 미디어 계정을 통한 게시, 또는 온라인/오프라인 행사에서 지정된 대표자로 활동하는 것이 포함됩니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 59
+msgctxt "chunk_B7BB8282"
+msgid "## Enforcement\n"
+msgstr "## 시행\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 61
+msgctxt "chunk_5166E4DA"
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported to the community leaders responsible for enforcement at\naw@funstory.ai .\nAll complaints will be reviewed and investigated promptly and fairly.\n\nAll community leaders are obligated to respect the privacy and security of the\nreporter of any incident.\n"
+msgstr "학대, 괴롭힘 또는 기타 용납할 수 없는 행동의 사례는  \n시행 책임을 맡은 커뮤니티 리더들에게  \naw@funstory.ai 로 신고할 수 있습니다.  \n모든 신고는 신속하고 공정하게 검토 및 조사될 것입니다.  \n\n모든 커뮤니티 리더들은 어떠한 사건의 신고자에 대한  \n개인정보 보호와 안전을 존중할 의무가 있습니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 69
+msgctxt "chunk_917146E0"
+msgid "## Enforcement Guidelines\n"
+msgstr "## 시행 지침\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 71
+msgctxt "chunk_96F8DEF4"
+msgid "Community leaders will follow these Community Impact Guidelines in determining\nthe consequences for any action they deem in violation of this Code of Conduct:\n"
+msgstr "커뮤니티 리더들은 이 행동 강령을 위반한다고 판단되는 행위에 대한 결과를 결정할 때 다음 커뮤니티 영향 지침을 따를 것입니다:\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 74
+msgctxt "chunk_7DC402F6"
+msgid "### 1. Correction\n"
+msgstr "### 1. 수정\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 76
+msgctxt "chunk_353DD90A"
+msgid "**Community Impact**: Use of inappropriate language or other behavior deemed\nunprofessional or unwelcome in the community.\n\n**Consequence**: A private, written warning from community leaders, providing\nclarity around the nature of the violation and an explanation of why the\nbehavior was inappropriate. A public apology may be requested.\n"
+msgstr "**커뮤니티 영향**: 커뮤니티에서 전문적이지 않거나 환영받지 못하는 행동으로 간주되는 부적절한 언어 사용 또는 기타 행위.\n\n**결과**: 커뮤니티 리더로부터 개인적인 서면 경고를 받게 되며, 위반 행위의 성격과 해당 행위가 왜 부적절했는지에 대한 설명이 제공됩니다. 공개 사과가 요청될 수 있습니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 83
+msgctxt "chunk_4AE59666"
+msgid "### 2. Warning\n"
+msgstr "### 2. 경고\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 85
+msgctxt "chunk_F26D7956"
+msgid "**Community Impact**: A violation through a single incident or series\nof actions.\n\n**Consequence**: A warning with consequences for continued behavior. No\ninteraction with the people involved, including unsolicited interaction with\nthose enforcing the Code of Conduct, for a specified period of time. This\nincludes avoiding interactions in community spaces as well as external channels\nlike social media. Violating these terms may lead to a temporary or\npermanent ban.\n"
+msgstr "**커뮤니티 영향**: 단일 사건 또는 일련의 행동을 통한 위반.\n\n**결과**: 지속적인 행동에 대한 결과와 함께 경고. 지정된 기간 동안 관련된 사람들과의 상호작용 금지, 이는 행동 강령을 시행하는 사람들과의 원치 않는 상호작용을 포함합니다. 이는 커뮤니티 공간뿐만 아니라 소셜 미디어와 같은 외부 채널에서의 상호작용도 피해야 함을 의미합니다. 이러한 조건을 위반하면 임시 또는 영구 정지로 이어질 수 있습니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 95
+msgctxt "chunk_357EC7B7"
+msgid "### 3. Temporary Ban\n"
+msgstr "### 3. 임시 차단\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 97
+msgctxt "chunk_C8490F53"
+msgid "**Community Impact**: A serious violation of community standards, including\nsustained inappropriate behavior.\n\n**Consequence**: A temporary ban from any sort of interaction or public\ncommunication with the community for a specified period of time. No public or\nprivate interaction with the people involved, including unsolicited interaction\nwith those enforcing the Code of Conduct, is allowed during this period.\nViolating these terms may lead to a permanent ban.\n"
+msgstr "**커뮤니티 영향**: 지속적인 부적절한 행동을 포함한 커뮤니티 기준의 심각한 위반.\n\n**결과**: 지정된 기간 동안 커뮤니티와의 모든 종류의 상호작용 또는 공개적 커뮤니케이션에 대한 임시 차단. 이 기간 동안 관련된 사람들과의 공개적 또는 비공개적 상호작용, 행동 강령을 시행하는 사람들과의 원치 않는 상호작용은 허용되지 않습니다. 이러한 조건을 위반할 경우 영구 정지로 이어질 수 있습니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 106
+msgctxt "chunk_7C7DB2B5"
+msgid "### 4. Permanent Ban\n"
+msgstr "### 4. 영구 정지\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 108
+msgctxt "chunk_4CF7A7EA"
+msgid "**Community Impact**: Demonstrating a pattern of violation of community\nstandards, including sustained inappropriate behavior,  harassment of an\nindividual, or aggression toward or disparagement of classes of individuals.\n\n**Consequence**: A permanent ban from any sort of public interaction within\nthe community.\n"
+msgstr "**커뮤니티 영향**: 지속적인 부적절한 행동, 개인에 대한 괴롭힘, 또는 특정 집단에 대한 공격 또는 비하를 포함하여 커뮤니티 기준을 위반하는 패턴을 보이는 경우.\n\n**결과**: 커뮤니티 내 모든 공개적 상호작용에서 영구 정지됩니다.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 115
+msgctxt "chunk_5C710B75"
+msgid "## Attribution\n"
+msgstr "## 저작자 표시\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 117
+msgctxt "chunk_CFC08AD6"
+msgid "This Code of Conduct is adapted from the [Contributor Covenant][homepage],\nversion 2.0, available at\nhttps://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nCommunity Impact Guidelines were inspired by [Mozilla's code of conduct\nenforcement ladder](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see the FAQ at\nhttps://www.contributor-covenant.org/faq. Translations are available at\nhttps://www.contributor-covenant.org/translations.\n"
+msgstr "이 행동 강령은 [Contributor Covenant][homepage]의 2.0 버전을 기반으로 하며,  \nhttps://www.contributor-covenant.org/version/2/0/code_of_conduct.html에서 확인할 수 있습니다.\n\n커뮤니티 영향 지침은 [Mozilla의 행동 강령 시행 단계](https://github.com/mozilla/diversity)에서 영감을 받았습니다.\n\n[homepage]: https://www.contributor-covenant.org\n\n이 행동 강령에 대한 일반적인 질문의 답변은  \nhttps://www.contributor-covenant.org/faq에서 확인할 수 있습니다. 번역본은  \nhttps://www.contributor-covenant.org/translations에서 이용 가능합니다.\n"
+
+# This content is from "FAQ.md", line 1
+msgctxt "chunk_BBFC419C"
+msgid "Some questions are frequently asked, so we have provided a list for users who encounter similar issues.\n"
+msgstr "자주 묻는 질문들이 있으므로, 비슷한 문제를 겪는 사용자들을 위해 목록을 제공합니다.\n"
+
+# This content is from "FAQ.md", line 3
+msgctxt "chunk_2B5D23E7"
+msgid "## Is a GPU required?"
+msgstr "## GPU가 필요한가요?"
+
+# This content is from "FAQ.md", line 20
+msgctxt "chunk_A85F81AE"
+msgid "- **Question**:  "
+msgstr "- **질문**:"
+
+# This content is from "FAQ.md", line 5
+msgctxt "chunk_8E573398"
+msgid "As the program uses artificial intelligence to recognize and extract documents, is GPU required?\n"
+msgstr "프로그램이 인공 지능을 사용하여 문서를 인식하고 추출하기 때문에 GPU가 필요한가요?\n"
+
+# This content is from "FAQ.md", line 23
+msgctxt "chunk_FE846FC9"
+msgid "- **Answer**:  "
+msgstr "- **답변**:"
+
+# This content is from "FAQ.md", line 8
+msgctxt "chunk_63C892F6"
+msgid "**GPU is not required.** But if you have a GPU, the program will automatically use it for higher performance.\n"
+msgstr "**GPU가 필요하지 않습니다.** 하지만 GPU가 있는 경우 프로그램이 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.\n"
+
+# This content is from "FAQ.md", line 10
+msgctxt "chunk_610DD2DC"
+msgid "## Downloading interrupted?"
+msgstr "## 다운로드가 중단되었나요?"
+
+# This content is from "FAQ.md", line 12
+msgctxt "chunk_53B66922"
+msgid "I encountered the following interrupt error while downloading the model. What should I do?\n"
+msgstr "모델을 다운로드하는 동안 다음과 같은 중단 오류가 발생했습니다. 어떻게 해야 하나요?\n"
+
+# This content is from "FAQ.md", line 17
+msgctxt "chunk_2A133C40"
+msgid "The network is receiving interference, please use a stable network link or try to bypass network intervention.\n"
+msgstr "네트워크에 간섭이 발생하고 있습니다. 안정적인 네트워크 링크를 사용하거나 네트워크 간섭을 우회해 보세요.\n"
+
+# This content is from "FAQ.md", line 19
+msgctxt "chunk_ABB33668"
+msgid "## How to update to the latest version?"
+msgstr "## 최신 버전으로 업데이트하는 방법은 무엇인가요?"
+
+# This content is from "FAQ.md", line 21
+msgctxt "chunk_981A22AF"
+msgid "I want to use some of the features of the latest version, how do I update it?\n"
+msgstr "최신 버전의 일부 기능을 사용하고 싶은데, 어떻게 업데이트하나요?\n"
+
+# This content is from "FAQ.md", line 24
+msgctxt "chunk_E6E8A1D1"
+msgid "`pip install -U pdf2zh`\n\n"
+msgstr "`pip install -U pdf2zh`\n\n"
+
+# This content is from "FAQ.md", line 27
+msgctxt "chunk_9FB0E3EA"
+msgid "## The following files do not exist: example.pdf"
+msgstr "## 다음 파일이 존재하지 않습니다: example.pdf"
+
+# This content is from "FAQ.md", line 52
+msgctxt "chunk_22B1E6C4"
+msgid "- **Issue**:  "
+msgstr "- **이슈**:"
+
+# This content is from "FAQ.md", line 29
+msgctxt "chunk_FAB807CC"
+msgid "When executing the program, users would have the following outputs: `The following files do not exist: example.pdf` if the document was not found.\n"
+msgstr "프로그램을 실행할 때, 사용자는 문서를 찾을 수 없는 경우 `다음 파일이 존재하지 않습니다: example.pdf`와 같은 출력을 보게 됩니다.\n"
+
+# This content is from "FAQ.md", line 31
+msgctxt "chunk_E7371FD6"
+msgid "- **Solution**:\n  - Open the command line in the directory where the file is located, or\n  - Enter the full path of the file directly after pdf2zh, or\n  - Use the interactive mode `pdf2zh -i` to drag and drop files directly\n\n"
+msgstr "- **해결 방법**:\n  - 파일이 위치한 디렉토리에서 명령줄을 열거나,\n  - pdf2zh 뒤에 파일의 전체 경로를 직접 입력하거나,\n  - 대화형 모드 `pdf2zh -i`를 사용하여 파일을 직접 드래그 앤 드롭하세요\n\n"
+
+# This content is from "FAQ.md", line 37
+msgctxt "chunk_F523458B"
+msgid "## SSL Error and Other Network Issues"
+msgstr "## SSL 오류 및 기타 네트워크 문제"
+
+# This content is from "FAQ.md", line 39
+msgctxt "chunk_DF99BBC1"
+msgid "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
+msgstr "Hugging Face 모델을 다운로드할 때 중국 사용자는 네트워크 오류를 경험할 수 있습니다. 예를 들어, [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70)에서 확인할 수 있습니다.\n"
+
+# This content is from "FAQ.md", line 41
+msgctxt "chunk_AC4D20E5"
+msgid "- **Solution**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Use Hugging Face Mirror](https://hf-mirror.com/).\n  - [Use Portable version](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Use Docker instead](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Update Certificates](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), as suggested in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n"
+msgstr "- **해결 방법**:\n  - [GFW 우회](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face 미러 사용](https://hf-mirror.com/).\n  - [포터블 버전 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [대신 Docker 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [인증서 업데이트](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)에서 제안된 대로.\n"
+
+# This content is from "FAQ.md", line 48
+msgctxt "chunk_8AA448AC"
+msgid "## Localhost is not accessible"
+msgstr "## 로컬호스트에 접근할 수 없음"
+
+# This content is from "FAQ.md", line 49
+msgctxt "chunk_4E814B7B"
+msgid "Please see below.\n"
+msgstr "아래를 참조해 주세요.\n"
+
+# This content is from "FAQ.md", line 51
+msgctxt "chunk_EA897629"
+msgid "## Error launching GUI using 0.0.0.0"
+msgstr "## 0.0.0.0을 사용하여 GUI를 실행할 때 발생하는 오류"
+
+# This content is from "FAQ.md", line 53
+msgctxt "chunk_D65A22CE"
+msgid "Using proxy software in global mode may prevent Gradio from starting properly. For example, in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n"
+msgstr "전역 모드에서 프록시 소프트웨어를 사용하면 Gradio가 제대로 시작되지 않을 수 있습니다. 예를 들어, [이슈 #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)에서 확인할 수 있습니다.\n"
+
+# This content is from "FAQ.md", line 55
+msgctxt "chunk_587F7FBA"
+msgid "- **Solution**:  "
+msgstr "- **해결 방법**:"
+
+# This content is from "FAQ.md", line 56
+msgctxt "chunk_E7C819A4"
+msgid "Use rule mode\n"
+msgstr "규칙 모드 사용\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 1
+msgctxt "chunk_9221A870"
+msgid "[**Advanced**](./introduction.md) > **Documentation of Translation Services** _(current)_\n"
+msgstr "[**고급 옵션**](./introduction.md) > **번역 서비스 문서** _(현재)_\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 5
+msgctxt "chunk_7775DA81"
+msgid "### Viewing Available Translate Services via Command Line\n"
+msgstr "### 명령줄을 통해 사용 가능한 번역 서비스 확인하기\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 7
+msgctxt "chunk_4919DFD2"
+msgid "You can confirm the available translate services and their usage by printing the help message in the command line.\n"
+msgstr "명령줄에서 도움말 메시지를 출력하여 사용 가능한 번역 서비스와 그 사용법을 확인할 수 있습니다.\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 13
+msgctxt "chunk_7935E690"
+msgid "At the end of the help message, you can view detailed information about the different translation services.\n"
+msgstr "도움말 메시지의 끝에서 다양한 번역 서비스에 대한 자세한 정보를 확인할 수 있습니다.\n"
+
+# This content is from "Language-Codes.md", line 1
+msgctxt "chunk_0D65A508"
+msgid "[**Advanced**](./introduction.md) > **Language Code** _(current)_\n"
+msgstr "[**고급 옵션**](./introduction.md) > **언어 코드** _(현재)_\n"
+
+# This content is from "Language-Codes.md", line 5
+msgctxt "chunk_00D95362"
+msgid "#### Google\n"
+msgstr "#### Google\n"
+
+# This content is from "Language-Codes.md", line 7
+msgctxt "chunk_C036D2E5"
+msgid "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organized by GPT-4o.\n"
+msgstr "소스 <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, GPT-4o에 의해 정리됨.\n"
+
+# This content is from "Language-Codes.md", line 9
+msgctxt "chunk_89056507"
+msgid "| Label in Chinese | Label | `Language Code` |\n| --- | --- | --- |\n| 阿姆哈拉语 | Amharic | `am` |"
+msgstr "| 중국어 레이블 | 레이블 | `Language Code` |\n| --- | --- | --- |\n| 암하라어 | Amharic | `am` |"
+
+# This content is from "Language-Codes.md", line 12
+msgctxt "chunk_434D3480"
+msgid "| 阿拉伯语 | Arabic | `ar` |"
+msgstr "| 아랍어 | Arabic | `ar` |"
+
+# This content is from "Language-Codes.md", line 13
+msgctxt "chunk_4E045D6E"
+msgid "| 巴斯克语 | Basque | `eu` |"
+msgstr "### 번역 결과\n\n| 바스크어 | Basque | `eu` |"
+
+# This content is from "Language-Codes.md", line 14
+msgctxt "chunk_8BDA075A"
+msgid "| 孟加拉语 | Bengali | `bn` |"
+msgstr "| 孟加拉语 | Bengali | `bn` |"
+
+# This content is from "Language-Codes.md", line 15
+msgctxt "chunk_2B8A2E4A"
+msgid "| 英语（英国） | English (UK) | `en-GB` |"
+msgstr "| 英语（美国） | English (US) | `en-US` |\n|---|---|---|---|---|---|---|\n| 简体中文 | Chinese (Simplified) | `zh-CN` | 繁体中文 | Chinese (Traditional) | `zh-TW` |\n| 日语 | Japanese | `ja` | 韩语 | Korean | `ko` |\n| 法语 | French | `fr` | 德语 | German | `de` |\n| 意大利语 | Italian | `it` | 西班牙语 | Spanish | `es` |\n| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` | 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |\n| 俄语 | Russian | `ru` | 阿拉伯语 | Arabic | `ar` |\n| 荷兰语 | Dutch | `nl` | 波兰语 | Polish | `pl` |\n| 土耳其语 | Turkish | `tr` | 瑞典语 | Swedish | `sv` |\n| 芬兰语 | Finnish | `fi` | 丹麦语 | Danish | `da` |\n| 挪威语 | Norwegian | `no` | 泰语 | Thai | `th` |\n| 越南语 | Vietnamese | `vi` | 印尼语 | Indonesian | `id` |\n| 乌克兰语 | Ukrainian | `uk` | 捷克语 | Czech | `cs` |\n| 希腊语 | Greek | `el` | 匈牙利语 | Hungarian | `hu` |\n| 罗马尼亚语 | Romanian | `ro` | 斯洛伐克语 | Slovak | `sk` |\n| 保加利亚语 | Bulgarian | `bg` | 克罗地亚语 | Croatian | `hr` |\n| 斯洛文尼亚语 | Slovenian | `sl` | 塞尔维亚语 | Serbian | `sr` |\n| 爱沙尼亚语 | Estonian | `et` | 拉脱维亚语 | Latvian | `lv` |\n| 立陶宛语 | Lithuanian | `lt` | 马来语 | Malay | `ms` |\n| 希伯来语 | Hebrew | `he` | 波斯语 | Persian | `fa` |\n| 孟加拉语 | Bengali | `bn` | 印地语 | Hindi | `hi` |\n| 泰米尔语 | Tamil | `ta` | 泰卢固语 | Telugu | `te` |\n| 卡纳达语 | Kannada | `kn` | 马拉雅拉姆语 | Malayalam | `ml` |\n| 古吉拉特语 | Gujarati | `gu` | 马拉地语 | Marathi | `mr` |\n| 旁遮普语 | Punjabi | `pa` | 乌尔都语 | Urdu | `ur` |\n\n---\n\n### TRANSLATED TEXT\n\n| 영어 (영국) | English (UK) | `en-GB` | 영어 (미국) | English (US) | `en-US` |\n|---|---|---|---|---|---|\n| 중국어 (간체) | Chinese (Simplified) | `zh-CN` | 중국어 (번체) | Chinese (Traditional) | `zh-TW` |\n| 일본어 | Japanese | `ja` | 한국어 | Korean | `ko` |\n| 프랑스어 | French | `fr` | 독일어 | German | `de` |\n| 이탈리아어 | Italian | `it` | 스페인어 | Spanish | `es` |\n| 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` | 포르투갈어 (포르투갈) | Portuguese (Portugal) | `pt-PT` |\n| 러시아어 | Russian | `ru` | 아랍어 | Arabic | `ar` |\n| 네덜란드어 | Dutch | `nl` | 폴란드어 | Polish | `pl` |\n| 터키어 | Turkish | `tr` | 스웨덴어 | Swedish | `sv` |\n| 핀란드어 | Finnish | `fi` | 덴마크어 | Danish | `da` |\n| 노르웨이어 | Norwegian | `no` | 태국어 | Thai | `th` |\n| 베트남어 | Vietnamese | `vi` | 인도네시아어 | Indonesian | `id` |\n| 우크라이나어 | Ukrainian | `uk` | 체코어 | Czech | `cs` |\n| 그리스어 | Greek | `el` | 헝가리어 | Hungarian | `hu` |\n| 루마니아어 | Romanian | `ro` | 슬로바키아어 | Slovak | `sk` |\n| 불가리아어 | Bulgarian | `bg` | 크로아티아어 | Croatian | `hr` |\n| 슬로베니아어 | Slovenian | `sl` | 세르비아어 | Serbian | `sr` |\n| 에스토니아어 | Estonian | `et` | 라트비아어 | Latvian | `lv` |\n| 리투아니아어 | Lithuanian | `lt` | 말레이어 | Malay | `ms` |\n| 히브리어 | Hebrew | `he` | 페르시아어 | Persian | `fa` |\n| 벵골어 | Bengali | `bn` | 힌디어 | Hindi | `hi` |\n| 타밀어 | Tamil | `ta` | 텔루구어 | Telugu | `te` |\n| 칸나다어 | Kannada | `kn` | 말라얄람어 | Malayalam | `ml` |\n| 구자라트어 | Gujarati | `gu` | 마라티어 | Marathi | `mr` |\n| 펀자브어 | Punjabi | `pa` | 우르두어 | Urdu | `ur` |"
+
+# This content is from "Language-Codes.md", line 16
+msgctxt "chunk_10CEEC80"
+msgid "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |"
+msgstr "| 포르투갈어 (브라질) | Portuguese (Brazil) | `pt-BR` |"
+
+# This content is from "Language-Codes.md", line 17
+msgctxt "chunk_40F26E94"
+msgid "| 保加利亚语 | Bulgarian | `bg` |"
+msgstr "| 불가리아어 | Bulgarian | `bg` |"
+
+# This content is from "Language-Codes.md", line 18
+msgctxt "chunk_BAC1D2DD"
+msgid "| 加泰罗尼亚语 | Catalan | `ca` |"
+msgstr "| 카탈루냐어 | Catalan | `ca` |"
+
+# This content is from "Language-Codes.md", line 19
+msgctxt "chunk_D8283F5F"
+msgid "| 切罗基语 | Cherokee | `chr` |"
+msgstr "| 체로키어 | Cherokee | `chr` |"
+
+# This content is from "Language-Codes.md", line 20
+msgctxt "chunk_6C504077"
+msgid "| 克罗地亚语 | Croatian | `hr` |"
+msgstr "| 크로아티아어 | Croatian | `hr` |"
+
+# This content is from "Language-Codes.md", line 21
+msgctxt "chunk_EF7519DD"
+msgid "| 捷克语 | Czech | `cs` |"
+msgstr "| 체코어 | Czech | `cs` |"
+
+# This content is from "Language-Codes.md", line 22
+msgctxt "chunk_52641096"
+msgid "| 丹麦语 | Danish | `da` |"
+msgstr "| 덴마크어 | Danish | `da` |"
+
+# This content is from "Language-Codes.md", line 23
+msgctxt "chunk_22A8086F"
+msgid "| 荷兰语 | Dutch | `nl` |"
+msgstr "| 네덜란드어 | Dutch | `nl` |"
+
+# This content is from "Language-Codes.md", line 24
+msgctxt "chunk_534B2AA9"
+msgid "| 英语（美国） | English (US) | `en` |"
+msgstr "| 英语（美国） | English (US) | `en` |"
+
+# This content is from "Language-Codes.md", line 25
+msgctxt "chunk_5B49CFFF"
+msgid "| 爱沙尼亚语 | Estonian | `et` |"
+msgstr "| 에스토니아어 | Estonian | `et` |"
+
+# This content is from "Language-Codes.md", line 26
+msgctxt "chunk_F3BE0662"
+msgid "| 菲律宾语 | Filipino | `fil` |"
+msgstr "| Filipino | `fil` |"
+
+# This content is from "Language-Codes.md", line 27
+msgctxt "chunk_AB091AA3"
+msgid "| 芬兰语 | Finnish | `fi` |"
+msgstr "| 핀란드어 | Finnish | `fi` |"
+
+# This content is from "Language-Codes.md", line 28
+msgctxt "chunk_E9126CEE"
+msgid "| 法语 | French | `fr` |"
+msgstr "| 프랑스어 | French | `fr` |"
+
+# This content is from "Language-Codes.md", line 29
+msgctxt "chunk_6A475C12"
+msgid "| 德语 | German | `de` |"
+msgstr "| 독일어 | German | `de` |"
+
+# This content is from "Language-Codes.md", line 30
+msgctxt "chunk_63D84713"
+msgid "| 希腊语 | Greek | `el` |"
+msgstr "| 그리스어 | Greek | `el` |"
+
+# This content is from "Language-Codes.md", line 31
+msgctxt "chunk_A6DD638F"
+msgid "| 古吉拉特语 | Gujarati | `gu` |"
+msgstr "| 구자라트어 | Gujarati | `gu` |"
+
+# This content is from "Language-Codes.md", line 32
+msgctxt "chunk_B85F863E"
+msgid "| 希伯来语 | Hebrew | `iw` |"
+msgstr "| 히브리어 | Hebrew | `iw` |"
+
+# This content is from "Language-Codes.md", line 33
+msgctxt "chunk_108CDAD2"
+msgid "| 印地语 | Hindi | `hi` |"
+msgstr "| 힌디어 | Hindi | `hi` |"
+
+# This content is from "Language-Codes.md", line 34
+msgctxt "chunk_371C85CF"
+msgid "| 匈牙利语 | Hungarian | `hu` |"
+msgstr "| 헝가리어 | Hungarian | `hu` |"
+
+# This content is from "Language-Codes.md", line 35
+msgctxt "chunk_DFA87215"
+msgid "| 冰岛语 | Icelandic | `is` |"
+msgstr "| 아이슬란드어 | Icelandic | `is` |"
+
+# This content is from "Language-Codes.md", line 36
+msgctxt "chunk_77057FC2"
+msgid "| 印度尼西亚语 | Indonesian | `id` |"
+msgstr "| 인도네시아어 | Indonesian | `id` |"
+
+# This content is from "Language-Codes.md", line 37
+msgctxt "chunk_FF3C4126"
+msgid "| 意大利语 | Italian | `it` |"
+msgstr "| 意大利语 | Italian | `it` |"
+
+# This content is from "Language-Codes.md", line 38
+msgctxt "chunk_652E29EB"
+msgid "| 日语 | Japanese | `ja` |"
+msgstr "| 日语 | Japanese | `ja` |"
+
+# This content is from "Language-Codes.md", line 39
+msgctxt "chunk_93927FAF"
+msgid "| 卡纳达语 | Kannada | `kn` |"
+msgstr "| 칸나다어 | Kannada | `kn` |"
+
+# This content is from "Language-Codes.md", line 40
+msgctxt "chunk_56BC5C4A"
+msgid "| 韩语 | Korean | `ko` |"
+msgstr "| 한국어 | Korean | `ko` |"
+
+# This content is from "Language-Codes.md", line 41
+msgctxt "chunk_F96E1E17"
+msgid "| 拉脱维亚语 | Latvian | `lv` |"
+msgstr "| 라트비아어 | Latvian | `lv` |"
+
+# This content is from "Language-Codes.md", line 42
+msgctxt "chunk_55EC6BB8"
+msgid "| 立陶宛语 | Lithuanian | `lt` |"
+msgstr "| 리투아니아어 | Lithuanian | `lt` |"
+
+# This content is from "Language-Codes.md", line 43
+msgctxt "chunk_D4EE46C1"
+msgid "| 马来语 | Malay | `ms` |"
+msgstr "| 말레이어 | Malay | `ms` |"
+
+# This content is from "Language-Codes.md", line 44
+msgctxt "chunk_81884171"
+msgid "| 马拉雅拉姆语 | Malayalam | `ml` |"
+msgstr "| 말라얄람어 | Malayalam | `ml` |"
+
+# This content is from "Language-Codes.md", line 45
+msgctxt "chunk_2560880A"
+msgid "| 马拉地语 | Marathi | `mr` |"
+msgstr "| 마라티어 | Marathi | `mr` |"
+
+# This content is from "Language-Codes.md", line 46
+msgctxt "chunk_FA300B7A"
+msgid "| 挪威语 | Norwegian | `no` |"
+msgstr "| 노르웨이어 | Norwegian | `no` |"
+
+# This content is from "Language-Codes.md", line 47
+msgctxt "chunk_7EBAF4DE"
+msgid "| 波兰语 | Polish | `pl` |"
+msgstr "| 波兰어 | Polish | `pl` |"
+
+# This content is from "Language-Codes.md", line 48
+msgctxt "chunk_07BEC358"
+msgid "| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |"
+msgstr "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |\n| 罗马尼亚语 | Romanian | `ro` |"
+
+# This content is from "Language-Codes.md", line 49
+msgctxt "chunk_0A7A2233"
+msgid "| 罗马尼亚语 | Romanian | `ro` |"
+msgstr "| 루마니아어 | Romanian | `ro` |"
+
+# This content is from "Language-Codes.md", line 50
+msgctxt "chunk_AD2D309D"
+msgid "| 俄语 | Russian | `ru` |"
+msgstr "| 러시아어 | Russian | `ru` |"
+
+# This content is from "Language-Codes.md", line 51
+msgctxt "chunk_9BA57E97"
+msgid "| 塞尔维亚语 | Serbian | `sr` |"
+msgstr "| 세르비아어 | Serbian | `sr` |"
+
+# This content is from "Language-Codes.md", line 52
+msgctxt "chunk_9240CC91"
+msgid "| 中文（中国） | Chinese (PRC) | `zh-CN` |"
+msgstr "| 한국어 (대한민국) | Korean (South Korea) | `ko-KR` |"
+
+# This content is from "Language-Codes.md", line 53
+msgctxt "chunk_A2F7B475"
+msgid "| 斯洛伐克语 | Slovak | `sk` |"
+msgstr "| 슬로바키아어 | Slovak | `sk` |"
+
+# This content is from "Language-Codes.md", line 54
+msgctxt "chunk_4188ADDD"
+msgid "| 斯洛文尼亚语 | Slovenian | `sl` |"
+msgstr "| 슬로베니아어 | Slovenian | `sl` |"
+
+# This content is from "Language-Codes.md", line 55
+msgctxt "chunk_E4F70BC1"
+msgid "| 西班牙语 | Spanish | `es` |"
+msgstr "| 스페인어 | Spanish | `es` |"
+
+# This content is from "Language-Codes.md", line 56
+msgctxt "chunk_08CB79D0"
+msgid "| 斯瓦希里语 | Swahili | `sw` |"
+msgstr "| 스와힐리어 | Swahili | `sw` |"
+
+# This content is from "Language-Codes.md", line 57
+msgctxt "chunk_5DCBD4C6"
+msgid "| 瑞典语 | Swedish | `sv` |"
+msgstr "| 스웨덴어 | Swedish | `sv` |"
+
+# This content is from "Language-Codes.md", line 58
+msgctxt "chunk_A604BFF4"
+msgid "| 泰米尔语 | Tamil | `ta` |"
+msgstr "| 타밀어 | Tamil | `ta` |"
+
+# This content is from "Language-Codes.md", line 59
+msgctxt "chunk_7E308345"
+msgid "| 泰卢固语 | Telugu | `te` |"
+msgstr "| 텔루구어 | Telugu | `te` |"
+
+# This content is from "Language-Codes.md", line 60
+msgctxt "chunk_B766F3D4"
+msgid "| 泰语 | Thai | `th` |"
+msgstr "| 태국어 | Thai | `th` |"
+
+# This content is from "Language-Codes.md", line 61
+msgctxt "chunk_C1B06A67"
+msgid "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |"
+msgstr "| 한국어 | Korean | `ko` |"
+
+# This content is from "Language-Codes.md", line 62
+msgctxt "chunk_4F10E5FB"
+msgid "| 土耳其语 | Turkish | `tr` |"
+msgstr "| 터키어 | Turkish | `tr` |"
+
+# This content is from "Language-Codes.md", line 63
+msgctxt "chunk_1B069A9E"
+msgid "| 乌尔都语 | Urdu | `ur` |"
+msgstr "| 우르두어 | Urdu | `ur` |"
+
+# This content is from "Language-Codes.md", line 64
+msgctxt "chunk_906AD05C"
+msgid "| 乌克兰语 | Ukrainian | `uk` |"
+msgstr "| 우크라이나어 | Ukrainian | `uk` |"
+
+# This content is from "Language-Codes.md", line 65
+msgctxt "chunk_275139A2"
+msgid "| 越南语 | Vietnamese | `vi` |"
+msgstr "| 베트남어 | Vietnamese | `vi` |"
+
+# This content is from "Language-Codes.md", line 66
+msgctxt "chunk_CADB0DBE"
+msgid "| 威尔士语 | Welsh | `cy` |\n\n"
+msgstr "| 웨일스어 | Welsh | `cy` |\n\n"
+
+# This content is from "Language-Codes.md", line 69
+msgctxt "chunk_CD5EA97F"
+msgid "#### DeepL"
+msgstr "#### DeepL"
+
+# This content is from "Language-Codes.md", line 70
+msgctxt "chunk_CD419A2D"
+msgid "Source <https://developers.deepl.com/docs/resources/supported-languages>, organized by GPT-4o.\n"
+msgstr "소스 <https://developers.deepl.com/docs/resources/supported-languages>, GPT-4o 정리.\n"
+
+# This content is from "Language-Codes.md", line 72
+msgctxt "chunk_73C925CB"
+msgid "| Label in Chinese | Label | `Language Code`| Supports |\n| --- | --- | --- | --- |\n| 阿拉伯语 | Arabic | `AR` | `source`, `target` |"
+msgstr "| 중국어 레이블 | 레이블 | `Language Code` | 지원 여부 |\n| --- | --- | --- | --- |\n| 아랍어 | Arabic | `AR` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 75
+msgctxt "chunk_449EF659"
+msgid "| 保加利亚语 | Bulgarian | `BG` | `source`, `target` |"
+msgstr "| 불가리아어 | Bulgarian | `BG` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 76
+msgctxt "chunk_F1AC6529"
+msgid "| 捷克语 | Czech | `CS` | `source`, `target` |"
+msgstr "| 체코어 | Czech | `CS` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 77
+msgctxt "chunk_499838A9"
+msgid "| 丹麦语 | Danish | `DA` | `source`, `target` |"
+msgstr "| 덴마크어 | Danish | `DA` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 78
+msgctxt "chunk_6E7A86D5"
+msgid "| 德语 | German | `DE` | `source`, `target` |"
+msgstr "| 독일어 | German | `DE` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 79
+msgctxt "chunk_11DB586F"
+msgid "| 希腊语 | Greek | `EL` | `source`, `target` |"
+msgstr "| 그리스어 | Greek | `EL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 80
+msgctxt "chunk_B38960C2"
+msgid "| 英语 | English | `EN` | `source`, `target` |"
+msgstr "| 영어 | English | `EN` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 81
+msgctxt "chunk_04ACBE3E"
+msgid "| 英语（英国） | English (British) | `EN-GB` | `target` |"
+msgstr "|"
+
+# This content is from "Language-Codes.md", line 82
+msgctxt "chunk_16A4376D"
+msgid "| 英语（美国） | English (American) | `EN-US` | `target` |"
+msgstr "| 英语（美国） | English (American) | `EN-US` | `target` |"
+
+# This content is from "Language-Codes.md", line 83
+msgctxt "chunk_B4390A6E"
+msgid "| 西班牙语 | Spanish | `ES` | `source`, `target` |"
+msgstr "| 스페인어 | Spanish | `ES` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 84
+msgctxt "chunk_BB651F90"
+msgid "| 爱沙尼亚语 | Estonian | `ET` | `source`, `target` |"
+msgstr "| 에스토니아어 | Estonian | `ET` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 85
+msgctxt "chunk_8C2548A1"
+msgid "| 芬兰语 | Finnish | `FI` | `source`, `target` |"
+msgstr "| 핀란드어 | Finnish | `FI` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 86
+msgctxt "chunk_9D18F62B"
+msgid "| 法语 | French | `FR` | `source`, `target` |"
+msgstr "| 프랑스어 | French | `FR` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 87
+msgctxt "chunk_9E56C34E"
+msgid "| 匈牙利语 | Hungarian | `HU` | `source`, `target` |"
+msgstr "| 헝가리어 | Hungarian | `HU` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 88
+msgctxt "chunk_B22D2080"
+msgid "| 印度尼西亚语 | Indonesian | `ID` | `source`, `target` |"
+msgstr "| 인도네시아어 | Indonesian | `ID` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 89
+msgctxt "chunk_4033F9B6"
+msgid "| 意大利语 | Italian | `IT` | `source`, `target` |"
+msgstr "| 이탈리아어 | Italian | `IT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 90
+msgctxt "chunk_69D4C3F5"
+msgid "| 日语 | Japanese | `JA` | `source`, `target` |"
+msgstr "| 일본어 | Japanese | `JA` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 91
+msgctxt "chunk_D3B9AFD6"
+msgid "| 韩语 | Korean | `KO` | `source`, `target` |"
+msgstr "| 한국어 | Korean | `KO` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 92
+msgctxt "chunk_82B11E30"
+msgid "| 立陶宛语 | Lithuanian | `LT` | `source`, `target` |"
+msgstr "| 리투아니아어 | Lithuanian | `LT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 93
+msgctxt "chunk_8EE65B58"
+msgid "| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |"
+msgstr "| 라트비아어 | Latvian | `LV` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 94
+msgctxt "chunk_BE638C29"
+msgid "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |"
+msgstr "| 노르웨이 보크몰어 | Norwegian Bokmål | `NB` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 95
+msgctxt "chunk_6A6B98E7"
+msgid "| 荷兰语 | Dutch | `NL` | `source`, `target` |"
+msgstr "| 네덜란드어 | Dutch | `NL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 96
+msgctxt "chunk_830AFF98"
+msgid "| 波兰语 | Polish | `PL` | `source`, `target` |"
+msgstr "| 폴란드어 | Polish | `PL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 97
+msgctxt "chunk_49AAA50E"
+msgid "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |"
+msgstr "| 포르투갈어 | Portuguese | `PT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 98
+msgctxt "chunk_FF12E792"
+msgid "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |"
+msgstr "| 포르투갈어 (브라질) | Portuguese (Brazilian) | `PT-BR` | `target` |"
+
+# This content is from "Language-Codes.md", line 99
+msgctxt "chunk_7E188EC0"
+msgid "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |"
+msgstr "| 포르투갈어(유럽) | Portuguese (European) | `PT-PT` | `target` |"
+
+# This content is from "Language-Codes.md", line 100
+msgctxt "chunk_557425BD"
+msgid "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |"
+msgstr "| 루마니아어 | Romanian | `RO` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 101
+msgctxt "chunk_0FBF4463"
+msgid "| 俄语 | Russian | `RU` | `source`, `target` |"
+msgstr "| 러시아어 | Russian | `RU` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 102
+msgctxt "chunk_11FAA384"
+msgid "| 斯洛伐克语 | Slovak | `SK` | `source`, `target` |"
+msgstr "| 슬로바키아어 | Slovak | `SK` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 103
+msgctxt "chunk_117E9013"
+msgid "| 斯洛文尼亚语 | Slovenian | `SL` | `source`, `target` |"
+msgstr "| 슬로베니아어 | Slovenian | `SL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 104
+msgctxt "chunk_EF0CF035"
+msgid "| 瑞典语 | Swedish | `SV` | `source`, `target` |"
+msgstr "| 스웨덴어 | Swedish | `SV` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 105
+msgctxt "chunk_41772AFF"
+msgid "| 土耳其语 | Turkish | `TR` | `source`, `target` |"
+msgstr "| 터키어 | Turkish | `TR` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 106
+msgctxt "chunk_95BAEB3E"
+msgid "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |"
+msgstr "| 우크라이나어 | Ukrainian | `UK` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 107
+msgctxt "chunk_DED8F856"
+msgid "| 中文 | Chinese | `ZH` | `source`, `target` |"
+msgstr "| 한국어 | Korean | `KO` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 108
+msgctxt "chunk_8EC779FC"
+msgid "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |"
+msgstr "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |"
+
+# This content is from "Language-Codes.md", line 109
+msgctxt "chunk_357772FB"
+msgid "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n"
+msgstr "| 중국어 (번체) | Chinese (Traditional) | `ZH-HANT` | `target` |\n"
+
+# This content is from "SiliconFlow.md", line 1
+msgctxt "chunk_16E46377"
+msgid "# SiliconFlow\n"
+msgstr "# SiliconFlow\n"
+
+# This content is from "SiliconFlow.md", line 3
+msgctxt "chunk_5EFF4D9F"
+msgid "## Free Translation Service\n"
+msgstr "## 무료 번역 서비스\n"
+
+# This content is from "SiliconFlow.md", line 5
+msgctxt "chunk_3C2A41A9"
+msgid "[SiliconFlow](https://siliconflow.cn) provides free translation service for this project.\n\nCurrently, the free translation service will use `THUDM/GLM-4-9B-0414` model.\n"
+msgstr "[SiliconFlow](https://siliconflow.cn)은 이 프로젝트를 위해 무료 번역 서비스를 제공합니다.\n\n현재 무료 번역 서비스는 `THUDM/GLM-4-9B-0414` 모델을 사용합니다.\n"
+
+# This content is from "SiliconFlow.md", line 38
+msgctxt "chunk_047D6F23"
+msgid "### Usage\n"
+msgstr "### 사용법\n"
+
+# This content is from "SiliconFlow.md", line 44
+msgctxt "chunk_FC529C81"
+msgid "#### cli\n"
+msgstr "#### 명령줄\n"
+
+# This content is from "SiliconFlow.md", line 50
+msgctxt "chunk_18E35DAE"
+msgid "#### webui\n"
+msgstr "#### 웹UI\n"
+
+# This content is from "SiliconFlow.md", line 19
+msgctxt "chunk_0ACD2D6C"
+msgid "1. Select \"SiliconFlowFree\" from the \"Translation Options\" - \"Service\" dropdown list.\n2. Click the Translate button at the bottom of the page to start translation.\n3. After translation is complete, you can find the translated PDF file in the \"Translated\" section at the bottom of the page.\n\n"
+msgstr "1. \"번역 옵션\" - \"서비스\" 드롭다운 목록에서 \"SiliconFlowFree\"를 선택합니다.\n2. 페이지 하단의 번역 버튼을 클릭하여 번역을 시작합니다.\n3. 번역이 완료되면 페이지 하단의 \"번역됨\" 섹션에서 번역된 `PDF` 파일을 찾을 수 있습니다.\n\n"
+
+# This content is from "SiliconFlow.md", line 24
+msgctxt "chunk_24653E80"
+msgid "### Privacy Policy\n"
+msgstr "### 개인정보 처리방침\n"
+
+# This content is from "SiliconFlow.md", line 26
+msgctxt "chunk_E40E083F"
+msgid "The file content will be sent to the server of the project maintainer [@awwaawwa](https://github.com/awwaawwa), and then forwarded to SiliconFlow for translation.\n\nThe maintainers of this project will only collect error information returned by SiliconFlow for debugging related services. Your file content will not be collected.\n\nSiliconFlow Privacy Policy: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
+msgstr "파일 내용은 프로젝트 관리자 [@awwaawwa](https://github.com/awwaawwa)의 서버로 전송된 후 SiliconFlow로 전달되어 번역됩니다.\n\n이 프로젝트의 관리자들은 SiliconFlow에서 반환된 오류 정보만을 수집하여 관련 서비스 디버깅에 사용할 뿐, 귀하의 파일 내용은 수집하지 않습니다.\n\nSiliconFlow 개인정보 처리방침: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
+
+# This content is from "SiliconFlow.md", line 34
+msgctxt "chunk_86238772"
+msgid "## Use other models from SiliconFlow\n"
+msgstr "## SiliconFlow에서 다른 모델 사용하기\n"
+
+# This content is from "SiliconFlow.md", line 36
+msgctxt "chunk_6C8B20F2"
+msgid "[SiliconFlow](https://siliconflow.cn) also provides other models for translation.\n"
+msgstr "[SiliconFlow](https://siliconflow.cn)은 번역을 위한 다른 모델도 제공합니다.\n"
+
+# This content is from "SiliconFlow.md", line 40
+msgctxt "chunk_71BE5099"
+msgid "1. Register an account at [SiliconFlow](https://siliconflow.cn)\n\n2. Create an API key at [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Then, click on the key to copy it.\n"
+msgstr "1. [SiliconFlow](https://siliconflow.cn)에서 계정을 등록하세요.\n\n2. [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak)에서 API 키를 생성하세요. 그런 다음, 키를 클릭하여 복사하세요.\n"
+
+# This content is from "SiliconFlow.md", line 52
+msgctxt "chunk_22AE44AB"
+msgid "1. \"Translation Options\" - **\"Service\"** dropdown list: Select \"SiliconFlow\"\n2. \"Translation Options\" - **\"Base URL for SiliconFlow API\"**: Keep default\n3. \"Translation Options\" - **\"SiliconFlow model to use\"**: Enter \"Pro/deepseek-ai/DeepSeek-V3\" or other models\n4. \"Translation Options\" - **\"API key for SiliconFlow service\"**: Paste your API key\n5. Click the Translate button at the bottom of the page to start translation\n6. After translation is complete, you can find the translated PDF file in the \"Translated\" section at the bottom of the page.\n\n"
+msgstr "1. \"번역 옵션\" - **\"서비스\"** 드롭다운 목록: \"SiliconFlow\" 선택\n2. \"번역 옵션\" - **\"SiliconFlow API 기본 URL\"**: 기본값 유지\n3. \"번역 옵션\" - **\"사용할 SiliconFlow 모델\"**: \"Pro/deepseek-ai/DeepSeek-V3\" 또는 다른 모델 입력\n4. \"번역 옵션\" - **\"SiliconFlow 서비스 API 키\"**: API 키 붙여넣기\n5. 페이지 하단의 번역 버튼을 클릭하여 번역 시작\n6. 번역이 완료된 후, 페이지 하단의 \"번역됨\" 섹션에서 번역된 `PDF` 파일을 찾을 수 있습니다.\n\n"
+
+# This content is from "SiliconFlow.md", line 60
+msgctxt "chunk_F44132D0"
+msgid "## Acknowledgement\n"
+msgstr "## 감사의 말\n"
+
+# This content is from "SiliconFlow.md", line 62
+msgctxt "chunk_ED8820C9"
+msgid "Thanks to [SiliconFlow](https://siliconflow.cn) for providing free translation service for this project.\n\n"
+msgstr "이 프로젝트에 무료 번역 서비스를 제공해 주신 [SiliconFlow](https://siliconflow.cn)에 감사드립니다.\n\n"
+
+# This content is from "advanced.md", line 1
+msgctxt "chunk_DDD39913"
+msgid "[**Advanced**](./introduction.md) > **Advanced** _(current)_\n"
+msgstr "[**고급 옵션**](./introduction.md) > **고급 옵션** _(현재)_\n"
+
+# This content is from "advanced.md", line 5
+msgctxt "chunk_D9B293FF"
+msgid "<h3 id=\"toc\">Table of Contents</h3>\n"
+msgstr "<h3 id=\"목차\">목차</h3>\n"
+
+# This content is from "advanced.md", line 7
+msgctxt "chunk_D18951F5"
+msgid "- [Command Line Args](#command-line-args)\n- [Partial translation](#partial-translation)\n- [Specify source and target languages](#specify-source-and-target-languages)\n- [Translate wih exceptions](#translate-wih-exceptions)\n- [Custom prompt](#custom-prompt)\n- [Custom configuration](#custom-configuration)\n- [Skip clean](#skip-clean)\n- [Translation cache](#translation-cache)\n- [Deployment as a public services](#deployment-as-a-public-services)\n- [Authentication and welcome page](#authentication-and-welcome-page)\n- [Glossary Support](#glossary-support)\n"
+msgstr "- [명령줄 인수](#명령줄-인수)\n- [부분 번역](#부분-번역)\n- [소스 및 대상 언어 지정](#소스-및-대상-언어-지정)\n- [예외와 함께 번역하기](#예외와-함께-번역하기)\n- [사용자 정의 프롬프트](#사용자-정의-프롬프트)\n- [사용자 정의 구성](#사용자-정의-구성)\n- [클린 건너뛰기](#클린-건너뛰기)\n- [번역 캐시](#번역-캐시)\n- [공개 서비스로 배포하기](#공개-서비스로-배포하기)\n- [인증 및 환영 페이지](#인증-및-환영-페이지)\n- [용어 지원](#용어-지원)\n"
+
+# This content is from "advanced.md", line 21
+msgctxt "chunk_3BF1A9B5"
+msgid "#### Command Line Args\n"
+msgstr "#### 명령줄 인수\n"
+
+# This content is from "advanced.md", line 23
+msgctxt "chunk_A2860DDF"
+msgid "Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).\n"
+msgstr "명령줄에서 번역 명령을 실행하여 현재 작업 디렉토리에 번역된 문서 `example-mono.pdf`와 이중 언어 문서 `example-dual.pdf`를 생성합니다. 기본 번역 서비스로 Google을 사용합니다. 더 많은 지원되는 번역 서비스는 [여기](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services)에서 찾을 수 있습니다.\n"
+
+# This content is from "advanced.md", line 27
+msgctxt "chunk_B3EB591F"
+msgid "In the following table, we list all advanced options for reference:\n"
+msgstr "다음 표에서는 참조용으로 모든 고급 옵션을 나열합니다:\n"
+
+# This content is from "advanced.md", line 29
+msgctxt "chunk_A2A42E6B"
+msgid "##### Args\n"
+msgstr "##### 인수\n"
+
+# This content is from "advanced.md", line 31
+msgctxt "chunk_7A00EE21"
+msgid "| Option                          | Function                                                                               | Example                                                                                                              |\n| ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `files`                         | Local PDF file path                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |"
+msgstr "| 옵션                          | 기능                                                                               | 예시                                                                                                              |\n| ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `files`                         | 로컬 `PDF` 파일 경로                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |"
+
+# This content is from "advanced.md", line 34
+msgctxt "chunk_848B1EE1"
+msgid "| `links`                         | Online files                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |"
+msgstr "| `links`                         | 온라인 파일                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |"
+
+# This content is from "advanced.md", line 35
+msgctxt "chunk_8B4991D7"
+msgid "| `--output`                      | Output directory for files                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |"
+msgstr "| `--output`                      | 출력 디렉토리 지정                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |"
+
+# This content is from "advanced.md", line 36
+msgctxt "chunk_D7ED91EE"
+msgid "| `--<Services>`                  | Use [**specific service**](./Documentation-of-Translation-Services.md) for translation | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
+msgstr "| `--<Services>`                  | 번역을 위해 [**특정 서비스**](./Documentation-of-Translation-Services.md) 사용 | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
+
+# This content is from "advanced.md", line 37
+msgctxt "chunk_00AF4E48"
+msgid "| `--help`, `-h`                  | Show help message and exit                                                             | `pdf2zh -h`                                                                                                          |"
+msgstr "| `--help`, `-h`                  | 도움말 메시지를 표시하고 종료                                                             | `pdf2zh -h`                                                                                                          |"
+
+# This content is from "advanced.md", line 38
+msgctxt "chunk_B0ABBFCE"
+msgid "| `--config-file`                 | Path to the configuration file                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |"
+msgstr "| `--config-file`                 | 구성 파일 경로                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |"
+
+# This content is from "advanced.md", line 39
+msgctxt "chunk_634BA748"
+msgid "| `--report-interval`             | Progress report interval in seconds                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |"
+msgstr "| `--report-interval`             | 진행 보고 간격(초 단위)                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |"
+
+# This content is from "advanced.md", line 40
+msgctxt "chunk_46037BF6"
+msgid "| `--debug`                       | Use debug logging level                                                                | `pdf2zh example.pdf --debug`                                                                                         |"
+msgstr "| `--debug`                       | 디버그 로깅 레벨 사용                                                                | `pdf2zh example.pdf --debug`                                                                                         |"
+
+# This content is from "advanced.md", line 41
+msgctxt "chunk_18BA0512"
+msgid "| `--gui`                         | Interact with GUI                                                                      | `pdf2zh --gui`                                                                                                       |"
+msgstr "| `--gui`                         | GUI와 상호 작용                                                                      | `pdf2zh --gui`                                                                                                       |"
+
+# This content is from "advanced.md", line 42
+msgctxt "chunk_0DA1F9CB"
+msgid "| `--warmup`                      | Only download and verify required assets then exit                                     | `pdf2zh example.pdf --warmup`                                                                                        |"
+msgstr "| `--warmup`                      | 필요한 자산만 다운로드하고 검증한 후 종료                                     | `pdf2zh example.pdf --warmup`                                                                                        |"
+
+# This content is from "advanced.md", line 43
+msgctxt "chunk_D380BDDD"
+msgid "| `--generate-offline-assets`     | Generate offline assets package in the specified directory                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |"
+msgstr "| `--generate-offline-assets`     | 지정된 디렉토리에 오프라인 자산 패키지 생성                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |"
+
+# This content is from "advanced.md", line 44
+msgctxt "chunk_F5703109"
+msgid "| `--restore-offline-assets`      | Restore offline assets package from the specified directory                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |"
+msgstr "| `--restore-offline-assets`      | 지정된 디렉터리에서 오프라인 자산 패키지 복원                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |"
+
+# This content is from "advanced.md", line 45
+msgctxt "chunk_EB44345E"
+msgid "| `--version`                     | Show version then exit                                                                 | `pdf2zh --version`                                                                                                   |"
+msgstr "| `--version`                     | 버전 표시 후 종료                                                                       | `pdf2zh --version`                                                                                                   |"
+
+# This content is from "advanced.md", line 46
+msgctxt "chunk_AD6D96FE"
+msgid "| `--pages`                       | Partial document translation                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |"
+msgstr "| `--pages`                       | 문서 부분 번역                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |"
+
+# This content is from "advanced.md", line 47
+msgctxt "chunk_DB35B267"
+msgid "| `--lang-in`                     | The code of source language                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |"
+msgstr "| `--lang-in`                     | 소스 언어의 코드                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |"
+
+# This content is from "advanced.md", line 48
+msgctxt "chunk_CAF754AF"
+msgid "| `--lang-out`                    | The code of target language                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |"
+msgstr "| `--lang-out`                    | 대상 언어의 코드                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |"
+
+# This content is from "advanced.md", line 49
+msgctxt "chunk_2E1280AA"
+msgid "| `--min-text-length`             | Minimum text length to translate                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |"
+msgstr "| `--min-text-length`             | 번역할 최소 텍스트 길이                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |"
+
+# This content is from "advanced.md", line 50
+msgctxt "chunk_03902660"
+msgid "| `--rpc-doclayout`               | RPC service host address for document layout analysis                                  |                                                                                                                      |"
+msgstr "| `--rpc-doclayout`               | 문서 레이아웃 분석을 위한 RPC 서비스 호스트 주소                                  |                                                                                                                      |"
+
+# This content is from "advanced.md", line 51
+msgctxt "chunk_D3C262BD"
+msgid "| `--qps`                         | QPS limit for translation service                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |"
+msgstr "| `--qps`                         | 번역 서비스의 QPS 제한                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |"
+
+# This content is from "advanced.md", line 52
+msgctxt "chunk_0F22CD53"
+msgid "| `--ignore-cache`                | Ignore translation cache                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |"
+msgstr "| `--ignore-cache`                | 번역 캐시 무시                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |"
+
+# This content is from "advanced.md", line 53
+msgctxt "chunk_ED6020AC"
+msgid "| `--custom-system-prompt`        | Custom system prompt for translation. Used for `/no_think` in Qwen 3                   | `pdf2zh example.pdf --custom-system-prompt \"/no_think You are a professional, authentic machine translation engine\"` |"
+msgstr "| `--custom-system-prompt`        | 번역을 위한 사용자 정의 시스템 프롬프트. Qwen 3에서 `/no_think`로 사용됨                   | `pdf2zh example.pdf --custom-system-prompt \"/no_think You are a professional, authentic machine translation engine\"` |"
+
+# This content is from "advanced.md", line 54
+msgctxt "chunk_FC174A78"
+msgid "| `--pool-max-worker`             | Maximum number of workers for translation pool. If not set, will use qps as the number of workers | `pdf2zh example.pdf --pool-max-worker 100`                                                                |"
+msgstr "| `--pool-max-worker`             | 번역 풀의 최대 작업자 수. 설정되지 않은 경우 qps를 작업자 수로 사용합니다 | `pdf2zh example.pdf --pool-max-worker 100`                                                                |"
+
+# This content is from "advanced.md", line 55
+msgctxt "chunk_ED9DDA51"
+msgid "| `--no-auto-extract-glossary`    | Disable auto extract glossary                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |"
+msgstr "| `--no-auto-extract-glossary`    | 자동 용어 추출 비활성화                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |"
+
+# This content is from "advanced.md", line 56
+msgctxt "chunk_3A42A3F8"
+msgid "| `--primary-font-family`         | Override primary font family for translated text. Choices: 'serif' for serif fonts, 'sans-serif' for sans-serif fonts, 'script' for script/italic fonts. If not specified, uses automatic font selection based on original text properties. | `pdf2zh example.pdf --primary-font-family serif` |"
+msgstr "| `--primary-font-family`         | 번역된 텍스트의 기본 글꼴 패밀리를 재정의합니다. 선택 사항: 'serif'는 세리프 글꼴, 'sans-serif'는 산세리프 글꼴, 'script'는 스크립트/이탤릭 글꼴입니다. 지정되지 않은 경우 원본 텍스트 속성을 기반으로 자동 글꼴 선택을 사용합니다. | `pdf2zh example.pdf --primary-font-family serif` |"
+
+# This content is from "advanced.md", line 57
+msgctxt "chunk_D91FDBD2"
+msgid "| `--no-dual`                     | Do not output bilingual PDF files                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |"
+msgstr "| `--no-dual`                     | 이중 언어 PDF 파일을 출력하지 않음                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |"
+
+# This content is from "advanced.md", line 58
+msgctxt "chunk_BF3C03E7"
+msgid "| `--no-mono`                     | Do not output monolingual PDF files                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |"
+msgstr "| `--no-mono`                     | 단일 언어 PDF 파일을 출력하지 않음                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |"
+
+# This content is from "advanced.md", line 59
+msgctxt "chunk_D70705B4"
+msgid "| `--formular-font-pattern`       | Font pattern to identify formula text                                                  | `pdf2zh example.pdf --formular-font-pattern \"(MS.*)\"`                                                                |"
+msgstr "| `--formular-font-pattern`       | 수식 텍스트를 식별하기 위한 폰트 패턴                                                  | `pdf2zh example.pdf --formular-font-pattern \"(MS.*)\"`                                                                |"
+
+# This content is from "advanced.md", line 60
+msgctxt "chunk_BC7944E0"
+msgid "| `--formular-char-pattern`       | Character pattern to identify formula text                                             | `pdf2zh example.pdf --formular-char-pattern \"(MS.*)\"`                                                                |"
+msgstr "| `--formular-char-pattern`       | 수식 텍스트를 식별하기 위한 문자 패턴                                             | `pdf2zh example.pdf --formular-char-pattern \"(MS.*)\"`                                                                |"
+
+# This content is from "advanced.md", line 61
+msgctxt "chunk_73F7BC27"
+msgid "| `--split-short-line`            | Force split short line into different paragraphs                                       | `pdf2zh example.pdf --split-short-line`                                                                              |"
+msgstr "| `--split-short-line`            | 짧은 줄을 강제로 다른 단락으로 분할                                       | `pdf2zh example.pdf --split-short-line`                                                                              |"
+
+# This content is from "advanced.md", line 62
+msgctxt "chunk_17ED68F1"
+msgid "| `--short-line-split-factor`     | Split threshold factor for short lines                                                 |                                                                                                                      |"
+msgstr "| `--short-line-split-factor`     | 짧은 줄 분할 임계값 계수                                                 |                                                                                                                      |"
+
+# This content is from "advanced.md", line 63
+msgctxt "chunk_B4E886EC"
+msgid "| `--skip-clean`                  | Skip PDF cleaning step                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |"
+msgstr "| `--skip-clean`                  | PDF 클린 단계 건너뛰기                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |"
+
+# This content is from "advanced.md", line 64
+msgctxt "chunk_857F16B2"
+msgid "| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |"
+msgstr "| `--dual-translate-first`        | 듀얼 PDF 모드에서 번역 페이지를 우선 배치                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |"
+
+# This content is from "advanced.md", line 65
+msgctxt "chunk_A04861D5"
+msgid "| `--disable-rich-text-translate` | Disable rich text translation                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |"
+msgstr "| `--disable-rich-text-translate` | 리치 텍스트 번역 비활성화                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |"
+
+# This content is from "advanced.md", line 66
+msgctxt "chunk_9D02F06D"
+msgid "| `--enhance-compatibility`       | Enable all compatibility enhancement options                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |"
+msgstr "| `--enhance-compatibility`       | 모든 호환성 향상 옵션 활성화                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |"
+
+# This content is from "advanced.md", line 67
+msgctxt "chunk_7EC1028A"
+msgid "| `--use-alternating-pages-dual`  | Use alternating pages mode for dual PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |"
+msgstr "| `--use-alternating-pages-dual`  | 듀얼 PDF를 위해 번갈아 가는 페이지 모드 사용                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |"
+
+# This content is from "advanced.md", line 68
+msgctxt "chunk_D6BE0E79"
+msgid "| `--watermark-output-mode`       | Watermark output mode for PDF files                                                    | `pdf2zh example.pdf --watermark-output-mode \"NoWaterMark\"`                                                           |"
+msgstr "| `--watermark-output-mode`       | PDF 파일에 대한 워터마크 출력 모드                                                    | `pdf2zh example.pdf --watermark-output-mode \"NoWaterMark\"`                                                           |"
+
+# This content is from "advanced.md", line 69
+msgctxt "chunk_D63C027F"
+msgid "| `--max-pages-per-part`          | Maximum pages per part for split translation                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |"
+msgstr "| `--max-pages-per-part`          | 부분 번역당 최대 페이지 수                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |"
+
+# This content is from "advanced.md", line 70
+msgctxt "chunk_3F10F28E"
+msgid "| `--translate-table-text`        | Translate table text (experimental)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |"
+msgstr "| `--translate-table-text`        | 테이블 텍스트 번역 (실험적 기능)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |"
+
+# This content is from "advanced.md", line 71
+msgctxt "chunk_8BCCD462"
+msgid "| `--skip-scanned-detection`      | Skip scanned detection                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |"
+msgstr "| `--skip-scanned-detection`      | 스캔된 문서 감지 건너뛰기                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |"
+
+# This content is from "advanced.md", line 72
+msgctxt "chunk_75518F89"
+msgid "| `--ocr-workaround`              | Force translated text to be black and add white background                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |"
+msgstr "| `--ocr-workaround`              | 번역된 텍스트를 강제로 검은색으로 만들고 흰색 배경을 추가합니다                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |"
+
+# This content is from "advanced.md", line 73
+msgctxt "chunk_E4BD664E"
+msgid "| `--auto-enable-ocr-workaround`  | Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
+msgstr "| `--auto-enable-ocr-workaround`  | 자동 OCR 해결 방법을 활성화합니다. 문서가 심하게 스캔된 것으로 감지되면 OCR 처리를 시도하고 추가 스캔 감지를 건너뜁니다. 자세한 내용은 문서를 참조하세요. (기본값: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
+
+# This content is from "advanced.md", line 74
+msgctxt "chunk_6803D13A"
+msgid "| `--only-include-translated-page`| Only include translated pages in the output PDF. Effective only when --pages is used. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |"
+msgstr "| `--only-include-translated-page` | 출력 PDF에 번역된 페이지만 포함합니다. `--pages`가 사용될 때만 유효합니다. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |"
+
+# This content is from "advanced.md", line 75
+msgctxt "chunk_1E404081"
+msgid "| `--glossaries`                  | Custom glossary for translation.                                                      | `pdf2zh example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"`                                         |"
+msgstr "| `--glossaries`                  | 번역을 위한 사용자 정의 용어집.                                                      | `pdf2zh example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"`                                         |"
+
+# This content is from "advanced.md", line 76
+msgctxt "chunk_85EA2B26"
+msgid "| `--save-auto-extracted-glossary`| save automatically extracted glossary.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n"
+msgstr "| `--save-auto-extracted-glossary`| 자동으로 추출된 용어집을 저장합니다.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n"
+
+# This content is from "advanced.md", line 79
+msgctxt "chunk_140EFE95"
+msgid "##### GUI Args\n"
+msgstr "##### GUI 인수\n"
+
+# This content is from "advanced.md", line 81
+msgctxt "chunk_2D086D22"
+msgid "| Option                          | Function                               | Example                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | Enable sharing mode                    | `pdf2zh --gui --share`                          |"
+msgstr "| 옵션                          | 기능                               | 예시                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | 공유 모드 활성화                    | `pdf2zh --gui --share`                          |"
+
+# This content is from "advanced.md", line 84
+msgctxt "chunk_927CDC03"
+msgid "| `--auth-file`                   | Path to the authentication file        | `pdf2zh --gui --auth-file /path`                |"
+msgstr "| `--auth-file`                   | 인증 파일 경로        | `pdf2zh --gui --auth-file /path`                |"
+
+# This content is from "advanced.md", line 85
+msgctxt "chunk_951E61B3"
+msgid "| `--welcome-page`                | Path to the welcome html file          | `pdf2zh --gui --welcome-page /path`             |"
+msgstr "| `--welcome-page`                | 환영 페이지 HTML 파일 경로          | `pdf2zh --gui --welcome-page /path`             |"
+
+# This content is from "advanced.md", line 86
+msgctxt "chunk_A9F2F2FE"
+msgid "| `--enabled-services`            | Enabled translation services           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |"
+msgstr "| `--enabled-services`            | 활성화된 번역 서비스           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |"
+
+# This content is from "advanced.md", line 87
+msgctxt "chunk_2C863550"
+msgid "| `--disable-gui-sensitive-input` | Disable GUI sensitive input            | `pdf2zh --gui --disable-gui-sensitive-input`    |"
+msgstr "| `--disable-gui-sensitive-input` | GUI 민감한 입력 비활성화            | `pdf2zh --gui --disable-gui-sensitive-input`    |"
+
+# This content is from "advanced.md", line 88
+msgctxt "chunk_0598D53D"
+msgid "| `--disable-config-auto-save`    | Disable automatic configuration saving | `pdf2zh --gui --disable-config-auto-save`       |"
+msgstr "| `--disable-config-auto-save`    | 자동 구성 저장 비활성화 | `pdf2zh --gui --disable-config-auto-save`       |"
+
+# This content is from "advanced.md", line 89
+msgctxt "chunk_99D3B3A8"
+msgid "| `--server-port`                 | WebUI Port                             | `pdf2zh --gui --server-port 7860`               |\n"
+msgstr "| `--server-port`                 | WebUI 포트                             | `pdf2zh --gui --server-port 7860`               |\n"
+
+# This content is from "advanced.md", line 342
+msgctxt "chunk_F1B6ECA2"
+msgid "[⬆️ Back to top](#toc)\n"
+msgstr "[⬆️ 맨 위로 이동](#toc)\n"
+
+# This content is from "advanced.md", line 95
+msgctxt "chunk_ADC018D0"
+msgid "#### Partial translation\n"
+msgstr "#### 부분 번역\n"
+
+# This content is from "advanced.md", line 97
+msgctxt "chunk_A7D2451C"
+msgid "Use the `--pages` parameter to translate a portion of a document.\n"
+msgstr "`--pages` 매개변수를 사용하여 문서의 일부를 번역합니다.\n"
+
+# This content is from "advanced.md", line 99
+msgctxt "chunk_C04AFE09"
+msgid "- If the page numbers are consecutive, you can write it like this:\n"
+msgstr "- 페이지 번호가 연속적인 경우 다음과 같이 작성할 수 있습니다:\n"
+
+# This content is from "advanced.md", line 109
+msgctxt "chunk_773EEC89"
+msgid "> [!TIP]\n> `25-` includes all pages after page 25. If your document has 100 pages, this is equivalent to `25-100`.\n> \n> Similarly, `-25` includes all pages before page 25, which is equivalent to `1-25`.\n"
+msgstr "> [!TIP]\n> `25-`는 25페이지 이후의 모든 페이지를 포함합니다. 문서가 100페이지인 경우, 이는 `25-100`과 동일합니다.\n> \n> 마찬가지로, `-25`는 25페이지 이전의 모든 페이지를 포함하며, 이는 `1-25`와 동일합니다.\n"
+
+# This content is from "advanced.md", line 114
+msgctxt "chunk_1A89F075"
+msgid "- If the pages are not consecutive, you can use a comma `,` to separate them.\n"
+msgstr "- 페이지가 연속적이지 않은 경우 쉼표 `,`를 사용하여 구분할 수 있습니다.\n"
+
+# This content is from "advanced.md", line 116
+msgctxt "chunk_046E7E79"
+msgid "For example, if you want to translate the first and third pages, you can use the following command:\n"
+msgstr "예를 들어, 첫 번째와 세 번째 페이지를 번역하려면 다음 명령을 사용할 수 있습니다:\n"
+
+# This content is from "advanced.md", line 122
+msgctxt "chunk_376C9855"
+msgid "- If the pages include both consecutive and non-consecutive ranges, you can also connect them with a comma, like this:\n"
+msgstr "- 페이지에 연속적 및 비연속적 범위가 모두 포함된 경우, 다음과 같이 쉼표로 연결할 수도 있습니다:\n"
+
+# This content is from "advanced.md", line 128
+msgctxt "chunk_16D6BA70"
+msgid "This command will translate the first page, the third page, pages 10-20, and all pages from 25 to the end.\n\n\n[⬆️ Back to top](#toc)\n"
+msgstr "이 명령은 첫 번째 페이지, 세 번째 페이지, 10-20페이지, 그리고 25페이지부터 끝까지의 모든 페이지를 번역합니다.\n\n\n[⬆️ 맨 위로 이동](#toc)\n"
+
+# This content is from "advanced.md", line 135
+msgctxt "chunk_482C5F18"
+msgid "#### Specify source and target languages\n"
+msgstr "#### 소스 및 대상 언어 지정\n"
+
+# This content is from "advanced.md", line 137
+msgctxt "chunk_3E16227B"
+msgid "See [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages)\n"
+msgstr "[Google 언어 코드](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL 언어 코드](https://developers.deepl.com/docs/resources/supported-languages) 참조\n"
+
+# This content is from "advanced.md", line 147
+msgctxt "chunk_EA41DE52"
+msgid "#### Translate wih exceptions\n"
+msgstr "#### 예외와 함께 번역하기\n"
+
+# This content is from "advanced.md", line 149
+msgctxt "chunk_6BAF2E56"
+msgid "Use regex to specify formula fonts and characters that need to be preserved:\n"
+msgstr "보존해야 할 수식 글꼴과 문자를 지정하기 위해 정규식을 사용합니다:\n"
+
+# This content is from "advanced.md", line 155
+msgctxt "chunk_8FEF09F4"
+msgid "Preserve `Latex`, `Mono`, `Code`, `Italic`, `Symbol` and `Math` fonts by default:\n"
+msgstr "기본적으로 `Latex`, `Mono`, `Code`, `Italic`, `Symbol` 및 `Math` 글꼴을 보존합니다:\n"
+
+# This content is from "advanced.md", line 165
+msgctxt "chunk_37A13558"
+msgid "#### Custom prompt\n"
+msgstr "#### 사용자 정의 프롬프트\n"
+
+# This content is from "advanced.md", line 169
+msgctxt "chunk_5F141742"
+msgid "Custom system prompt for translation. It is mainly used to add the '/no_think' instruction of Qwen 3 in the prompt.\n"
+msgstr "번역을 위한 사용자 정의 시스템 프롬프트. 주로 Qwen 3의 '/no_think' 지시를 프롬프트에 추가하는 데 사용됩니다.\n"
+
+# This content is from "advanced.md", line 179
+msgctxt "chunk_1EC5A9B5"
+msgid "#### Custom configuration\n"
+msgstr "#### 사용자 정의 구성\n"
+
+# This content is from "advanced.md", line 181
+msgctxt "chunk_754794E1"
+msgid "There are multiple ways to modify and import the configuration file.\n"
+msgstr "구성 파일을 수정하고 가져오는 여러 가지 방법이 있습니다.\n"
+
+# This content is from "advanced.md", line 183
+msgctxt "chunk_B9BF8271"
+msgid "> [!NOTE]\n> **Configuration File Hierarchy**\n>\n> When modifying the same parameter using different methods, the software will apply changes according to the priority order below. \n>\n> Higher-ranked modifications will override lower-ranked ones.\n>\n> **cli/gui > env > user config file > default config file**\n"
+msgstr "> [!NOTE]\n> **구성 파일 계층 구조**\n>\n> 동일한 매개변수를 다른 방법으로 수정할 때, 소프트웨어는 아래의 우선순위에 따라 변경 사항을 적용합니다.\n>\n> 상위 순위의 수정 사항은 하위 순위의 것을 덮어씁니다.\n>\n> **cli/gui > env > 사용자 구성 파일 > 기본 구성 파일**\n"
+
+# This content is from "advanced.md", line 192
+msgctxt "chunk_06B261DE"
+msgid "- Modifying Configuration via **Command Line Arguments**\n"
+msgstr "- **명령줄 인수**를 통한 구성 수정\n"
+
+# This content is from "advanced.md", line 194
+msgctxt "chunk_4579F74D"
+msgid "For most cases, you can directly pass your desired settings through command line arguments. Please refer to [Command Line Args](#cmd) for more information.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n"
+msgstr "대부분의 경우, 원하는 설정을 명령줄 인수를 통해 직접 전달할 수 있습니다. 자세한 내용은 [명령줄 인수](#cmd)를 참조하세요.\n\n예를 들어, GUI 창을 활성화하려면 다음 명령을 사용할 수 있습니다:\n"
+
+# This content is from "advanced.md", line 202
+msgctxt "chunk_85CC4581"
+msgid "- Modifying Configuration via **Environment Variables**\n"
+msgstr "- **환경 변수**를 통한 구성 수정\n"
+
+# This content is from "advanced.md", line 204
+msgctxt "chunk_A3573A4C"
+msgid "You can replace the `--` in command line arguments with `PDF2ZH_`, connect parameters using `=`, and replace `-` with `_` as environment variables.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n"
+msgstr "명령줄 인수에서 `--`를 `PDF2ZH_`로 대체하고, 매개변수를 `=`로 연결하며, `-`를 `_`로 대체하여 환경 변수로 사용할 수 있습니다.\n\n예를 들어, GUI 창을 활성화하려면 다음 명령을 사용할 수 있습니다:\n"
+
+# This content is from "advanced.md", line 214
+msgctxt "chunk_11A0D60E"
+msgid "- User-Specified **Configuration File**\n"
+msgstr "- 사용자 지정 **구성 파일**\n"
+
+# This content is from "advanced.md", line 216
+msgctxt "chunk_9EE9DFB5"
+msgid "You can specify a configuration file using the command line argument below:\n"
+msgstr "아래 명령줄 인수를 사용하여 구성 파일을 지정할 수 있습니다:\n"
+
+# This content is from "advanced.md", line 222
+msgctxt "chunk_FC4FBE9E"
+msgid "If you are unsure about the config file format, please refer to the default configuration file described below.\n"
+msgstr "구성 파일 형식이 확실하지 않은 경우 아래 설명된 기본 구성 파일을 참조하세요.\n"
+
+# This content is from "advanced.md", line 224
+msgctxt "chunk_A4C0C077"
+msgid "- **Default Configuration File**\n"
+msgstr "- **기본 구성 파일**\n"
+
+# This content is from "advanced.md", line 226
+msgctxt "chunk_B17D9FE3"
+msgid "The default configuration file is located at `~/.config/pdf2zh`. \nPlease do not modify the configuration files in the `default` directory. \nIt is strongly recommended to refer to this configuration file's content and use **User-Specified Configuration File** to implement your own configuration file.\n"
+msgstr "기본 구성 파일은 `~/.config/pdf2zh`에 위치합니다.  \n`default` 디렉토리의 구성 파일은 수정하지 마십시오.  \n이 구성 파일의 내용을 참조하고 **사용자 정의 구성 파일**을 사용하여 자신의 구성 파일을 구현하는 것이 강력히 권장됩니다.\n"
+
+# This content is from "advanced.md", line 230
+msgctxt "chunk_15DFB8EE"
+msgid "> [!TIP]\n> - By default, pdf2zh 2.0 automatically saves the current configuration to `~/.config/pdf2zh/config.v3.toml` each time you click the translate button in the GUI. This configuration file will be loaded by default on the next startup.\n> - The configuration files in the `default` directory are automatically generated by the program. You can copy them for modification, but please do not modify them directly.\n> - Configuration files may include version numbers such as \"v2\", \"v3\", etc. These are **configuration file version numbers**, **not** the version number of pdf2zh itself.\n\n"
+msgstr "> [!TIP]\n> - 기본적으로 pdf2zh 2.0은 GUI에서 번역 버튼을 클릭할 때마다 현재 구성을 `~/.config/pdf2zh/config.v3.toml`에 자동으로 저장합니다. 이 구성 파일은 다음 시작 시 기본적으로 로드됩니다.\n> - `default` 디렉토리의 구성 파일은 프로그램에 의해 자동으로 생성됩니다. 수정을 위해 복사할 수 있지만 직접 수정하지 마십시오.\n> - 구성 파일에는 \"v2\", \"v3\" 등과 같은 버전 번호가 포함될 수 있습니다. 이는 **구성 파일 버전 번호**이며, pdf2zh 자체의 버전 번호가 **아닙니다**.\n\n"
+
+# This content is from "advanced.md", line 240
+msgctxt "chunk_870EBD0C"
+msgid "#### Skip clean\n"
+msgstr "#### 클린 건너뛰기\n"
+
+# This content is from "advanced.md", line 242
+msgctxt "chunk_012D63A3"
+msgid "When this parameter is set to True, the PDF cleaning step will be skipped, which can improve compatibility and avoid some font processing issues.\n\nUsage:\n"
+msgstr "이 매개변수가 True로 설정되면, PDF 클리닝 단계가 건너뛰어져 호환성을 향상시키고 일부 폰트 처리 문제를 피할 수 있습니다.\n\n사용법:\n"
+
+# This content is from "advanced.md", line 250
+msgctxt "chunk_1078AA87"
+msgid "Or using environment variables:\n"
+msgstr "또는 환경 변수를 사용하여:\n"
+
+# This content is from "advanced.md", line 256
+msgctxt "chunk_E510ADDB"
+msgid "> [!TIP]\n> When `--enhance-compatibility` is enabled, Skip clean is automatically enabled.\n"
+msgstr "> [!TIP]\n> `--enhance-compatibility`가 활성화되면 클린 건너뛰기가 자동으로 활성화됩니다.\n"
+
+# This content is from "advanced.md", line 261
+msgctxt "chunk_A35603CF"
+msgid "#### Translation cache\n"
+msgstr "#### 번역 캐시\n"
+
+# This content is from "advanced.md", line 263
+msgctxt "chunk_F8D49E02"
+msgid "PDFMathTranslate caches translated texts to increase speed and avoid unnecessary API calls for same contents. You can use `--ignore-cache` option to ignore translation cache and force retranslation.\n"
+msgstr "PDFMathTranslate는 동일한 콘텐츠에 대한 불필요한 API 호출을 줄이고 속도를 높이기 위해 번역된 텍스트를 캐시합니다. `--ignore-cache` 옵션을 사용하여 번역 캐시를 무시하고 강제로 재번역할 수 있습니다.\n"
+
+# This content is from "advanced.md", line 273
+msgctxt "chunk_05080CDF"
+msgid "#### Deployment as a public services\n"
+msgstr "#### 공개 서비스로 배포하기\n"
+
+# This content is from "advanced.md", line 275
+msgctxt "chunk_A72BDF82"
+msgid "When deploying a pdf2zh GUI on public services, you should modify the configuration file as described below.\n"
+msgstr "공개 서비스에 pdf2zh GUI를 배포할 때는 아래 설명대로 구성 파일을 수정해야 합니다.\n"
+
+# This content is from "advanced.md", line 277
+msgctxt "chunk_9F68F89E"
+msgid "> [!TIP]\n> - When deploying publicly, both `disable_gui_sensitive_input` and `disable_config_auto_save` should be enabled.\n> - Separate different available services with *English commas* <kbd>,</kbd> .\n"
+msgstr "> [!TIP]\n> - 공개적으로 배포할 때는 `disable_gui_sensitive_input`과 `disable_config_auto_save`를 모두 활성화해야 합니다.\n> - 사용 가능한 서비스를 구분할 때는 *영문 쉼표* <kbd>,</kbd> 를 사용하세요.\n"
+
+# This content is from "advanced.md", line 331
+msgctxt "chunk_F2D0AEC1"
+msgid "A usable configuration is as follows:\n"
+msgstr "사용 가능한 구성은 다음과 같습니다:\n"
+
+# This content is from "advanced.md", line 297
+msgctxt "chunk_E255AB78"
+msgid "#### Authentication and welcome page\n"
+msgstr "#### 인증 및 환영 페이지\n"
+
+# This content is from "advanced.md", line 299
+msgctxt "chunk_1A5EEA9C"
+msgid "When using Authentication and welcome page to specify which user to use Web UI and custom the login page:\n\nexample auth.txt\nEach line contains two elements, username, and password, separated by a comma.\n"
+msgstr "인증 및 환영 페이지를 사용하여 Web UI를 사용할 사용자를 지정하고 로그인 페이지를 사용자 정의할 때:\n\n예시 auth.txt\n각 줄에는 사용자 이름과 비밀번호가 쉼표로 구분되어 있습니다.\n"
+
+# This content is from "advanced.md", line 312
+msgctxt "chunk_0CEA118C"
+msgid "example welcome.html\n"
+msgstr "예시 welcome.html\n"
+
+# This content is from "advanced.md", line 327
+msgctxt "chunk_40E12FA3"
+msgid "> [!NOTE]\n> welcome page will work if only authentication file is not blank.\n> If authentication file is blank, there will be no authentication. :)\n"
+msgstr "> [!NOTE]\n> 인증 파일이 비어 있지 않은 경우에만 환영 페이지가 작동합니다.\n> 인증 파일이 비어 있으면 인증이 없습니다. :)\n"
+
+# This content is from "advanced.md", line 346
+msgctxt "chunk_4A9C44BF"
+msgid "#### Glossary Support\n"
+msgstr "#### 용어 지원\n"
+
+# This content is from "advanced.md", line 348
+msgctxt "chunk_65580DD5"
+msgid "PDFMathTranslate supports the glossary table. The glossary tables file should be `csv` file.\nThere are three columns in file. Here is a demo glossary file:\n"
+msgstr "PDFMathTranslate는 용어 테이블을 지원합니다. 용어 테이블 파일은 `csv` 파일이어야 합니다.  \n파일에는 세 개의 열이 있습니다. 다음은 데모 용어 파일입니다:\n"
+
+# This content is from "advanced.md", line 351
+msgctxt "chunk_2403CA4A"
+msgid "| source | target  | tgt_lng |\n|--------|---------|---------|\n| AutoML | 自动 ML  | zh-CN   |\n| a,a    | a       | zh-CN   |\n| \"      | \"       | zh-CN   |\n\n"
+msgstr "| source | target  | tgt_lng |\n|--------|---------|---------|\n| AutoML | 자동 ML  | ko   |\n| a,a    | a       | ko   |\n| \"      | \"       | ko   |\n\n"
+
+# This content is from "advanced.md", line 358
+msgctxt "chunk_598725B0"
+msgid "For CLI user:\nYou can use multiple files for glossary. And different files should be split by `,`.\n"
+msgstr "CLI 사용자의 경우:\n용어집에 여러 파일을 사용할 수 있습니다. 그리고 다른 파일은 `,`로 구분해야 합니다.\n"
+
+# This content is from "advanced.md", line 365
+msgctxt "chunk_B3174CBC"
+msgid "For WebUI user:\n\nYou can upload your own glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.\n\n[⬆️ Back to top](#toc)\n"
+msgstr "웹 UI 사용자를 위한 안내:\n\n이제 자신의 용어집 파일을 업로드할 수 있습니다. 파일을 업로드한 후에는 이름을 클릭하여 내용을 확인할 수 있으며, 내용이 아래에 표시됩니다.\n\n[⬆️ 맨 위로 돌아가기](#toc)\n"
+
+# This content is from "introduction.md", line 1
+msgctxt "chunk_0D45C98F"
+msgid "### Advanced\n"
+msgstr "### 고급 옵션\n"
+
+# This content is from "introduction.md", line 3
+msgctxt "chunk_F16EF37C"
+msgid "This section is intended for advanced users of this software. Here you can find:\n"
+msgstr "이 섹션은 이 소프트웨어의 고급 사용자를 위한 것입니다. 여기에서 다음을 찾을 수 있습니다:\n"
+
+# This content is from "introduction.md", line 5
+msgctxt "chunk_5FC80BEA"
+msgid "1. [**Advanced Usage**](./advanced.md)"
+msgstr "1. [**고급 옵션 사용법**](./advanced.md)"
+
+# This content is from "introduction.md", line 6
+msgctxt "chunk_7B3D7A76"
+msgid "<br>\nIn this section, you can explore specify source/target languages, switch translation services, and more.\n"
+msgstr "<br>\n이 섹션에서는 특정 소스/대상 언어를 선택하고, 번역 서비스를 전환하는 등의 작업을 할 수 있습니다.\n"
+
+# This content is from "introduction.md", line 9
+msgctxt "chunk_7A0A4B36"
+msgid "2. [**Language Code**](./Language-Codes.md)"
+msgstr "2. [**언어 코드**](./Language-Codes.md)"
+
+# This content is from "introduction.md", line 10
+msgctxt "chunk_298EB9AE"
+msgid "<br>\nIf you are unsure about which codes to use for translating your source/target languages, you can find them here.\n"
+msgstr "<br>\n소스/대상 언어 번역에 사용할 코드가 확실하지 않은 경우 여기에서 찾을 수 있습니다.\n"
+
+# This content is from "introduction.md", line 13
+msgctxt "chunk_A956AA16"
+msgid "3. [**Documentation of Translation Services**](./Documentation-of-Translation-Services.md)"
+msgstr "3. [**번역 서비스 문서**](./Documentation-of-Translation-Services.md)"
+
+# This content is from "introduction.md", line 14
+msgctxt "chunk_49F0D79D"
+msgid "<br>\nIf you need to review the documentation provided by the translation services you are using, please refer to this page."
+msgstr "<br>\n사용 중인 번역 서비스에서 제공하는 문서를 검토해야 하는 경우 이 페이지를 참조하세요."
+
+# This content is from "Contribution-Guide.md", line 1
+msgctxt "chunk_53390D48"
+msgid "# Contributing to the Project\n"
+msgstr "# 프로젝트에 기여하기\n"
+
+# This content is from "Contribution-Guide.md", line 3
+msgctxt "chunk_A71D833E"
+msgid "> [!CAUTION]\n>\n> The current project maintainers are researching automated documentation internationalization. Therefore, any PRs related to documentation internationalization/translation will NOT be accepted!\n>\n> Please do NOT submit PRs related to documentation internationalization/translation!\n"
+msgstr "> [!CAUTION]\n>\n> 현재 프로젝트 관리자들은 자동화된 문서 국제화를 연구 중입니다. 따라서 문서 국제화/번역과 관련된 PR은 허용되지 않습니다!\n>\n> 문서 국제화/번역과 관련된 PR을 제출하지 마세요!\n"
+
+# This content is from "Contribution-Guide.md", line 9
+msgctxt "chunk_D57757D9"
+msgid "Thank you for your interest in this project! Before you start contributing, please take some time to read the following guidelines to ensure your contribution can be smoothly accepted.\n"
+msgstr "이 프로젝트에 관심을 가져 주셔서 감사합니다! 기여를 시작하기 전에, 원활하게 기여가 수락될 수 있도록 다음 가이드라인을 읽어 보시기 바랍니다.\n"
+
+# This content is from "Contribution-Guide.md", line 11
+msgctxt "chunk_FB836CBD"
+msgid "## Types of Contributions Not Accepted\n"
+msgstr "## 허용되지 않는 기여 유형\n"
+
+# This content is from "Contribution-Guide.md", line 13
+msgctxt "chunk_F2331818"
+msgid "1. Documentation internationalization/translation\n2. Contributions related to core infrastructure, such as HTTP API, etc.\n3. Issues explicitly marked as \"No help needed\" (including issues in the [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) and the [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) repository).\n4. Other contributions deemed inappropriate by the maintainers.\n5. Contributing documentation, but changing the documentation in languages other than English.\n6. PRs that require modifying PDF files.\n"
+msgstr "1. 문서 국제화/번역\n2. HTTP API 등과 같은 핵심 인프라 관련 기여\n3. \"도움 필요 없음\"으로 명시적으로 표시된 이슈 ([Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 및 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 저장소의 이슈 포함).\n4. 유지 관리자가 부적절하다고 판단한 기타 기여.\n5. 문서 기여이지만 영어 이외의 언어로 된 문서를 변경하는 경우.\n6. PDF 파일 수정이 필요한 PR.\n"
+
+# This content is from "Contribution-Guide.md", line 20
+msgctxt "chunk_7828B7C7"
+msgid "Please do NOT submit PRs related to the above types.\n"
+msgstr "위 유형과 관련된 PR은 제출하지 마십시오.\n"
+
+# This content is from "Contribution-Guide.md", line 22
+msgctxt "chunk_56FADEC9"
+msgid "> [!NOTE]\n>\n> If you want to contribute documentation, please **only modify the English version of the documentation**. Other language versions are translated by contributors themselves.\n"
+msgstr "> [!NOTE]\n>\n> 문서 기여를 원하시면 **문서의 영어 버전만 수정해 주세요**. 다른 언어 버전은 기여자들이 직접 번역합니다.\n"
+
+# This content is from "Contribution-Guide.md", line 26
+msgctxt "chunk_485712CB"
+msgid "## Contribution Process\n"
+msgstr "## 기여 프로세스\n"
+
+# This content is from "Contribution-Guide.md", line 28
+msgctxt "chunk_4D698FBF"
+msgid "1. Fork this repository and clone it locally.\n2. Create a new branch: `git checkout -b feature/<feature-name>`.\n3. Develop and ensure your code meets the requirements.\n4. Commit your code:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Push to your repository: `git push origin feature/<feature-name>`.\n6. Create a PR on GitHub, provide a detailed description, and request a review from [@awwaawwa](https://github.com/awwaawwa).\n7. Ensure all automated checks pass.\n"
+msgstr "1. 이 저장소를 포크하고 로컬에 클론합니다.\n2. 새로운 브랜치를 생성합니다: `git checkout -b feature/<feature-name>`.\n3. 개발을 진행하고 코드가 요구 사항을 충족하는지 확인합니다.\n4. 코드를 커밋합니다:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. 자신의 저장소로 푸시합니다: `git push origin feature/<feature-name>`.\n6. GitHub에서 PR을 생성하고 상세한 설명을 제공한 후 [@awwaawwa](https://github.com/awwaawwa)에게 리뷰를 요청합니다.\n7. 모든 자동화된 검사가 통과되는지 확인합니다.\n"
+
+# This content is from "Contribution-Guide.md", line 40
+msgctxt "chunk_89A6F55A"
+msgid "> [!TIP]\n>\n> You do not need to wait until your development is fully complete to create a PR. Creating one early allows us to review your implementation and provide suggestions.\n>\n> If you have any questions about the source code or related matters, please contact the maintainer at aw@funstory.ai.\n>\n> Resource files for version 2.0 are shared with [BabelDOC](https://github.com/funstory-ai/BabelDOC). The code for downloading related resources is in BabelDOC. If you want to add new resource files, please contact the BabelDOC maintainer at aw@funstory.ai.\n"
+msgstr "> [!TIP]\n>\n> 개발이 완전히 완료될 때까지 기다릴 필요 없이 PR을 생성할 수 있습니다. 일찍 생성하면 구현을 검토하고 제안을 제공할 수 있습니다.\n>\n> 소스 코드 또는 관련 사항에 대한 질문이 있으면 aw@funstory.ai로 메인테이너에게 문의하세요.\n>\n> 버전 2.0의 리소스 파일은 [BabelDOC](https://github.com/funstory-ai/BabelDOC)와 공유됩니다. 관련 리소스를 다운로드하는 코드는 BabelDOC에 있습니다. 새로운 리소스 파일을 추가하려면 BabelDOC 메인테이너에게 aw@funstory.ai로 문의하세요.\n"
+
+# This content is from "Contribution-Guide.md", line 48
+msgctxt "chunk_E7638696"
+msgid "## Basic Requirements\n"
+msgstr "## 기본 요구 사항\n"
+
+# This content is from "Contribution-Guide.md", line 50
+msgctxt "chunk_4D251FB3"
+msgid "<h4 id=\"sop\">1. Workflow</h4>\n"
+msgstr "<h4 id=\"sop\">1. 워크플로우</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 52
+msgctxt "chunk_8FDDA473"
+msgid "   - Please fork from the `main` branch and develop on your forked branch.\n   - When submitting a Pull Request (PR), provide a detailed description of your changes.\n   - If your PR does not pass automated checks (indicated by `checks failed` and a red cross), please review the corresponding `details` and modify your submission to ensure the new PR passes all checks.\n\n"
+msgstr "   - `main` 브랜치에서 포크(fork)하여 자신의 포크된 브랜치에서 개발하세요.\n   - Pull Request(PR)를 제출할 때 변경 사항에 대한 상세한 설명을 제공하세요.\n   - PR이 자동화된 검사를 통과하지 못하는 경우(`checks failed` 및 빨간색 십자 표시로 표시됨), 해당 `details`를 검토하고 제출물을 수정하여 새 PR이 모든 검사를 통과하도록 하세요.\n\n"
+
+# This content is from "Contribution-Guide.md", line 57
+msgctxt "chunk_19D447DF"
+msgid "<h4 id=\"dev&test\">2. Development and Testing</h4>\n"
+msgstr "<h4 id=\"dev&test\">2. 개발 및 테스트</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 59
+msgctxt "chunk_65AB8932"
+msgid "   - Use the command `pip install -e .` for development and testing.\n\n"
+msgstr "   - 개발 및 테스트를 위해 `pip install -e .` 명령을 사용하세요.\n\n"
+
+# This content is from "Contribution-Guide.md", line 62
+msgctxt "chunk_B4865580"
+msgid "<h4 id=\"format\">3. Code Formatting</h4>\n"
+msgstr "<h4 id=\"format\">3. 코드 포맷팅</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 64
+msgctxt "chunk_E8324FFA"
+msgid "   - Configure the `pre-commit` tool and enable `black` and `flake8` for code formatting.\n\n"
+msgstr "   - `pre-commit` 도구를 구성하고 코드 서식을 위해 `black` 및 `flake8`을 활성화합니다.\n\n"
+
+# This content is from "Contribution-Guide.md", line 67
+msgctxt "chunk_7A584B10"
+msgid "<h4 id=\"requpdate\">4. Dependency Updates</h4>\n"
+msgstr "<h4 id=\"requpdate\">4. 종속성 업데이트</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 69
+msgctxt "chunk_BE2E8298"
+msgid "   - If you introduce new dependencies, please update the dependency list in the `pyproject.toml` file in a timely manner.\n\n"
+msgstr "   - 새로운 종속성을 도입하는 경우, `pyproject.toml` 파일의 종속성 목록을 적시에 업데이트해 주세요.\n\n"
+
+# This content is from "Contribution-Guide.md", line 72
+msgctxt "chunk_1615D8D8"
+msgid "<h4 id=\"docupdate\">5. Documentation Updates</h4>\n"
+msgstr "<h4 id=\"docupdate\">5. 문서 업데이트</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 74
+msgctxt "chunk_725E4B8A"
+msgid "   - If you add new command-line options, please update the list of command-line options in all language versions of the `README.md` file accordingly.\n\n"
+msgstr "   - 새로운 명령줄 옵션을 추가하는 경우, 모든 언어 버전의 `README.md` 파일에 있는 명령줄 옵션 목록을 해당 사항에 맞게 업데이트해 주세요.\n\n"
+
+# This content is from "Contribution-Guide.md", line 77
+msgctxt "chunk_09178615"
+msgid "<h4 id=\"commitmsg\">6. Commit Messages</h4>\n"
+msgstr "<h4 id=\"commitmsg\">6. 커밋 메시지</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 79
+msgctxt "chunk_8007BC97"
+msgid "   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), for example: `feat(translator): add openai`.\n\n"
+msgstr "   - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)를 사용하세요. 예: `feat(translator): add openai`.\n\n"
+
+# This content is from "Contribution-Guide.md", line 82
+msgctxt "chunk_F5439516"
+msgid "<h4 id=\"codestyle\">7. Coding Style</h4>\n"
+msgstr "<h4 id=\"codestyle\">7. 코딩 스타일</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 84
+msgctxt "chunk_22ECCE1D"
+msgid "   - Ensure your submitted code adheres to basic coding style standards.\n   - Use either snake_case or camelCase for variable naming.\n\n"
+msgstr "   - 제출한 코드가 기본적인 코딩 스타일 표준을 준수하는지 확인하세요.\n   - 변수 이름에는 snake_case 또는 camelCase를 사용하세요.\n\n"
+
+# This content is from "Contribution-Guide.md", line 88
+msgctxt "chunk_2F60B8EB"
+msgid "<h4 id=\"doctypo\">8. Documentation Formatting</h4>\n"
+msgstr "<h4 id=\"doctypo\">8. 문서 서식</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 90
+msgctxt "chunk_320F91BE"
+msgid "   - For `README.md` formatting, please follow the [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Ensure that both English and Chinese documentation are always up to date; other language documentation updates are optional.\n"
+msgstr "   - `README.md` 포맷팅은 [중국어 카피라이팅 가이드라인](https://github.com/sparanoid/chinese-copywriting-guidelines)을 따르세요.\n   - 영어 및 중국어 문서는 항상 최신 상태로 유지하고, 다른 언어 문서 업데이트는 선택 사항입니다.\n"
+
+# This content is from "Contribution-Guide.md", line 93
+msgctxt "chunk_126AF33C"
+msgid "## Adding a Translation Engine\n"
+msgstr "## 번역 엔진 추가하기\n"
+
+# This content is from "Contribution-Guide.md", line 95
+msgctxt "chunk_38A36DFF"
+msgid "1. Add a new translator configuration class in the `pdf2zh/config/translate_engine_model.py` file.\n2. Add an instance of the new translator configuration class to the `TRANSLATION_ENGINE_SETTING_TYPE` type alias in the same file.\n3. Add the new translator implementation class in the `pdf2zh/translator/translator_impl` folder.\n"
+msgstr "1. `pdf2zh/config/translate_engine_model.py` 파일에 새로운 번역기 구성 클래스를 추가합니다.\n2. 동일한 파일의 `TRANSLATION_ENGINE_SETTING_TYPE` 타입 별칭에 새로운 번역기 구성 클래스의 인스턴스를 추가합니다.\n3. `pdf2zh/translator/translator_impl` 폴더에 새로운 번역기 구현 클래스를 추가합니다.\n"
+
+# This content is from "Contribution-Guide.md", line 99
+msgctxt "chunk_5B4684E1"
+msgid "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n"
+msgstr "> [!NOTE]\n>\n> 이 프로젝트는 RPS(초당 요청 수)가 4 미만인 번역 엔진을 지원할 의도가 없습니다. 해당 엔진에 대한 지원을 제출하지 마십시오.\n"
+
+# This content is from "Contribution-Guide.md", line 103
+msgctxt "chunk_7ED6230D"
+msgid "## Project Structure\n"
+msgstr "## 프로젝트 구조\n"
+
+# This content is from "Contribution-Guide.md", line 105
+msgctxt "chunk_9004E6A3"
+msgid "- **config folder**: Configuration system.\n- **translator folder**: Translator-related implementations.\n- **gui.py**: Provides the GUI interface.\n- **const.py**: Some constants.\n- **main.py**: Provides the command-line tool.\n- **high_level.py**: High-level interfaces based on BabelDOC.\n- **http_api.py**: Provides HTTP API (not started).\n"
+msgstr "- **config 폴더**: 구성 시스템.\n- **translator 폴더**: 번역기 관련 구현.\n- **gui.py**: GUI 인터페이스 제공.\n- **const.py**: 일부 상수.\n- **main.py**: 명령줄 도구 제공.\n- **high_level.py**: BabelDOC 기반의 고수준 인터페이스.\n- **http_api.py**: HTTP API 제공 (시작되지 않음).\n"
+
+# This content is from "Contribution-Guide.md", line 113
+msgctxt "chunk_0C087ADF"
+msgid "## Contact Us\n"
+msgstr "## 문의하기\n"
+
+# This content is from "Contribution-Guide.md", line 115
+msgctxt "chunk_2FB8F835"
+msgid "If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!\n"
+msgstr "질문이 있으시면 Issue를 통해 피드백을 제출하거나 Telegram 그룹에 참여해 주세요. 기여해 주셔서 감사합니다!\n"
+
+# This content is from "Contribution-Guide.md", line 117
+msgctxt "chunk_C2A414AC"
+msgid "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
+msgstr "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com)는 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 코드를 후원합니다. 자세한 내용은 다음을 참조하세요: [BabelDOC/PDFMathTranslate 기여자 보상 규칙](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
+
+# This content is from "INSTALLATION_docker.md", line 1
+msgctxt "chunk_F3B96F2D"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **Docker** _(current)_\n"
+msgstr "[**시작하기**](./getting-started.md) > **설치** > **Docker** _(현재)_\n"
+
+# This content is from "INSTALLATION_docker.md", line 5
+msgctxt "chunk_3EBE8361"
+msgid "### Install PDFMathTranslate via docker\n"
+msgstr "### 도커를 통해 PDFMathTranslate 설치하기\n"
+
+# This content is from "INSTALLATION_docker.md", line 7
+msgctxt "chunk_760A6888"
+msgid "#### What is docker?\n"
+msgstr "#### Docker란 무엇인가?\n"
+
+# This content is from "INSTALLATION_docker.md", line 9
+msgctxt "chunk_41775DAE"
+msgid "[Docker](https://docs.docker.com/get-started/docker-overview/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.\n"
+msgstr "[Docker](https://docs.docker.com/get-started/docker-overview/)는 애플리케이션을 개발, 배송 및 실행하기 위한 오픈 플랫폼입니다. Docker를 사용하면 애플리케이션을 인프라와 분리하여 소프트웨어를 빠르게 제공할 수 있습니다. Docker를 통해 인프라를 애플리케이션과 동일한 방식으로 관리할 수 있습니다. Docker의 코드 배송, 테스트 및 배포 방법론을 활용하면 코드 작성과 프로덕션 환경에서 실행 사이의 지연 시간을 크게 줄일 수 있습니다.\n"
+
+# This content is from "INSTALLATION_docker.md", line 11
+msgctxt "chunk_6EBC627B"
+msgid "#### Installation\n"
+msgstr "#### 설치\n"
+
+# This content is from "INSTALLATION_docker.md", line 13
+msgctxt "chunk_BA8550C2"
+msgid "<h4>1. Pull and run:</h4>\n"
+msgstr "<h4>1. 풀하고 실행하기:</h4>\n"
+
+# This content is from "INSTALLATION_docker.md", line 20
+msgctxt "chunk_B1F3E7B5"
+msgid "> [!NOTE]\n> \n> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n"
+msgstr "> [!NOTE]\n> \n> - Docker Hub에 접근할 수 없는 경우, [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate)의 이미지를 사용해 보세요.\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n"
+
+# This content is from "INSTALLATION_docker.md", line 29
+msgctxt "chunk_0222B95B"
+msgid "<h4>2. Enter this URL in your default browser to open the WebUI page:</h4>\n"
+msgstr "<h4>2. 기본 브라우저에서 이 URL을 입력하여 WebUI 페이지를 엽니다:</h4>\n"
+
+# This content is from "INSTALLATION_docker.md", line 35
+msgctxt "chunk_B5C49A1E"
+msgid "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md)."
+msgstr "> [!NOTE]\n> WebUI 사용 중 문제가 발생하면 [사용법 --> WebUI](./USAGE_webui.md)를 참조하세요.\n\n> [!NOTE]\n> 명령줄 사용 중 문제가 발생하면 [사용법 --> 명령줄](./USAGE_commandline.md)를 참조하세요."
+
+# This content is from "INSTALLATION_uv.md", line 1
+msgctxt "chunk_23005398"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **uv** _(current)_\n"
+msgstr "[**시작하기**](./getting-started.md) > **설치** > **uv** _(현재)_\n"
+
+# This content is from "INSTALLATION_uv.md", line 5
+msgctxt "chunk_D43EE31C"
+msgid "### Install PDFMathTranslate via uv\n"
+msgstr "### uv를 통해 PDFMathTranslate 설치하기\n"
+
+# This content is from "INSTALLATION_uv.md", line 7
+msgctxt "chunk_1BF9C99B"
+msgid "#### What is uv? How to install it?\n"
+msgstr "#### uv란 무엇인가요? 어떻게 설치하나요?\n"
+
+# This content is from "INSTALLATION_uv.md", line 9
+msgctxt "chunk_8963BEA0"
+msgid "uv is an extremely fast Python package and project manager, written in Rust.\n<br>\nTo install uv on your computer, please refer to [this article](https://docs.astral.sh/uv/getting-started/installation/).\n"
+msgstr "uv는 Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 매니저입니다.\n<br>\n컴퓨터에 uv를 설치하려면 [이 글](https://docs.astral.sh/uv/getting-started/installation/)을 참조하세요.\n"
+
+# This content is from "INSTALLATION_uv.md", line 15
+msgctxt "chunk_6EBC627B"
+msgid "#### Installation\n"
+msgstr "#### 설치\n"
+
+# This content is from "INSTALLATION_uv.md", line 17
+msgctxt "chunk_05BD0E93"
+msgid "1. Python installed (3.10 <= version <= 3.12);\n\n2. Use the following command to use our package:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n"
+msgstr "1. Python 설치 (3.10 <= 버전 <= 3.12);\n\n2. 다음 명령어를 사용하여 패키지를 사용하세요:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n"
+
+# This content is from "INSTALLATION_uv.md", line 26
+msgctxt "chunk_74F9EC5E"
+msgid "After installation, you can start translation via the **command line** or **WebUI**.\n"
+msgstr "설치 후, **명령줄** 또는 **WebUI**를 통해 번역을 시작할 수 있습니다.\n"
+
+# This content is from "INSTALLATION_uv.md", line 28
+msgctxt "chunk_747DC3A8"
+msgid "!!! Warning\n\n    If you see the error `command not found: pdf2zh_next` when running, please configure the environment variables as follows and try again:\n\n    === \"macOS and Linux\"\n\n        Add the following to your ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Then restart your terminal\n\n    === \"Windows\"\n\n        Enter the following in PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Then restart your terminal\n"
+msgstr "!!! Warning\n\n    `command not found: pdf2zh_next` 오류가 발생하면 다음과 같이 환경 변수를 설정한 후 다시 시도해 주세요:\n\n    === \"macOS 및 Linux\"\n\n        ~/.zshrc 파일에 다음을 추가하세요:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        그런 다음 터미널을 재시작하세요\n\n    === \"Windows\"\n\n        PowerShell에서 다음을 입력하세요:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        그런 다음 터미널을 재시작하세요\n"
+
+# This content is from "INSTALLATION_uv.md", line 52
+msgctxt "chunk_C86DFF6A"
+msgid "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).\n"
+msgstr "> [!NOTE]\n> WebUI 사용 중 문제가 발생하면 [사용법 --> WebUI](./USAGE_webui.md)를 참조하세요.\n\n> [!NOTE]\n> 명령줄 사용 중 문제가 발생하면 [사용법 --> Command Line](./USAGE_commandline.md)를 참조하세요.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 1
+msgctxt "chunk_E5616440"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **Windows EXE** _(current)_\n"
+msgstr "[**시작하기**](./getting-started.md) > **설치** > **Windows EXE** _(현재)_\n"
+
+# This content is from "INSTALLATION_winexe.md", line 5
+msgctxt "chunk_F372470F"
+msgid "### Install PDFMathTranslate via .exe file\n"
+msgstr "### .exe 파일로 PDFMathTranslate 설치하기\n"
+
+# This content is from "INSTALLATION_winexe.md", line 7
+msgctxt "chunk_D3A98932"
+msgid "***Step 1*** | Download `pdf2zh-<version>-with-assets-win64.zip` from [release page](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n"
+msgstr "***1단계*** | [릴리스 페이지](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases)에서 `pdf2zh-<version>-with-assets-win64.zip`을 다운로드하세요.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 9
+msgctxt "chunk_29FE8C1D"
+msgid "> [!TIP]\n> **What is the difference between `pdf2zh-<version>-with-assets-win64.zip` and `pdf2zh-<version>-win64.zip`?**\n>\n> - If you are downloading and using PDFMathTranslate for the first time, it is recommended to download `pdf2zh-<version>-with-assets-win64.zip`.\n> - The `pdf2zh-<version>-with-assets-win64.zip` includes resource files (such as fonts and models) compared to `pdf2zh-<version>-win64.zip`.\n> - The version without assets will also dynamically download resources when running, but the download may fail due to network issues.\n"
+msgstr "> [!TIP]\n> **`pdf2zh-<version>-with-assets-win64.zip`와 `pdf2zh-<version>-win64.zip`의 차이점은 무엇인가요?**\n>\n> - PDFMathTranslate를 처음 다운로드하여 사용하는 경우 `pdf2zh-<version>-with-assets-win64.zip`을 다운로드하는 것을 권장합니다.\n> - `pdf2zh-<version>-with-assets-win64.zip`은 `pdf2zh-<version>-win64.zip`에 비해 리소스 파일(예: 폰트 및 모델)을 포함하고 있습니다.\n> - 리소스가 없는 버전도 실행 시 동적으로 리소스를 다운로드하지만, 네트워크 문제로 인해 다운로드가 실패할 수 있습니다.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 16
+msgctxt "chunk_17427D5A"
+msgid "***Step 2*** | Unzip `pdf2zh-<version>-with-assets-win64.zip` and navigate `pdf2zh` folder. It takes a while to decompress, please be patient.\n\n***Step 3*** | Navigate `pdf2zh` folder, then Double-click `pdf2zh.exe`.\n"
+msgstr "***2단계*** | `pdf2zh-<version>-with-assets-win64.zip` 파일의 압축을 풀고 `pdf2zh` 폴더로 이동합니다. 압축 해제에는 시간이 소요될 수 있으니 기다려 주세요.\n\n***3단계*** | `pdf2zh` 폴더로 이동한 후 `pdf2zh.exe` 파일을 더블클릭합니다.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 20
+msgctxt "chunk_B4068DB4"
+msgid "> [!TIP]\n> **Cannot run the .exe file**\n>\n> If you have some problems running pdf2zh.exe, please install `https://aka.ms/vs/17/release/vc_redist.x64.exe` and try again.\n"
+msgstr "> [!TIP]\n> **.exe 파일 실행 불가**\n>\n> pdf2zh.exe 실행에 문제가 있는 경우, `https://aka.ms/vs/17/release/vc_redist.x64.exe`를 설치한 후 다시 시도해 주세요.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 25
+msgctxt "chunk_68C037E0"
+msgid "***Step 4*** | A terminal will pop up after double-clicking the exe file. After about half a minute to a minute, a webpage will open in your default browser. If it does not happen, you can try to manually access `http://localhost:7860/`.\n"
+msgstr "***4단계*** | exe 파일을 더블 클릭하면 터미널이 팝업됩니다. 약 30초에서 1분 후에 기본 브라우저에서 웹페이지가 열립니다. 이렇게 되지 않으면 `http://localhost:7860/`에 수동으로 접속해 볼 수 있습니다.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 27
+msgctxt "chunk_E9C46195"
+msgid "> [!NOTE]\n>\n> If you encounter any issues during use WebUI, please refer to [this webpage](./USAGE_webui.md).\n"
+msgstr "> [!NOTE]\n>\n> WebUI 사용 중 문제가 발생하면 [이 웹페이지](./USAGE_webui.md)를 참조하세요.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 31
+msgctxt "chunk_703B946D"
+msgid "***Step 5*** | Enjoy!\n"
+msgstr "***5단계*** | 즐기세요!\n"
+
+# This content is from "INSTALLATION_winexe.md", line 33
+msgctxt "chunk_BF8657F3"
+msgid "> [!TIP]\n> **You can use the .exe file via command line**\n>\n> Use the .exe file through command line as follows:\n>\n> - Launch your terminal and navigate to the folder containing the .exe file:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Call the .exe file:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> You can use other command line parameters as normal:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> If you need more information about command line usage, please refer to this article.\n"
+msgstr "> [!TIP]\n> **명령줄을 통해 .exe 파일을 사용할 수 있습니다**\n>\n> 다음과 같이 명령줄을 통해 .exe 파일을 사용하세요:\n>\n> - 터미널을 실행하고 .exe 파일이 있는 폴더로 이동합니다:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - .exe 파일을 호출합니다:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> 다른 명령줄 매개변수도 정상적으로 사용할 수 있습니다:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> 명령줄 사용법에 대한 더 많은 정보가 필요하면 이 문서를 참조하세요.\n"
+
+# This content is from "USAGE_commandline.md", line 1
+msgctxt "chunk_1C59CC51"
+msgid "[**Getting Started**](./getting-started.md) > **Usage** > **Command Line** _(current)_\n"
+msgstr "[**시작하기**](./getting-started.md) > **사용법** > **명령줄** _(현재)_\n"
+
+# This content is from "USAGE_commandline.md", line 5
+msgctxt "chunk_9C810511"
+msgid "### Use PDFMathTranslate via command line\n"
+msgstr "### 명령줄을 통해 PDFMathTranslate 사용하기\n"
+
+# This content is from "USAGE_commandline.md", line 7
+msgctxt "chunk_30052F3A"
+msgid "#### Basic Usage\n"
+msgstr "#### 기본 사용법\n"
+
+# This content is from "USAGE_commandline.md", line 9
+msgctxt "chunk_ACC119CF"
+msgid "After Installation, please enter this command to translate your PDF.\n"
+msgstr "설치 후, 다음 명령어를 입력하여 `PDF`를 번역하세요.\n"
+
+# This content is from "USAGE_commandline.md", line 15
+msgctxt "chunk_744BFC94"
+msgid "> [!NOTE]\n> \n> If your pathname contains spaces, please enclose it in quotation marks.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n"
+msgstr "> [!NOTE]\n> \n> 경로명에 공백이 포함된 경우 따옴표로 묶어주세요.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n"
+
+# This content is from "USAGE_commandline.md", line 23
+msgctxt "chunk_6375D505"
+msgid "After execute translation, files generated in **current working directory**.\n"
+msgstr "번역을 실행한 후, **현재 작업 디렉토리**에 생성된 파일들입니다.\n"
+
+# This content is from "USAGE_commandline.md", line 25
+msgctxt "chunk_1E0F4B41"
+msgid "> [!TIP]\n> **Where is my \"Current Working Directory\" ?**\n> Before entering a command in the terminal, you might see a pathname displayed in your terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> This directory is the \"*Current working directory*.\"\n> \n> If there is no pathname, try running this command in the terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> After executing this command, a pathname will be output. This pathname is the \"**Current working directory**\". The translated files will appear here.\n"
+msgstr "> [!TIP]\n> **\"현재 작업 디렉토리\"는 어디에 있나요?**\n> 터미널에 명령을 입력하기 전에 터미널에 다음과 같은 경로명이 표시될 수 있습니다:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> 이 디렉토리가 바로 \"*현재 작업 디렉토리*\"입니다.\n> \n> 경로명이 표시되지 않는 경우, 터미널에서 다음 명령을 실행해 보세요:\n> \n> ```bash\n> pwd\n> ```\n> \n> 이 명령을 실행하면 경로명이 출력됩니다. 이 경로명이 바로 \"**현재 작업 디렉토리**\"입니다. 번역된 파일은 이 위치에 생성됩니다.\n"
+
+# This content is from "USAGE_commandline.md", line 45
+msgctxt "chunk_67DBD505"
+msgid "#### Advance Usage\n"
+msgstr "#### 고급 옵션\n"
+
+# This content is from "USAGE_commandline.md", line 47
+msgctxt "chunk_98AF19D9"
+msgid "For detailed explanations of additional command line parameters, please refer to [advanced usage](./../advanced/advanced.md).\n"
+msgstr "추가 명령줄 매개변수에 대한 자세한 설명은 [고급 옵션](./../advanced/advanced.md)을 참조하세요.\n"
+
+# This content is from "USAGE_webui.md", line 1
+msgctxt "chunk_03FD0E12"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **WebUI** _(current)_\n"
+msgstr "[**시작하기**](./getting-started.md) > **설치** > **WebUI** _(현재)_\n"
+
+# This content is from "USAGE_webui.md", line 5
+msgctxt "chunk_EDC72645"
+msgid "### Use PDFMathTranslate via Webui\n"
+msgstr "### Webui를 통해 PDFMathTranslate 사용하기\n"
+
+# This content is from "USAGE_webui.md", line 7
+msgctxt "chunk_D75BD342"
+msgid "#### How to open the WebUI page:\n"
+msgstr "#### WebUI 페이지를 여는 방법:\n"
+
+# This content is from "USAGE_webui.md", line 9
+msgctxt "chunk_65E65B28"
+msgid "There are several methods to open the WebUI interface. If you are using **Windows**, please refer to [this article](./INSTALLATION_winexe.md);\n"
+msgstr "WebUI 인터페이스를 여는 여러 가지 방법이 있습니다. **Windows**를 사용 중이라면 [이 문서](./INSTALLATION_winexe.md)를 참조하세요;\n"
+
+# This content is from "USAGE_webui.md", line 11
+msgctxt "chunk_2A12C8AD"
+msgid "1. Python installed (3.10 <= version <= 3.12)\n\n2. Install our package:\n\n3. Start using in browser:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. If your browswer has not been started automatically, goto\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Drop the PDF file into the window and click `Translate`.\n"
+msgstr "1. Python 설치 (3.10 <= 버전 <= 3.12)\n\n2. 패키지 설치:\n\n3. 브라우저에서 사용 시작:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. 브라우저가 자동으로 시작되지 않은 경우 다음으로 이동:\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    PDF 파일을 창에 드롭하고 `Translate`을 클릭하세요.\n"
+
+# This content is from "USAGE_webui.md", line 32
+msgctxt "chunk_2FDC0409"
+msgid "### Environment Variables\n"
+msgstr "### 환경 변수\n"
+
+# This content is from "USAGE_webui.md", line 34
+msgctxt "chunk_7865A8EB"
+msgid "You can set the source and target languages using environment variables:\n"
+msgstr "소스 및 타겟 언어를 환경 변수를 사용하여 설정할 수 있습니다:\n"
+
+# This content is from "USAGE_webui.md", line 36
+msgctxt "chunk_104D91B6"
+msgid "- `PDF2ZH_LANG_FROM`: Sets the source language. Defaults to \"English\".\n- `PDF2ZH_LANG_TO`: Sets the target language. Defaults to \"Simplified Chinese\".\n"
+msgstr "- `PDF2ZH_LANG_FROM`: 원본 언어를 설정합니다. 기본값은 \"English\"입니다.\n- `PDF2ZH_LANG_TO`: 대상 언어를 설정합니다. 기본값은 \"Simplified Chinese\"입니다.\n"
+
+# This content is from "USAGE_webui.md", line 39
+msgctxt "chunk_EEBEC547"
+msgid "## Preview\n"
+msgstr "## 미리보기\n"
+
+# This content is from "USAGE_webui.md", line 44
+msgctxt "chunk_742C5FE6"
+msgid "## Maintainance\n"
+msgstr "## 유지 관리\n"
+
+# This content is from "USAGE_webui.md", line 46
+msgctxt "chunk_3D5EA421"
+msgid "GUI maintained by [Rongxin](https://github.com/reycn)"
+msgstr "[Rongxin](https://github.com/reycn)이 유지 관리하는 GUI"
+
+# This content is from "getting-started.md", line 1
+msgctxt "chunk_451D1544"
+msgid "### Getting Started\n"
+msgstr "### 시작하기\n"
+
+# This content is from "getting-started.md", line 3
+msgctxt "chunk_5534569E"
+msgid "PDFMathTranslate is a powerful PDF translation tool. You can install and start using this tool in various ways.\n"
+msgstr "PDFMathTranslate은 강력한 PDF 번역 도구입니다. 다양한 방법으로 이 도구를 설치하고 사용을 시작할 수 있습니다.\n"
+
+# This content is from "getting-started.md", line 7
+msgctxt "chunk_36D1B1ED"
+msgid "### Installation\n"
+msgstr "### 설치\n"
+
+# This content is from "getting-started.md", line 9
+msgctxt "chunk_0CAD1479"
+msgid "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recommand for Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>Recommand for macOS</small>\n"
+msgstr "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Windows용 추천</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Linux용 추천</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>macOS용 추천</small>\n"
+
+# This content is from "getting-started.md", line 15
+msgctxt "chunk_047D6F23"
+msgid "### Usage\n"
+msgstr "### 사용법\n"
+
+# This content is from "getting-started.md", line 17
+msgctxt "chunk_3E32AB82"
+msgid "1. [Using **WebUI**](./USAGE_webui.md)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](./USAGE_commandline.md)\n"
+msgstr "1. [**WebUI** 사용하기](./USAGE_webui.md)\n2. [**Zotero 플러그인** 사용하기](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)\n3. [**명령줄** 사용하기](./USAGE_commandline.md)\n"
+
+# This content is from "supported_languages.md", line 1
+msgctxt "chunk_C7A7730D"
+msgid "> [!NOTE]\n> Please [click here](https://funstory-ai.github.io/BabelDOC/supported_languages/) to navigate to the *BabelDOC Supported Language* page. The information there also applies to pdf2zh."
+msgstr "> [!NOTE]\n> *BabelDOC 지원 언어* 페이지로 이동하려면 [여기를 클릭하세요](https://funstory-ai.github.io/BabelDOC/supported_languages/). 해당 정보는 pdf2zh에도 동일하게 적용됩니다."

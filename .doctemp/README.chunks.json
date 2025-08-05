@@ -1,0 +1,555 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/README.md",
+  "chunks": [
+    {
+      "id": "chunk_838C5468",
+      "raw_content": "<div align=\"center\">\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_80452A49",
+      "raw_content": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_9CD70BC3",
+      "raw_content": "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_FD2827C9",
+      "raw_content": "  <!-- PyPI -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 8
+    },
+    {
+      "id": "chunk_535549DD",
+      "raw_content": "  <a href=\"https://pypi.org/project/pdf2zh-next/\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_9D0AE379",
+      "raw_content": "    <img src=\"https://img.shields.io/pypi/v/pdf2zh-next\"></a>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 10
+    },
+    {
+      "id": "chunk_2792EF01",
+      "raw_content": "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_1DC69FC1",
+      "raw_content": "    <img src=\"https://static.pepy.tech/badge/pdf2zh-next\"></a>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 12
+    },
+    {
+      "id": "chunk_AFCA5ACF",
+      "raw_content": "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_132C173F",
+      "raw_content": "    <img src=\"https://img.shields.io/docker/pulls/awwaawwa/pdfmathtranslate-next\"></a>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 14
+    },
+    {
+      "id": "chunk_C3623279",
+      "raw_content": "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 15
+    },
+    {
+      "id": "chunk_76B223CD",
+      "raw_content": "  <!-- <a href=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/overview\">\n    <img src=\"https://gitcode.com/PDFMathTranslate/PDFMathTranslate-next/star/badge.svg\"></a> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 16
+    },
+    {
+      "id": "chunk_2D1CFDA0",
+      "raw_content": "  <!-- <a href=\"https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker\">\n    <img src=\"https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D\"></a> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 18
+    },
+    {
+      "id": "chunk_F58C27F2",
+      "raw_content": "  <!-- <a href=\"https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate\"> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 20
+    },
+    {
+      "id": "chunk_4BF46740",
+      "raw_content": "    <!-- <img src=\"https://img.shields.io/badge/ModelScope-Demo-blue\"></a> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 21
+    },
+    {
+      "id": "chunk_9B97248D",
+      "raw_content": "  <!-- <a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/pulls\">\n    <img src=\"https://img.shields.io/badge/contributions-welcome-green\"></a> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 22
+    },
+    {
+      "id": "chunk_524DFC76",
+      "raw_content": "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 24
+    },
+    {
+      "id": "chunk_C8740F43",
+      "raw_content": "    <img src=\"https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white\"></a>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 25
+    },
+    {
+      "id": "chunk_9F43F425",
+      "raw_content": "  <!-- License -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 26
+    },
+    {
+      "id": "chunk_63D768E7",
+      "raw_content": "  <a href=\"./LICENSE\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 27
+    },
+    {
+      "id": "chunk_C91C1CEC",
+      "raw_content": "    <img src=\"https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next\"></a>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 28
+    },
+    {
+      "id": "chunk_AF4387C1",
+      "raw_content": "</p>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_3CF488A3",
+      "raw_content": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+      "metadata": {
+        "chunk_type": "table",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 31
+    },
+    {
+      "id": "chunk_90458E01",
+      "raw_content": "</div>\n\nPDF scientific paper translation and bilingual comparison.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 33
+    },
+    {
+      "id": "chunk_3BE38B9A",
+      "raw_content": "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 37
+    },
+    {
+      "id": "chunk_CD5D1C28",
+      "raw_content": "Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nFor details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Updates</h2>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 41
+    },
+    {
+      "id": "chunk_5E68D02E",
+      "raw_content": "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 47
+    },
+    {
+      "id": "chunk_2B22A264",
+      "raw_content": "<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 55
+    },
+    {
+      "id": "chunk_FF589225",
+      "raw_content": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 58
+    },
+    {
+      "id": "chunk_CF255FF9",
+      "raw_content": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 59
+    },
+    {
+      "id": "chunk_EBDB9E88",
+      "raw_content": "</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 60
+    },
+    {
+      "id": "chunk_3723C881",
+      "raw_content": "> [!NOTE]\n>\n> pdf2zh 2.0 does not currently provide an online demo\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 64
+    },
+    {
+      "id": "chunk_1F3D6D5D",
+      "raw_content": "You can try our application out using either of the following demos:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 68
+    },
+    {
+      "id": "chunk_B617543E",
+      "raw_content": "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 70
+    },
+    {
+      "id": "chunk_ECCF6BC0",
+      "raw_content": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 72
+    },
+    {
+      "id": "chunk_FDDD972D",
+      "raw_content": "Note that the computing resources of the demo are limited, so please avoid abusing them.\n\n<h2 id=\"install\">Installation and Usage</h2>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 75
+    },
+    {
+      "id": "chunk_36D1B1ED",
+      "raw_content": "### Installation\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 79
+    },
+    {
+      "id": "chunk_545A02FF",
+      "raw_content": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 81
+    },
+    {
+      "id": "h_rule_56fc15c9",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 85
+    },
+    {
+      "id": "chunk_047D6F23",
+      "raw_content": "### Usage\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 87
+    },
+    {
+      "id": "chunk_A49D7830",
+      "raw_content": "1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 89
+    },
+    {
+      "id": "chunk_F57A3EE5",
+      "raw_content": "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 93
+    },
+    {
+      "id": "chunk_DF45699B",
+      "raw_content": "> [!NOTE]\n>\n> Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.\n\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 101
+    },
+    {
+      "id": "chunk_AC02EE07",
+      "raw_content": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 106
+    },
+    {
+      "id": "chunk_FAB5C5B4",
+      "raw_content": "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 111
+    },
+    {
+      "id": "chunk_8652D374",
+      "raw_content": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
+      "metadata": {
+        "chunk_type": "html_comment",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 115
+    },
+    {
+      "id": "chunk_AD3429B4",
+      "raw_content": "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 132
+    },
+    {
+      "id": "chunk_7ED9D2AF",
+      "raw_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 134
+    },
+    {
+      "id": "chunk_5DD24D41",
+      "raw_content": "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 161
+    },
+    {
+      "id": "chunk_21C4CCC3",
+      "raw_content": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 168
+    },
+    {
+      "id": "chunk_B2A74E86",
+      "raw_content": "</a>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 169
+    },
+    {
+      "id": "chunk_F1A772A0",
+      "raw_content": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 171
+    },
+    {
+      "id": "chunk_61BE03EB",
+      "raw_content": "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 173
+    },
+    {
+      "id": "chunk_ACF347AF",
+      "raw_content": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 179
+    },
+    {
+      "id": "chunk_64791BB7",
+      "raw_content": " </picture>\n</a>\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 180
+    }
+  ]
+}

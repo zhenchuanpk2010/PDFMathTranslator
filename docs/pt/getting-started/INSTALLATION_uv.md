@@ -14,7 +14,7 @@ Para instalar o uv no seu computador, consulte [este artigo](https://docs.astral
 
 #### Instalação
 
-1. Python instalado (versão >= 3.10 e <= 3.12);
+1. Python instalado (versão 3.10 <= versão <= 3.12);
 
 2. Use o seguinte comando para utilizar nosso pacote:
 
@@ -50,7 +50,7 @@ Após a instalação, você pode começar a tradução via **linha de comando** 
         Em seguida, reinicie seu terminal
 
 > [!NOTE]
-> Se você encontrar qualquer problema durante o uso da WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).
+> Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).

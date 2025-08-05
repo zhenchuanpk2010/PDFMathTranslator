@@ -9,7 +9,7 @@ Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumen
 
 ## Download unterbrochen?
 - **Frage**:
-Beim Herunterladen des Modells ist mir der folgende Unterbrechungsfehler aufgetreten. Was soll ich tun?
+Ich bin auf den folgenden Unterbrechungsfehler beim Herunterladen des Modells gestoßen. Was soll ich tun?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
@@ -18,7 +18,7 @@ Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbi
 
 ## Wie aktualisiere ich auf die neueste Version?
 - **Frage**:
-Ich möchte einige der Funktionen der neuesten Version nutzen, wie aktualisiere ich auf die neueste Version?
+Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?
 
 - **Antwort**:
 `pip install -U pdf2zh`
@@ -36,7 +36,7 @@ Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `Die folge
 
 ## SSL-Fehler und andere Netzwerkprobleme
 - **Problem**:
-Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
+Beim Herunterladen von Hugging-Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).
 
 - **Lösung**:
   - [GFW umgehen](https://github.com/clash-verge-rev/clash-verge-rev).
@@ -46,11 +46,11 @@ Beim Herunterladen von Hugging Face-Modellen können Benutzer in China Netzwerkf
   - [Zertifikate aktualisieren](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), wie in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) vorgeschlagen.
 
 ## Localhost ist nicht erreichbar
-Bitte siehe unten.
+Bitte sehen Sie unten.
 
 ## Fehler beim Starten der GUI mit 0.0.0.0
 - **Problem**:
-Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Beispielsweise in [Issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Lösung**:
 Verwenden Sie den Regelmodus

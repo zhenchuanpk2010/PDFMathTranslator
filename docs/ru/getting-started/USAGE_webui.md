@@ -6,9 +6,9 @@
 
 #### Как открыть страницу WebUI:
 
-Существует несколько способов открытия интерфейса WebUI. Если вы используете **Windows**, обратитесь к [этой статье](./INSTALLATION_winexe.md);
+Есть несколько способов открыть интерфейс WebUI. Если вы используете **Windows**, пожалуйста, обратитесь к [этой статье](./INSTALLATION_winexe.md);
 
-1. Установленный Python (версия от 3.10 до 3.12 включительно)
+1. Установленный Python (версия от 3.10 до 3.12)
 
 2. Установите наш пакет:
 
@@ -24,7 +24,7 @@
     http://localhost:7860/
     ```
 
-    Перетащите PDF-файл в окно и нажмите `Translate`.
+    Перетащите `PDF` файл в окно и нажмите `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
@@ -36,14 +36,16 @@
 - `PDF2ZH_LANG_FROM`: Устанавливает исходный язык. По умолчанию "English".
 - `PDF2ZH_LANG_TO`: Устанавливает целевой язык. По умолчанию "Simplified Chinese".
 
-## Предварительный просмотр
+## Предпросмотр
 
 <img src="./../images/before.png" width="500"/>
 <img src="./../images/after.png" width="500"/>
 
 ## Обслуживание
 
-Графический интерфейс поддерживается [Rongxin](https://github.com/reycn)
+### TRANSLATED TEXT
+
+GUI поддерживается [Rongxin](https://github.com/reycn)
 
 <div align="right"> 
 <h6><small>Часть содержимого этой страницы была переведена GPT и может содержать ошибки.</small></h6>

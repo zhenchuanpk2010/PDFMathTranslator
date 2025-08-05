@@ -1,0 +1,115 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/INSTALLATION_uv.md",
+  "chunks": [
+    {
+      "id": "chunk_23005398",
+      "raw_content": "[**Getting Started**](./getting-started.md) > **Installation** > **uv** _(current)_\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "h_rule_d088a71e",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_D43EE31C",
+      "raw_content": "### Install PDFMathTranslate via uv\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_1BF9C99B",
+      "raw_content": "#### What is uv? How to install it?\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_8963BEA0",
+      "raw_content": "uv is an extremely fast Python package and project manager, written in Rust.\n<br>\nTo install uv on your computer, please refer to [this article](https://docs.astral.sh/uv/getting-started/installation/).\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "h_rule_77e28a17",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_6EBC627B",
+      "raw_content": "#### Installation\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 4,
+        "language": null
+      },
+      "start_line_no": 15
+    },
+    {
+      "id": "chunk_05BD0E93",
+      "raw_content": "1. Python installed (3.10 <= version <= 3.12);\n\n2. Use the following command to use our package:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 17
+    },
+    {
+      "id": "chunk_74F9EC5E",
+      "raw_content": "After installation, you can start translation via the **command line** or **WebUI**.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 26
+    },
+    {
+      "id": "chunk_747DC3A8",
+      "raw_content": "!!! Warning\n\n    If you see the error `command not found: pdf2zh_next` when running, please configure the environment variables as follows and try again:\n\n    === \"macOS and Linux\"\n\n        Add the following to your ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Then restart your terminal\n\n    === \"Windows\"\n\n        Enter the following in PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Then restart your terminal\n",
+      "metadata": {
+        "chunk_type": "callout_mkdocs",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 28
+    },
+    {
+      "id": "chunk_C86DFF6A",
+      "raw_content": "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 52
+    }
+  ]
+}

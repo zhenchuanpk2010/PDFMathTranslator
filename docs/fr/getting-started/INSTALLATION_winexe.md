@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Installation** > **Windows EXE** _(current)_
+[**Commencer**](./getting-started.md) > **Installation** > **Windows EXE** _(actuel)_
 
 ---
 
@@ -10,12 +10,12 @@
 > **Quelle est la différence entre `pdf2zh-<version>-with-assets-win64.zip` et `pdf2zh-<version>-win64.zip` ?**
 >
 > - Si vous téléchargez et utilisez PDFMathTranslate pour la première fois, il est recommandé de télécharger `pdf2zh-<version>-with-assets-win64.zip`.
-> - Le fichier `pdf2zh-<version>-with-assets-win64.zip` inclut des fichiers de ressources (tels que des polices et des modèles) contrairement à `pdf2zh-<version>-win64.zip`.
+> - Le fichier `pdf2zh-<version>-with-assets-win64.zip` inclut les fichiers de ressources (tels que les polices et les modèles) contrairement à `pdf2zh-<version>-win64.zip`.
 > - La version sans ressources téléchargera également les ressources dynamiquement lors de l'exécution, mais le téléchargement peut échouer en raison de problèmes de réseau.
 
-***Étape 2*** | Décompressez `pdf2zh-<version>-with-assets-win64.zip` et naviguez jusqu'au dossier `pdf2zh`. La décompression prend un certain temps, soyez patient.
+***Étape 2*** | Dézippez `pdf2zh-<version>-with-assets-win64.zip` et naviguez vers le dossier `pdf2zh`. La décompression prend un certain temps, soyez patient.
 
-***Étape 3*** | Naviguez jusqu'au dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.
+***Étape 3*** | Naviguez vers le dossier `pdf2zh`, puis double-cliquez sur `pdf2zh.exe`.
 
 > [!TIP]
 > **Impossible d'exécuter le fichier .exe**
@@ -26,7 +26,7 @@
 
 > [!NOTE]
 >
-> Si vous rencontrez des problèmes lors de l'utilisation de l'interface Web, veuillez consulter [cette page web](./USAGE_webui.md).
+> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [cette page web](./USAGE_webui.md).
 
 ***Étape 5*** | Profitez-en !
 
@@ -35,7 +35,7 @@
 >
 > Utilisez le fichier .exe via la ligne de commande comme suit :
 >
-> - Lancez votre terminal et naviguez jusqu'au dossier contenant le fichier .exe :
+> - Lancez votre terminal et naviguez vers le dossier contenant le fichier .exe :
 >
 > ```bash
 > cd /path/pdf2zh_next/build

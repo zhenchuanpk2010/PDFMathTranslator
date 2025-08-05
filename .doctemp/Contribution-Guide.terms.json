@@ -1,0 +1,182 @@
+{
+  "markdown_filename": "Contribution-Guide.md",
+  "bypass": [
+    "pdf2zh",
+    "PDFMathTranslate",
+    "---"
+  ],
+  "locale": {
+    "zh": {
+      "name": "简体中文",
+      "glossary": {
+        "Home": "主页",
+        "Getting Start": "快速开始",
+        "Installation": "如何安装",
+        "Command Line": "命令行",
+        "Usage": "如何使用",
+        "Language Code": "语言代码",
+        "Documentation of Translation Services": "翻译服务文档",
+        "Getting Started": "开始使用",
+        "Advanced": "高级选项",
+        "Supported Languages": "支持的语言",
+        "Community": "社区",
+        "FAQ": "常见问题",
+        "Immersive Translate": "沉浸式翻译"
+      }
+    },
+    "zh_TW": {
+      "name": "繁體中文",
+      "glossary": {
+        "Home": "首頁",
+        "Getting Start": "快速開始",
+        "Installation": "如何安裝",
+        "Command Line": "命令行",
+        "Usage": "如何使用",
+        "Language Code": "語言代碼",
+        "Documentation of Translation Services": "翻譯服務文檔",
+        "Getting Started": "開始使用",
+        "Advanced": "高級選項",
+        "Supported Languages": "支持的語言",
+        "Community": "社區",
+        "FAQ": "常見問題"
+      }
+    },
+    "ja": {
+      "name": "日本語",
+      "glossary": {
+        "Home": "ホーム",
+        "Getting Start": "始め方",
+        "Installation": "インストール",
+        "Command Line": "コマンドライン",
+        "Usage": "使い方",
+        "Language Code": "言語コード",
+        "Documentation of Translation Services": "翻訳サービスドキュメント",
+        "Getting Started": "開始",
+        "Advanced": "高度な設定",
+        "Supported Languages": "サポート言語",
+        "Community": "コミュニティ",
+        "FAQ": "よくある質問",
+        "Immersive Translate": "没入型翻訳"
+      }
+    },
+    "ko": {
+      "name": "한국어",
+      "glossary": {
+        "Home": "홈",
+        "Getting Start": "시작하기",
+        "Installation": "설치",
+        "Command Line": "명령줄",
+        "Usage": "사용법",
+        "Language Code": "언어 코드",
+        "Documentation of Translation Services": "번역 서비스 문서",
+        "Getting Started": "시작하기",
+        "Advanced": "고급 옵션",
+        "Supported Languages": "지원 언어",
+        "Community": "커뮤니티",
+        "FAQ": "자주 묻는 질문"
+      }
+    },
+    "ru": {
+      "name": "Русский",
+      "glossary": {
+        "Home": "Главная",
+        "Getting Start": "Начало работы",
+        "Installation": "Установка",
+        "Command Line": "Командная строка",
+        "Usage": "Использование",
+        "Language Code": "Код языка",
+        "Documentation of Translation Services": "Документация служб перевода",
+        "Getting Started": "Начало работы",
+        "Advanced": "Расширенные параметры",
+        "Supported Languages": "Поддерживаемые языки",
+        "Community": "Сообщество",
+        "FAQ": "Часто задаваемые вопросы"
+      }
+    },
+    "es": {
+      "name": "Español",
+      "glossary": {
+        "Home": "Inicio",
+        "Getting Start": "Empezar",
+        "Installation": "Instalación",
+        "Command Line": "Línea de comandos",
+        "Usage": "Uso",
+        "Language Code": "Código de idioma",
+        "Documentation of Translation Services": "Documentación de servicios de traducción",
+        "Getting Started": "Empezar",
+        "Advanced": "Opciones avanzadas",
+        "Supported Languages": "Idiomas soportados",
+        "Community": "Comunidad",
+        "FAQ": "Preguntas frecuentes"
+      }
+    },
+    "fr": {
+      "name": "Français",
+      "glossary": {
+        "Home": "Accueil",
+        "Getting Start": "Commencer",
+        "Installation": "Installation",
+        "Command Line": "Ligne de commande",
+        "Usage": "Utilisation",
+        "Language Code": "Code de langue",
+        "Documentation of Translation Services": "Documentation des services de traduction",
+        "Getting Started": "Commencer",
+        "Advanced": "Options avancées",
+        "Supported Languages": "Langues supportées",
+        "Community": "Communauté",
+        "FAQ": "FAQ"
+      }
+    },
+    "de": {
+      "name": "Deutsch",
+      "glossary": {
+        "Home": "Startseite",
+        "Getting Start": "Erste Schritte",
+        "Installation": "Installation",
+        "Command Line": "Kommandozeile",
+        "Usage": "Verwendung",
+        "Language Code": "Sprachcode",
+        "Documentation of Translation Services": "Dokumentation der Übersetzungsdienste",
+        "Getting Started": "Erste Schritte",
+        "Advanced": "Erweiterte Optionen",
+        "Supported Languages": "Unterstützte Sprachen",
+        "Community": "Gemeinschaft",
+        "FAQ": "Häufig gestellte Fragen"
+      }
+    },
+    "it": {
+      "name": "Italiano",
+      "glossary": {
+        "Home": "Home",
+        "Getting Start": "Iniziare",
+        "Installation": "Installazione",
+        "Command Line": "Riga di comando",
+        "Usage": "Utilizzo",
+        "Language Code": "Codice lingua",
+        "Documentation of Translation Services": "Documentazione dei servizi di traduzione",
+        "Getting Started": "Iniziare",
+        "Advanced": "Opzioni avanzate",
+        "Supported Languages": "Lingue supportate",
+        "Community": "Comunità",
+        "FAQ": "Domande frequenti"
+      }
+    },
+    "pt": {
+      "name": "Português",
+      "glossary": {
+        "Home": "Início",
+        "Getting Start": "Começar",
+        "Installation": "Instalação",
+        "Command Line": "Linha de comando",
+        "Usage": "Uso",
+        "Language Code": "Código do idioma",
+        "Documentation of Translation Services": "Documentação dos serviços de tradução",
+        "Getting Started": "Começar",
+        "Advanced": "Opções avançadas",
+        "Supported Languages": "Idiomas suportados",
+        "Community": "Comunidade",
+        "FAQ": "Perguntas frequentes"
+      }
+    }
+  }
+}

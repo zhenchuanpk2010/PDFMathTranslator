@@ -1,0 +1,2079 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mkdocs-markdown-translator\n"
+"POT-Creation-Date: 2025-08-05 19:19+0800\n"
+"PO-Revision-Date: 2025-08-05 19:19+0800\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# This content is from "README.md", line 1
+msgctxt "chunk_838C5468"
+msgid "<div align=\"center\">\n"
+msgstr "<div align=\"center\">\n"
+
+# This content is from "README.md", line 5
+msgctxt "chunk_9CD70BC3"
+msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
+msgstr "<h2 id=\"título\">PDFMathTranslate</h2>\n\n<p>"
+
+# This content is from "README.md", line 9
+msgctxt "chunk_535549DD"
+msgid "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
+msgstr "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
+
+# This content is from "README.md", line 11
+msgctxt "chunk_2792EF01"
+msgid "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
+msgstr "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
+
+# This content is from "README.md", line 13
+msgctxt "chunk_AFCA5ACF"
+msgid "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
+msgstr "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
+
+# This content is from "README.md", line 15
+msgctxt "chunk_C3623279"
+msgid "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>"
+msgstr "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Destaque｜HelloGitHub\" /></a>"
+
+# This content is from "README.md", line 24
+msgctxt "chunk_524DFC76"
+msgid "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
+msgstr "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
+
+# This content is from "README.md", line 27
+msgctxt "chunk_63D768E7"
+msgid "  <a href=\"./LICENSE\">"
+msgstr "  <a href=\"./LICENSE\">"
+
+# This content is from "README.md", line 29
+msgctxt "chunk_AF4387C1"
+msgid "</p>\n"
+msgstr "</p>\n"
+
+# This content is from "README.md", line 31
+msgctxt "chunk_3CF488A3"
+msgid "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
+msgstr "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
+
+# This content is from "README.md", line 33
+msgctxt "chunk_90458E01"
+msgid "</div>\n\nPDF scientific paper translation and bilingual comparison.\n"
+msgstr "</div>\n\nTradução de artigos científicos em PDF e comparação bilíngue.\n"
+
+# This content is from "README.md", line 37
+msgctxt "chunk_3BE38B9A"
+msgid "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
+msgstr "- 📊 Preserve fórmulas, gráficos, tabela de conteúdo e anotações _([pré-visualização](#pré-visualização))_.\n- 🌐 Suporte a [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Oferece [ferramenta de linha de comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interface de usuário interativa](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
+
+# This content is from "README.md", line 41
+msgctxt "chunk_CD5D1C28"
+msgid "Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nFor details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Updates</h2>\n"
+msgstr "Sinta-se à vontade para fornecer feedback em [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).\n\nPara obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"atualizacoes\">Atualizações</h2>\n"
+
+# This content is from "README.md", line 47
+msgctxt "chunk_5E68D02E"
+msgid "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
+msgstr "- [4 de junho de 2025] O projeto foi renomeado e movido para [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))\n- [3 de março de 2025] Suporte experimental para o novo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI adicionado como uma opção experimental (por [@awwaawwa](https://github.com/awwaawwa))\n- [22 de fevereiro de 2025] Melhor CI de lançamento e exe bem empacotado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))\n- [24 de dezembro de 2024] O tradutor agora suporta modelos locais no [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 de dezembro de 2024] Documentos não-PDF/A agora são suportados usando `-cp` _(por [@reycn](https://github.com/reycn))_\n- [13 de dezembro de 2024] Suporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_\n- [10 de dezembro de 2024] O tradutor agora suporta modelos OpenAI no Azure _(por [@yidasanqian](https://github.com/yidasanqian))_\n"
+
+# This content is from "README.md", line 55
+msgctxt "chunk_2B22A264"
+msgid "<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">"
+msgstr "<h2 id=\"preview\">Pré-visualização</h2>\n\n<div align=\"center\">"
+
+# This content is from "README.md", line 60
+msgctxt "chunk_EBDB9E88"
+msgid "</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n"
+msgstr "</div>\n\n<h2 id=\"demo\">Serviço Online 🌟</h2>\n"
+
+# This content is from "README.md", line 64
+msgctxt "chunk_3723C881"
+msgid "> [!NOTE]\n>\n> pdf2zh 2.0 does not currently provide an online demo\n"
+msgstr "> [!NOTE]\n>\n> O pdf2zh 2.0 atualmente não fornece uma demonstração online\n"
+
+# This content is from "README.md", line 68
+msgctxt "chunk_1F3D6D5D"
+msgid "You can try our application out using either of the following demos:\n"
+msgstr "Você pode experimentar nosso aplicativo usando qualquer um dos seguintes demonstradores:\n"
+
+# This content is from "README.md", line 70
+msgctxt "chunk_B617543E"
+msgid "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_"
+msgstr "- [v1.x Serviço público gratuito](https://pdf2zh.com/) online sem instalação _(recomendado)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas por mês. _(recomendado)_"
+
+# This content is from "README.md", line 75
+msgctxt "chunk_FDDD972D"
+msgid "Note that the computing resources of the demo are limited, so please avoid abusing them.\n\n<h2 id=\"install\">Installation and Usage</h2>\n"
+msgstr "Observe que os recursos computacionais da demonstração são limitados, portanto, evite abusar deles.\n\n<h2 id=\"instalacao\">Instalação e Uso</h2>\n"
+
+# This content is from "README.md", line 79
+msgctxt "chunk_36D1B1ED"
+msgid "### Installation\n"
+msgstr "### Instalação\n"
+
+# This content is from "README.md", line 81
+msgctxt "chunk_545A02FF"
+msgid "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>\n"
+msgstr "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recomendado para Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recomendado para Linux</small>\n3. [**uv** (um gerenciador de pacotes Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recomendado para macOS</small>\n"
+
+# This content is from "README.md", line 87
+msgctxt "chunk_047D6F23"
+msgid "### Usage\n"
+msgstr "### Uso\n"
+
+# This content is from "README.md", line 89
+msgctxt "chunk_A49D7830"
+msgid "1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
+msgstr "1. [Usando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)\n3. [Usando **Linha de comando**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
+
+# This content is from "README.md", line 93
+msgctxt "chunk_F57A3EE5"
+msgid "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n"
+msgstr "Para diferentes casos de uso, fornecemos métodos distintos para utilizar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.\n\n<h2 id=\"uso\">Opções Avançadas</h2>\n\nPara explicações detalhadas, consulte nosso documento sobre [Uso Avançado](https://pdf2zh-next.com/advanced/advanced.html) para uma lista completa de cada opção.\n\n<h2 id=\"desenvolvimento-secundario\">Desenvolvimento Secundário (APIs)</h2>\n"
+
+# This content is from "README.md", line 101
+msgctxt "chunk_DF45699B"
+msgid "> [!NOTE]\n>\n> Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.\n\n"
+msgstr "> [!NOTE]\n>\n> Atualmente, nenhuma documentação relevante é fornecida. Ela será complementada posteriormente. Por favor, aguarde pacientemente.\n\n"
+
+# This content is from "README.md", line 111
+msgctxt "chunk_FAB5C5B4"
+msgid "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
+msgstr "<h2 id=\"codigoidioma\">Código do idioma</h2>\n\nSe você não sabe qual código usar para traduzir para o idioma que precisa, confira [esta documentação](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
+
+# This content is from "README.md", line 132
+msgctxt "chunk_AD3429B4"
+msgid "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n"
+msgstr "<h2 id=\"reconhecimento\">Reconhecimentos</h2>\n"
+
+# This content is from "README.md", line 134
+msgctxt "chunk_7ED9D2AF"
+msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n"
+msgstr "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).\n\n- Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análise de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fonte Multilíngue: veja [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentação i18n usando Weblate: [Weblate](https://weblate.org/)\n"
+
+# This content is from "README.md", line 161
+msgctxt "chunk_5DD24D41"
+msgid "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
+msgstr "<h2 id=\"conduct\">Antes de enviar seu código</h2>\n\nAgradecemos a participação ativa dos colaboradores para tornar o pdf2zh melhor. Antes de enviar seu código, consulte nosso [Código de Conduta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Colaboradores</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
+
+# This content is from "README.md", line 169
+msgctxt "chunk_B2A74E86"
+msgid "</a>\n"
+msgstr "</a>\n"
+
+# This content is from "README.md", line 173
+msgctxt "chunk_61BE03EB"
+msgid "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
+msgstr "<h2 id=\"histórico_de_estrelas\">Histórico de Estrelas</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
+
+# This content is from "README.md", line 180
+msgctxt "chunk_64791BB7"
+msgid " </picture>\n</a>\n"
+msgstr " </picture>\n</a>\n"
+
+# This content is from "APIS.md", line 1
+msgctxt "chunk_F2495A85"
+msgid "> [!CAUTION]\n>\n> This document is outdated, please do not refer to it.\n"
+msgstr "> [!CAUTION]\n>\n> Este documento está desatualizado, por favor não o consulte.\n"
+
+# This content is from "APIS.md", line 5
+msgctxt "chunk_3CA8722C"
+msgid "<h2 id=\"toc\">Table of Content</h2>\nThe present project supports two types of APIs, All methods need the Redis;\n"
+msgstr "<h2 id=\"toc\">Índice</h2>\nO presente projeto suporta dois tipos de APIs, Todos os métodos precisam do Redis;\n"
+
+# This content is from "APIS.md", line 8
+msgctxt "chunk_AE8C8A31"
+msgid "- [Functional calls in Python](#api-python)\n- [HTTP protocols](#api-http)\n"
+msgstr "- [Chamadas funcionais em Python](#api-python)\n- [Protocolos HTTP](#api-http)\n"
+
+# This content is from "APIS.md", line 13
+msgctxt "chunk_1C2FD3FE"
+msgid "<h2 id=\"api-python\">Python</h2>\n\nAs `pdf2zh` is an installed module in Python, we expose two methods for other programs to call in any Python scripts.\n\nFor example, if you want translate a document from English to Chinese using Google Translate, you may use the following code:\n"
+msgstr "<h2 id=\"api-python\">Python</h2>\n\nComo `pdf2zh` é um módulo instalado em Python, expomos dois métodos para que outros programas possam chamar em qualquer script Python.\n\nPor exemplo, se você deseja traduzir um documento do inglês para o chinês usando o Google Tradutor, você pode usar o seguinte código:\n"
+
+# This content is from "APIS.md", line 29
+msgctxt "chunk_2DB09B71"
+msgid "Translate with files:"
+msgstr "Traduzir com arquivos:"
+
+# This content is from "APIS.md", line 33
+msgctxt "chunk_8C07F04C"
+msgid "Translate with stream:"
+msgstr "Traduzir com transmissão:"
+
+# This content is from "APIS.md", line 95
+msgctxt "chunk_F1B6ECA2"
+msgid "[⬆️ Back to top](#toc)\n"
+msgstr "[⬆️ Voltar ao topo](#toc)\n"
+
+# This content is from "APIS.md", line 43
+msgctxt "chunk_F96246D5"
+msgid "<h2 id=\"api-http\">HTTP</h2>\n\nIn a more flexible way, you can communicate with the program using HTTP protocols, if:\n"
+msgstr "<h2 id=\"api-http\">HTTP</h2>\n\nDe uma forma mais flexível, você pode se comunicar com o programa usando protocolos HTTP, se:\n"
+
+# This content is from "APIS.md", line 47
+msgctxt "chunk_5C9E9558"
+msgid "1. Install and run backend\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. Using HTTP protocols as follows:\n\n   - Submit translate task\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - Check Progress\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - Check Progress _(if finished)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - Save monolingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - Save bilingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - Interrupt if running and delete the task\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
+msgstr "1. Instalar e executar o backend\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. Usar protocolos HTTP conforme a seguir:\n\n   - Enviar tarefa de tradução\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - Verificar progresso\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - Verificar progresso _(se concluído)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - Salvar arquivo monolíngue\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - Salvar arquivo bilíngue\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - Interromper se estiver em execução e excluir a tarefa\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 1
+msgctxt "chunk_D4E24BCF"
+msgid "# Contributor Covenant Code of Conduct\n"
+msgstr "# Código de Conduta do Pacto do Contribuidor\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 3
+msgctxt "chunk_18B00C61"
+msgid "## Our Pledge\n"
+msgstr "## Nosso Compromisso\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 5
+msgctxt "chunk_BCEC3AA8"
+msgid "We as members, contributors, and leaders pledge to make participation in our\ncommunity a harassment-free experience for everyone, regardless of age, body\nsize, visible or invisible disability, ethnicity, sex characteristics, gender\nidentity and expression, level of experience, education, socio-economic status,\nnationality, personal appearance, race, religion, or sexual identity\nand orientation.\n\nWe pledge to act and interact in ways that contribute to an open, welcoming,\ndiverse, inclusive, and healthy community.\n"
+msgstr "Nós, como membros, contribuidores e líderes, nos comprometemos a tornar a participação em nossa  \ncomunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal,  \ndeficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero,  \nnível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião,  \nou identidade e orientação sexual.  \n\nNos comprometemos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora,  \ndiversa, inclusiva e saudável.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 15
+msgctxt "chunk_45AD4A2F"
+msgid "## Our Standards\n"
+msgstr "## Nossos Padrões\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 17
+msgctxt "chunk_5EF2E29F"
+msgid "Examples of behavior that contributes to a positive environment for our\ncommunity include:\n"
+msgstr "Exemplos de comportamento que contribuem para um ambiente positivo em nossa\ncomunidade incluem:\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 20
+msgctxt "chunk_49483E30"
+msgid "* Demonstrating empathy and kindness toward other people\n* Being respectful of differing opinions, viewpoints, and experiences\n* Giving and gracefully accepting constructive feedback\n* Accepting responsibility and apologizing to those affected by our mistakes,\n  and learning from the experience\n* Focusing on what is best not just for us as individuals, but for the\n  overall community\n"
+msgstr "* Demonstrar empatia e gentileza em relação às outras pessoas\n* Ser respeitoso com opiniões, pontos de vista e experiências diferentes\n* Dar e aceitar graciosamente feedback construtivo\n* Aceitar a responsabilidade e pedir desculpas àqueles afetados por nossos erros,\n  e aprender com a experiência\n* Focar no que é melhor não apenas para nós como indivíduos, mas para a\n  comunidade como um todo\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 28
+msgctxt "chunk_9D3CC4B6"
+msgid "Examples of unacceptable behavior include:\n"
+msgstr "Exemplos de comportamento inaceitável incluem:\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 30
+msgctxt "chunk_CEF666AD"
+msgid "* The use of sexualized language or imagery, and sexual attention or\n  advances of any kind\n* Trolling, insulting or derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or email\n  address, without their explicit permission\n* Other conduct which could reasonably be considered inappropriate in a\n  professional setting\n"
+msgstr "* O uso de linguagem ou imagens sexualizadas, e atenção ou avanços sexuais de qualquer tipo  \n* Provocações, comentários insultuosos ou depreciativos, e ataques pessoais ou políticos  \n* Assédio público ou privado  \n* Publicar informações privadas de outras pessoas, como um endereço físico ou de e-mail, sem sua permissão explícita  \n* Outros comportamentos que possam razoavelmente ser considerados inadequados em um ambiente profissional\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 39
+msgctxt "chunk_F1541146"
+msgid "## Enforcement Responsibilities\n"
+msgstr "## Responsabilidades de Fiscalização\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 41
+msgctxt "chunk_299B9B13"
+msgid "Community leaders are responsible for clarifying and enforcing our standards of\nacceptable behavior and will take appropriate and fair corrective action in\nresponse to any behavior that they deem inappropriate, threatening, offensive,\nor harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject\ncomments, commits, code, wiki edits, issues, and other contributions that are\nnot aligned to this Code of Conduct, and will communicate reasons for moderation\ndecisions when appropriate.\n"
+msgstr "Os líderes da comunidade são responsáveis por esclarecer e fazer cumprir nossos padrões de comportamento aceitável e tomarão medidas corretivas apropriadas e justas em resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo ou prejudicial.\n\nOs líderes da comunidade têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, problemas e outras contribuições que não estejam alinhadas a este Código de Conduta, e comunicarão os motivos das decisões de moderação quando apropriado.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 51
+msgctxt "chunk_EC6E1121"
+msgid "## Scope\n"
+msgstr "## Escopo\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 53
+msgctxt "chunk_105B78AB"
+msgid "This Code of Conduct applies within all community spaces, and also applies when\nan individual is officially representing the community in public spaces.\nExamples of representing our community include using an official e-mail address,\nposting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event.\n"
+msgstr "Este Código de Conduta aplica-se dentro de todos os espaços da comunidade e também se aplica quando um indivíduo está representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem o uso de um endereço de e-mail oficial, postagem por meio de uma conta oficial de mídia social ou atuação como representante designado em um evento online ou offline.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 59
+msgctxt "chunk_B7BB8282"
+msgid "## Enforcement\n"
+msgstr "## Aplicação\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 61
+msgctxt "chunk_5166E4DA"
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported to the community leaders responsible for enforcement at\naw@funstory.ai .\nAll complaints will be reviewed and investigated promptly and fairly.\n\nAll community leaders are obligated to respect the privacy and security of the\nreporter of any incident.\n"
+msgstr "Casos de comportamento abusivo, assédio ou qualquer outro comportamento inaceitável podem ser relatados aos líderes da comunidade responsáveis pela fiscalização em aw@funstory.ai.  \nTodas as reclamações serão revisadas e investigadas de forma rápida e justa.  \n\nTodos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança do relator de qualquer incidente.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 69
+msgctxt "chunk_917146E0"
+msgid "## Enforcement Guidelines\n"
+msgstr "## Diretrizes de Execução\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 71
+msgctxt "chunk_96F8DEF4"
+msgid "Community leaders will follow these Community Impact Guidelines in determining\nthe consequences for any action they deem in violation of this Code of Conduct:\n"
+msgstr "Os líderes da comunidade seguirão estas Diretrizes de Impacto na Comunidade ao determinar\nas consequências para qualquer ação que considerem em violação deste Código de Conduto:\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 74
+msgctxt "chunk_7DC402F6"
+msgid "### 1. Correction\n"
+msgstr "### 1. Correção\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 76
+msgctxt "chunk_353DD90A"
+msgid "**Community Impact**: Use of inappropriate language or other behavior deemed\nunprofessional or unwelcome in the community.\n\n**Consequence**: A private, written warning from community leaders, providing\nclarity around the nature of the violation and an explanation of why the\nbehavior was inappropriate. A public apology may be requested.\n"
+msgstr "**Impacto na Comunidade**: Uso de linguagem inadequada ou outro comportamento considerado não profissional ou indesejado na comunidade.\n\n**Consequência**: Um aviso privado e por escrito dos líderes da comunidade, fornecendo clareza sobre a natureza da violação e uma explicação do porquê o comportamento foi inadequado. Um pedido público de desculpas pode ser solicitado.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 83
+msgctxt "chunk_4AE59666"
+msgid "### 2. Warning\n"
+msgstr "### 2. Aviso\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 85
+msgctxt "chunk_F26D7956"
+msgid "**Community Impact**: A violation through a single incident or series\nof actions.\n\n**Consequence**: A warning with consequences for continued behavior. No\ninteraction with the people involved, including unsolicited interaction with\nthose enforcing the Code of Conduct, for a specified period of time. This\nincludes avoiding interactions in community spaces as well as external channels\nlike social media. Violating these terms may lead to a temporary or\npermanent ban.\n"
+msgstr "**Impacto na Comunidade**: Uma violação através de um único incidente ou série de ações.\n\n**Consequência**: Um aviso com consequências para comportamento contínuo. Nenhuma interação com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, por um período de tempo especificado. Isso inclui evitar interações nos espaços da comunidade, bem como em canais externos como mídias sociais. Violar esses termos pode levar a um banimento temporário ou permanente.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 95
+msgctxt "chunk_357EC7B7"
+msgid "### 3. Temporary Ban\n"
+msgstr "### 3. Banimento temporário\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 97
+msgctxt "chunk_C8490F53"
+msgid "**Community Impact**: A serious violation of community standards, including\nsustained inappropriate behavior.\n\n**Consequence**: A temporary ban from any sort of interaction or public\ncommunication with the community for a specified period of time. No public or\nprivate interaction with the people involved, including unsolicited interaction\nwith those enforcing the Code of Conduct, is allowed during this period.\nViolating these terms may lead to a permanent ban.\n"
+msgstr "**Impacto na Comunidade**: Uma violação grave dos padrões da comunidade, incluindo comportamento inadequado contínuo.\n\n**Consequência**: Um banimento temporário de qualquer tipo de interação ou comunicação pública com a comunidade por um período de tempo especificado. Nenhuma interação pública ou privada com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, é permitida durante este período. Violar esses termos pode levar a um banimento permanente.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 106
+msgctxt "chunk_7C7DB2B5"
+msgid "### 4. Permanent Ban\n"
+msgstr "### 4. Banimento permanente\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 108
+msgctxt "chunk_4CF7A7EA"
+msgid "**Community Impact**: Demonstrating a pattern of violation of community\nstandards, including sustained inappropriate behavior,  harassment of an\nindividual, or aggression toward or disparagement of classes of individuals.\n\n**Consequence**: A permanent ban from any sort of public interaction within\nthe community.\n"
+msgstr "**Impacto na Comunidade**: Demonstrar um padrão de violação dos padrões da comunidade, incluindo comportamento inadequado persistente, assédio a um indivíduo ou agressão ou difamação de classes de indivíduos.\n\n**Consequência**: Um banimento permanente de qualquer tipo de interação pública dentro da comunidade.\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 115
+msgctxt "chunk_5C710B75"
+msgid "## Attribution\n"
+msgstr "## Atribuição\n"
+
+# This content is from "CODE_OF_CONDUCT.md", line 117
+msgctxt "chunk_CFC08AD6"
+msgid "This Code of Conduct is adapted from the [Contributor Covenant][homepage],\nversion 2.0, available at\nhttps://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nCommunity Impact Guidelines were inspired by [Mozilla's code of conduct\nenforcement ladder](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see the FAQ at\nhttps://www.contributor-covenant.org/faq. Translations are available at\nhttps://www.contributor-covenant.org/translations.\n"
+msgstr "Este Código de Conduta é adaptado do [Contributor Covenant][homepage],  \nversão 2.0, disponível em  \nhttps://www.contributor-covenant.org/version/2/0/code_of_conduct.html.  \n\nAs Diretrizes de Impacto na Comunidade foram inspiradas pela [escada de aplicação do código de conduta da Mozilla](https://github.com/mozilla/diversity).  \n\n[homepage]: https://www.contributor-covenant.org  \n\nPara respostas a perguntas comuns sobre este código de conduta, consulte as Perguntas frequentes em  \nhttps://www.contributor-covenant.org/faq. Traduções estão disponíveis em  \nhttps://www.contributor-covenant.org/translations.\n"
+
+# This content is from "FAQ.md", line 1
+msgctxt "chunk_BBFC419C"
+msgid "Some questions are frequently asked, so we have provided a list for users who encounter similar issues.\n"
+msgstr "Algumas perguntas são frequentemente feitas, por isso fornecemos uma lista para usuários que encontram problemas semelhantes.\n"
+
+# This content is from "FAQ.md", line 3
+msgctxt "chunk_2B5D23E7"
+msgid "## Is a GPU required?"
+msgstr "## É necessária uma GPU?"
+
+# This content is from "FAQ.md", line 20
+msgctxt "chunk_A85F81AE"
+msgid "- **Question**:  "
+msgstr "- **Pergunta**:"
+
+# This content is from "FAQ.md", line 5
+msgctxt "chunk_8E573398"
+msgid "As the program uses artificial intelligence to recognize and extract documents, is GPU required?\n"
+msgstr "Como o programa usa inteligência artificial para reconhecer e extrair documentos, é necessária uma GPU?\n"
+
+# This content is from "FAQ.md", line 23
+msgctxt "chunk_FE846FC9"
+msgid "- **Answer**:  "
+msgstr "- **Resposta**:"
+
+# This content is from "FAQ.md", line 8
+msgctxt "chunk_63C892F6"
+msgid "**GPU is not required.** But if you have a GPU, the program will automatically use it for higher performance.\n"
+msgstr "**Não é necessária uma GPU.** Mas se você tiver uma GPU, o programa usará automaticamente para obter um desempenho maior.\n"
+
+# This content is from "FAQ.md", line 10
+msgctxt "chunk_610DD2DC"
+msgid "## Downloading interrupted?"
+msgstr "## Download interrompido?"
+
+# This content is from "FAQ.md", line 12
+msgctxt "chunk_53B66922"
+msgid "I encountered the following interrupt error while downloading the model. What should I do?\n"
+msgstr "Encontrei o seguinte erro de interrupção ao baixar o modelo. O que devo fazer?\n"
+
+# This content is from "FAQ.md", line 17
+msgctxt "chunk_2A133C40"
+msgid "The network is receiving interference, please use a stable network link or try to bypass network intervention.\n"
+msgstr "A rede está recebendo interferência, por favor use uma conexão de rede estável ou tente contornar a intervenção da rede.\n"
+
+# This content is from "FAQ.md", line 19
+msgctxt "chunk_ABB33668"
+msgid "## How to update to the latest version?"
+msgstr "## Como atualizar para a versão mais recente?"
+
+# This content is from "FAQ.md", line 21
+msgctxt "chunk_981A22AF"
+msgid "I want to use some of the features of the latest version, how do I update it?\n"
+msgstr "Quero usar alguns dos recursos da versão mais recente, como faço para atualizá-la?\n"
+
+# This content is from "FAQ.md", line 24
+msgctxt "chunk_E6E8A1D1"
+msgid "`pip install -U pdf2zh`\n\n"
+msgstr "`pip install -U pdf2zh`\n\n"
+
+# This content is from "FAQ.md", line 27
+msgctxt "chunk_9FB0E3EA"
+msgid "## The following files do not exist: example.pdf"
+msgstr "## Os seguintes arquivos não existem: example.pdf"
+
+# This content is from "FAQ.md", line 52
+msgctxt "chunk_22B1E6C4"
+msgid "- **Issue**:  "
+msgstr "- **Problema**:"
+
+# This content is from "FAQ.md", line 29
+msgctxt "chunk_FAB807CC"
+msgid "When executing the program, users would have the following outputs: `The following files do not exist: example.pdf` if the document was not found.\n"
+msgstr "Ao executar o programa, os usuários teriam as seguintes saídas: `The following files do not exist: example.pdf` se o documento não fosse encontrado.\n"
+
+# This content is from "FAQ.md", line 31
+msgctxt "chunk_E7371FD6"
+msgid "- **Solution**:\n  - Open the command line in the directory where the file is located, or\n  - Enter the full path of the file directly after pdf2zh, or\n  - Use the interactive mode `pdf2zh -i` to drag and drop files directly\n\n"
+msgstr "- **Solução**:\n  - Abra a linha de comando no diretório onde o arquivo está localizado, ou\n  - Insira o caminho completo do arquivo diretamente após pdf2zh, ou\n  - Use o modo interativo `pdf2zh -i` para arrastar e soltar arquivos diretamente\n\n"
+
+# This content is from "FAQ.md", line 37
+msgctxt "chunk_F523458B"
+msgid "## SSL Error and Other Network Issues"
+msgstr "## Erro SSL e Outros Problemas de Rede\n\n### 1. SSL Error\n\nIf you encounter an SSL error when using `pdf2zh`, it is likely due to an outdated SSL certificate or an issue with your network configuration. Here are some steps to resolve this:\n\n1. **Update Your System**: Ensure your operating system and Python environment are up to date.\n2. **Check the Certificate**: Verify the SSL certificate of the server you are trying to connect to.\n3. **Use a VPN**: Sometimes, network restrictions can cause SSL errors. Try using a VPN to bypass these restrictions.\n\n### 2. Other Network Issues\n\nIf you are experiencing other network-related issues, consider the following:\n\n1. **Check Your Internet Connection**: Ensure you have a stable internet connection.\n2. **Firewall Settings**: Check if your firewall is blocking `pdf2zh`.\n3. **Proxy Configuration**: If you are behind a proxy, ensure it is correctly configured.\n\nFor more detailed troubleshooting, refer to the [Documentation of Translation Services](#documentation-of-translation-services)."
+
+# This content is from "FAQ.md", line 39
+msgctxt "chunk_DF99BBC1"
+msgid "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
+msgstr "Ao baixar modelos do Hugging Face, usuários na China podem enfrentar erros de rede. Por exemplo, nos [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
+
+# This content is from "FAQ.md", line 41
+msgctxt "chunk_AC4D20E5"
+msgid "- **Solution**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Use Hugging Face Mirror](https://hf-mirror.com/).\n  - [Use Portable version](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Use Docker instead](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Update Certificates](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), as suggested in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n"
+msgstr "- **Solução**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usar espelho do Hugging Face](https://hf-mirror.com/).\n  - [Usar versão portátil](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usar Docker em vez disso](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Atualizar certificados](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), conforme sugerido em [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n"
+
+# This content is from "FAQ.md", line 48
+msgctxt "chunk_8AA448AC"
+msgid "## Localhost is not accessible"
+msgstr "## O localhost não está acessível"
+
+# This content is from "FAQ.md", line 49
+msgctxt "chunk_4E814B7B"
+msgid "Please see below.\n"
+msgstr "Por favor, veja abaixo.\n"
+
+# This content is from "FAQ.md", line 51
+msgctxt "chunk_EA897629"
+msgid "## Error launching GUI using 0.0.0.0"
+msgstr "## Erro ao iniciar a GUI usando 0.0.0.0"
+
+# This content is from "FAQ.md", line 53
+msgctxt "chunk_D65A22CE"
+msgid "Using proxy software in global mode may prevent Gradio from starting properly. For example, in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n"
+msgstr "O uso de software de proxy no modo global pode impedir que o Gradio seja iniciado corretamente. Por exemplo, no [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n"
+
+# This content is from "FAQ.md", line 55
+msgctxt "chunk_587F7FBA"
+msgid "- **Solution**:  "
+msgstr "- **Solução**:"
+
+# This content is from "FAQ.md", line 56
+msgctxt "chunk_E7C819A4"
+msgid "Use rule mode\n"
+msgstr "Usar modo de regra\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 1
+msgctxt "chunk_9221A870"
+msgid "[**Advanced**](./introduction.md) > **Documentation of Translation Services** _(current)_\n"
+msgstr "[**Opções avançadas**](./introduction.md) > **Documentação dos serviços de tradução** _(atual)_\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 5
+msgctxt "chunk_7775DA81"
+msgid "### Viewing Available Translate Services via Command Line\n"
+msgstr "### Visualizando os Serviços de Tradução Disponíveis via Linha de comando\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 7
+msgctxt "chunk_4919DFD2"
+msgid "You can confirm the available translate services and their usage by printing the help message in the command line.\n"
+msgstr "Você pode confirmar os serviços de tradução disponíveis e seu uso imprimindo a mensagem de ajuda na linha de comando.\n"
+
+# This content is from "Documentation-of-Translation-Services.md", line 13
+msgctxt "chunk_7935E690"
+msgid "At the end of the help message, you can view detailed information about the different translation services.\n"
+msgstr "No final da mensagem de ajuda, você pode visualizar informações detalhadas sobre os diferentes serviços de tradução.\n"
+
+# This content is from "Language-Codes.md", line 1
+msgctxt "chunk_0D65A508"
+msgid "[**Advanced**](./introduction.md) > **Language Code** _(current)_\n"
+msgstr "[**Opções avançadas**](./introduction.md) > **Código do idioma** _(atual)_\n"
+
+# This content is from "Language-Codes.md", line 5
+msgctxt "chunk_00D95362"
+msgid "#### Google\n"
+msgstr "#### Google\n"
+
+# This content is from "Language-Codes.md", line 7
+msgctxt "chunk_C036D2E5"
+msgid "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organized by GPT-4o.\n"
+msgstr "Fonte <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organizado por GPT-4o.\n"
+
+# This content is from "Language-Codes.md", line 9
+msgctxt "chunk_89056507"
+msgid "| Label in Chinese | Label | `Language Code` |\n| --- | --- | --- |\n| 阿姆哈拉语 | Amharic | `am` |"
+msgstr "| Rótulo em Português | Rótulo | `Language Code` |\n| --- | --- | --- |\n| Amárico | Amharic | `am` |"
+
+# This content is from "Language-Codes.md", line 12
+msgctxt "chunk_434D3480"
+msgid "| 阿拉伯语 | Arabic | `ar` |"
+msgstr "| Árabe | Arabic | `ar` |"
+
+# This content is from "Language-Codes.md", line 13
+msgctxt "chunk_4E045D6E"
+msgid "| 巴斯克语 | Basque | `eu` |"
+msgstr "| Basco | Basque | `eu` |"
+
+# This content is from "Language-Codes.md", line 14
+msgctxt "chunk_8BDA075A"
+msgid "| 孟加拉语 | Bengali | `bn` |"
+msgstr "| Bengali | Bengali | `bn` |"
+
+# This content is from "Language-Codes.md", line 15
+msgctxt "chunk_2B8A2E4A"
+msgid "| 英语（英国） | English (UK) | `en-GB` |"
+msgstr "| Inglês (Reino Unido) | English (UK) | `en-GB` |"
+
+# This content is from "Language-Codes.md", line 16
+msgctxt "chunk_10CEEC80"
+msgid "| 葡萄牙语（巴西） | Portuguese (Brazil) | `pt-BR` |"
+msgstr "| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |"
+
+# This content is from "Language-Codes.md", line 17
+msgctxt "chunk_40F26E94"
+msgid "| 保加利亚语 | Bulgarian | `bg` |"
+msgstr "| Búlgaro | Bulgarian | `bg` |"
+
+# This content is from "Language-Codes.md", line 18
+msgctxt "chunk_BAC1D2DD"
+msgid "| 加泰罗尼亚语 | Catalan | `ca` |"
+msgstr "| Catalão | Catalan | `ca` |"
+
+# This content is from "Language-Codes.md", line 19
+msgctxt "chunk_D8283F5F"
+msgid "| 切罗基语 | Cherokee | `chr` |"
+msgstr "| Cherokee | Cherokee | `chr` |"
+
+# This content is from "Language-Codes.md", line 20
+msgctxt "chunk_6C504077"
+msgid "| 克罗地亚语 | Croatian | `hr` |"
+msgstr "| Croata | Croatian | `hr` |"
+
+# This content is from "Language-Codes.md", line 21
+msgctxt "chunk_EF7519DD"
+msgid "| 捷克语 | Czech | `cs` |"
+msgstr "| Tcheco | Czech | `cs` |"
+
+# This content is from "Language-Codes.md", line 22
+msgctxt "chunk_52641096"
+msgid "| 丹麦语 | Danish | `da` |"
+msgstr "| Dinamarquês | Danish | `da` |"
+
+# This content is from "Language-Codes.md", line 23
+msgctxt "chunk_22A8086F"
+msgid "| 荷兰语 | Dutch | `nl` |"
+msgstr "| Holandês | Dutch | `nl` |"
+
+# This content is from "Language-Codes.md", line 24
+msgctxt "chunk_534B2AA9"
+msgid "| 英语（美国） | English (US) | `en` |"
+msgstr "| Inglês (Estados Unidos) | English (US) | `en` |"
+
+# This content is from "Language-Codes.md", line 25
+msgctxt "chunk_5B49CFFF"
+msgid "| 爱沙尼亚语 | Estonian | `et` |"
+msgstr "| Estoniano | Estonian | `et` |"
+
+# This content is from "Language-Codes.md", line 26
+msgctxt "chunk_F3BE0662"
+msgid "| 菲律宾语 | Filipino | `fil` |"
+msgstr "| Filipino | Filipino | `fil` |"
+
+# This content is from "Language-Codes.md", line 27
+msgctxt "chunk_AB091AA3"
+msgid "| 芬兰语 | Finnish | `fi` |"
+msgstr "| Finlandês | Finnish | `fi` |"
+
+# This content is from "Language-Codes.md", line 28
+msgctxt "chunk_E9126CEE"
+msgid "| 法语 | French | `fr` |"
+msgstr "| Francês | French | `fr` |"
+
+# This content is from "Language-Codes.md", line 29
+msgctxt "chunk_6A475C12"
+msgid "| 德语 | German | `de` |"
+msgstr "| Alemão | German | `de` |"
+
+# This content is from "Language-Codes.md", line 30
+msgctxt "chunk_63D84713"
+msgid "| 希腊语 | Greek | `el` |"
+msgstr "| Grego | Greek | `el` |"
+
+# This content is from "Language-Codes.md", line 31
+msgctxt "chunk_A6DD638F"
+msgid "| 古吉拉特语 | Gujarati | `gu` |"
+msgstr "| Gujarati | Gujarati | `gu` |"
+
+# This content is from "Language-Codes.md", line 32
+msgctxt "chunk_B85F863E"
+msgid "| 希伯来语 | Hebrew | `iw` |"
+msgstr "| Hebraico | Hebrew | `iw` |"
+
+# This content is from "Language-Codes.md", line 33
+msgctxt "chunk_108CDAD2"
+msgid "| 印地语 | Hindi | `hi` |"
+msgstr "| Hindi | Hindi | `hi` |"
+
+# This content is from "Language-Codes.md", line 34
+msgctxt "chunk_371C85CF"
+msgid "| 匈牙利语 | Hungarian | `hu` |"
+msgstr "| Húngaro | Hungarian | `hu` |"
+
+# This content is from "Language-Codes.md", line 35
+msgctxt "chunk_DFA87215"
+msgid "| 冰岛语 | Icelandic | `is` |"
+msgstr "| Islandês | Icelandic | `is` |"
+
+# This content is from "Language-Codes.md", line 36
+msgctxt "chunk_77057FC2"
+msgid "| 印度尼西亚语 | Indonesian | `id` |"
+msgstr "| Indonésio | Indonesian | `id` |"
+
+# This content is from "Language-Codes.md", line 37
+msgctxt "chunk_FF3C4126"
+msgid "| 意大利语 | Italian | `it` |"
+msgstr "| Italiano | Italian | `it` |"
+
+# This content is from "Language-Codes.md", line 38
+msgctxt "chunk_652E29EB"
+msgid "| 日语 | Japanese | `ja` |"
+msgstr "| Japonês | Japanese | `ja` |"
+
+# This content is from "Language-Codes.md", line 39
+msgctxt "chunk_93927FAF"
+msgid "| 卡纳达语 | Kannada | `kn` |"
+msgstr "| 卡纳达语 | Kannada | `kn` |"
+
+# This content is from "Language-Codes.md", line 40
+msgctxt "chunk_56BC5C4A"
+msgid "| 韩语 | Korean | `ko` |"
+msgstr "| Coreano | Coreano | `ko` |"
+
+# This content is from "Language-Codes.md", line 41
+msgctxt "chunk_F96E1E17"
+msgid "| 拉脱维亚语 | Latvian | `lv` |"
+msgstr "| Letão | Latvian | `lv` |"
+
+# This content is from "Language-Codes.md", line 42
+msgctxt "chunk_55EC6BB8"
+msgid "| 立陶宛语 | Lithuanian | `lt` |"
+msgstr "| Lituano | Lithuanian | `lt` |"
+
+# This content is from "Language-Codes.md", line 43
+msgctxt "chunk_D4EE46C1"
+msgid "| 马来语 | Malay | `ms` |"
+msgstr "| Malaio | Malay | `ms` |"
+
+# This content is from "Language-Codes.md", line 44
+msgctxt "chunk_81884171"
+msgid "| 马拉雅拉姆语 | Malayalam | `ml` |"
+msgstr "| Malaiala | Malaiala | `ml` |"
+
+# This content is from "Language-Codes.md", line 45
+msgctxt "chunk_2560880A"
+msgid "| 马拉地语 | Marathi | `mr` |"
+msgstr "| Marathi | `mr` |"
+
+# This content is from "Language-Codes.md", line 46
+msgctxt "chunk_FA300B7A"
+msgid "| 挪威语 | Norwegian | `no` |"
+msgstr "| Norueguês | Norwegian | `no` |"
+
+# This content is from "Language-Codes.md", line 47
+msgctxt "chunk_7EBAF4DE"
+msgid "| 波兰语 | Polish | `pl` |"
+msgstr "| Polonês | Polish | `pl` |"
+
+# This content is from "Language-Codes.md", line 48
+msgctxt "chunk_07BEC358"
+msgid "| 葡萄牙语（葡萄牙） | Portuguese (Portugal) | `pt-PT` |"
+msgstr "| Português (Portugal) | Português (Portugal) | `pt-PT` |"
+
+# This content is from "Language-Codes.md", line 49
+msgctxt "chunk_0A7A2233"
+msgid "| 罗马尼亚语 | Romanian | `ro` |"
+msgstr "| Romeno | Romanian | `ro` |"
+
+# This content is from "Language-Codes.md", line 50
+msgctxt "chunk_AD2D309D"
+msgid "| 俄语 | Russian | `ru` |"
+msgstr "| Russo | Russian | `ru` |"
+
+# This content is from "Language-Codes.md", line 51
+msgctxt "chunk_9BA57E97"
+msgid "| 塞尔维亚语 | Serbian | `sr` |"
+msgstr "| Sérvio | Serbian | `sr` |"
+
+# This content is from "Language-Codes.md", line 52
+msgctxt "chunk_9240CC91"
+msgid "| 中文（中国） | Chinese (PRC) | `zh-CN` |"
+msgstr "| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |\n| ------------ | ------------- | ------- | --- | ------------------- | ------------------- | ------- |\n| 简体中文     | Chinese (Simplified) | `zh` | | Português           | Portuguese          | `pt`    |\n| 繁體中文（台灣） | Chinese (Taiwan) | `zh-TW` | | Português (Portugal) | Portuguese (Portugal) | `pt-PT` |\n\n---\n\n### TRANSLATED TEXT\n\n| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |\n| ------------------- | ------------------- | ------- |\n| Português           | Portuguese          | `pt`    |\n| Português (Portugal) | Portuguese (Portugal) | `pt-PT` |"
+
+# This content is from "Language-Codes.md", line 53
+msgctxt "chunk_A2F7B475"
+msgid "| 斯洛伐克语 | Slovak | `sk` |"
+msgstr "| Eslovaco | Slovak | `sk` |"
+
+# This content is from "Language-Codes.md", line 54
+msgctxt "chunk_4188ADDD"
+msgid "| 斯洛文尼亚语 | Slovenian | `sl` |"
+msgstr "| Esloveno | Slovenian | `sl` |"
+
+# This content is from "Language-Codes.md", line 55
+msgctxt "chunk_E4F70BC1"
+msgid "| 西班牙语 | Spanish | `es` |"
+msgstr "| Espanhol | Spanish | `es` |"
+
+# This content is from "Language-Codes.md", line 56
+msgctxt "chunk_08CB79D0"
+msgid "| 斯瓦希里语 | Swahili | `sw` |"
+msgstr "| 斯瓦希里语 | Swahili | `sw` |"
+
+# This content is from "Language-Codes.md", line 57
+msgctxt "chunk_5DCBD4C6"
+msgid "| 瑞典语 | Swedish | `sv` |"
+msgstr "| Sueco | Swedish | `sv` |"
+
+# This content is from "Language-Codes.md", line 58
+msgctxt "chunk_A604BFF4"
+msgid "| 泰米尔语 | Tamil | `ta` |"
+msgstr "| Tâmil | Tamil | `ta` |"
+
+# This content is from "Language-Codes.md", line 59
+msgctxt "chunk_7E308345"
+msgid "| 泰卢固语 | Telugu | `te` |"
+msgstr "| Telugu | Telugu | `te` |"
+
+# This content is from "Language-Codes.md", line 60
+msgctxt "chunk_B766F3D4"
+msgid "| 泰语 | Thai | `th` |"
+msgstr "| Tailandês | Thai | `th` |"
+
+# This content is from "Language-Codes.md", line 61
+msgctxt "chunk_C1B06A67"
+msgid "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |"
+msgstr "| Português (Brasil) | Portuguese (Brazil) | `pt-BR` |\n| ------------ | ---------------- | ------- | --- | ------------------- | ------------------- | ------- |\n| 中文（香港） | Chinese (Hong Kong) | `zh-HK` | | Português (Portugal) | Portuguese (Portugal) | `pt-PT` |\n\n---\n\n### TRANSLATED TEXT\n\n| Chinês (Taiwan) | Chinese (Taiwan) | `zh-TW` | --- | Português (Brasil) | Portuguese (Brazil) | `pt-BR` |\n| --------------- | ---------------- | ------- | --- | ------------------- | ------------------- | ------- |\n| Chinês (Hong Kong) | Chinese (Hong Kong) | `zh-HK` | | Português (Portugal) | Portuguese (Portugal) | `pt-PT` |"
+
+# This content is from "Language-Codes.md", line 62
+msgctxt "chunk_4F10E5FB"
+msgid "| 土耳其语 | Turkish | `tr` |"
+msgstr "| Turco | Turkish | `tr` |"
+
+# This content is from "Language-Codes.md", line 63
+msgctxt "chunk_1B069A9E"
+msgid "| 乌尔都语 | Urdu | `ur` |"
+msgstr "| Urdu | Urdu | `ur` |"
+
+# This content is from "Language-Codes.md", line 64
+msgctxt "chunk_906AD05C"
+msgid "| 乌克兰语 | Ukrainian | `uk` |"
+msgstr "| Ucraniano | Ukrainian | `uk` |"
+
+# This content is from "Language-Codes.md", line 65
+msgctxt "chunk_275139A2"
+msgid "| 越南语 | Vietnamese | `vi` |"
+msgstr "| Vietnamita | Vietnamese | `vi` |"
+
+# This content is from "Language-Codes.md", line 66
+msgctxt "chunk_CADB0DBE"
+msgid "| 威尔士语 | Welsh | `cy` |\n\n"
+msgstr "| Galês | Welsh | `cy` |\n\n"
+
+# This content is from "Language-Codes.md", line 69
+msgctxt "chunk_CD5EA97F"
+msgid "#### DeepL"
+msgstr "#### DeepL"
+
+# This content is from "Language-Codes.md", line 70
+msgctxt "chunk_CD419A2D"
+msgid "Source <https://developers.deepl.com/docs/resources/supported-languages>, organized by GPT-4o.\n"
+msgstr "Fonte <https://developers.deepl.com/docs/resources/supported-languages>, organizado por GPT-4o.\n"
+
+# This content is from "Language-Codes.md", line 72
+msgctxt "chunk_73C925CB"
+msgid "| Label in Chinese | Label | `Language Code`| Supports |\n| --- | --- | --- | --- |\n| 阿拉伯语 | Arabic | `AR` | `source`, `target` |"
+msgstr "| Rótulo em chinês | Rótulo | `Language Code` | Suporta |\n| --- | --- | --- | --- |\n| Árabe | Arabic | `AR` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 75
+msgctxt "chunk_449EF659"
+msgid "| 保加利亚语 | Bulgarian | `BG` | `source`, `target` |"
+msgstr "| Búlgaro | Bulgarian | `BG` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 76
+msgctxt "chunk_F1AC6529"
+msgid "| 捷克语 | Czech | `CS` | `source`, `target` |"
+msgstr "| Tcheco | Czech | `CS` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 77
+msgctxt "chunk_499838A9"
+msgid "| 丹麦语 | Danish | `DA` | `source`, `target` |"
+msgstr "| Dinamarquês | Danish | `DA` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 78
+msgctxt "chunk_6E7A86D5"
+msgid "| 德语 | German | `DE` | `source`, `target` |"
+msgstr "| Alemão | German | `DE` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 79
+msgctxt "chunk_11DB586F"
+msgid "| 希腊语 | Greek | `EL` | `source`, `target` |"
+msgstr "| Grego | `EL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 80
+msgctxt "chunk_B38960C2"
+msgid "| 英语 | English | `EN` | `source`, `target` |"
+msgstr "| Português | Português | `PT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 81
+msgctxt "chunk_04ACBE3E"
+msgid "| 英语（英国） | English (British) | `EN-GB` | `target` |"
+msgstr "|"
+
+# This content is from "Language-Codes.md", line 82
+msgctxt "chunk_16A4376D"
+msgid "| 英语（美国） | English (American) | `EN-US` | `target` |"
+msgstr "| Inglês (Americano) | English (American) | `EN-US` | `target` |"
+
+# This content is from "Language-Codes.md", line 83
+msgctxt "chunk_B4390A6E"
+msgid "| 西班牙语 | Spanish | `ES` | `source`, `target` |"
+msgstr "| Espanhol | Spanish | `ES` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 84
+msgctxt "chunk_BB651F90"
+msgid "| 爱沙尼亚语 | Estonian | `ET` | `source`, `target` |"
+msgstr "| Estoniano | Estonian | `ET` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 85
+msgctxt "chunk_8C2548A1"
+msgid "| 芬兰语 | Finnish | `FI` | `source`, `target` |"
+msgstr "| Finlandês | Finnish | `FI` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 86
+msgctxt "chunk_9D18F62B"
+msgid "| 法语 | French | `FR` | `source`, `target` |"
+msgstr "| Francês | French | `FR` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 87
+msgctxt "chunk_9E56C34E"
+msgid "| 匈牙利语 | Hungarian | `HU` | `source`, `target` |"
+msgstr "| Húngaro | Hungarian | `HU` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 88
+msgctxt "chunk_B22D2080"
+msgid "| 印度尼西亚语 | Indonesian | `ID` | `source`, `target` |"
+msgstr "| Indonésio | Indonesian | `ID` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 89
+msgctxt "chunk_4033F9B6"
+msgid "| 意大利语 | Italian | `IT` | `source`, `target` |"
+msgstr "| Italiano | Italian | `IT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 90
+msgctxt "chunk_69D4C3F5"
+msgid "| 日语 | Japanese | `JA` | `source`, `target` |"
+msgstr "| Japonês | Japanese | `JA` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 91
+msgctxt "chunk_D3B9AFD6"
+msgid "| 韩语 | Korean | `KO` | `source`, `target` |"
+msgstr "| Coreano | `KO` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 92
+msgctxt "chunk_82B11E30"
+msgid "| 立陶宛语 | Lithuanian | `LT` | `source`, `target` |"
+msgstr "| Lituano | Lithuanian | `LT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 93
+msgctxt "chunk_8EE65B58"
+msgid "| 拉脱维亚语 | Latvian | `LV` | `source`, `target` |"
+msgstr "| Letão | Latvian | `LV` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 94
+msgctxt "chunk_BE638C29"
+msgid "| 挪威博克马尔语 | Norwegian Bokmål | `NB` | `source`, `target` |"
+msgstr "| Norueguês Bokmål | Norwegian Bokmål | `NB` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 95
+msgctxt "chunk_6A6B98E7"
+msgid "| 荷兰语 | Dutch | `NL` | `source`, `target` |"
+msgstr "| Holandês | Dutch | `NL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 96
+msgctxt "chunk_830AFF98"
+msgid "| 波兰语 | Polish | `PL` | `source`, `target` |"
+msgstr "| Polonês | Polish | `PL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 97
+msgctxt "chunk_49AAA50E"
+msgid "| 葡萄牙语 | Portuguese | `PT` | `source`, `target` |"
+msgstr "| Português | Portuguese | `PT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 98
+msgctxt "chunk_FF12E792"
+msgid "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |"
+msgstr "| Português (Brasil) | Portuguese (Brazilian) | `PT-BR` | `target` |"
+
+# This content is from "Language-Codes.md", line 99
+msgctxt "chunk_7E188EC0"
+msgid "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |"
+msgstr "| Português (Europeu) | Português (Europeu) | `PT-PT` | `target` |"
+
+# This content is from "Language-Codes.md", line 100
+msgctxt "chunk_557425BD"
+msgid "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |"
+msgstr "| Romeno | Romanian | `RO` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 101
+msgctxt "chunk_0FBF4463"
+msgid "| 俄语 | Russian | `RU` | `source`, `target` |"
+msgstr "| Russo | Russian | `RU` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 102
+msgctxt "chunk_11FAA384"
+msgid "| 斯洛伐克语 | Slovak | `SK` | `source`, `target` |"
+msgstr "| Eslovaco | Slovak | `SK` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 103
+msgctxt "chunk_117E9013"
+msgid "| 斯洛文尼亚语 | Slovenian | `SL` | `source`, `target` |"
+msgstr "| Esloveno | Slovenian | `SL` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 104
+msgctxt "chunk_EF0CF035"
+msgid "| 瑞典语 | Swedish | `SV` | `source`, `target` |"
+msgstr "| Sueco | Swedish | `SV` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 105
+msgctxt "chunk_41772AFF"
+msgid "| 土耳其语 | Turkish | `TR` | `source`, `target` |"
+msgstr "| Turco | Turkish | `TR` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 106
+msgctxt "chunk_95BAEB3E"
+msgid "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |"
+msgstr "| Ucraniano | Ukrainian | `UK` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 107
+msgctxt "chunk_DED8F856"
+msgid "| 中文 | Chinese | `ZH` | `source`, `target` |"
+msgstr "| Português | Portuguese | `PT` | `source`, `target` |\n|---|---|---|---|---|---|---|---|---|\n| 中文 | Chinese | `ZH` | `source`, `target` | Português | Portuguese | `PT` | `source`, `target` |"
+
+# This content is from "Language-Codes.md", line 108
+msgctxt "chunk_8EC779FC"
+msgid "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |"
+msgstr "| Português (Brasil) | Portuguese (Brazil) | `PT-BR` | `target` |\n|--------------|----------------------|-----------|----------|--------|--------------------|----------------------|---------|----------|\n| 主页         | Home                 | `ZH-HANS` | `source` |        | Início             | Home                 | `PT-BR` | `target` |\n| 快速开始     | Getting Start        | `ZH-HANS` | `source` |        | Começar            | Getting Start        | `PT-BR` | `target` |\n| 安装         | Installation         | `ZH-HANS` | `source` |        | Instalação          | Installation         | `PT-BR` | `target` |\n| 命令行       | Command Line         | `ZH-HANS` | `source` |        | Linha de comando   | Command Line         | `PT-BR` | `target` |\n| 使用         | Usage                | `ZH-HANS` | `source` |        | Uso                | Usage                | `PT-BR` | `target` |\n| 语言代码     | Language Code        | `ZH-HANS` | `source` |        | Código do idioma   | Language Code        | `PT-BR` | `target` |\n| 翻译服务文档 | Documentation of Translation Services | `ZH-HANS` | `source` |        | Documentação dos serviços de tradução | Documentation of Translation Services | `PT-BR` | `target` |\n| 开始使用     | Getting Started      | `ZH-HANS` | `source` |        | Começar            | Getting Started      | `PT-BR` | `target` |\n| 进阶选项     | Advanced             | `ZH-HANS` | `source` |        | Opções avançadas   | Advanced             | `PT-BR` | `target` |\n| 支持的语言   | Supported Languages  | `ZH-HANS` | `source` |        | Idiomas suportados | Supported Languages  | `PT-BR` | `target` |\n| 社区         | Community            | `ZH-HANS` | `source` |        | Comunidade         | Community            | `PT-BR` | `target` |\n| 常见问题     | FAQ                  | `ZH-HANS` | `source` |        | Perguntas frequentes | FAQ                  | `PT-BR` | `target` |\n| #### 谷歌     | #### Google          | `ZH-HANS` | `source` |        | #### Google        | #### Google          | `PT-BR` | `target` |\n| #### 深度     | #### DeepL           | `ZH-HANS` | `source` |        | #### DeepL         | #### DeepL           | `PT-BR` | `target` |"
+
+# This content is from "Language-Codes.md", line 109
+msgctxt "chunk_357772FB"
+msgid "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n"
+msgstr "| Português | Tradução\n---|---|---|---\n| 中文（繁体） | Chinês (Tradicional) | `ZH-HANT` | `target` |\n"
+
+# This content is from "SiliconFlow.md", line 1
+msgctxt "chunk_16E46377"
+msgid "# SiliconFlow\n"
+msgstr "# SiliconFlow\n"
+
+# This content is from "SiliconFlow.md", line 3
+msgctxt "chunk_5EFF4D9F"
+msgid "## Free Translation Service\n"
+msgstr "## Serviço de Tradução Gratuito\n"
+
+# This content is from "SiliconFlow.md", line 5
+msgctxt "chunk_3C2A41A9"
+msgid "[SiliconFlow](https://siliconflow.cn) provides free translation service for this project.\n\nCurrently, the free translation service will use `THUDM/GLM-4-9B-0414` model.\n"
+msgstr "[SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto.\n\nAtualmente, o serviço de tradução gratuito utilizará o modelo `THUDM/GLM-4-9B-0414`.\n"
+
+# This content is from "SiliconFlow.md", line 38
+msgctxt "chunk_047D6F23"
+msgid "### Usage\n"
+msgstr "### Uso\n"
+
+# This content is from "SiliconFlow.md", line 44
+msgctxt "chunk_FC529C81"
+msgid "#### cli\n"
+msgstr "#### cli\n"
+
+# This content is from "SiliconFlow.md", line 50
+msgctxt "chunk_18E35DAE"
+msgid "#### webui\n"
+msgstr "#### webui\n"
+
+# This content is from "SiliconFlow.md", line 19
+msgctxt "chunk_0ACD2D6C"
+msgid "1. Select \"SiliconFlowFree\" from the \"Translation Options\" - \"Service\" dropdown list.\n2. Click the Translate button at the bottom of the page to start translation.\n3. After translation is complete, you can find the translated PDF file in the \"Translated\" section at the bottom of the page.\n\n"
+msgstr "1. Selecione \"SiliconFlowFree\" na lista suspensa \"Opções de Tradução\" - \"Serviço\".\n2. Clique no botão Traduzir na parte inferior da página para iniciar a tradução.\n3. Após a conclusão da tradução, você pode encontrar o arquivo PDF traduzido na seção \"Traduzido\" na parte inferior da página.\n\n"
+
+# This content is from "SiliconFlow.md", line 24
+msgctxt "chunk_24653E80"
+msgid "### Privacy Policy\n"
+msgstr "### Política de Privacidade\n"
+
+# This content is from "SiliconFlow.md", line 26
+msgctxt "chunk_E40E083F"
+msgid "The file content will be sent to the server of the project maintainer [@awwaawwa](https://github.com/awwaawwa), and then forwarded to SiliconFlow for translation.\n\nThe maintainers of this project will only collect error information returned by SiliconFlow for debugging related services. Your file content will not be collected.\n\nSiliconFlow Privacy Policy: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
+msgstr "O conteúdo do arquivo será enviado para o servidor do mantenedor do projeto [@awwaawwa](https://github.com/awwaawwa) e, em seguida, encaminhado para o SiliconFlow para tradução.\n\nOs mantenedores deste projeto coletarão apenas informações de erro retornadas pelo SiliconFlow para depuração dos serviços relacionados. O conteúdo do seu arquivo não será coletado.\n\nPolítica de Privacidade do SiliconFlow: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
+
+# This content is from "SiliconFlow.md", line 34
+msgctxt "chunk_86238772"
+msgid "## Use other models from SiliconFlow\n"
+msgstr "## Usar outros modelos do SiliconFlow\n"
+
+# This content is from "SiliconFlow.md", line 36
+msgctxt "chunk_6C8B20F2"
+msgid "[SiliconFlow](https://siliconflow.cn) also provides other models for translation.\n"
+msgstr "[SiliconFlow](https://siliconflow.cn) também fornece outros modelos para tradução.\n"
+
+# This content is from "SiliconFlow.md", line 40
+msgctxt "chunk_71BE5099"
+msgid "1. Register an account at [SiliconFlow](https://siliconflow.cn)\n\n2. Create an API key at [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Then, click on the key to copy it.\n"
+msgstr "1. Registre uma conta no [SiliconFlow](https://siliconflow.cn)\n\n2. Crie uma chave de API em [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Em seguida, clique na chave para copiá-la.\n"
+
+# This content is from "SiliconFlow.md", line 52
+msgctxt "chunk_22AE44AB"
+msgid "1. \"Translation Options\" - **\"Service\"** dropdown list: Select \"SiliconFlow\"\n2. \"Translation Options\" - **\"Base URL for SiliconFlow API\"**: Keep default\n3. \"Translation Options\" - **\"SiliconFlow model to use\"**: Enter \"Pro/deepseek-ai/DeepSeek-V3\" or other models\n4. \"Translation Options\" - **\"API key for SiliconFlow service\"**: Paste your API key\n5. Click the Translate button at the bottom of the page to start translation\n6. After translation is complete, you can find the translated PDF file in the \"Translated\" section at the bottom of the page.\n\n"
+msgstr "1. \"Opções de Tradução\" - Lista suspensa **\"Serviço\"**: Selecione \"SiliconFlow\"  \n2. \"Opções de Tradução\" - **\"URL base para a API do SiliconFlow\"**: Mantenha o padrão  \n3. \"Opções de Tradução\" - **\"Modelo do SiliconFlow a ser usado\"**: Insira \"Pro/deepseek-ai/DeepSeek-V3\" ou outros modelos  \n4. \"Opções de Tradução\" - **\"Chave de API para o serviço SiliconFlow\"**: Cole sua chave de API  \n5. Clique no botão \"Traduzir\" na parte inferior da página para iniciar a tradução  \n6. Após a conclusão da tradução, você pode encontrar o arquivo PDF traduzido na seção \"Traduzido\" na parte inferior da página.\n\n"
+
+# This content is from "SiliconFlow.md", line 60
+msgctxt "chunk_F44132D0"
+msgid "## Acknowledgement\n"
+msgstr "## Agradecimentos\n"
+
+# This content is from "SiliconFlow.md", line 62
+msgctxt "chunk_ED8820C9"
+msgid "Thanks to [SiliconFlow](https://siliconflow.cn) for providing free translation service for this project.\n\n"
+msgstr "Obrigado ao [SiliconFlow](https://siliconflow.cn) por fornecer o serviço de tradução gratuito para este projeto.\n\n"
+
+# This content is from "advanced.md", line 1
+msgctxt "chunk_DDD39913"
+msgid "[**Advanced**](./introduction.md) > **Advanced** _(current)_\n"
+msgstr "[**Opções avançadas**](./introduction.md) > **Opções avançadas** _(atual)_\n"
+
+# This content is from "advanced.md", line 5
+msgctxt "chunk_D9B293FF"
+msgid "<h3 id=\"toc\">Table of Contents</h3>\n"
+msgstr "<h3 id=\"toc\">Índice</h3>\n"
+
+# This content is from "advanced.md", line 7
+msgctxt "chunk_D18951F5"
+msgid "- [Command Line Args](#command-line-args)\n- [Partial translation](#partial-translation)\n- [Specify source and target languages](#specify-source-and-target-languages)\n- [Translate wih exceptions](#translate-wih-exceptions)\n- [Custom prompt](#custom-prompt)\n- [Custom configuration](#custom-configuration)\n- [Skip clean](#skip-clean)\n- [Translation cache](#translation-cache)\n- [Deployment as a public services](#deployment-as-a-public-services)\n- [Authentication and welcome page](#authentication-and-welcome-page)\n- [Glossary Support](#glossary-support)\n"
+msgstr "- [Argumentos da Linha de Comando](#argumentos-da-linha-de-comando)\n- [Tradução parcial](#tradução-parcial)\n- [Especificar idiomas de origem e destino](#especificar-idiomas-de-origem-e-destino)\n- [Traduzir com exceções](#traduzir-com-exceções)\n- [Prompt personalizado](#prompt-personalizado)\n- [Configuração personalizada](#configuração-personalizada)\n- [Pular limpeza](#pular-limpeza)\n- [Cache de tradução](#cache-de-tradução)\n- [Implantação como serviços públicos](#implantação-como-serviços-públicos)\n- [Autenticação e página de boas-vindas](#autenticação-e-página-de-boas-vindas)\n- [Suporte ao Glossário](#suporte-ao-glossário)\n"
+
+# This content is from "advanced.md", line 21
+msgctxt "chunk_3BF1A9B5"
+msgid "#### Command Line Args\n"
+msgstr "#### Argumentos da Linha de Comando\n"
+
+# This content is from "advanced.md", line 23
+msgctxt "chunk_A2860DDF"
+msgid "Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).\n"
+msgstr "Execute o comando de tradução na linha de comando para gerar o documento traduzido `example-mono.pdf` e o documento bilíngue `example-dual.pdf` no diretório de trabalho atual. Use o Google como o serviço de tradução padrão. Mais serviços de tradução suportados podem ser encontrados [AQUI](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).\n"
+
+# This content is from "advanced.md", line 27
+msgctxt "chunk_B3EB591F"
+msgid "In the following table, we list all advanced options for reference:\n"
+msgstr "Na tabela a seguir, listamos todas as opções avançadas para referência:\n"
+
+# This content is from "advanced.md", line 29
+msgctxt "chunk_A2A42E6B"
+msgid "##### Args\n"
+msgstr "##### Argumentos\n"
+
+# This content is from "advanced.md", line 31
+msgctxt "chunk_7A00EE21"
+msgid "| Option                          | Function                                                                               | Example                                                                                                              |\n| ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `files`                         | Local PDF file path                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |"
+msgstr "| Opção                          | Função                                                                               | Exemplo                                                                                                              |\n| ------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `files`                         | Caminho do arquivo PDF local                                                                    | `pdf2zh ~/local.pdf`                                                                                                 |"
+
+# This content is from "advanced.md", line 34
+msgctxt "chunk_848B1EE1"
+msgid "| `links`                         | Online files                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |"
+msgstr "| `links`                         | Arquivos online                                                                           | `pdf2zh http://arxiv.org/paper.pdf`                                                                                  |"
+
+# This content is from "advanced.md", line 35
+msgctxt "chunk_8B4991D7"
+msgid "| `--output`                      | Output directory for files                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |"
+msgstr "| `--output`                      | Diretório de saída para os arquivos                                                             | `pdf2zh example.pdf --output /outputpath`                                                                            |"
+
+# This content is from "advanced.md", line 36
+msgctxt "chunk_D7ED91EE"
+msgid "| `--<Services>`                  | Use [**specific service**](./Documentation-of-Translation-Services.md) for translation | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
+msgstr "| `--<Services>`                  | Usar [**serviço específico**](./Documentation-of-Translation-Services.md) para tradução | `pdf2zh example.pdf --openai`<br>`pdf2zh example.pdf --deepseek`                                                     |"
+
+# This content is from "advanced.md", line 37
+msgctxt "chunk_00AF4E48"
+msgid "| `--help`, `-h`                  | Show help message and exit                                                             | `pdf2zh -h`                                                                                                          |"
+msgstr "| `--help`, `-h`                  | Mostrar mensagem de ajuda e sair                                                             | `pdf2zh -h`                                                                                                          |"
+
+# This content is from "advanced.md", line 38
+msgctxt "chunk_B0ABBFCE"
+msgid "| `--config-file`                 | Path to the configuration file                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |"
+msgstr "| `--config-file`                 | Caminho para o arquivo de configuração                                                         | `pdf2zh --config-file /path/to/config/config.toml`                                                                   |"
+
+# This content is from "advanced.md", line 39
+msgctxt "chunk_634BA748"
+msgid "| `--report-interval`             | Progress report interval in seconds                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |"
+msgstr "| `--report-interval`             | Intervalo de relatório de progresso em segundos                                                    | `pdf2zh example.pdf --report-interval 5`                                                                             |"
+
+# This content is from "advanced.md", line 40
+msgctxt "chunk_46037BF6"
+msgid "| `--debug`                       | Use debug logging level                                                                | `pdf2zh example.pdf --debug`                                                                                         |"
+msgstr "| `--debug`                       | Usar nível de registro de depuração                                                   | `pdf2zh example.pdf --debug`                                                                                         |"
+
+# This content is from "advanced.md", line 41
+msgctxt "chunk_18BA0512"
+msgid "| `--gui`                         | Interact with GUI                                                                      | `pdf2zh --gui`                                                                                                       |"
+msgstr "| `--gui`                         | Interagir com a GUI                                                                      | `pdf2zh --gui`                                                                                                       |"
+
+# This content is from "advanced.md", line 42
+msgctxt "chunk_0DA1F9CB"
+msgid "| `--warmup`                      | Only download and verify required assets then exit                                     | `pdf2zh example.pdf --warmup`                                                                                        |"
+msgstr "| `--warmup`                      | Apenas baixar e verificar os ativos necessários e depois sair                                     | `pdf2zh example.pdf --warmup`                                                                                        |"
+
+# This content is from "advanced.md", line 43
+msgctxt "chunk_D380BDDD"
+msgid "| `--generate-offline-assets`     | Generate offline assets package in the specified directory                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |"
+msgstr "| `--generate-offline-assets`     | Gerar pacote de recursos offline no diretório especificado                             | `pdf2zh example.pdf --generate-offline-assets /path`                                                                 |"
+
+# This content is from "advanced.md", line 44
+msgctxt "chunk_F5703109"
+msgid "| `--restore-offline-assets`      | Restore offline assets package from the specified directory                            | `pdf2zh example.pdf --restore-offline-assets /path`                                                                  |"
+msgstr "| `--restore-offline-assets`      | Restaurar pacote de ativos offline do diretório especificado                            | `pdf2zh example.pdf --restore-offline-assets /caminho`                                                                  |"
+
+# This content is from "advanced.md", line 45
+msgctxt "chunk_EB44345E"
+msgid "| `--version`                     | Show version then exit                                                                 | `pdf2zh --version`                                                                                                   |"
+msgstr "| `--version`                     | Mostrar versão e sair                                                                 | `pdf2zh --version`                                                                                                   |"
+
+# This content is from "advanced.md", line 46
+msgctxt "chunk_AD6D96FE"
+msgid "| `--pages`                       | Partial document translation                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |"
+msgstr "| `--pages`                       | Tradução parcial do documento                                                           | `pdf2zh example.pdf --pages 1,2,1-,-3,3-5`                                                                           |"
+
+# This content is from "advanced.md", line 47
+msgctxt "chunk_DB35B267"
+msgid "| `--lang-in`                     | The code of source language                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |"
+msgstr "| `--lang-in`                     | O código do idioma de origem                                                            | `pdf2zh example.pdf --lang-in en`                                                                                    |"
+
+# This content is from "advanced.md", line 48
+msgctxt "chunk_CAF754AF"
+msgid "| `--lang-out`                    | The code of target language                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |"
+msgstr "| `--lang-out`                    | O código do idioma de destino                                                            | `pdf2zh example.pdf --lang-out zh-CN`                                                                                |"
+
+# This content is from "advanced.md", line 49
+msgctxt "chunk_2E1280AA"
+msgid "| `--min-text-length`             | Minimum text length to translate                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |"
+msgstr "| `--min-text-length`             | Comprimento mínimo do texto para traduzir                                                       | `pdf2zh example.pdf --min-text-length 5`                                                                             |"
+
+# This content is from "advanced.md", line 50
+msgctxt "chunk_03902660"
+msgid "| `--rpc-doclayout`               | RPC service host address for document layout analysis                                  |                                                                                                                      |"
+msgstr "| `--rpc-doclayout`               | Endereço do host do serviço RPC para análise de layout de documento                                  |                                                                                                                      |"
+
+# This content is from "advanced.md", line 51
+msgctxt "chunk_D3C262BD"
+msgid "| `--qps`                         | QPS limit for translation service                                                      | `pdf2zh example.pdf --qps 200`                                                                                       |"
+msgstr "| `--qps`                         | Limite de QPS para o serviço de tradução                                               | `pdf2zh example.pdf --qps 200`                                                                                       |"
+
+# This content is from "advanced.md", line 52
+msgctxt "chunk_0F22CD53"
+msgid "| `--ignore-cache`                | Ignore translation cache                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |"
+msgstr "| `--ignore-cache`                | Ignorar cache de tradução                                                               | `pdf2zh example.pdf --ignore-cache`                                                                                  |"
+
+# This content is from "advanced.md", line 53
+msgctxt "chunk_ED6020AC"
+msgid "| `--custom-system-prompt`        | Custom system prompt for translation. Used for `/no_think` in Qwen 3                   | `pdf2zh example.pdf --custom-system-prompt \"/no_think You are a professional, authentic machine translation engine\"` |"
+msgstr "| `--custom-system-prompt`        | Prompt personalizado do sistema para tradução. Usado para `/no_think` no Qwen 3                   | `pdf2zh example.pdf --custom-system-prompt \"/no_think You are a professional, authentic machine translation engine\"` |"
+
+# This content is from "advanced.md", line 54
+msgctxt "chunk_FC174A78"
+msgid "| `--pool-max-worker`             | Maximum number of workers for translation pool. If not set, will use qps as the number of workers | `pdf2zh example.pdf --pool-max-worker 100`                                                                |"
+msgstr "| `--pool-max-worker`             | Número máximo de trabalhadores para o pool de tradução. Se não definido, será usado qps como o número de trabalhadores | `pdf2zh example.pdf --pool-max-worker 100`                                                                |"
+
+# This content is from "advanced.md", line 55
+msgctxt "chunk_ED9DDA51"
+msgid "| `--no-auto-extract-glossary`    | Disable auto extract glossary                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |"
+msgstr "| `--no-auto-extract-glossary`    | Desativar extração automática do glossário                                                          | `pdf2zh example.pdf --no-auto-extract-glossary`                                                                      |"
+
+# This content is from "advanced.md", line 56
+msgctxt "chunk_3A42A3F8"
+msgid "| `--primary-font-family`         | Override primary font family for translated text. Choices: 'serif' for serif fonts, 'sans-serif' for sans-serif fonts, 'script' for script/italic fonts. If not specified, uses automatic font selection based on original text properties. | `pdf2zh example.pdf --primary-font-family serif` |"
+msgstr "| `--primary-font-family`         | Substitui a família de fontes primária para o texto traduzido. Opções: 'serif' para fontes serifadas, 'sans-serif' para fontes sem serifa, 'script' para fontes script/itálicas. Se não especificado, usa a seleção automática de fontes com base nas propriedades do texto original. | `pdf2zh example.pdf --primary-font-family serif` |"
+
+# This content is from "advanced.md", line 57
+msgctxt "chunk_D91FDBD2"
+msgid "| `--no-dual`                     | Do not output bilingual PDF files                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |"
+msgstr "| `--no-dual`                     | Não gerar arquivos PDF bilíngues                                                      | `pdf2zh example.pdf --no-dual`                                                                                       |"
+
+# This content is from "advanced.md", line 58
+msgctxt "chunk_BF3C03E7"
+msgid "| `--no-mono`                     | Do not output monolingual PDF files                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |"
+msgstr "| `--no-mono`                     | Não gerar arquivos PDF monolíngues                                                    | `pdf2zh example.pdf --no-mono`                                                                                       |"
+
+# This content is from "advanced.md", line 59
+msgctxt "chunk_D70705B4"
+msgid "| `--formular-font-pattern`       | Font pattern to identify formula text                                                  | `pdf2zh example.pdf --formular-font-pattern \"(MS.*)\"`                                                                |"
+msgstr "| `--formular-font-pattern`       | Padrão de fonte para identificar texto de fórmula                                                  | `pdf2zh example.pdf --formular-font-pattern \"(MS.*)\"`                                                                |"
+
+# This content is from "advanced.md", line 60
+msgctxt "chunk_BC7944E0"
+msgid "| `--formular-char-pattern`       | Character pattern to identify formula text                                             | `pdf2zh example.pdf --formular-char-pattern \"(MS.*)\"`                                                                |"
+msgstr "| `--formular-char-pattern`       | Padrão de caracteres para identificar texto de fórmula                                             | `pdf2zh example.pdf --formular-char-pattern \"(MS.*)\"`                                                                |"
+
+# This content is from "advanced.md", line 61
+msgctxt "chunk_73F7BC27"
+msgid "| `--split-short-line`            | Force split short line into different paragraphs                                       | `pdf2zh example.pdf --split-short-line`                                                                              |"
+msgstr "| `--split-short-line`            | Forçar a divisão de linhas curtas em parágrafos diferentes                                       | `pdf2zh example.pdf --split-short-line`                                                                              |"
+
+# This content is from "advanced.md", line 62
+msgctxt "chunk_17ED68F1"
+msgid "| `--short-line-split-factor`     | Split threshold factor for short lines                                                 |                                                                                                                      |"
+msgstr "| `--short-line-split-factor`     | Fator de limite de divisão para linhas curtas                                                 |                                                                                                                      |"
+
+# This content is from "advanced.md", line 63
+msgctxt "chunk_B4E886EC"
+msgid "| `--skip-clean`                  | Skip PDF cleaning step                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |"
+msgstr "| `--skip-clean`                  | Pular etapa de limpeza do PDF                                                                 | `pdf2zh example.pdf --skip-clean`                                                                                    |"
+
+# This content is from "advanced.md", line 64
+msgctxt "chunk_857F16B2"
+msgid "| `--dual-translate-first`        | 在双 PDF 模式下优先放置翻译页                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |"
+msgstr "| `--dual-translate-first`        | No modo de PDF duplo, prioriza a colocação da página traduzida                                          | `pdf2zh example.pdf --dual-translate-first`                                                                                            |"
+
+# This content is from "advanced.md", line 65
+msgctxt "chunk_A04861D5"
+msgid "| `--disable-rich-text-translate` | Disable rich text translation                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |"
+msgstr "| `--disable-rich-text-translate` | Desativar tradução de texto rico                                                          | `pdf2zh example.pdf --disable-rich-text-translate`                                                                   |"
+
+# This content is from "advanced.md", line 66
+msgctxt "chunk_9D02F06D"
+msgid "| `--enhance-compatibility`       | Enable all compatibility enhancement options                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |"
+msgstr "| `--enhance-compatibility`       | Ativar todas as opções de aprimoramento de compatibilidade                                           | `pdf2zh example.pdf --enhance-compatibility`                                                                         |"
+
+# This content is from "advanced.md", line 67
+msgctxt "chunk_7EC1028A"
+msgid "| `--use-alternating-pages-dual`  | Use alternating pages mode for dual PDF                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |"
+msgstr "| `--use-alternating-pages-dual`  | Usar o modo de páginas alternadas para PDF duplo                                                | `pdf2zh example.pdf --use-alternating-pages-dual`                                                                    |"
+
+# This content is from "advanced.md", line 68
+msgctxt "chunk_D6BE0E79"
+msgid "| `--watermark-output-mode`       | Watermark output mode for PDF files                                                    | `pdf2zh example.pdf --watermark-output-mode \"NoWaterMark\"`                                                           |"
+msgstr "| `--watermark-output-mode`       | Modo de saída de marca d'água para arquivos PDF                                                    | `pdf2zh example.pdf --watermark-output-mode \"NoWaterMark\"`                                                           |"
+
+# This content is from "advanced.md", line 69
+msgctxt "chunk_D63C027F"
+msgid "| `--max-pages-per-part`          | Maximum pages per part for split translation                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |"
+msgstr "| `--max-pages-per-part`          | Número máximo de páginas por parte para tradução dividida                                           | `pdf2zh example.pdf --max-pages-per-part 1`                                                                          |"
+
+# This content is from "advanced.md", line 70
+msgctxt "chunk_3F10F28E"
+msgid "| `--translate-table-text`        | Translate table text (experimental)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |"
+msgstr "| `--translate-table-text`        | Traduzir texto de tabela (experimental)                                                    | `pdf2zh example.pdf --translate-table-text`                                                                          |"
+
+# This content is from "advanced.md", line 71
+msgctxt "chunk_8BCCD462"
+msgid "| `--skip-scanned-detection`      | Skip scanned detection                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |"
+msgstr "| `--skip-scanned-detection`      | Pular detecção de digitalização                                                                 | `pdf2zh example.pdf --skip-scanned-detection`                                                                        |"
+
+# This content is from "advanced.md", line 72
+msgctxt "chunk_75518F89"
+msgid "| `--ocr-workaround`              | Force translated text to be black and add white background                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |"
+msgstr "| `--ocr-workaround`              | Forçar o texto traduzido a ser preto e adicionar fundo branco                             | `pdf2zh example.pdf --ocr-workaround`                                                                                |"
+
+# This content is from "advanced.md", line 73
+msgctxt "chunk_E4BD664E"
+msgid "| `--auto-enable-ocr-workaround`  | Enable automatic OCR workaround. If a document is detected as heavily scanned, this will attempt to enable OCR processing and skip further scan detection. See documentation for details. (default: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
+msgstr "| `--auto-enable-ocr-workaround`  | Ativar solução alternativa automática de OCR. Se um documento for detectado como altamente digitalizado, isso tentará ativar o processamento de OCR e pular a detecção adicional de digitalização. Consulte a documentação para obter detalhes. (padrão: Falso) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |"
+
+# This content is from "advanced.md", line 74
+msgctxt "chunk_6803D13A"
+msgid "| `--only-include-translated-page`| Only include translated pages in the output PDF. Effective only when --pages is used. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |"
+msgstr "| `--only-include-translated-page` | Incluir apenas páginas traduzidas no PDF de saída. Efetivo apenas quando --pages é usado. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |"
+
+# This content is from "advanced.md", line 75
+msgctxt "chunk_1E404081"
+msgid "| `--glossaries`                  | Custom glossary for translation.                                                      | `pdf2zh example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"`                                         |"
+msgstr "| `--glossaries`                  | Glossário personalizado para tradução.                                                      | `pdf2zh example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"`                                         |"
+
+# This content is from "advanced.md", line 76
+msgctxt "chunk_85EA2B26"
+msgid "| `--save-auto-extracted-glossary`| save automatically extracted glossary.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n"
+msgstr "| `--save-auto-extracted-glossary`| salvar o glossário extraído automaticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n"
+
+# This content is from "advanced.md", line 79
+msgctxt "chunk_140EFE95"
+msgid "##### GUI Args\n"
+msgstr "##### Argumentos da GUI\n"
+
+# This content is from "advanced.md", line 81
+msgctxt "chunk_2D086D22"
+msgid "| Option                          | Function                               | Example                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | Enable sharing mode                    | `pdf2zh --gui --share`                          |"
+msgstr "| Opção                          | Função                               | Exemplo                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | Ativar modo de compartilhamento        | `pdf2zh --gui --share`                          |"
+
+# This content is from "advanced.md", line 84
+msgctxt "chunk_927CDC03"
+msgid "| `--auth-file`                   | Path to the authentication file        | `pdf2zh --gui --auth-file /path`                |"
+msgstr "| `--auth-file`                   | Caminho para o arquivo de autenticação        | `pdf2zh --gui --auth-file /path`                |"
+
+# This content is from "advanced.md", line 85
+msgctxt "chunk_951E61B3"
+msgid "| `--welcome-page`                | Path to the welcome html file          | `pdf2zh --gui --welcome-page /path`             |"
+msgstr "| `--welcome-page`                | Caminho para o arquivo HTML de boas-vindas          | `pdf2zh --gui --welcome-page /path`             |"
+
+# This content is from "advanced.md", line 86
+msgctxt "chunk_A9F2F2FE"
+msgid "| `--enabled-services`            | Enabled translation services           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |"
+msgstr "| `--enabled-services`            | Serviços de tradução ativados           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |"
+
+# This content is from "advanced.md", line 87
+msgctxt "chunk_2C863550"
+msgid "| `--disable-gui-sensitive-input` | Disable GUI sensitive input            | `pdf2zh --gui --disable-gui-sensitive-input`    |"
+msgstr "| `--disable-gui-sensitive-input` | Desativar entrada sensível da GUI            | `pdf2zh --gui --disable-gui-sensitive-input`    |"
+
+# This content is from "advanced.md", line 88
+msgctxt "chunk_0598D53D"
+msgid "| `--disable-config-auto-save`    | Disable automatic configuration saving | `pdf2zh --gui --disable-config-auto-save`       |"
+msgstr "| `--disable-config-auto-save`    | Desativar o salvamento automático de configuração | `pdf2zh --gui --disable-config-auto-save`       |"
+
+# This content is from "advanced.md", line 89
+msgctxt "chunk_99D3B3A8"
+msgid "| `--server-port`                 | WebUI Port                             | `pdf2zh --gui --server-port 7860`               |\n"
+msgstr "| `--server-port`                 | Porta do WebUI                             | `pdf2zh --gui --server-port 7860`               |\n"
+
+# This content is from "advanced.md", line 342
+msgctxt "chunk_F1B6ECA2"
+msgid "[⬆️ Back to top](#toc)\n"
+msgstr "[⬆️ Voltar ao topo](#toc)\n"
+
+# This content is from "advanced.md", line 95
+msgctxt "chunk_ADC018D0"
+msgid "#### Partial translation\n"
+msgstr "#### Tradução parcial\n"
+
+# This content is from "advanced.md", line 97
+msgctxt "chunk_A7D2451C"
+msgid "Use the `--pages` parameter to translate a portion of a document.\n"
+msgstr "Use o parâmetro `--pages` para traduzir uma parte de um documento.\n"
+
+# This content is from "advanced.md", line 99
+msgctxt "chunk_C04AFE09"
+msgid "- If the page numbers are consecutive, you can write it like this:\n"
+msgstr "- Se os números das páginas forem consecutivos, você pode escrever assim:\n"
+
+# This content is from "advanced.md", line 109
+msgctxt "chunk_773EEC89"
+msgid "> [!TIP]\n> `25-` includes all pages after page 25. If your document has 100 pages, this is equivalent to `25-100`.\n> \n> Similarly, `-25` includes all pages before page 25, which is equivalent to `1-25`.\n"
+msgstr "> [!TIP]\n> `25-` inclui todas as páginas após a página 25. Se o seu documento tiver 100 páginas, isso é equivalente a `25-100`.\n> \n> Da mesma forma, `-25` inclui todas as páginas antes da página 25, o que é equivalente a `1-25`.\n"
+
+# This content is from "advanced.md", line 114
+msgctxt "chunk_1A89F075"
+msgid "- If the pages are not consecutive, you can use a comma `,` to separate them.\n"
+msgstr "- Se as páginas não forem consecutivas, você pode usar uma vírgula `,` para separá-las.\n"
+
+# This content is from "advanced.md", line 116
+msgctxt "chunk_046E7E79"
+msgid "For example, if you want to translate the first and third pages, you can use the following command:\n"
+msgstr "Por exemplo, se você deseja traduzir a primeira e a terceira páginas, pode usar o seguinte comando:\n"
+
+# This content is from "advanced.md", line 122
+msgctxt "chunk_376C9855"
+msgid "- If the pages include both consecutive and non-consecutive ranges, you can also connect them with a comma, like this:\n"
+msgstr "- Se as páginas incluírem intervalos consecutivos e não consecutivos, você também pode conectá-los com uma vírgula, assim:\n"
+
+# This content is from "advanced.md", line 128
+msgctxt "chunk_16D6BA70"
+msgid "This command will translate the first page, the third page, pages 10-20, and all pages from 25 to the end.\n\n\n[⬆️ Back to top](#toc)\n"
+msgstr "Este comando irá traduzir a primeira página, a terceira página, as páginas 10-20 e todas as páginas de 25 até o final.\n\n\n[⬆️ Voltar ao topo](#toc)\n"
+
+# This content is from "advanced.md", line 135
+msgctxt "chunk_482C5F18"
+msgid "#### Specify source and target languages\n"
+msgstr "#### Especificar idiomas de origem e destino\n"
+
+# This content is from "advanced.md", line 137
+msgctxt "chunk_3E16227B"
+msgid "See [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages)\n"
+msgstr "Veja [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages)\n"
+
+# This content is from "advanced.md", line 147
+msgctxt "chunk_EA41DE52"
+msgid "#### Translate wih exceptions\n"
+msgstr "#### Traduzir com exceções\n"
+
+# This content is from "advanced.md", line 149
+msgctxt "chunk_6BAF2E56"
+msgid "Use regex to specify formula fonts and characters that need to be preserved:\n"
+msgstr "Use regex para especificar fontes de fórmulas e caracteres que precisam ser preservados:\n"
+
+# This content is from "advanced.md", line 155
+msgctxt "chunk_8FEF09F4"
+msgid "Preserve `Latex`, `Mono`, `Code`, `Italic`, `Symbol` and `Math` fonts by default:\n"
+msgstr "Preservar as fontes `Latex`, `Mono`, `Code`, `Italic`, `Symbol` e `Math` por padrão:\n"
+
+# This content is from "advanced.md", line 165
+msgctxt "chunk_37A13558"
+msgid "#### Custom prompt\n"
+msgstr "#### Prompt personalizado\n"
+
+# This content is from "advanced.md", line 169
+msgctxt "chunk_5F141742"
+msgid "Custom system prompt for translation. It is mainly used to add the '/no_think' instruction of Qwen 3 in the prompt.\n"
+msgstr "Prompt personalizado do sistema para tradução. Ele é usado principalmente para adicionar a instrução '/no_think' do Qwen 3 no prompt.\n"
+
+# This content is from "advanced.md", line 179
+msgctxt "chunk_1EC5A9B5"
+msgid "#### Custom configuration\n"
+msgstr "#### Configuração personalizada\n"
+
+# This content is from "advanced.md", line 181
+msgctxt "chunk_754794E1"
+msgid "There are multiple ways to modify and import the configuration file.\n"
+msgstr "Existem várias maneiras de modificar e importar o arquivo de configuração.\n"
+
+# This content is from "advanced.md", line 183
+msgctxt "chunk_B9BF8271"
+msgid "> [!NOTE]\n> **Configuration File Hierarchy**\n>\n> When modifying the same parameter using different methods, the software will apply changes according to the priority order below. \n>\n> Higher-ranked modifications will override lower-ranked ones.\n>\n> **cli/gui > env > user config file > default config file**\n"
+msgstr "> [!NOTE]\n> **Hierarquia do Arquivo de Configuração**\n>\n> Ao modificar o mesmo parâmetro usando métodos diferentes, o software aplicará as alterações de acordo com a ordem de prioridade abaixo.\n>\n> Modificações de maior prioridade substituirão as de menor prioridade.\n>\n> **cli/gui > env > arquivo de configuração do usuário > arquivo de configuração padrão**\n"
+
+# This content is from "advanced.md", line 192
+msgctxt "chunk_06B261DE"
+msgid "- Modifying Configuration via **Command Line Arguments**\n"
+msgstr "- Modificando a Configuração via **Argumentos da Linha de Comando**\n"
+
+# This content is from "advanced.md", line 194
+msgctxt "chunk_4579F74D"
+msgid "For most cases, you can directly pass your desired settings through command line arguments. Please refer to [Command Line Args](#cmd) for more information.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n"
+msgstr "Na maioria dos casos, você pode passar diretamente suas configurações desejadas por meio de argumentos da linha de comando. Consulte [Argumentos da Linha de Comando](#argumentos-da-linha-de-comando) para obter mais informações.\n\nPor exemplo, se você quiser habilitar uma janela GUI, pode usar o seguinte comando:\n"
+
+# This content is from "advanced.md", line 202
+msgctxt "chunk_85CC4581"
+msgid "- Modifying Configuration via **Environment Variables**\n"
+msgstr "- Modificando a Configuração via **Variáveis de Ambiente**\n"
+
+# This content is from "advanced.md", line 204
+msgctxt "chunk_A3573A4C"
+msgid "You can replace the `--` in command line arguments with `PDF2ZH_`, connect parameters using `=`, and replace `-` with `_` as environment variables.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n"
+msgstr "Você pode substituir o `--` nos argumentos da linha de comando por `PDF2ZH_`, conectar parâmetros usando `=` e substituir `-` por `_` como variáveis de ambiente.\n\nPor exemplo, se você quiser habilitar uma janela GUI, pode usar o seguinte comando:\n"
+
+# This content is from "advanced.md", line 214
+msgctxt "chunk_11A0D60E"
+msgid "- User-Specified **Configuration File**\n"
+msgstr "- Arquivo de **Configuração** Especificado pelo Usuário\n"
+
+# This content is from "advanced.md", line 216
+msgctxt "chunk_9EE9DFB5"
+msgid "You can specify a configuration file using the command line argument below:\n"
+msgstr "Você pode especificar um arquivo de configuração usando o argumento da linha de comando abaixo:\n"
+
+# This content is from "advanced.md", line 222
+msgctxt "chunk_FC4FBE9E"
+msgid "If you are unsure about the config file format, please refer to the default configuration file described below.\n"
+msgstr "Se você não tiver certeza sobre o formato do arquivo de configuração, consulte o arquivo de configuração padrão descrito abaixo.\n"
+
+# This content is from "advanced.md", line 224
+msgctxt "chunk_A4C0C077"
+msgid "- **Default Configuration File**\n"
+msgstr "- **Arquivo de Configuração Padrão**\n"
+
+# This content is from "advanced.md", line 226
+msgctxt "chunk_B17D9FE3"
+msgid "The default configuration file is located at `~/.config/pdf2zh`. \nPlease do not modify the configuration files in the `default` directory. \nIt is strongly recommended to refer to this configuration file's content and use **User-Specified Configuration File** to implement your own configuration file.\n"
+msgstr "O arquivo de configuração padrão está localizado em `~/.config/pdf2zh`.  \nPor favor, não modifique os arquivos de configuração no diretório `default`.  \nÉ altamente recomendável consultar o conteúdo deste arquivo de configuração e usar **Configuração personalizada** para implementar seu próprio arquivo de configuração.\n"
+
+# This content is from "advanced.md", line 230
+msgctxt "chunk_15DFB8EE"
+msgid "> [!TIP]\n> - By default, pdf2zh 2.0 automatically saves the current configuration to `~/.config/pdf2zh/config.v3.toml` each time you click the translate button in the GUI. This configuration file will be loaded by default on the next startup.\n> - The configuration files in the `default` directory are automatically generated by the program. You can copy them for modification, but please do not modify them directly.\n> - Configuration files may include version numbers such as \"v2\", \"v3\", etc. These are **configuration file version numbers**, **not** the version number of pdf2zh itself.\n\n"
+msgstr "> [!TIP]\n> - Por padrão, o pdf2zh 2.0 salva automaticamente a configuração atual em `~/.config/pdf2zh/config.v3.toml` cada vez que você clica no botão de tradução na GUI. Este arquivo de configuração será carregado por padrão na próxima inicialização.\n> - Os arquivos de configuração no diretório `default` são gerados automaticamente pelo programa. Você pode copiá-los para modificação, mas por favor não os modifique diretamente.\n> - Os arquivos de configuração podem incluir números de versão como \"v2\", \"v3\", etc. Estes são **números de versão do arquivo de configuração**, **não** o número de versão do pdf2zh em si.\n\n"
+
+# This content is from "advanced.md", line 240
+msgctxt "chunk_870EBD0C"
+msgid "#### Skip clean\n"
+msgstr "#### Pular limpeza\n"
+
+# This content is from "advanced.md", line 242
+msgctxt "chunk_012D63A3"
+msgid "When this parameter is set to True, the PDF cleaning step will be skipped, which can improve compatibility and avoid some font processing issues.\n\nUsage:\n"
+msgstr "Quando este parâmetro é definido como True, a etapa de limpeza do PDF será ignorada, o que pode melhorar a compatibilidade e evitar alguns problemas de processamento de fontes.\n\nUso:\n"
+
+# This content is from "advanced.md", line 250
+msgctxt "chunk_1078AA87"
+msgid "Or using environment variables:\n"
+msgstr "Ou usando variáveis de ambiente:\n"
+
+# This content is from "advanced.md", line 256
+msgctxt "chunk_E510ADDB"
+msgid "> [!TIP]\n> When `--enhance-compatibility` is enabled, Skip clean is automatically enabled.\n"
+msgstr "> [!TIP]\n> Quando `--enhance-compatibility` está ativado, Pular limpeza é automaticamente ativado.\n"
+
+# This content is from "advanced.md", line 261
+msgctxt "chunk_A35603CF"
+msgid "#### Translation cache\n"
+msgstr "#### Cache de tradução\n"
+
+# This content is from "advanced.md", line 263
+msgctxt "chunk_F8D49E02"
+msgid "PDFMathTranslate caches translated texts to increase speed and avoid unnecessary API calls for same contents. You can use `--ignore-cache` option to ignore translation cache and force retranslation.\n"
+msgstr "PDFMathTranslate armazena em cache os textos traduzidos para aumentar a velocidade e evitar chamadas desnecessárias à API para conteúdos iguais. Você pode usar a opção `--ignore-cache` para ignorar o cache de tradução e forçar a retradução.\n"
+
+# This content is from "advanced.md", line 273
+msgctxt "chunk_05080CDF"
+msgid "#### Deployment as a public services\n"
+msgstr "#### Implantação como serviços públicos\n"
+
+# This content is from "advanced.md", line 275
+msgctxt "chunk_A72BDF82"
+msgid "When deploying a pdf2zh GUI on public services, you should modify the configuration file as described below.\n"
+msgstr "Ao implantar uma GUI pdf2zh em serviços públicos, você deve modificar o arquivo de configuração conforme descrito abaixo.\n"
+
+# This content is from "advanced.md", line 277
+msgctxt "chunk_9F68F89E"
+msgid "> [!TIP]\n> - When deploying publicly, both `disable_gui_sensitive_input` and `disable_config_auto_save` should be enabled.\n> - Separate different available services with *English commas* <kbd>,</kbd> .\n"
+msgstr "> [!TIP]\n> - Ao implantar publicamente, tanto `disable_gui_sensitive_input` quanto `disable_config_auto_save` devem ser habilitados.\n> - Separe diferentes serviços disponíveis com *vírgulas em inglês* <kbd>,</kbd> .\n"
+
+# This content is from "advanced.md", line 331
+msgctxt "chunk_F2D0AEC1"
+msgid "A usable configuration is as follows:\n"
+msgstr "Uma configuração utilizável é a seguinte:\n"
+
+# This content is from "advanced.md", line 297
+msgctxt "chunk_E255AB78"
+msgid "#### Authentication and welcome page\n"
+msgstr "#### Autenticação e página de boas-vindas\n"
+
+# This content is from "advanced.md", line 299
+msgctxt "chunk_1A5EEA9C"
+msgid "When using Authentication and welcome page to specify which user to use Web UI and custom the login page:\n\nexample auth.txt\nEach line contains two elements, username, and password, separated by a comma.\n"
+msgstr "Ao usar Autenticação e página de boas-vindas para especificar qual usuário deve usar a Web UI e personalizar a página de login:\n\nexemplo auth.txt\nCada linha contém dois elementos, nome de usuário e senha, separados por uma vírgula.\n"
+
+# This content is from "advanced.md", line 312
+msgctxt "chunk_0CEA118C"
+msgid "example welcome.html\n"
+msgstr "exemplo welcome.html\n"
+
+# This content is from "advanced.md", line 327
+msgctxt "chunk_40E12FA3"
+msgid "> [!NOTE]\n> welcome page will work if only authentication file is not blank.\n> If authentication file is blank, there will be no authentication. :)\n"
+msgstr "> [!NOTE]\n> A página de boas-vindas funcionará apenas se o arquivo de autenticação não estiver em branco.\n> Se o arquivo de autenticação estiver em branco, não haverá autenticação. :)\n"
+
+# This content is from "advanced.md", line 346
+msgctxt "chunk_4A9C44BF"
+msgid "#### Glossary Support\n"
+msgstr "#### Suporte ao Glossário\n"
+
+# This content is from "advanced.md", line 348
+msgctxt "chunk_65580DD5"
+msgid "PDFMathTranslate supports the glossary table. The glossary tables file should be `csv` file.\nThere are three columns in file. Here is a demo glossary file:\n"
+msgstr "PDFMathTranslate suporta a tabela de glossário. O arquivo da tabela de glossário deve ser um arquivo `csv`.\nHá três colunas no arquivo. Aqui está um arquivo de glossário de demonstração:\n"
+
+# This content is from "advanced.md", line 351
+msgctxt "chunk_2403CA4A"
+msgid "| source | target  | tgt_lng |\n|--------|---------|---------|\n| AutoML | 自动 ML  | zh-CN   |\n| a,a    | a       | zh-CN   |\n| \"      | \"       | zh-CN   |\n\n"
+msgstr "| origem  | destino | tgt_lng |\n|--------|---------|---------|\n| AutoML | ML Automático | pt-BR   |\n| a,a    | a       | pt-BR   |\n| \"      | \"       | pt-BR   |\n\n"
+
+# This content is from "advanced.md", line 358
+msgctxt "chunk_598725B0"
+msgid "For CLI user:\nYou can use multiple files for glossary. And different files should be split by `,`.\n"
+msgstr "Para usuários da CLI:\nVocê pode usar vários arquivos para o glossário. E arquivos diferentes devem ser separados por `,`.\n"
+
+# This content is from "advanced.md", line 365
+msgctxt "chunk_B3174CBC"
+msgid "For WebUI user:\n\nYou can upload your own glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.\n\n[⬆️ Back to top](#toc)\n"
+msgstr "Para usuários do WebUI:\n\nAgora você pode enviar seu próprio arquivo de glossário. Após enviar o arquivo, você pode verificá-lo clicando no nome dele e o conteúdo será exibido abaixo.\n\n[⬆️ Voltar ao topo](#toc)\n"
+
+# This content is from "introduction.md", line 1
+msgctxt "chunk_0D45C98F"
+msgid "### Advanced\n"
+msgstr "### Opções avançadas\n"
+
+# This content is from "introduction.md", line 3
+msgctxt "chunk_F16EF37C"
+msgid "This section is intended for advanced users of this software. Here you can find:\n"
+msgstr "Esta seção destina-se a usuários avançados deste software. Aqui você pode encontrar:\n"
+
+# This content is from "introduction.md", line 5
+msgctxt "chunk_5FC80BEA"
+msgid "1. [**Advanced Usage**](./advanced.md)"
+msgstr "1. [**Opções avançadas**](./advanced.md)"
+
+# This content is from "introduction.md", line 6
+msgctxt "chunk_7B3D7A76"
+msgid "<br>\nIn this section, you can explore specify source/target languages, switch translation services, and more.\n"
+msgstr "<br>\nNesta seção, você pode explorar idiomas de origem/destino específicos, alternar serviços de tradução e muito mais.\n"
+
+# This content is from "introduction.md", line 9
+msgctxt "chunk_7A0A4B36"
+msgid "2. [**Language Code**](./Language-Codes.md)"
+msgstr "2. [**Código do idioma**](./Language-Codes.md)"
+
+# This content is from "introduction.md", line 10
+msgctxt "chunk_298EB9AE"
+msgid "<br>\nIf you are unsure about which codes to use for translating your source/target languages, you can find them here.\n"
+msgstr "<br>\nSe você não tem certeza sobre quais códigos usar para traduzir seus idiomas de origem/destino, você pode encontrá-los aqui.\n"
+
+# This content is from "introduction.md", line 13
+msgctxt "chunk_A956AA16"
+msgid "3. [**Documentation of Translation Services**](./Documentation-of-Translation-Services.md)"
+msgstr "3. [**Documentação dos serviços de tradução**](./Documentation-of-Translation-Services.md)"
+
+# This content is from "introduction.md", line 14
+msgctxt "chunk_49F0D79D"
+msgid "<br>\nIf you need to review the documentation provided by the translation services you are using, please refer to this page."
+msgstr "<br>\nSe você precisar revisar a documentação fornecida pelos serviços de tradução que está usando, consulte esta página."
+
+# This content is from "Contribution-Guide.md", line 1
+msgctxt "chunk_53390D48"
+msgid "# Contributing to the Project\n"
+msgstr "# Contribuindo para o projeto\n"
+
+# This content is from "Contribution-Guide.md", line 3
+msgctxt "chunk_A71D833E"
+msgid "> [!CAUTION]\n>\n> The current project maintainers are researching automated documentation internationalization. Therefore, any PRs related to documentation internationalization/translation will NOT be accepted!\n>\n> Please do NOT submit PRs related to documentation internationalization/translation!\n"
+msgstr "> [!CAUTION]\n>\n> Os mantenedores atuais do projeto estão pesquisando a internacionalização automatizada de documentação. Portanto, qualquer PR relacionado à internacionalização/tradução de documentação NÃO será aceito!\n>\n> Por favor, NÃO envie PRs relacionados à internacionalização/tradução de documentação!\n"
+
+# This content is from "Contribution-Guide.md", line 9
+msgctxt "chunk_D57757D9"
+msgid "Thank you for your interest in this project! Before you start contributing, please take some time to read the following guidelines to ensure your contribution can be smoothly accepted.\n"
+msgstr "Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reserve um tempo para ler as seguintes diretrizes para garantir que sua contribuição possa ser aceita sem problemas.\n"
+
+# This content is from "Contribution-Guide.md", line 11
+msgctxt "chunk_FB836CBD"
+msgid "## Types of Contributions Not Accepted\n"
+msgstr "## Tipos de Contribuições Não Aceitas\n"
+
+# This content is from "Contribution-Guide.md", line 13
+msgctxt "chunk_F2331818"
+msgid "1. Documentation internationalization/translation\n2. Contributions related to core infrastructure, such as HTTP API, etc.\n3. Issues explicitly marked as \"No help needed\" (including issues in the [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) and the [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) repository).\n4. Other contributions deemed inappropriate by the maintainers.\n5. Contributing documentation, but changing the documentation in languages other than English.\n6. PRs that require modifying PDF files.\n"
+msgstr "1. Documentação de internacionalização/tradução  \n2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  \n3. Problemas explicitamente marcados como \"No help needed\" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  \n4. Outras contribuições consideradas inadequadas pelos mantenedores.  \n5. Documentação de contribuição, mas alterando a documentação em idiomas diferentes do inglês.  \n6. PRs que exigem modificação de arquivos PDF.\n"
+
+# This content is from "Contribution-Guide.md", line 20
+msgctxt "chunk_7828B7C7"
+msgid "Please do NOT submit PRs related to the above types.\n"
+msgstr "Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.\n"
+
+# This content is from "Contribution-Guide.md", line 22
+msgctxt "chunk_56FADEC9"
+msgid "> [!NOTE]\n>\n> If you want to contribute documentation, please **only modify the English version of the documentation**. Other language versions are translated by contributors themselves.\n"
+msgstr "> [!NOTE]\n>\n> Se você deseja contribuir com a documentação, por favor **modifique apenas a versão em inglês da documentação**. As outras versões em outros idiomas são traduzidas pelos próprios contribuidores.\n"
+
+# This content is from "Contribution-Guide.md", line 26
+msgctxt "chunk_485712CB"
+msgid "## Contribution Process\n"
+msgstr "## Processo de Contribuição\n"
+
+# This content is from "Contribution-Guide.md", line 28
+msgctxt "chunk_4D698FBF"
+msgid "1. Fork this repository and clone it locally.\n2. Create a new branch: `git checkout -b feature/<feature-name>`.\n3. Develop and ensure your code meets the requirements.\n4. Commit your code:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Push to your repository: `git push origin feature/<feature-name>`.\n6. Create a PR on GitHub, provide a detailed description, and request a review from [@awwaawwa](https://github.com/awwaawwa).\n7. Ensure all automated checks pass.\n"
+msgstr "1. Faça um fork deste repositório e clone-o localmente.\n2. Crie uma nova branch: `git checkout -b feature/<feature-name>`.\n3. Desenvolva e certifique-se de que seu código atenda aos requisitos.\n4. Faça commit do seu código:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Envie para o seu repositório: `git push origin feature/<feature-name>`.\n6. Crie um PR no GitHub, forneça uma descrição detalhada e solicite uma revisão de [@awwaawwa](https://github.com/awwaawwa).\n7. Certifique-se de que todas as verificações automatizadas sejam aprovadas.\n"
+
+# This content is from "Contribution-Guide.md", line 40
+msgctxt "chunk_89A6F55A"
+msgid "> [!TIP]\n>\n> You do not need to wait until your development is fully complete to create a PR. Creating one early allows us to review your implementation and provide suggestions.\n>\n> If you have any questions about the source code or related matters, please contact the maintainer at aw@funstory.ai.\n>\n> Resource files for version 2.0 are shared with [BabelDOC](https://github.com/funstory-ai/BabelDOC). The code for downloading related resources is in BabelDOC. If you want to add new resource files, please contact the BabelDOC maintainer at aw@funstory.ai.\n"
+msgstr "> [!TIP]\n>\n> Você não precisa esperar até que seu desenvolvimento esteja totalmente completo para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.\n>\n> Se você tiver alguma dúvida sobre o código-fonte ou assuntos relacionados, entre em contato com o mantenedor em aw@funstory.ai.\n>\n> Os arquivos de recursos para a versão 2.0 são compartilhados com [BabelDOC](https://github.com/funstory-ai/BabelDOC). O código para baixar os recursos relacionados está no BabelDOC. Se você deseja adicionar novos arquivos de recursos, entre em contato com o mantenedor do BabelDOC em aw@funstory.ai.\n"
+
+# This content is from "Contribution-Guide.md", line 48
+msgctxt "chunk_E7638696"
+msgid "## Basic Requirements\n"
+msgstr "## Requisitos básicos\n"
+
+# This content is from "Contribution-Guide.md", line 50
+msgctxt "chunk_4D251FB3"
+msgid "<h4 id=\"sop\">1. Workflow</h4>\n"
+msgstr "<h4 id=\"sop\">1. Fluxo de trabalho</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 52
+msgctxt "chunk_8FDDA473"
+msgid "   - Please fork from the `main` branch and develop on your forked branch.\n   - When submitting a Pull Request (PR), provide a detailed description of your changes.\n   - If your PR does not pass automated checks (indicated by `checks failed` and a red cross), please review the corresponding `details` and modify your submission to ensure the new PR passes all checks.\n\n"
+msgstr "   - Por favor, faça um fork a partir do branch `main` e desenvolva no seu branch bifurcado.\n   - Ao enviar um Pull Request (PR), forneça uma descrição detalhada das suas alterações.\n   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelho), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.\n\n"
+
+# This content is from "Contribution-Guide.md", line 57
+msgctxt "chunk_19D447DF"
+msgid "<h4 id=\"dev&test\">2. Development and Testing</h4>\n"
+msgstr "<h4 id=\"dev&test\">2. Desenvolvimento e Teste</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 59
+msgctxt "chunk_65AB8932"
+msgid "   - Use the command `pip install -e .` for development and testing.\n\n"
+msgstr "   - Use o comando `pip install -e .` para desenvolvimento e teste.\n\n"
+
+# This content is from "Contribution-Guide.md", line 62
+msgctxt "chunk_B4865580"
+msgid "<h4 id=\"format\">3. Code Formatting</h4>\n"
+msgstr "<h4 id=\"format\">3. Formatação de Código</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 64
+msgctxt "chunk_E8324FFA"
+msgid "   - Configure the `pre-commit` tool and enable `black` and `flake8` for code formatting.\n\n"
+msgstr "   - Configure a ferramenta `pre-commit` e habilite `black` e `flake8` para formatação de código.\n\n"
+
+# This content is from "Contribution-Guide.md", line 67
+msgctxt "chunk_7A584B10"
+msgid "<h4 id=\"requpdate\">4. Dependency Updates</h4>\n"
+msgstr "<h4 id=\"requpdate\">4. Atualizações de Dependências</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 69
+msgctxt "chunk_BE2E8298"
+msgid "   - If you introduce new dependencies, please update the dependency list in the `pyproject.toml` file in a timely manner.\n\n"
+msgstr "   - Se você introduzir novas dependências, atualize a lista de dependências no arquivo `pyproject.toml` em tempo hábil.\n\n"
+
+# This content is from "Contribution-Guide.md", line 72
+msgctxt "chunk_1615D8D8"
+msgid "<h4 id=\"docupdate\">5. Documentation Updates</h4>\n"
+msgstr "<h4 id=\"docupdate\">5. Atualizações da Documentação</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 74
+msgctxt "chunk_725E4B8A"
+msgid "   - If you add new command-line options, please update the list of command-line options in all language versions of the `README.md` file accordingly.\n\n"
+msgstr "   - Se você adicionar novas opções de linha de comando, atualize a lista de opções de linha de comando em todas as versões de idioma do arquivo `README.md` de acordo.\n\n"
+
+# This content is from "Contribution-Guide.md", line 77
+msgctxt "chunk_09178615"
+msgid "<h4 id=\"commitmsg\">6. Commit Messages</h4>\n"
+msgstr "<h4 id=\"commitmsg\">6. Mensagens de Commit</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 79
+msgctxt "chunk_8007BC97"
+msgid "   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), for example: `feat(translator): add openai`.\n\n"
+msgstr "   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por exemplo: `feat(translator): add openai`.\n\n"
+
+# This content is from "Contribution-Guide.md", line 82
+msgctxt "chunk_F5439516"
+msgid "<h4 id=\"codestyle\">7. Coding Style</h4>\n"
+msgstr "<h4 id=\"codestyle\">7. Estilo de Codificação</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 84
+msgctxt "chunk_22ECCE1D"
+msgid "   - Ensure your submitted code adheres to basic coding style standards.\n   - Use either snake_case or camelCase for variable naming.\n\n"
+msgstr "   - Certifique-se de que o código enviado adere aos padrões básicos de estilo de codificação.\n   - Use snake_case ou camelCase para nomeação de variáveis.\n\n"
+
+# This content is from "Contribution-Guide.md", line 88
+msgctxt "chunk_2F60B8EB"
+msgid "<h4 id=\"doctypo\">8. Documentation Formatting</h4>\n"
+msgstr "<h4 id=\"doctypo\">8. Formatação de Documentação</h4>\n"
+
+# This content is from "Contribution-Guide.md", line 90
+msgctxt "chunk_320F91BE"
+msgid "   - For `README.md` formatting, please follow the [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Ensure that both English and Chinese documentation are always up to date; other language documentation updates are optional.\n"
+msgstr "   - Para a formatação de `README.md`, siga as [Diretrizes de Redação em Chinês](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações da documentação em outros idiomas são opcionais.\n"
+
+# This content is from "Contribution-Guide.md", line 93
+msgctxt "chunk_126AF33C"
+msgid "## Adding a Translation Engine\n"
+msgstr "## Adicionando um mecanismo de tradução\n"
+
+# This content is from "Contribution-Guide.md", line 95
+msgctxt "chunk_38A36DFF"
+msgid "1. Add a new translator configuration class in the `pdf2zh/config/translate_engine_model.py` file.\n2. Add an instance of the new translator configuration class to the `TRANSLATION_ENGINE_SETTING_TYPE` type alias in the same file.\n3. Add the new translator implementation class in the `pdf2zh/translator/translator_impl` folder.\n"
+msgstr "1. Adicione uma nova classe de configuração de tradutor no arquivo `pdf2zh/config/translate_engine_model.py`.\n2. Adicione uma instância da nova classe de configuração de tradutor ao alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` no mesmo arquivo.\n3. Adicione a nova classe de implementação de tradutor na pasta `pdf2zh/translator/translator_impl`.\n"
+
+# This content is from "Contribution-Guide.md", line 99
+msgctxt "chunk_5B4684E1"
+msgid "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n"
+msgstr "> [!NOTE]\n>\n> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.\n"
+
+# This content is from "Contribution-Guide.md", line 103
+msgctxt "chunk_7ED6230D"
+msgid "## Project Structure\n"
+msgstr "## Estrutura do Projeto\n"
+
+# This content is from "Contribution-Guide.md", line 105
+msgctxt "chunk_9004E6A3"
+msgid "- **config folder**: Configuration system.\n- **translator folder**: Translator-related implementations.\n- **gui.py**: Provides the GUI interface.\n- **const.py**: Some constants.\n- **main.py**: Provides the command-line tool.\n- **high_level.py**: High-level interfaces based on BabelDOC.\n- **http_api.py**: Provides HTTP API (not started).\n"
+msgstr "- **config folder**: Sistema de configuração.\n- **translator folder**: Implementações relacionadas ao tradutor.\n- **gui.py**: Fornece a interface gráfica do usuário.\n- **const.py**: Algumas constantes.\n- **main.py**: Fornece a ferramenta de linha de comando.\n- **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.\n- **http_api.py**: Fornece API HTTP (não iniciada).\n"
+
+# This content is from "Contribution-Guide.md", line 113
+msgctxt "chunk_0C087ADF"
+msgid "## Contact Us\n"
+msgstr "## Entre em contato conosco\n"
+
+# This content is from "Contribution-Guide.md", line 115
+msgctxt "chunk_2FB8F835"
+msgid "If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!\n"
+msgstr "Se você tiver alguma dúvida, por favor, envie feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!\n"
+
+# This content is from "Contribution-Guide.md", line 117
+msgctxt "chunk_C2A414AC"
+msgid "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
+msgstr "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) patrocina códigos mensais de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
+
+# This content is from "INSTALLATION_docker.md", line 1
+msgctxt "chunk_F3B96F2D"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **Docker** _(current)_\n"
+msgstr "[**Começar**](./getting-started.md) > **Instalação** > **Docker** _(atual)_\n"
+
+# This content is from "INSTALLATION_docker.md", line 5
+msgctxt "chunk_3EBE8361"
+msgid "### Install PDFMathTranslate via docker\n"
+msgstr "### Instalar PDFMathTranslate via docker\n"
+
+# This content is from "INSTALLATION_docker.md", line 7
+msgctxt "chunk_760A6888"
+msgid "#### What is docker?\n"
+msgstr "#### O que é docker?\n"
+
+# This content is from "INSTALLATION_docker.md", line 9
+msgctxt "chunk_41775DAE"
+msgid "[Docker](https://docs.docker.com/get-started/docker-overview/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.\n"
+msgstr "[Docker](https://docs.docker.com/get-started/docker-overview/) é uma plataforma aberta para desenvolver, enviar e executar aplicações. O Docker permite que você separe suas aplicações de sua infraestrutura para que você possa entregar software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia suas aplicações. Ao aproveitar as metodologias do Docker para enviar, testar e implantar código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo em produção.\n"
+
+# This content is from "INSTALLATION_docker.md", line 11
+msgctxt "chunk_6EBC627B"
+msgid "#### Installation\n"
+msgstr "#### Instalação\n"
+
+# This content is from "INSTALLATION_docker.md", line 13
+msgctxt "chunk_BA8550C2"
+msgid "<h4>1. Pull and run:</h4>\n"
+msgstr "<h4>1. Puxe e execute:</h4>\n"
+
+# This content is from "INSTALLATION_docker.md", line 20
+msgctxt "chunk_B1F3E7B5"
+msgid "> [!NOTE]\n> \n> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n"
+msgstr "> [!NOTE]\n> \n> - Se você não conseguir acessar o Docker Hub, tente a imagem no [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n"
+
+# This content is from "INSTALLATION_docker.md", line 29
+msgctxt "chunk_0222B95B"
+msgid "<h4>2. Enter this URL in your default browser to open the WebUI page:</h4>\n"
+msgstr "<h4>2. Insira este URL no seu navegador padrão para abrir a página WebUI:</h4>\n"
+
+# This content is from "INSTALLATION_docker.md", line 35
+msgctxt "chunk_B5C49A1E"
+msgid "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md)."
+msgstr "> [!NOTE]\n> Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md)."
+
+# This content is from "INSTALLATION_uv.md", line 1
+msgctxt "chunk_23005398"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **uv** _(current)_\n"
+msgstr "[**Começar**](./getting-started.md) > **Instalação** > **uv** _(atual)_\n"
+
+# This content is from "INSTALLATION_uv.md", line 5
+msgctxt "chunk_D43EE31C"
+msgid "### Install PDFMathTranslate via uv\n"
+msgstr "### Instalar PDFMathTranslate via uv\n"
+
+# This content is from "INSTALLATION_uv.md", line 7
+msgctxt "chunk_1BF9C99B"
+msgid "#### What is uv? How to install it?\n"
+msgstr "#### O que é uv? Como instalá-lo?\n"
+
+# This content is from "INSTALLATION_uv.md", line 9
+msgctxt "chunk_8963BEA0"
+msgid "uv is an extremely fast Python package and project manager, written in Rust.\n<br>\nTo install uv on your computer, please refer to [this article](https://docs.astral.sh/uv/getting-started/installation/).\n"
+msgstr "uv é um gerenciador de pacotes e projetos Python extremamente rápido, escrito em Rust.\n<br>\nPara instalar o uv no seu computador, consulte [este artigo](https://docs.astral.sh/uv/getting-started/installation/).\n"
+
+# This content is from "INSTALLATION_uv.md", line 15
+msgctxt "chunk_6EBC627B"
+msgid "#### Installation\n"
+msgstr "#### Instalação\n"
+
+# This content is from "INSTALLATION_uv.md", line 17
+msgctxt "chunk_05BD0E93"
+msgid "1. Python installed (3.10 <= version <= 3.12);\n\n2. Use the following command to use our package:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n"
+msgstr "1. Python instalado (versão 3.10 <= versão <= 3.12);\n\n2. Use o seguinte comando para utilizar nosso pacote:\n\n    ```bash\n    pip install uv\n    uv tool install --python 3.12 pdf2zh-next\n    ```\n"
+
+# This content is from "INSTALLATION_uv.md", line 26
+msgctxt "chunk_74F9EC5E"
+msgid "After installation, you can start translation via the **command line** or **WebUI**.\n"
+msgstr "Após a instalação, você pode começar a tradução via **linha de comando** ou **WebUI**.\n"
+
+# This content is from "INSTALLATION_uv.md", line 28
+msgctxt "chunk_747DC3A8"
+msgid "!!! Warning\n\n    If you see the error `command not found: pdf2zh_next` when running, please configure the environment variables as follows and try again:\n\n    === \"macOS and Linux\"\n\n        Add the following to your ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Then restart your terminal\n\n    === \"Windows\"\n\n        Enter the following in PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Then restart your terminal\n"
+msgstr "!!! Warning\n\n    Se você vir o erro `command not found: pdf2zh_next` ao executar, configure as variáveis de ambiente da seguinte forma e tente novamente:\n\n    === \"macOS e Linux\"\n\n        Adicione o seguinte ao seu ~/.zshrc:\n\n        ```console\n        export PATH=\"$PATH:/Users/Username/.local/bin\"\n        ```\n\n        Em seguida, reinicie seu terminal\n\n    === \"Windows\"\n\n        Digite o seguinte no PowerShell:\n\n        ```powershell\n        $env:Path = \"C:\\Users\\Username\\.local\\bin;$env:Path\"\n        ```\n\n        Em seguida, reinicie seu terminal\n"
+
+# This content is from "INSTALLATION_uv.md", line 52
+msgctxt "chunk_C86DFF6A"
+msgid "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).\n"
+msgstr "> [!NOTE]\n> Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).\n"
+
+# This content is from "INSTALLATION_winexe.md", line 1
+msgctxt "chunk_E5616440"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **Windows EXE** _(current)_\n"
+msgstr "[**Começar**](./getting-started.md) > **Instalação** > **Windows EXE** _(atual)_\n"
+
+# This content is from "INSTALLATION_winexe.md", line 5
+msgctxt "chunk_F372470F"
+msgid "### Install PDFMathTranslate via .exe file\n"
+msgstr "### Instalar o PDFMathTranslate via arquivo .exe\n"
+
+# This content is from "INSTALLATION_winexe.md", line 7
+msgctxt "chunk_D3A98932"
+msgid "***Step 1*** | Download `pdf2zh-<version>-with-assets-win64.zip` from [release page](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n"
+msgstr "***Passo 1*** | Baixe `pdf2zh-<version>-with-assets-win64.zip` da [página de lançamentos](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).\n"
+
+# This content is from "INSTALLATION_winexe.md", line 9
+msgctxt "chunk_29FE8C1D"
+msgid "> [!TIP]\n> **What is the difference between `pdf2zh-<version>-with-assets-win64.zip` and `pdf2zh-<version>-win64.zip`?**\n>\n> - If you are downloading and using PDFMathTranslate for the first time, it is recommended to download `pdf2zh-<version>-with-assets-win64.zip`.\n> - The `pdf2zh-<version>-with-assets-win64.zip` includes resource files (such as fonts and models) compared to `pdf2zh-<version>-win64.zip`.\n> - The version without assets will also dynamically download resources when running, but the download may fail due to network issues.\n"
+msgstr "> [!TIP]\n> **Qual é a diferença entre `pdf2zh-<version>-with-assets-win64.zip` e `pdf2zh-<version>-win64.zip`?**\n>\n> - Se você está baixando e usando o PDFMathTranslate pela primeira vez, é recomendado baixar `pdf2zh-<version>-with-assets-win64.zip`.\n> - O `pdf2zh-<version>-with-assets-win64.zip` inclui arquivos de recursos (como fontes e modelos) em comparação com `pdf2zh-<version>-win64.zip`.\n> - A versão sem recursos também irá baixar os recursos dinamicamente durante a execução, mas o download pode falhar devido a problemas de rede.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 16
+msgctxt "chunk_17427D5A"
+msgid "***Step 2*** | Unzip `pdf2zh-<version>-with-assets-win64.zip` and navigate `pdf2zh` folder. It takes a while to decompress, please be patient.\n\n***Step 3*** | Navigate `pdf2zh` folder, then Double-click `pdf2zh.exe`.\n"
+msgstr "***Passo 2*** | Descompacte `pdf2zh-<version>-with-assets-win64.zip` e navegue até a pasta `pdf2zh`. Leva um tempo para descompactar, por favor, seja paciente.\n\n***Passo 3*** | Navegue até a pasta `pdf2zh`, então clique duas vezes em `pdf2zh.exe`.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 20
+msgctxt "chunk_B4068DB4"
+msgid "> [!TIP]\n> **Cannot run the .exe file**\n>\n> If you have some problems running pdf2zh.exe, please install `https://aka.ms/vs/17/release/vc_redist.x64.exe` and try again.\n"
+msgstr "> [!TIP]\n> **Não é possível executar o arquivo .exe**\n>\n> Se você tiver algum problema ao executar o pdf2zh.exe, por favor instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 25
+msgctxt "chunk_68C037E0"
+msgid "***Step 4*** | A terminal will pop up after double-clicking the exe file. After about half a minute to a minute, a webpage will open in your default browser. If it does not happen, you can try to manually access `http://localhost:7860/`.\n"
+msgstr "***Passo 4*** | Um terminal será exibido após clicar duas vezes no arquivo .exe. Após cerca de meio minuto a um minuto, uma página da web será aberta no seu navegador padrão. Se isso não acontecer, você pode tentar acessar manualmente `http://localhost:7860/`.\n"
+
+# This content is from "INSTALLATION_winexe.md", line 27
+msgctxt "chunk_E9C46195"
+msgid "> [!NOTE]\n>\n> If you encounter any issues during use WebUI, please refer to [this webpage](./USAGE_webui.md).\n"
+msgstr "> [!NOTE]\n>\n> Se você encontrar qualquer problema durante o uso do WebUI, consulte [esta página](./USAGE_webui.md).\n"
+
+# This content is from "INSTALLATION_winexe.md", line 31
+msgctxt "chunk_703B946D"
+msgid "***Step 5*** | Enjoy!\n"
+msgstr "***Passo 5*** | Aproveite!\n"
+
+# This content is from "INSTALLATION_winexe.md", line 33
+msgctxt "chunk_BF8657F3"
+msgid "> [!TIP]\n> **You can use the .exe file via command line**\n>\n> Use the .exe file through command line as follows:\n>\n> - Launch your terminal and navigate to the folder containing the .exe file:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Call the .exe file:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> You can use other command line parameters as normal:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> If you need more information about command line usage, please refer to this article.\n"
+msgstr "> [!TIP]\n> **Você pode usar o arquivo .exe via linha de comando**\n>\n> Use o arquivo .exe através da linha de comando da seguinte forma:\n>\n> - Inicie seu terminal e navegue até a pasta que contém o arquivo .exe:\n>\n> ```bash\n> cd /path/pdf2zh_next/build\n> ```\n>\n> - Chame o arquivo .exe:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\"\n> ```\n>\n> Você pode usar outros parâmetros de linha de comando normalmente:\n>\n> ```bash\n> ./pdf2zh_next.exe \"document.pdf\" --lang-in en --lang-out ja\n> ```\n>\n> Se precisar de mais informações sobre o uso da linha de comando, consulte este artigo.\n"
+
+# This content is from "USAGE_commandline.md", line 1
+msgctxt "chunk_1C59CC51"
+msgid "[**Getting Started**](./getting-started.md) > **Usage** > **Command Line** _(current)_\n"
+msgstr "[**Começar**](./getting-started.md) > **Uso** > **Linha de comando** _(atual)_\n"
+
+# This content is from "USAGE_commandline.md", line 5
+msgctxt "chunk_9C810511"
+msgid "### Use PDFMathTranslate via command line\n"
+msgstr "### Usar PDFMathTranslate via linha de comando\n"
+
+# This content is from "USAGE_commandline.md", line 7
+msgctxt "chunk_30052F3A"
+msgid "#### Basic Usage\n"
+msgstr "#### Uso básico\n"
+
+# This content is from "USAGE_commandline.md", line 9
+msgctxt "chunk_ACC119CF"
+msgid "After Installation, please enter this command to translate your PDF.\n"
+msgstr "Após a Instalação, digite este comando para traduzir seu PDF.\n"
+
+# This content is from "USAGE_commandline.md", line 15
+msgctxt "chunk_744BFC94"
+msgid "> [!NOTE]\n> \n> If your pathname contains spaces, please enclose it in quotation marks.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n"
+msgstr "> [!NOTE]\n> \n> Se o caminho do arquivo contiver espaços, por favor, coloque-o entre aspas.\n> \n> ```bash\n> pdf2zh_next \"path with spaces/document.pdf\"\n> ```\n"
+
+# This content is from "USAGE_commandline.md", line 23
+msgctxt "chunk_6375D505"
+msgid "After execute translation, files generated in **current working directory**.\n"
+msgstr "Após executar a tradução, arquivos são gerados no **diretório de trabalho atual**.\n"
+
+# This content is from "USAGE_commandline.md", line 25
+msgctxt "chunk_1E0F4B41"
+msgid "> [!TIP]\n> **Where is my \"Current Working Directory\" ?**\n> Before entering a command in the terminal, you might see a pathname displayed in your terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> This directory is the \"*Current working directory*.\"\n> \n> If there is no pathname, try running this command in the terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> After executing this command, a pathname will be output. This pathname is the \"**Current working directory**\". The translated files will appear here.\n"
+msgstr "> [!TIP]\n> **Onde está o meu \"Diretório de Trabalho Atual\"?**\n> Antes de inserir um comando no terminal, você pode ver um nome de caminho exibido no seu terminal:\n> \n> ```powershell\n> PS C:\\Users\\XXX>\n> ```\n> \n> Este diretório é o \"*Diretório de trabalho atual*\".\n> \n> Se não houver um nome de caminho, tente executar este comando no terminal:\n> \n> ```bash\n> pwd\n> ```\n> \n> Após executar este comando, um nome de caminho será exibido. Este nome de caminho é o \"**Diretório de trabalho atual**\". Os arquivos traduzidos aparecerão aqui.\n"
+
+# This content is from "USAGE_commandline.md", line 45
+msgctxt "chunk_67DBD505"
+msgid "#### Advance Usage\n"
+msgstr "#### Opções avançadas\n"
+
+# This content is from "USAGE_commandline.md", line 47
+msgctxt "chunk_98AF19D9"
+msgid "For detailed explanations of additional command line parameters, please refer to [advanced usage](./../advanced/advanced.md).\n"
+msgstr "Para explicações detalhadas sobre parâmetros adicionais da linha de comando, consulte [opções avançadas](./../advanced/advanced.md).\n"
+
+# This content is from "USAGE_webui.md", line 1
+msgctxt "chunk_03FD0E12"
+msgid "[**Getting Started**](./getting-started.md) > **Installation** > **WebUI** _(current)_\n"
+msgstr "[**Começar**](./getting-started.md) > **Instalação** > **WebUI** _(atual)_\n"
+
+# This content is from "USAGE_webui.md", line 5
+msgctxt "chunk_EDC72645"
+msgid "### Use PDFMathTranslate via Webui\n"
+msgstr "### Usar PDFMathTranslate via Webui\n"
+
+# This content is from "USAGE_webui.md", line 7
+msgctxt "chunk_D75BD342"
+msgid "#### How to open the WebUI page:\n"
+msgstr "#### Como abrir a página WebUI:\n"
+
+# This content is from "USAGE_webui.md", line 9
+msgctxt "chunk_65E65B28"
+msgid "There are several methods to open the WebUI interface. If you are using **Windows**, please refer to [this article](./INSTALLATION_winexe.md);\n"
+msgstr "Existem vários métodos para abrir a interface WebUI. Se você estiver usando **Windows**, consulte [este artigo](./INSTALLATION_winexe.md);\n"
+
+# This content is from "USAGE_webui.md", line 11
+msgctxt "chunk_2A12C8AD"
+msgid "1. Python installed (3.10 <= version <= 3.12)\n\n2. Install our package:\n\n3. Start using in browser:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. If your browswer has not been started automatically, goto\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Drop the PDF file into the window and click `Translate`.\n"
+msgstr "1. Python instalado (versão entre 3.10 e 3.12)\n\n2. Instale nosso pacote:\n\n3. Comece a usar no navegador:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Se o seu navegador não tiver sido iniciado automaticamente, acesse\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Arraste o arquivo `PDF` para a janela e clique em `Translate`.\n"
+
+# This content is from "USAGE_webui.md", line 32
+msgctxt "chunk_2FDC0409"
+msgid "### Environment Variables\n"
+msgstr "### Variáveis de Ambiente\n"
+
+# This content is from "USAGE_webui.md", line 34
+msgctxt "chunk_7865A8EB"
+msgid "You can set the source and target languages using environment variables:\n"
+msgstr "Você pode definir os idiomas de origem e destino usando variáveis de ambiente:\n"
+
+# This content is from "USAGE_webui.md", line 36
+msgctxt "chunk_104D91B6"
+msgid "- `PDF2ZH_LANG_FROM`: Sets the source language. Defaults to \"English\".\n- `PDF2ZH_LANG_TO`: Sets the target language. Defaults to \"Simplified Chinese\".\n"
+msgstr "- `PDF2ZH_LANG_FROM`: Define o idioma de origem. O padrão é \"English\".\n- `PDF2ZH_LANG_TO`: Define o idioma de destino. O padrão é \"Simplified Chinese\".\n"
+
+# This content is from "USAGE_webui.md", line 39
+msgctxt "chunk_EEBEC547"
+msgid "## Preview\n"
+msgstr "## Visualização\n"
+
+# This content is from "USAGE_webui.md", line 44
+msgctxt "chunk_742C5FE6"
+msgid "## Maintainance\n"
+msgstr "## Manutenção\n"
+
+# This content is from "USAGE_webui.md", line 46
+msgctxt "chunk_3D5EA421"
+msgid "GUI maintained by [Rongxin](https://github.com/reycn)"
+msgstr "### TRANSLATION\n\nGUI mantido por [Rongxin](https://github.com/reycn)"
+
+# This content is from "getting-started.md", line 1
+msgctxt "chunk_451D1544"
+msgid "### Getting Started\n"
+msgstr "### Começar\n"
+
+# This content is from "getting-started.md", line 3
+msgctxt "chunk_5534569E"
+msgid "PDFMathTranslate is a powerful PDF translation tool. You can install and start using this tool in various ways.\n"
+msgstr "PDFMathTranslate é uma poderosa ferramenta de tradução de PDF. Você pode instalar e começar a usar esta ferramenta de várias maneiras.\n"
+
+# This content is from "getting-started.md", line 7
+msgctxt "chunk_36D1B1ED"
+msgid "### Installation\n"
+msgstr "### Instalação\n"
+
+# This content is from "getting-started.md", line 9
+msgctxt "chunk_0CAD1479"
+msgid "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recommand for Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>Recommand for macOS</small>\n"
+msgstr "1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>Recomendado para Windows</small>\n2. [**Docker**](./INSTALLATION_docker.md) <small>Recomendado para Linux</small>\n3. [**uv** (um gerenciador de pacotes Python)](./INSTALLATION_uv.md) <small>Recomendado para macOS</small>\n"
+
+# This content is from "getting-started.md", line 15
+msgctxt "chunk_047D6F23"
+msgid "### Usage\n"
+msgstr "### Uso\n"
+
+# This content is from "getting-started.md", line 17
+msgctxt "chunk_3E32AB82"
+msgid "1. [Using **WebUI**](./USAGE_webui.md)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](./USAGE_commandline.md)\n"
+msgstr "1. [Usando **WebUI**](./USAGE_webui.md)  \n2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)  \n3. [Usando **Linha de comando**](./USAGE_commandline.md)\n"
+
+# This content is from "supported_languages.md", line 1
+msgctxt "chunk_C7A7730D"
+msgid "> [!NOTE]\n> Please [click here](https://funstory-ai.github.io/BabelDOC/supported_languages/) to navigate to the *BabelDOC Supported Language* page. The information there also applies to pdf2zh."
+msgstr "> [!NOTE]\n> Por favor, [clique aqui](https://funstory-ai.github.io/BabelDOC/supported_languages/) para navegar até a página *Idiomas suportados pelo BabelDOC*. As informações lá também se aplicam ao pdf2zh."

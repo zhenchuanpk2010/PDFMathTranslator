@@ -32,25 +32,25 @@
 
 </div>
 
-Traduction d'articles scientifiques PDF et comparaison bilingue.
+Traduction de documents scientifiques PDF et comparaison bilingue.
 
 - 📊 Préserve les formules, les graphiques, la table des matières et les annotations _([aperçu](#aperçu))_.
 - 🌐 Prend en charge [plusieurs langues](https://pdf2zh-next.com/supported_languages.html) et divers [services de traduction](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Propose un [outil en ligne de commande](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), une [interface utilisateur interactive](https://pdf2zh-next.com/getting-started/USAGE_webui.html) et [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html).
 
-N'hésitez pas à fournir vos retours dans les [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou le [Groupe Telegram](https://t.me/+Z9_SgnxmsmA5NzBl).
+N'hésitez pas à fournir des commentaires dans [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
 
 Pour plus de détails sur la manière de contribuer, veuillez consulter le [Guide de contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="updates">Mises à jour</h2>
+<h2 id="mises-à-jour">Mises à jour</h2>
 
 - [4 juin 2025] Le projet est renommé et déplacé vers [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (par [@awwaawwa](https://github.com/awwaawwa))
 - [3 mars 2025] Support expérimental pour le nouveau backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI ajouté comme option expérimentale (par [@awwaawwa](https://github.com/awwaawwa))
-- [22 février 2025] Meilleure CI de release et exe windows-amd64 bien empaqueté (par [@awwaawwa](https://github.com/awwaawwa))
-- [24 décembre 2024] Le traducteur prend désormais en charge les modèles locaux sur [Xinference](https://github.com/xorbitsai/inference) _(par [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [19 décembre 2024] Les documents non-PDF/A sont désormais pris en charge avec `-cp` _(par [@reycn](https://github.com/reycn))_
+- [22 février 2025] Meilleure CI de release et exe windows-amd64 bien packagé (par [@awwaawwa](https://github.com/awwaawwa))
+- [24 décembre 2024] Le traducteur supporte désormais les modèles locaux sur [Xinference](https://github.com/xorbitsai/inference) _(par [@imClumsyPanda](https://github.com/imClumsyPanda))_
+- [19 décembre 2024] Les documents non-PDF/A sont désormais supportés en utilisant `-cp` _(par [@reycn](https://github.com/reycn))_
 - [13 décembre 2024] Support supplémentaire pour le backend par _(par [@YadominJinta](https://github.com/YadominJinta))_
-- [10 décembre 2024] Le traducteur prend désormais en charge les modèles OpenAI sur Azure _(par [@yidasanqian](https://github.com/yidasanqian))_
+- [10 décembre 2024] Le traducteur supporte désormais les modèles OpenAI sur Azure _(par [@yidasanqian](https://github.com/yidasanqian))_
 
 <h2 id="preview">Aperçu</h2>
 
@@ -78,19 +78,19 @@ Notez que les ressources de calcul de la démo sont limitées, veuillez donc év
 
 ### Installation
 
-1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommandé pour Windows</small>  
-2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommandé pour Linux</small>  
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommandé pour Windows</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommandé pour Linux</small>
 3. [**uv** (un gestionnaire de paquets Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommandé pour macOS</small>
 
 ---
 
 ### Utilisation
 
-1. [Utilisation de l'**interface Web**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)  
-2. [Utilisation du **plugin Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programme tiers)  
-3. [Utilisation de la **ligne de commande**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
+1. [Utilisation de **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
+2. [Utilisation du **Plugin Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programme tiers)
+3. [Utilisation de la **Ligne de commande**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-Pour différents cas d'utilisation, nous proposons des méthodes distinctes pour utiliser notre programme. Consultez [cette page](./commencer/commencer.md) pour plus d'informations.
+Pour différents cas d'utilisation, nous proposons des méthodes distinctes pour utiliser notre programme. Consultez [cette page](./getting-started/getting-started.md) pour plus d'informations.
 
 <h2 id="usage">Options avancées</h2>
 
@@ -131,9 +131,9 @@ Si vous ne savez pas quel code utiliser pour traduire dans la langue dont vous a
 
 <h2 id="remerciements">Remerciements</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet, voir les détails dans : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet. Pour plus de détails, consultez : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet
+- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet, alimenté par des modèles de langage de grande taille (LLMs).
 
 - Version 1.x : [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -156,9 +156,11 @@ Si vous ne savez pas quel code utiliser pour traduire dans la langue dont vous a
 
 - [Journalisation enrichie avec multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
+- Documentation i18n utilisant Weblate : [Weblate](https://weblate.org/)
+
 <h2 id="conduct">Avant de soumettre votre code</h2>
 
-Nous encourageons la participation active des contributeurs pour améliorer pdf2zh. Avant de soumettre votre code, veuillez consulter notre [Code de conduite](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) et notre [Guide de contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Nous accueillons favorablement la participation active des contributeurs pour améliorer pdf2zh. Avant de soumettre votre code, veuillez consulter notre [Code de conduite](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) et notre [Guide de contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="contrib">Contributeurs</h2>
 

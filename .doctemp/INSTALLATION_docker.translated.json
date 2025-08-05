@@ -1,0 +1,240 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/INSTALLATION_docker.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_F3B96F2D",
+      "chunk_type": "paragraph",
+      "original_content": "[**Getting Started**](./getting-started.md) > **Installation** > **Docker** _(current)_\n",
+      "start_line_no": 1,
+      "translations": {
+        "de": "[**Erste Schritte**](./getting-started.md) > **Installation** > **Docker** _(aktuell)_\n",
+        "pt": "[**Começar**](./getting-started.md) > **Instalação** > **Docker** _(atual)_\n",
+        "it": "[**Iniziare**](./getting-started.md) > **Installazione** > **Docker** _(current)_\n",
+        "es": "[**Empezar**](./getting-started.md) > **Instalación** > **Docker** _(actual)_\n",
+        "fr": "[**Commencer**](./getting-started.md) > **Installation** > **Docker** _(current)_\n",
+        "ko": "[**시작하기**](./getting-started.md) > **설치** > **Docker** _(현재)_\n",
+        "ja": "[**開始**](./getting-started.md) > **インストール** > **Docker** _(current)_\n",
+        "zh": "[**开始使用**](./getting-started.md) > **如何安装** > **Docker** _(当前)_\n",
+        "ru": "[**Начало работы**](./getting-started.md) > **Установка** > **Docker** _(текущая)_\n",
+        "zh_TW": "[**開始使用**](./getting-started.md) > **如何安裝** > **Docker** _(current)_\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_7609554c",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3EBE8361",
+      "chunk_type": "header",
+      "original_content": "### Install PDFMathTranslate via docker\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh_TW": "### 透過 docker 安裝 PDFMathTranslate\n",
+        "zh": "### 通过 docker 安装 PDFMathTranslate\n",
+        "es": "### Instalar PDFMathTranslate mediante docker\n",
+        "ko": "### 도커를 통해 PDFMathTranslate 설치하기\n",
+        "it": "### Installa PDFMathTranslate tramite docker\n",
+        "ja": "### docker で PDFMathTranslate をインストールする\n",
+        "fr": "### Installer PDFMathTranslate via docker\n",
+        "pt": "### Instalar PDFMathTranslate via docker\n",
+        "de": "### Installieren Sie PDFMathTranslate über Docker\n",
+        "ru": "### Установка PDFMathTranslate через docker\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_760A6888",
+      "chunk_type": "header",
+      "original_content": "#### What is docker?\n",
+      "start_line_no": 7,
+      "translations": {
+        "zh_TW": "#### 什麼是 docker？\n",
+        "ko": "#### Docker란 무엇인가?\n",
+        "pt": "#### O que é docker?\n",
+        "ru": "#### Что такое Docker?\n",
+        "zh": "#### 什么是 docker？\n",
+        "it": "#### Cos'è Docker?\n",
+        "es": "#### ¿Qué es docker?\n",
+        "de": "#### Was ist Docker?\n",
+        "fr": "#### Qu'est-ce que Docker ?\n",
+        "ja": "#### Docker とは何ですか？\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_41775DAE",
+      "chunk_type": "paragraph",
+      "original_content": "[Docker](https://docs.docker.com/get-started/docker-overview/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code, you can significantly reduce the delay between writing code and running it in production.\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "[Docker](https://docs.docker.com/get-started/docker-overview/) 是一个用于开发、交付和运行应用程序的开放平台。Docker 使您能够将应用程序与基础设施分离，从而快速交付软件。借助 Docker，您可以用管理应用程序的方式来管理基础设施。通过利用 Docker 的代码交付、测试和部署方法，您可以显著减少编写代码与在生产环境中运行代码之间的延迟。\n",
+        "fr": "[Docker](https://docs.docker.com/get-started/docker-overview/) est une plateforme open source pour développer, livrer et exécuter des applications. Docker vous permet de séparer vos applications de votre infrastructure afin de livrer des logiciels rapidement. Avec Docker, vous pouvez gérer votre infrastructure de la même manière que vous gérez vos applications. En tirant parti des méthodologies de Docker pour livrer, tester et déployer du code, vous pouvez réduire considérablement le délai entre l'écriture du code et son exécution en production.\n",
+        "es": "[Docker](https://docs.docker.com/get-started/docker-overview/) es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones. Docker te permite separar tus aplicaciones de tu infraestructura para que puedas entregar software rápidamente. Con Docker, puedes gestionar tu infraestructura de la misma manera que gestionas tus aplicaciones. Al aprovechar las metodologías de Docker para enviar, probar e implementar código, puedes reducir significativamente el retraso entre escribir código y ejecutarlo en producción.\n",
+        "zh_TW": "[Docker](https://docs.docker.com/get-started/docker-overview/) 是一個用於開發、運送和執行應用程式的開放平台。Docker 能讓您將應用程式與基礎架構分離，從而快速交付軟體。透過 Docker，您可以用管理應用程式的相同方式來管理基礎架構。藉由利用 Docker 的運送、測試和部署程式碼方法，您可以大幅縮短編寫程式碼與在生產環境中執行之間的延遲。\n",
+        "ko": "[Docker](https://docs.docker.com/get-started/docker-overview/)는 애플리케이션을 개발, 배송 및 실행하기 위한 오픈 플랫폼입니다. Docker를 사용하면 애플리케이션을 인프라와 분리하여 소프트웨어를 빠르게 제공할 수 있습니다. Docker를 통해 인프라를 애플리케이션과 동일한 방식으로 관리할 수 있습니다. Docker의 코드 배송, 테스트 및 배포 방법론을 활용하면 코드 작성과 프로덕션 환경에서 실행 사이의 지연 시간을 크게 줄일 수 있습니다.\n",
+        "ru": "[Docker](https://docs.docker.com/get-started/docker-overview/) — это открытая платформа для разработки, доставки и запуска приложений. Docker позволяет отделить ваши приложения от инфраструктуры, чтобы вы могли быстро доставлять программное обеспечение. С помощью Docker вы можете управлять своей инфраструктурой так же, как и приложениями. Используя преимущества методологий Docker для доставки, тестирования и развертывания кода, вы можете значительно сократить задержку между написанием кода и его запуском в производственной среде.\n",
+        "pt": "[Docker](https://docs.docker.com/get-started/docker-overview/) é uma plataforma aberta para desenvolver, enviar e executar aplicações. O Docker permite que você separe suas aplicações de sua infraestrutura para que você possa entregar software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia suas aplicações. Ao aproveitar as metodologias do Docker para enviar, testar e implantar código, você pode reduzir significativamente o atraso entre escrever o código e executá-lo em produção.\n",
+        "ja": "[Docker](https://docs.docker.com/get-started/docker-overview/) は、アプリケーションの開発、配布、実行のためのオープンプラットフォームです。Docker を使用すると、アプリケーションをインフラストラクチャから分離できるため、ソフトウェアを迅速に提供できます。Docker では、アプリケーションを管理するのと同じ方法でインフラストラクチャを管理できます。Docker のコード配布、テスト、デプロイの方法論を活用することで、コードの記述から本番環境での実行までの遅延を大幅に削減できます。\n",
+        "de": "[Docker](https://docs.docker.com/get-started/docker-overview/) ist eine offene Plattform für die Entwicklung, den Versand und die Ausführung von Anwendungen. Docker ermöglicht es Ihnen, Ihre Anwendungen von Ihrer Infrastruktur zu trennen, sodass Sie Software schnell bereitstellen können. Mit Docker können Sie Ihre Infrastruktur auf die gleiche Weise verwalten wie Ihre Anwendungen. Durch die Nutzung von Dockers Methoden für den Versand, das Testen und die Bereitstellung von Code können Sie die Verzögerung zwischen dem Schreiben von Code und dessen Ausführung in der Produktion erheblich reduzieren.\n",
+        "it": "[Docker](https://docs.docker.com/get-started/docker-overview/) è una piattaforma open per lo sviluppo, la distribuzione e l'esecuzione di applicazioni. Docker ti consente di separare le tue applicazioni dalla tua infrastruttura in modo da poter fornire software rapidamente. Con Docker, puoi gestire la tua infrastruttura nello stesso modo in cui gestisci le tue applicazioni. Sfruttando le metodologie di Docker per la distribuzione, il testing e l'implementazione del codice, puoi ridurre significativamente il ritardo tra la scrittura del codice e la sua esecuzione in produzione.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_6EBC627B",
+      "chunk_type": "header",
+      "original_content": "#### Installation\n",
+      "start_line_no": 11,
+      "translations": {
+        "zh_TW": "#### 如何安裝\n",
+        "ru": "#### Установка\n",
+        "de": "#### Installation\n",
+        "it": "#### Installazione\n",
+        "fr": "#### Installation\n",
+        "ko": "#### 설치\n",
+        "pt": "#### Instalação\n",
+        "es": "#### Instalación\n",
+        "ja": "#### インストール\n",
+        "zh": "#### 如何安装\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_BA8550C2",
+      "chunk_type": "paragraph",
+      "original_content": "<h4>1. Pull and run:</h4>\n",
+      "start_line_no": 13,
+      "translations": {
+        "pt": "<h4>1. Puxe e execute:</h4>\n",
+        "zh_TW": "<h4>1. 拉取並執行：</h4>\n",
+        "it": "<h4>1. Esegui il pull e avvia:</h4>\n",
+        "de": "<h4>1. Herunterladen und ausführen:</h4>\n",
+        "es": "<h4>1. Descargar y ejecutar:</h4>\n",
+        "zh": "<h4>1. 拉取并运行：</h4>\n",
+        "ko": "<h4>1. 풀하고 실행하기:</h4>\n",
+        "ja": "<h4>1. プルして実行:</h4>\n",
+        "fr": "<h4>1. Tirez et exécutez :</h4>\n",
+        "ru": "<h4>1. Загрузка и запуск:</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_D49885F5",
+      "chunk_type": "code_block",
+      "original_content": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+      "start_line_no": 15,
+      "translations": {
+        "zh": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "zh_TW": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "ja": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "ko": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "ru": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "es": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "fr": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "de": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "it": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n",
+        "pt": "```bash\ndocker pull awwaawwa/pdfmathtranslate-next\ndocker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next\n```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B1F3E7B5",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n> \n> - If you cannot access Docker Hub, please try the image on [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+      "start_line_no": 20,
+      "translations": {
+        "it": "> [!NOTE]\n> \n> - Se non riesci ad accedere a Docker Hub, prova l'immagine su [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "ja": "> [!NOTE]\n> \n> - Docker Hub にアクセスできない場合は、[GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) のイメージをお試しください。\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "pt": "> [!NOTE]\n> \n> - Se você não conseguir acessar o Docker Hub, tente a imagem no [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "ko": "> [!NOTE]\n> \n> - Docker Hub에 접근할 수 없는 경우, [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate)의 이미지를 사용해 보세요.\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "de": "> [!NOTE]\n> \n> - Wenn Sie nicht auf Docker Hub zugreifen können, versuchen Sie bitte das Image auf [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "zh": "> [!NOTE]\n> \n> - 如果无法访问 Docker Hub，请尝试使用 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 上的镜像。\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "zh_TW": "> [!NOTE]\n> \n> - 如果您無法存取 Docker Hub，請嘗試使用 [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate) 上的映像檔。\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "fr": "> [!NOTE]\n> \n> - Si vous ne pouvez pas accéder à Docker Hub, essayez l'image sur [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "ru": "> [!NOTE]\n> \n> - Если у вас нет доступа к Docker Hub, попробуйте использовать образ на [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n",
+        "es": "> [!NOTE]\n> \n> - Si no puedes acceder a Docker Hub, por favor prueba la imagen en [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).\n> \n> ```bash\n> docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> docker run -d -p 7860:7860 ghcr.io/PDFMathTranslate/PDFMathTranslate-next\n> ```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_0222B95B",
+      "chunk_type": "paragraph",
+      "original_content": "<h4>2. Enter this URL in your default browser to open the WebUI page:</h4>\n",
+      "start_line_no": 29,
+      "translations": {
+        "zh_TW": "<h4>2. 在您的預設瀏覽器中輸入此 URL 以開啟 WebUI 頁面：</h4>\n",
+        "es": "<h4>2. Ingresa esta URL en tu navegador predeterminado para abrir la página WebUI:</h4>\n",
+        "ko": "<h4>2. 기본 브라우저에서 이 URL을 입력하여 WebUI 페이지를 엽니다:</h4>\n",
+        "pt": "<h4>2. Insira este URL no seu navegador padrão para abrir a página WebUI:</h4>\n",
+        "ja": "<h4>2. デフォルトのブラウザでこの URL を入力して WebUI ページを開きます：</h4>\n",
+        "zh": "<h4>2. 在默认浏览器中输入此 URL 以打开 WebUI 页面：</h4>\n",
+        "de": "<h4>2. Geben Sie diese URL in Ihrem Standardbrowser ein, um die WebUI-Seite zu öffnen:</h4>\n",
+        "ru": "<h4>2. Введите этот URL в вашем браузере по умолчанию, чтобы открыть страницу WebUI:</h4>\n",
+        "it": "<h4>2. Inserisci questo URL nel tuo browser predefinito per aprire la pagina WebUI:</h4>\n",
+        "fr": "<h4>2. Entrez cette URL dans votre navigateur par défaut pour ouvrir la page WebUI :</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_29F610F5",
+      "chunk_type": "code_block",
+      "original_content": "```\nhttp://localhost:7860/\n```\n",
+      "start_line_no": 31,
+      "translations": {
+        "zh": "```\nhttp://localhost:7860/\n```\n",
+        "zh_TW": "```\nhttp://localhost:7860/\n```\n",
+        "ja": "```\nhttp://localhost:7860/\n```\n",
+        "ko": "```\nhttp://localhost:7860/\n```\n",
+        "ru": "```\nhttp://localhost:7860/\n```\n",
+        "es": "```\nhttp://localhost:7860/\n```\n",
+        "fr": "```\nhttp://localhost:7860/\n```\n",
+        "de": "```\nhttp://localhost:7860/\n```\n",
+        "it": "```\nhttp://localhost:7860/\n```\n",
+        "pt": "```\nhttp://localhost:7860/\n```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B5C49A1E",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n> If you encounter any issues during use WebUI, please refer to [Usage --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> If you encounter any issues during use command line, please refer to [Usage --> Command Line](./USAGE_commandline.md).",
+      "start_line_no": 35,
+      "translations": {
+        "zh": "> [!NOTE]\n> 如果在使用 WebUI 时遇到任何问题，请参考 [如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用 命令行 时遇到任何问题，请参考 [如何使用 --> 命令行](./USAGE_commandline.md)。",
+        "ko": "> [!NOTE]\n> WebUI 사용 중 문제가 발생하면 [사용법 --> WebUI](./USAGE_webui.md)를 참조하세요.\n\n> [!NOTE]\n> 명령줄 사용 중 문제가 발생하면 [사용법 --> 명령줄](./USAGE_commandline.md)를 참조하세요.",
+        "es": "> [!NOTE]\n> Si encuentras algún problema al usar WebUI, consulta [Uso --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Si encuentras algún problema al usar la línea de comandos, consulta [Uso --> Línea de comandos](./USAGE_commandline.md).",
+        "it": "> [!NOTE]\n> Se riscontri problemi durante l'utilizzo di WebUI, consulta [Utilizzo --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Se riscontri problemi durante l'utilizzo della riga di comando, consulta [Utilizzo --> Riga di comando](./USAGE_commandline.md).",
+        "fr": "> [!NOTE]\n> Si vous rencontrez des problèmes lors de l'utilisation de WebUI, veuillez consulter [Utilisation --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Si vous rencontrez des problèmes lors de l'utilisation de la ligne de commande, veuillez consulter [Utilisation --> Ligne de commande](./USAGE_commandline.md).",
+        "zh_TW": "> [!NOTE]\n> 如果在使用 WebUI 時遇到任何問題，請參考 [如何使用 --> WebUI](./USAGE_webui.md)。\n\n> [!NOTE]\n> 如果在使用 命令行 時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。",
+        "de": "> [!NOTE]\n> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Wenn Sie Probleme bei der Verwendung der Kommandozeile haben, lesen Sie bitte [Verwendung --> Kommandozeile](./USAGE_commandline.md).",
+        "ja": "> [!NOTE]\n> WebUI の使用中に問題が発生した場合は、[使い方 --> WebUI](./USAGE_webui.md) を参照してください。\n\n> [!NOTE]\n> コマンドラインの使用中に問題が発生した場合は、[使い方 --> コマンドライン](./USAGE_commandline.md) を参照してください。",
+        "ru": "> [!NOTE]\n> Если у вас возникли проблемы при использовании WebUI, обратитесь к разделу [Использование --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Если у вас возникли проблемы при использовании командной строки, обратитесь к разделу [Использование --> Командная строка](./USAGE_commandline.md).",
+        "pt": "> [!NOTE]\n> Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).\n\n> [!NOTE]\n> Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md)."
+      }
+    },
+    {
+      "chunk_id": "chunk_0B40829E",
+      "chunk_type": "html_comment",
+      "original_content": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+      "start_line_no": 40,
+      "translations": {
+        "zh": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "zh_TW": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "ja": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "ko": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "ru": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "es": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "fr": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "de": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "it": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->",
+        "pt": "<!-- \n#### For docker deployment on cloud service:\n\n<div>\n<a href=\"https://www.heroku.com/deploy?template=https://github.com/PDFMathTranslate/PDFMathTranslate-next\">\n  <img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy\" height=\"26\"></a>\n<a href=\"https://render.com/deploy\">\n  <img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n<a href=\"https://zeabur.com/templates/5FQIGX?referralCode=reycn\">\n  <img src=\"https://zeabur.com/button.svg\" alt=\"Deploy on Zeabur\" height=\"26\"></a>\n<a href=\"https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/PDFMathTranslate/PDFMathTranslate-next&branch=main&name=pdf-math-translate\">\n  <img src=\"https://www.koyeb.com/static/images/deploy/button.svg\" alt=\"Deploy to Koyeb\" height=\"26\"></a>\n</div>\n\n-->"
+      }
+    }
+  ]
+}

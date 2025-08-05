@@ -6,16 +6,16 @@
 >
 > Bitte reichen Sie keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation ein!
 
-Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, um die folgenden Richtlinien zu lesen, damit Ihr Beitrag problemlos akzeptiert werden kann.
+Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, die folgenden Richtlinien zu lesen, um sicherzustellen, dass Ihr Beitrag problemlos akzeptiert werden kann.
 
 ## Nicht akzeptierte Beitragsarten
 
-1. Dokumentationsinternationalisierung/-übersetzung
-2. Beiträge zur Kerninfrastruktur, wie z.B. HTTP-API usw.
-3. Probleme, die explizit als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) und im [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) Repository).
-4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.
-5. Beitrag zur Dokumentation, aber Änderung der Dokumentation in anderen Sprachen als Englisch.
-6. PRs, die eine Änderung von PDF-Dateien erfordern.
+1. Dokumentationsinternationalisierung/-übersetzung  
+2. Beiträge zur Kerninfrastruktur, wie z.B. HTTP-API, etc.  
+3. Issues, die explizit als "No help needed" markiert sind (einschließlich Issues in den Repositories [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) und [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
+4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.  
+5. Beiträge zur Dokumentation, aber Änderungen an der Dokumentation in anderen Sprachen als Englisch.  
+6. PRs, die Änderungen an PDF-Dateien erfordern.
 
 Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
@@ -34,7 +34,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
    git commit -m "<semantic commit message>"
    ```
 5. Pushen Sie zu Ihrem Repository: `git push origin feature/<feature-name>`.
-6. Erstellen Sie einen PR auf GitHub, geben Sie eine detaillierte Beschreibung an und fordern Sie eine Überprüfung von [@awwaawwa](https://github.com/awwaawwa) an.
+6. Erstellen Sie einen PR auf GitHub, geben Sie eine detaillierte Beschreibung an und bitten Sie [@awwaawwa](https://github.com/awwaawwa) um eine Überprüfung.
 7. Stellen Sie sicher, dass alle automatisierten Prüfungen bestanden werden.
 
 > [!TIP]
@@ -45,16 +45,16 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 >
 > Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen der zugehörigen Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
 
-## Grundlegende Anforderungen
+## Grundvoraussetzungen
 
 <h4 id="sop">1. Arbeitsablauf</h4>
 
-   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.
-   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.
+   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.  
+   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.  
    - Wenn Ihr PR die automatisierten Prüfungen nicht besteht (angezeigt durch `checks failed` und ein rotes Kreuz), überprüfen Sie bitte die entsprechenden `details` und passen Sie Ihre Einreichung an, um sicherzustellen, dass der neue PR alle Prüfungen besteht.
 
 
-<h4 id="entwicklung&test">2. Entwicklung und Test</h4>
+<h4 id="dev&test">2. Entwicklung und Test</h4>
 
    - Verwenden Sie den Befehl `pip install -e .` für Entwicklung und Tests.
 
@@ -79,7 +79,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
    - Verwenden Sie [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), zum Beispiel: `feat(translator): add openai`.
 
 
-<h4 id="codestyle">7. Programmierstil</h4>
+<h4 id="codestyle">7. Codierungsstil</h4>
 
    - Stellen Sie sicher, dass Ihr eingereichter Code grundlegenden Codierungsstilstandards entspricht.
    - Verwenden Sie entweder snake_case oder camelCase für die Benennung von Variablen.
@@ -87,8 +87,8 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 <h4 id="doctypo">8. Dokumentationsformatierung</h4>
 
-   - Für die Formatierung von `README.md` folgen Sie bitte den [Chinesischen Richtlinien für Texterstellung](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Stellen Sie sicher, dass sowohl die englische als auch die chinesische Dokumentation immer auf dem neuesten Stand sind; Aktualisierungen der Dokumentation in anderen Sprachen sind optional.
+   - Für die Formatierung von `README.md` folgen Sie bitte den [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).
+   - Stellen Sie sicher, dass sowohl die englische als auch die chinesische Dokumentation stets auf dem neuesten Stand sind; Aktualisierungen der Dokumentation in anderen Sprachen sind optional.
 
 ## Hinzufügen einer Übersetzungsmaschine
 
@@ -104,19 +104,19 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 - **config folder**: Konfigurationssystem.
 - **translator folder**: Implementierungen im Zusammenhang mit dem Übersetzer.
-- **gui.py**: Stellt die GUI-Schnittstelle bereit.
+- **gui.py**: Bietet die GUI-Schnittstelle.
 - **const.py**: Einige Konstanten.
-- **main.py**: Stellt das Kommandozeilen-Tool bereit.
+- **main.py**: Bietet das Kommandozeilen-Tool.
 - **high_level.py**: Hochrangige Schnittstellen basierend auf BabelDOC.
-- **http_api.py**: Stellt HTTP-API bereit (nicht gestartet).
+- **http_api.py**: Bietet HTTP-API (nicht gestartet).
 
 ## Kontaktieren Sie uns
 
-Wenn Sie Fragen haben, senden Sie bitte Feedback über ein Issue oder treten Sie unserer Telegram-Gruppe bei. Vielen Dank für Ihren Beitrag!
+Wenn Sie Fragen haben, können Sie Feedback über Issue einreichen oder unserer Telegram-Gruppe beitreten. Vielen Dank für Ihren Beitrag!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschaftscodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschaftscodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [BabelDOC/PDFMathTranslate Beitragsbelohnungsregeln](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

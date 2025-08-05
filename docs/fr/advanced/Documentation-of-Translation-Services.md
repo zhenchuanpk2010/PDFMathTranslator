@@ -2,9 +2,9 @@
 
 ---
 
-### Affichage des services de traduction disponibles via la Ligne de commande
+### Visualisation des services de traduction disponibles via la ligne de commande
 
-Vous pouvez vérifier les services de traduction disponibles et leur utilisation en affichant le message d'aide dans la Ligne de commande.
+Vous pouvez confirmer les services de traduction disponibles et leur utilisation en affichant le message d'aide dans la ligne de commande.
 
 ```bash
 pdf2zh_next -h

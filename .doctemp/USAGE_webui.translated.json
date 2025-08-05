@@ -1,0 +1,294 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/getting-started/USAGE_webui.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_03FD0E12",
+      "chunk_type": "paragraph",
+      "original_content": "[**Getting Started**](./getting-started.md) > **Installation** > **WebUI** _(current)_\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh_TW": "[**開始使用**](./getting-started.md) > **如何安裝** > **WebUI** _(目前頁面)_\n",
+        "es": "[**Empezar**](./getting-started.md) > **Instalación** > **WebUI** _(actual)_\n",
+        "ru": "[**Начало работы**](./getting-started.md) > **Установка** > **WebUI** _(текущая)_\n",
+        "ko": "[**시작하기**](./getting-started.md) > **설치** > **WebUI** _(현재)_\n",
+        "pt": "[**Começar**](./getting-started.md) > **Instalação** > **WebUI** _(atual)_\n",
+        "fr": "[**Commencer**](./getting-started.md) > **Installation** > **WebUI** _(actuel)_\n",
+        "ja": "[**開始**](./getting-started.md) > **インストール** > **WebUI** _(現在)_\n",
+        "zh": "[**开始使用**](./getting-started.md) > **如何安装** > **WebUI** _(当前)_\n",
+        "de": "[**Erste Schritte**](./getting-started.md) > **Installation** > **WebUI** _(aktuell)_\n",
+        "it": "[**Iniziare**](./getting-started.md) > **Installazione** > **WebUI** _(current)_\n"
+      }
+    },
+    {
+      "chunk_id": "h_rule_00301744",
+      "chunk_type": "h_rule",
+      "original_content": "---\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "---\n",
+        "zh_TW": "---\n",
+        "ja": "---\n",
+        "ko": "---\n",
+        "ru": "---\n",
+        "es": "---\n",
+        "fr": "---\n",
+        "de": "---\n",
+        "it": "---\n",
+        "pt": "---\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_EDC72645",
+      "chunk_type": "header",
+      "original_content": "### Use PDFMathTranslate via Webui\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh_TW": "### 透過 Webui 使用 PDFMathTranslate\n",
+        "zh": "### 通过 Webui 使用 PDFMathTranslate\n",
+        "es": "### Usar PDFMathTranslate a través de Webui\n",
+        "ru": "### Использование PDFMathTranslate через Webui\n",
+        "de": "### Verwenden Sie PDFMathTranslate über Webui\n",
+        "pt": "### Usar PDFMathTranslate via Webui\n",
+        "ko": "### Webui를 통해 PDFMathTranslate 사용하기\n",
+        "it": "### Utilizzo di PDFMathTranslate tramite Webui\n",
+        "ja": "### Webui で PDFMathTranslate を使用する\n",
+        "fr": "### Utiliser PDFMathTranslate via Webui\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_D75BD342",
+      "chunk_type": "header",
+      "original_content": "#### How to open the WebUI page:\n",
+      "start_line_no": 7,
+      "translations": {
+        "it": "#### Come aprire la pagina WebUI:\n",
+        "de": "#### So öffnen Sie die WebUI-Seite:\n",
+        "zh_TW": "#### 如何開啟 WebUI 頁面：\n",
+        "pt": "#### Como abrir a página WebUI:\n",
+        "es": "#### Cómo abrir la página WebUI:\n",
+        "zh": "#### 如何打开 WebUI 页面：\n",
+        "ru": "#### Как открыть страницу WebUI:\n",
+        "ko": "#### WebUI 페이지를 여는 방법:\n",
+        "ja": "#### WebUI ページを開く方法：\n",
+        "fr": "#### Comment ouvrir la page WebUI :\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_65E65B28",
+      "chunk_type": "paragraph",
+      "original_content": "There are several methods to open the WebUI interface. If you are using **Windows**, please refer to [this article](./INSTALLATION_winexe.md);\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "有几种方法可以打开 WebUI 界面。如果您使用的是 **Windows**，请参考[这篇文章](./INSTALLATION_winexe.md)；\n",
+        "ja": "WebUI インターフェースを開く方法はいくつかあります。**Windows** を使用している場合は、[この記事](./INSTALLATION_winexe.md) を参照してください。\n",
+        "es": "Existen varios métodos para abrir la interfaz WebUI. Si estás usando **Windows**, por favor consulta [este artículo](./INSTALLATION_winexe.md);\n",
+        "pt": "Existem vários métodos para abrir a interface WebUI. Se você estiver usando **Windows**, consulte [este artigo](./INSTALLATION_winexe.md);\n",
+        "zh_TW": "有幾種方法可以開啟 WebUI 介面。如果您使用的是 **Windows**，請參考[這篇文章](./INSTALLATION_winexe.md)；\n",
+        "fr": "Il existe plusieurs méthodes pour ouvrir l'interface WebUI. Si vous utilisez **Windows**, veuillez consulter [cet article](./INSTALLATION_winexe.md);\n",
+        "de": "Es gibt mehrere Methoden, um die WebUI-Oberfläche zu öffnen. Wenn Sie **Windows** verwenden, lesen Sie bitte [diesen Artikel](./INSTALLATION_winexe.md);\n",
+        "ru": "Есть несколько способов открыть интерфейс WebUI. Если вы используете **Windows**, пожалуйста, обратитесь к [этой статье](./INSTALLATION_winexe.md);\n",
+        "ko": "WebUI 인터페이스를 여는 여러 가지 방법이 있습니다. **Windows**를 사용 중이라면 [이 문서](./INSTALLATION_winexe.md)를 참조하세요;\n",
+        "it": "Esistono diversi metodi per aprire l'interfaccia WebUI. Se stai utilizzando **Windows**, ti consigliamo di fare riferimento a [questo articolo](./INSTALLATION_winexe.md);\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2A12C8AD",
+      "chunk_type": "list",
+      "original_content": "1. Python installed (3.10 <= version <= 3.12)\n\n2. Install our package:\n\n3. Start using in browser:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. If your browswer has not been started automatically, goto\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Drop the PDF file into the window and click `Translate`.\n",
+      "start_line_no": 11,
+      "translations": {
+        "zh": "1. 已安装 Python（3.10 <= 版本 <= 3.12）\n\n2. 安装我们的软件包：\n\n3. 在浏览器中开始使用：\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. 如果浏览器未自动启动，请访问\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    将 `PDF` 文件拖入窗口并点击 `Translate`。\n",
+        "zh_TW": "1. 已安裝 Python（3.10 <= 版本 <= 3.12）\n\n2. 安裝我們的套件：\n\n3. 在瀏覽器中開始使用：\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. 如果瀏覽器未自動啟動，請前往\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    將 `PDF` 文件拖放至視窗中並點擊 `Translate`。\n",
+        "de": "1. Python installiert (3.10 <= Version <= 3.12)\n\n2. Installieren Sie unser Paket:\n\n3. Beginnen Sie mit der Verwendung im Browser:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Falls Ihr Browser nicht automatisch gestartet wurde, gehen Sie zu\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Ziehen Sie die `PDF`-Datei in das Fenster und klicken Sie auf `Translate`.\n",
+        "ja": "1. Python がインストールされていること（3.10 <= バージョン <= 3.12）\n\n2. パッケージをインストール：\n\n3. ブラウザで使用開始：\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. ブラウザが自動的に起動しない場合は、以下にアクセス：\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    PDF ファイルをウィンドウにドロップして `Translate` をクリック。\n",
+        "fr": "1. Python installé (version 3.10 <= version <= 3.12)\n\n2. Installez notre package :\n\n3. Commencez à utiliser dans le navigateur :\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Si votre navigateur ne s'est pas lancé automatiquement, allez à\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Déposez le fichier PDF dans la fenêtre et cliquez sur `Translate`.\n",
+        "es": "1. Python instalado (versión 3.10 <= versión <= 3.12)\n\n2. Instala nuestro paquete:\n\n3. Comienza a usar en el navegador:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Si tu navegador no se ha iniciado automáticamente, ve a\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Arrastra el archivo `PDF` a la ventana y haz clic en `Translate`.\n",
+        "ru": "1. Установленный Python (версия от 3.10 до 3.12)\n\n2. Установите наш пакет:\n\n3. Начните использовать в браузере:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Если ваш браузер не запустился автоматически, перейдите по адресу\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Перетащите `PDF` файл в окно и нажмите `Translate`.\n",
+        "pt": "1. Python instalado (versão entre 3.10 e 3.12)\n\n2. Instale nosso pacote:\n\n3. Comece a usar no navegador:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Se o seu navegador não tiver sido iniciado automaticamente, acesse\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Arraste o arquivo `PDF` para a janela e clique em `Translate`.\n",
+        "ko": "1. Python 설치 (3.10 <= 버전 <= 3.12)\n\n2. 패키지 설치:\n\n3. 브라우저에서 사용 시작:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. 브라우저가 자동으로 시작되지 않은 경우 다음으로 이동:\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    PDF 파일을 창에 드롭하고 `Translate`을 클릭하세요.\n",
+        "it": "1. Python installato (versione 3.10 <= versione <= 3.12)\n\n2. Installa il nostro pacchetto:\n\n3. Inizia a utilizzare nel browser:\n\n    ```bash\n    pdf2zh_next --gui\n    ```\n\n4. Se il tuo browser non è stato avviato automaticamente, vai a\n\n    ```bash\n    http://localhost:7860/\n    ```\n\n    Trascina il file `PDF` nella finestra e clicca su `Translate`.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F5A7DD64",
+      "chunk_type": "html_comment",
+      "original_content": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+      "start_line_no": 29,
+      "translations": {
+        "zh": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "zh_TW": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "ja": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "ko": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "ru": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "es": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "fr": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "de": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "it": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
+        "pt": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->"
+      }
+    },
+    {
+      "chunk_id": "chunk_FFA0F1F7",
+      "chunk_type": "image",
+      "original_content": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+      "start_line_no": 30,
+      "translations": {
+        "zh": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "zh_TW": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "ja": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "ko": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "ru": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "es": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "fr": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "de": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "it": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+        "pt": "<img src='./../images/gui.gif' width=\"500\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2FDC0409",
+      "chunk_type": "header",
+      "original_content": "### Environment Variables\n",
+      "start_line_no": 32,
+      "translations": {
+        "zh_TW": "### 環境變數\n",
+        "ko": "### 환경 변수\n",
+        "ru": "### Переменные среды\n",
+        "it": "### Variabili d'ambiente\n",
+        "fr": "### Variables d'environnement\n",
+        "pt": "### Variáveis de Ambiente\n",
+        "es": "### Variables de entorno\n",
+        "ja": "### 環境変数\n",
+        "de": "### Umgebungsvariablen\n",
+        "zh": "### 环境变量\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7865A8EB",
+      "chunk_type": "paragraph",
+      "original_content": "You can set the source and target languages using environment variables:\n",
+      "start_line_no": 34,
+      "translations": {
+        "zh": "您可以通过环境变量设置源语言和目标语言：\n",
+        "zh_TW": "您可以使用環境變數設定來源與目標語言：\n",
+        "ja": "以下の環境変数を使用して、ソース言語とターゲット言語を設定できます：\n",
+        "ru": "Вы можете установить исходный и целевой языки с помощью переменных среды:\n",
+        "es": "Puedes configurar los idiomas de origen y destino utilizando variables de entorno:\n",
+        "it": "È possibile impostare le lingue di origine e di destinazione utilizzando le variabili d'ambiente:\n",
+        "de": "Sie können die Quell- und Zielsprachen mit Umgebungsvariablen festlegen:\n",
+        "pt": "Você pode definir os idiomas de origem e destino usando variáveis de ambiente:\n",
+        "fr": "Vous pouvez définir les langues source et cible en utilisant des variables d'environnement :\n",
+        "ko": "소스 및 타겟 언어를 환경 변수를 사용하여 설정할 수 있습니다:\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_104D91B6",
+      "chunk_type": "list",
+      "original_content": "- `PDF2ZH_LANG_FROM`: Sets the source language. Defaults to \"English\".\n- `PDF2ZH_LANG_TO`: Sets the target language. Defaults to \"Simplified Chinese\".\n",
+      "start_line_no": 36,
+      "translations": {
+        "ja": "- `PDF2ZH_LANG_FROM`: ソース言語を設定します。デフォルトは「English」です。\n- `PDF2ZH_LANG_TO`: ターゲット言語を設定します。デフォルトは「Simplified Chinese」です。\n",
+        "ko": "- `PDF2ZH_LANG_FROM`: 원본 언어를 설정합니다. 기본값은 \"English\"입니다.\n- `PDF2ZH_LANG_TO`: 대상 언어를 설정합니다. 기본값은 \"Simplified Chinese\"입니다.\n",
+        "zh": "- `PDF2ZH_LANG_FROM`: 设置源语言。默认为 \"English\"。\n- `PDF2ZH_LANG_TO`: 设置目标语言。默认为 \"Simplified Chinese\"。\n",
+        "de": "- `PDF2ZH_LANG_FROM`: Legt die Ausgangssprache fest. Standardmäßig \"English\".\n- `PDF2ZH_LANG_TO`: Legt die Zielsprache fest. Standardmäßig \"Simplified Chinese\".\n",
+        "zh_TW": "- `PDF2ZH_LANG_FROM`: 設定來源語言。預設為「English」。\n- `PDF2ZH_LANG_TO`: 設定目標語言。預設為「Simplified Chinese」。\n",
+        "fr": "- `PDF2ZH_LANG_FROM`: Définit la langue source. Par défaut, \"English\".\n- `PDF2ZH_LANG_TO`: Définit la langue cible. Par défaut, \"Simplified Chinese\".\n",
+        "pt": "- `PDF2ZH_LANG_FROM`: Define o idioma de origem. O padrão é \"English\".\n- `PDF2ZH_LANG_TO`: Define o idioma de destino. O padrão é \"Simplified Chinese\".\n",
+        "it": "- `PDF2ZH_LANG_FROM`: Imposta la lingua di origine. Il valore predefinito è \"English\".\n- `PDF2ZH_LANG_TO`: Imposta la lingua di destinazione. Il valore predefinito è \"Simplified Chinese\".\n",
+        "es": "- `PDF2ZH_LANG_FROM`: Establece el idioma de origen. Por defecto es \"English\".\n- `PDF2ZH_LANG_TO`: Establece el idioma de destino. Por defecto es \"Simplified Chinese\".\n",
+        "ru": "- `PDF2ZH_LANG_FROM`: Устанавливает исходный язык. По умолчанию \"English\".\n- `PDF2ZH_LANG_TO`: Устанавливает целевой язык. По умолчанию \"Simplified Chinese\".\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_EEBEC547",
+      "chunk_type": "header",
+      "original_content": "## Preview\n",
+      "start_line_no": 39,
+      "translations": {
+        "zh": "## 预览\n",
+        "it": "## Anteprima\n",
+        "ja": "## プレビュー\n",
+        "ko": "## 미리보기\n",
+        "zh_TW": "## 預覽\n",
+        "ru": "## Предпросмотр\n",
+        "de": "## Vorschau\n",
+        "pt": "## Visualização\n",
+        "es": "## Vista previa\n",
+        "fr": "## Aperçu\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_D7787657",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./../images/before.png\" width=\"500\"/>",
+      "start_line_no": 41,
+      "translations": {
+        "zh": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "zh_TW": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "ja": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "ko": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "ru": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "es": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "fr": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "de": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "it": "<img src=\"./../images/before.png\" width=\"500\"/>",
+        "pt": "<img src=\"./../images/before.png\" width=\"500\"/>"
+      }
+    },
+    {
+      "chunk_id": "chunk_4685028B",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+      "start_line_no": 42,
+      "translations": {
+        "zh": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "zh_TW": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "ja": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "ko": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "ru": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "es": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "fr": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "de": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "it": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+        "pt": "<img src=\"./../images/after.png\" width=\"500\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_742C5FE6",
+      "chunk_type": "header",
+      "original_content": "## Maintainance\n",
+      "start_line_no": 44,
+      "translations": {
+        "ja": "## メンテナンス\n",
+        "ru": "## Обслуживание\n",
+        "zh": "## 维护\n",
+        "it": "## Manutenzione\n",
+        "ko": "## 유지 관리\n",
+        "es": "## Mantenimiento\n",
+        "pt": "## Manutenção\n",
+        "fr": "## Maintenance\n",
+        "zh_TW": "## 維護\n",
+        "de": "## Wartung\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3D5EA421",
+      "chunk_type": "paragraph",
+      "original_content": "GUI maintained by [Rongxin](https://github.com/reycn)",
+      "start_line_no": 46,
+      "translations": {
+        "zh": "由 [Rongxin](https://github.com/reycn) 维护的 GUI",
+        "ja": "[Rongxin](https://github.com/reycn) がメンテナンスする GUI",
+        "zh_TW": "由 [Rongxin](https://github.com/reycn) 維護的 GUI",
+        "es": "### TRANSLATION RESULT\n\nGUI mantenido por [Rongxin](https://github.com/reycn)",
+        "it": "### TRANSLATED TEXT\n\nGUI mantenuta da [Rongxin](https://github.com/reycn)",
+        "ko": "[Rongxin](https://github.com/reycn)이 유지 관리하는 GUI",
+        "pt": "### TRANSLATION\n\nGUI mantido por [Rongxin](https://github.com/reycn)",
+        "de": "### TRANSLATION RESULT\n\nGUI wird von [Rongxin](https://github.com/reycn) gewartet",
+        "fr": "GUI maintenu par [Rongxin](https://github.com/reycn)",
+        "ru": "### TRANSLATED TEXT\n\nGUI поддерживается [Rongxin](https://github.com/reycn)"
+      }
+    }
+  ]
+}

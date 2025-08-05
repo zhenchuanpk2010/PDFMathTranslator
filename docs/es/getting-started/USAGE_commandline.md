@@ -1,4 +1,4 @@
-[**Empezar**](./empezar.md) > **Uso** > **Línea de comandos** _(actual)_
+[**Empezar**](./getting-started.md) > **Uso** > **Línea de comandos** _(actual)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### Uso básico
 
-Después de la Instalación, ingrese este comando para traducir su PDF.
+Después de la instalación, por favor ingrese este comando para traducir su PDF.
 
 ```bash
 pdf2zh_next document.pdf
@@ -30,9 +30,9 @@ Después de ejecutar la traducción, los archivos se generan en el **directorio 
 > PS C:\Users\XXX>
 > ```
 > 
-> Este directorio es el "*Directorio de trabajo actual*."
+> Este directorio es el "*Directorio de trabajo actual*".
 > 
-> Si no hay una ruta, intenta ejecutar este comando en la terminal:
+> Si no hay una ruta visible, intenta ejecutar este comando en la terminal:
 > 
 > ```bash
 > pwd

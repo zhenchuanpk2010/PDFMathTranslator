@@ -12,7 +12,7 @@ Il presente progetto supporta due tipi di API, tutti i metodi necessitano del Re
 
 <h2 id="api-python">Python</h2>
 
-Poiché `pdf2zh` è un modulo installato in Python, esponiamo due metodi che altri programmi possono chiamare in qualsiasi script Python.
+Poiché `pdf2zh` è un modulo installato in Python, esponiamo due metodi per essere chiamati da altri programmi in qualsiasi script Python.
 
 Ad esempio, se desideri tradurre un documento dall'inglese al cinese utilizzando Google Translate, puoi utilizzare il seguente codice:
 
@@ -52,7 +52,7 @@ In un modo più flessibile, puoi comunicare con il programma utilizzando i proto
    pdf2zh_next --celery worker
    ```
 
-2. Utilizzo dei protocolli HTTP come segue:
+2. Utilizza i protocolli HTTP come segue:
 
    - Invia un'attività di traduzione
 

@@ -1,4 +1,4 @@
-[**快速開始**](./getting-started.md) > **如何安裝** > **Docker** _(current)_
+[**開始使用**](./getting-started.md) > **如何安裝** > **Docker** _(current)_
 
 ---
 
@@ -6,7 +6,7 @@
 
 #### 什麼是 docker？
 
-[Docker](https://docs.docker.com/get-started/docker-overview/) 是一個用於開發、運送和運行應用程式的開放平台。Docker 能讓您將應用程式與基礎設施分離，從而快速交付軟體。透過 Docker，您可以用管理應用程式的相同方式來管理基礎設施。藉由利用 Docker 的運送、測試和部署程式碼方法，您可以大幅縮短編寫程式碼與在生產環境中運行之間的延遲。
+[Docker](https://docs.docker.com/get-started/docker-overview/) 是一個用於開發、運送和執行應用程式的開放平台。Docker 能讓您將應用程式與基礎架構分離，從而快速交付軟體。透過 Docker，您可以用管理應用程式的相同方式來管理基礎架構。藉由利用 Docker 的運送、測試和部署程式碼方法，您可以大幅縮短編寫程式碼與在生產環境中執行之間的延遲。
 
 #### 如何安裝
 
@@ -33,10 +33,10 @@ http://localhost:7860/
 ```
 
 > [!NOTE]
-> 如果在使用 WebUI 時遇到任何問題，請參考[如何使用 --> WebUI](./USAGE_webui.md)。
+> 如果在使用 WebUI 時遇到任何問題，請參考 [如何使用 --> WebUI](./USAGE_webui.md)。
 
 > [!NOTE]
-> 如果在使用命令行時遇到任何問題，請參考[如何使用 --> 命令行](./USAGE_commandline.md)。
+> 如果在使用 命令行 時遇到任何問題，請參考 [如何使用 --> 命令行](./USAGE_commandline.md)。
 <!-- 
 #### For docker deployment on cloud service:
 

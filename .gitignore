@@ -2,7 +2,6 @@ pdf2zh_files
 gui/pdf2zh_files
 gradio_files
 tmp
-.doctemp
 gui/gradio_files
 gui/tmp
 # Byte-compiled / optimized / DLL files

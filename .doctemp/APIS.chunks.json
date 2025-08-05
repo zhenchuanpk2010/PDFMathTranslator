@@ -1,0 +1,165 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/APIS.md",
+  "chunks": [
+    {
+      "id": "chunk_F2495A85",
+      "raw_content": "> [!CAUTION]\n>\n> This document is outdated, please do not refer to it.\n",
+      "metadata": {
+        "chunk_type": "blockquote",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_3CA8722C",
+      "raw_content": "<h2 id=\"toc\">Table of Content</h2>\nThe present project supports two types of APIs, All methods need the Redis;\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_AE8C8A31",
+      "raw_content": "- [Functional calls in Python](#api-python)\n- [HTTP protocols](#api-http)\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 8
+    },
+    {
+      "id": "h_rule_c38333ce",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_1C2FD3FE",
+      "raw_content": "<h2 id=\"api-python\">Python</h2>\n\nAs `pdf2zh` is an installed module in Python, we expose two methods for other programs to call in any Python scripts.\n\nFor example, if you want translate a document from English to Chinese using Google Translate, you may use the following code:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_7A13B606",
+      "raw_content": "```python\nfrom pdf2zh_next import translate, translate_stream\n\nparams = {\n    'lang_in': 'en',\n    'lang_out': 'zh',\n    'service': 'google',\n    'thread': 4,\n}\n```",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": "python"
+      },
+      "start_line_no": 19
+    },
+    {
+      "id": "chunk_2DB09B71",
+      "raw_content": "Translate with files:",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_1F8B4E30",
+      "raw_content": "```python\n(file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]\n```",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": "python"
+      },
+      "start_line_no": 30
+    },
+    {
+      "id": "chunk_8C07F04C",
+      "raw_content": "Translate with stream:",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 33
+    },
+    {
+      "id": "chunk_258306A3",
+      "raw_content": "```python\nwith open('example.pdf', 'rb') as f:\n    (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)\n```\n",
+      "metadata": {
+        "chunk_type": "code_block",
+        "level": null,
+        "language": "python"
+      },
+      "start_line_no": 34
+    },
+    {
+      "id": "chunk_F1B6ECA2",
+      "raw_content": "[⬆️ Back to top](#toc)\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 39
+    },
+    {
+      "id": "h_rule_7d1b918e",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 41
+    },
+    {
+      "id": "chunk_F96246D5",
+      "raw_content": "<h2 id=\"api-http\">HTTP</h2>\n\nIn a more flexible way, you can communicate with the program using HTTP protocols, if:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 43
+    },
+    {
+      "id": "chunk_5C9E9558",
+      "raw_content": "1. Install and run backend\n\n   ```bash\n   pip install pdf2zh_next[backend]\n   pdf2zh_next --flask\n   pdf2zh_next --celery worker\n   ```\n\n2. Using HTTP protocols as follows:\n\n   - Submit translate task\n\n     ```bash\n     curl http://localhost:11008/v1/translate -F \"file=@example.pdf\" -F \"data={\\\"lang_in\\\":\\\"en\\\",\\\"lang_out\\\":\\\"zh\\\",\\\"service\\\":\\\"google\\\",\\\"thread\\\":4}\"\n     {\"id\":\"d9894125-2f4e-45ea-9d93-1a9068d2045a\"}\n     ```\n\n   - Check Progress\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"info\":{\"n\":13,\"total\":506},\"state\":\"PROGRESS\"}\n     ```\n\n   - Check Progress _(if finished)_\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a\n     {\"state\":\"SUCCESS\"}\n     ```\n\n   - Save monolingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/mono --output example-mono.pdf\n     ```\n\n   - Save bilingual file\n\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a/dual --output example-dual.pdf\n     ```\n\n   - Interrupt if running and delete the task\n     ```bash\n     curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a -X DELETE\n     ```\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 47
+    },
+    {
+      "id": "chunk_F1B6ECA2",
+      "raw_content": "[⬆️ Back to top](#toc)\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 95
+    },
+    {
+      "id": "h_rule_9f975c7d",
+      "raw_content": "---\n",
+      "metadata": {
+        "chunk_type": "h_rule",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 97
+    }
+  ]
+}

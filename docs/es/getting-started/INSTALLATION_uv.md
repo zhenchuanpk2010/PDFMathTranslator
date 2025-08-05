@@ -1,4 +1,4 @@
-[**Empezar**](./empezar.md) > **Instalación** > **uv** _(actual)_
+[**Empezar**](./getting-started.md) > **Instalación** > **uv** _(actual)_
 
 ---
 
@@ -16,7 +16,7 @@ Para instalar uv en tu computadora, consulta [este artículo](https://docs.astra
 
 1. Python instalado (versión 3.10 <= versión <= 3.12);
 
-2. Utiliza el siguiente comando para usar nuestro paquete:
+2. Utilice el siguiente comando para usar nuestro paquete:
 
     ```bash
     pip install uv
@@ -27,11 +27,11 @@ Después de la instalación, puedes comenzar la traducción mediante la **línea
 
 !!! Warning
 
-    Si ves el error `command not found: pdf2zh_next` al ejecutar, configura las variables de entorno de la siguiente manera e inténtalo de nuevo:
+    Si ves el error `command not found: pdf2zh_next` al ejecutar, por favor configura las variables de entorno de la siguiente manera e intenta nuevamente:
 
     === "macOS y Linux"
 
-        Añade lo siguiente a tu ~/.zshrc:
+        Agrega lo siguiente a tu ~/.zshrc:
 
         ```console
         export PATH="$PATH:/Users/Username/.local/bin"
@@ -50,7 +50,7 @@ Después de la instalación, puedes comenzar la traducción mediante la **línea
         Luego reinicia tu terminal
 
 > [!NOTE]
-> Si encuentras algún problema al usar la WebUI, consulta [Uso --> WebUI](./USAGE_webui.md).
+> Si encuentras algún problema al usar WebUI, consulta [Uso --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
 > Si encuentras algún problema al usar la línea de comandos, consulta [Uso --> Línea de comandos](./USAGE_commandline.md).

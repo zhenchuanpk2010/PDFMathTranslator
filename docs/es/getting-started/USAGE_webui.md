@@ -1,4 +1,4 @@
-[**Empezar**](./empezar.md) > **Instalación** > **WebUI** _(actual)_
+[**Empezar**](./getting-started.md) > **Instalación** > **WebUI** _(actual)_
 
 ---
 
@@ -6,13 +6,13 @@
 
 #### Cómo abrir la página WebUI:
 
-Existen varios métodos para abrir la interfaz WebUI. Si estás utilizando **Windows**, consulta [este artículo](./INSTALLATION_winexe.md);
+Existen varios métodos para abrir la interfaz WebUI. Si estás usando **Windows**, por favor consulta [este artículo](./INSTALLATION_winexe.md);
 
 1. Python instalado (versión 3.10 <= versión <= 3.12)
 
 2. Instala nuestro paquete:
 
-3. Empieza a usar en el navegador:
+3. Comienza a usar en el navegador:
 
     ```bash
     pdf2zh_next --gui
@@ -24,14 +24,14 @@ Existen varios métodos para abrir la interfaz WebUI. Si estás utilizando **Win
     http://localhost:7860/
     ```
 
-    Arrastra el archivo PDF a la ventana y haz clic en `Translate`.
+    Arrastra el archivo `PDF` a la ventana y haz clic en `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### Variables de entorno
 
-Puedes configurar los idiomas de origen y destino usando variables de entorno:
+Puedes configurar los idiomas de origen y destino utilizando variables de entorno:
 
 - `PDF2ZH_LANG_FROM`: Establece el idioma de origen. Por defecto es "English".
 - `PDF2ZH_LANG_TO`: Establece el idioma de destino. Por defecto es "Simplified Chinese".
@@ -43,7 +43,9 @@ Puedes configurar los idiomas de origen y destino usando variables de entorno:
 
 ## Mantenimiento
 
-GUI mantenida por [Rongxin](https://github.com/reycn)
+### TRANSLATION RESULT
+
+GUI mantenido por [Rongxin](https://github.com/reycn)
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

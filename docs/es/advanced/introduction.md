@@ -10,7 +10,7 @@ En esta sección, puedes explorar idiomas de origen/destino específicos, cambia
 <br>
 Si no estás seguro de qué códigos usar para traducir tus idiomas de origen/destino, puedes encontrarlos aquí.
 
-3. [**Documentación de servicios de traducción**](./Documentación-de-servicios-de-traducción.md)
+3. [**Documentación de servicios de traducción**](./Documentation-of-Translation-Services.md)
 <br>
 Si necesitas revisar la documentación proporcionada por los servicios de traducción que estás utilizando, consulta esta página.
 

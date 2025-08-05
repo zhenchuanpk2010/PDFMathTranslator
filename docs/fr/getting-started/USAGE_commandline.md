@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Utilisation** > **Ligne de commande** _(current)_
+[**Commencer**](./getting-started.md) > **Utilisation** > **Ligne de commande** _(actuel)_
 
 ---
 
@@ -44,7 +44,7 @@ Après avoir exécuté la traduction, les fichiers sont générés dans le **ré
 
 #### Options avancées
 
-Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez vous référer aux [options avancées](./../advanced/advanced.md).
+Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez vous référer à [Options avancées](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>
