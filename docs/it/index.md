@@ -38,9 +38,13 @@ Traduzione di articoli scientifici PDF e confronto bilingue.
 - 🌐 Supporta [multiple lingue](https://pdf2zh-next.com/supported_languages.html) e diversi [servizi di traduzione](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Fornisce [strumento da riga di comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interfaccia utente interattiva](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-Sentiti libero di fornire feedback su [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) o [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
+> [!WARNING]
+>
+> Questo progetto è fornito "così com'è" sotto la licenza AGPL v3, e non vengono fornite garanzie sulla qualità e sulle prestazioni del programma. **L'intero rischio relativo alla qualità e alle prestazioni del programma è a tuo carico.** Se il programma dovesse risultare difettoso, sarai responsabile di tutti i costi necessari per il servizio, la riparazione o la correzione.
+>
+> A causa delle risorse limitate, non forniamo alcuna forma di assistenza all'utilizzo o risoluzione dei problemi. Le questioni correlate verranno chiuse direttamente! (Siete invitati a inviare PR per migliorare la documentazione di questo progetto; Bug o problemi amichevoli non sono influenzati da questo.)
 
-Per dettagli su come contribuire, consulta la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Per maggiori dettagli su come contribuire, consultare la [Guida al Contributo](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="aggiornamenti">Aggiornamenti</h2>
 

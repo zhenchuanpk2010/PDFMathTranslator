@@ -38,9 +38,13 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 - 🌐 [다양한 언어](https://pdf2zh-next.com/supported_languages.html) 및 다양한 [번역 서비스](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) 지원.
 - 🤖 [명령줄 도구](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [대화형 사용자 인터페이스](https://pdf2zh-next.com/getting-started/USAGE_webui.html), [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) 제공.
 
-[GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 또는 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl)에서 피드백을 자유롭게 제공해 주세요.
+> [!WARNING]
+>
+> 이 프로젝트는 AGPL v3 라이선스 하에 "있는 그대로" 제공되며, 프로그램의 품질과 성능에 대한 어떠한 보증도 제공되지 않습니다. **프로그램의 품질과 성능에 대한 모든 위험은 귀하가 부담합니다.** 프로그램에 결함이 발견될 경우, 귀하는 모든 필요한 서비스, 수리 또는 수정 비용을 부담해야 합니다.
+>
+> 제한된 자원으로 인해, 우리는 어떠한 형태의 사용 지원이나 문제 해결도 제공하지 않습니다. 관련된 이슈는 직접적으로 종료될 것입니다! (이 프로젝트의 문서를 개선하기 위한 PR 제출은 환영합니다; 버그나 친절한 이슈는 이에 영향을 받지 않습니다.)
 
-기여 방법에 대한 자세한 내용은 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참조하십시오.
+기여 방법에 대한 자세한 내용은 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html)를 참조하세요.
 
 <h2 id="업데이트">업데이트</h2>
 

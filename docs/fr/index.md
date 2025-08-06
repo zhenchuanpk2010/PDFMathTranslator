@@ -38,11 +38,15 @@ Traduction de documents scientifiques PDF et comparaison bilingue.
 - 🌐 Prend en charge [plusieurs langues](https://pdf2zh-next.com/supported_languages.html) et divers [services de traduction](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Propose un [outil en ligne de commande](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), une [interface utilisateur interactive](https://pdf2zh-next.com/getting-started/USAGE_webui.html) et [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html).
 
-N'hésitez pas à fournir des commentaires dans [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
+> [!WARNING]
+>
+> Ce projet est fourni "tel quel" sous la licence AGPL v3, et aucune garantie n'est fournie quant à la qualité et aux performances du programme. **L'intégralité des risques liés à la qualité et aux performances du programme est à votre charge.** Si le programme s'avère défectueux, vous serez responsable de tous les coûts nécessaires pour les services, réparations ou corrections.
+>
+> En raison de ressources limitées, nous ne fournissons aucune forme d'assistance à l'utilisation ou de résolution de problèmes. Les problèmes liés seront fermés directement ! (Les contributions sous forme de PR pour améliorer la documentation de ce projet sont les bienvenues ; les bugs ou problèmes amicaux ne sont pas concernés par cette règle.)
 
 Pour plus de détails sur la manière de contribuer, veuillez consulter le [Guide de contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="mises-à-jour">Mises à jour</h2>
+<h2 id="mises-a-jour">Mises à jour</h2>
 
 - [4 juin 2025] Le projet est renommé et déplacé vers [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (par [@awwaawwa](https://github.com/awwaawwa))
 - [3 mars 2025] Support expérimental pour le nouveau backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI ajouté comme option expérimentale (par [@awwaawwa](https://github.com/awwaawwa))

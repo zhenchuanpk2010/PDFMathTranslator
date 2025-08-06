@@ -63,14 +63,19 @@ PDF scientific paper translation and bilingual comparison.
 - 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-<!-- CHUNK ID: chunk_CD5D1C28  CHUNK TYPE: paragraph START_LINE:41 -->
-Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
+<!-- CHUNK ID: chunk_AD54B433  CHUNK TYPE: blockquote START_LINE:41 -->
+> [!WARNING]
+>
+> This project is provided "as is" under the AGPL v3 license, and no guarantees are provided for the quality and performance of the program. **The entire risk of the program's quality and performance is borne by you.** If the program is found to be defective, you will be responsible for all necessary service, repair, or correction costs.
+>
+> Due to limited resources, we do not provide any form of usage assistance or problem-solving. Related issues will be closed directly! (Welcome to submit PRs to improve this project's documentation; Bugs or friendly issues are not affected by this.)
 
+<!-- CHUNK ID: chunk_E0B1FBFE  CHUNK TYPE: paragraph START_LINE:47 -->
 For details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="updates">Updates</h2>
 
-<!-- CHUNK ID: chunk_5E68D02E  CHUNK TYPE: list START_LINE:47 -->
+<!-- CHUNK ID: chunk_5E68D02E  CHUNK TYPE: list START_LINE:51 -->
 - [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))
 - [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))
 - [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))
@@ -79,59 +84,59 @@ For details on how to contribute, please consult the [Contribution Guide](https:
 - [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_
 - [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_
 
-<!-- CHUNK ID: chunk_2B22A264  CHUNK TYPE: paragraph START_LINE:55 -->
+<!-- CHUNK ID: chunk_2B22A264  CHUNK TYPE: paragraph START_LINE:59 -->
 <h2 id="preview">Preview</h2>
 
 <div align="center">
-<!-- CHUNK ID: chunk_FF589225  CHUNK TYPE: html_comment START_LINE:58 -->
+<!-- CHUNK ID: chunk_FF589225  CHUNK TYPE: html_comment START_LINE:62 -->
 <!-- <img src="./docs/images/preview.gif" width="80%"  alt="preview"/> -->
-<!-- CHUNK ID: chunk_CF255FF9  CHUNK TYPE: image START_LINE:59 -->
+<!-- CHUNK ID: chunk_CF255FF9  CHUNK TYPE: image START_LINE:63 -->
 <img src="https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png" width="80%"/>
-<!-- CHUNK ID: chunk_EBDB9E88  CHUNK TYPE: paragraph START_LINE:60 -->
+<!-- CHUNK ID: chunk_EBDB9E88  CHUNK TYPE: paragraph START_LINE:64 -->
 </div>
 
 <h2 id="demo">Online Service 🌟</h2>
 
-<!-- CHUNK ID: chunk_3723C881  CHUNK TYPE: blockquote START_LINE:64 -->
+<!-- CHUNK ID: chunk_3723C881  CHUNK TYPE: blockquote START_LINE:68 -->
 > [!NOTE]
 >
 > pdf2zh 2.0 does not currently provide an online demo
 
-<!-- CHUNK ID: chunk_1F3D6D5D  CHUNK TYPE: paragraph START_LINE:68 -->
+<!-- CHUNK ID: chunk_1F3D6D5D  CHUNK TYPE: paragraph START_LINE:72 -->
 You can try our application out using either of the following demos:
 
-<!-- CHUNK ID: chunk_B617543E  CHUNK TYPE: list START_LINE:70 -->
+<!-- CHUNK ID: chunk_B617543E  CHUNK TYPE: list START_LINE:74 -->
 - [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_
-<!-- CHUNK ID: chunk_ECCF6BC0  CHUNK TYPE: html_comment START_LINE:72 -->
+<!-- CHUNK ID: chunk_ECCF6BC0  CHUNK TYPE: html_comment START_LINE:76 -->
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
 
-<!-- CHUNK ID: chunk_FDDD972D  CHUNK TYPE: paragraph START_LINE:75 -->
+<!-- CHUNK ID: chunk_FDDD972D  CHUNK TYPE: paragraph START_LINE:79 -->
 Note that the computing resources of the demo are limited, so please avoid abusing them.
 
 <h2 id="install">Installation and Usage</h2>
 
-<!-- CHUNK ID: chunk_36D1B1ED  CHUNK TYPE: header START_LINE:79 -->
+<!-- CHUNK ID: chunk_36D1B1ED  CHUNK TYPE: header START_LINE:83 -->
 ### Installation
 
-<!-- CHUNK ID: chunk_545A02FF  CHUNK TYPE: list START_LINE:81 -->
+<!-- CHUNK ID: chunk_545A02FF  CHUNK TYPE: list START_LINE:85 -->
 1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>
 2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>
 3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>
 
-<!-- CHUNK ID: h_rule_56fc15c9  CHUNK TYPE: h_rule START_LINE:85 -->
+<!-- CHUNK ID: h_rule_8e596a21  CHUNK TYPE: h_rule START_LINE:89 -->
 ---
 
-<!-- CHUNK ID: chunk_047D6F23  CHUNK TYPE: header START_LINE:87 -->
+<!-- CHUNK ID: chunk_047D6F23  CHUNK TYPE: header START_LINE:91 -->
 ### Usage
 
-<!-- CHUNK ID: chunk_A49D7830  CHUNK TYPE: list START_LINE:89 -->
+<!-- CHUNK ID: chunk_A49D7830  CHUNK TYPE: list START_LINE:93 -->
 1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
 2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)
 3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-<!-- CHUNK ID: chunk_F57A3EE5  CHUNK TYPE: paragraph START_LINE:93 -->
+<!-- CHUNK ID: chunk_F57A3EE5  CHUNK TYPE: paragraph START_LINE:97 -->
 For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.
 
 <h2 id="usage">Advanced Options</h2>
@@ -140,24 +145,24 @@ For detailed explanations, please refer to our document about [Advanced Usage](h
 
 <h2 id="downstream">Secondary Development (APIs)</h2>
 
-<!-- CHUNK ID: chunk_DF45699B  CHUNK TYPE: blockquote START_LINE:101 -->
+<!-- CHUNK ID: chunk_DF45699B  CHUNK TYPE: blockquote START_LINE:105 -->
 > [!NOTE]
 >
 > Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.
 
 
-<!-- CHUNK ID: chunk_AC02EE07  CHUNK TYPE: html_comment START_LINE:106 -->
+<!-- CHUNK ID: chunk_AC02EE07  CHUNK TYPE: html_comment START_LINE:110 -->
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
 
 - [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
 - [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
 
-<!-- CHUNK ID: chunk_FAB5C5B4  CHUNK TYPE: paragraph START_LINE:111 -->
+<!-- CHUNK ID: chunk_FAB5C5B4  CHUNK TYPE: paragraph START_LINE:115 -->
 <h2 id="langcode">Language Code</h2>
 
 If you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)
 
-<!-- CHUNK ID: chunk_8652D374  CHUNK TYPE: html_comment START_LINE:115 -->
+<!-- CHUNK ID: chunk_8652D374  CHUNK TYPE: html_comment START_LINE:119 -->
 <!-- 
 <h2 id="todo">TODOs</h2>
 
@@ -175,10 +180,10 @@ If you don't know what code to use to translate to the language you need, check 
 
 - [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->
 
-<!-- CHUNK ID: chunk_AD3429B4  CHUNK TYPE: paragraph START_LINE:132 -->
+<!-- CHUNK ID: chunk_AD3429B4  CHUNK TYPE: paragraph START_LINE:136 -->
 <h2 id="acknowledgement">Acknowledgements</h2>
 
-<!-- CHUNK ID: chunk_7ED9D2AF  CHUNK TYPE: list START_LINE:134 -->
+<!-- CHUNK ID: chunk_7ED9D2AF  CHUNK TYPE: list START_LINE:138 -->
 - [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).
@@ -206,7 +211,7 @@ If you don't know what code to use to translate to the language you need, check 
 
 - Documentation i18n using Weblate: [Weblate](https://weblate.org/)
 
-<!-- CHUNK ID: chunk_5DD24D41  CHUNK TYPE: paragraph START_LINE:161 -->
+<!-- CHUNK ID: chunk_5DD24D41  CHUNK TYPE: paragraph START_LINE:165 -->
 <h2 id="conduct">Before submit your code</h2>
 
 We welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
@@ -214,23 +219,23 @@ We welcome the active participation of contributors to make pdf2zh better. Befor
 <h2 id="contrib">Contributors</h2>
 
 <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
-<!-- CHUNK ID: chunk_21C4CCC3  CHUNK TYPE: image START_LINE:168 -->
+<!-- CHUNK ID: chunk_21C4CCC3  CHUNK TYPE: image START_LINE:172 -->
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
-<!-- CHUNK ID: chunk_B2A74E86  CHUNK TYPE: paragraph START_LINE:169 -->
+<!-- CHUNK ID: chunk_B2A74E86  CHUNK TYPE: paragraph START_LINE:173 -->
 </a>
 
-<!-- CHUNK ID: chunk_F1A772A0  CHUNK TYPE: image START_LINE:171 -->
+<!-- CHUNK ID: chunk_F1A772A0  CHUNK TYPE: image START_LINE:175 -->
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<!-- CHUNK ID: chunk_61BE03EB  CHUNK TYPE: paragraph START_LINE:173 -->
+<!-- CHUNK ID: chunk_61BE03EB  CHUNK TYPE: paragraph START_LINE:177 -->
 <h2 id="star_hist">Star History</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
-<!-- CHUNK ID: chunk_ACF347AF  CHUNK TYPE: image START_LINE:179 -->
+<!-- CHUNK ID: chunk_ACF347AF  CHUNK TYPE: image START_LINE:183 -->
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
-<!-- CHUNK ID: chunk_64791BB7  CHUNK TYPE: paragraph START_LINE:180 -->
+<!-- CHUNK ID: chunk_64791BB7  CHUNK TYPE: paragraph START_LINE:184 -->
  </picture>
 </a>
