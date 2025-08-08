@@ -38,9 +38,13 @@ PDF 科学論文の翻訳とバイリンガル比較。
 - 🌐 [複数言語](https://pdf2zh-next.com/supported_languages.html) をサポートし、多様な [翻訳サービス](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) に対応。
 - 🤖 [コマンドラインツール](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[インタラクティブユーザーインターフェース](https://pdf2zh-next.com/getting-started/USAGE_webui.html)、[Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) を提供
 
-[GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) または [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) でフィードバックをお寄せください。
+> [!WARNING]
+>
+> このプロジェクトは「現状有姿」で AGPL v3 ライセンスの下で提供されており、プログラムの品質や性能について一切の保証はありません。**プログラムの品質や性能に関する全てのリスクはあなたが負担します。** プログラムに欠陥が見つかった場合、必要なサービス、修理、または修正にかかる費用は全てあなたの責任となります。
+>
+> リソースが限られているため、当方はいかなる形式の使用支援や問題解決も提供しません。関連する issue は直接クローズされます！（このプロジェクトのドキュメント改善のために PR を提出することは歓迎します。バグや友好的な issue はこれに影響されません。）
 
-貢献方法の詳細については、[Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html) をご覧ください。
+詳細な貢献方法については、[貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html)をご覧ください。
 
 <h2 id="updates">更新情報</h2>
 

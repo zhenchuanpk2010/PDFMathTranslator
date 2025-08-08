@@ -38,9 +38,13 @@
 - 🌐 Unterstützt [mehrere Sprachen](https://pdf2zh-next.com/supported_languages.html) und verschiedene [Übersetzungsdienste](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Bietet [Kommandozeilen-Tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interaktive Benutzeroberfläche](https://pdf2zh-next.com/getting-started/USAGE_webui.html) und [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-Gerne können Sie Feedback in den [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) oder der [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) geben.
+> [!WARNING]
+>
+> Dieses Projekt wird „wie es ist“ unter der AGPL v3-Lizenz bereitgestellt, und es werden keine Garantien für die Qualität und Leistung des Programms gegeben. **Das gesamte Risiko der Qualität und Leistung des Programms liegt bei Ihnen.** Wenn das Programm als fehlerhaft befunden wird, sind Sie für alle notwendigen Service-, Reparatur- oder Korrekturkosten verantwortlich.
+>
+> Aufgrund begrenzter Ressourcen bieten wir keine Form von Nutzungshilfe oder Problemlösung an. Verwandte Probleme werden direkt geschlossen! (PRs zur Verbesserung der Dokumentation dieses Projekts sind willkommen; Fehler oder freundliche Probleme sind davon nicht betroffen.)
 
-Weitere Details zur Mitwirkung finden Sie im [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Weitere Informationen dazu, wie Sie beitragen können, finden Sie im [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
 <h2 id="updates">Aktualisierungen</h2>
 

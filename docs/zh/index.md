@@ -38,9 +38,13 @@ PDF 科学论文翻译与双语对照。
 - 🌐 支持 [多种语言](https://pdf2zh-next.com/supported_languages.html)，以及多样化的 [翻译服务](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。
 - 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[交互式用户界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-欢迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram 群组](https://t.me/+Z9_SgnxmsmA5NzBl) 中提供反馈。
+> [!WARNING]
+>
+> 本项目基于 AGPL v3 协议“按原样”提供，对程序的质量和性能不作任何保证。**程序质量和性能的全部风险由您自行承担。** 如果发现程序存在缺陷，您需承担所有必要的服务、维修或修正费用。
+>
+> 由于资源有限，我们不提供任何形式的使用协助或问题解决。相关问题将被直接关闭！（欢迎提交 PR 以改进本项目文档；Bug 或友好议题不受此限制。）
 
-如需了解如何贡献，请参阅 [贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
+有关如何贡献的详细信息，请参阅[贡献指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
 
 <h2 id="更新">更新</h2>
 
