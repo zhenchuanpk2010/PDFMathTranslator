@@ -49,8 +49,7 @@ template: |
 
   ## Windows Specific
 
-  If you cannot open it after downloading, please install https://aka.ms/vs/17/release/vc_redist.x64.exe and try again.
-
+  If you are unable to open the file after downloading, please install both [VC17](https://aka.ms/vs/17/release/vc_redist.x64.exe) and [VC15](https://aka.ms/vs/15/release/vc_redist.x64.exe), then try again.
   ## Assets
 
   - `pdf2zh-v$RESOLVED_VERSION-BabelDOC-<version>-win64.zip`: pdf2zh **without** assets(font, model, etc.)
