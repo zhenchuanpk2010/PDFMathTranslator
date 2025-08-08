@@ -373,7 +373,13 @@ jobs:
 
           Write-Host "==== 下载 Visual C++ Redistributable 安装程序 ===="
           $vcRedistUrl = "https://aka.ms/vs/17/release/vc_redist.x64.exe"
-          $vcRedistPath = "./build/无法运行请安装vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装2_vc_redist17.x64.exe"
+          Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
+          Write-Host "已下载 Visual C++ Redistributable 安装程序到: $vcRedistPath"
+
+          # https://aka.ms/vs/15/release/vc_redist.x64.exe
+          $vcRedistUrl = "https://aka.ms/vs/15/release/vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装1_vc_redist15.x64.exe"
           Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
           Write-Host "已下载 Visual C++ Redistributable 安装程序到: $vcRedistPath"
 
@@ -460,6 +466,10 @@ jobs:
         with:
           name: win64-exe-with-assets
           path: ./build
+
+      - name: Install VC++ 2015 Redistributable
+        run: |
+          ./build/无法运行请安装1_vc_redist15.x64.exe /quiet /norestart
 
       - name: Test show version
         run: |
