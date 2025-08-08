@@ -1,10 +1,10 @@
-[**Opzioni avanzate**](./introduction.md) > **Documentazione dei servizi di traduzione** _(current)_
+[**Opzioni avanzate**](./introduction.md) > **Documentazione dei servizi di traduzione** _(attuale)_
 
 ---
 
 ### Visualizzazione dei servizi di traduzione disponibili tramite Riga di comando
 
-Puoi confermare i servizi di traduzione disponibili e il loro utilizzo stampando il messaggio di aiuto nella Riga di comando.
+È possibile verificare i servizi di traduzione disponibili e il loro utilizzo stampando il messaggio di aiuto nella Riga di comando.
 
 ```bash
 pdf2zh_next -h

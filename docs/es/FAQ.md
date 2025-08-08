@@ -2,7 +2,7 @@ Algunas preguntas se hacen con frecuencia, por lo que hemos proporcionado una li
 
 ## ¿Se requiere una GPU?
 - **Pregunta**:
-Dado que el programa utiliza inteligencia artificial para reconocer y extraer documentos, ¿se requiere una GPU?
+¿El programa utiliza inteligencia artificial para reconocer y extraer documentos, se requiere una GPU?
 
 - **Respuesta**:
 **No se requiere una GPU.** Pero si tienes una GPU, el programa la usará automáticamente para un mayor rendimiento.
@@ -26,7 +26,7 @@ Quiero usar algunas de las funciones de la última versión, ¿cómo la actualiz
 
 ## Los siguientes archivos no existen: example.pdf
 - **Problema**:
-Al ejecutar el programa, los usuarios tendrían las siguientes salidas: `The following files do not exist: example.pdf` si el documento no se encontró.
+Al ejecutar el programa, los usuarios tendrían las siguientes salidas: `Los siguientes archivos no existen: example.pdf` si el documento no se encontró.
 
 - **Solución**:
   - Abre la línea de comandos en el directorio donde se encuentra el archivo, o
@@ -50,10 +50,10 @@ Por favor, vea a continuación.
 
 ## Error al iniciar la GUI usando 0.0.0.0
 - **Problema**:
-El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en el [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
+El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).
 
 - **Solución**:
-Usar modo de reglas
+Modo de uso de reglas
 
   ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)
 

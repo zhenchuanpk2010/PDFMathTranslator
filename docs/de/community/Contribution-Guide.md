@@ -4,18 +4,18 @@
 >
 > Die aktuellen Projektbetreuer erforschen die automatisierte Internationalisierung der Dokumentation. Daher werden keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation akzeptiert!
 >
-> Bitte reichen Sie keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation ein!
+> Bitte reichen Sie KEINE PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation ein!
 
-Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, die folgenden Richtlinien zu lesen, um sicherzustellen, dass Ihr Beitrag problemlos akzeptiert werden kann.
+Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, um die folgenden Richtlinien zu lesen, damit Ihr Beitrag problemlos akzeptiert werden kann.
 
 ## Nicht akzeptierte Beitragsarten
 
-1. Dokumentationsinternationalisierung/-übersetzung  
-2. Beiträge zur Kerninfrastruktur, wie z.B. HTTP-API, etc.  
-3. Issues, die explizit als "No help needed" markiert sind (einschließlich Issues in den Repositories [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) und [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
-4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.  
-5. Beiträge zur Dokumentation, aber Änderungen an der Dokumentation in anderen Sprachen als Englisch.  
-6. PRs, die Änderungen an PDF-Dateien erfordern.
+1. Dokumentationsinternationalisierung/-übersetzung
+2. Beiträge zur Kerninfrastruktur, wie z. B. HTTP-API usw.
+3. Probleme, die ausdrücklich als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)- und [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)-Repository).
+4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.
+5. Beitragsdokumentation, aber Änderung der Dokumentation in anderen Sprachen als Englisch.
+6. PRs, die eine Änderung von `PDF`-Dateien erfordern.
 
 Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
@@ -34,7 +34,7 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
    git commit -m "<semantic commit message>"
    ```
 5. Pushen Sie zu Ihrem Repository: `git push origin feature/<feature-name>`.
-6. Erstellen Sie einen PR auf GitHub, geben Sie eine detaillierte Beschreibung an und bitten Sie [@awwaawwa](https://github.com/awwaawwa) um eine Überprüfung.
+6. Erstellen Sie einen PR auf GitHub, geben Sie eine detaillierte Beschreibung an und fordern Sie eine Überprüfung von [@awwaawwa](https://github.com/awwaawwa) an.
 7. Stellen Sie sicher, dass alle automatisierten Prüfungen bestanden werden.
 
 > [!TIP]
@@ -43,14 +43,14 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 >
 > Wenn Sie Fragen zum Quellcode oder verwandten Themen haben, wenden Sie sich bitte an den Maintainer unter aw@funstory.ai.
 >
-> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen der zugehörigen Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
+> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen der relevanten Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.
 
-## Grundvoraussetzungen
+## Grundlegende Anforderungen
 
 <h4 id="sop">1. Arbeitsablauf</h4>
 
-   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.  
-   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.  
+   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.
+   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.
    - Wenn Ihr PR die automatisierten Prüfungen nicht besteht (angezeigt durch `checks failed` und ein rotes Kreuz), überprüfen Sie bitte die entsprechenden `details` und passen Sie Ihre Einreichung an, um sicherzustellen, dass der neue PR alle Prüfungen besteht.
 
 
@@ -81,20 +81,20 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 <h4 id="codestyle">7. Codierungsstil</h4>
 
-   - Stellen Sie sicher, dass Ihr eingereichter Code grundlegenden Codierungsstilstandards entspricht.
+   - Stellen Sie sicher, dass Ihr eingereichter Code grundlegende Codierungsstilstandards einhält.
    - Verwenden Sie entweder snake_case oder camelCase für die Benennung von Variablen.
 
 
 <h4 id="doctypo">8. Dokumentationsformatierung</h4>
 
-   - Für die Formatierung von `README.md` folgen Sie bitte den [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Stellen Sie sicher, dass sowohl die englische als auch die chinesische Dokumentation stets auf dem neuesten Stand sind; Aktualisierungen der Dokumentation in anderen Sprachen sind optional.
+   - Für die Formatierung von `README.md` folgen Sie bitte den [Chinesischen Copywriting-Richtlinien](https://github.com/sparanoid/chinese-copywriting-guidelines).
+   - Stellen Sie sicher, dass sowohl die englische als auch die chinesische Dokumentation immer auf dem neuesten Stand sind; Aktualisierungen der Dokumentation in anderen Sprachen sind optional.
 
 ## Hinzufügen einer Übersetzungsmaschine
 
-1. Fügen Sie eine neue Übersetzerkonfigurationsklasse in der Datei `pdf2zh/config/translate_engine_model.py` hinzu.
-2. Fügen Sie eine Instanz der neuen Übersetzerkonfigurationsklasse zum Typalias `TRANSLATION_ENGINE_SETTING_TYPE` in derselben Datei hinzu.
-3. Fügen Sie die neue Übersetzerimplementierungsklasse im Ordner `pdf2zh/translator/translator_impl` hinzu.
+1. Fügen Sie eine neue Übersetzer-Konfigurationsklasse in der Datei `pdf2zh/config/translate_engine_model.py` hinzu.
+2. Fügen Sie eine Instanz der neuen Übersetzer-Konfigurationsklasse zum Typalias `TRANSLATION_ENGINE_SETTING_TYPE` in derselben Datei hinzu.
+3. Fügen Sie die neue Übersetzer-Implementierungsklasse im Ordner `pdf2zh/translator/translator_impl` hinzu.
 
 > [!NOTE]
 >
@@ -103,12 +103,12 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 ## Projektstruktur
 
 - **config folder**: Konfigurationssystem.
-- **translator folder**: Implementierungen im Zusammenhang mit dem Übersetzer.
+- **translator folder**: Übersetzerbezogene Implementierungen.
 - **gui.py**: Bietet die GUI-Schnittstelle.
 - **const.py**: Einige Konstanten.
 - **main.py**: Bietet das Kommandozeilen-Tool.
 - **high_level.py**: Hochrangige Schnittstellen basierend auf BabelDOC.
-- **http_api.py**: Bietet HTTP-API (nicht gestartet).
+- **http_api.py**: Bietet HTTP API (nicht gestartet).
 
 ## Kontaktieren Sie uns
 

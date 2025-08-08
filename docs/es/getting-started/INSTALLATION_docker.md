@@ -10,7 +10,7 @@
 
 #### Instalación
 
-<h4>1. Descargar y ejecutar:</h4>
+<h4>1. Extraer y ejecutar:</h4>
 
 ```bash
 docker pull awwaawwa/pdfmathtranslate-next
@@ -19,7 +19,7 @@ docker run -d -p 7860:7860 awwaawwa/pdfmathtranslate-next
 
 > [!NOTE]
 > 
-> - Si no puedes acceder a Docker Hub, por favor prueba la imagen en [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
+> - Si no puedes acceder a Docker Hub, prueba con la imagen en [GitHub Container Registry](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pkgs/container/pdfmathtranslate).
 > 
 > ```bash
 > docker pull ghcr.io/PDFMathTranslate/PDFMathTranslate-next

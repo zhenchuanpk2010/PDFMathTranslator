@@ -1,20 +1,20 @@
 > [!CAUTION]
 >
-> 이 문서는 오래된 문서이므로 참고하지 마십시오.
+> 이 문서는 오래된 문서입니다. 참고하지 마십시오.
 
 <h2 id="목차">목차</h2>
-현재 프로젝트는 두 가지 유형의 API를 지원하며, 모든 방법은 Redis가 필요합니다;
+현재 프로젝트는 두 가지 유형의 API 를 지원하며, 모든 방법에는 Redis 가 필요합니다;
 
-- [Python에서의 함수 호출](#api-python)
+- [Python 에서의 함수 호출](#api-python)
 - [HTTP 프로토콜](#api-http)
 
 ---
 
 <h2 id="api-python">Python</h2>
 
-`pdf2zh`는 Python에 설치된 모듈이므로, 다른 프로그램에서 호출할 수 있는 두 가지 메서드를 제공합니다.
+`pdf2zh` 는 Python 에 설치된 모듈이므로, 다른 프로그램에서 호출할 수 있는 두 가지 메소드를 Python 스크립트에서 제공합니다.
 
-예를 들어, Google Translate를 사용하여 영어 문서를 중국어로 번역하려면 다음 코드를 사용할 수 있습니다:
+예를 들어, Google Translate 를 사용하여 영어 문서를 중국어로 번역하려면 다음 코드를 사용할 수 있습니다:
 
 ```python
 from pdf2zh_next import translate, translate_stream
@@ -30,7 +30,7 @@ params = {
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-스트림으로 번역:
+스트림으로 번역하기
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -97,4 +97,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

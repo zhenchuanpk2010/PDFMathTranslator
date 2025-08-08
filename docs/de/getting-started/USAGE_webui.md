@@ -2,7 +2,7 @@
 
 ---
 
-### Verwenden Sie PDFMathTranslate über Webui
+### Verwendung von PDFMathTranslate über Webui
 
 #### So öffnen Sie die WebUI-Seite:
 
@@ -43,9 +43,7 @@ Sie können die Quell- und Zielsprachen mit Umgebungsvariablen festlegen:
 
 ## Wartung
 
-### TRANSLATION RESULT
-
-GUI wird von [Rongxin](https://github.com/reycn) gewartet
+GUI gepflegt von [Rongxin](https://github.com/reycn)
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

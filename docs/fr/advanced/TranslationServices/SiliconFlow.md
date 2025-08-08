@@ -31,7 +31,7 @@ Politique de confidentialité de SiliconFlow : [简体中文](https://docs.silic
 
 
 
-## Utiliser d'autres modèles depuis SiliconFlow
+## Utiliser d'autres modèles de SiliconFlow
 
 [SiliconFlow](https://siliconflow.cn) propose également d'autres modèles pour la traduction.
 
@@ -39,7 +39,7 @@ Politique de confidentialité de SiliconFlow : [简体中文](https://docs.silic
 
 1. Créez un compte sur [SiliconFlow](https://siliconflow.cn)
 
-2. Créez une clé API sur [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Ensuite, cliquez sur la clé pour la copier.
+2. Générez une clé API sur [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Ensuite, cliquez sur la clé pour la copier.
 
 #### Ligne de commande
 
@@ -49,11 +49,11 @@ pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --si
 
 #### webui
 
-1. "Options de traduction" - Liste déroulante **"Service"** : Sélectionnez "SiliconFlow"  
-2. "Options de traduction" - **"URL de base pour l'API SiliconFlow"** : Conservez la valeur par défaut  
-3. "Options de traduction" - **"Modèle SiliconFlow à utiliser"** : Entrez "Pro/deepseek-ai/DeepSeek-V3" ou d'autres modèles  
-4. "Options de traduction" - **"Clé API pour le service SiliconFlow"** : Collez votre clé API  
-5. Cliquez sur le bouton Traduire en bas de la page pour démarrer la traduction  
+1. "Options de traduction" - Liste déroulante **"Service"** : Sélectionnez "SiliconFlow"
+2. "Options de traduction" - **"URL de base pour l'API SiliconFlow"** : Gardez la valeur par défaut
+3. "Options de traduction" - **"Modèle SiliconFlow à utiliser"** : Entrez "Pro/deepseek-ai/DeepSeek-V3" ou d'autres modèles
+4. "Options de traduction" - **"Clé API pour le service SiliconFlow"** : Collez votre clé API
+5. Cliquez sur le bouton Traduire en bas de la page pour démarrer la traduction
 6. Une fois la traduction terminée, vous pouvez trouver le fichier PDF traduit dans la section "Traduits" en bas de la page.
 
 

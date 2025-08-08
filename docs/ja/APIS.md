@@ -3,7 +3,7 @@
 > このドキュメントは古くなっていますので、参照しないでください。
 
 <h2 id="目次">目次</h2>
-現在のプロジェクトでは 2 種類の API をサポートしており、すべてのメソッドには Redis が必要です。
+本プロジェクトは 2 種類の API をサポートしており、すべてのメソッドには Redis が必要です。
 
 - [Python での関数呼び出し](#api-python)
 - [HTTP プロトコル](#api-http)
@@ -30,7 +30,7 @@ params = {
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-ストリームで翻訳:
+ストリームで翻訳：
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -42,7 +42,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-より柔軟な方法として、以下の条件を満たす場合、HTTP プロトコルを使用してプログラムと通信できます：
+より柔軟な方法として、以下の場合には HTTP プロトコルを使用してプログラムと通信できます：
 
 1. バックエンドのインストールと実行
 
@@ -52,7 +52,7 @@ with open('example.pdf', 'rb') as f:
    pdf2zh_next --celery worker
    ```
 
-2. HTTP プロトコルの使用方法:
+2. HTTP プロトコルを使用する方法：
 
    - 翻訳タスクの送信
 
@@ -68,7 +68,7 @@ with open('example.pdf', 'rb') as f:
      {"info":{"n":13,"total":506},"state":"PROGRESS"}
      ```
 
-   - 進捗状況の確認 _(完了時)_
+   - 進捗状況の確認（完了時）
 
      ```bash
      curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a
@@ -97,4 +97,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

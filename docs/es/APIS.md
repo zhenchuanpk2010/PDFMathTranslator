@@ -2,7 +2,7 @@
 >
 > Este documento está desactualizado, por favor no lo consultes.
 
-<h2 id="indice">Tabla de contenido</h2>
+<h2 id="toc">Tabla de contenido</h2>
 El presente proyecto soporta dos tipos de APIs, todos los métodos necesitan Redis;
 
 - [Llamadas funcionales en Python](#api-python)
@@ -12,7 +12,7 @@ El presente proyecto soporta dos tipos de APIs, todos los métodos necesitan Red
 
 <h2 id="api-python">Python</h2>
 
-Como `pdf2zh` es un módulo instalado en Python, exponemos dos métodos para que otros programas los llamen en cualquier script de Python.
+Como `pdf2zh` es un módulo instalado en Python, exponemos dos métodos para que otros programas puedan llamar en cualquier script de Python.
 
 Por ejemplo, si deseas traducir un documento del inglés al chino usando Google Translate, puedes usar el siguiente código:
 
@@ -30,7 +30,7 @@ Traducir con archivos:
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Traducir con flujo:
+Traducir con transmisión:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)

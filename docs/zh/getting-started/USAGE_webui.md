@@ -6,11 +6,11 @@
 
 #### 如何打开 WebUI 页面：
 
-有几种方法可以打开 WebUI 界面。如果您使用的是 **Windows**，请参考[这篇文章](./INSTALLATION_winexe.md)；
+有多种方法可以打开 WebUI 界面。如果您使用的是 **Windows**，请参考 [这篇文章](./INSTALLATION_winexe.md)；
 
 1. 已安装 Python（3.10 <= 版本 <= 3.12）
 
-2. 安装我们的软件包：
+2. 安装我们的包：
 
 3. 在浏览器中开始使用：
 
@@ -46,4 +46,4 @@
 由 [Rongxin](https://github.com/reycn) 维护的 GUI
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

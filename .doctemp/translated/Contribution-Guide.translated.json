@@ -1,0 +1,636 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/community/Contribution-Guide.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_53390D48",
+      "chunk_type": "header",
+      "original_content": "# Contributing to the Project\n",
+      "start_line_no": 1,
+      "translations": {
+        "de": "# Beitrag zum Projekt\n",
+        "ja": "# プロジェクトへの貢献\n",
+        "ko": "# 프로젝트에 기여하기\n",
+        "zh_TW": "# 為專案貢獻\n",
+        "ru": "# Вклад в проект\n",
+        "es": "# Contribuir al proyecto\n",
+        "fr": "# Contribuer au projet\n",
+        "pt": "# Contribuindo para o projeto\n",
+        "zh": "# 为项目做贡献\n",
+        "it": "# Contribuire al progetto\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_A71D833E",
+      "chunk_type": "blockquote",
+      "original_content": "> [!CAUTION]\n>\n> The current project maintainers are researching automated documentation internationalization. Therefore, any PRs related to documentation internationalization/translation will NOT be accepted!\n>\n> Please do NOT submit PRs related to documentation internationalization/translation!\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "> [!CAUTION]\n>\n> 当前项目维护者正在研究自动化文档国际化方案。因此，任何与文档国际化/翻译相关的 PR 将不被接受！\n>\n> 请勿提交与文档国际化/翻译相关的 PR！\n",
+        "zh_TW": "> [!CAUTION]\n>\n> 當前專案維護者正在研究自動化文檔國際化。因此，任何與文檔國際化/翻譯相關的 PR 將不被接受！\n>\n> 請勿提交與文檔國際化/翻譯相關的 PR！\n",
+        "fr": "> [!CAUTION]\n>\n> Les mainteneurs actuels du projet recherchent une internationalisation automatisée de la documentation. Par conséquent, toute PR liée à l'internationalisation/traduction de la documentation ne sera PAS acceptée !\n>\n> Veuillez ne PAS soumettre de PR liées à l'internationalisation/traduction de la documentation !\n",
+        "ko": "> [!CAUTION]\n>\n> 현재 프로젝트 관리자들은 자동화된 문서 국제화를 연구 중입니다. 따라서 문서 국제화/번역과 관련된 PR 은 **절대 허용되지 않습니다**!\n>\n> 문서 국제화/번역과 관련된 PR 을 제출하지 마세요!\n",
+        "pt": "> [!CAUTION]\n>\n> Os mantenedores atuais do projeto estão pesquisando a internacionalização automatizada de documentação. Portanto, qualquer PR relacionado à internacionalização/tradução de documentação NÃO será aceito!\n>\n> Por favor, NÃO envie PRs relacionados à internacionalização/tradução de documentação!\n",
+        "it": "> [!CAUTION]\n>\n> Gli attuali responsabili del progetto stanno ricercando l'internazionalizzazione automatizzata della documentazione. Pertanto, qualsiasi PR relativa all'internazionalizzazione/traduzione della documentazione NON sarà accettata!\n>\n> Si prega di NON inviare PR relative all'internazionalizzazione/traduzione della documentazione!\n",
+        "ja": "> [!CAUTION]\n>\n> 現在のプロジェクトメンテナーは、ドキュメントの自動国際化を研究中です。そのため、ドキュメントの国際化／翻訳に関連する PR は一切受け付けません！\n>\n> ドキュメントの国際化／翻訳に関連する PR を提出しないでください！\n",
+        "ru": "> [!CAUTION]\n>\n> Текущие сопровождающие проекта исследуют автоматизацию интернационализации документации. Поэтому любые PR, связанные с интернационализацией/переводом документации, НЕ будут приниматься!\n>\n> Пожалуйста, НЕ отправляйте PR, связанные с интернационализацией/переводом документации!\n",
+        "de": "> [!CAUTION]\n>\n> Die aktuellen Projektbetreuer erforschen die automatisierte Internationalisierung der Dokumentation. Daher werden keine PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation akzeptiert!\n>\n> Bitte reichen Sie KEINE PRs im Zusammenhang mit der Internationalisierung/Übersetzung der Dokumentation ein!\n",
+        "es": "> [!CAUTION]\n>\n> Los mantenedores actuales del proyecto están investigando la internacionalización automatizada de la documentación. Por lo tanto, ¡NO se aceptarán PRs relacionados con la internacionalización/traducción de la documentación!\n>\n> ¡Por favor, NO envíes PRs relacionados con la internacionalización/traducción de la documentación!\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_D57757D9",
+      "chunk_type": "paragraph",
+      "original_content": "Thank you for your interest in this project! Before you start contributing, please take some time to read the following guidelines to ensure your contribution can be smoothly accepted.\n",
+      "start_line_no": 9,
+      "translations": {
+        "es": "Gracias por tu interés en este proyecto. Antes de empezar a contribuir, por favor tómate un tiempo para leer las siguientes pautas para asegurar que tu contribución pueda ser aceptada sin problemas.\n",
+        "ja": "このプロジェクトに興味を持っていただきありがとうございます！貢献を始める前に、以下のガイドラインを読んで、あなたの貢献がスムーズに受け入れられるようにしてください。\n",
+        "ru": "Спасибо за ваш интерес к этому проекту! Прежде чем начать вносить свой вклад, пожалуйста, уделите немного времени, чтобы прочитать следующие рекомендации, чтобы ваш вклад мог быть легко принят.\n",
+        "it": "Grazie per il tuo interesse in questo progetto! Prima di iniziare a contribuire, ti preghiamo di dedicare un po' di tempo a leggere le seguenti linee guida per assicurarti che il tuo contributo possa essere accettato senza problemi.\n",
+        "zh_TW": "感謝您對本專案的關注！在開始貢獻之前，請花些時間閱讀以下指南，以確保您的貢獻能夠順利被接受。\n",
+        "ko": "이 프로젝트에 관심을 가져 주셔서 감사합니다! 기여를 시작하기 전에, 원활한 기여를 위해 다음 가이드라인을 꼭 읽어 주시기 바랍니다.\n",
+        "pt": "Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reserve um tempo para ler as seguintes diretrizes para garantir que sua contribuição possa ser aceita sem problemas.\n",
+        "zh": "感谢您对本项目的关注！在开始贡献之前，请花些时间阅读以下指南，以确保您的贡献能够顺利被接受。\n",
+        "de": "Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag beginnen, nehmen Sie sich bitte etwas Zeit, um die folgenden Richtlinien zu lesen, damit Ihr Beitrag problemlos akzeptiert werden kann.\n",
+        "fr": "Merci pour votre intérêt pour ce projet ! Avant de commencer à contribuer, veuillez prendre le temps de lire les directives suivantes pour vous assurer que votre contribution puisse être acceptée sans problème.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FB836CBD",
+      "chunk_type": "header",
+      "original_content": "## Types of Contributions Not Accepted\n",
+      "start_line_no": 11,
+      "translations": {
+        "zh": "## 不接受的贡献类型\n",
+        "ja": "## 受け付けない貢献の種類\n",
+        "zh_TW": "## 不接受的貢獻類型\n",
+        "pt": "## Tipos de Contribuições Não Aceitas\n",
+        "ko": "## 허용되지 않는 기여 유형\n",
+        "it": "## Tipi di Contributi Non Accettati\n",
+        "de": "## Nicht akzeptierte Beitragsarten\n",
+        "es": "## Tipos de contribuciones no aceptadas\n",
+        "fr": "## Types de contributions non acceptées\n",
+        "ru": "## Типы вкладов, которые не принимаются\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F2331818",
+      "chunk_type": "list",
+      "original_content": "1. Documentation internationalization/translation\n2. Contributions related to core infrastructure, such as HTTP API, etc.\n3. Issues explicitly marked as \"No help needed\" (including issues in the [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) and the [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) repository).\n4. Other contributions deemed inappropriate by the maintainers.\n5. Contributing documentation, but changing the documentation in languages other than English.\n6. PRs that require modifying PDF files.\n",
+      "start_line_no": 13,
+      "translations": {
+        "ko": "1. 문서 국제화/번역\n2. HTTP API 등과 같은 핵심 인프라 관련 기여\n3. \"도움 필요 없음\"으로 명시적으로 표시된 이슈 ([Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 및 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 저장소의 이슈 포함).\n4. 유지 관리자가 부적절하다고 판단한 기타 기여\n5. 문서 기여이지만 영어 이외의 언어로 된 문서를 변경하는 경우\n6. PDF 파일 수정이 필요한 PR\n",
+        "pt": "1. Documentação de internacionalização/tradução  \n2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  \n3. Problemas explicitamente marcados como \"No help needed\" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  \n4. Outras contribuições consideradas inadequadas pelos mantenedores.  \n5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.  \n6. PRs que exigem modificação de arquivos PDF.\n",
+        "it": "1. Documentazione internazionalizzazione/traduzione\n2. Contributi relativi all'infrastruttura core, come HTTP API, ecc.\n3. Issue contrassegnate esplicitamente come \"No help needed\" (incluse le issue nei repository [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).\n4. Altri contributi ritenuti inappropriati dai maintainer.\n5. Contribuire alla documentazione, ma modificando la documentazione in lingue diverse dall'inglese.\n6. PR che richiedono la modifica di file PDF.\n",
+        "de": "1. Dokumentationsinternationalisierung/-übersetzung\n2. Beiträge zur Kerninfrastruktur, wie z. B. HTTP-API usw.\n3. Probleme, die ausdrücklich als \"Keine Hilfe benötigt\" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)- und [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)-Repository).\n4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.\n5. Beitragsdokumentation, aber Änderung der Dokumentation in anderen Sprachen als Englisch.\n6. PRs, die eine Änderung von `PDF`-Dateien erfordern.\n",
+        "zh_TW": "1. 文件國際化/翻譯\n2. 與核心基礎設施相關的貢獻，例如 HTTP API 等。\n3. 明確標記為「無需幫助」的議題（包括 [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 和 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 存儲庫中的議題）。\n4. 其他被維護者認為不適當的貢獻。\n5. 貢獻文件，但修改非英文的其他語言文件。\n6. 需要修改 PDF 檔案的 PRs。\n",
+        "fr": "1. Documentation internationalisation/traduction  \n2. Contributions liées à l'infrastructure principale, telles que l'API HTTP, etc.  \n3. Problèmes explicitement marqués comme \"No help needed\" (y compris les problèmes dans les dépôts [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) et [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  \n4. Autres contributions jugées inappropriées par les mainteneurs.  \n5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.  \n6. PRs nécessitant la modification de fichiers PDF.\n",
+        "ja": "1. ドキュメントの国際化／翻訳\n2. HTTP API など、コアインフラストラクチャに関する貢献\n3. 「助け不要」と明示的にマークされたイシュー（[Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) および [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) リポジトリ内のイシューを含む）。\n4. メンテナが不適切と判断したその他の貢献。\n5. ドキュメントへの貢献だが、英語以外の言語でドキュメントを変更する場合。\n6. PDF ファイルの変更を必要とする PR。\n",
+        "zh": "1. 文档国际化/翻译\n2. 与核心基础设施相关的贡献，例如 HTTP API 等\n3. 明确标记为「无需帮助」的 Issues（包括 [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 和 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 仓库中的 Issues）\n4. 维护者认为不合适的其他贡献\n5. 贡献文档，但修改非英语语言的文档\n6. 需要修改 `PDF` 文件的 PRs\n",
+        "ru": "1. Документация по интернационализации/переводу  \n2. Вклады, связанные с основной инфраструктурой, такие как HTTP API и т. д.  \n3. Проблемы, явно помеченные как \"No help needed\" (включая проблемы в репозиториях [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) и [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  \n4. Другие вклады, которые модераторы сочтут неуместными.  \n5. Вклад в документацию, но изменение документации на языках, отличных от английского.  \n6. PR, требующие изменения файлов PDF.\n",
+        "es": "1. Documentación de internacionalización/traducción  \n2. Contribuciones relacionadas con la infraestructura central, como API HTTP, etc.  \n3. Problemas marcados explícitamente como \"No se necesita ayuda\" (incluyendo problemas en los repositorios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) y [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  \n4. Otras contribuciones consideradas inapropiadas por los mantenedores.  \n5. Contribuir a la documentación, pero modificando la documentación en idiomas distintos al inglés.  \n6. PRs que requieran modificar archivos PDF.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7828B7C7",
+      "chunk_type": "paragraph",
+      "original_content": "Please do NOT submit PRs related to the above types.\n",
+      "start_line_no": 20,
+      "translations": {
+        "zh_TW": "請勿提交與上述類型相關的 PR。\n",
+        "ko": "위와 관련된 유형의 PR 은 제출하지 마십시오.\n",
+        "fr": "Veuillez ne PAS soumettre de PR liées aux types mentionnés ci-dessus.\n",
+        "pt": "Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.\n",
+        "es": "Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.\n",
+        "de": "Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.\n",
+        "it": "Per favore NON inviare PR relativi ai tipi sopra menzionati.\n",
+        "ru": "Пожалуйста, НЕ отправляйте PR, связанные с вышеуказанными типами.\n",
+        "ja": "上記の種類に関連する PR は提出しないでください。\n",
+        "zh": "请勿提交与上述类型相关的 PR。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_56FADEC9",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n>\n> If you want to contribute documentation, please **only modify the English version of the documentation**. Other language versions are translated by contributors themselves.\n",
+      "start_line_no": 22,
+      "translations": {
+        "ru": "> [!NOTE]\n>\n> Если вы хотите внести вклад в документацию, пожалуйста, **изменяйте только английскую версию документации**. Другие языковые версии переводятся самими участниками.\n",
+        "de": "> [!NOTE]\n>\n> Wenn Sie zur Dokumentation beitragen möchten, **ändern Sie bitte nur die englische Version der Dokumentation**. Andere Sprachversionen werden von den Mitwirkenden selbst übersetzt.\n",
+        "zh": "> [!NOTE]\n>\n> 如果你想贡献文档，请**仅修改文档的英文版本**。其他语言版本由贡献者自行翻译。\n",
+        "zh_TW": "> [!NOTE]\n>\n> 若您想貢獻文檔，請**僅修改英文版本文檔**。其他語言版本由貢獻者自行翻譯。\n",
+        "ja": "> [!NOTE]\n>\n> ドキュメントに貢献したい場合は、**英語版のドキュメントのみを修正してください**。他の言語バージョンは貢献者自身によって翻訳されます。\n",
+        "ko": "> [!NOTE]\n>\n> 문서에 기여하고 싶다면 **문서의 영어 버전만 수정해 주세요**. 다른 언어 버전은 기여자들이 직접 번역합니다.\n",
+        "fr": "> [!NOTE]\n>\n> Si vous souhaitez contribuer à la documentation, veuillez **uniquement modifier la version anglaise de la documentation**. Les autres versions linguistiques sont traduites par les contributeurs eux-mêmes.\n",
+        "es": "> [!NOTE]\n>\n> Si deseas contribuir con la documentación, por favor **solo modifiques la versión en inglés de la documentación**. Las versiones en otros idiomas son traducidas por los propios colaboradores.\n",
+        "pt": "> [!NOTE]\n>\n> Se você deseja contribuir com a documentação, por favor **modifique apenas a versão em inglês da documentação**. As outras versões em outros idiomas são traduzidas pelos próprios contribuidores.\n",
+        "it": "> [!NOTE]\n>\n> Se vuoi contribuire alla documentazione, **modifica solo la versione inglese della documentazione**. Le altre versioni linguistiche sono tradotte dai contributori stessi.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_485712CB",
+      "chunk_type": "header",
+      "original_content": "## Contribution Process\n",
+      "start_line_no": 26,
+      "translations": {
+        "zh_TW": "## 貢獻流程\n",
+        "it": "## Processo di Contribuzione\n",
+        "de": "## Beitragsprozess\n",
+        "fr": "## Processus de contribution\n",
+        "zh": "## 贡献流程\n",
+        "pt": "## Processo de Contribuição\n",
+        "ko": "## 기여 프로세스\n",
+        "es": "## Proceso de contribución\n",
+        "ja": "## 貢献プロセス\n",
+        "ru": "## Процесс внесения вклада\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_4D698FBF",
+      "chunk_type": "list",
+      "original_content": "1. Fork this repository and clone it locally.\n2. Create a new branch: `git checkout -b feature/<feature-name>`.\n3. Develop and ensure your code meets the requirements.\n4. Commit your code:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Push to your repository: `git push origin feature/<feature-name>`.\n6. Create a PR on GitHub, provide a detailed description, and request a review from [@awwaawwa](https://github.com/awwaawwa).\n7. Ensure all automated checks pass.\n",
+      "start_line_no": 28,
+      "translations": {
+        "zh_TW": "1. 複製此儲存庫並在本地克隆。\n2. 創建一個新分支：`git checkout -b feature/<feature-name>`。\n3. 開發並確保你的代碼符合要求。\n4. 提交你的代碼：\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. 推送至你的儲存庫：`git push origin feature/<feature-name>`。\n6. 在 GitHub 上創建一個 PR，提供詳細描述，並請求 [@awwaawwa](https://github.com/awwaawwa) 進行審查。\n7. 確保所有自動化檢查通過。\n",
+        "ru": "1. Форкните этот репозиторий и клонируйте его локально.\n2. Создайте новую ветку: `git checkout -b feature/<feature-name>`.\n3. Разрабатывайте и убедитесь, что ваш код соответствует требованиям.\n4. Зафиксируйте изменения:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Отправьте изменения в ваш репозиторий: `git push origin feature/<feature-name>`.\n6. Создайте PR на GitHub, предоставьте подробное описание и запросите проверку у [@awwaawwa](https://github.com/awwaawwa).\n7. Убедитесь, что все автоматические проверки пройдены.\n",
+        "de": "1. Forken Sie dieses Repository und klonen Sie es lokal.\n2. Erstellen Sie einen neuen Branch: `git checkout -b feature/<feature-name>`.\n3. Entwickeln Sie und stellen Sie sicher, dass Ihr Code den Anforderungen entspricht.\n4. Committen Sie Ihren Code:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Pushen Sie zu Ihrem Repository: `git push origin feature/<feature-name>`.\n6. Erstellen Sie einen PR auf GitHub, geben Sie eine detaillierte Beschreibung an und fordern Sie eine Überprüfung von [@awwaawwa](https://github.com/awwaawwa) an.\n7. Stellen Sie sicher, dass alle automatisierten Prüfungen bestanden werden.\n",
+        "it": "1. Forka questo repository e clonalo localmente.\n2. Crea un nuovo branch: `git checkout -b feature/<feature-name>`.\n3. Sviluppa e assicurati che il tuo codice soddisfi i requisiti.\n4. Esegui il commit del tuo codice:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Esegui il push sul tuo repository: `git push origin feature/<feature-name>`.\n6. Crea una PR su GitHub, fornisci una descrizione dettagliata e richiedi una revisione da [@awwaawwa](https://github.com/awwaawwa).\n7. Assicurati che tutti i controlli automatizzati siano superati.\n",
+        "fr": "1. Forkez ce dépôt et clonez-le localement.\n2. Créez une nouvelle branche : `git checkout -b feature/<feature-name>`.\n3. Développez et assurez-vous que votre code répond aux exigences.\n4. Validez votre code :\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Poussez vers votre dépôt : `git push origin feature/<feature-name>`.\n6. Créez une PR sur GitHub, fournissez une description détaillée et demandez une revue à [@awwaawwa](https://github.com/awwaawwa).\n7. Assurez-vous que toutes les vérifications automatisées passent.\n",
+        "ja": "1. このリポジトリをフォークし、ローカルにクローンします。\n2. 新しいブランチを作成します：`git checkout -b feature/<feature-name>`。\n3. 開発を行い、コードが要件を満たしていることを確認します。\n4. コードをコミットします：\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. 自分のリポジトリにプッシュします：`git push origin feature/<feature-name>`。\n6. GitHub で PR を作成し、詳細な説明を提供し、[@awwaawwa](https://github.com/awwaawwa) にレビューを依頼します。\n7. すべての自動チェックが合格することを確認します。\n",
+        "zh": "1. Fork 此仓库并在本地克隆它。\n2. 创建一个新分支：`git checkout -b feature/<feature-name>`。\n3. 进行开发并确保你的代码符合要求。\n4. 提交你的代码：\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. 推送到你的仓库：`git push origin feature/<feature-name>`。\n6. 在 GitHub 上创建一个 PR，提供详细描述，并请求 [@awwaawwa](https://github.com/awwaawwa) 进行审查。\n7. 确保所有自动化检查通过。\n",
+        "es": "1. Haz un fork de este repositorio y clónalo localmente.\n2. Crea una nueva rama: `git checkout -b feature/<feature-name>`.\n3. Desarrolla y asegúrate de que tu código cumpla con los requisitos.\n4. Confirma tus cambios:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Sube los cambios a tu repositorio: `git push origin feature/<feature-name>`.\n6. Crea un PR en GitHub, proporciona una descripción detallada y solicita una revisión a [@awwaawwa](https://github.com/awwaawwa).\n7. Asegúrate de que todas las verificaciones automatizadas pasen.\n",
+        "ko": "1. 이 저장소를 포크하고 로컬에 클론합니다.\n2. 새로운 브랜치를 생성합니다: `git checkout -b feature/<feature-name>`.\n3. 개발을 진행하고 코드가 요구 사항을 충족하는지 확인합니다.\n4. 코드를 커밋합니다:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. 자신의 저장소에 푸시합니다: `git push origin feature/<feature-name>`.\n6. GitHub 에서 PR 을 생성하고 상세한 설명을 제공한 후 [@awwaawwa](https://github.com/awwaawwa) 에게 리뷰를 요청합니다.\n7. 모든 자동화된 검사가 통과되는지 확인합니다.\n",
+        "pt": "1. Faça um fork deste repositório e clone-o localmente.\n2. Crie uma nova branch: `git checkout -b feature/<feature-name>`.\n3. Desenvolva e certifique-se de que seu código atenda aos requisitos.\n4. Faça commit do seu código:\n   ```bash\n   git add .\n   git commit -m \"<semantic commit message>\"\n   ```\n5. Envie para o seu repositório: `git push origin feature/<feature-name>`.\n6. Crie um PR no GitHub, forneça uma descrição detalhada e solicite uma revisão de [@awwaawwa](https://github.com/awwaawwa).\n7. Certifique-se de que todas as verificações automatizadas sejam aprovadas.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_89A6F55A",
+      "chunk_type": "blockquote",
+      "original_content": "> [!TIP]\n>\n> You do not need to wait until your development is fully complete to create a PR. Creating one early allows us to review your implementation and provide suggestions.\n>\n> If you have any questions about the source code or related matters, please contact the maintainer at aw@funstory.ai.\n>\n> Resource files for version 2.0 are shared with [BabelDOC](https://github.com/funstory-ai/BabelDOC). The code for downloading related resources is in BabelDOC. If you want to add new resource files, please contact the BabelDOC maintainer at aw@funstory.ai.\n",
+      "start_line_no": 40,
+      "translations": {
+        "es": "> [!TIP]\n>\n> No es necesario esperar hasta que tu desarrollo esté completamente terminado para crear un PR. Crear uno temprano nos permite revisar tu implementación y proporcionar sugerencias.\n>\n> Si tienes alguna pregunta sobre el código fuente o asuntos relacionados, por favor contacta al mantenedor en aw@funstory.ai.\n>\n> Los archivos de recursos para la versión 2.0 se comparten con [BabelDOC](https://github.com/funstory-ai/BabelDOC). El código para descargar los recursos relacionados está en BabelDOC. Si deseas agregar nuevos archivos de recursos, por favor contacta al mantenedor de BabelDOC en aw@funstory.ai.\n",
+        "zh_TW": "> [!TIP]\n>\n> 您不需要等到開發完全完成才創建 PR。提前創建 PR 可以讓我們審查您的實現並提供建議。\n>\n> 如果您對源代碼或相關事宜有任何疑問，請聯繫維護者 aw@funstory.ai。\n>\n> 2.0 版本的資源文件與 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 共享。下載相關資源的代碼位於 BabelDOC 中。如果您想新增資源文件，請聯繫 BabelDOC 維護者 aw@funstory.ai。\n",
+        "zh": "> [!TIP]\n>\n> 你无需等到开发完全完成才创建 PR。提前创建 PR 可以让我们审查你的实现并提供建议。\n>\n> 如果你对源代码或相关事项有任何疑问，请联系维护者 aw@funstory.ai。\n>\n> 2.0 版本的资源文件与 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 共享。下载相关资源的代码位于 BabelDOC 中。如果你想添加新的资源文件，请联系 BabelDOC 维护者 aw@funstory.ai。\n",
+        "pt": "> [!TIP]\n>\n> Você não precisa esperar até que seu desenvolvimento esteja totalmente completo para criar um PR. Criar um PR antecipadamente nos permite revisar sua implementação e fornecer sugestões.\n>\n> Se você tiver alguma dúvida sobre o código-fonte ou assuntos relacionados, entre em contato com o mantenedor em aw@funstory.ai.\n>\n> Os arquivos de recursos para a versão 2.0 são compartilhados com [BabelDOC](https://github.com/funstory-ai/BabelDOC). O código para baixar os recursos relacionados está no BabelDOC. Se você deseja adicionar novos arquivos de recursos, entre em contato com o mantenedor do BabelDOC em aw@funstory.ai.\n",
+        "ko": "> [!TIP]\n>\n> 개발이 완전히 완료될 때까지 기다릴 필요 없이 PR 을 생성할 수 있습니다. 일찍 생성하면 구현을 검토하고 제안을 제공할 수 있습니다.\n>\n> 소스 코드 또는 관련 사항에 대한 질문이 있으면 aw@funstory.ai 로 메인테이너에게 문의하세요.\n>\n> 2.0 버전의 리소스 파일은 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 와 공유됩니다. 관련 리소스를 다운로드하는 코드는 BabelDOC 에 있습니다. 새로운 리소스 파일을 추가하려면 BabelDOC 메인테이너에게 aw@funstory.ai 로 문의하세요.\n",
+        "it": "> [!TIP]\n>\n> Non è necessario attendere che lo sviluppo sia completamente terminato per creare una PR. Crearne una in anticipo ci permette di esaminare la tua implementazione e fornire suggerimenti.\n>\n> Se hai domande sul codice sorgente o su questioni correlate, contatta il maintainer all'indirizzo aw@funstory.ai.\n>\n> I file delle risorse per la versione 2.0 sono condivisi con [BabelDOC](https://github.com/funstory-ai/BabelDOC). Il codice per scaricare le risorse correlate si trova in BabelDOC. Se desideri aggiungere nuovi file di risorse, contatta il maintainer di BabelDOC all'indirizzo aw@funstory.ai.\n",
+        "ru": "> [!TIP]\n>\n> Вам не нужно ждать, пока разработка будет полностью завершена, чтобы создать PR. Создание PR на раннем этапе позволяет нам проверить вашу реализацию и дать рекомендации.\n>\n> Если у вас есть вопросы по исходному коду или связанным вопросам, пожалуйста, свяжитесь с сопровождающим по адресу aw@funstory.ai.\n>\n> Файлы ресурсов для версии 2.0 доступны в [BabelDOC](https://github.com/funstory-ai/BabelDOC). Код для загрузки связанных ресурсов находится в BabelDOC. Если вы хотите добавить новые файлы ресурсов, пожалуйста, свяжитесь с сопровождающим BabelDOC по адресу aw@funstory.ai.\n",
+        "ja": "> [!TIP]\n>\n> 開発が完全に完了するまで待つ必要はありません。早期に PR を作成することで、実装をレビューし、提案を提供することができます。\n>\n> ソースコードや関連事項について質問がある場合は、メンテナーまでお問い合わせください：aw@funstory.ai。\n>\n> バージョン 2.0 のリソースファイルは [BabelDOC](https://github.com/funstory-ai/BabelDOC) と共有されています。関連リソースをダウンロードするコードは BabelDOC にあります。新しいリソースファイルを追加したい場合は、BabelDOC のメンテナーまでお問い合わせください：aw@funstory.ai。\n",
+        "de": "> [!TIP]\n>\n> Sie müssen nicht warten, bis Ihre Entwicklung vollständig abgeschlossen ist, um einen PR zu erstellen. Eine frühzeitige Erstellung ermöglicht es uns, Ihre Implementierung zu überprüfen und Vorschläge zu machen.\n>\n> Wenn Sie Fragen zum Quellcode oder verwandten Themen haben, wenden Sie sich bitte an den Maintainer unter aw@funstory.ai.\n>\n> Ressourcendateien für Version 2.0 werden mit [BabelDOC](https://github.com/funstory-ai/BabelDOC) geteilt. Der Code zum Herunterladen der relevanten Ressourcen befindet sich in BabelDOC. Wenn Sie neue Ressourcendateien hinzufügen möchten, wenden Sie sich bitte an den BabelDOC-Maintainer unter aw@funstory.ai.\n",
+        "fr": "> [!TIP]\n>\n> Vous n'avez pas besoin d'attendre que votre développement soit entièrement terminé pour créer une PR. En créer une tôt nous permet d'examiner votre implémentation et de fournir des suggestions.\n>\n> Si vous avez des questions sur le code source ou des sujets connexes, veuillez contacter le mainteneur à aw@funstory.ai.\n>\n> Les fichiers de ressources pour la version 2.0 sont partagés avec [BabelDOC](https://github.com/funstory-ai/BabelDOC). Le code pour télécharger les ressources associées se trouve dans BabelDOC. Si vous souhaitez ajouter de nouveaux fichiers de ressources, veuillez contacter le mainteneur de BabelDOC à aw@funstory.ai.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E7638696",
+      "chunk_type": "header",
+      "original_content": "## Basic Requirements\n",
+      "start_line_no": 48,
+      "translations": {
+        "ko": "## 기본 요구 사항\n",
+        "fr": "## Exigences de base\n",
+        "zh": "## 基本要求\n",
+        "ja": "## 基本要件\n",
+        "de": "## Grundlegende Anforderungen\n",
+        "es": "## Requisitos básicos\n",
+        "it": "## Requisiti di base\n",
+        "zh_TW": "## 基本要求\n",
+        "pt": "## Requisitos básicos\n",
+        "ru": "## Основные требования\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_4D251FB3",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"sop\">1. Workflow</h4>\n",
+      "start_line_no": 50,
+      "translations": {
+        "ja": "<h4 id=\"sop\">1. ワークフロー</h4>\n",
+        "ko": "<h4 id=\"sop\">1. 워크플로우</h4>\n",
+        "it": "<h4 id=\"sop\">1. Flusso di lavoro</h4>\n",
+        "zh_TW": "<h4 id=\"sop\">1. 工作流程</h4>\n",
+        "zh": "<h4 id=\"sop\">1. 工作流程</h4>\n",
+        "ru": "<h4 id=\"sop\">1. Рабочий процесс</h4>\n",
+        "de": "<h4 id=\"sop\">1. Arbeitsablauf</h4>\n",
+        "pt": "<h4 id=\"sop\">1. Fluxo de trabalho</h4>\n",
+        "fr": "<h4 id=\"sop\">1. Flux de travail</h4>\n",
+        "es": "<h4 id=\"sop\">1. Flujo de trabajo</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8FDDA473",
+      "chunk_type": "list",
+      "original_content": "   - Please fork from the `main` branch and develop on your forked branch.\n   - When submitting a Pull Request (PR), provide a detailed description of your changes.\n   - If your PR does not pass automated checks (indicated by `checks failed` and a red cross), please review the corresponding `details` and modify your submission to ensure the new PR passes all checks.\n\n",
+      "start_line_no": 52,
+      "translations": {
+        "zh": "   - 请从 `main` 分支进行 fork，并在你的 fork 分支上进行开发。\n   - 提交 Pull Request（PR）时，请提供详细的变更描述。\n   - 如果你的 PR 未通过自动化检查（显示为 `checks failed` 和红色叉号），请查看对应的 `details` 并修改你的提交，确保新的 PR 能通过所有检查。\n\n",
+        "es": "   - Por favor, haz un fork desde la rama `main` y desarrolla en tu rama bifurcada.\n   - Al enviar una Pull Request (PR), proporciona una descripción detallada de tus cambios.\n   - Si tu PR no pasa las verificaciones automatizadas (indicadas por `checks failed` y una cruz roja), revisa los `details` correspondientes y modifica tu envío para asegurar que la nueva PR pase todas las verificaciones.\n\n",
+        "fr": "   - Veuillez forker à partir de la branche `main` et développer sur votre branche forké.  \n   - Lors de la soumission d'une Pull Request (PR), fournissez une description détaillée de vos modifications.  \n   - Si votre PR ne passe pas les vérifications automatisées (indiquées par `checks failed` et une croix rouge), veuillez consulter les `details` correspondants et modifier votre soumission pour vous assurer que la nouvelle PR passe toutes les vérifications.\n\n",
+        "ko": "   - `main` 브랜치에서 포크를 생성하고 포크된 브랜치에서 개발을 진행해 주세요.\n   - Pull Request(PR) 를 제출할 때 변경 사항에 대한 상세한 설명을 제공해 주세요.\n   - PR 이 자동화된 검사를 통과하지 못하는 경우 (`checks failed` 및 빨간색 십자가로 표시됨), 해당 `details` 를 확인하고 제출물을 수정하여 새로운 PR 이 모든 검사를 통과할 수 있도록 해 주세요.\n\n",
+        "ru": "   - Пожалуйста, создайте форк из ветки `main` и разрабатывайте на своей форкнутой ветке.\n   - При отправке Pull Request (PR) предоставьте подробное описание ваших изменений.\n   - Если ваш PR не проходит автоматические проверки (обозначается как `checks failed` с красным крестиком), пожалуйста, просмотрите соответствующие `details` и внесите изменения в свою заявку, чтобы новый PR прошел все проверки.\n\n",
+        "ja": "   - `main` ブランチからフォークし、フォークしたブランチで開発を行ってください。\n- プルリクエスト（PR）を提出する際は、変更内容の詳細な説明を提供してください。\n- PR が自動チェックに合格しない場合（`checks failed` と赤い十字マークで表示されます）、対応する `details` を確認し、提出内容を修正して新しい PR がすべてのチェックに合格するようにしてください。\n\n",
+        "zh_TW": "   - 請從 `main` 分支進行 fork，並在您 fork 的分支上進行開發。\n   - 提交 Pull Request (PR) 時，請提供詳細的變更說明。\n   - 如果您的 PR 未通過自動化檢查（顯示為 `checks failed` 和紅色叉號），請查看對應的 `details` 並修改您的提交，以確保新的 PR 通過所有檢查。\n\n",
+        "it": "   - Si prega di effettuare il fork dal branch `main` e sviluppare sul proprio branch forkato.\n   - Quando si invia una Pull Request (PR), fornire una descrizione dettagliata delle modifiche apportate.\n   - Se la PR non supera i controlli automatizzati (indicati da `checks failed` e una croce rossa), si prega di rivedere i corrispondenti `details` e modificare l'invio per garantire che la nuova PR superi tutti i controlli.\n\n",
+        "de": "   - Bitte forken Sie vom `main`-Branch und entwickeln Sie auf Ihrem geforkten Branch.\n   - Geben Sie beim Einreichen eines Pull Requests (PR) eine detaillierte Beschreibung Ihrer Änderungen an.\n   - Wenn Ihr PR die automatisierten Prüfungen nicht besteht (angezeigt durch `checks failed` und ein rotes Kreuz), überprüfen Sie bitte die entsprechenden `details` und passen Sie Ihre Einreichung an, um sicherzustellen, dass der neue PR alle Prüfungen besteht.\n\n",
+        "pt": "   - Por favor, faça um fork a partir do branch `main` e desenvolva no seu branch bifurcado.\n   - Ao enviar um Pull Request (PR), forneça uma descrição detalhada das suas alterações.\n   - Se o seu PR não passar nas verificações automatizadas (indicado por `checks failed` e um cruz vermelho), revise os `details` correspondentes e modifique sua submissão para garantir que o novo PR passe em todas as verificações.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_19D447DF",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"dev&test\">2. Development and Testing</h4>\n",
+      "start_line_no": 57,
+      "translations": {
+        "de": "<h4 id=\"dev&test\">2. Entwicklung und Test</h4>\n",
+        "ko": "<h4 id=\"dev&test\">2. 개발 및 테스트</h4>\n",
+        "ru": "<h4 id=\"dev&test\">2. Разработка и тестирование</h4>\n",
+        "fr": "<h4 id=\"dev&test\">2. Développement et tests</h4>\n",
+        "es": "<h4 id=\"dev&test\">2. Desarrollo y Pruebas</h4>\n",
+        "it": "<h4 id=\"dev&test\">2. Sviluppo e Test</h4>\n",
+        "pt": "<h4 id=\"dev&test\">2. Desenvolvimento e Teste</h4>\n",
+        "zh_TW": "<h4 id=\"開發與測試\">2. 開發與測試</h4>\n",
+        "zh": "<h4 id=\"开发与测试\">2. 开发与测试</h4>\n",
+        "ja": "<h4 id=\"dev&test\">2. 開発とテスト</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_65AB8932",
+      "chunk_type": "list",
+      "original_content": "   - Use the command `pip install -e .` for development and testing.\n\n",
+      "start_line_no": 59,
+      "translations": {
+        "zh": "   - 使用命令 `pip install -e .` 进行开发和测试。\n\n",
+        "ru": "   - Для разработки и тестирования используйте команду `pip install -e .`.\n\n",
+        "ja": "   - 開発とテストには `pip install -e .` コマンドを使用してください。\n\n",
+        "pt": "   - Use o comando `pip install -e .` para desenvolvimento e teste.\n\n",
+        "zh_TW": "   - 使用命令 `pip install -e .` 進行開發和測試。\n\n",
+        "fr": "   - Utilisez la commande `pip install -e .` pour le développement et les tests.\n\n",
+        "it": "   - Utilizzare il comando `pip install -e .` per sviluppo e test.\n\n",
+        "es": "   - Usa el comando `pip install -e .` para desarrollo y pruebas.\n\n",
+        "de": "   - Verwenden Sie den Befehl `pip install -e .` für Entwicklung und Tests.\n\n",
+        "ko": "   - 개발 및 테스트를 위해 `pip install -e .` 명령을 사용하세요.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B4865580",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"format\">3. Code Formatting</h4>\n",
+      "start_line_no": 62,
+      "translations": {
+        "es": "<h4 id=\"formato\">3. Formato de código</h4>\n",
+        "de": "<h4 id=\"format\">3. Code-Formatierung</h4>\n",
+        "zh": "<h4 id=\"格式\">3. 代码格式化</h4>\n",
+        "fr": "<h4 id=\"format\">3. Formatage du code</h4>\n",
+        "ko": "<h4 id=\"format\">3. 코드 포맷팅</h4>\n",
+        "it": "<h4 id=\"formato\">3. Formattazione del Codice</h4>\n",
+        "zh_TW": "<h4 id=\"格式\">3. 代碼格式化</h4>\n",
+        "pt": "<h4 id=\"format\">3. Formatação de Código</h4>\n",
+        "ja": "<h4 id=\"format\">3. コードフォーマット</h4>\n",
+        "ru": "<h4 id=\"format\">3. Форматирование кода</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E8324FFA",
+      "chunk_type": "list",
+      "original_content": "   - Configure the `pre-commit` tool and enable `black` and `flake8` for code formatting.\n\n",
+      "start_line_no": 64,
+      "translations": {
+        "zh": "   - 配置 `pre-commit` 工具并启用 `black` 和 `flake8` 进行代码格式化。\n\n",
+        "ko": "   - `pre-commit` 도구를 구성하고 코드 서식을 위해 `black` 과 `flake8` 을 활성화하세요.\n\n",
+        "zh_TW": "   - 配置 `pre-commit` 工具並啟用 `black` 和 `flake8` 進行代碼格式化。\n\n",
+        "fr": "   - Configurez l'outil `pre-commit` et activez `black` et `flake8` pour le formatage du code.\n\n",
+        "pt": "   - Configure a ferramenta `pre-commit` e ative `black` e `flake8` para formatação de código.\n\n",
+        "ru": "   - Настройте инструмент `pre-commit` и включите `black` и `flake8` для форматирования кода.\n\n",
+        "de": "   - Konfigurieren Sie das `pre-commit`-Tool und aktivieren Sie `black` und `flake8` für die Codeformatierung.\n\n",
+        "ja": "   - `pre-commit` ツールを設定し、コードフォーマット用に `black` と `flake8` を有効にします。\n\n",
+        "es": "   - Configura la herramienta `pre-commit` y habilita `black` y `flake8` para el formato del código.\n\n",
+        "it": "   - Configura lo strumento `pre-commit` e abilita `black` e `flake8` per la formattazione del codice.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7A584B10",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"requpdate\">4. Dependency Updates</h4>\n",
+      "start_line_no": 67,
+      "translations": {
+        "zh": "<h4 id=\"requpdate\">4. 依赖项更新</h4>\n",
+        "ja": "<h4 id=\"requpdate\">4. 依存関係の更新</h4>\n",
+        "es": "<h4 id=\"requpdate\">4. Actualizaciones de dependencias</h4>\n",
+        "ru": "<h4 id=\"requpdate\">4. Обновление зависимостей</h4>\n",
+        "fr": "<h4 id=\"requpdate\">4. Mises à jour des dépendances</h4>\n",
+        "de": "<h4 id=\"requpdate\">4. Abhängigkeitsaktualisierungen</h4>\n",
+        "it": "<h4 id=\"requpdate\">4. Aggiornamenti delle dipendenze</h4>\n",
+        "pt": "<h4 id=\"requpdate\">4. Atualizações de Dependências</h4>\n",
+        "zh_TW": "<h4 id=\"requpdate\">4. 依賴項更新</h4>\n",
+        "ko": "<h4 id=\"requpdate\">4. 종속성 업데이트</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_BE2E8298",
+      "chunk_type": "list",
+      "original_content": "   - If you introduce new dependencies, please update the dependency list in the `pyproject.toml` file in a timely manner.\n\n",
+      "start_line_no": 69,
+      "translations": {
+        "ja": "   - 新しい依存関係を導入する場合は、`pyproject.toml` ファイル内の依存関係リストを適時更新してください。\n\n",
+        "pt": "   - Se você introduzir novas dependências, atualize a lista de dependências no arquivo `pyproject.toml` em tempo hábil.\n\n",
+        "ru": "   - Если вы добавляете новые зависимости, пожалуйста, своевременно обновляйте список зависимостей в файле `pyproject.toml`.\n\n",
+        "fr": "   - Si vous introduisez de nouvelles dépendances, veuillez mettre à jour la liste des dépendances dans le fichier `pyproject.toml` en temps opportun.\n\n",
+        "ko": "   - 새로운 종속성을 도입하는 경우, `pyproject.toml` 파일의 종속성 목록을 적시에 업데이트해 주세요.\n\n",
+        "it": "   - Se introduci nuove dipendenze, aggiorna tempestivamente l'elenco delle dipendenze nel file `pyproject.toml`.\n\n",
+        "de": "   - Wenn Sie neue Abhängigkeiten einführen, aktualisieren Sie bitte die Abhängigkeitsliste in der `pyproject.toml`-Datei zeitnah.\n\n",
+        "zh_TW": "   - 如果您引入了新的依賴項，請及時更新 `pyproject.toml` 文件中的依賴列表。\n\n",
+        "zh": "   - 如果您引入了新的依赖项，请及时更新 `pyproject.toml` 文件中的依赖列表。\n\n",
+        "es": "   - Si introduces nuevas dependencias, actualiza la lista de dependencias en el archivo `pyproject.toml` de manera oportuna.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_1615D8D8",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"docupdate\">5. Documentation Updates</h4>\n",
+      "start_line_no": 72,
+      "translations": {
+        "ko": "<h4 id=\"docupdate\">5. 문서 업데이트</h4>\n",
+        "es": "<h4 id=\"docupdate\">5. Actualizaciones de documentación</h4>\n",
+        "it": "<h4 id=\"docupdate\">5. Aggiornamenti della documentazione</h4>\n",
+        "ja": "<h4 id=\"docupdate\">5. ドキュメント更新</h4>\n",
+        "zh_TW": "<h4 id=\"docupdate\">5. 文件更新</h4>\n",
+        "ru": "<h4 id=\"docupdate\">5. Обновления документации</h4>\n",
+        "fr": "<h4 id=\"docupdate\">5. Mises à jour de la documentation</h4>\n",
+        "pt": "<h4 id=\"docupdate\">5. Atualizações da Documentação</h4>\n",
+        "de": "<h4 id=\"docupdate\">5. Dokumentationsaktualisierungen</h4>\n",
+        "zh": "<h4 id=\"docupdate\">5. 文档更新</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_725E4B8A",
+      "chunk_type": "list",
+      "original_content": "   - If you add new command-line options, please update the list of command-line options in all language versions of the `README.md` file accordingly.\n\n",
+      "start_line_no": 74,
+      "translations": {
+        "zh": "   - 如果添加了新的命令行选项，请相应地更新所有语言版本的 `README.md` 文件中的命令行选项列表。\n\n",
+        "zh_TW": "   - 如果您新增了命令行選項，請相應地更新所有語言版本的 `README.md` 文件中的命令行選項列表。\n\n",
+        "ru": "   - Если вы добавляете новые параметры командной строки, пожалуйста, обновите список параметров командной строки во всех языковых версиях файла `README.md` соответствующим образом.\n\n",
+        "es": "   - Si agregas nuevas opciones de línea de comandos, por favor actualiza la lista de opciones de línea de comandos en todas las versiones de idioma del archivo `README.md` correspondientemente.\n\n",
+        "de": "   - Wenn Sie neue Kommandozeilenoptionen hinzufügen, aktualisieren Sie bitte die Liste der Kommandozeilenoptionen in allen Sprachversionen der `README.md`-Datei entsprechend.\n\n",
+        "pt": "   - Se você adicionar novas opções de linha de comando, atualize a lista de opções de linha de comando em todas as versões de idioma do arquivo `README.md` de acordo.\n\n",
+        "ja": "   - 新しいコマンドラインオプションを追加する場合、`README.md` ファイルのすべての言語バージョンにあるコマンドラインオプションのリストを更新してください。\n\n",
+        "it": "   - Se aggiungi nuove opzioni da riga di comando, aggiorna l'elenco delle opzioni da riga di comando in tutte le versioni linguistiche del file `README.md` di conseguenza.\n\n",
+        "ko": "   - 새로운 명령줄 옵션을 추가하는 경우, `README.md` 파일의 모든 언어 버전에서 명령줄 옵션 목록을 해당 사항에 맞게 업데이트해 주세요.\n\n",
+        "fr": "   - Si vous ajoutez de nouvelles options de ligne de commande, veuillez mettre à jour la liste des options de ligne de commande dans toutes les versions linguistiques du fichier `README.md` en conséquence.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_09178615",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"commitmsg\">6. Commit Messages</h4>\n",
+      "start_line_no": 77,
+      "translations": {
+        "es": "<h4 id=\"commitmsg\">6. Mensajes de commit</h4>\n",
+        "zh_TW": "<h4 id=\"commitmsg\">6. 提交訊息</h4>\n",
+        "ru": "<h4 id=\"commitmsg\">6. Сообщения коммитов</h4>\n",
+        "zh": "<h4 id=\"commitmsg\">6. 提交信息</h4>\n",
+        "fr": "<h4 id=\"commitmsg\">6. Messages de commit</h4>\n",
+        "it": "<h4 id=\"commitmsg\">6. Messaggi di Commit</h4>\n",
+        "ja": "<h4 id=\"commitmsg\">6. コミットメッセージ</h4>\n",
+        "ko": "<h4 id=\"commitmsg\">6. 커밋 메시지</h4>\n",
+        "pt": "<h4 id=\"commitmsg\">6. Mensagens de Commit</h4>\n",
+        "de": "<h4 id=\"commitmsg\">6. Commit-Nachrichten</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8007BC97",
+      "chunk_type": "list",
+      "original_content": "   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), for example: `feat(translator): add openai`.\n\n",
+      "start_line_no": 79,
+      "translations": {
+        "zh_TW": "   - 使用 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)，例如：`feat(translator): add openai`。\n\n",
+        "pt": "   - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por exemplo: `feat(translator): add openai`.\n\n",
+        "it": "   - Utilizzare [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), ad esempio: `feat(translator): add openai`.\n\n",
+        "ja": "   - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) を使用してください。例：`feat(translator): add openai`。\n\n",
+        "es": "   - Usa [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), por ejemplo: `feat(translator): add openai`.\n\n",
+        "fr": "   - Utilisez [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), par exemple : `feat(translator): add openai`.\n\n",
+        "ko": "   - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) 를 사용하세요. 예: `feat(translator): add openai`.\n\n",
+        "ru": "   - Используйте [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), например: `feat(translator): add openai`.\n\n",
+        "zh": "   - 使用 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)，例如：`feat(translator): add openai`。\n\n",
+        "de": "   - Verwenden Sie [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), zum Beispiel: `feat(translator): add openai`.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F5439516",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"codestyle\">7. Coding Style</h4>\n",
+      "start_line_no": 82,
+      "translations": {
+        "zh": "<h4 id=\"codestyle\">7. 代码风格</h4>\n",
+        "zh_TW": "<h4 id=\"codestyle\">7. 程式碼風格</h4>\n",
+        "es": "<h4 id=\"codestyle\">7. Estilo de codificación</h4>\n",
+        "de": "<h4 id=\"codestyle\">7. Codierungsstil</h4>\n",
+        "ru": "<h4 id=\"codestyle\">7. Стиль кодирования</h4>\n",
+        "ko": "<h4 id=\"코딩스타일\">7. 코딩 스타일</h4>\n",
+        "ja": "<h4 id=\"codestyle\">7. コーディングスタイル</h4>\n",
+        "pt": "<h4 id=\"codestyle\">7. Estilo de Codificação</h4>\n",
+        "it": "<h4 id=\"codestyle\">7. Stile di Codifica</h4>\n",
+        "fr": "<h4 id=\"codestyle\">7. Style de codage</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_22ECCE1D",
+      "chunk_type": "list",
+      "original_content": "   - Ensure your submitted code adheres to basic coding style standards.\n   - Use either snake_case or camelCase for variable naming.\n\n",
+      "start_line_no": 84,
+      "translations": {
+        "zh": "   - 确保提交的代码符合基本的编码风格标准。\n   - 变量命名请使用 snake_case 或 camelCase。\n\n",
+        "zh_TW": "   - 確保您提交的代碼符合基本的編碼風格標準。\n   - 變量命名請使用 snake_case 或 camelCase。\n\n",
+        "ko": "   - 제출한 코드가 기본적인 코딩 스타일 표준을 준수하는지 확인하세요.\n   - 변수 이름에는 snake_case 또는 camelCase 를 사용하세요.\n\n",
+        "pt": "   - Certifique-se de que o código enviado adere aos padrões básicos de estilo de codificação.\n   - Use snake_case ou camelCase para nomeação de variáveis.\n\n",
+        "de": "   - Stellen Sie sicher, dass Ihr eingereichter Code grundlegende Codierungsstilstandards einhält.\n   - Verwenden Sie entweder snake_case oder camelCase für die Benennung von Variablen.\n\n",
+        "it": "   - Assicurati che il codice inviato rispetti gli standard di base dello stile di codifica.\n   - Utilizza snake_case o camelCase per la denominazione delle variabili.\n\n",
+        "es": "   - Asegúrate de que el código enviado cumpla con los estándares básicos de estilo de codificación.\n   - Utiliza snake_case o camelCase para el nombrado de variables.\n\n",
+        "ja": "   - 提出されたコードが基本的なコーディングスタイル標準に準拠していることを確認してください。\n   - 変数名にはスネークケース（snake_case）またはキャメルケース（camelCase）を使用してください。\n\n",
+        "ru": "   - Убедитесь, что ваш код соответствует базовым стандартам стиля кодирования.\n   - Используйте либо snake_case, либо camelCase для именования переменных.\n\n",
+        "fr": "   - Assurez-vous que le code soumis respecte les normes de base de style de codage.\n   - Utilisez soit snake_case soit camelCase pour la dénomination des variables.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2F60B8EB",
+      "chunk_type": "paragraph",
+      "original_content": "<h4 id=\"doctypo\">8. Documentation Formatting</h4>\n",
+      "start_line_no": 88,
+      "translations": {
+        "zh_TW": "<h4 id=\"doctypo\">8. 文件格式</h4>\n",
+        "ru": "<h4 id=\"doctypo\">8. Форматирование документации</h4>\n",
+        "ja": "<h4 id=\"doctypo\">8. ドキュメントのフォーマット</h4>\n",
+        "de": "<h4 id=\"doctypo\">8. Dokumentationsformatierung</h4>\n",
+        "zh": "<h4 id=\"doctypo\">8. 文档格式</h4>\n",
+        "pt": "<h4 id=\"doctypo\">8. Formatação de Documentação</h4>\n",
+        "it": "<h4 id=\"doctypo\">8. Formattazione della Documentazione</h4>\n",
+        "es": "<h4 id=\"doctypo\">8. Formato de documentación</h4>\n",
+        "fr": "<h4 id=\"doctypo\">8. Formatage de la documentation</h4>\n",
+        "ko": "<h4 id=\"doctypo\">8. 문서 서식</h4>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_320F91BE",
+      "chunk_type": "list",
+      "original_content": "   - For `README.md` formatting, please follow the [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Ensure that both English and Chinese documentation are always up to date; other language documentation updates are optional.\n",
+      "start_line_no": 90,
+      "translations": {
+        "zh_TW": "   - 對於 `README.md` 的格式，請遵循 [中文文案排版指南](https://github.com/sparanoid/chinese-copywriting-guidelines)。\n   - 確保英文和中文文檔始終保持最新；其他語言文檔的更新是可選的。\n",
+        "zh": "   - 对于 `README.md` 的格式，请遵循 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。\n   - 确保英文和中文文档始终保持最新；其他语言文档的更新是可选的。\n",
+        "fr": "   - Pour le formatage de `README.md`, veuillez suivre les [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Assurez-vous que la documentation en anglais et en chinois est toujours à jour ; les mises à jour de la documentation dans d'autres langues sont facultatives.\n",
+        "pt": "   - Para a formatação de `README.md`, siga as [Diretrizes de Redação em Chinês](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações de documentação em outros idiomas são opcionais.\n",
+        "it": "   - Per la formattazione di `README.md`, seguire le [Linee guida per la scrittura in cinese](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Assicurarsi che la documentazione in inglese e cinese sia sempre aggiornata; gli aggiornamenti della documentazione in altre lingue sono facoltativi.\n",
+        "ja": "   - `README.md` のフォーマットについては、[中国語コピーライティングガイドライン](https://github.com/sparanoid/chinese-copywriting-guidelines) に従ってください。\n   - 英語と中国語のドキュメントは常に最新の状態に保つようにしてください。他の言語のドキュメントの更新は任意です。\n",
+        "ko": "   - `README.md` 포맷팅은 [중국어 카피라이팅 가이드라인](https://github.com/sparanoid/chinese-copywriting-guidelines) 을 따르세요.\n   - 영어 및 중국어 문서는 항상 최신 상태로 유지하고, 다른 언어 문서 업데이트는 선택 사항입니다.\n",
+        "ru": "   - Для форматирования `README.md` следуйте [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines).  \n   - Убедитесь, что документация на английском и китайском языках всегда актуальна; обновления документации на других языках необязательны.\n",
+        "de": "   - Für die Formatierung von `README.md` folgen Sie bitte den [Chinesischen Copywriting-Richtlinien](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Stellen Sie sicher, dass sowohl die englische als auch die chinesische Dokumentation immer auf dem neuesten Stand sind; Aktualisierungen der Dokumentation in anderen Sprachen sind optional.\n",
+        "es": "   - Para el formato de `README.md`, sigue las [Directrices de redacción en chino](https://github.com/sparanoid/chinese-copywriting-guidelines).\n   - Asegúrate de que tanto la documentación en inglés como en chino estén siempre actualizadas; las actualizaciones de la documentación en otros idiomas son opcionales.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_126AF33C",
+      "chunk_type": "header",
+      "original_content": "## Adding a Translation Engine\n",
+      "start_line_no": 93,
+      "translations": {
+        "zh_TW": "## 新增翻譯引擎\n",
+        "pt": "## Adicionando um mecanismo de tradução\n",
+        "ko": "## 번역 엔진 추가하기\n",
+        "de": "## Hinzufügen einer Übersetzungsmaschine\n",
+        "ru": "## Добавление движка перевода\n",
+        "zh": "## 添加翻译引擎\n",
+        "it": "## Aggiunta di un motore di traduzione\n",
+        "ja": "## 翻訳エンジンの追加\n",
+        "es": "## Agregar un motor de traducción\n",
+        "fr": "## Ajout d'un moteur de traduction\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_38A36DFF",
+      "chunk_type": "list",
+      "original_content": "1. Add a new translator configuration class in the `pdf2zh/config/translate_engine_model.py` file.\n2. Add an instance of the new translator configuration class to the `TRANSLATION_ENGINE_SETTING_TYPE` type alias in the same file.\n3. Add the new translator implementation class in the `pdf2zh/translator/translator_impl` folder.\n",
+      "start_line_no": 95,
+      "translations": {
+        "zh_TW": "1. 在 `pdf2zh/config/translate_engine_model.py` 檔案中新增一個翻譯器配置類別。\n2. 在相同檔案中，將新的翻譯器配置類別實例添加到 `TRANSLATION_ENGINE_SETTING_TYPE` 類型別名中。\n3. 在 `pdf2zh/translator/translator_impl` 資料夾中新增翻譯器實作類別。\n",
+        "es": "1. Agrega una nueva clase de configuración de traductor en el archivo `pdf2zh/config/translate_engine_model.py`.\n2. Agrega una instancia de la nueva clase de configuración de traductor al alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` en el mismo archivo.\n3. Agrega la nueva clase de implementación de traductor en la carpeta `pdf2zh/translator/translator_impl`.\n",
+        "zh": "1. 在 `pdf2zh/config/translate_engine_model.py` 文件中添加一个新的翻译器配置类。\n2. 在同一文件中将新的翻译器配置类实例添加到 `TRANSLATION_ENGINE_SETTING_TYPE` 类型别名中。\n3. 在 `pdf2zh/translator/translator_impl` 文件夹中添加新的翻译器实现类。\n",
+        "ja": "1. `pdf2zh/config/translate_engine_model.py` ファイルに新しい翻訳エンジン設定クラスを追加します。\n2. 同じファイル内の `TRANSLATION_ENGINE_SETTING_TYPE` 型エイリアスに、新しい翻訳エンジン設定クラスのインスタンスを追加します。\n3. `pdf2zh/translator/translator_impl` フォルダに新しい翻訳エンジン実装クラスを追加します。\n",
+        "fr": "1. Ajoutez une nouvelle classe de configuration de traducteur dans le fichier `pdf2zh/config/translate_engine_model.py`.\n2. Ajoutez une instance de la nouvelle classe de configuration de traducteur à l'alias de type `TRANSLATION_ENGINE_SETTING_TYPE` dans le même fichier.\n3. Ajoutez la nouvelle classe d'implémentation du traducteur dans le dossier `pdf2zh/translator/translator_impl`.\n",
+        "ko": "1. `pdf2zh/config/translate_engine_model.py` 파일에 새로운 번역기 구성 클래스를 추가합니다.\n2. 동일한 파일의 `TRANSLATION_ENGINE_SETTING_TYPE` 타입 별칭에 새로운 번역기 구성 클래스의 인스턴스를 추가합니다.\n3. `pdf2zh/translator/translator_impl` 폴더에 새로운 번역기 구현 클래스를 추가합니다.\n",
+        "pt": "1. Adicione uma nova classe de configuração de tradutor no arquivo `pdf2zh/config/translate_engine_model.py`.\n2. Adicione uma instância da nova classe de configuração de tradutor ao alias de tipo `TRANSLATION_ENGINE_SETTING_TYPE` no mesmo arquivo.\n3. Adicione a nova classe de implementação de tradutor na pasta `pdf2zh/translator/translator_impl`.\n",
+        "de": "1. Fügen Sie eine neue Übersetzer-Konfigurationsklasse in der Datei `pdf2zh/config/translate_engine_model.py` hinzu.\n2. Fügen Sie eine Instanz der neuen Übersetzer-Konfigurationsklasse zum Typalias `TRANSLATION_ENGINE_SETTING_TYPE` in derselben Datei hinzu.\n3. Fügen Sie die neue Übersetzer-Implementierungsklasse im Ordner `pdf2zh/translator/translator_impl` hinzu.\n",
+        "ru": "1. Добавьте новый класс конфигурации переводчика в файл `pdf2zh/config/translate_engine_model.py`.\n2. Добавьте экземпляр нового класса конфигурации переводчика в псевдоним типа `TRANSLATION_ENGINE_SETTING_TYPE` в том же файле.\n3. Добавьте новый класс реализации переводчика в папку `pdf2zh/translator/translator_impl`.\n",
+        "it": "1. Aggiungi una nuova classe di configurazione del traduttore nel file `pdf2zh/config/translate_engine_model.py`.\n2. Aggiungi un'istanza della nuova classe di configurazione del traduttore all'alias di tipo `TRANSLATION_ENGINE_SETTING_TYPE` nello stesso file.\n3. Aggiungi la nuova classe di implementazione del traduttore nella cartella `pdf2zh/translator/translator_impl`.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5B4684E1",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n",
+      "start_line_no": 99,
+      "translations": {
+        "zh": "> [!NOTE]\n>\n> 本项目无意支持任何 RPS（每秒请求数）低于 4 的翻译引擎。请勿提交对此类引擎的支持。\n",
+        "es": "> [!NOTE]\n>\n> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíes soporte para este tipo de motores.\n",
+        "pt": "> [!NOTE]\n>\n> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.\n",
+        "zh_TW": "> [!NOTE]\n>\n> 本專案無意支援任何 RPS (每秒請求數) 低於 4 的翻譯引擎。請勿提交對此類引擎的支援。\n",
+        "ko": "> [!NOTE]\n>\n> 이 프로젝트는 RPS(초당 요청 수) 가 4 미만인 번역 엔진을 지원할 계획이 없습니다. 해당 엔진에 대한 지원을 제출하지 마십시오.\n",
+        "it": "> [!NOTE]\n>\n> Questo progetto non intende supportare alcun motore di traduzione con un RPS (richieste al secondo) inferiore a 4. Si prega di non inviare supporto per tali motori.\n",
+        "de": "> [!NOTE]\n>\n> Dieses Projekt beabsichtigt nicht, Übersetzungsmaschinen mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Maschinen ein.\n",
+        "ru": "> [!NOTE]\n>\n> Этот проект не намерен поддерживать какие-либо движки перевода с RPS (запросами в секунду) ниже 4. Пожалуйста, не предлагайте поддержку для таких движков.\n",
+        "ja": "> [!NOTE]\n>\n> このプロジェクトは、RPS（1 秒あたりのリクエスト数）が 4 未満の翻訳エンジンをサポートすることを意図していません。そのようなエンジンのサポートを提出しないでください。\n",
+        "fr": "> [!NOTE]\n>\n> Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour ces moteurs.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7ED6230D",
+      "chunk_type": "header",
+      "original_content": "## Project Structure\n",
+      "start_line_no": 103,
+      "translations": {
+        "zh_TW": "## 專案結構\n",
+        "ko": "## 프로젝트 구조\n",
+        "zh": "## 项目结构\n",
+        "es": "## Estructura del proyecto\n",
+        "de": "## Projektstruktur\n",
+        "it": "## Struttura del progetto\n",
+        "ja": "## プロジェクト構造\n",
+        "pt": "## Estrutura do Projeto\n",
+        "ru": "## Структура проекта\n",
+        "fr": "## Structure du projet\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_9004E6A3",
+      "chunk_type": "list",
+      "original_content": "- **config folder**: Configuration system.\n- **translator folder**: Translator-related implementations.\n- **gui.py**: Provides the GUI interface.\n- **const.py**: Some constants.\n- **main.py**: Provides the command-line tool.\n- **high_level.py**: High-level interfaces based on BabelDOC.\n- **http_api.py**: Provides HTTP API (not started).\n",
+      "start_line_no": 105,
+      "translations": {
+        "zh": "- **config 文件夹**：配置系统。\n- **translator 文件夹**：翻译器相关实现。\n- **gui.py**：提供 GUI 界面。\n- **const.py**：一些常量。\n- **main.py**：提供命令行工具。\n- **high_level.py**：基于 BabelDOC 的高级接口。\n- **http_api.py**：提供 HTTP API（未启动）。\n",
+        "zh_TW": "- **config 資料夾**：配置系統。\n- **translator 資料夾**：與翻譯器相關的實現。\n- **gui.py**：提供 GUI 介面。\n- **const.py**：一些常數。\n- **main.py**：提供命令行工具。\n- **high_level.py**：基於 BabelDOC 的高階介面。\n- **http_api.py**：提供 HTTP API（尚未啟動）。\n",
+        "fr": "- **config folder** : Système de configuration.\n- **translator folder** : Implémentations liées au traducteur.\n- **gui.py** : Fournit l'interface GUI.\n- **const.py** : Quelques constantes.\n- **main.py** : Fournit l'outil en ligne de commande.\n- **high_level.py** : Interfaces de haut niveau basées sur BabelDOC.\n- **http_api.py** : Fournit l'API HTTP (non démarrée).\n",
+        "it": "- **config folder**: Sistema di configurazione.\n- **translator folder**: Implementazioni relative al traduttore.\n- **gui.py**: Fornisce l'interfaccia GUI.\n- **const.py**: Alcune costanti.\n- **main.py**: Fornisce lo strumento da riga di comando.\n- **high_level.py**: Interfacce di alto livello basate su BabelDOC.\n- **http_api.py**: Fornisce API HTTP (non avviato).\n",
+        "ja": "- **config フォルダ**：設定システム。\n- **translator フォルダ**：翻訳関連の実装。\n- **gui.py**：GUI インターフェースを提供。\n- **const.py**：いくつかの定数。\n- **main.py**：コマンドラインツールを提供。\n- **high_level.py**：BabelDOC ベースの高レベルインターフェース。\n- **http_api.py**：HTTP API を提供（未開始）。\n",
+        "de": "- **config folder**: Konfigurationssystem.\n- **translator folder**: Übersetzerbezogene Implementierungen.\n- **gui.py**: Bietet die GUI-Schnittstelle.\n- **const.py**: Einige Konstanten.\n- **main.py**: Bietet das Kommandozeilen-Tool.\n- **high_level.py**: Hochrangige Schnittstellen basierend auf BabelDOC.\n- **http_api.py**: Bietet HTTP API (nicht gestartet).\n",
+        "ko": "- **config 폴더**: 구성 시스템.\n- **translator 폴더**: 번역기 관련 구현.\n- **gui.py**: GUI 인터페이스를 제공.\n- **const.py**: 일부 상수.\n- **main.py**: 명령줄 도구를 제공.\n- **high_level.py**: BabelDOC 기반의 고수준 인터페이스.\n- **http_api.py**: HTTP API 를 제공 (시작되지 않음).\n",
+        "ru": "- **config folder**: Система конфигурации.\n- **translator folder**: Реализации, связанные с переводчиком.\n- **gui.py**: Предоставляет графический интерфейс.\n- **const.py**: Некоторые константы.\n- **main.py**: Предоставляет инструмент командной строки.\n- **high_level.py**: Высокоуровневые интерфейсы на основе BabelDOC.\n- **http_api.py**: Предоставляет HTTP API (не запущено).\n",
+        "pt": "- **config folder**: Sistema de configuração.\n- **translator folder**: Implementações relacionadas ao tradutor.\n- **gui.py**: Fornece a interface GUI.\n- **const.py**: Algumas constantes.\n- **main.py**: Fornece a ferramenta de linha de comando.\n- **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.\n- **http_api.py**: Fornece API HTTP (não iniciada).\n",
+        "es": "- **config folder**: Sistema de configuración.  \n- **translator folder**: Implementaciones relacionadas con el traductor.  \n- **gui.py**: Proporciona la interfaz gráfica de usuario.  \n- **const.py**: Algunas constantes.  \n- **main.py**: Proporciona la herramienta de línea de comandos.  \n- **high_level.py**: Interfaces de alto nivel basadas en BabelDOC.  \n- **http_api.py**: Proporciona API HTTP (no iniciado).\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_0C087ADF",
+      "chunk_type": "header",
+      "original_content": "## Contact Us\n",
+      "start_line_no": 113,
+      "translations": {
+        "ko": "## 문의하기\n",
+        "fr": "## Nous contacter\n",
+        "es": "## Contáctanos\n",
+        "pt": "## Entre em contato conosco\n",
+        "ja": "## お問い合わせ\n",
+        "ru": "## Свяжитесь с нами\n",
+        "zh_TW": "## 聯絡我們\n",
+        "it": "## Contattaci\n",
+        "zh": "## 联系我们\n",
+        "de": "## Kontaktieren Sie uns\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2FB8F835",
+      "chunk_type": "paragraph",
+      "original_content": "If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!\n",
+      "start_line_no": 115,
+      "translations": {
+        "zh_TW": "如果您有任何疑問，請透過 Issue 提交反饋或加入我們的 Telegram 群組。感謝您的貢獻！\n",
+        "zh": "如果您有任何问题，请通过 Issue 提交反馈或加入我们的 Telegram 群组。感谢您的贡献！\n",
+        "fr": "Si vous avez des questions, veuillez soumettre vos commentaires via Issue ou rejoindre notre groupe Telegram. Merci pour votre contribution !\n",
+        "de": "Wenn Sie Fragen haben, können Sie Feedback über Issue einreichen oder unserer Telegram-Gruppe beitreten. Vielen Dank für Ihren Beitrag!\n",
+        "ja": "ご質問がある場合は、Issue を通じてフィードバックを提出するか、Telegram グループに参加してください。ご協力ありがとうございます！\n",
+        "pt": "Se você tiver alguma dúvida, envie feedback via Issue ou entre em nosso Grupo no Telegram. Obrigado pela sua contribuição!\n",
+        "ko": "질문이 있으시면 Issue 를 통해 피드백을 제출하거나 Telegram 그룹에 참여해 주세요. 기여해 주셔서 감사합니다!\n",
+        "it": "Se hai domande, invia feedback tramite Issue o unisciti al nostro gruppo Telegram. Grazie per il tuo contributo!\n",
+        "ru": "Если у вас есть какие-либо вопросы, отправьте отзыв через Issue или присоединяйтесь к нашей группе в Telegram. Спасибо за ваш вклад!\n",
+        "es": "Si tienes alguna pregunta, por favor envía tus comentarios a través de Issue o únete a nuestro Grupo de Telegram. ¡Gracias por tu contribución!\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_C2A414AC",
+      "chunk_type": "blockquote",
+      "original_content": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+      "start_line_no": 117,
+      "translations": {
+        "zh": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) 为该项目活跃贡献者提供每月 Pro 会员兑换码。详情请参阅：[BabelDOC/PDFMathTranslate 贡献者奖励规则](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "ru": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) спонсирует ежемесячные коды Pro-подписки для активных участников этого проекта. Подробности смотрите здесь: [Правила вознаграждения участников BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "ko": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) 는 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 코드를 후원합니다. 자세한 내용은 다음을 참조하세요: [BabelDOC/PDFMathTranslate 기여자 보상 규칙](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "es": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) patrocina códigos de membresía Pro mensuales para los contribuyentes activos de este proyecto. Para más detalles, consulta: [Reglas de recompensa para contribuyentes de BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "it": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsorizza codici mensili di abbonamento Pro per i contributori attivi a questo progetto. Per i dettagli, consultare: [BabelDOC/PDFMathTranslate Regole di ricompensa per i contributori](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "ja": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) は、このプロジェクトに積極的に貢献する方々に月額プロ会員コードを提供しています。詳細については、[BabelDOC/PDFMathTranslate 貢献者報酬ルール](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/) をご覧ください。",
+        "de": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschaftscodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [BabelDOC/PDFMathTranslate Beitragsbelohnungsregeln](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "fr": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsorise des codes d'abonnement Pro mensuels pour les contributeurs actifs de ce projet. Pour plus de détails, veuillez consulter : [Règles de récompense des contributeurs BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "zh_TW": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員碼贊助。詳情請參閱：[BabelDOC/PDFMathTranslate 貢獻者獎勵規則](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
+        "pt": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) patrocina códigos de assinatura Pro mensais para contribuidores ativos deste projeto. Para mais detalhes, consulte: [Regras de Recompensa para Contribuidores do BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
+      }
+    }
+  ]
+}
