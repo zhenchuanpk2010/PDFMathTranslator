@@ -7,6 +7,7 @@ import httpx
 from pdf2zh_next.config.model import SettingsModel
 from pdf2zh_next.translator.base_rate_limiter import BaseRateLimiter
 from pdf2zh_next.translator.base_translator import BaseTranslator
+from pdf2zh_next.translator.rate_limiter.qps_rate_limiter import QPSRateLimiter
 from tenacity import before_sleep_log
 from tenacity import retry
 from tenacity import retry_if_exception_type
@@ -39,11 +40,41 @@ class SiliconFlowFreeTranslator(BaseTranslator):
         settings: SettingsModel,
         rate_limiter: BaseRateLimiter,
     ):
+        self.settings = settings
         super().__init__(settings, rate_limiter)
         self.client = httpx.Client()
 
         self.url = AVAILABLE_SERVER_ENDPOINTS[0]
         self.get_fast_service()
+        self.fetch_setting_and_update()
+
+    def fetch_setting_and_update(self):
+        try:
+            response = self.client.get(f"{self.url}/config")
+            if response.status_code == 200:
+                resp = response.json()
+                if resp["status"] == "ok":
+                    qps = resp["qps"]
+                    max_pool_size = resp["max_pool_size"]
+
+                    assert isinstance(qps, int)
+                    assert isinstance(max_pool_size, int)
+
+                    assert qps > 0
+                    assert max_pool_size > 0
+
+                    self.settings.translation.qps = qps
+                    self.settings.translation.pool_max_workers = max_pool_size
+
+                    if isinstance(self.rate_limiter, QPSRateLimiter):
+                        self.rate_limiter.set_max_qps(qps)
+                        logger.info(f"Updated QPS rate limiter to {qps}")
+                    logger.info(
+                        f"Fetched setting and updated: qps: {qps}, max_pool_size: {max_pool_size}"
+                    )
+
+        except Exception as e:
+            logger.error(f"Failed to fetch setting and update: {e}")
 
     def get_fast_service(self):
         """Find the fastest responding endpoint by sending parallel requests."""
