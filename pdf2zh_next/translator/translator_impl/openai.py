@@ -25,7 +25,6 @@ class OpenAITranslator(BaseTranslator):
         rate_limiter: BaseRateLimiter,
     ):
         super().__init__(settings, rate_limiter)
-        self.options = {"temperature": 0}  # 随机采样可能会打断公式标记
         self.client = openai.OpenAI(
             base_url=settings.translate_engine_settings.openai_base_url,
             api_key=settings.translate_engine_settings.openai_api_key,
@@ -35,7 +34,25 @@ class OpenAITranslator(BaseTranslator):
                 )
             ),
         )
-        self.add_cache_impact_parameters("temperature", self.options["temperature"])
+        self.options = {}
+        self.temperature = settings.translate_engine_settings.openai_temperature
+        self.reasoning_effort = (
+            settings.translate_engine_settings.openai_reasoning_effort
+        )
+        self.send_temperature = (
+            settings.translate_engine_settings.openai_send_temprature
+        )
+        self.send_reasoning_effort = (
+            settings.translate_engine_settings.openai_send_reasoning_effort
+        )
+
+        if self.send_temperature and self.temperature:
+            self.add_cache_impact_parameters("temperature", self.temperature)
+            self.options["temperature"] = int(self.temperature)
+        if self.send_reasoning_effort and self.reasoning_effort:
+            self.add_cache_impact_parameters("reasoning_effort", self.reasoning_effort)
+            self.options["reasoning_effort"] = self.reasoning_effort
+
         self.model = settings.translate_engine_settings.openai_model
         self.add_cache_impact_parameters("model", self.model)
         self.add_cache_impact_parameters("prompt", self.prompt(""))
