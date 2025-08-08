@@ -1,4 +1,4 @@
-[**高級選項**](./introduction.md) > **語言代碼** _(目前頁面)_
+[**高級選項**](./introduction.md) > **語言代碼** _(current)_
 
 ---
 
@@ -10,14 +10,14 @@
 | --- | --- | --- |
 | 阿姆哈拉語 | Amharic | `am` |
 | 阿拉伯語 | Arabic | `ar` |
-| 巴斯克語 | Basque | `eu` |
+| 巴斯克语 | Basque | `eu` |
 | 孟加拉語 | Bengali | `bn` |
 | 英語（英國） | English (UK) | `en-GB` |
 | 葡萄牙語（巴西） | Portuguese (Brazil) | `pt-BR` |
 | 保加利亞語 | Bulgarian | `bg` |
 | 加泰隆尼亞語 | Catalan | `ca` |
 | 切羅基語 | Cherokee | `chr` |
-| 克羅埃西亞語 | Croatian | `hr` |
+| 克羅地亞語 | Croatian | `hr` |
 | 捷克語 | Czech | `cs` |
 | 丹麥語 | Danish | `da` |
 | 荷蘭語 | Dutch | `nl` |
@@ -30,18 +30,16 @@
 | 希臘語 | Greek | `el` |
 | 古吉拉特語 | Gujarati | `gu` |
 | 希伯來語 | Hebrew | `iw` |
-| 印地语 | Hindi | `hi` |
+| 印地語 | Hindi | `hi` |
 | 匈牙利語 | Hungarian | `hu` |
 | 冰島語 | Icelandic | `is` |
 | 印尼語 | Indonesian | `id` |
 | 義大利語 | Italian | `it` |
 | 日語 | Japanese | `ja` |
-| 卡纳达语 | Kannada | `kn` |
+| 卡納達語 | Kannada | `kn` |
 | 韓語 | Korean | `ko` |
 | 拉脫維亞語 | Latvian | `lv` |
 | 立陶宛語 | Lithuanian | `lt` |
-### 翻譯結果
-
 | 馬來語 | Malay | `ms` |
 | 馬拉雅拉姆語 | Malayalam | `ml` |
 | 馬拉地語 | Marathi | `mr` |
@@ -60,7 +58,7 @@
 | 泰米爾語 | Tamil | `ta` |
 | 泰盧固語 | Telugu | `te` |
 | 泰語 | Thai | `th` |
-| 中文（台灣） | Chinese (Taiwan) | `zh-TW` |
+| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |
 | 土耳其語 | Turkish | `tr` |
 | 烏爾都語 | Urdu | `ur` |
 | 烏克蘭語 | Ukrainian | `uk` |
@@ -71,7 +69,7 @@
 #### DeepL
 來源 <https://developers.deepl.com/docs/resources/supported-languages>，由 GPT-4o 整理。
 
-| 中文標籤 | 英文標籤 | `語言代碼` | 支援類型 |
+| 中文標籤 | 標籤 | `語言代碼` | 支援 |
 | --- | --- | --- | --- |
 | 阿拉伯語 | Arabic | `AR` | `source`, `target` |
 | 保加利亞語 | Bulgarian | `BG` | `source`, `target` |
@@ -79,10 +77,10 @@
 | 丹麥語 | Danish | `DA` | `source`, `target` |
 | 德語 | German | `DE` | `source`, `target` |
 | 希臘語 | Greek | `EL` | `source`, `target` |
-| 英語 | English | `EN` | `source`, `target` |
+| 中文（繁體） | Chinese (Traditional) | `zh_TW` | `source`, `target` |
 | 英語（英國） | English (British) | `EN-GB` | `target` |
-| 英語（美國） | English (American) | `EN-US` | `target` |
-| 西班牙语 | Spanish | `ES` | `source`, `target` |
+| 英语（美国） | English (American) | `EN-US` | `target` |
+| 西班牙語 | Spanish | `ES` | `source`, `target` |
 | 愛沙尼亞語 | Estonian | `ET` | `source`, `target` |
 | 芬蘭語 | Finnish | `FI` | `source`, `target` |
 | 法語 | French | `FR` | `source`, `target` |
@@ -98,17 +96,17 @@
 | 波蘭語 | Polish | `PL` | `source`, `target` |
 | 葡萄牙語 | Portuguese | `PT` | `source`, `target` |
 | 葡萄牙語（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |
-| 葡萄牙語（歐洲） | Portuguese (European) | `PT-PT` | `target` |
+| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |
 | 羅馬尼亞語 | Romanian | `RO` | `source`, `target` |
 | 俄語 | Russian | `RU` | `source`, `target` |
 | 斯洛伐克語 | Slovak | `SK` | `source`, `target` |
-| 斯洛維尼亞語 | Slovenian | `SL` | `source`, `target` |
+| 斯洛文尼亞語 | Slovenian | `SL` | `source`, `target` |
 | 瑞典語 | Swedish | `SV` | `source`, `target` |
 | 土耳其語 | Turkish | `TR` | `source`, `target` |
 | 烏克蘭語 | Ukrainian | `UK` | `source`, `target` |
 | 中文 | Chinese | `ZH` | `source`, `target` |
 | 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |
-| 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |
+| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |
 
 <div align="right"> 
 <h6><small>Some content on this page has been translated by GPT and may contain errors.</small></h6>

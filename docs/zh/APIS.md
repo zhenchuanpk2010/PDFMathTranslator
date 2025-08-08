@@ -3,7 +3,7 @@
 > 本文档已过时，请勿参考。
 
 <h2 id="目录">目录</h2>
-本项目支持两种类型的 API，所有方法都需要 Redis；
+当前项目支持两种类型的 API，所有方法都需要 Redis；
 
 - [Python 中的函数调用](#api-python)
 - [HTTP 协议](#api-http)
@@ -12,7 +12,7 @@
 
 <h2 id="api-python">Python</h2>
 
-由于 `pdf2zh` 是 Python 中的一个已安装模块，我们公开了两个方法供其他程序在任何 Python 脚本中调用。
+由于 `pdf2zh` 是一个已安装的 Python 模块，我们公开了两个方法供其他程序在任何 Python 脚本中调用。
 
 例如，如果你想使用 Google 翻译将文档从英语翻译成中文，可以使用以下代码：
 
@@ -26,7 +26,11 @@ params = {
     'thread': 4,
 }
 ```
-使用文件翻译：
+---
+
+### 翻译文件
+
+使用文件进行翻译：
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
@@ -42,7 +46,7 @@ with open('example.pdf', 'rb') as f:
 
 <h2 id="api-http">HTTP</h2>
 
-以更灵活的方式，你可以通过 HTTP 协议与程序进行通信，如果：
+以更灵活的方式，您可以通过 HTTP 协议与程序进行通信，如果：
 
 1. 安装并运行后端
 
@@ -97,4 +101,4 @@ with open('example.pdf', 'rb') as f:
 ---
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>

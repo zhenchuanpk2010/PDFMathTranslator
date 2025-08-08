@@ -6,7 +6,7 @@
 >
 > ¡Por favor, NO envíes PRs relacionados con la internacionalización/traducción de la documentación!
 
-Gracias por tu interés en este proyecto. Antes de comenzar a contribuir, por favor tómate un tiempo para leer las siguientes pautas para asegurarte de que tu contribución pueda ser aceptada sin problemas.
+Gracias por tu interés en este proyecto. Antes de empezar a contribuir, por favor tómate un tiempo para leer las siguientes pautas para asegurar que tu contribución pueda ser aceptada sin problemas.
 
 ## Tipos de contribuciones no aceptadas
 
@@ -21,25 +21,25 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 > [!NOTE]
 >
-> Si deseas contribuir con documentación, por favor **solo modifiques la versión en inglés de la documentación**. Las versiones en otros idiomas son traducidas por los propios contribuyentes.
+> Si deseas contribuir con la documentación, por favor **solo modifiques la versión en inglés de la documentación**. Las versiones en otros idiomas son traducidas por los propios colaboradores.
 
 ## Proceso de contribución
 
 1. Haz un fork de este repositorio y clónalo localmente.
 2. Crea una nueva rama: `git checkout -b feature/<feature-name>`.
 3. Desarrolla y asegúrate de que tu código cumpla con los requisitos.
-4. Confirma tu código:
+4. Confirma tus cambios:
    ```bash
    git add .
    git commit -m "<semantic commit message>"
    ```
-5. Envía los cambios a tu repositorio: `git push origin feature/<feature-name>`.
+5. Sube los cambios a tu repositorio: `git push origin feature/<feature-name>`.
 6. Crea un PR en GitHub, proporciona una descripción detallada y solicita una revisión a [@awwaawwa](https://github.com/awwaawwa).
 7. Asegúrate de que todas las verificaciones automatizadas pasen.
 
 > [!TIP]
 >
-> No es necesario esperar hasta que tu desarrollo esté completamente terminado para crear un PR. Crearlo temprano nos permite revisar tu implementación y proporcionar sugerencias.
+> No es necesario esperar hasta que tu desarrollo esté completamente terminado para crear un PR. Crear uno temprano nos permite revisar tu implementación y proporcionar sugerencias.
 >
 > Si tienes alguna pregunta sobre el código fuente o asuntos relacionados, por favor contacta al mantenedor en aw@funstory.ai.
 >
@@ -51,7 +51,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
    - Por favor, haz un fork desde la rama `main` y desarrolla en tu rama bifurcada.
    - Al enviar una Pull Request (PR), proporciona una descripción detallada de tus cambios.
-   - Si tu PR no pasa los controles automatizados (indicados por `checks failed` y una cruz roja), revisa los `details` correspondientes y modifica tu envío para asegurar que la nueva PR pase todos los controles.
+   - Si tu PR no pasa las verificaciones automatizadas (indicadas por `checks failed` y una cruz roja), revisa los `details` correspondientes y modifica tu envío para asegurar que la nueva PR pase todas las verificaciones.
 
 
 <h4 id="dev&test">2. Desarrollo y Pruebas</h4>
@@ -59,7 +59,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
    - Usa el comando `pip install -e .` para desarrollo y pruebas.
 
 
-<h4 id="formato">3. Formateo de código</h4>
+<h4 id="formato">3. Formato de código</h4>
 
    - Configura la herramienta `pre-commit` y habilita `black` y `flake8` para el formato del código.
 
@@ -98,7 +98,7 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 > [!NOTE]
 >
-> Este proyecto no tiene la intención de admitir ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíes soporte para dichos motores.
+> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíes soporte para este tipo de motores.
 
 ## Estructura del proyecto
 
@@ -112,11 +112,11 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 ## Contáctanos
 
-Si tienes alguna pregunta, por favor envía tus comentarios a través de un Issue o únete a nuestro Grupo de Telegram. ¡Gracias por tu contribución!
+Si tienes alguna pregunta, por favor envía tus comentarios a través de Issue o únete a nuestro Grupo de Telegram. ¡Gracias por tu contribución!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) patrocina códigos de membresía Pro mensuales para los contribuyentes activos de este proyecto. Para más detalles, consulta: [BabelDOC/PDFMathTranslate Reglas de recompensa para contribuyentes](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) patrocina códigos de membresía Pro mensuales para los contribuyentes activos de este proyecto. Para más detalles, consulta: [Reglas de recompensa para contribuyentes de BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Parte del contenido de esta página ha sido traducido por GPT y puede contener errores.</small></h6>

@@ -1,6 +1,6 @@
 ### Opções avançadas
 
-Esta seção destina-se a usuários avançados deste software. Aqui você pode encontrar:
+Esta seção é destinada a usuários avançados deste software. Aqui você pode encontrar:
 
 1. [**Opções avançadas**](./advanced.md)
 <br>

@@ -1,0 +1,150 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/introduction.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_0D45C98F",
+      "chunk_type": "header",
+      "original_content": "### Advanced\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh": "### 高级选项\n",
+        "ko": "### 고급 옵션\n",
+        "it": "### Opzioni avanzate\n",
+        "zh_TW": "### 高級選項\n",
+        "ja": "### 高度な設定\n",
+        "ru": "### Расширенные параметры\n",
+        "fr": "### Options avancées\n",
+        "pt": "### Opções avançadas\n",
+        "es": "### Opciones avanzadas\n",
+        "de": "### Erweiterte Optionen\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F16EF37C",
+      "chunk_type": "paragraph",
+      "original_content": "This section is intended for advanced users of this software. Here you can find:\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "本节内容面向本软件的高级用户。您可以在此找到：\n",
+        "ja": "このセクションは、このソフトウェアの上級ユーザー向けです。ここでは以下の情報を見つけることができます：\n",
+        "pt": "Esta seção é destinada a usuários avançados deste software. Aqui você pode encontrar:\n",
+        "de": "Dieser Abschnitt richtet sich an fortgeschrittene Benutzer dieser Software. Hier finden Sie:\n",
+        "zh_TW": "本節適用於本軟體的高級用戶。在此您可以找到：\n",
+        "es": "Esta sección está destinada a usuarios avanzados de este software. Aquí puedes encontrar:\n",
+        "fr": "Cette section est destinée aux utilisateurs avancés de ce logiciel. Ici, vous pouvez trouver :\n",
+        "ru": "Этот раздел предназначен для опытных пользователей данного программного обеспечения. Здесь вы можете найти:\n",
+        "ko": "이 섹션은 이 소프트웨어의 고급 사용자를 위한 것입니다. 여기에서 다음을 찾을 수 있습니다:\n",
+        "it": "Questa sezione è destinata agli utenti avanzati di questo software. Qui puoi trovare:\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5FC80BEA",
+      "chunk_type": "list",
+      "original_content": "1. [**Advanced Usage**](./advanced.md)",
+      "start_line_no": 5,
+      "translations": {
+        "ja": "1. [**高度な設定**](./advanced.md)",
+        "es": "1. [**Opciones avanzadas**](./advanced.md)",
+        "ko": "1. [**고급 옵션 사용법**](./advanced.md)",
+        "fr": "1. [**Options avancées**](./advanced.md)",
+        "zh": "1. [**高级选项**](./advanced.md)",
+        "ru": "1. [**Расширенные параметры**](./advanced.md)",
+        "zh_TW": "1. [**高級選項**](./advanced.md)",
+        "de": "1. [**Erweiterte Optionen**](./advanced.md)",
+        "pt": "1. [**Opções avançadas**](./advanced.md)",
+        "it": "1. [**Opzioni avanzate**](./advanced.md)"
+      }
+    },
+    {
+      "chunk_id": "chunk_7B3D7A76",
+      "chunk_type": "paragraph",
+      "original_content": "<br>\nIn this section, you can explore specify source/target languages, switch translation services, and more.\n",
+      "start_line_no": 6,
+      "translations": {
+        "zh_TW": "<br>\n在本節中，您可以探索指定來源/目標語言、切換翻譯服務等更多選項。\n",
+        "zh": "<br>\n在本节中，您可以探索指定源/目标语言、切换翻译服务等高级选项。\n",
+        "ru": "<br>\nВ этом разделе вы можете указать исходный/целевой языки, переключить службы перевода и многое другое.\n",
+        "fr": "<br>\nDans cette section, vous pouvez explorer les langues source/cible spécifiques, changer de services de traduction, et plus encore.\n",
+        "ko": "<br>\n이 섹션에서는 특정 소스/대상 언어를 지정하고, 번역 서비스를 전환하는 등의 작업을 할 수 있습니다.\n",
+        "es": "<br>\nEn esta sección, puedes explorar idiomas de origen/destino específicos, cambiar servicios de traducción y más.\n",
+        "it": "<br>\nIn questa sezione, puoi esplorare i linguaggi di origine/destinazione specifici, cambiare i servizi di traduzione e altro ancora.\n",
+        "ja": "<br>\nこのセクションでは、特定のソース／ターゲット言語の指定、翻訳サービスの切り替えなどが可能です。\n",
+        "de": "<br>\nIn diesem Abschnitt können Sie spezifische Quell-/Zielsprachen erkunden, Übersetzungsdienste wechseln und mehr.\n",
+        "pt": "<br>\nNesta seção, você pode explorar idiomas de origem/destino específicos, alternar serviços de tradução e muito mais.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7A0A4B36",
+      "chunk_type": "list",
+      "original_content": "2. [**Language Code**](./Language-Codes.md)",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "2. [**语言代码**](./Language-Codes.md)",
+        "de": "2. [**Sprachcode**](./Language-Codes.md)",
+        "fr": "2. [**Code de langue**](./Language-Codes.md)",
+        "es": "2. [**Código de idioma**](./Language-Codes.md)",
+        "ko": "2. [**언어 코드**](./Language-Codes.md)",
+        "pt": "2. [**Código do idioma**](./Language-Codes.md)",
+        "ru": "2. [**Код языка**](./Language-Codes.md)",
+        "ja": "2. [**言語コード**](./Language-Codes.md)",
+        "it": "2. [**Codice lingua**](./Language-Codes.md)",
+        "zh_TW": "2. [**語言代碼**](./Language-Codes.md)"
+      }
+    },
+    {
+      "chunk_id": "chunk_298EB9AE",
+      "chunk_type": "paragraph",
+      "original_content": "<br>\nIf you are unsure about which codes to use for translating your source/target languages, you can find them here.\n",
+      "start_line_no": 10,
+      "translations": {
+        "zh": "<br>\n如果不确定源语言/目标语言应使用哪些语言代码，可在此处查询。\n",
+        "es": "<br>\nSi no estás seguro de qué códigos usar para traducir tus idiomas de origen/destino, puedes encontrarlos aquí.\n",
+        "zh_TW": "<br>\n如果不確定要使用哪些代碼來翻譯您的源語言/目標語言，可以在這裡找到它們。\n",
+        "fr": "<br>\nSi vous n'êtes pas sûr des codes à utiliser pour traduire vos langues source/cible, vous pouvez les trouver ici.\n",
+        "ru": "<br>\nЕсли вы не уверены, какие коды использовать для перевода исходного/целевого языка, вы можете найти их здесь.\n",
+        "ko": "<br>\n소스/대상 언어 번역에 사용할 코드가 확실하지 않은 경우 여기에서 찾을 수 있습니다.\n",
+        "de": "<br>\nWenn Sie unsicher sind, welche Codes Sie für die Übersetzung Ihrer Quell-/Zielsprachen verwenden sollen, können Sie diese hier finden.\n",
+        "pt": "<br>\nSe você não tem certeza sobre quais códigos usar para traduzir seus idiomas de origem/destino, você pode encontrá-los aqui.\n",
+        "it": "<br>\nSe non sei sicuro su quali codici utilizzare per tradurre le tue lingue di origine/destinazione, puoi trovarli qui.\n",
+        "ja": "<br>\n翻訳元／翻訳先の言語にどのコードを使用すべきかわからない場合は、こちらで確認できます。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_A956AA16",
+      "chunk_type": "list",
+      "original_content": "3. [**Documentation of Translation Services**](./Documentation-of-Translation-Services.md)",
+      "start_line_no": 13,
+      "translations": {
+        "zh": "3. [**翻译服务文档**](./Documentation-of-Translation-Services.md)",
+        "zh_TW": "3. [**翻譯服務文檔**](./Documentation-of-Translation-Services.md)",
+        "ko": "3. [**번역 서비스 문서**](./Documentation-of-Translation-Services.md)",
+        "ru": "3. [**Документация служб перевода**](./Documentation-of-Translation-Services.md)",
+        "it": "3. [**Documentazione dei servizi di traduzione**](./Documentation-of-Translation-Services.md)",
+        "fr": "3. [**Documentation des services de traduction**](./Documentation-of-Translation-Services.md)",
+        "es": "3. [**Documentación de servicios de traducción**](./Documentation-of-Translation-Services.md)",
+        "ja": "3. [**翻訳サービスドキュメント**](./Documentation-of-Translation-Services.md)",
+        "de": "3. [**Dokumentation der Übersetzungsdienste**](./Documentation-of-Translation-Services.md)",
+        "pt": "3. [**Documentação dos serviços de tradução**](./Documentation-of-Translation-Services.md)"
+      }
+    },
+    {
+      "chunk_id": "chunk_49F0D79D",
+      "chunk_type": "paragraph",
+      "original_content": "<br>\nIf you need to review the documentation provided by the translation services you are using, please refer to this page.",
+      "start_line_no": 14,
+      "translations": {
+        "zh": "<br>\n如需查阅您所使用的翻译服务的文档，请参考此页面。",
+        "ja": "<br>\n使用中の翻訳サービスのドキュメントを確認する必要がある場合は、このページを参照してください。",
+        "de": "<br>\nWenn Sie die Dokumentation der von Ihnen verwendeten Übersetzungsdienste überprüfen müssen, lesen Sie bitte diese Seite.",
+        "pt": "<br>\nSe você precisar revisar a documentação fornecida pelos serviços de tradução que está usando, consulte esta página.",
+        "zh_TW": "<br>\n如果您需要查看您所使用的翻譯服務提供的文檔，請參考此頁面。",
+        "ko": "<br>\n사용 중인 번역 서비스에서 제공하는 문서를 검토해야 하는 경우 이 페이지를 참조하세요.",
+        "es": "<br>\nSi necesitas revisar la documentación proporcionada por los servicios de traducción que estás utilizando, consulta esta página.",
+        "ru": "<br>\nЕсли вам нужно ознакомиться с документацией, предоставляемой используемыми службами перевода, обратитесь к этой странице.",
+        "it": "<br>\nSe hai bisogno di rivedere la documentazione fornita dai servizi di traduzione che stai utilizzando, fai riferimento a questa pagina.",
+        "fr": "<br>\nSi vous avez besoin de consulter la documentation fournie par les services de traduction que vous utilisez, veuillez vous référer à cette page."
+      }
+    }
+  ]
+}

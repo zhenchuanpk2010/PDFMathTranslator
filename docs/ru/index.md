@@ -32,17 +32,20 @@
 
 </div>
 
-Перевод научных статей в формате PDF и двуязычное сравнение.
+Перевод научных статей в формате PDF и их двуязычное сравнение.
 
-- 📊 Сохраняет формулы, графики, оглавление и аннотации _([предпросмотр](#предпросмотр))_.
+- 📊 Сохраняйте формулы, диаграммы, оглавление и аннотации _([предпросмотр](#предпросмотр))_.
 - 🌐 Поддерживает [множество языков](https://pdf2zh-next.com/supported_languages.html) и различные [службы перевода](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Предоставляет [инструмент командной строки](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [интерактивный пользовательский интерфейс](https://pdf2zh-next.com/getting-started/USAGE_webui.html) и [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
+<!-- Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl). -->
+
 > [!WARNING]
 >
-> Этот проект предоставляется «как есть» по лицензии AGPL v3, и никаких гарантий относительно качества и производительности программы не предоставляется. **Весь риск, связанный с качеством и производительностью программы, лежит на вас.** Если программа окажется дефектной, вы будете нести ответственность за все необходимые расходы на обслуживание, ремонт или исправление.
+> Этот проект предоставляется «как есть» по лицензии [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE), и никаких гарантий относительно качества и производительности программы не предоставляется. **Весь риск, связанный с качеством и производительностью программы, лежит на вас.** Если программа окажется дефектной, вы будете нести все необходимые расходы на обслуживание, ремонт или исправление.
 >
-> Из-за ограниченных ресурсов мы не предоставляем никакой помощи в использовании или решении проблем. Связанные вопросы будут закрыты напрямую! (Приветствуется отправка PR для улучшения документации этого проекта; Ошибки или дружественные вопросы не затрагиваются этим.)
+> Из-за ограниченных ресурсов сопровождающих мы не предоставляем никакой помощи в использовании или решении проблем. Связанные вопросы будут закрыты напрямую! (Приветствуются пул-реквесты для улучшения документации проекта; ошибки или дружественные вопросы, соответствующие шаблону, не затрагиваются этим)
+
 
 Для получения подробной информации о том, как внести свой вклад, обратитесь к [Руководству по участию](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
@@ -50,9 +53,9 @@
 
 - [4 июня 2025] Проект переименован и перемещён в [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (от [@awwaawwa](https://github.com/awwaawwa))
 - [3 марта 2025] Добавлена экспериментальная поддержка нового бэкенда [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI в качестве экспериментальной опции (от [@awwaawwa](https://github.com/awwaawwa))
-- [22 февраля 2025] Улучшен CI для релизов и хорошо упакованный windows-amd64 exe (от [@awwaawwa](https://github.com/awwaawwa))
+- [22 февраля 2025] Улучшенный CI для релизов и хорошо упакованный exe-файл для windows-amd64 (от [@awwaawwa](https://github.com/awwaawwa))
 - [24 декабря 2024] Переводчик теперь поддерживает локальные модели на [Xinference](https://github.com/xorbitsai/inference) _(от [@imClumsyPanda](https://github.com/imClumsyPanda))_
-- [19 декабря 2024] Теперь поддерживаются документы, не являющиеся PDF/A, с использованием `-cp` _(от [@reycn](https://github.com/reycn))_
+- [19 декабря 2024] Теперь поддерживаются документы, не соответствующие стандарту PDF/A, с использованием `-cp` _(от [@reycn](https://github.com/reycn))_
 - [13 декабря 2024] Дополнительная поддержка бэкенда от _(от [@YadominJinta](https://github.com/YadominJinta))_
 - [10 декабря 2024] Переводчик теперь поддерживает модели OpenAI на Azure _(от [@yidasanqian](https://github.com/yidasanqian))_
 
@@ -78,21 +81,21 @@
 
 Обратите внимание, что вычислительные ресурсы демо-версии ограничены, поэтому, пожалуйста, избегайте их злоупотребления.
 
-<h2 id="install">Установка и использование</h2>
+<h2 id="установка">Установка и использование</h2>
 
 ### Установка
 
-1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Рекомендуется для Windows</small>  
-2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Рекомендуется для Linux</small>  
+1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Рекомендуется для Windows</small>
+2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Рекомендуется для Linux</small>
 3. [**uv** (менеджер пакетов Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Рекомендуется для macOS</small>
 
 ---
 
 ### Использование
 
-1. [Использование **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-2. [Использование **Плагина Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Сторонняя программа)
-3. [Использование **Командной строки**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
+1. [Использование **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)  
+2. [Использование **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Сторонняя программа)  
+3. [Использование **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
 Для различных случаев использования мы предоставляем различные методы работы с нашей программой. Подробнее см. на [этой странице](./getting-started/getting-started.md).
 
@@ -104,7 +107,7 @@
 
 > [!NOTE]
 >
-> В настоящее время соответствующая документация не предоставлена. Она будет дополнена позже. Пожалуйста, ожидайте терпеливо.
+> В настоящее время соответствующая документация не предоставлена. Она будет добавлена позже. Пожалуйста, ожидайте терпеливо.
 
 
 <!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
@@ -150,7 +153,7 @@
 
 - Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Анализ макета: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
@@ -158,7 +161,7 @@
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [Логирование с использованием multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [Богатое логирование с многопроцессорностью](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
 - Локализация документации с помощью Weblate: [Weblate](https://weblate.org/)
 
@@ -174,19 +177,14 @@
 
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<h2 id="история_звезд">История звезд</h2>
+<h2 id="star_hist">История звезд</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
- <a href="https://github.com/PDFMathTranslate/PDFMathTranslate">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PDFMathTranslate/PDFMathTranslate/assets/102555215/6a2a3c0e-2c5e-4c8e-9c0e-1d5a5a5b5b5b">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/PDFMathTranslate/PDFMathTranslate/assets/102555215/6a2a3c0e-2c5e-4c8e-9c0e-1d5a5a5b5b5b">
-        <img alt="PDFMathTranslate" src="https://github.com/PDFMathTranslate/PDFMathTranslate/assets/102555215/6a2a3c0e-2c5e-4c8e-9c0e-1d5a5a5b5b5b">
-    </picture>
+ </picture>
 </a>
 
 <div align="right"> 

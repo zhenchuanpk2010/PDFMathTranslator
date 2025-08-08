@@ -1,7 +1,7 @@
 <!-- CHUNK ID: chunk_F3B96F2D  CHUNK TYPE: paragraph START_LINE:1 -->
 [**Getting Started**](./getting-started.md) > **Installation** > **Docker** _(current)_
 
-<!-- CHUNK ID: h_rule_bbc9b2d8  CHUNK TYPE: h_rule START_LINE:3 -->
+<!-- CHUNK ID: h_rule_1ac17cf0  CHUNK TYPE: h_rule START_LINE:3 -->
 ---
 
 <!-- CHUNK ID: chunk_3EBE8361  CHUNK TYPE: header START_LINE:5 -->

@@ -24,14 +24,14 @@ WebUI インターフェースを開く方法はいくつかあります。**Win
     http://localhost:7860/
     ```
 
-    PDF ファイルをウィンドウにドロップして `Translate` をクリック。
+    `PDF` ファイルをウィンドウにドロップして、`Translate` をクリックしてください。
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### 環境変数
 
-以下の環境変数を使用して、ソース言語とターゲット言語を設定できます：
+ソース言語とターゲット言語は環境変数を使用して設定できます：
 
 - `PDF2ZH_LANG_FROM`: ソース言語を設定します。デフォルトは「English」です。
 - `PDF2ZH_LANG_TO`: ターゲット言語を設定します。デフォルトは「Simplified Chinese」です。
@@ -46,4 +46,4 @@ WebUI インターフェースを開く方法はいくつかあります。**Win
 [Rongxin](https://github.com/reycn) がメンテナンスする GUI
 
 <div align="right"> 
-<h6><small>このページの一部のコンテンツはGPTによって翻訳されており、エラーが含まれている可能性があります。</small></h6>
+<h6><small>このページの一部のコンテンツは GPT によって翻訳されており、エラーが含まれている可能性があります。</small></h6>

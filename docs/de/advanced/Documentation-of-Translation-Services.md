@@ -10,7 +10,7 @@ Sie können die verfügbaren Übersetzungsdienste und deren Verwendung bestätig
 pdf2zh_next -h
 ```
 
-Am Ende der Hilfenachricht können Sie detaillierte Informationen zu den verschiedenen Übersetzungsdiensten einsehen.
+Am Ende der Hilfenachricht können Sie detaillierte Informationen über die verschiedenen Übersetzungsdienste einsehen.
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

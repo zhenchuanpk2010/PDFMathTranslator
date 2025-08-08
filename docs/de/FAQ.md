@@ -9,14 +9,14 @@ Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumen
 
 ## Download unterbrochen?
 - **Frage**:
-Ich bin auf den folgenden Unterbrechungsfehler beim Herunterladen des Modells gestoßen. Was soll ich tun?
+Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?
 
   ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)
 
 - **Antwort**:
 Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.
 
-## Wie aktualisiere ich auf die neueste Version?
+## Wie aktualisiert man auf die neueste Version?
 - **Frage**:
 Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?
 
@@ -26,7 +26,7 @@ Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich 
 
 ## Die folgenden Dateien existieren nicht: example.pdf
 - **Problem**:
-Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `Die folgenden Dateien existieren nicht: example.pdf`, wenn das Dokument nicht gefunden wurde.
+Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `The following files do not exist: example.pdf`, wenn das Dokument nicht gefunden wurde.
 
 - **Lösung**:
   - Öffnen Sie die Kommandozeile in dem Verzeichnis, in dem sich die Datei befindet, oder
@@ -42,7 +42,7 @@ Beim Herunterladen von Hugging-Face-Modellen können Benutzer in China Netzwerkf
   - [GFW umgehen](https://github.com/clash-verge-rev/clash-verge-rev).
   - [Hugging Face Mirror verwenden](https://hf-mirror.com/).
   - [Portable Version verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).
-  - [Docker stattdessen verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
+  - [Stattdessen Docker verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).
   - [Zertifikate aktualisieren](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), wie in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) vorgeschlagen.
 
 ## Localhost ist nicht erreichbar

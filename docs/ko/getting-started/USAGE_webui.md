@@ -2,11 +2,11 @@
 
 ---
 
-### Webui를 통해 PDFMathTranslate 사용하기
+### Webui 를 통해 PDFMathTranslate 사용하기
 
 #### WebUI 페이지를 여는 방법:
 
-WebUI 인터페이스를 여는 여러 가지 방법이 있습니다. **Windows**를 사용 중이라면 [이 문서](./INSTALLATION_winexe.md)를 참조하세요;
+WebUI 인터페이스를 여는 방법에는 여러 가지가 있습니다. **Windows**를 사용 중이라면 [이 문서](./INSTALLATION_winexe.md) 를 참조하세요.
 
 1. Python 설치 (3.10 <= 버전 <= 3.12)
 
@@ -24,16 +24,16 @@ WebUI 인터페이스를 여는 여러 가지 방법이 있습니다. **Windows*
     http://localhost:7860/
     ```
 
-    PDF 파일을 창에 드롭하고 `Translate`을 클릭하세요.
+    PDF 파일을 창에 드롭하고 `Translate` 을 클릭하세요.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
 <img src='./../images/gui.gif' width="500"/>
 
 ### 환경 변수
 
-소스 및 타겟 언어를 환경 변수를 사용하여 설정할 수 있습니다:
+소스 및 대상 언어를 환경 변수를 사용하여 설정할 수 있습니다:
 
-- `PDF2ZH_LANG_FROM`: 원본 언어를 설정합니다. 기본값은 "English"입니다.
+- `PDF2ZH_LANG_FROM`: 소스 언어를 설정합니다. 기본값은 "English"입니다.
 - `PDF2ZH_LANG_TO`: 대상 언어를 설정합니다. 기본값은 "Simplified Chinese"입니다.
 
 ## 미리보기
@@ -43,7 +43,7 @@ WebUI 인터페이스를 여는 여러 가지 방법이 있습니다. **Windows*
 
 ## 유지 관리
 
-[Rongxin](https://github.com/reycn)이 유지 관리하는 GUI
+[Rongxin](https://github.com/reycn) 이 유지 관리하는 GUI
 
 <div align="right"> 
-<h6><small>이 페이지의 일부 내용은 GPT에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>
+<h6><small>이 페이지의 일부 내용은 GPT 에 의해 번역되었으며 오류가 포함될 수 있습니다.</small></h6>

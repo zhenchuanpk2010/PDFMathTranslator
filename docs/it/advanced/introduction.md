@@ -2,9 +2,9 @@
 
 Questa sezione è destinata agli utenti avanzati di questo software. Qui puoi trovare:
 
-1. [**Utilizzo avanzato**](./advanced.md)
+1. [**Opzioni avanzate**](./advanced.md)
 <br>
-In questa sezione, puoi esplorare la specifica delle lingue di origine/destinazione, cambiare i servizi di traduzione e altro ancora.
+In questa sezione, puoi esplorare i linguaggi di origine/destinazione specifici, cambiare i servizi di traduzione e altro ancora.
 
 2. [**Codice lingua**](./Language-Codes.md)
 <br>

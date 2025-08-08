@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Utilisation** > **Ligne de commande** _(actuel)_
+[**Commencer**](./getting-started.md) > **Utilisation** > **Ligne de commande** _(current)_
 
 ---
 
@@ -30,7 +30,7 @@ Après avoir exécuté la traduction, les fichiers sont générés dans le **ré
 > PS C:\Users\XXX>
 > ```
 > 
-> Ce répertoire est le "*Répertoire de travail actuel*."
+> Ce répertoire est le "*Répertoire de travail actuel*".
 > 
 > S'il n'y a pas de chemin, essayez d'exécuter cette commande dans le terminal :
 > 
@@ -44,7 +44,7 @@ Après avoir exécuté la traduction, les fichiers sont générés dans le **ré
 
 #### Options avancées
 
-Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez vous référer à [Options avancées](./../advanced/advanced.md).
+Pour des explications détaillées sur les paramètres supplémentaires de la ligne de commande, veuillez vous référer à [options avancées](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Une partie du contenu de cette page a été traduite par GPT et peut contenir des erreurs.</small></h6>

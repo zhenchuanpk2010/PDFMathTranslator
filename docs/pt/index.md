@@ -34,15 +34,18 @@
 
 Tradução de artigos científicos em PDF e comparação bilíngue.
 
-- 📊 Preserve fórmulas, gráficos, tabela de conteúdo e anotações _([pré-visualização](#pré-visualização))_.
-- 🌐 Suporte a [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
+- 📊 Preservar fórmulas, gráficos, sumários e anotações _([pré-visualização](#preview))_.
+- 🌐 Suporta [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Oferece [ferramenta de linha de comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interface de usuário interativa](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
+
+<!-- Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl). -->
 
 > [!WARNING]
 >
-> Este projeto é fornecido "como está" sob a licença AGPL v3, e não são fornecidas garantias quanto à qualidade e desempenho do programa. **Todo o risco relacionado à qualidade e desempenho do programa é assumido por você.** Se o programa for considerado defeituoso, você será responsável por todos os custos necessários de serviço, reparo ou correção.
+> Este projeto é fornecido "como está" sob a licença [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE), e não são fornecidas garantias quanto à qualidade e desempenho do programa. **Todo o risco relacionado à qualidade e desempenho do programa é de sua responsabilidade.** Se o programa for considerado defeituoso, você será responsável por todos os custos necessários de serviço, reparo ou correção.
 >
-> Devido a recursos limitados, não fornecemos qualquer forma de assistência de uso ou resolução de problemas. Questões relacionadas serão encerradas diretamente! (Contribuições via PRs para melhorar a documentação deste projeto são bem-vindas; Bugs ou questões amigáveis não são afetados por isso.)
+> Devido à energia limitada dos mantenedores, não fornecemos qualquer forma de assistência de uso ou resolução de problemas. Questões relacionadas serão fechadas diretamente! (Pull requests para melhorar a documentação do projeto são bem-vindos; bugs ou questões amigáveis que seguem o modelo de issue não são afetados por isso)
+
 
 Para obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
@@ -69,9 +72,9 @@ Para obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](h
 >
 > O pdf2zh 2.0 atualmente não fornece uma demonstração online
 
-Você pode experimentar nosso aplicativo usando qualquer um dos seguintes demonstradores:
+Você pode experimentar nosso aplicativo usando qualquer um dos seguintes demonstrações:
 
-- [v1.x Serviço público gratuito](https://pdf2zh.com/) online sem instalação _(recomendado)_.
+- [Serviço público gratuito v1.x](https://pdf2zh.com/) online sem instalação _(recomendado)_.
 - [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 páginas gratuitas por mês. _(recomendado)_
 <!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)
 - [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->
@@ -94,7 +97,7 @@ Observe que os recursos computacionais da demonstração são limitados, portant
 2. [Usando **Plugin do Zotero**](https://github.com/guaguastandup/zotero-pdf2zh) (Programa de terceiros)
 3. [Usando **Linha de comando**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)
 
-Para diferentes casos de uso, fornecemos métodos distintos para utilizar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.
+Para diferentes casos de uso, fornecemos métodos distintos para usar nosso programa. Confira [esta página](./getting-started/getting-started.md) para mais informações.
 
 <h2 id="uso">Opções Avançadas</h2>
 
@@ -135,7 +138,7 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 <h2 id="reconhecimento">Reconhecimentos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinaturas Pro para contribuidores ativos deste projeto, consulte os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).
 
@@ -150,11 +153,11 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 - Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Fonte Multilíngue: veja [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
@@ -164,9 +167,9 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 <h2 id="conduct">Antes de enviar seu código</h2>
 
-Agradecemos a participação ativa dos colaboradores para tornar o pdf2zh melhor. Antes de enviar seu código, consulte nosso [Código de Conduta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).
+Agradecemos a participação ativa dos contribuidores para tornar o pdf2zh melhor. Antes de estar pronto para enviar seu código, consulte nosso [Código de Conduta](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) e [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
-<h2 id="contrib">Colaboradores</h2>
+<h2 id="contrib">Contribuidores</h2>
 
 <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
@@ -174,7 +177,7 @@ Agradecemos a participação ativa dos colaboradores para tornar o pdf2zh melhor
 
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<h2 id="histórico_de_estrelas">Histórico de Estrelas</h2>
+<h2 id="hist_estrela">Histórico de Estrelas</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
