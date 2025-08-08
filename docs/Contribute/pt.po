@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-08 17:16+0800\n"
-"PO-Revision-Date: 2025-08-08 17:16+0800\n"
+"POT-Creation-Date: 2025-08-08 17:23+0800\n"
+"PO-Revision-Date: 2025-08-08 17:23+0800\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr "<div align=\"center\">\n"
 # This content is from "README.md", line 5
 msgctxt "chunk_9CD70BC3"
 msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
-msgstr "PDFMathTranslate is a tool designed to translate PDF files while preserving their original formatting, including mathematical formulas and tables.</p>\n\n<h3 id=\"features\">Features</h3>\n\n- Preserves original formatting\n- Supports mathematical formulas\n- Handles tables effectively\n- Fast and efficient processing\n\n<h3 id=\"getting-started\">Getting Started</h3>\n\nTo begin using PDFMathTranslate, follow these steps:\n\n1. [Installation](#installation)\n2. [Usage](#usage)\n\n<h3 id=\"installation\">Installation</h3>\n\nYou can install PDFMathTranslate via pip:\n\n```bash\npip install pdf2zh\n```\n\n<h3 id=\"usage\">Usage</h3>\n\nPDFMathTranslate can be used via the command line or through a web interface.\n\n- [Using **Command Line**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)\n- [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n\n<h3 id=\"supported-languages\">Supported Languages</h3>\n\nPDFMathTranslate supports multiple languages. For a full list, see [Supported Languages](#supported-languages).\n\n<h3 id=\"community\">Community</h3>\n\nJoin our community for support and updates:\n\n- [GitHub](https://github.com/pdf2zh)\n- [Discord](https://discord.gg/pdf2zh)\n\n<h3 id=\"faq\">FAQ</h3>\n\nFor common questions, visit our [FAQ](#faq) section.\n\n---\n\n### TRANSLATED TEXT\n\n<h2 id=\"titulo\">PDFMathTranslate</h2>\n\n<p>PDFMathTranslate é uma ferramenta projetada para traduzir arquivos PDF preservando sua formatação original, incluindo fórmulas matemáticas e tabelas.</p>\n\n<h3 id=\"recursos\">Recursos</h3>\n\n- Preserva a formatação original\n- Suporta fórmulas matemáticas\n- Lida com tabelas de forma eficaz\n- Processamento rápido e eficiente\n\n<h3 id=\"comecar\">Começar</h3>\n\nPara começar a usar o PDFMathTranslate, siga estas etapas:\n\n1. [Instalação](#instalação)\n2. [Uso](#uso)\n\n<h3 id=\"instalacao\">### Instalação</h3>\n\nVocê pode instalar o PDFMathTranslate via pip:\n\n```bash\npip install pdf2zh\n```\n\n<h3 id=\"uso\">### Uso</h3>\n\nO PDFMathTranslate pode ser usado via linha de comando ou através de uma interface web.\n\n- [Usando **Linha de comando**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)\n- [Usando **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n\n<h3 id=\"idiomas-suportados\">Idiomas suportados</h3>\n\nO PDFMathTranslate suporta vários idiomas. Para uma lista completa, consulte [Idiomas suportados](#idiomas-suportados).\n\n<h3 id=\"comunidade\">Comunidade</h3>\n\nJunte-se à nossa comunidade para suporte e atualizações:\n\n- [GitHub](https://github.com/pdf2zh)\n- [Discord](https://discord.gg/pdf2zh)\n\n<h3 id=\"perguntas-frequentes\">Perguntas frequentes</h3>\n\nPara perguntas comuns, visite nossa seção [Perguntas frequentes](#perguntas-frequentes).\n\n---"
+msgstr "<h2 id=\"título\">PDFMathTranslate</h2>\n\n<p>"
 
 # This content is from "README.md", line 9
 msgctxt "chunk_535549DD"

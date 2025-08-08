@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-08 17:16+0800\n"
-"PO-Revision-Date: 2025-08-08 17:16+0800\n"
+"POT-Creation-Date: 2025-08-08 17:23+0800\n"
+"PO-Revision-Date: 2025-08-08 17:23+0800\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr "<div align=\"center\">\n"
 # This content is from "README.md", line 5
 msgctxt "chunk_9CD70BC3"
 msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
-msgstr "<p>\n\n<p>PDFMathTranslate is a tool that can translate PDF files while preserving the original layout and mathematical formulas.</p>\n\n<p>It supports translation between multiple languages, including English, Chinese, Japanese, Korean, French, German, and more.</p>\n\n<p>You can use it via:</p>\n\n- [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n- [Using **Command Line**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)\n\n<p>For more information, please refer to the [Documentation of Translation Services](https://pdf2zh-next.com/getting-started/USAGE_translation.html).</p>\n\n<p>If you encounter any issues, please check the [FAQ](https://pdf2zh-next.com/community/FAQ.html) or join our [Community](https://pdf2zh-next.com/community/).</p>\n\n---\n\n<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>PDFMathTranslate est un outil capable de traduire des fichiers PDF tout en préservant la mise en page originale et les formules mathématiques.</p>\n\n<p>Il prend en charge la traduction entre plusieurs langues, notamment l'anglais, le chinois, le japonais, le coréen, le français, l'allemand et bien d'autres.</p>\n\n<p>Vous pouvez l'utiliser via :</p>\n\n- [Utilisation de **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n- [Utilisation de la **Ligne de commande**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)\n\n<p>Pour plus d'informations, veuillez consulter la [Documentation des services de traduction](https://pdf2zh-next.com/getting-started/USAGE_translation.html).</p>\n\n<p>Si vous rencontrez des problèmes, veuillez consulter la [FAQ](https://pdf2zh-next.com/community/FAQ.html) ou rejoindre notre [Communauté](https://pdf2zh-next.com/community/).</p>"
+msgstr "<h2 id=\"titre\">PDFMathTranslate</h2>\n\n<p>"
 
 # This content is from "README.md", line 9
 msgctxt "chunk_535549DD"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-08 17:16+0800\n"
-"PO-Revision-Date: 2025-08-08 17:16+0800\n"
+"POT-Creation-Date: 2025-08-08 17:23+0800\n"
+"PO-Revision-Date: 2025-08-08 17:23+0800\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr "<div align=\"center\">\n"
 # This content is from "README.md", line 5
 msgctxt "chunk_9CD70BC3"
 msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
-msgstr "<h2 id=\"titulo\">PDFMathTranslate</h2>"
+msgstr "<h2 id=\"titulo\">PDFMathTranslate</h2>\n\n<p>"
 
 # This content is from "README.md", line 9
 msgctxt "chunk_535549DD"

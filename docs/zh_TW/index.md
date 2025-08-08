@@ -3,6 +3,8 @@
 <img src="./docs/images/banner.png" width="320px"  alt="banner"/>
 
 <h2 id="標題">PDFMathTranslate</h2>
+
+<p>
   <!-- PyPI -->
   <a href="https://pypi.org/project/pdf2zh-next/">
     <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>

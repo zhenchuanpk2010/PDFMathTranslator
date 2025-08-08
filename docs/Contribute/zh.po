@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-08 17:16+0800\n"
-"PO-Revision-Date: 2025-08-08 17:16+0800\n"
+"POT-Creation-Date: 2025-08-08 17:23+0800\n"
+"PO-Revision-Date: 2025-08-08 17:23+0800\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr "<div align=\"center\">\n"
 # This content is from "README.md", line 5
 msgctxt "chunk_9CD70BC3"
 msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
-msgstr "PDFMathTranslate 是一个将 PDF 或包含数学公式的文档翻译成目标语言的工具。它支持多种翻译服务，包括 Google、DeepL、ChatGPT 等。该工具可以保留原始文档的格式和布局，同时将数学公式转换为 LaTeX 格式。</p>\n\n<h3 id=\"features\">Features</h3>\n\n<ul>\n<li>支持多种翻译服务</li>\n<li>保留原始文档的格式和布局</li>\n<li>将数学公式转换为 LaTeX 格式</li>\n<li>支持命令行和 WebUI</li>\n</ul>\n\n<h3 id=\"installation\">Installation</h3>\n\n<p>To install PDFMathTranslate, run the following command:</p>\n\n```bash\npip install pdf2zh\n```\n\n<h3 id=\"usage\">Usage</h3>\n\n<p>PDFMathTranslate can be used via command line or WebUI. For more details, see the [Usage](#usage) section.</p>\n\n<h3 id=\"supported-languages\">Supported Languages</h3>\n\n<p>PDFMathTranslate supports a wide range of languages. For the full list, see the [Supported Languages](#supported-languages) section.</p>\n\n<h3 id=\"community\">Community</h3>\n\n<p>Join our [Community](#community) to get help and share your feedback.</p>\n\n<h3 id=\"faq\">FAQ</h3>\n\n<p>For common questions, check out the [FAQ](#faq) section.</p>\n\n<h3 id=\"immersive-translate\">Immersive Translate</h3>\n\n<p>PDFMathTranslate also supports immersive translation mode. For more details, see the [Immersive Translate](#immersive-translate) section.</p>\n\n---\n\n### TRANSLATION RESULT\n\n<h2 id=\"标题\">PDFMathTranslate</h2>\n\n<p>PDFMathTranslate 是一个将 PDF 或包含数学公式的文档翻译成目标语言的工具。它支持多种翻译服务，包括 Google、DeepL、ChatGPT 等。该工具可以保留原始文档的格式和布局，同时将数学公式转换为 LaTeX 格式。</p>\n\n<h3 id=\"功能\">功能</h3>\n\n<ul>\n<li>支持多种翻译服务</li>\n<li>保留原始文档的格式和布局</li>\n<li>将数学公式转换为 LaTeX 格式</li>\n<li>支持命令行和 WebUI</li>\n</ul>\n\n<h3 id=\"如何安装\">如何安装</h3>\n\n<p>要安装 PDFMathTranslate，请运行以下命令：</p>\n\n```bash\npip install pdf2zh\n```\n\n<h3 id=\"如何使用\">如何使用</h3>\n\n<p>PDFMathTranslate 可以通过命令行或 WebUI 使用。更多详情，请参阅 [如何使用](#如何使用) 部分。</p>\n\n<h3 id=\"支持的语言\">支持的语言</h3>\n\n<p>PDFMathTranslate 支持多种语言。完整列表请参阅 [支持的语言](#支持的语言) 部分。</p>\n\n<h3 id=\"社区\">社区</h3>\n\n<p>加入我们的 [社区](#社区) 获取帮助并分享您的反馈。</p>\n\n<h3 id=\"常见问题\">常见问题</h3>\n\n<p>常见问题请查看 [常见问题](#常见问题) 部分。</p>\n\n<h3 id=\"沉浸式翻译\">沉浸式翻译</h3>\n\n<p>PDFMathTranslate 还支持沉浸式翻译模式。更多详情，请参阅 [沉浸式翻译](#沉浸式翻译) 部分。</p>"
+msgstr "<h2 id=\"标题\">PDFMathTranslate</h2>\n\n<p>"
 
 # This content is from "README.md", line 9
 msgctxt "chunk_535549DD"

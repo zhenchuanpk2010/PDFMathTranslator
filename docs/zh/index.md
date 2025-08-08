@@ -2,89 +2,9 @@
 
 <img src="./docs/images/banner.png" width="320px"  alt="banner"/>
 
-PDFMathTranslate 是一个将 PDF 或包含数学公式的文档翻译成目标语言的工具。它支持多种翻译服务，包括 Google、DeepL、ChatGPT 等。该工具可以保留原始文档的格式和布局，同时将数学公式转换为 LaTeX 格式。</p>
-
-<h3 id="features">Features</h3>
-
-<ul>
-<li>支持多种翻译服务</li>
-<li>保留原始文档的格式和布局</li>
-<li>将数学公式转换为 LaTeX 格式</li>
-<li>支持命令行和 WebUI</li>
-</ul>
-
-<h3 id="installation">Installation</h3>
-
-<p>To install PDFMathTranslate, run the following command:</p>
-
-```bash
-pip install pdf2zh
-```
-
-<h3 id="usage">Usage</h3>
-
-<p>PDFMathTranslate can be used via command line or WebUI. For more details, see the [Usage](#usage) section.</p>
-
-<h3 id="supported-languages">Supported Languages</h3>
-
-<p>PDFMathTranslate supports a wide range of languages. For the full list, see the [Supported Languages](#supported-languages) section.</p>
-
-<h3 id="community">Community</h3>
-
-<p>Join our [Community](#community) to get help and share your feedback.</p>
-
-<h3 id="faq">FAQ</h3>
-
-<p>For common questions, check out the [FAQ](#faq) section.</p>
-
-<h3 id="immersive-translate">Immersive Translate</h3>
-
-<p>PDFMathTranslate also supports immersive translation mode. For more details, see the [Immersive Translate](#immersive-translate) section.</p>
-
----
-
-### TRANSLATION RESULT
-
 <h2 id="标题">PDFMathTranslate</h2>
 
-<p>PDFMathTranslate 是一个将 PDF 或包含数学公式的文档翻译成目标语言的工具。它支持多种翻译服务，包括 Google、DeepL、ChatGPT 等。该工具可以保留原始文档的格式和布局，同时将数学公式转换为 LaTeX 格式。</p>
-
-<h3 id="功能">功能</h3>
-
-<ul>
-<li>支持多种翻译服务</li>
-<li>保留原始文档的格式和布局</li>
-<li>将数学公式转换为 LaTeX 格式</li>
-<li>支持命令行和 WebUI</li>
-</ul>
-
-<h3 id="如何安装">如何安装</h3>
-
-<p>要安装 PDFMathTranslate，请运行以下命令：</p>
-
-```bash
-pip install pdf2zh
-```
-
-<h3 id="如何使用">如何使用</h3>
-
-<p>PDFMathTranslate 可以通过命令行或 WebUI 使用。更多详情，请参阅 [如何使用](#如何使用) 部分。</p>
-
-<h3 id="支持的语言">支持的语言</h3>
-
-<p>PDFMathTranslate 支持多种语言。完整列表请参阅 [支持的语言](#支持的语言) 部分。</p>
-
-<h3 id="社区">社区</h3>
-
-<p>加入我们的 [社区](#社区) 获取帮助并分享您的反馈。</p>
-
-<h3 id="常见问题">常见问题</h3>
-
-<p>常见问题请查看 [常见问题](#常见问题) 部分。</p>
-
-<h3 id="沉浸式翻译">沉浸式翻译</h3>
-
-<p>PDFMathTranslate 还支持沉浸式翻译模式。更多详情，请参阅 [沉浸式翻译](#沉浸式翻译) 部分。</p>
+<p>
   <!-- PyPI -->
   <a href="https://pypi.org/project/pdf2zh-next/">
     <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>

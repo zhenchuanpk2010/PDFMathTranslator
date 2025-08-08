@@ -2,37 +2,9 @@
 
 <img src="./docs/images/banner.png" width="320px"  alt="banner"/>
 
+<h2 id="titre">PDFMathTranslate</h2>
+
 <p>
-
-<p>PDFMathTranslate is a tool that can translate PDF files while preserving the original layout and mathematical formulas.</p>
-
-<p>It supports translation between multiple languages, including English, Chinese, Japanese, Korean, French, German, and more.</p>
-
-<p>You can use it via:</p>
-
-- [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-- [Using **Command Line**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)
-
-<p>For more information, please refer to the [Documentation of Translation Services](https://pdf2zh-next.com/getting-started/USAGE_translation.html).</p>
-
-<p>If you encounter any issues, please check the [FAQ](https://pdf2zh-next.com/community/FAQ.html) or join our [Community](https://pdf2zh-next.com/community/).</p>
-
----
-
-<h2 id="title">PDFMathTranslate</h2>
-
-<p>PDFMathTranslate est un outil capable de traduire des fichiers PDF tout en préservant la mise en page originale et les formules mathématiques.</p>
-
-<p>Il prend en charge la traduction entre plusieurs langues, notamment l'anglais, le chinois, le japonais, le coréen, le français, l'allemand et bien d'autres.</p>
-
-<p>Vous pouvez l'utiliser via :</p>
-
-- [Utilisation de **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)
-- [Utilisation de la **Ligne de commande**](https://pdf2zh-next.com/getting-started/USAGE_cli.html)
-
-<p>Pour plus d'informations, veuillez consulter la [Documentation des services de traduction](https://pdf2zh-next.com/getting-started/USAGE_translation.html).</p>
-
-<p>Si vous rencontrez des problèmes, veuillez consulter la [FAQ](https://pdf2zh-next.com/community/FAQ.html) ou rejoindre notre [Communauté](https://pdf2zh-next.com/community/).</p>
   <!-- PyPI -->
   <a href="https://pypi.org/project/pdf2zh-next/">
     <img src="https://img.shields.io/pypi/v/pdf2zh-next"></a>
