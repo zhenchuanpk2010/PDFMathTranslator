@@ -412,6 +412,34 @@ jobs:
           Write-Host "==== 复制 venv/Lib/site-packages 到 build/ ===="
           Copy-Item -Path "./dep_build/venv/Lib/site-packages" -Destination "./build/site-packages" -Recurse -Force
 
+          Write-Host "==== 确保 scikit-learn 的 vcomp140.dll 存在 ===="
+          $sklearnLibs = "./build/site-packages/sklearn/.libs"
+          if (Test-Path $sklearnLibs) {
+            $candidates = @("$env:WINDIR\\System32\\vcomp140.dll", "$env:WINDIR\\SysWOW64\\vcomp140.dll")
+            $found = $false
+            foreach ($src in $candidates) {
+              if (Test-Path $src) {
+                Write-Host "Found vcomp140.dll at $src"
+                Copy-Item -Path $src -Destination $sklearnLibs -Force
+                $found = $true
+                break
+              }
+            }
+            if (-not $found) {
+              $pkgDll = Get-ChildItem -Path "./build/site-packages" -Recurse -Filter "vcomp140.dll" -ErrorAction SilentlyContinue | Select-Object -First 1
+              if ($pkgDll) {
+                Write-Host "Found vcomp140.dll in packages at $($pkgDll.FullName)"
+                Copy-Item -Path $pkgDll.FullName -Destination $sklearnLibs -Force
+                $found = $true
+              }
+            }
+            if (-not $found) {
+              Write-Host "Warning: vcomp140.dll not found; build may fail at runtime."
+            }
+          } else {
+            Write-Host "sklearn/.libs not present; skipping vcomp140.dll copy."
+          }
+
           Write-Host "==== 复制 script/_pystand_static.int 到 build/ ===="
           $staticFile = "./script/_pystand_static.int"
           $destStatic = "./build/_pystand_static.int"
