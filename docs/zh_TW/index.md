@@ -38,11 +38,15 @@ PDF 科學論文翻譯與雙語對照。
 - 🌐 支援 [多種語言](https://pdf2zh-next.com/supported_languages.html)，以及多樣的 [翻譯服務](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。
 - 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[互動式用戶界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-歡迎在 [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) 或 [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl) 提供反饋。
+> [!WARNING]
+>
+> 本專案依 AGPL v3 授權「按現狀」提供，對程式的品質與效能不作任何保證。**您需自行承擔程式品質與效能的所有風險。**若發現程式存在缺陷，您將負責所有必要的服務、修復或修正費用。
+>
+> 由於資源有限，我們不提供任何形式的使用協助或問題解決。相關問題將直接關閉！（歡迎提交 PR 改善本專案文件；錯誤回報或友善議題不受此限制。）
 
-如需瞭解如何貢獻，請參閱 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
+有關如何貢獻的詳細資訊，請參閱 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。
 
-<h2 id="更新日誌">更新日誌</h2>
+<h2 id="更新">更新</h2>
 
 - [2025 年 6 月 4 日] 項目更名並遷移至 [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))
 - [2025 年 3 月 3 日] 實驗性支持新後端 [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI 作為實驗性選項添加 (by [@awwaawwa](https://github.com/awwaawwa))

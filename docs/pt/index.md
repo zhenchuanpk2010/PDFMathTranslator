@@ -38,7 +38,11 @@ Tradução de artigos científicos em PDF e comparação bilíngue.
 - 🌐 Suporte a [múltiplos idiomas](https://pdf2zh-next.com/supported_languages.html) e diversos [serviços de tradução](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).
 - 🤖 Oferece [ferramenta de linha de comando](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interface de usuário interativa](https://pdf2zh-next.com/getting-started/USAGE_webui.html) e [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)
 
-Sinta-se à vontade para fornecer feedback em [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) ou [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl).
+> [!WARNING]
+>
+> Este projeto é fornecido "como está" sob a licença AGPL v3, e não são fornecidas garantias quanto à qualidade e desempenho do programa. **Todo o risco relacionado à qualidade e desempenho do programa é assumido por você.** Se o programa for considerado defeituoso, você será responsável por todos os custos necessários de serviço, reparo ou correção.
+>
+> Devido a recursos limitados, não fornecemos qualquer forma de assistência de uso ou resolução de problemas. Questões relacionadas serão encerradas diretamente! (Contribuições via PRs para melhorar a documentação deste projeto são bem-vindas; Bugs ou questões amigáveis não são afetados por isso.)
 
 Para obter detalhes sobre como contribuir, consulte o [Guia de Contribuição](https://pdf2zh-next.com/community/Contribution-Guide.html).
 
