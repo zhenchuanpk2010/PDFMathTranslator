@@ -190,6 +190,7 @@ jobs:
           name: win64-exe-with-assets
           path: ./build
           compression-level: 1
+          include-hidden-files: true
 
   test-win64-exe:
     name: Test Windows EXE
