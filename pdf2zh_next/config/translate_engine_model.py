@@ -46,6 +46,19 @@ class OpenAISettings(BaseModel):
     openai_api_key: str | None = Field(
         default=None, description="API key for OpenAI service"
     )
+    openai_temperature: str | None = Field(
+        default=None, description="Temperature for OpenAI service"
+    )
+    openai_reasoning_effort: str | None = Field(
+        default=None,
+        description="Reasoning effort for OpenAI service (minimal/low/medium/high)",
+    )
+    openai_send_temprature: bool | None = Field(
+        default=None, description="Send temprature to OpenAI service"
+    )
+    openai_send_reasoning_effort: bool | None = Field(
+        default=None, description="Send reasoning effort to OpenAI service"
+    )
 
     def validate_settings(self) -> None:
         if not self.openai_api_key:
@@ -53,6 +66,12 @@ class OpenAISettings(BaseModel):
         if self.openai_base_url:
             self.openai_base_url = re.sub(
                 "/chat/completions/?$", "", self.openai_base_url
+            )
+        if self.openai_send_temprature:
+            int(self.openai_temperature)
+        if self.openai_send_reasoning_effort and not self.openai_reasoning_effort:
+            raise ValueError(
+                "Reasoning effort is required when send reasoning effort is enabled"
             )
 
 
@@ -520,6 +539,19 @@ class OpenAICompatibleSettings(BaseModel):
     openai_compatible_api_key: str | None = Field(
         default=None, description="API key for OpenAI Compatible service"
     )
+    openai_compatible_temperature: str | None = Field(
+        default=None, description="Temperature for OpenAI Compatible service"
+    )
+    openai_compatible_reasoning_effort: str | None = Field(
+        default=None,
+        description="Reasoning effort for OpenAI Compatible service (minimal/low/medium/high)",
+    )
+    openai_compatible_send_temperature: bool | None = Field(
+        default=None, description="Send temperature to OpenAI Compatible service"
+    )
+    openai_compatible_send_reasoning_effort: bool | None = Field(
+        default=None, description="Send reasoning effort to OpenAI Compatible service"
+    )
 
     def validate_settings(self) -> None:
         if not self.openai_compatible_api_key:
@@ -528,12 +560,25 @@ class OpenAICompatibleSettings(BaseModel):
             raise ValueError("OpenAI Compatible base URL is required")
         if not self.openai_compatible_model:
             raise ValueError("OpenAI Compatible model is required")
+        if self.openai_compatible_send_temperature:
+            int(self.openai_compatible_temperature)
+        if (
+            self.openai_compatible_send_reasoning_effort
+            and not self.openai_compatible_reasoning_effort
+        ):
+            raise ValueError(
+                "Reasoning effort is required when send reasoning effort is enabled"
+            )
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
             openai_model=self.openai_compatible_model,
             openai_api_key=self.openai_compatible_api_key,
             openai_base_url=self.openai_compatible_base_url,
+            openai_temperature=self.openai_compatible_temperature,
+            openai_reasoning_effort=self.openai_compatible_reasoning_effort,
+            openai_send_temprature=self.openai_compatible_send_temperature,
+            openai_send_reasoning_effort=self.openai_compatible_send_reasoning_effort,
         )
 
 
