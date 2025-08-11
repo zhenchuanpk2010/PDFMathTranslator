@@ -26,6 +26,8 @@
   <!-- License -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+    <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" /></a>
 </p>
 
 <a href="https://trendshift.io/repositories/12424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12424" alt="Byaidu%2FPDFMathTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -140,7 +142,7 @@ Wenn Sie nicht wissen, welchen Code Sie für die Übersetzung in die gewünschte
 
 - [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) stellt für dieses Projekt einen kostenlosen Übersetzungsservice bereit, der von großen Sprachmodellen (LLMs) unterstützt wird.
+- [SiliconFlow](https://siliconflow.cn) stellt für dieses Projekt einen kostenlosen Übersetzungsdienst bereit, der von großen Sprachmodellen (LLMs) unterstützt wird.
 
 - 1.x Version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -163,11 +165,8 @@ Wenn Sie nicht wissen, welchen Code Sie für die Übersetzung in die gewünschte
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Dokumentation i18n mit [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+- Dokumentation i18n mit [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)
 
-  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
-  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
-  </a>
 
 <h2 id="conduct">Bevor Sie Ihren Code einreichen</h2>
 

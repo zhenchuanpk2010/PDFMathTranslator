@@ -212,6 +212,26 @@
       "start_line_no": 28
     },
     {
+      "id": "chunk_98431446",
+      "raw_content": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_E9D822B5",
+      "raw_content": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 30
+    },
+    {
       "id": "chunk_AF4387C1",
       "raw_content": "</p>\n",
       "metadata": {
@@ -219,7 +239,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 29
+      "start_line_no": 31
     },
     {
       "id": "chunk_3CF488A3",
@@ -229,7 +249,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 31
+      "start_line_no": 33
     },
     {
       "id": "chunk_90458E01",
@@ -239,7 +259,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 33
+      "start_line_no": 35
     },
     {
       "id": "chunk_3BE38B9A",
@@ -249,7 +269,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 37
+      "start_line_no": 39
     },
     {
       "id": "chunk_5CDAD0A6",
@@ -259,7 +279,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 41
+      "start_line_no": 43
     },
     {
       "id": "chunk_66808EE3",
@@ -269,7 +289,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 43
+      "start_line_no": 45
     },
     {
       "id": "chunk_E0B1FBFE",
@@ -279,7 +299,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 50
+      "start_line_no": 52
     },
     {
       "id": "chunk_5E68D02E",
@@ -289,7 +309,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 54
+      "start_line_no": 56
     },
     {
       "id": "chunk_2B22A264",
@@ -299,7 +319,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 62
+      "start_line_no": 64
     },
     {
       "id": "chunk_FF589225",
@@ -309,7 +329,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 65
+      "start_line_no": 67
     },
     {
       "id": "chunk_CF255FF9",
@@ -319,7 +339,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 66
+      "start_line_no": 68
     },
     {
       "id": "chunk_EBDB9E88",
@@ -329,7 +349,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 67
+      "start_line_no": 69
     },
     {
       "id": "chunk_3723C881",
@@ -339,7 +359,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 71
+      "start_line_no": 73
     },
     {
       "id": "chunk_1F3D6D5D",
@@ -349,7 +369,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 75
+      "start_line_no": 77
     },
     {
       "id": "chunk_B617543E",
@@ -359,7 +379,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 77
+      "start_line_no": 79
     },
     {
       "id": "chunk_ECCF6BC0",
@@ -369,7 +389,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 79
+      "start_line_no": 81
     },
     {
       "id": "chunk_FDDD972D",
@@ -379,7 +399,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 82
+      "start_line_no": 84
     },
     {
       "id": "chunk_36D1B1ED",
@@ -389,7 +409,7 @@
         "level": 3,
         "language": null
       },
-      "start_line_no": 86
+      "start_line_no": 88
     },
     {
       "id": "chunk_545A02FF",
@@ -399,17 +419,17 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 88
+      "start_line_no": 90
     },
     {
-      "id": "h_rule_a0f098af",
+      "id": "h_rule_48ea1247",
       "raw_content": "---\n",
       "metadata": {
         "chunk_type": "h_rule",
         "level": null,
         "language": null
       },
-      "start_line_no": 92
+      "start_line_no": 94
     },
     {
       "id": "chunk_047D6F23",
@@ -419,7 +439,7 @@
         "level": 3,
         "language": null
       },
-      "start_line_no": 94
+      "start_line_no": 96
     },
     {
       "id": "chunk_A49D7830",
@@ -429,7 +449,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 96
+      "start_line_no": 98
     },
     {
       "id": "chunk_F57A3EE5",
@@ -439,7 +459,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 100
+      "start_line_no": 102
     },
     {
       "id": "chunk_DF45699B",
@@ -449,7 +469,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 108
+      "start_line_no": 110
     },
     {
       "id": "chunk_AC02EE07",
@@ -459,7 +479,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 113
+      "start_line_no": 115
     },
     {
       "id": "chunk_FAB5C5B4",
@@ -469,7 +489,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 118
+      "start_line_no": 120
     },
     {
       "id": "chunk_8652D374",
@@ -479,7 +499,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 122
+      "start_line_no": 124
     },
     {
       "id": "chunk_AD3429B4",
@@ -489,17 +509,17 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 139
+      "start_line_no": 141
     },
     {
-      "id": "chunk_F32DAE46",
-      "raw_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
+      "id": "chunk_C0AB99E6",
+      "raw_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n",
       "metadata": {
         "chunk_type": "list",
         "level": null,
         "language": null
       },
-      "start_line_no": 141
+      "start_line_no": 143
     },
     {
       "id": "chunk_5DD24D41",
@@ -509,7 +529,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 172
+      "start_line_no": 171
     },
     {
       "id": "chunk_21C4CCC3",
@@ -519,7 +539,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 179
+      "start_line_no": 178
     },
     {
       "id": "chunk_B2A74E86",
@@ -529,7 +549,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 180
+      "start_line_no": 179
     },
     {
       "id": "chunk_F1A772A0",
@@ -539,7 +559,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 182
+      "start_line_no": 181
     },
     {
       "id": "chunk_61BE03EB",
@@ -549,7 +569,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 184
+      "start_line_no": 183
     },
     {
       "id": "chunk_ACF347AF",
@@ -559,7 +579,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 190
+      "start_line_no": 189
     },
     {
       "id": "chunk_64791BB7",
@@ -569,7 +589,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 191
+      "start_line_no": 190
     }
   ]
 }

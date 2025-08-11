@@ -381,10 +381,46 @@
       }
     },
     {
+      "chunk_id": "chunk_98431446",
+      "chunk_type": "paragraph",
+      "original_content": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+      "start_line_no": 29,
+      "translations": {
+        "es": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "fr": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "zh_TW": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "zh": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "ja": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "ko": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "pt": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "ru": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "de": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">",
+        "it": "  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">"
+      }
+    },
+    {
+      "chunk_id": "chunk_E9D822B5",
+      "chunk_type": "image",
+      "original_content": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+      "start_line_no": 30,
+      "translations": {
+        "zh": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "zh_TW": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "ja": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "ko": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "ru": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "es": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "fr": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "de": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "it": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>",
+        "pt": "    <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" /></a>"
+      }
+    },
+    {
       "chunk_id": "chunk_AF4387C1",
       "chunk_type": "paragraph",
       "original_content": "</p>\n",
-      "start_line_no": 29,
+      "start_line_no": 31,
       "translations": {
         "zh": "</p>\n",
         "ko": "</p>\n",
@@ -402,7 +438,7 @@
       "chunk_id": "chunk_3CF488A3",
       "chunk_type": "table",
       "original_content": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
-      "start_line_no": 31,
+      "start_line_no": 33,
       "translations": {
         "ja": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
         "it": "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
@@ -420,7 +456,7 @@
       "chunk_id": "chunk_90458E01",
       "chunk_type": "paragraph",
       "original_content": "</div>\n\nPDF scientific paper translation and bilingual comparison.\n",
-      "start_line_no": 33,
+      "start_line_no": 35,
       "translations": {
         "de": "</div>\n\nPDF wissenschaftliche Artikel Übersetzung und zweisprachiger Vergleich.\n",
         "ja": "</div>\n\nPDF 科学論文の翻訳とバイリンガル比較。\n",
@@ -438,7 +474,7 @@
       "chunk_id": "chunk_3BE38B9A",
       "chunk_type": "list",
       "original_content": "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
-      "start_line_no": 37,
+      "start_line_no": 39,
       "translations": {
         "zh": "- 📊 保留公式、图表、目录和注释 _([预览](#预览))_。\n- 🌐 支持 [多种语言](https://pdf2zh-next.com/supported_languages.html) 和多样化的 [翻译服务](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html)。\n- 🤖 提供 [命令行工具](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)、[交互式用户界面](https://pdf2zh-next.com/getting-started/USAGE_webui.html) 和 [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n",
         "ko": "- 📊 수식, 차트, 목차 및 주석 보존 _([미리보기](#미리보기))_.\n- 🌐 [다양한 언어](https://pdf2zh-next.com/supported_languages.html) 및 다양한 [번역 서비스](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html) 지원.\n- 🤖 [명령줄 도구](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [대화형 사용자 인터페이스](https://pdf2zh-next.com/getting-started/USAGE_webui.html), [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) 제공\n",
@@ -456,7 +492,7 @@
       "chunk_id": "chunk_5CDAD0A6",
       "chunk_type": "html_comment",
       "original_content": "<!-- Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl). -->\n",
-      "start_line_no": 41,
+      "start_line_no": 43,
       "translations": {
         "zh": "<!-- Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl). -->\n",
         "zh_TW": "<!-- Feel free to provide feedback in [GitHub Issues](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues) or [Telegram Group](https://t.me/+Z9_SgnxmsmA5NzBl). -->\n",
@@ -474,7 +510,7 @@
       "chunk_id": "chunk_66808EE3",
       "chunk_type": "blockquote",
       "original_content": "> [!WARNING]\n>\n> This project is provided \"as is\" under the [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE) license, and no guarantees are provided for the quality and performance of the program. **The entire risk of the program's quality and performance is borne by you.** If the program is found to be defective, you will be responsible for all necessary service, repair, or correction costs.\n>\n> Due to the maintainers' limited energy, we do not provide any form of usage assistance or problem-solving. Related issues will be closed directly! (Pull requests to improve project documentation are welcome; bugs or friendly issues that follow the issue template are not affected by this)\n\n",
-      "start_line_no": 43,
+      "start_line_no": 45,
       "translations": {
         "zh": "> [!WARNING]\n>\n> 本项目基于 [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE) 协议「按原样」提供，不提供任何程序质量和性能的保证。**您将自行承担有关程序质量和性能的全部风险。** 若程序被证明存在缺陷，您需承担所有必要的服务、修复或更正费用。\n>\n> 由于维护者精力有限，我们**不提供任何形式的使用协助或问题解答**。相关 issue 将被直接关闭！（欢迎提交改进项目文档的 pull request；遵循 issue 模板的 bug 报告或友好讨论不受此限制）\n\n",
         "zh_TW": "> [!WARNING]\n>\n> 本項目基於 [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE) 許可協議「按原樣」提供，對程序的質量及性能不作任何擔保。**您需自行承擔程序質量與性能的全部風險。** 若程序被發現存在缺陷，您將承擔所有必要的服務、修復或修正費用。\n>\n> 由於維護者精力有限，我們不提供任何形式的使用協助或問題解決。相關議題將被直接關閉！（歡迎提交改進項目文檔的拉取請求；遵循議題模板的錯誤報告或友善議題不受此限制）\n\n",
@@ -492,7 +528,7 @@
       "chunk_id": "chunk_E0B1FBFE",
       "chunk_type": "paragraph",
       "original_content": "For details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Updates</h2>\n",
-      "start_line_no": 50,
+      "start_line_no": 52,
       "translations": {
         "ko": "자세한 기여 방법은 [기여 가이드](https://pdf2zh-next.com/community/Contribution-Guide.html) 를 참조하세요.\n\n<h2 id=\"업데이트\">업데이트</h2>\n",
         "ja": "貢献方法の詳細については、[貢献ガイド](https://pdf2zh-next.com/community/Contribution-Guide.html) をご覧ください。\n\n<h2 id=\"updates\">更新情報</h2>\n",
@@ -510,7 +546,7 @@
       "chunk_id": "chunk_5E68D02E",
       "chunk_type": "list",
       "original_content": "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n",
-      "start_line_no": 54,
+      "start_line_no": 56,
       "translations": {
         "ru": "- [4 июня 2025] Проект переименован и перемещён в [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (от [@awwaawwa](https://github.com/awwaawwa))\n- [3 марта 2025] Добавлена экспериментальная поддержка нового бэкенда [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI в качестве экспериментальной опции (от [@awwaawwa](https://github.com/awwaawwa))\n- [22 февраля 2025] Улучшенный CI для релизов и хорошо упакованный exe-файл для windows-amd64 (от [@awwaawwa](https://github.com/awwaawwa))\n- [24 декабря 2024] Переводчик теперь поддерживает локальные модели на [Xinference](https://github.com/xorbitsai/inference) _(от [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 декабря 2024] Теперь поддерживаются документы, не соответствующие стандарту PDF/A, с использованием `-cp` _(от [@reycn](https://github.com/reycn))_\n- [13 декабря 2024] Дополнительная поддержка бэкенда от _(от [@YadominJinta](https://github.com/YadominJinta))_\n- [10 декабря 2024] Переводчик теперь поддерживает модели OpenAI на Azure _(от [@yidasanqian](https://github.com/yidasanqian))_\n",
         "pt": "- [4 de junho de 2025] O projeto foi renomeado e movido para [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (por [@awwaawwa](https://github.com/awwaawwa))\n- [3 de março de 2025] Suporte experimental para o novo backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI adicionado como uma opção experimental (por [@awwaawwa](https://github.com/awwaawwa))\n- [22 de fevereiro de 2025] Melhor CI de lançamento e exe bem empacotado para windows-amd64 (por [@awwaawwa](https://github.com/awwaawwa))\n- [24 de dezembro de 2024] O tradutor agora suporta modelos locais no [Xinference](https://github.com/xorbitsai/inference) _(por [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 de dezembro de 2024] Documentos não-PDF/A agora são suportados usando `-cp` _(por [@reycn](https://github.com/reycn))_\n- [13 de dezembro de 2024] Suporte adicional para backend por _(por [@YadominJinta](https://github.com/YadominJinta))_\n- [10 de dezembro de 2024] O tradutor agora suporta modelos OpenAI no Azure _(por [@yidasanqian](https://github.com/yidasanqian))_\n",
@@ -528,7 +564,7 @@
       "chunk_id": "chunk_2B22A264",
       "chunk_type": "paragraph",
       "original_content": "<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">",
-      "start_line_no": 62,
+      "start_line_no": 64,
       "translations": {
         "zh": "<h2 id=\"预览\">预览</h2>\n\n<div align=\"center\">",
         "ja": "<h2 id=\"プレビュー\">プレビュー</h2>\n\n<div align=\"center\">",
@@ -546,7 +582,7 @@
       "chunk_id": "chunk_FF589225",
       "chunk_type": "html_comment",
       "original_content": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-      "start_line_no": 65,
+      "start_line_no": 67,
       "translations": {
         "zh": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
         "zh_TW": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
@@ -564,7 +600,7 @@
       "chunk_id": "chunk_CF255FF9",
       "chunk_type": "image",
       "original_content": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
-      "start_line_no": 66,
+      "start_line_no": 68,
       "translations": {
         "zh": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
         "zh_TW": "<img src=\"https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png\" width=\"80%\"/>",
@@ -582,7 +618,7 @@
       "chunk_id": "chunk_EBDB9E88",
       "chunk_type": "paragraph",
       "original_content": "</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n",
-      "start_line_no": 67,
+      "start_line_no": 69,
       "translations": {
         "ja": "</div>\n\n<h2 id=\"demo\">オンラインサービス 🌟</h2>\n",
         "zh_TW": "</div>\n\n<h2 id=\"demo\">線上服務 🌟</h2>\n",
@@ -600,7 +636,7 @@
       "chunk_id": "chunk_3723C881",
       "chunk_type": "blockquote",
       "original_content": "> [!NOTE]\n>\n> pdf2zh 2.0 does not currently provide an online demo\n",
-      "start_line_no": 71,
+      "start_line_no": 73,
       "translations": {
         "zh": "> [!NOTE]\n>\n> pdf2zh 2.0 目前不提供在线演示\n",
         "ja": "> [!NOTE]\n>\n> pdf2zh 2.0 は現在オンラインデモを提供していません\n",
@@ -618,7 +654,7 @@
       "chunk_id": "chunk_1F3D6D5D",
       "chunk_type": "paragraph",
       "original_content": "You can try our application out using either of the following demos:\n",
-      "start_line_no": 75,
+      "start_line_no": 77,
       "translations": {
         "zh": "您可以通过以下任意演示来试用我们的应用程序：\n",
         "it": "Puoi provare la nostra applicazione utilizzando una delle seguenti demo:\n",
@@ -636,7 +672,7 @@
       "chunk_id": "chunk_B617543E",
       "chunk_type": "list",
       "original_content": "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_",
-      "start_line_no": 77,
+      "start_line_no": 79,
       "translations": {
         "fr": "- [v1.x Service public gratuit](https://pdf2zh.com/) en ligne sans installation _(recommandé)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 pages gratuites par mois. _(recommandé)_",
         "zh_TW": "- [v1.x 公開免費服務](https://pdf2zh.com/) 無需安裝即可在線使用 _(推薦)_。\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 每月 1000 頁免費額度 _(推薦)_",
@@ -654,7 +690,7 @@
       "chunk_id": "chunk_ECCF6BC0",
       "chunk_type": "html_comment",
       "original_content": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
-      "start_line_no": 79,
+      "start_line_no": 81,
       "translations": {
         "zh": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
         "zh_TW": "<!-- - [Demo hosted on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker)\n- [Demo hosted on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation. -->\n",
@@ -672,7 +708,7 @@
       "chunk_id": "chunk_FDDD972D",
       "chunk_type": "paragraph",
       "original_content": "Note that the computing resources of the demo are limited, so please avoid abusing them.\n\n<h2 id=\"install\">Installation and Usage</h2>\n",
-      "start_line_no": 82,
+      "start_line_no": 84,
       "translations": {
         "zh": "请注意，演示环境的计算资源有限，请避免滥用。\n\n<h2 id=\"install\">安装与使用</h2>\n",
         "zh_TW": "請注意，示範用的計算資源有限，請避免濫用。\n\n<h2 id=\"安裝\">如何安裝與使用</h2>\n",
@@ -690,7 +726,7 @@
       "chunk_id": "chunk_36D1B1ED",
       "chunk_type": "header",
       "original_content": "### Installation\n",
-      "start_line_no": 86,
+      "start_line_no": 88,
       "translations": {
         "ko": "### 설치\n",
         "fr": "### Installation\n",
@@ -708,7 +744,7 @@
       "chunk_id": "chunk_545A02FF",
       "chunk_type": "list",
       "original_content": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>\n",
-      "start_line_no": 88,
+      "start_line_no": 90,
       "translations": {
         "zh": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows 用户推荐</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux 用户推荐</small>\n3. [**uv** (一个 Python 包管理器)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS 用户推荐</small>\n",
         "ja": "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Windows におすすめ</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Linux におすすめ</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>macOS におすすめ</small>\n",
@@ -723,10 +759,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_a0f098af",
+      "chunk_id": "h_rule_48ea1247",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 92,
+      "start_line_no": 94,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -744,7 +780,7 @@
       "chunk_id": "chunk_047D6F23",
       "chunk_type": "header",
       "original_content": "### Usage\n",
-      "start_line_no": 94,
+      "start_line_no": 96,
       "translations": {
         "it": "### Utilizzo\n",
         "ru": "### Использование\n",
@@ -762,7 +798,7 @@
       "chunk_id": "chunk_A49D7830",
       "chunk_type": "list",
       "original_content": "1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
-      "start_line_no": 96,
+      "start_line_no": 98,
       "translations": {
         "zh": "1. [使用 **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [使用 **Zotero 插件**](https://github.com/guaguastandup/zotero-pdf2zh) (第三方程序)\n3. [使用 **命令行**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
         "ko": "1. [**WebUI** 사용](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [**Zotero 플러그인** 사용](https://github.com/guaguastandup/zotero-pdf2zh) (서드파티 프로그램)\n3. [**명령줄** 사용](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n",
@@ -780,7 +816,7 @@
       "chunk_id": "chunk_F57A3EE5",
       "chunk_type": "paragraph",
       "original_content": "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n",
-      "start_line_no": 100,
+      "start_line_no": 102,
       "translations": {
         "zh": "针对不同的使用场景，我们提供了多种方法来使用我们的程序。更多信息请查看 [此页面](./getting-started/getting-started.md)。\n\n<h2 id=\"usage\">高级选项</h2>\n\n详细说明请参阅我们的 [高级用法](https://pdf2zh-next.com/advanced/advanced.html) 文档，其中列出了所有选项的完整列表。\n\n<h2 id=\"downstream\">二次开发 (APIs)</h2>\n",
         "ru": "Для различных случаев использования мы предоставляем различные методы работы с нашей программой. Подробнее см. на [этой странице](./getting-started/getting-started.md).\n\n<h2 id=\"usage\">Расширенные параметры</h2>\n\nПодробные объяснения см. в нашем документе о [Расширенном использовании](https://pdf2zh-next.com/advanced/advanced.html) для полного списка каждого параметра.\n\n<h2 id=\"downstream\">Вторичная разработка (API)</h2>\n",
@@ -798,7 +834,7 @@
       "chunk_id": "chunk_DF45699B",
       "chunk_type": "blockquote",
       "original_content": "> [!NOTE]\n>\n> Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.\n\n",
-      "start_line_no": 108,
+      "start_line_no": 110,
       "translations": {
         "zh": "> [!NOTE]\n>\n> 目前未提供相关文档。后续会补充，请耐心等待。\n\n",
         "de": "> [!NOTE]\n>\n> Derzeit wird keine relevante Dokumentation bereitgestellt. Sie wird später ergänzt. Bitte haben Sie etwas Geduld.\n\n",
@@ -816,7 +852,7 @@
       "chunk_id": "chunk_AC02EE07",
       "chunk_type": "html_comment",
       "original_content": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
-      "start_line_no": 113,
+      "start_line_no": 115,
       "translations": {
         "zh": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
         "zh_TW": "<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:\n\n- [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs\n- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->\n",
@@ -834,7 +870,7 @@
       "chunk_id": "chunk_FAB5C5B4",
       "chunk_type": "paragraph",
       "original_content": "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
-      "start_line_no": 118,
+      "start_line_no": 120,
       "translations": {
         "ja": "<h2 id=\"langcode\">言語コード</h2>\n\n必要な言語に翻訳するためのコードがわからない場合は、[このドキュメント](https://pdf2zh-next.com/advanced/Language-Codes.html) を確認してください\n",
         "zh": "<h2 id=\"语言代码\">Language Code</h2>\n\n如果你不知道应该使用什么代码来翻译到你需要的语言，请查看 [此文档](https://pdf2zh-next.com/advanced/Language-Codes.html)\n",
@@ -852,7 +888,7 @@
       "chunk_id": "chunk_8652D374",
       "chunk_type": "html_comment",
       "original_content": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
-      "start_line_no": 122,
+      "start_line_no": 124,
       "translations": {
         "zh": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
         "zh_TW": "<!-- \n<h2 id=\"todo\">TODOs</h2>\n\n- [ ] Parse layout with DocLayNet based models, [PaddleX](https://github.com/PaddlePaddle/PaddleX/blob/17cc27ac3842e7880ca4aad92358d3ef8555429a/paddlex/repo_apis/PaddleDetection_api/object_det/official_categories.py#L81), [PaperMage](https://github.com/allenai/papermage/blob/9cd4bb48cbedab45d0f7a455711438f1632abebe/README.md?plain=1#L102), [SAM2](https://github.com/facebookresearch/sam2)\n\n- [ ] Fix page rotation, table of contents, format of lists\n\n- [ ] Fix pixel formula in old papers\n\n- [ ] Async retry except KeyboardInterrupt\n\n- [ ] Knuth–Plass algorithm for western languages\n\n- [ ] Support non-PDF/A files\n\n- [ ] Plugins of [Zotero](https://github.com/zotero/zotero) and [Obsidian](https://github.com/obsidianmd/obsidian-releases) -->\n",
@@ -870,7 +906,7 @@
       "chunk_id": "chunk_AD3429B4",
       "chunk_type": "paragraph",
       "original_content": "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n",
-      "start_line_no": 139,
+      "start_line_no": 141,
       "translations": {
         "es": "<h2 id=\"reconocimientos\">Reconocimientos</h2>\n",
         "de": "<h2 id=\"danksagung\">Danksagungen</h2>\n",
@@ -885,28 +921,28 @@
       }
     },
     {
-      "chunk_id": "chunk_F32DAE46",
+      "chunk_id": "chunk_C0AB99E6",
       "chunk_type": "list",
-      "original_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-      "start_line_no": 141,
+      "original_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n",
+      "start_line_no": 143,
       "translations": {
-        "zh_TW": "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大型語言模型（LLMs）的免費翻譯服務。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字體：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 進行文檔國際化\n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-        "zh": "- [Immersive Translation](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码赞助，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 为本项目提供基于大语言模型（LLMs）的免费翻译服务。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 后端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 库：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多语言字体：参见 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [支持多进程的 Rich 日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 文档国际化使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-        "ru": "- [Immersive Translation](https://immersivetranslate.com) предоставляет ежемесячные коды активации Pro-подписки для активных участников этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта, работающий на основе больших языковых моделей (LLM).\n\n- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Библиотека PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Логирование с поддержкой многопроцессорности](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-        "pt": "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais de assinatura Pro para contribuidores ativos deste projeto, consulte os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).\n\n- Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análise de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fonte Multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentação i18n usando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"status da tradução\" />\n  </a>\n",
-        "de": "- [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) stellt für dieses Projekt einen kostenlosen Übersetzungsservice bereit, der von großen Sprachmodellen (LLMs) unterstützt wird.\n\n- 1.x Version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- Backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF-Bibliothek: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF-Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF-Vorschau: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout-Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF-Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Mehrsprachige Schriftarten: siehe [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Dokumentation i18n mit [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-        "ja": "- [Immersive Translate](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額 Pro メンバーシップの引き換えコードを提供しています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) は、大規模言語モデル（LLM）を活用した無料翻訳サービスをこのプロジェクトに提供しています。\n\n- 1.x バージョン：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- バックエンド：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF ライブラリ：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF プレビュー：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- レイアウト解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多言語フォント：[BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) を参照\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- ドキュメントの国際化には [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) を使用しています\n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-        "it": "- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro per i contributori attivi a questo progetto, vedi dettagli su: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da modelli linguistici di grandi dimensioni (LLM).\n\n- Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Libreria PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analisi PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Anteprima PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Analisi layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Standard PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Font multilingue: vedi [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registrazione avanzata con multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentazione i18n utilizzando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"stato della traduzione\" />\n  </a>\n",
-        "fr": "- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet, voir les détails ici : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet, alimenté par des modèles de langage avancés (LLMs).\n\n- Version 1.x : [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend : [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Bibliothèque PDF : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analyse PDF : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Aperçu PDF : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Analyse de mise en page : [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Normes PDF : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Police multilingue : voir [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Journalisation enrichie avec multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n utilisant [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"statut de traduction\" />\n  </a>\n",
-        "ko": "- [Immersive Translation](https://immersivetranslate.com) 은 이 프로젝트에 활발히 기여하는 기여자들을 위해 매월 Pro 멤버십 리딤 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md) 에서 확인하세요.\n\n- [SiliconFlow](https://siliconflow.cn) 은 이 프로젝트를 위해 대규모 언어 모델 (LLM) 로 구동되는 무료 번역 서비스를 제공합니다.\n\n- 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 백엔드: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 라이브러리: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 파싱: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 미리보기: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 레이아웃 파싱: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 표준: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 다국어 폰트: [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) 참조\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 문서 i18n 은 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 를 사용합니다.\n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
-        "es": "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales para membresía Pro para los contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) proporciona un servicio de traducción gratuito para este proyecto, impulsado por modelos de lenguaje grandes (LLMs).\n\n- Versión 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análisis de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Vista previa de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análisis de diseño: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Estándares PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fuente multilingüe: consulta [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro enriquecido con multiprocesamiento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentación i18n utilizando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"estado de traducción\" />\n  </a>\n"
+        "fr": "- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet. Pour plus de détails, consultez : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet, alimenté par des modèles de langage de grande taille (LLMs).\n\n- Version 1.x : [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend : [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Bibliothèque PDF : [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analyse PDF : [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Aperçu PDF : [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Analyse de mise en page : [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Normes PDF : [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Police multilingue : voir [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Journalisation enrichie avec multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n utilisant [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "ru": "- [Immersive Translation](https://immersivetranslate.com) предоставляет ежемесячные коды активации Pro-подписки для активных участников этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта, работающий на основе больших языковых моделей (LLM).\n\n- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- Бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Библиотека для PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Анализ макета: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Логирование с Rich и multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "zh_TW": "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供免費的翻譯服務，由大型語言模型（LLMs）驅動。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 函式庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字型：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 進行文檔國際化\n\n",
+        "es": "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales para membresía Pro para contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) proporciona un servicio de traducción gratuito para este proyecto, impulsado por modelos de lenguaje grandes (LLMs).\n\n- Versión 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análisis de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Vista previa de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análisis de diseño: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Estándares PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fuente multilingüe: consulta [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro enriquecido con multiprocesamiento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentación i18n utilizando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "zh": "- [沉浸式翻译](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码赞助，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 为本项目提供基于大语言模型（LLMs）的免费翻译服务。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 后端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 库：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面分析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多语言字体：参见 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [多进程富日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 文档国际化使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "de": "- [Immersive Translation](https://immersivetranslate.com) sponsert monatliche Pro-Mitgliedschafts-Einlösecodes für aktive Mitwirkende an diesem Projekt. Einzelheiten finden Sie unter: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) stellt für dieses Projekt einen kostenlosen Übersetzungsdienst bereit, der von großen Sprachmodellen (LLMs) unterstützt wird.\n\n- 1.x Version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- Backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF-Bibliothek: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF-Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF-Vorschau: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout-Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF-Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Mehrsprachige Schriftarten: siehe [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Dokumentation i18n mit [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "pt": "- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinatura Pro para contribuidores ativos deste projeto, veja os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).\n\n- Versão 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Biblioteca PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Análise de PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentação i18n usando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "it": "- [Immersive Translation](https://immersivetranslate.com) sponsorizza codici di riscatto mensili per l'abbonamento Pro destinati ai contributori attivi di questo progetto. Per i dettagli, consultare: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto, alimentato da modelli linguistici di grandi dimensioni (LLM).\n\n- Versione 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Libreria PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Analisi PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Anteprima PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Analisi del layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Standard PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Carattere multilingue: consultare [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Registrazione avanzata con multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentazione i18n utilizzando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n",
+        "ja": "- [Immersive Translate](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額 Pro メンバーシップの引き換えコードを提供しています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) は、大規模言語モデル（LLM）を活用した無料翻訳サービスをこのプロジェクトに提供しています。\n\n- 1.x バージョン：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- バックエンド：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF ライブラリ：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF プレビュー：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- レイアウト解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多言語フォント：[BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) を参照\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- ドキュメントの国際化（i18n）には [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) を使用しています\n\n",
+        "ko": "- [Immersive Translation](https://immersivetranslate.com) 은 이 프로젝트에 활발히 기여하는 기여자들을 위해 매월 Pro 멤버십 교환 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md) 에서 확인하세요.\n\n- [SiliconFlow](https://siliconflow.cn) 는 이 프로젝트를 위해 대규모 언어 모델 (LLM) 로 구동되는 무료 번역 서비스를 제공합니다.\n\n- 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 백엔드: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 라이브러리: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 파싱: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 미리보기: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 레이아웃 파싱: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 표준: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 다국어 폰트: [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) 참조\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 문서 국제화 (i18n) 는 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 를 사용합니다.\n\n"
       }
     },
     {
       "chunk_id": "chunk_5DD24D41",
       "chunk_type": "paragraph",
       "original_content": "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
-      "start_line_no": 172,
+      "start_line_no": 171,
       "translations": {
         "zh_TW": "<h2 id=\"conduct\">提交代碼前</h2>\n\n我們歡迎貢獻者的積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的 [行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"contrib\">貢獻者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
         "fr": "<h2 id=\"conduct\">Avant de soumettre votre code</h2>\n\nNous accueillons la participation active des contributeurs pour améliorer pdf2zh. Avant de soumettre votre code, veuillez consulter notre [Code de Conduite](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) et [Guide de Contribution](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributeurs</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">",
@@ -924,7 +960,7 @@
       "chunk_id": "chunk_21C4CCC3",
       "chunk_type": "image",
       "original_content": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
-      "start_line_no": 179,
+      "start_line_no": 178,
       "translations": {
         "zh": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
         "zh_TW": "  <img src=\"https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false\" />",
@@ -942,7 +978,7 @@
       "chunk_id": "chunk_B2A74E86",
       "chunk_type": "paragraph",
       "original_content": "</a>\n",
-      "start_line_no": 180,
+      "start_line_no": 179,
       "translations": {
         "ja": "</a>\n",
         "zh": "</a>\n",
@@ -960,7 +996,7 @@
       "chunk_id": "chunk_F1A772A0",
       "chunk_type": "image",
       "original_content": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
-      "start_line_no": 182,
+      "start_line_no": 181,
       "translations": {
         "zh": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
         "zh_TW": "![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg \"Repobeats analytics image\")\n",
@@ -978,7 +1014,7 @@
       "chunk_id": "chunk_61BE03EB",
       "chunk_type": "paragraph",
       "original_content": "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
-      "start_line_no": 184,
+      "start_line_no": 183,
       "translations": {
         "ja": "<h2 id=\"star_hist\">スター履歴</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
         "de": "<h2 id=\"sternverlauf\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />",
@@ -996,7 +1032,7 @@
       "chunk_id": "chunk_ACF347AF",
       "chunk_type": "image",
       "original_content": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
-      "start_line_no": 190,
+      "start_line_no": 189,
       "translations": {
         "zh": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
         "zh_TW": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\"/>",
@@ -1014,7 +1050,7 @@
       "chunk_id": "chunk_64791BB7",
       "chunk_type": "paragraph",
       "original_content": " </picture>\n</a>\n",
-      "start_line_no": 191,
+      "start_line_no": 190,
       "translations": {
         "zh": " </picture>\n</a>\n",
         "es": " </picture>\n</a>\n",
