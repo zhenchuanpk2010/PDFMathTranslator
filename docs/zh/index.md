@@ -26,6 +26,8 @@
   <!-- License -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+    <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" /></a>
 </p>
 
 <a href="https://trendshift.io/repositories/12424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12424" alt="Byaidu%2FPDFMathTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -138,7 +140,7 @@ PDF 科研论文翻译与双语对照。
 
 <h2 id="致谢">致谢</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码赞助，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [沉浸式翻译](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码赞助，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) 为本项目提供基于大语言模型（LLMs）的免费翻译服务。
 
@@ -153,7 +155,7 @@ PDF 科研论文翻译与双语对照。
 
 - PDF 预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- 版面分析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - PDF 标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
@@ -161,13 +163,10 @@ PDF 科研论文翻译与双语对照。
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [支持多进程的 Rich 日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [多进程富日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- 文档国际化使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+- 文档国际化使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)
 
-  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
-  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
-  </a>
 
 <h2 id="conduct">提交代码前</h2>
 

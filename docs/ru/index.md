@@ -26,6 +26,8 @@
   <!-- License -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+    <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" /></a>
 </p>
 
 <a href="https://trendshift.io/repositories/12424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12424" alt="Byaidu%2FPDFMathTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -145,15 +147,15 @@
 - Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 
-- бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
+- Бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)
 
-- Библиотека PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
+- Библиотека для PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 
 - Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 
 - Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Анализ макета: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
@@ -161,13 +163,10 @@
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [Логирование с поддержкой многопроцессорности](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [Логирование с Rich и multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)
 
-  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
-  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
-  </a>
 
 <h2 id="conduct">Перед отправкой вашего кода</h2>
 

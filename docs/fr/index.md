@@ -26,6 +26,8 @@
   <!-- License -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+    <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" /></a>
 </p>
 
 <a href="https://trendshift.io/repositories/12424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12424" alt="Byaidu%2FPDFMathTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -138,9 +140,9 @@ Si vous ne savez pas quel code utiliser pour traduire dans la langue dont vous a
 
 <h2 id="remerciements">Remerciements</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet, voir les détails ici : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) sponsorise des codes de rédemption mensuels pour l'abonnement Pro destinés aux contributeurs actifs de ce projet. Pour plus de détails, consultez : [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet, alimenté par des modèles de langage avancés (LLMs).
+- [SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet, alimenté par des modèles de langage de grande taille (LLMs).
 
 - Version 1.x : [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -163,11 +165,8 @@ Si vous ne savez pas quel code utiliser pour traduire dans la langue dont vous a
 
 - [Journalisation enrichie avec multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Documentation i18n utilisant [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+- Documentation i18n utilisant [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)
 
-  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
-  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="statut de traduction" />
-  </a>
 
 <h2 id="conduct">Avant de soumettre votre code</h2>
 

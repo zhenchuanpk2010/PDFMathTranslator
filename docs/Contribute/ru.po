@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-11 11:39+0800\n"
-"PO-Revision-Date: 2025-08-11 11:39+0800\n"
+"POT-Creation-Date: 2025-08-11 21:45+0800\n"
+"PO-Revision-Date: 2025-08-11 21:45+0800\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,112 +18,112 @@ msgctxt "chunk_C3623279"
 msgid "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>"
 msgstr "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Рекомендуется｜HelloGitHub\" /></a>"
 
-# This content is from "README.md", line 33
+# This content is from "README.md", line 35
 msgctxt "chunk_90458E01"
 msgid "</div>\n\nPDF scientific paper translation and bilingual comparison.\n"
 msgstr "</div>\n\nПеревод научных статей в формате PDF и их двуязычное сравнение.\n"
 
-# This content is from "README.md", line 37
+# This content is from "README.md", line 39
 msgctxt "chunk_3BE38B9A"
 msgid "- 📊 Preserve formulas, charts, table of contents, and annotations _([preview](#preview))_.\n- 🌐 Support [multiple languages](https://pdf2zh-next.com/supported_languages.html), and diverse [translation services](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Provides [commandline tool](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [interactive user interface](https://pdf2zh-next.com/getting-started/USAGE_webui.html), and [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
 msgstr "- 📊 Сохраняйте формулы, диаграммы, оглавление и аннотации _([предпросмотр](#предпросмотр))_.\n- 🌐 Поддерживает [множество языков](https://pdf2zh-next.com/supported_languages.html) и различные [службы перевода](https://pdf2zh-next.com/advanced/Documentation-of-Translation-Services.html).\n- 🤖 Предоставляет [инструмент командной строки](https://pdf2zh-next.com/getting-started/USAGE_commandline.html), [интерактивный пользовательский интерфейс](https://pdf2zh-next.com/getting-started/USAGE_webui.html) и [Docker](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html)\n"
 
-# This content is from "README.md", line 43
+# This content is from "README.md", line 45
 msgctxt "chunk_66808EE3"
 msgid "> [!WARNING]\n>\n> This project is provided \"as is\" under the [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE) license, and no guarantees are provided for the quality and performance of the program. **The entire risk of the program's quality and performance is borne by you.** If the program is found to be defective, you will be responsible for all necessary service, repair, or correction costs.\n>\n> Due to the maintainers' limited energy, we do not provide any form of usage assistance or problem-solving. Related issues will be closed directly! (Pull requests to improve project documentation are welcome; bugs or friendly issues that follow the issue template are not affected by this)\n\n"
 msgstr "> [!WARNING]\n>\n> Этот проект предоставляется «как есть» по лицензии [AGPL v3](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/LICENSE), и никаких гарантий относительно качества и производительности программы не предоставляется. **Весь риск, связанный с качеством и производительностью программы, лежит на вас.** Если программа окажется дефектной, вы будете нести все необходимые расходы на обслуживание, ремонт или исправление.\n>\n> Из-за ограниченных ресурсов сопровождающих мы не предоставляем никакой помощи в использовании или решении проблем. Связанные вопросы будут закрыты напрямую! (Приветствуются пул-реквесты для улучшения документации проекта; ошибки или дружественные вопросы, соответствующие шаблону, не затрагиваются этим)\n\n"
 
-# This content is from "README.md", line 50
+# This content is from "README.md", line 52
 msgctxt "chunk_E0B1FBFE"
 msgid "For details on how to contribute, please consult the [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"updates\">Updates</h2>\n"
 msgstr "Для получения подробной информации о том, как внести свой вклад, обратитесь к [Руководству по участию](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"обновления\">Обновления</h2>\n"
 
-# This content is from "README.md", line 54
+# This content is from "README.md", line 56
 msgctxt "chunk_5E68D02E"
 msgid "- [Jun. 4, 2025] The project is renamed and move to [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (by [@awwaawwa](https://github.com/awwaawwa))\n- [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))\n- [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))\n- [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [Dec. 19 2024] Non-PDF/A documents are now supported using `-cp` _(by [@reycn](https://github.com/reycn))_\n- [Dec. 13 2024] Additional support for backend by _(by [@YadominJinta](https://github.com/YadominJinta))_\n- [Dec. 10 2024] The translator now supports OpenAI models on Azure _(by [@yidasanqian](https://github.com/yidasanqian))_\n"
 msgstr "- [4 июня 2025] Проект переименован и перемещён в [PDFMathTranslate/PDFMathTranslate-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next) (от [@awwaawwa](https://github.com/awwaawwa))\n- [3 марта 2025] Добавлена экспериментальная поддержка нового бэкенда [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI в качестве экспериментальной опции (от [@awwaawwa](https://github.com/awwaawwa))\n- [22 февраля 2025] Улучшенный CI для релизов и хорошо упакованный exe-файл для windows-amd64 (от [@awwaawwa](https://github.com/awwaawwa))\n- [24 декабря 2024] Переводчик теперь поддерживает локальные модели на [Xinference](https://github.com/xorbitsai/inference) _(от [@imClumsyPanda](https://github.com/imClumsyPanda))_\n- [19 декабря 2024] Теперь поддерживаются документы, не соответствующие стандарту PDF/A, с использованием `-cp` _(от [@reycn](https://github.com/reycn))_\n- [13 декабря 2024] Дополнительная поддержка бэкенда от _(от [@YadominJinta](https://github.com/YadominJinta))_\n- [10 декабря 2024] Переводчик теперь поддерживает модели OpenAI на Azure _(от [@yidasanqian](https://github.com/yidasanqian))_\n"
 
-# This content is from "README.md", line 62
+# This content is from "README.md", line 64
 msgctxt "chunk_2B22A264"
 msgid "<h2 id=\"preview\">Preview</h2>\n\n<div align=\"center\">"
 msgstr "<h2 id=\"preview\">Предварительный просмотр</h2>\n\n<div align=\"center\">"
 
-# This content is from "README.md", line 67
+# This content is from "README.md", line 69
 msgctxt "chunk_EBDB9E88"
 msgid "</div>\n\n<h2 id=\"demo\">Online Service 🌟</h2>\n"
 msgstr "</div>\n\n<h2 id=\"demo\">Онлайн-сервис 🌟</h2>\n"
 
-# This content is from "README.md", line 71
+# This content is from "README.md", line 73
 msgctxt "chunk_3723C881"
 msgid "> [!NOTE]\n>\n> pdf2zh 2.0 does not currently provide an online demo\n"
 msgstr "> [!NOTE]\n>\n> pdf2zh 2.0 в настоящее время не предоставляет онлайн-демонстрацию\n"
 
-# This content is from "README.md", line 75
+# This content is from "README.md", line 77
 msgctxt "chunk_1F3D6D5D"
 msgid "You can try our application out using either of the following demos:\n"
 msgstr "Вы можете попробовать наше приложение, используя любую из следующих демонстрационных версий:\n"
 
-# This content is from "README.md", line 77
+# This content is from "README.md", line 79
 msgctxt "chunk_B617543E"
 msgid "- [v1.x Public free service](https://pdf2zh.com/) online without installation _(recommended)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 free pages per month. _(recommended)_"
 msgstr "- [v1.x Бесплатный публичный сервис](https://pdf2zh.com/) доступен онлайн без установки _(рекомендуется)_.\n- [Immersive Translate - BabelDOC](https://app.immersivetranslate.com/babel-doc/) 1000 бесплатных страниц в месяц. _(рекомендуется)_"
 
-# This content is from "README.md", line 82
+# This content is from "README.md", line 84
 msgctxt "chunk_FDDD972D"
 msgid "Note that the computing resources of the demo are limited, so please avoid abusing them.\n\n<h2 id=\"install\">Installation and Usage</h2>\n"
 msgstr "Обратите внимание, что вычислительные ресурсы демо-версии ограничены, поэтому, пожалуйста, избегайте их злоупотребления.\n\n<h2 id=\"установка\">Установка и использование</h2>\n"
 
-# This content is from "README.md", line 86
+# This content is from "README.md", line 88
 msgctxt "chunk_36D1B1ED"
 msgid "### Installation\n"
 msgstr "### Установка\n"
 
-# This content is from "README.md", line 88
+# This content is from "README.md", line 90
 msgctxt "chunk_545A02FF"
 msgid "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Recommand for Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>\n3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>\n"
 msgstr "1. [**Windows EXE**](https://pdf2zh-next.com/getting-started/INSTALLATION_winexe.html) <small>Рекомендуется для Windows</small>\n2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Рекомендуется для Linux</small>\n3. [**uv** (менеджер пакетов Python)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Рекомендуется для macOS</small>\n"
 
-# This content is from "README.md", line 94
+# This content is from "README.md", line 96
 msgctxt "chunk_047D6F23"
 msgid "### Usage\n"
 msgstr "### Использование\n"
 
-# This content is from "README.md", line 96
+# This content is from "README.md", line 98
 msgctxt "chunk_A49D7830"
 msgid "1. [Using **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)\n2. [Using **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Third party program)\n3. [Using **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
 msgstr "1. [Использование **WebUI**](https://pdf2zh-next.com/getting-started/USAGE_webui.html)  \n2. [Использование **Zotero Plugin**](https://github.com/guaguastandup/zotero-pdf2zh) (Сторонняя программа)  \n3. [Использование **Commandline**](https://pdf2zh-next.com/getting-started/USAGE_commandline.html)\n"
 
-# This content is from "README.md", line 100
+# This content is from "README.md", line 102
 msgctxt "chunk_F57A3EE5"
 msgid "For different use cases, we provide distinct methods to use our program. Check out [this page](./getting-started/getting-started.md) for more information.\n\n<h2 id=\"usage\">Advanced Options</h2>\n\nFor detailed explanations, please refer to our document about [Advanced Usage](https://pdf2zh-next.com/advanced/advanced.html) for a full list of each option.\n\n<h2 id=\"downstream\">Secondary Development (APIs)</h2>\n"
 msgstr "Для различных случаев использования мы предоставляем различные методы работы с нашей программой. Подробнее см. на [этой странице](./getting-started/getting-started.md).\n\n<h2 id=\"usage\">Расширенные параметры</h2>\n\nПодробные объяснения см. в нашем документе о [Расширенном использовании](https://pdf2zh-next.com/advanced/advanced.html) для полного списка каждого параметра.\n\n<h2 id=\"downstream\">Вторичная разработка (API)</h2>\n"
 
-# This content is from "README.md", line 108
+# This content is from "README.md", line 110
 msgctxt "chunk_DF45699B"
 msgid "> [!NOTE]\n>\n> Currently, no relevant documentation is provided. It will be supplemented later. Please wait patiently.\n\n"
 msgstr "> [!NOTE]\n>\n> В настоящее время соответствующая документация не предоставлена. Она будет добавлена позже. Пожалуйста, ожидайте терпеливо.\n\n"
 
-# This content is from "README.md", line 118
+# This content is from "README.md", line 120
 msgctxt "chunk_FAB5C5B4"
 msgid "<h2 id=\"langcode\">Language Code</h2>\n\nIf you don't know what code to use to translate to the language you need, check out [this documentation](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
 msgstr "<h2 id=\"langcode\">Код языка</h2>\n\nЕсли вы не знаете, какой код использовать для перевода на нужный вам язык, ознакомьтесь с [этой документацией](https://pdf2zh-next.com/advanced/Language-Codes.html)\n"
 
-# This content is from "README.md", line 139
+# This content is from "README.md", line 141
 msgctxt "chunk_AD3429B4"
 msgid "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n"
 msgstr "<h2 id=\"благодарности\">Благодарности</h2>\n"
 
-# This content is from "README.md", line 141
-msgctxt "chunk_F32DAE46"
-msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n"
-msgstr "- [Immersive Translation](https://immersivetranslate.com) предоставляет ежемесячные коды активации Pro-подписки для активных участников этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта, работающий на основе больших языковых моделей (LLM).\n\n- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Библиотека PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Логирование с поддержкой многопроцессорности](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n"
+# This content is from "README.md", line 143
+msgctxt "chunk_C0AB99E6"
+msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n"
+msgstr "- [Immersive Translation](https://immersivetranslate.com) предоставляет ежемесячные коды активации Pro-подписки для активных участников этого проекта. Подробности см. в: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта, работающий на основе больших языковых моделей (LLM).\n\n- Версия 1.x: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- Бэкенд: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- Библиотека для PDF: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- Парсинг PDF: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Анализ макета: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Многоязычные шрифты: см. [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Логирование с Rich и multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/)\n\n"
 
-# This content is from "README.md", line 172
+# This content is from "README.md", line 171
 msgctxt "chunk_5DD24D41"
 msgid "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
 msgstr "<h2 id=\"conduct\">Перед отправкой вашего кода</h2>\n\nМы приветствуем активное участие участников, чтобы сделать pdf2zh лучше. Прежде чем вы будете готовы отправить свой код, пожалуйста, ознакомьтесь с нашим [Кодексом поведения](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) и [Руководством по вкладу](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Участники</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
 
-# This content is from "README.md", line 184
+# This content is from "README.md", line 183
 msgctxt "chunk_61BE03EB"
 msgid "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
 msgstr "<h2 id=\"star_hist\">История звезд</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"

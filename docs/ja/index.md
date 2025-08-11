@@ -26,6 +26,8 @@
   <!-- License -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/PDFMathTranslate/PDFMathTranslate-next"></a>
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+    <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" /></a>
 </p>
 
 <a href="https://trendshift.io/repositories/12424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12424" alt="Byaidu%2FPDFMathTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -163,11 +165,8 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- ドキュメントの国際化には [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) を使用しています
+- ドキュメントの国際化（i18n）には [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) を使用しています
 
-  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
-  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
-  </a>
 
 <h2 id="conduct">コードを提出する前に</h2>
 
