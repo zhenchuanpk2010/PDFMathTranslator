@@ -1,7 +1,7 @@
 <!-- CHUNK ID: chunk_03FD0E12  CHUNK TYPE: paragraph START_LINE:1 -->
 [**Getting Started**](./getting-started.md) > **Installation** > **WebUI** _(current)_
 
-<!-- CHUNK ID: h_rule_055ea7e1  CHUNK TYPE: h_rule START_LINE:3 -->
+<!-- CHUNK ID: h_rule_52299845  CHUNK TYPE: h_rule START_LINE:3 -->
 ---
 
 <!-- CHUNK ID: chunk_EDC72645  CHUNK TYPE: header START_LINE:5 -->

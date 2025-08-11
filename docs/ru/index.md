@@ -153,7 +153,7 @@
 
 - Просмотр PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Анализ макета: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Анализ структуры: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Стандарты PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
@@ -161,9 +161,13 @@
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [Богатое логирование с многопроцессорностью](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [Логирование с поддержкой многопроцессорности](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Локализация документации с помощью Weblate: [Weblate](https://weblate.org/)
+- Локализация документации с помощью [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
 
 <h2 id="conduct">Перед отправкой вашего кода</h2>
 

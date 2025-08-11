@@ -138,9 +138,9 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 <h2 id="acknowledgement">감사의 말</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) 은 이 프로젝트에 활발히 기여하는 분들을 위해 매월 Pro 멤버십 교환 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md) 에서 확인하세요.
+- [Immersive Translation](https://immersivetranslate.com) 은 이 프로젝트에 활발히 기여하는 기여자들을 위해 매월 Pro 멤버십 리딤 코드를 후원합니다. 자세한 내용은 [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md) 에서 확인하세요.
 
-- [SiliconFlow](https://siliconflow.cn) 는 이 프로젝트를 위해 대규모 언어 모델 (LLM) 로 구동되는 무료 번역 서비스를 제공합니다.
+- [SiliconFlow](https://siliconflow.cn) 은 이 프로젝트를 위해 대규모 언어 모델 (LLM) 로 구동되는 무료 번역 서비스를 제공합니다.
 
 - 1.x 버전: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -161,9 +161,13 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [멀티프로세싱을 통한 Rich 로깅](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Weblate 를 이용한 문서 국제화: [Weblate](https://weblate.org/)
+- 문서 i18n 은 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 를 사용합니다.
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
 
 <h2 id="conduct">코드 제출 전에</h2>
 

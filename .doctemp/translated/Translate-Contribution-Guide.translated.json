@@ -1,0 +1,294 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/community/Translate-Contribution-Guide.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_D0E62F41",
+      "chunk_type": "header",
+      "original_content": "# Suggesting Improvements to the Documentation Translations\n",
+      "start_line_no": 1,
+      "translations": {
+        "fr": "# Suggestions d'amélioration pour les traductions de la documentation\n",
+        "zh_TW": "# 建議改進文檔翻譯\n",
+        "it": "# Suggerimenti per migliorare le traduzioni della documentazione\n",
+        "ko": "# 문서 번역 개선 제안하기\n",
+        "ja": "# ドキュメント翻訳の改善提案\n",
+        "ru": "# Предложения по улучшению переводов документации\n",
+        "pt": "# Sugerindo Melhorias para as Traduções da Documentação\n",
+        "zh": "# 文档翻译改进建议\n",
+        "es": "# Sugerencias para mejorar las traducciones de la documentación\n",
+        "de": "# Vorschläge zur Verbesserung der Dokumentationsübersetzungen\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5E99F395",
+      "chunk_type": "paragraph",
+      "original_content": "Thank you for your interest in this project! The non‑English documentation is automatically translated by large language models, so mistakes are inevitable. If you notice issues in a language you are familiar with, we warmly welcome your suggestions for improvement.\n\nBefore you start contributing, please take a moment to read the following guide to help ensure your suggestions can be smoothly accepted.\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "感谢您对本项目的关注！非英文文档由大语言模型自动翻译，因此错误在所难免。如果您在熟悉的语言中发现问题，我们热忱欢迎您提出改进建议。\n\n在开始贡献之前，请花点时间阅读以下指南，以确保您的建议能够顺利被采纳。\n",
+        "zh_TW": "感謝您對本專案的關注！非英文文檔是由大型語言模型自動翻譯的，因此錯誤在所難免。如果您在熟悉的語言中發現問題，我們熱烈歡迎您提出改進建議。\n\n在開始貢獻之前，請花點時間閱讀以下指南，以幫助確保您的建議能夠順利被採納。\n",
+        "ja": "このプロジェクトに興味を持っていただきありがとうございます！英語以外のドキュメントは大規模言語モデルによって自動翻訳されているため、誤りが避けられません。もしあなたが熟知している言語で問題を発見した場合、改善提案を心から歓迎します。\n\n貢献を始める前に、あなたの提案がスムーズに受け入れられるよう、以下のガイドを一読してください。\n",
+        "it": "Grazie per il tuo interesse in questo progetto! La documentazione non in inglese è tradotta automaticamente da modelli linguistici di grandi dimensioni, quindi gli errori sono inevitabili. Se noti problemi in una lingua con cui hai familiarità, ti diamo il benvenuto a suggerire miglioramenti.\n\nPrima di iniziare a contribuire, ti invitiamo a leggere la seguente guida per aiutare a garantire che i tuoi suggerimenti possano essere accettati senza problemi.\n",
+        "ru": "Спасибо за ваш интерес к этому проекту! Документация на неанглийских языках автоматически переводится с помощью больших языковых моделей, поэтому ошибки неизбежны. Если вы заметили проблемы в языке, с которым знакомы, мы с радостью приветствуем ваши предложения по улучшению.\n\nПрежде чем начать вносить свой вклад, пожалуйста, уделите момент, чтобы прочитать следующее руководство, которое поможет убедиться, что ваши предложения могут быть легко приняты.\n",
+        "de": "Vielen Dank für Ihr Interesse an diesem Projekt! Die nicht-englische Dokumentation wird automatisch von großen Sprachmodellen übersetzt, daher sind Fehler unvermeidlich. Wenn Ihnen Probleme in einer Sprache auffallen, mit der Sie vertraut sind, heißen wir Ihre Vorschläge zur Verbesserung herzlich willkommen.\n\nBevor Sie mit dem Beitrag beginnen, nehmen Sie sich bitte einen Moment Zeit, um die folgende Anleitung zu lesen, um sicherzustellen, dass Ihre Vorschläge problemlos akzeptiert werden können.\n",
+        "es": "Gracias por tu interés en este proyecto. La documentación en idiomas distintos al inglés se traduce automáticamente mediante modelos de lenguaje avanzados, por lo que los errores son inevitables. Si detectas problemas en un idioma que conoces, te damos la más cordial bienvenida a enviar sugerencias de mejora.\n\nAntes de comenzar a contribuir, por favor tómate un momento para leer la siguiente guía, que te ayudará a asegurar que tus sugerencias puedan ser aceptadas sin problemas.\n",
+        "fr": "Merci pour votre intérêt pour ce projet ! La documentation non-anglaise est automatiquement traduite par des modèles de langage volumineux, donc des erreurs sont inévitables. Si vous remarquez des problèmes dans une langue que vous maîtrisez, nous vous encourageons vivement à soumettre vos suggestions d'amélioration.\n\nAvant de commencer à contribuer, veuillez prendre un moment pour lire le guide suivant afin de vous assurer que vos suggestions puissent être acceptées sans problème.\n",
+        "ko": "이 프로젝트에 관심을 가져 주셔서 감사합니다! 비영어 문서는 대형 언어 모델에 의해 자동으로 번역되므로 오류가 불가피합니다. 익숙한 언어에서 문제를 발견하신다면, 개선을 위한 제안을 적극 환영합니다.\n\n기여를 시작하기 전에, 제안이 원활하게 수용될 수 있도록 다음 가이드를 잠시 읽어 주시기 바랍니다.\n",
+        "pt": "Obrigado pelo seu interesse neste projeto! A documentação não‑inglesa é traduzida automaticamente por modelos de linguagem grandes, portanto, erros são inevitáveis. Se você notar problemas em um idioma com o qual está familiarizado, damos as boas-vindas às suas sugestões de melhoria.\n\nAntes de começar a contribuir, reserve um momento para ler o seguinte guia para ajudar a garantir que suas sugestões possam ser aceitas sem problemas.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B08C64DE",
+      "chunk_type": "header",
+      "original_content": "# Submit Suggestions via Weblate\n",
+      "start_line_no": 7,
+      "translations": {
+        "it": "# Invia suggerimenti tramite Weblate\n",
+        "pt": "# Enviar sugestões via Weblate\n",
+        "zh": "# 通过 Weblate 提交建议\n",
+        "zh_TW": "# 透過 Weblate 提交建議\n",
+        "es": "# Enviar sugerencias a través de Weblate\n",
+        "ja": "# Weblate 経由で提案を提出\n",
+        "ru": "# Отправка предложений через Weblate\n",
+        "fr": "# Soumettre des suggestions via Weblate\n",
+        "de": "# Vorschläge über Weblate einreichen\n",
+        "ko": "# Weblate 를 통해 제안 제출하기\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_66E75B28",
+      "chunk_type": "paragraph",
+      "original_content": "We use [Weblate](https://weblate.org/) to manage our documentation translations. You can check the current translation status and submit suggestions on the [project's Weblate page](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+      "start_line_no": 9,
+      "translations": {
+        "zh": "我们使用 [Weblate](https://weblate.org/) 来管理我们的文档翻译。您可以在 [项目的 Weblate 页面](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 上查看当前的翻译状态并提交建议。\n",
+        "ru": "Мы используем [Weblate](https://weblate.org/) для управления переводами нашей документации. Вы можете проверить текущий статус перевода и отправить предложения на [странице проекта в Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+        "de": "Wir verwenden [Weblate](https://weblate.org/) zur Verwaltung unserer Dokumentationsübersetzungen. Sie können den aktuellen Übersetzungsstatus überprüfen und Vorschläge auf der [Weblate-Seite des Projekts](https://hosted.weblate.org/projects/pdfmathtranslate-next/) einreichen.\n",
+        "ko": "우리는 문서 번역 관리를 위해 [Weblate](https://weblate.org/) 를 사용합니다. 현재 번역 상태를 확인하고 제안을 제출하려면 [프로젝트의 Weblate 페이지](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 를 방문하세요.\n",
+        "it": "Utilizziamo [Weblate](https://weblate.org/) per gestire le traduzioni della nostra documentazione. Puoi verificare lo stato attuale della traduzione e inviare suggerimenti sulla [pagina Weblate del progetto](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+        "zh_TW": "我們使用 [Weblate](https://weblate.org/) 來管理我們的文檔翻譯。您可以在 [專案的 Weblate 頁面](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 上查看當前的翻譯狀態並提交建議。\n",
+        "pt": "Usamos o [Weblate](https://weblate.org/) para gerenciar as traduções da nossa documentação. Você pode verificar o status atual da tradução e enviar sugestões na [página do projeto no Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+        "fr": "Nous utilisons [Weblate](https://weblate.org/) pour gérer les traductions de notre documentation. Vous pouvez consulter l'état actuel des traductions et soumettre des suggestions sur la [page Weblate du projet](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+        "es": "Utilizamos [Weblate](https://weblate.org/) para gestionar las traducciones de nuestra documentación. Puedes consultar el estado actual de las traducciones y enviar sugerencias en la [página de Weblate del proyecto](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+        "ja": "私たちはドキュメントの翻訳管理に [Weblate](https://weblate.org/) を使用しています。現在の翻訳状況の確認や提案の提出は [プロジェクトの Weblate ページ](https://hosted.weblate.org/projects/pdfmathtranslate-next/) で行えます。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_800CE400",
+      "chunk_type": "header",
+      "original_content": "## How to submit a suggestion\n",
+      "start_line_no": 11,
+      "translations": {
+        "zh_TW": "## 如何提交建議\n",
+        "ja": "## 提案の提出方法\n",
+        "es": "## Cómo enviar una sugerencia\n",
+        "zh": "## 如何提交建议\n",
+        "ko": "## 제안을 제출하는 방법\n",
+        "fr": "## Comment soumettre une suggestion\n",
+        "it": "## Come inviare un suggerimento\n",
+        "pt": "## Como enviar uma sugestão\n",
+        "ru": "## Как отправить предложение\n",
+        "de": "## Wie man einen Vorschlag einreicht\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B3B32731",
+      "chunk_type": "paragraph",
+      "original_content": "It's very simple to propose translation improvements via Weblate, and you don't even need to register an account. Read on for the step-by-step process.\n\nAssume you want to improve the first sentence in the \"Command-line arguments\" section of [Advanced → Advanced](docs/en/advanced/advanced.md):\n",
+      "start_line_no": 13,
+      "translations": {
+        "zh_TW": "透過 Weblate 提出翻譯改進建議非常簡單，甚至無需註冊帳戶。請繼續閱讀流程。\n\n假設您想改進 [高級選項 → 高級選項](docs/en/advanced/advanced.md) 中「命令行参数」部分的第一句話：\n",
+        "ja": "Weblate を介して翻訳の改善を提案するのは非常に簡単で、アカウント登録すら必要ありません。以下の手順をご覧ください。\n\n[高级选项 → 高级](docs/en/advanced/advanced.md) の「命令行参数」セクションの最初の文を改善したいと仮定します：\n",
+        "zh": "通过 Weblate 提出翻译改进建议非常简单，甚至无需注册账户。请继续阅读以下指南。\n\n假设您想改进 [高级选项 → 高级](docs/en/advanced/advanced.md) 中 \"命令行参数\" 部分的第一个句子：\n",
+        "ko": "Weblate 를 통해 번역 개선을 제안하는 것은 매우 간단하며, 계정 등록도 필요하지 않습니다. 단계별 과정을 계속 읽어보세요.\n\n[高级选项 → 高级](docs/en/advanced/advanced.md) 의 \"명령줄 인수\" 섹션 첫 번째 문장을 개선하고 싶다고 가정해 보겠습니다:\n",
+        "fr": "Il est très simple de proposer des améliorations de traduction via Weblate, et vous n'avez même pas besoin de créer un compte. Lisez la suite pour connaître le processus étape par étape.\n\nSupposons que vous souhaitiez améliorer la première phrase de la section \"命令行参数\" dans [高级选项 → 高级](docs/en/advanced/advanced.md) :\n",
+        "it": "È molto semplice proporre miglioramenti alle traduzioni tramite Weblate, e non è nemmeno necessario registrare un account. Continua a leggere per il processo passo dopo passo.\n\nSupponi di voler migliorare la prima frase nella sezione \"命令行参数\" di [高级选项 → 高级](docs/en/advanced/advanced.md):\n",
+        "ru": "Очень просто предложить улучшения перевода через Weblate, и вам даже не нужно регистрировать аккаунт. Читайте дальше, чтобы узнать пошаговый процесс.\n\nПредположим, вы хотите улучшить первое предложение в разделе \"命令行参数\" документа [高级选项 → 高级](docs/en/advanced/advanced.md):\n",
+        "pt": "É muito simples propor melhorias de tradução via Weblate, e você nem precisa registrar uma conta. Continue lendo para ver o processo passo a passo.\n\nSuponha que você queira melhorar a primeira frase na seção \"命令行参数\" de [高级选项 → 高级](docs/en/advanced/advanced.md):\n",
+        "de": "Es ist sehr einfach, Verbesserungsvorschläge für Übersetzungen über Weblate einzureichen, und Sie müssen nicht einmal ein Konto registrieren. Lesen Sie weiter für den schrittweisen Prozess.\n\nAngenommen, Sie möchten den ersten Satz im Abschnitt \"命令行参数\" von [高级选项 → 高级](docs/en/advanced/advanced.md) verbessern:\n",
+        "es": "Es muy sencillo proponer mejoras en las traducciones a través de Weblate, y ni siquiera necesitas registrar una cuenta. Sigue leyendo para conocer el proceso paso a paso.\n\nSupongamos que deseas mejorar la primera frase en la sección \"命令行参数\" de [高级选项 → 高级](docs/en/advanced/advanced.md):\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3B565B8D",
+      "chunk_type": "list",
+      "original_content": "1. Open the [project's Weblate page](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Click `Search` at the top.\n",
+      "start_line_no": 17,
+      "translations": {
+        "zh_TW": "1. 開啟 [專案的 Weblate 頁面](https://hosted.weblate.org/projects/pdfmathtranslate-next/)。\n\n2. 點擊頂部的 `Search`。\n",
+        "fr": "1. Ouvrez la [page Weblate du projet](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Cliquez sur `Search` en haut.\n",
+        "zh": "1. 打开 [项目的 Weblate 页面](https://hosted.weblate.org/projects/pdfmathtranslate-next/)。\n\n2. 点击顶部的 `Search`。\n",
+        "de": "1. Öffnen Sie die [Weblate-Seite des Projekts](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Klicken Sie oben auf `Search`.\n",
+        "ru": "1. Откройте [страницу проекта в Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Нажмите `Search` вверху.\n",
+        "ko": "1. [프로젝트의 Weblate 페이지](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 를 엽니다.\n\n2. 상단의 `Search` 를 클릭합니다.\n",
+        "pt": "1. Abra a [página do projeto no Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Clique em `Search` no topo.\n",
+        "ja": "1. [プロジェクトの Weblate ページ](https://hosted.weblate.org/projects/pdfmathtranslate-next/) を開きます。\n\n2. 上部の `Search` をクリックします。\n",
+        "it": "1. Apri la [pagina Weblate del progetto](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Clicca `Search` in alto.\n",
+        "es": "1. Abre la [página de Weblate del proyecto](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Haz clic en `Search` en la parte superior.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_05247CE4",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+      "start_line_no": 21,
+      "translations": {
+        "zh": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "zh_TW": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "ja": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "ko": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "ru": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "es": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "fr": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "de": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "it": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+        "pt": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_961D5AD9",
+      "chunk_type": "list",
+      "original_content": "3. In \"Filter\", enter the text segment you want to find. Partial text is fine.\n",
+      "start_line_no": 23,
+      "translations": {
+        "zh_TW": "3. 在「Filter」中，輸入您想尋找的文字段落。部分文字內容亦可。\n",
+        "zh": "3. 在「Filter」中输入您想要查找的文本片段，部分文本即可。\n",
+        "pt": "3. Em \"Filtro\", insira o segmento de texto que deseja encontrar. Texto parcial também é aceito.\n",
+        "es": "3. En \"Filtro\", ingresa el segmento de texto que deseas encontrar. Texto parcial está bien.\n",
+        "ko": "3. \"필터\"에서 찾고자 하는 텍스트 세그먼트를 입력하세요. 부분 텍스트도 가능합니다.\n",
+        "it": "3. In \"Filtro\", inserisci il segmento di testo che desideri trovare. Anche un testo parziale va bene.\n",
+        "de": "3. Geben Sie im \"Filter\" den Textabschnitt ein, den Sie suchen möchten. Teilweise Texteingabe ist möglich.\n",
+        "ru": "3. В поле \"Фильтр\" введите сегмент текста, который хотите найти. Достаточно части текста.\n",
+        "fr": "3. Dans \"Filtre\", entrez le segment de texte que vous souhaitez trouver. Un texte partiel est acceptable.\n",
+        "ja": "3. 「Filter」に、検索したいテキストセグメントを入力します。部分的なテキストでも構いません。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_12ED1BC8",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+      "start_line_no": 25,
+      "translations": {
+        "zh": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "zh_TW": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "ja": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "ko": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "ru": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "es": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "fr": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "de": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "it": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+        "pt": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7F95E46F",
+      "chunk_type": "paragraph",
+      "original_content": "When you're done, press <kbd>Enter</kbd>.\n",
+      "start_line_no": 27,
+      "translations": {
+        "zh": "完成后，按 <kbd>Enter</kbd>。\n",
+        "ko": "완료되면 <kbd>Enter</kbd>를 누르세요.\n",
+        "pt": "Quando terminar, pressione <kbd>Enter</kbd>.\n",
+        "it": "Quando hai finito, premi <kbd>Enter</kbd>.\n",
+        "zh_TW": "完成後，按下 <kbd>Enter</kbd>。\n",
+        "fr": "Lorsque vous avez terminé, appuyez sur <kbd>Entrée</kbd>.\n",
+        "ru": "Когда закончите, нажмите <kbd>Enter</kbd>.\n",
+        "ja": "完了したら、<kbd>Enter</kbd> を押してください。\n",
+        "es": "Cuando hayas terminado, presiona <kbd>Enter</kbd>.\n",
+        "de": "Wenn Sie fertig sind, drücken Sie <kbd>Enter</kbd>.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_49D0E074",
+      "chunk_type": "list",
+      "original_content": "4. After pressing <kbd>Enter</kbd>, you'll be taken to the search results page. Click the result you prefer to open the edit view.\n",
+      "start_line_no": 29,
+      "translations": {
+        "zh": "4. 按下 <kbd>Enter</kbd> 后，您将被带到搜索结果页面。点击您偏好的结果以打开编辑视图。\n",
+        "ko": "4. <kbd>Enter</kbd>를 누르면 검색 결과 페이지로 이동합니다. 원하는 결과를 클릭하여 편집 화면을 엽니다.\n",
+        "ja": "4. <kbd>Enter</kbd> キーを押すと、検索結果ページに移動します。希望する結果をクリックして編集ビューを開きます。\n",
+        "it": "4. Dopo aver premuto <kbd>Invio</kbd>, verrai portato alla pagina dei risultati di ricerca. Clicca sul risultato che preferisci per aprire la vista di modifica.\n",
+        "es": "4. Después de presionar <kbd>Enter</kbd>, serás llevado a la página de resultados de búsqueda. Haz clic en el resultado que prefieras para abrir la vista de edición.\n",
+        "zh_TW": "4. 按下 <kbd>Enter</kbd> 後，您將被導向搜尋結果頁面。點選您偏好的結果以開啟編輯視圖。\n",
+        "pt": "4. Após pressionar <kbd>Enter</kbd>, você será direcionado para a página de resultados da pesquisa. Clique no resultado que preferir para abrir a visualização de edição.\n",
+        "ru": "4. После нажатия <kbd>Enter</kbd> вы перейдёте на страницу результатов поиска. Нажмите на предпочтительный результат, чтобы открыть режим редактирования.\n",
+        "fr": "4. Après avoir appuyé sur <kbd>Entrée</kbd>, vous serez redirigé vers la page des résultats de recherche. Cliquez sur le résultat que vous préférez pour ouvrir la vue d'édition.\n",
+        "de": "4. Nach dem Drücken von <kbd>Enter</kbd> gelangen Sie zur Suchergebnisseite. Klicken Sie auf das gewünschte Ergebnis, um die Bearbeitungsansicht zu öffnen.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FF937AAB",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+      "start_line_no": 31,
+      "translations": {
+        "zh": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "zh_TW": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "ja": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "ko": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "ru": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "es": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "fr": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "de": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "it": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+        "pt": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_89F91031",
+      "chunk_type": "list",
+      "original_content": "5. In the edit view, make your changes to the translation. When finished, click <kbd>Suggest</kbd>. That's it—you've successfully completed a contribution.\n",
+      "start_line_no": 33,
+      "translations": {
+        "zh": "5. 在编辑视图中，对翻译进行修改。完成后，点击 <kbd>Suggest</kbd>。就这样——您已成功完成一次贡献。\n",
+        "zh_TW": "5. 在編輯視圖中，對翻譯進行更改。完成後，點擊 <kbd>建議</kbd>。就這樣——您已成功完成一次貢獻。\n",
+        "ru": "5. В режиме редактирования внесите изменения в перевод. По завершении нажмите <kbd>Предложить</kbd>. Вот и всё — вы успешно внесли свой вклад.\n",
+        "ko": "5. 편집 화면에서 번역을 수정합니다. 완료되면 <kbd>제안</kbd>을 클릭하세요. 이제 기여가 성공적으로 완료되었습니다.\n",
+        "pt": "5. Na visualização de edição, faça suas alterações na tradução. Quando terminar, clique em <kbd>Sugerir</kbd>. Pronto—você concluiu com sucesso uma contribuição.\n",
+        "es": "5. En la vista de edición, realiza los cambios en la traducción. Cuando termines, haz clic en <kbd>Sugerir</kbd>. Eso es todo—has completado con éxito una contribución.\n",
+        "ja": "5. 編集ビューで、翻訳に変更を加えます。完了したら、<kbd>提案</kbd>をクリックします。これで完了です。無事に貢献を完了しました。\n",
+        "fr": "5. Dans la vue d'édition, apportez vos modifications à la traduction. Une fois terminé, cliquez sur <kbd>Suggérer</kbd>. C'est tout—vous avez réussi à effectuer une contribution.\n",
+        "de": "5. Nehmen Sie im Bearbeitungsmodus Ihre Änderungen an der Übersetzung vor. Klicken Sie nach Abschluss auf <kbd>Vorschlagen</kbd>. Das war's – Sie haben erfolgreich einen Beitrag geleistet.\n",
+        "it": "5. Nella vista di modifica, apporta le tue modifiche alla traduzione. Una volta terminato, fai clic su <kbd>Suggerisci</kbd>. Tutto qui: hai completato con successo un contributo.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_1E354AB2",
+      "chunk_type": "image",
+      "original_content": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+      "start_line_no": 35,
+      "translations": {
+        "zh": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "zh_TW": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "ja": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "ko": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "ru": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "es": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "fr": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "de": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "it": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+        "pt": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_998E5059",
+      "chunk_type": "paragraph",
+      "original_content": "We will review your suggestion after it's submitted. Once approved, your changes will appear in the documentation.",
+      "start_line_no": 37,
+      "translations": {
+        "zh_TW": "我們會在您提交建議後進行審核。一旦通過，您的變更將會出現在文件中。",
+        "zh": "我们会在您提交建议后进行审核。一旦通过，您的修改将出现在文档中。",
+        "ja": "提案が提出された後、私たちがレビューを行います。承認されると、変更がドキュメントに反映されます。",
+        "ru": "Мы рассмотрим ваше предложение после его отправки. После одобрения ваши изменения появятся в документации.",
+        "es": "Revisaremos tu sugerencia después de que sea enviada. Una vez aprobada, tus cambios aparecerán en la documentación.",
+        "ko": "제안이 제출되면 검토할 예정입니다. 승인되면 변경 사항이 문서에 반영됩니다.",
+        "it": "Esamineremo il tuo suggerimento dopo che sarà stato inviato. Una volta approvato, le tue modifiche appariranno nella documentazione.",
+        "pt": "Vamos revisar sua sugestão após ela ser enviada. Uma vez aprovada, suas alterações aparecerão na documentação.",
+        "fr": "Nous examinerons votre suggestion après sa soumission. Une fois approuvée, vos modifications apparaîtront dans la documentation.",
+        "de": "Wir werden Ihren Vorschlag nach der Einreichung überprüfen. Sobald er genehmigt ist, werden Ihre Änderungen in der Dokumentation erscheinen."
+      }
+    }
+  ]
+}
