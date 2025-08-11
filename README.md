@@ -163,7 +163,11 @@ If you don't know what code to use to translate to the language you need, check 
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Documentation i18n using Weblate: [Weblate](https://weblate.org/)
+- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
 
 <h2 id="conduct">Before submit your code</h2>
 

@@ -138,7 +138,7 @@ Si no sabes qué código usar para traducir al idioma que necesitas, consulta [e
 
 <h2 id="reconocimientos">Reconocimientos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales para membresía Pro para contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de canje mensuales para membresía Pro para los contribuyentes activos de este proyecto, consulta los detalles en: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) proporciona un servicio de traducción gratuito para este proyecto, impulsado por modelos de lenguaje grandes (LLMs).
 
@@ -163,7 +163,11 @@ Si no sabes qué código usar para traducir al idioma que necesitas, consulta [e
 
 - [Registro enriquecido con multiprocesamiento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Documentación i18n usando Weblate: [Weblate](https://weblate.org/)
+- Documentación i18n utilizando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="estado de traducción" />
+  </a>
 
 <h2 id="conduct">Antes de enviar tu código</h2>
 

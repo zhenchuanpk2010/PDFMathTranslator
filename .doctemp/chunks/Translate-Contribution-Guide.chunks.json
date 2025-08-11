@@ -1,0 +1,165 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/community/Translate-Contribution-Guide.md",
+  "chunks": [
+    {
+      "id": "chunk_D0E62F41",
+      "raw_content": "# Suggesting Improvements to the Documentation Translations\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 1,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_5E99F395",
+      "raw_content": "Thank you for your interest in this project! The non‑English documentation is automatically translated by large language models, so mistakes are inevitable. If you notice issues in a language you are familiar with, we warmly welcome your suggestions for improvement.\n\nBefore you start contributing, please take a moment to read the following guide to help ensure your suggestions can be smoothly accepted.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_B08C64DE",
+      "raw_content": "# Submit Suggestions via Weblate\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 1,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_66E75B28",
+      "raw_content": "We use [Weblate](https://weblate.org/) to manage our documentation translations. You can check the current translation status and submit suggestions on the [project's Weblate page](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_800CE400",
+      "raw_content": "## How to submit a suggestion\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_B3B32731",
+      "raw_content": "It's very simple to propose translation improvements via Weblate, and you don't even need to register an account. Read on for the step-by-step process.\n\nAssume you want to improve the first sentence in the \"Command-line arguments\" section of [Advanced → Advanced](docs/en/advanced/advanced.md):\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_3B565B8D",
+      "raw_content": "1. Open the [project's Weblate page](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Click `Search` at the top.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 17
+    },
+    {
+      "id": "chunk_05247CE4",
+      "raw_content": "<img src=\"./../../images/weblate/homepage.png\" width=\"420px\" alt=\"homepage\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 21
+    },
+    {
+      "id": "chunk_961D5AD9",
+      "raw_content": "3. In \"Filter\", enter the text segment you want to find. Partial text is fine.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 23
+    },
+    {
+      "id": "chunk_12ED1BC8",
+      "raw_content": "<img src=\"./../../images/weblate/search.png\" alt=\"search\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 25
+    },
+    {
+      "id": "chunk_7F95E46F",
+      "raw_content": "When you're done, press <kbd>Enter</kbd>.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 27
+    },
+    {
+      "id": "chunk_49D0E074",
+      "raw_content": "4. After pressing <kbd>Enter</kbd>, you'll be taken to the search results page. Click the result you prefer to open the edit view.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_FF937AAB",
+      "raw_content": "<img src=\"./../../images/weblate/search-result.png\" alt=\"search result\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 31
+    },
+    {
+      "id": "chunk_89F91031",
+      "raw_content": "5. In the edit view, make your changes to the translation. When finished, click <kbd>Suggest</kbd>. That's it—you've successfully completed a contribution.\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 33
+    },
+    {
+      "id": "chunk_1E354AB2",
+      "raw_content": "<img src=\"./../../images/weblate/suggestion.png\" alt=\"suggestion\"/>\n",
+      "metadata": {
+        "chunk_type": "image",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 35
+    },
+    {
+      "id": "chunk_998E5059",
+      "raw_content": "We will review your suggestion after it's submitted. Once approved, your changes will appear in the documentation.",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 37
+    }
+  ]
+}

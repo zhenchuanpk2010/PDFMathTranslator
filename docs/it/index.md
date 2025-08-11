@@ -163,7 +163,11 @@ Se non sai quale codice utilizzare per tradurre nella lingua di cui hai bisogno,
 
 - [Registrazione avanzata con multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Documentazione i18n utilizzando Weblate: [Weblate](https://weblate.org/)
+- Documentazione i18n utilizzando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="stato della traduzione" />
+  </a>
 
 <h2 id="conduct">Prima di inviare il tuo codice</h2>
 

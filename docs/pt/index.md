@@ -138,7 +138,7 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 <h2 id="reconhecimento">Reconhecimentos</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais para assinaturas Pro para contribuidores ativos deste projeto, consulte os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) patrocina códigos de resgate mensais de assinatura Pro para contribuidores ativos deste projeto, consulte os detalhes em: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto, alimentado por modelos de linguagem grandes (LLMs).
 
@@ -153,17 +153,21 @@ Se você não sabe qual código usar para traduzir para o idioma que precisa, co
 
 - Visualização de PDF: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- Análise de layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- Análise de Layout: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
 - Padrões PDF: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- Fonte multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- Fonte Multilíngue: consulte [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
 - [Registro avançado com multiprocessamento](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Documentação i18n usando Weblate: [Weblate](https://weblate.org/)
+- Documentação i18n usando [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="status da tradução" />
+  </a>
 
 <h2 id="conduct">Antes de enviar seu código</h2>
 

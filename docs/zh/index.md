@@ -138,7 +138,7 @@ PDF 科研论文翻译与双语对照。
 
 <h2 id="致谢">致谢</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translation](https://immersivetranslate.com) 为本项目的活跃贡献者提供每月 Pro 会员兑换码赞助，详情见：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) 为本项目提供基于大语言模型（LLMs）的免费翻译服务。
 
@@ -153,17 +153,21 @@ PDF 科研论文翻译与双语对照。
 
 - PDF 预览：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)
 
-- 布局解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
+- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 
-- PDF 标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
+- PDF 标准：[PDF Explained](https://zxyle.github.io/PDF-Explained/)、[PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)
 
-- 多语言字体：见 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
+- 多语言字体：参见 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)
 
 - [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)
 
-- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
+- [支持多进程的 Rich 日志记录](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- 使用 Weblate 进行文档国际化：[Weblate](https://weblate.org/)
+- 文档国际化使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
 
 <h2 id="conduct">提交代码前</h2>
 

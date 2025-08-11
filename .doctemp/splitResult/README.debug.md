@@ -129,7 +129,7 @@ Note that the computing resources of the demo are limited, so please avoid abusi
 2. [**Docker**](https://pdf2zh-next.com/getting-started/INSTALLATION_docker.html) <small>Recommand for Linux</small>
 3. [**uv** (a Python package manager)](https://pdf2zh-next.com/getting-started/INSTALLATION_uv.html) <small>Recommand for macOS</small>
 
-<!-- CHUNK ID: h_rule_d3c4d17e  CHUNK TYPE: h_rule START_LINE:92 -->
+<!-- CHUNK ID: h_rule_a0f098af  CHUNK TYPE: h_rule START_LINE:92 -->
 ---
 
 <!-- CHUNK ID: chunk_047D6F23  CHUNK TYPE: header START_LINE:94 -->
@@ -187,7 +187,7 @@ If you don't know what code to use to translate to the language you need, check 
 <!-- CHUNK ID: chunk_AD3429B4  CHUNK TYPE: paragraph START_LINE:139 -->
 <h2 id="acknowledgement">Acknowledgements</h2>
 
-<!-- CHUNK ID: chunk_7ED9D2AF  CHUNK TYPE: list START_LINE:141 -->
+<!-- CHUNK ID: chunk_F32DAE46  CHUNK TYPE: list START_LINE:141 -->
 - [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
 - [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).
@@ -213,9 +213,13 @@ If you don't know what code to use to translate to the language you need, check 
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Documentation i18n using Weblate: [Weblate](https://weblate.org/)
+- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 
 
-<!-- CHUNK ID: chunk_5DD24D41  CHUNK TYPE: paragraph START_LINE:168 -->
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
+
+<!-- CHUNK ID: chunk_5DD24D41  CHUNK TYPE: paragraph START_LINE:172 -->
 <h2 id="conduct">Before submit your code</h2>
 
 We welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).
@@ -223,23 +227,23 @@ We welcome the active participation of contributors to make pdf2zh better. Befor
 <h2 id="contrib">Contributors</h2>
 
 <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors">
-<!-- CHUNK ID: chunk_21C4CCC3  CHUNK TYPE: image START_LINE:175 -->
+<!-- CHUNK ID: chunk_21C4CCC3  CHUNK TYPE: image START_LINE:179 -->
   <img src="https://opencollective.com/PDFMathTranslate/contributors.svg?width=890&button=false" />
-<!-- CHUNK ID: chunk_B2A74E86  CHUNK TYPE: paragraph START_LINE:176 -->
+<!-- CHUNK ID: chunk_B2A74E86  CHUNK TYPE: paragraph START_LINE:180 -->
 </a>
 
-<!-- CHUNK ID: chunk_F1A772A0  CHUNK TYPE: image START_LINE:178 -->
+<!-- CHUNK ID: chunk_F1A772A0  CHUNK TYPE: image START_LINE:182 -->
 ![Alt](https://repobeats.axiom.co/api/embed/45529651750579e099960950f757449a410477ad.svg "Repobeats analytics image")
 
-<!-- CHUNK ID: chunk_61BE03EB  CHUNK TYPE: paragraph START_LINE:180 -->
+<!-- CHUNK ID: chunk_61BE03EB  CHUNK TYPE: paragraph START_LINE:184 -->
 <h2 id="star_hist">Star History</h2>
 
 <a href="https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date" />
-<!-- CHUNK ID: chunk_ACF347AF  CHUNK TYPE: image START_LINE:186 -->
+<!-- CHUNK ID: chunk_ACF347AF  CHUNK TYPE: image START_LINE:190 -->
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date"/>
-<!-- CHUNK ID: chunk_64791BB7  CHUNK TYPE: paragraph START_LINE:187 -->
+<!-- CHUNK ID: chunk_64791BB7  CHUNK TYPE: paragraph START_LINE:191 -->
  </picture>
 </a>

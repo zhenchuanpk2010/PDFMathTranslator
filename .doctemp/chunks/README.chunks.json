@@ -402,7 +402,7 @@
       "start_line_no": 88
     },
     {
-      "id": "h_rule_d3c4d17e",
+      "id": "h_rule_a0f098af",
       "raw_content": "---\n",
       "metadata": {
         "chunk_type": "h_rule",
@@ -492,8 +492,8 @@
       "start_line_no": 139
     },
     {
-      "id": "chunk_7ED9D2AF",
-      "raw_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n",
+      "id": "chunk_F32DAE46",
+      "raw_content": "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n",
       "metadata": {
         "chunk_type": "list",
         "level": null,
@@ -509,7 +509,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 168
+      "start_line_no": 172
     },
     {
       "id": "chunk_21C4CCC3",
@@ -519,7 +519,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 175
+      "start_line_no": 179
     },
     {
       "id": "chunk_B2A74E86",
@@ -529,7 +529,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 176
+      "start_line_no": 180
     },
     {
       "id": "chunk_F1A772A0",
@@ -539,7 +539,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 178
+      "start_line_no": 182
     },
     {
       "id": "chunk_61BE03EB",
@@ -549,7 +549,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 180
+      "start_line_no": 184
     },
     {
       "id": "chunk_ACF347AF",
@@ -559,7 +559,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 186
+      "start_line_no": 190
     },
     {
       "id": "chunk_64791BB7",
@@ -569,7 +569,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 187
+      "start_line_no": 191
     }
   ]
 }

@@ -1,62 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mkdocs-markdown-translator\n"
-"POT-Creation-Date: 2025-08-08 17:23+0800\n"
-"PO-Revision-Date: 2025-08-08 17:23+0800\n"
+"POT-Creation-Date: 2025-08-11 11:39+0800\n"
+"PO-Revision-Date: 2025-08-11 11:39+0800\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-# This content is from "README.md", line 1
-msgctxt "chunk_838C5468"
-msgid "<div align=\"center\">\n"
-msgstr "<div align=\"center\">\n"
 
 # This content is from "README.md", line 5
 msgctxt "chunk_9CD70BC3"
 msgid "<h2 id=\"title\">PDFMathTranslate</h2>\n\n<p>"
 msgstr "<h2 id=\"標題\">PDFMathTranslate</h2>\n\n<p>"
 
-# This content is from "README.md", line 9
-msgctxt "chunk_535549DD"
-msgid "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
-msgstr "  <a href=\"https://pypi.org/project/pdf2zh-next/\">"
-
-# This content is from "README.md", line 11
-msgctxt "chunk_2792EF01"
-msgid "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
-msgstr "  <a href=\"https://pepy.tech/projects/pdf2zh-next\">"
-
-# This content is from "README.md", line 13
-msgctxt "chunk_AFCA5ACF"
-msgid "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
-msgstr "  <a href=\"https://hub.docker.com/repository/docker/awwaawwa/pdfmathtranslate-next/tags\">"
-
 # This content is from "README.md", line 15
 msgctxt "chunk_C3623279"
 msgid "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"Featured｜HelloGitHub\" /></a>"
 msgstr "  <a href=\"https://hellogithub.com/repository/8ec2cfd3ef744762bf531232fa32bc47\" target=\"_blank\"><img src=\"https://api.hellogithub.com/v1/widgets/recommend.svg?rid=8ec2cfd3ef744762bf531232fa32bc47&claim_uid=JQ0yfeBNjaTuqDU&theme=small\" alt=\"精選｜HelloGitHub\" /></a>"
-
-# This content is from "README.md", line 24
-msgctxt "chunk_524DFC76"
-msgid "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
-msgstr "  <a href=\"https://t.me/+Z9_SgnxmsmA5NzBl\">"
-
-# This content is from "README.md", line 27
-msgctxt "chunk_63D768E7"
-msgid "  <a href=\"./LICENSE\">"
-msgstr "  <a href=\"./LICENSE\">"
-
-# This content is from "README.md", line 29
-msgctxt "chunk_AF4387C1"
-msgid "</p>\n"
-msgstr "</p>\n"
-
-# This content is from "README.md", line 31
-msgctxt "chunk_3CF488A3"
-msgid "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
-msgstr "<a href=\"https://trendshift.io/repositories/12424\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/12424\" alt=\"Byaidu%2FPDFMathTranslate | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n"
 
 # This content is from "README.md", line 33
 msgctxt "chunk_90458E01"
@@ -154,29 +114,19 @@ msgid "<h2 id=\"acknowledgement\">Acknowledgements</h2>\n"
 msgstr "<h2 id=\"致謝\">致謝</h2>\n"
 
 # This content is from "README.md", line 141
-msgctxt "chunk_7ED9D2AF"
-msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using Weblate: [Weblate](https://weblate.org/)\n"
-msgstr "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大型語言模型（LLMs）的免費翻譯服務。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字體：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 Weblate 進行文檔國際化：[Weblate](https://weblate.org/)\n"
+msgctxt "chunk_F32DAE46"
+msgid "- [Immersive Translation](https://immersivetranslate.com) sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: [CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) provides a free translation service for this project, powered by large language models (LLMs).\n\n- 1.x version: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- backend: [BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF Library: [PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF Parsing: [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF Preview: [Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- Layout Parsing: [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF Standards: [PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- Multilingual Font: see [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- Documentation i18n using [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) \n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n"
+msgstr "- [Immersive Translation](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員兌換碼，詳情請見：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)\n\n- [SiliconFlow](https://siliconflow.cn) 為本專案提供基於大型語言模型（LLMs）的免費翻譯服務。\n\n- 1.x 版本：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)\n\n\n- 後端：[BabelDOC](https://github.com/funstory-ai/BabelDOC)\n\n- PDF 庫：[PyMuPDF](https://github.com/pymupdf/PyMuPDF)\n\n- PDF 解析：[Pdfminer.six](https://github.com/pdfminer/pdfminer.six)\n\n- PDF 預覽：[Gradio PDF](https://github.com/freddyaboulton/gradio-pdf)\n\n- 版面解析：[DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)\n\n- PDF 標準：[PDF Explained](https://zxyle.github.io/PDF-Explained/), [PDF Cheat Sheets](https://pdfa.org/resource/pdf-cheat-sheets/)\n\n- 多語言字體：請參閱 [BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets)\n\n- [Asynchronize](https://github.com/multimeric/Asynchronize/tree/master?tab=readme-ov-file)\n\n- [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)\n\n- 使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 進行文檔國際化\n\n  <a href=\"https://hosted.weblate.org/engage/pdfmathtranslate-next/\">\n  <img src=\"https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg\" alt=\"translation status\" />\n  </a>\n"
 
-# This content is from "README.md", line 168
+# This content is from "README.md", line 172
 msgctxt "chunk_5DD24D41"
 msgid "<h2 id=\"conduct\">Before submit your code</h2>\n\nWe welcome the active participation of contributors to make pdf2zh better. Before you are ready to submit your code, please refer to our [Code of Conduct](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) and [Contribution Guide](https://pdf2zh-next.com/community/Contribution-Guide.html).\n\n<h2 id=\"contrib\">Contributors</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
 msgstr "<h2 id=\"conduct\">提交代碼前</h2>\n\n我們歡迎貢獻者的積極參與，讓 pdf2zh 變得更好。在您準備提交代碼之前，請參考我們的 [行為準則](https://pdf2zh-next.com/community/CODE_OF_CONDUCT.html) 和 [貢獻指南](https://pdf2zh-next.com/community/Contribution-Guide.html)。\n\n<h2 id=\"contrib\">貢獻者</h2>\n\n<a href=\"https://github.com/PDFMathTranslate/PDFMathTranslate-next/graphs/contributors\">"
 
-# This content is from "README.md", line 176
-msgctxt "chunk_B2A74E86"
-msgid "</a>\n"
-msgstr "</a>\n"
-
-# This content is from "README.md", line 180
+# This content is from "README.md", line 184
 msgctxt "chunk_61BE03EB"
 msgid "<h2 id=\"star_hist\">Star History</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
 msgstr "<h2 id=\"star_hist\">星標歷史</h2>\n\n<a href=\"https://star-history.com/#PDFMathTranslate/PDFMathTranslate-next&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=PDFMathTranslate/PDFMathTranslate-next&type=Date\" />"
-
-# This content is from "README.md", line 187
-msgctxt "chunk_64791BB7"
-msgid " </picture>\n</a>\n"
-msgstr " </picture>\n</a>\n"
 
 # This content is from "APIS.md", line 1
 msgctxt "chunk_F2495A85"
@@ -234,124 +184,124 @@ msgid "## Our Pledge\n"
 msgstr "## 我們的承諾\n"
 
 # This content is from "CODE_OF_CONDUCT.md", line 5
-msgctxt "chunk_BCEC3AA8"
-msgid "We as members, contributors, and leaders pledge to make participation in our\ncommunity a harassment-free experience for everyone, regardless of age, body\nsize, visible or invisible disability, ethnicity, sex characteristics, gender\nidentity and expression, level of experience, education, socio-economic status,\nnationality, personal appearance, race, religion, or sexual identity\nand orientation.\n\nWe pledge to act and interact in ways that contribute to an open, welcoming,\ndiverse, inclusive, and healthy community.\n"
-msgstr "我們作為成員、貢獻者和領導者，承諾讓參與我們社區的每個人，無論年齡、體型、可見或不可見的殘疾、種族、性別特徵、性別認同與表達、經驗水平、教育程度、社會經濟地位、國籍、個人外貌、種族、宗教、性別認同或性取向，都能享有免於騷擾的體驗。\n\n我們承諾以促進開放、友善、多元、包容且健康的社區方式行動與互動。\n"
+msgctxt "chunk_49BBC232"
+msgid "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n"
+msgstr "我們作為成員、貢獻者和領導者，承諾讓參與我們社區的每個人，無論年齡、體型、可見或不可見的殘疾、種族、性別特徵、性別認同與表達、經驗水平、教育程度、社會經濟地位、國籍、外貌、種族、宗教、性取向或性別認同，都能享有免於騷擾的體驗。\n\n我們承諾以促進開放、歡迎、多元、包容且健康的社區方式行動與互動。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 15
+# This content is from "CODE_OF_CONDUCT.md", line 9
 msgctxt "chunk_45AD4A2F"
 msgid "## Our Standards\n"
 msgstr "## 我們的標準\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 17
-msgctxt "chunk_5EF2E29F"
-msgid "Examples of behavior that contributes to a positive environment for our\ncommunity include:\n"
-msgstr "有助於為我們的社區營造積極環境的行為範例包括：\n"
+# This content is from "CODE_OF_CONDUCT.md", line 11
+msgctxt "chunk_131B12AA"
+msgid "Examples of behavior that contributes to a positive environment for our community include:\n"
+msgstr "為我們的社區營造積極環境的行為範例包括：\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 20
-msgctxt "chunk_49483E30"
-msgid "* Demonstrating empathy and kindness toward other people\n* Being respectful of differing opinions, viewpoints, and experiences\n* Giving and gracefully accepting constructive feedback\n* Accepting responsibility and apologizing to those affected by our mistakes,\n  and learning from the experience\n* Focusing on what is best not just for us as individuals, but for the\n  overall community\n"
-msgstr "* 對他人展現同理心與善意\n* 尊重不同的意見、觀點與經驗\n* 給予並優雅接受建設性反饋\n* 承擔責任並向受我們錯誤影響的人道歉，從中學習經驗\n* 不僅關注對個人最有利的事，更著眼於整個社區的最佳利益\n"
+# This content is from "CODE_OF_CONDUCT.md", line 13
+msgctxt "chunk_8C8AA428"
+msgid "* Demonstrating empathy and kindness toward other people\n* Being respectful of differing opinions, viewpoints, and experiences\n* Giving and gracefully accepting constructive feedback\n* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\n* Focusing on what is best not just for us as individuals, but for the overall community\n"
+msgstr "* 對他人展現同理心與善意\n* 尊重不同的意見、觀點與經驗\n* 給予並優雅接受建設性反饋\n* 承擔責任並向受我們錯誤影響的人道歉，從經驗中學習\n* 關注的不僅是對我們個人最有利的事，更是對整個社區最有益的事\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 28
+# This content is from "CODE_OF_CONDUCT.md", line 19
 msgctxt "chunk_9D3CC4B6"
 msgid "Examples of unacceptable behavior include:\n"
 msgstr "不可接受行為的例子包括：\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 30
-msgctxt "chunk_CEF666AD"
-msgid "* The use of sexualized language or imagery, and sexual attention or\n  advances of any kind\n* Trolling, insulting or derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or email\n  address, without their explicit permission\n* Other conduct which could reasonably be considered inappropriate in a\n  professional setting\n"
-msgstr "* 使用帶有性暗示的語言或圖像，以及任何形式的性關注或挑逗\n* 惡意挑釁、侮辱或貶損性評論，以及個人或政治攻擊\n* 公開或私下的騷擾行為\n* 在未經他人明確許可的情況下，公開他人的私人信息，例如實體地址或電子郵件地址\n* 其他在專業場合中被合理認為不當的行為\n"
+# This content is from "CODE_OF_CONDUCT.md", line 21
+msgctxt "chunk_06867E28"
+msgid "* The use of sexualized language or imagery, and sexual attention or advances of any kind\n* Trolling, insulting or derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or email address, without their explicit permission\n* Other conduct which could reasonably be considered inappropriate in a professional setting\n"
+msgstr "* 使用帶有性暗示的語言或圖像，以及任何形式的性關注或挑逗行為  \n* 惡意挑釁、侮辱或貶低性言論，以及個人或政治攻擊  \n* 公開或私下的騷擾行為  \n* 在未經他人明確許可的情況下，公開其私人信息（如實體地址或電子郵件地址）  \n* 其他在專業場合中被合理視為不當的行為\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 39
+# This content is from "CODE_OF_CONDUCT.md", line 27
 msgctxt "chunk_F1541146"
 msgid "## Enforcement Responsibilities\n"
 msgstr "## 執行責任\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 41
-msgctxt "chunk_299B9B13"
-msgid "Community leaders are responsible for clarifying and enforcing our standards of\nacceptable behavior and will take appropriate and fair corrective action in\nresponse to any behavior that they deem inappropriate, threatening, offensive,\nor harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject\ncomments, commits, code, wiki edits, issues, and other contributions that are\nnot aligned to this Code of Conduct, and will communicate reasons for moderation\ndecisions when appropriate.\n"
-msgstr "社區領導者有責任澄清並執行我們的可接受行為標準，並將對任何他們認為不適當、威脅性、冒犯性或有害的行為採取適當且公正的糾正措施。\n\n社區領導者有權力和責任刪除、編輯或拒絕不符合本行為準則的評論、提交、代碼、維基編輯、問題和其他貢獻，並在適當時候溝通調決策的原因。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 29
+msgctxt "chunk_EE74991B"
+msgid "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n"
+msgstr "社區領袖有責任釐清並執行我們的可接受行為標準，並會針對任何他們認為不當、威脅性、冒犯性或有害的行為，採取適當且公正的糾正措施。\n\n社區領袖有權且有責任刪除、編輯或拒絕與本行為準則不符的評論、提交、代碼、維基編輯、問題及其他貢獻，並在適當時說明管理決策的原因。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 51
+# This content is from "CODE_OF_CONDUCT.md", line 33
 msgctxt "chunk_EC6E1121"
 msgid "## Scope\n"
 msgstr "## 範圍\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 53
-msgctxt "chunk_105B78AB"
-msgid "This Code of Conduct applies within all community spaces, and also applies when\nan individual is officially representing the community in public spaces.\nExamples of representing our community include using an official e-mail address,\nposting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event.\n"
-msgstr "本行為準則適用於所有社區空間，同時也適用於個人正式代表社區出現在公共場合時。代表我們社區的例子包括使用官方電子郵件地址、通過官方社交媒體帳號發文，或在線上或線下活動中擔任指定代表。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 35
+msgctxt "chunk_C8A3DB27"
+msgid "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n"
+msgstr "本行為準則適用於所有社區空間，同時也適用於個人正式代表社區於公共場合時。代表我們社區的範例包括使用官方電子郵件地址、透過官方社群媒體帳號發文，或是在線上或線下活動中擔任指定代表。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 59
+# This content is from "CODE_OF_CONDUCT.md", line 37
 msgctxt "chunk_B7BB8282"
 msgid "## Enforcement\n"
 msgstr "## 執行\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 61
-msgctxt "chunk_5166E4DA"
-msgid "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported to the community leaders responsible for enforcement at\naw@funstory.ai .\nAll complaints will be reviewed and investigated promptly and fairly.\n\nAll community leaders are obligated to respect the privacy and security of the\nreporter of any incident.\n"
-msgstr "濫用、騷擾或其他不可接受行為的實例可向負責執行的社區領導者舉報，舉報信箱為 aw@funstory.ai。  \n所有投訴都將得到及時且公正的審查與調查。  \n\n所有社區領導者有義務尊重任何事件舉報者的隱私與安全。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 39
+msgctxt "chunk_BBB24E28"
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at `aw@funstory.ai` .\nAll complaints will be reviewed and investigated promptly and fairly.\n\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n"
+msgstr "任何濫用、騷擾或其他不可接受的行為實例，均可向負責執行的社區領袖報告，聯繫方式為 `aw@funstory.ai`。\n所有投訴將得到及時且公正的審查與調查。\n\n所有社區領袖均有義務尊重事件舉報者的隱私與安全。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 69
+# This content is from "CODE_OF_CONDUCT.md", line 44
 msgctxt "chunk_917146E0"
 msgid "## Enforcement Guidelines\n"
 msgstr "## 執行指南\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 71
-msgctxt "chunk_96F8DEF4"
-msgid "Community leaders will follow these Community Impact Guidelines in determining\nthe consequences for any action they deem in violation of this Code of Conduct:\n"
-msgstr "社區領導者將遵循這些社區影響指南來決定他們認為違反此行為準則的任何行為的後果：\n"
+# This content is from "CODE_OF_CONDUCT.md", line 46
+msgctxt "chunk_40C51FE2"
+msgid "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n"
+msgstr "社群領導者將依據這些社群影響指南，來決定他們認為違反此行為準則的任何行動所應承擔的後果：\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 74
+# This content is from "CODE_OF_CONDUCT.md", line 48
 msgctxt "chunk_7DC402F6"
 msgid "### 1. Correction\n"
 msgstr "### 1. 修正\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 76
-msgctxt "chunk_353DD90A"
-msgid "**Community Impact**: Use of inappropriate language or other behavior deemed\nunprofessional or unwelcome in the community.\n\n**Consequence**: A private, written warning from community leaders, providing\nclarity around the nature of the violation and an explanation of why the\nbehavior was inappropriate. A public apology may be requested.\n"
-msgstr "**社區影響**：使用不當語言或其他被視為不專業或不受社區歡迎的行為。\n\n**後果**：社區領導者將私下發出書面警告，明確說明違規行為的性質並解釋為何該行為不當。可能會要求公開道歉。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 50
+msgctxt "chunk_589DD968"
+msgid "**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\n\n**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n"
+msgstr "**社群影響**：在社群中使用不當語言或其他被視為不專業或不受歡迎的行為。\n\n**後果**：社群領導者將私下發出書面警告，明確說明違規行為的性質並解釋為何該行為不恰當。可能會要求公開道歉。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 83
+# This content is from "CODE_OF_CONDUCT.md", line 54
 msgctxt "chunk_4AE59666"
 msgid "### 2. Warning\n"
 msgstr "### 2. 警告\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 85
-msgctxt "chunk_F26D7956"
-msgid "**Community Impact**: A violation through a single incident or series\nof actions.\n\n**Consequence**: A warning with consequences for continued behavior. No\ninteraction with the people involved, including unsolicited interaction with\nthose enforcing the Code of Conduct, for a specified period of time. This\nincludes avoiding interactions in community spaces as well as external channels\nlike social media. Violating these terms may lead to a temporary or\npermanent ban.\n"
-msgstr "**社區影響**：透過單一事件或一系列行為造成的違規。\n\n**後果**：發出警告並對持續行為採取後果。在指定時間內不得與相關人員互動，包括未經請求與執行行為準則的人員互動。這包括避免在社區空間以及外部渠道（如社交媒體）上的互動。違反這些條款可能導致臨時或永久封禁。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 56
+msgctxt "chunk_8645DDC9"
+msgid "**Community Impact**: A violation through a single incident or series of actions.\n\n**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n"
+msgstr "**社群影響**：單一事件或一系列行為造成的違規。\n\n**後果**：警告並附帶持續行為的後果。在指定時間內不得與相關人員互動，包括主動與執行行為準則的人員接觸。這包括避免在社群空間及外部管道（如社交媒體）上的互動。違反這些條款可能導致暫時或永久封禁。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 95
+# This content is from "CODE_OF_CONDUCT.md", line 60
 msgctxt "chunk_357EC7B7"
 msgid "### 3. Temporary Ban\n"
 msgstr "### 3. 臨時封禁\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 97
-msgctxt "chunk_C8490F53"
-msgid "**Community Impact**: A serious violation of community standards, including\nsustained inappropriate behavior.\n\n**Consequence**: A temporary ban from any sort of interaction or public\ncommunication with the community for a specified period of time. No public or\nprivate interaction with the people involved, including unsolicited interaction\nwith those enforcing the Code of Conduct, is allowed during this period.\nViolating these terms may lead to a permanent ban.\n"
-msgstr "**社區影響**：嚴重違反社區標準，包括持續的不當行為。\n\n**後果**：在指定時間內暫時禁止與社區進行任何形式的互動或公開交流。在此期間，不得與相關人員進行公開或私下互動，包括未經請求與執行行為準則的人員互動。違反這些條款可能導致永久封禁。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 62
+msgctxt "chunk_855D5A2A"
+msgid "**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.\n\n**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n"
+msgstr "**社群影響**：嚴重違反社群標準，包括持續的不當行為。\n\n**後果**：在指定時間內暫時禁止與社群進行任何形式的互動或公開交流。在此期間，不得與相關人員進行公開或私下互動，包括未經請求與執行行為準則的人員互動。違反這些條款可能導致永久封禁。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 106
+# This content is from "CODE_OF_CONDUCT.md", line 66
 msgctxt "chunk_7C7DB2B5"
 msgid "### 4. Permanent Ban\n"
 msgstr "### 4. 永久封禁\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 108
-msgctxt "chunk_4CF7A7EA"
-msgid "**Community Impact**: Demonstrating a pattern of violation of community\nstandards, including sustained inappropriate behavior,  harassment of an\nindividual, or aggression toward or disparagement of classes of individuals.\n\n**Consequence**: A permanent ban from any sort of public interaction within\nthe community.\n"
-msgstr "**社區影響**：展示出一種違反社區標準的模式，包括持續的不當行為、對個人的騷擾，或對某類人群的攻擊或貶低。\n\n**後果**：永久禁止在社區內進行任何形式的公開互動。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 68
+msgctxt "chunk_FAF381FA"
+msgid "**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.\n\n**Consequence**: A permanent ban from any sort of public interaction within the community.\n"
+msgstr "**社群影響**：展現出違反社群標準的行為模式，包括持續不當行為、對個人的騷擾，或對特定群體的攻擊與貶抑。\n\n**後果**：永久禁止在社群內進行任何形式的公開互動。\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 115
+# This content is from "CODE_OF_CONDUCT.md", line 72
 msgctxt "chunk_5C710B75"
 msgid "## Attribution\n"
 msgstr "## 歸屬\n"
 
-# This content is from "CODE_OF_CONDUCT.md", line 117
-msgctxt "chunk_CFC08AD6"
-msgid "This Code of Conduct is adapted from the [Contributor Covenant][homepage],\nversion 2.0, available at\nhttps://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nCommunity Impact Guidelines were inspired by [Mozilla's code of conduct\nenforcement ladder](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see the FAQ at\nhttps://www.contributor-covenant.org/faq. Translations are available at\nhttps://www.contributor-covenant.org/translations.\n"
-msgstr "本行為準則改編自 [貢獻者公約][homepage]，  \n版本 2.0，可於  \nhttps://www.contributor-covenant.org/version/2/0/code_of_conduct.html 取得。  \n\n社群影響指南靈感來自 [Mozilla 的行為準則執行階梯](https://github.com/mozilla/diversity)。  \n\n[homepage]: https://www.contributor-covenant.org  \n\n關於本行為準則的常見問題解答，請參閱常見問題頁面  \nhttps://www.contributor-covenant.org/faq。翻譯版本可於  \nhttps://www.contributor-covenant.org/translations 取得。\n"
+# This content is from "CODE_OF_CONDUCT.md", line 74
+msgctxt "chunk_994E96A8"
+msgid "This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nCommunity Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.\n"
+msgstr "本行為準則改編自 [貢獻者公約][homepage] 2.0 版，可在 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html 查閱。\n\n社區影響指南的靈感來自 [Mozilla 的行為準則執行階梯](https://github.com/mozilla/diversity)。\n\n[homepage]: https://www.contributor-covenant.org\n\n有關本行為準則的常見問題解答，請參閱 https://www.contributor-covenant.org/faq 的 常見問題。翻譯版本可在 https://www.contributor-covenant.org/translations 取得。\n"
 
 # This content is from "FAQ.md", line 1
 msgctxt "chunk_BBFC419C"
@@ -407,11 +357,6 @@ msgstr "## 如何更新至最新版本？"
 msgctxt "chunk_981A22AF"
 msgid "I want to use some of the features of the latest version, how do I update it?\n"
 msgstr "我想使用最新版本的一些功能，如何更新它？\n"
-
-# This content is from "FAQ.md", line 24
-msgctxt "chunk_E6E8A1D1"
-msgid "`pip install -U pdf2zh`\n\n"
-msgstr "`pip install -U pdf2zh`\n\n"
 
 # This content is from "FAQ.md", line 27
 msgctxt "chunk_9FB0E3EA"
@@ -503,11 +448,6 @@ msgctxt "chunk_0D65A508"
 msgid "[**Advanced**](./introduction.md) > **Language Code** _(current)_\n"
 msgstr "[**高級選項**](./introduction.md) > **語言代碼** _(current)_\n"
 
-# This content is from "Language-Codes.md", line 5
-msgctxt "chunk_00D95362"
-msgid "#### Google\n"
-msgstr "#### Google\n"
-
 # This content is from "Language-Codes.md", line 7
 msgctxt "chunk_C036D2E5"
 msgid "Source <https://developers.google.com/admin-sdk/directory/v1/languages?hl=zh-cn>, organized by GPT-4o.\n"
@@ -522,11 +462,6 @@ msgstr "| 中文標籤 | 標籤 | `語言代碼` |\n| --- | --- | --- |\n| 阿�
 msgctxt "chunk_434D3480"
 msgid "| 阿拉伯语 | Arabic | `ar` |"
 msgstr "| 阿拉伯語 | Arabic | `ar` |"
-
-# This content is from "Language-Codes.md", line 13
-msgctxt "chunk_4E045D6E"
-msgid "| 巴斯克语 | Basque | `eu` |"
-msgstr "| 巴斯克语 | Basque | `eu` |"
 
 # This content is from "Language-Codes.md", line 14
 msgctxt "chunk_8BDA075A"
@@ -743,11 +678,6 @@ msgctxt "chunk_08CB79D0"
 msgid "| 斯瓦希里语 | Swahili | `sw` |"
 msgstr "| 斯瓦希里語 | Swahili | `sw` |"
 
-# This content is from "Language-Codes.md", line 57
-msgctxt "chunk_5DCBD4C6"
-msgid "| 瑞典语 | Swedish | `sv` |"
-msgstr "| 瑞典语 | Swedish | `sv` |"
-
 # This content is from "Language-Codes.md", line 58
 msgctxt "chunk_A604BFF4"
 msgid "| 泰米尔语 | Tamil | `ta` |"
@@ -762,11 +692,6 @@ msgstr "| 泰盧固語 | Telugu | `te` |"
 msgctxt "chunk_B766F3D4"
 msgid "| 泰语 | Thai | `th` |"
 msgstr "| 泰語 | Thai | `th` |"
-
-# This content is from "Language-Codes.md", line 61
-msgctxt "chunk_C1B06A67"
-msgid "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |"
-msgstr "| 中文（台湾） | Chinese (Taiwan) | `zh-TW` |"
 
 # This content is from "Language-Codes.md", line 62
 msgctxt "chunk_4F10E5FB"
@@ -792,11 +717,6 @@ msgstr "| 越南語 | Vietnamese | `vi` |"
 msgctxt "chunk_CADB0DBE"
 msgid "| 威尔士语 | Welsh | `cy` |\n\n"
 msgstr "| 威爾士語 | Welsh | `cy` |\n\n"
-
-# This content is from "Language-Codes.md", line 69
-msgctxt "chunk_CD5EA97F"
-msgid "#### DeepL"
-msgstr "#### DeepL"
 
 # This content is from "Language-Codes.md", line 70
 msgctxt "chunk_CD419A2D"
@@ -842,11 +762,6 @@ msgstr "| 中文（繁體） | Chinese (Traditional) | `zh_TW` | `source`, `targ
 msgctxt "chunk_04ACBE3E"
 msgid "| 英语（英国） | English (British) | `EN-GB` | `target` |"
 msgstr "| 英語（英國） | English (British) | `EN-GB` | `target` |"
-
-# This content is from "Language-Codes.md", line 82
-msgctxt "chunk_16A4376D"
-msgid "| 英语（美国） | English (American) | `EN-US` | `target` |"
-msgstr "| 英语（美国） | English (American) | `EN-US` | `target` |"
 
 # This content is from "Language-Codes.md", line 83
 msgctxt "chunk_B4390A6E"
@@ -928,11 +843,6 @@ msgctxt "chunk_FF12E792"
 msgid "| 葡萄牙语（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |"
 msgstr "| 葡萄牙語（巴西） | Portuguese (Brazilian) | `PT-BR` | `target` |"
 
-# This content is from "Language-Codes.md", line 99
-msgctxt "chunk_7E188EC0"
-msgid "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |"
-msgstr "| 葡萄牙语（欧洲） | Portuguese (European) | `PT-PT` | `target` |"
-
 # This content is from "Language-Codes.md", line 100
 msgctxt "chunk_557425BD"
 msgid "| 罗马尼亚语 | Romanian | `RO` | `source`, `target` |"
@@ -968,25 +878,10 @@ msgctxt "chunk_95BAEB3E"
 msgid "| 乌克兰语 | Ukrainian | `UK` | `source`, `target` |"
 msgstr "| 烏克蘭語 | Ukrainian | `UK` | `source`, `target` |"
 
-# This content is from "Language-Codes.md", line 107
-msgctxt "chunk_DED8F856"
-msgid "| 中文 | Chinese | `ZH` | `source`, `target` |"
-msgstr "| 中文 | Chinese | `ZH` | `source`, `target` |"
-
 # This content is from "Language-Codes.md", line 108
 msgctxt "chunk_8EC779FC"
 msgid "| 中文（简体） | Chinese (Simplified) | `ZH-HANS` | `target` |"
 msgstr "| 中文（繁體） | Chinese (Traditional) | `ZH-HANT` | `target` |"
-
-# This content is from "Language-Codes.md", line 109
-msgctxt "chunk_357772FB"
-msgid "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n"
-msgstr "| 中文（繁体） | Chinese (Traditional) | `ZH-HANT` | `target` |\n"
-
-# This content is from "SiliconFlow.md", line 1
-msgctxt "chunk_16E46377"
-msgid "# SiliconFlow\n"
-msgstr "# SiliconFlow\n"
 
 # This content is from "SiliconFlow.md", line 3
 msgctxt "chunk_5EFF4D9F"
@@ -1807,6 +1702,66 @@ msgstr "如果您有任何疑問，請透過 Issue 提交反饋或加入我們�
 msgctxt "chunk_C2A414AC"
 msgid "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
 msgstr "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) 為本專案的活躍貢獻者提供每月 Pro 會員碼贊助。詳情請參閱：[BabelDOC/PDFMathTranslate 貢獻者獎勵規則](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)"
+
+# This content is from "Translate-Contribution-Guide.md", line 1
+msgctxt "chunk_D0E62F41"
+msgid "# Suggesting Improvements to the Documentation Translations\n"
+msgstr "# 建議改進文檔翻譯\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 3
+msgctxt "chunk_5E99F395"
+msgid "Thank you for your interest in this project! The non‑English documentation is automatically translated by large language models, so mistakes are inevitable. If you notice issues in a language you are familiar with, we warmly welcome your suggestions for improvement.\n\nBefore you start contributing, please take a moment to read the following guide to help ensure your suggestions can be smoothly accepted.\n"
+msgstr "感謝您對本專案的關注！非英文文檔是由大型語言模型自動翻譯的，因此錯誤在所難免。如果您在熟悉的語言中發現問題，我們熱烈歡迎您提出改進建議。\n\n在開始貢獻之前，請花點時間閱讀以下指南，以幫助確保您的建議能夠順利被採納。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 7
+msgctxt "chunk_B08C64DE"
+msgid "# Submit Suggestions via Weblate\n"
+msgstr "# 透過 Weblate 提交建議\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 9
+msgctxt "chunk_66E75B28"
+msgid "We use [Weblate](https://weblate.org/) to manage our documentation translations. You can check the current translation status and submit suggestions on the [project's Weblate page](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n"
+msgstr "我們使用 [Weblate](https://weblate.org/) 來管理我們的文檔翻譯。您可以在 [專案的 Weblate 頁面](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 上查看當前的翻譯狀態並提交建議。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 11
+msgctxt "chunk_800CE400"
+msgid "## How to submit a suggestion\n"
+msgstr "## 如何提交建議\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 13
+msgctxt "chunk_B3B32731"
+msgid "It's very simple to propose translation improvements via Weblate, and you don't even need to register an account. Read on for the step-by-step process.\n\nAssume you want to improve the first sentence in the \"Command-line arguments\" section of [Advanced → Advanced](docs/en/advanced/advanced.md):\n"
+msgstr "透過 Weblate 提出翻譯改進建議非常簡單，甚至無需註冊帳戶。請繼續閱讀流程。\n\n假設您想改進 [高級選項 → 高級選項](docs/en/advanced/advanced.md) 中「命令行参数」部分的第一句話：\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 17
+msgctxt "chunk_3B565B8D"
+msgid "1. Open the [project's Weblate page](https://hosted.weblate.org/projects/pdfmathtranslate-next/).\n\n2. Click `Search` at the top.\n"
+msgstr "1. 開啟 [專案的 Weblate 頁面](https://hosted.weblate.org/projects/pdfmathtranslate-next/)。\n\n2. 點擊頂部的 `Search`。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 23
+msgctxt "chunk_961D5AD9"
+msgid "3. In \"Filter\", enter the text segment you want to find. Partial text is fine.\n"
+msgstr "3. 在「Filter」中，輸入您想尋找的文字段落。部分文字內容亦可。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 27
+msgctxt "chunk_7F95E46F"
+msgid "When you're done, press <kbd>Enter</kbd>.\n"
+msgstr "完成後，按下 <kbd>Enter</kbd>。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 29
+msgctxt "chunk_49D0E074"
+msgid "4. After pressing <kbd>Enter</kbd>, you'll be taken to the search results page. Click the result you prefer to open the edit view.\n"
+msgstr "4. 按下 <kbd>Enter</kbd> 後，您將被導向搜尋結果頁面。點選您偏好的結果以開啟編輯視圖。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 33
+msgctxt "chunk_89F91031"
+msgid "5. In the edit view, make your changes to the translation. When finished, click <kbd>Suggest</kbd>. That's it—you've successfully completed a contribution.\n"
+msgstr "5. 在編輯視圖中，對翻譯進行更改。完成後，點擊 <kbd>建議</kbd>。就這樣——您已成功完成一次貢獻。\n"
+
+# This content is from "Translate-Contribution-Guide.md", line 37
+msgctxt "chunk_998E5059"
+msgid "We will review your suggestion after it's submitted. Once approved, your changes will appear in the documentation."
+msgstr "我們會在您提交建議後進行審核。一旦通過，您的變更將會出現在文件中。"
 
 # This content is from "INSTALLATION_docker.md", line 1
 msgctxt "chunk_F3B96F2D"

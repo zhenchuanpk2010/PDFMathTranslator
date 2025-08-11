@@ -163,7 +163,11 @@ PDF 科學論文翻譯與雙語對照。
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- 使用 Weblate 進行文檔國際化：[Weblate](https://weblate.org/)
+- 使用 [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) 進行文檔國際化
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
 
 <h2 id="conduct">提交代碼前</h2>
 

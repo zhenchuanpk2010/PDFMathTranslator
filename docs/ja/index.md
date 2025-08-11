@@ -138,9 +138,9 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 <h2 id="謝辞">謝辞</h2>
 
-- [Immersive Translation](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者に対して毎月 Pro メンバーシップの引き換えコードを提供しています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
+- [Immersive Translate](https://immersivetranslate.com) は、このプロジェクトの積極的な貢献者向けに月額 Pro メンバーシップの引き換えコードを提供しています。詳細はこちら：[CONTRIBUTOR_REWARD.md](https://github.com/funstory-ai/BabelDOC/blob/main/docs/CONTRIBUTOR_REWARD.md)
 
-- [SiliconFlow](https://siliconflow.cn) は、このプロジェクトに対して大規模言語モデル（LLM）を活用した無料翻訳サービスを提供しています。
+- [SiliconFlow](https://siliconflow.cn) は、大規模言語モデル（LLM）を活用した無料翻訳サービスをこのプロジェクトに提供しています。
 
 - 1.x バージョン：[Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
@@ -163,7 +163,11 @@ PDF 科学論文の翻訳とバイリンガル比較。
 
 - [Rich logging with multiprocessing](https://github.com/SebastianGrans/Rich-multiprocess-logging/tree/main)
 
-- Weblate を使用したドキュメントの国際化：[Weblate](https://weblate.org/)
+- ドキュメントの国際化には [Weblate](https://hosted.weblate.org/projects/pdfmathtranslate-next/) を使用しています
+
+  <a href="https://hosted.weblate.org/engage/pdfmathtranslate-next/">
+  <img src="https://hosted.weblate.org/widget/pdfmathtranslate-next/svg-badge.svg" alt="translation status" />
+  </a>
 
 <h2 id="conduct">コードを提出する前に</h2>
 
