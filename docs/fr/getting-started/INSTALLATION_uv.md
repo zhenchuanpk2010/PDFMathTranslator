@@ -1,4 +1,4 @@
-[**Commencer**](./getting-started.md) > **Installation** > **uv** _(current)_
+[**Commencer**](./getting-started.md) > **Installation** > **uv** _(actuel)_
 
 ---
 
@@ -23,7 +23,7 @@ Pour installer uv sur votre ordinateur, veuillez consulter [cet article](https:/
     uv tool install --python 3.12 pdf2zh-next
     ```
 
-Après l'installation, vous pouvez commencer la traduction via la **ligne de commande** ou **WebUI**.
+Après l'installation, vous pouvez commencer la traduction via la **ligne de commande** ou le **WebUI**.
 
 !!! Warning
 

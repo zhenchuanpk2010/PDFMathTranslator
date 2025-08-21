@@ -6,9 +6,9 @@ PDFMathTranslate 是一個強大的 PDF 翻譯工具。您可以通過多種方�
 
 ### 如何安裝
 
-1. [**Windows EXE**](./INSTALLATION_winexe.md) <small>推薦用於 Windows</small>
+1. [**Windows 可執行檔**](./INSTALLATION_winexe.md) <small>推薦用於 Windows</small>
 2. [**Docker**](./INSTALLATION_docker.md) <small>推薦用於 Linux</small>
-3. [**uv** (a Python package manager)](./INSTALLATION_uv.md) <small>推薦用於 macOS</small>
+3. [**uv** (Python 套件管理工具)](./INSTALLATION_uv.md) <small>推薦用於 macOS</small>
 
 ---
 

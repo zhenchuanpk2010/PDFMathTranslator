@@ -2,7 +2,7 @@
 
 ## Kostenloser Übersetzungsdienst
 
-[SiliconFlow](https://siliconflow.cn) bietet für dieses Projekt einen kostenlosen Übersetzungsdienst an.
+[SiliconFlow](https://siliconflow.cn) bietet einen kostenlosen Übersetzungsdienst für dieses Projekt an.
 
 Derzeit wird für den kostenlosen Übersetzungsdienst das Modell `THUDM/GLM-4-9B-0414` verwendet.
 
@@ -14,18 +14,18 @@ Derzeit wird für den kostenlosen Übersetzungsdienst das Modell `THUDM/GLM-4-9B
 pdf2zh_next --siliconflowfree example.pdf 
 ```
 
-#### webui
+#### WebUI
 
 1. Wählen Sie "SiliconFlowFree" aus der Dropdown-Liste "Übersetzungsoptionen" - "Dienst" aus.
-2. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um die Übersetzung zu starten.
+2. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um mit der Übersetzung zu beginnen.
 3. Nach Abschluss der Übersetzung finden Sie die übersetzte `PDF`-Datei im Abschnitt "Übersetzt" am unteren Rand der Seite.
 
 
 ### Datenschutzrichtlinie
 
-Der Dateiinhalt wird an den Server des Projektbetreuers [@awwaawwa](https://github.com/awwaawwa) gesendet und dann an SiliconFlow zur Übersetzung weitergeleitet.
+Die Dateiinhalte werden an den Server des Projektbetreuers [@awwaawwa](https://github.com/awwaawwa) gesendet und dann an SiliconFlow zur Übersetzung weitergeleitet.
 
-Die Betreuer dieses Projekts sammeln nur Fehlerinformationen, die von SiliconFlow zurückgegeben werden, um damit verbundene Dienste zu debuggen. Ihr Dateiinhalt wird nicht gesammelt.
+Die Betreuer dieses Projekts sammeln nur Fehlerinformationen, die von SiliconFlow zurückgegeben werden, um damit verbundene Dienste zu debuggen. Ihre Dateiinhalte werden nicht gesammelt.
 
 SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)
 
@@ -33,7 +33,7 @@ SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn
 
 ## Andere Modelle von SiliconFlow verwenden
 
-[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für Übersetzungen an.
+[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für die Übersetzung an.
 
 ### Verwendung
 
@@ -47,14 +47,14 @@ SiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn
 pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --siliconflow-api-key <your-api-key> example.pdf
 ```
 
-#### webui
+#### WebUI
 
 1. "Übersetzungsoptionen" - **"Dienst"** Dropdown-Liste: Wählen Sie "SiliconFlow"  
-2. "Übersetzungsoptionen" - **"Basis-URL für SiliconFlow API"**: Standard beibehalten  
+2. "Übersetzungsoptionen" - **"Basis-URL für SiliconFlow API"**: Behalten Sie den Standardwert bei  
 3. "Übersetzungsoptionen" - **"Zu verwendendes SiliconFlow-Modell"**: Geben Sie "Pro/deepseek-ai/DeepSeek-V3" oder andere Modelle ein  
 4. "Übersetzungsoptionen" - **"API-Schlüssel für SiliconFlow-Dienst"**: Fügen Sie Ihren API-Schlüssel ein  
 5. Klicken Sie auf die Schaltfläche "Übersetzen" am unteren Rand der Seite, um die Übersetzung zu starten  
-6. Nach Abschluss der Übersetzung finden Sie die übersetzte PDF-Datei im Abschnitt "Übersetzt" am unteren Rand der Seite.
+6. Nach Abschluss der Übersetzung finden Sie die übersetzte `PDF`-Datei im Abschnitt "Übersetzt" am unteren Rand der Seite.
 
 
 ## Danksagung

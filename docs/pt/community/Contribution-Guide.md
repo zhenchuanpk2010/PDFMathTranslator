@@ -14,7 +14,7 @@ Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reser
 2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  
 3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
 4. Outras contribuições consideradas inadequadas pelos mantenedores.  
-5. Documentação de contribuição, mas alterando a documentação em idiomas diferentes do inglês.  
+5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.  
 6. PRs que exigem modificação de arquivos PDF.
 
 Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
@@ -61,7 +61,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 <h4 id="format">3. Formatação de Código</h4>
 
-   - Configure a ferramenta `pre-commit` e habilite `black` e `flake8` para formatação de código.
+   - Configure a ferramenta `pre-commit` e ative `black` e `flake8` para formatação de código.
 
 
 <h4 id="requpdate">4. Atualizações de Dependências</h4>
@@ -88,7 +88,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 <h4 id="doctypo">8. Formatação de Documentação</h4>
 
    - Para a formatação de `README.md`, siga as [Diretrizes de Redação em Chinês](https://github.com/sparanoid/chinese-copywriting-guidelines).
-   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações da documentação em outros idiomas são opcionais.
+   - Certifique-se de que a documentação em inglês e chinês esteja sempre atualizada; as atualizações de documentação em outros idiomas são opcionais.
 
 ## Adicionando um mecanismo de tradução
 
@@ -104,7 +104,7 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 - **config folder**: Sistema de configuração.
 - **translator folder**: Implementações relacionadas ao tradutor.
-- **gui.py**: Fornece a interface gráfica do usuário.
+- **gui.py**: Fornece a interface GUI.
 - **const.py**: Algumas constantes.
 - **main.py**: Fornece a ferramenta de linha de comando.
 - **high_level.py**: Interfaces de alto nível baseadas no BabelDOC.
@@ -112,11 +112,11 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 ## Entre em contato conosco
 
-Se você tiver alguma dúvida, por favor, envie feedback via Issue ou entre no nosso Grupo do Telegram. Obrigado pela sua contribuição!
+Se você tiver alguma dúvida, envie feedback via Issue ou entre em nosso Grupo no Telegram. Obrigado pela sua contribuição!
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) patrocina códigos mensais de assinatura Pro para contribuidores ativos deste projeto. Para mais detalhes, consulte: [BabelDOC/PDFMathTranslate Regras de Recompensa para Contribuidores](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) patrocina códigos de assinatura Pro mensais para contribuidores ativos deste projeto. Para mais detalhes, consulte: [Regras de Recompensa para Contribuidores do BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

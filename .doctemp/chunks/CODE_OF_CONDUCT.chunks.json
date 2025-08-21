@@ -1,0 +1,265 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/CODE_OF_CONDUCT.md",
+  "chunks": [
+    {
+      "id": "chunk_D4E24BCF",
+      "raw_content": "# Contributor Covenant Code of Conduct\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 1,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_18B00C61",
+      "raw_content": "## Our Pledge\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_49BBC232",
+      "raw_content": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 5
+    },
+    {
+      "id": "chunk_45AD4A2F",
+      "raw_content": "## Our Standards\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 9
+    },
+    {
+      "id": "chunk_131B12AA",
+      "raw_content": "Examples of behavior that contributes to a positive environment for our community include:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 11
+    },
+    {
+      "id": "chunk_8C8AA428",
+      "raw_content": "* Demonstrating empathy and kindness toward other people\n* Being respectful of differing opinions, viewpoints, and experiences\n* Giving and gracefully accepting constructive feedback\n* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\n* Focusing on what is best not just for us as individuals, but for the overall community\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 13
+    },
+    {
+      "id": "chunk_9D3CC4B6",
+      "raw_content": "Examples of unacceptable behavior include:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 19
+    },
+    {
+      "id": "chunk_06867E28",
+      "raw_content": "* The use of sexualized language or imagery, and sexual attention or advances of any kind\n* Trolling, insulting or derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or email address, without their explicit permission\n* Other conduct which could reasonably be considered inappropriate in a professional setting\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 21
+    },
+    {
+      "id": "chunk_F1541146",
+      "raw_content": "## Enforcement Responsibilities\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 27
+    },
+    {
+      "id": "chunk_EE74991B",
+      "raw_content": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 29
+    },
+    {
+      "id": "chunk_EC6E1121",
+      "raw_content": "## Scope\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 33
+    },
+    {
+      "id": "chunk_C8A3DB27",
+      "raw_content": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 35
+    },
+    {
+      "id": "chunk_B7BB8282",
+      "raw_content": "## Enforcement\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 37
+    },
+    {
+      "id": "chunk_BBB24E28",
+      "raw_content": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at `aw@funstory.ai` .\nAll complaints will be reviewed and investigated promptly and fairly.\n\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 39
+    },
+    {
+      "id": "chunk_917146E0",
+      "raw_content": "## Enforcement Guidelines\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 44
+    },
+    {
+      "id": "chunk_40C51FE2",
+      "raw_content": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 46
+    },
+    {
+      "id": "chunk_7DC402F6",
+      "raw_content": "### 1. Correction\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 48
+    },
+    {
+      "id": "chunk_589DD968",
+      "raw_content": "**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\n\n**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 50
+    },
+    {
+      "id": "chunk_4AE59666",
+      "raw_content": "### 2. Warning\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 54
+    },
+    {
+      "id": "chunk_8645DDC9",
+      "raw_content": "**Community Impact**: A violation through a single incident or series of actions.\n\n**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 56
+    },
+    {
+      "id": "chunk_357EC7B7",
+      "raw_content": "### 3. Temporary Ban\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 60
+    },
+    {
+      "id": "chunk_855D5A2A",
+      "raw_content": "**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.\n\n**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 62
+    },
+    {
+      "id": "chunk_7C7DB2B5",
+      "raw_content": "### 4. Permanent Ban\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 3,
+        "language": null
+      },
+      "start_line_no": 66
+    },
+    {
+      "id": "chunk_FAF381FA",
+      "raw_content": "**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.\n\n**Consequence**: A permanent ban from any sort of public interaction within the community.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 68
+    },
+    {
+      "id": "chunk_5C710B75",
+      "raw_content": "## Attribution\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 2,
+        "language": null
+      },
+      "start_line_no": 72
+    },
+    {
+      "id": "chunk_994E96A8",
+      "raw_content": "This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nCommunity Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 74
+    }
+  ]
+}

@@ -42,7 +42,7 @@ jobs:
       is_release: ${{ steps.check-version.outputs.tag }}
       version: ${{ steps.check-version.outputs.tag && steps.get-release-version.outputs.version || steps.get-dev-version.outputs.version }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: true
           fetch-depth: 2
@@ -115,7 +115,7 @@ jobs:
 
     steps:
       - name: Download all the dists
-        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
+        uses: actions/download-artifact@de96f4613b77ec03b5cf633e7c350c32bd3c5660 # v4.1.8
         with:
           name: python-package-distributions
           path: dist/
@@ -140,7 +140,7 @@ jobs:
 
     steps:
       - name: Download all the dists
-        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
+        uses: actions/download-artifact@de96f4613b77ec03b5cf633e7c350c32bd3c5660 # v4.1.8
         with:
           name: python-package-distributions
           path: dist/
@@ -183,7 +183,7 @@ jobs:
           echo "PLATFORM_PAIR=${platform//\//-}" >> $GITHUB_ENV
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup uv with Python 3.13
         uses: astral-sh/setup-uv@e92bafb6253dcd438e0484186d7669ea7a8ca1cc # v6.4.3
@@ -271,7 +271,7 @@ jobs:
           echo "GHCR_REPO_LOWER=$(echo ${{ env.GHCR_REPO }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Download digests
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           path: ${{ runner.temp }}/digests
           pattern: digests-*
@@ -330,7 +330,7 @@ jobs:
       babeldoc_version: ${{ steps.get-babeldoc-version.outputs.version }}
     steps:
       - name: checkout babeldoc metadata
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: funstory-ai/BabelDOC
           path: babeldoctemp1234567
@@ -343,7 +343,7 @@ jobs:
           path: ~/.cache/babeldoc
           key: test-1-babeldoc-assets-${{ hashFiles('babeldoctemp1234567/babeldoc/assets/embedding_assets_metadata.py') }}
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup uv with Python ${{ env.WIN_EXE_PYTHON_VERSION }}
         uses: astral-sh/setup-uv@e92bafb6253dcd438e0484186d7669ea7a8ca1cc # v6.4.3
@@ -373,7 +373,13 @@ jobs:
 
           Write-Host "==== 下载 Visual C++ Redistributable 安装程序 ===="
           $vcRedistUrl = "https://aka.ms/vs/17/release/vc_redist.x64.exe"
-          $vcRedistPath = "./build/无法运行请安装vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装2_vc_redist17.x64.exe"
+          Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
+          Write-Host "已下载 Visual C++ Redistributable 安装程序到: $vcRedistPath"
+
+          # https://aka.ms/vs/15/release/vc_redist.x64.exe
+          $vcRedistUrl = "https://aka.ms/vs/15/release/vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装1_vc_redist15.x64.exe"
           Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
           Write-Host "已下载 Visual C++ Redistributable 安装程序到: $vcRedistPath"
 
@@ -405,6 +411,34 @@ jobs:
 
           Write-Host "==== 复制 venv/Lib/site-packages 到 build/ ===="
           Copy-Item -Path "./dep_build/venv/Lib/site-packages" -Destination "./build/site-packages" -Recurse -Force
+
+          Write-Host "==== 确保 scikit-learn 的 vcomp140.dll 存在 ===="
+          $sklearnLibs = "./build/site-packages/sklearn/.libs"
+          if (Test-Path $sklearnLibs) {
+            $candidates = @("$env:WINDIR\\System32\\vcomp140.dll", "$env:WINDIR\\SysWOW64\\vcomp140.dll")
+            $found = $false
+            foreach ($src in $candidates) {
+              if (Test-Path $src) {
+                Write-Host "Found vcomp140.dll at $src"
+                Copy-Item -Path $src -Destination $sklearnLibs -Force
+                $found = $true
+                break
+              }
+            }
+            if (-not $found) {
+              $pkgDll = Get-ChildItem -Path "./build/site-packages" -Recurse -Filter "vcomp140.dll" -ErrorAction SilentlyContinue | Select-Object -First 1
+              if ($pkgDll) {
+                Write-Host "Found vcomp140.dll in packages at $($pkgDll.FullName)"
+                Copy-Item -Path $pkgDll.FullName -Destination $sklearnLibs -Force
+                $found = $true
+              }
+            }
+            if (-not $found) {
+              Write-Host "Warning: vcomp140.dll not found; build may fail at runtime."
+            }
+          } else {
+            Write-Host "sklearn/.libs not present; skipping vcomp140.dll copy."
+          }
 
           Write-Host "==== 复制 script/_pystand_static.int 到 build/ ===="
           $staticFile = "./script/_pystand_static.int"
@@ -453,13 +487,17 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download build artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: win64-exe-with-assets
           path: ./build
+
+      - name: Install VC++ 2015 Redistributable
+        run: |
+          ./build/无法运行请安装1_vc_redist15.x64.exe /quiet /norestart
 
       - name: Test show version
         run: |
@@ -531,7 +569,7 @@ jobs:
     outputs:
       tag_name: ${{ steps.release-drafter.outputs.tag_name }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: true
           fetch-depth: 2
@@ -554,7 +592,7 @@ jobs:
       needs.release-draft.result == 'success'
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Delete existing release assets
         if: needs.build.outputs.is_release != ''
@@ -571,7 +609,7 @@ jobs:
           fi
 
       - name: Download build artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: win64-exe-with-assets
           path: ./build

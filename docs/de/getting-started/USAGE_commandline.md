@@ -23,7 +23,7 @@ pdf2zh_next document.pdf
 Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverzeichnis** erstellt.
 
 > [!TIP]
-> **Wo ist mein "Aktuelles Arbeitsverzeichnis"?**
+> **Wo ist mein "aktuelles Arbeitsverzeichnis"?**
 > Bevor Sie einen Befehl im Terminal eingeben, sehen Sie möglicherweise einen Pfadnamen in Ihrem Terminal angezeigt:
 > 
 > ```powershell
@@ -42,9 +42,9 @@ Nach der Ausführung der Übersetzung werden Dateien im **aktuellen Arbeitsverze
 
 ---
 
-#### Erweiterte Optionen
+#### Erweiterte Verwendung
 
-Für detaillierte Erklärungen zusätzlicher Kommandozeilenparameter lesen Sie bitte [erweiterte Optionen](./../advanced/advanced.md).
+Für detaillierte Erklärungen zusätzlicher Kommandozeilenparameter lesen Sie bitte [erweiterte Verwendung](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

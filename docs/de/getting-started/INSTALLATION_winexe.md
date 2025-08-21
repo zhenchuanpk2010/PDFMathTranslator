@@ -26,14 +26,14 @@
 
 > [!NOTE]
 >
-> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [diese Webseite](./USAGE_webui.md).
+> Wenn Sie Probleme bei der Verwendung von WebUI haben, lesen Sie bitte [diese Webseite](./USAGE_webui.md).
 
 ***Schritt 5*** | Viel Spaß!
 
 > [!TIP]
 > **Sie können die .exe-Datei über die Kommandozeile verwenden**
 >
-> Verwenden Sie die .exe-Datei wie folgt über die Kommandozeile:
+> Verwenden Sie die .exe-Datei über die Kommandozeile wie folgt:
 >
 > - Starten Sie Ihr Terminal und navigieren Sie zum Ordner, der die .exe-Datei enthält:
 >

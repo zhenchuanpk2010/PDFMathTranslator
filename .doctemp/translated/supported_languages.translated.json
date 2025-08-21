@@ -1,0 +1,24 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/supported_languages.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_C7A7730D",
+      "chunk_type": "blockquote",
+      "original_content": "> [!NOTE]\n> Please [click here](https://funstory-ai.github.io/BabelDOC/supported_languages/) to navigate to the *BabelDOC Supported Language* page. The information there also applies to pdf2zh.",
+      "start_line_no": 1,
+      "translations": {
+        "ja": "> [!NOTE]\n> 詳細については、[こちらをクリック](https://funstory-ai.github.io/BabelDOC/supported_languages/) して「*BabelDOC サポート言語*」ページに移動してください。記載されている情報は pdf2zh にも適用されます。",
+        "es": "> [!NOTE]\n> Por favor, [haz clic aquí](https://funstory-ai.github.io/BabelDOC/supported_languages/) para navegar a la página de *Idiomas soportados por BabelDOC*. La información allí también se aplica a pdf2zh.",
+        "it": "> [!NOTE]\n> Si prega di [cliccare qui](https://funstory-ai.github.io/BabelDOC/supported_languages/) per navigare alla pagina *BabelDOC Supported Language*. Le informazioni presenti si applicano anche a pdf2zh.",
+        "fr": "> [!NOTE]\n> Veuillez [cliquer ici](https://funstory-ai.github.io/BabelDOC/supported_languages/) pour accéder à la page *Langues supportées par BabelDOC*. Les informations présentes s'appliquent également à pdf2zh.",
+        "zh_TW": "> [!NOTE]\n> 請 [點擊這裡](https://funstory-ai.github.io/BabelDOC/supported_languages/) 前往 *BabelDOC 支持的語言* 頁面。該頁面的資訊同樣適用於 pdf2zh。",
+        "pt": "> [!NOTE]\n> Por favor, [clique aqui](https://funstory-ai.github.io/BabelDOC/supported_languages/) para navegar até a página *BabelDOC Supported Language*. As informações lá também se aplicam ao pdf2zh.",
+        "zh": "> [!NOTE]\n> 请 [点击此处](https://funstory-ai.github.io/BabelDOC/supported_languages/) 跳转至 *BabelDOC 支持的语言* 页面。该页面信息同样适用于 pdf2zh。",
+        "de": "> [!NOTE]\n> Bitte [klicken Sie hier](https://funstory-ai.github.io/BabelDOC/supported_languages/), um zur Seite *BabelDOC Unterstützte Sprachen* zu navigieren. Die dortigen Informationen gelten auch für pdf2zh.",
+        "ko": "> [!NOTE]\n> *BabelDOC 지원 언어* 페이지로 이동하려면 [여기를 클릭하세요](https://funstory-ai.github.io/BabelDOC/supported_languages/). 해당 정보는 pdf2zh 에도 동일하게 적용됩니다.",
+        "ru": "> [!NOTE]\n> Пожалуйста, [нажмите здесь](https://funstory-ai.github.io/BabelDOC/supported_languages/), чтобы перейти на страницу *Поддерживаемые языки BabelDOC*. Информация там также применима к pdf2zh."
+      }
+    }
+  ]
+}

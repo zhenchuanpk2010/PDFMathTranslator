@@ -27,7 +27,7 @@ Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile
 
 !!! Warning
 
-    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie die Umgebungsvariablen wie folgt und versuchen Sie es erneut:
+    Wenn Sie beim Ausführen den Fehler `command not found: pdf2zh_next` sehen, konfigurieren Sie bitte die Umgebungsvariablen wie folgt und versuchen Sie es erneut:
 
     === "macOS und Linux"
 
@@ -50,10 +50,10 @@ Nach der Installation können Sie mit der Übersetzung über die **Kommandozeile
         Starten Sie dann Ihr Terminal neu
 
 > [!NOTE]
-> Wenn Sie Probleme bei der Verwendung der WebUI haben, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).
+> Wenn Sie während der Verwendung der WebUI auf Probleme stoßen, lesen Sie bitte [Verwendung --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
-> Wenn Sie Probleme bei der Verwendung der Kommandozeile haben, lesen Sie bitte [Verwendung --> Kommandozeile](./USAGE_commandline.md).
+> Wenn Sie während der Verwendung der Kommandozeile auf Probleme stoßen, lesen Sie bitte [Verwendung --> Kommandozeile](./USAGE_commandline.md).
 
 <div align="right"> 
 <h6><small>Ein Teil des Inhalts dieser Seite wurde von GPT übersetzt und kann Fehler enthalten.</small></h6>

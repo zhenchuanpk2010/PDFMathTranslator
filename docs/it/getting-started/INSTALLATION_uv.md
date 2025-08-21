@@ -14,7 +14,7 @@ Per installare uv sul tuo computer, consulta [questo articolo](https://docs.astr
 
 #### Installazione
 
-1. Python installato (versione 3.10 <= versione <= 3.12);
+1. Python installato (3.10 <= versione <= 3.12);
 
 2. Utilizza il seguente comando per usare il nostro pacchetto:
 

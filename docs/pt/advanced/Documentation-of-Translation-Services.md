@@ -2,7 +2,7 @@
 
 ---
 
-### Visualizando os Serviços de Tradução Disponíveis via Linha de comando
+### Visualizando Serviços de Tradução Disponíveis via Linha de comando
 
 Você pode confirmar os serviços de tradução disponíveis e seu uso imprimindo a mensagem de ajuda na linha de comando.
 

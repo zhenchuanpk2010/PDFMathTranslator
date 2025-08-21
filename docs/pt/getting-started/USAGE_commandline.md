@@ -4,7 +4,7 @@
 
 ### Usar PDFMathTranslate via linha de comando
 
-#### Uso básico
+#### Uso Básico
 
 Após a Instalação, digite este comando para traduzir seu PDF.
 
@@ -44,7 +44,7 @@ Após executar a tradução, arquivos são gerados no **diretório de trabalho a
 
 #### Opções avançadas
 
-Para explicações detalhadas sobre parâmetros adicionais da linha de comando, consulte [opções avançadas](./../advanced/advanced.md).
+Para explicações detalhadas de parâmetros adicionais da linha de comando, consulte [opções avançadas](./../advanced/advanced.md).
 
 <div align="right"> 
 <h6><small>Parte do conteúdo desta página foi traduzida pelo GPT e pode conter erros.</small></h6>

@@ -2,7 +2,7 @@
 
 ---
 
-### Instalar o PDFMathTranslate via arquivo .exe
+### Instalar PDFMathTranslate via arquivo .exe
 
 ***Passo 1*** | Baixe `pdf2zh-<version>-with-assets-win64.zip` da [página de lançamentos](https://github.com/PDFMathTranslate/PDFMathTranslate-next/releases).
 
@@ -15,10 +15,10 @@
 
 ***Passo 2*** | Descompacte `pdf2zh-<version>-with-assets-win64.zip` e navegue até a pasta `pdf2zh`. Leva um tempo para descompactar, por favor, seja paciente.
 
-***Passo 3*** | Navegue até a pasta `pdf2zh`, então clique duas vezes em `pdf2zh.exe`.
+***Passo 3*** | Navegue até a pasta `pdf2zh`, depois clique duas vezes em `pdf2zh.exe`.
 
 > [!TIP]
-> **Não é possível executar o arquivo .exe**
+> **Não consegue executar o arquivo .exe**
 >
 > Se você tiver algum problema ao executar o pdf2zh.exe, por favor instale `https://aka.ms/vs/17/release/vc_redist.x64.exe` e tente novamente.
 

@@ -16,16 +16,16 @@ pdf2zh_next --siliconflowfree example.pdf
 
 #### webui
 
-1. Selecciona "SiliconFlowFree" en la lista desplegable "Opciones de traducción" - "Servicio".
-2. Haz clic en el botón "Traducir" en la parte inferior de la página para iniciar la traducción.
-3. Una vez completada la traducción, podrás encontrar el archivo PDF traducido en la sección "Traducido" en la parte inferior de la página.
+1. Selecciona "SiliconFlowFree" de la lista desplegable "Opciones de traducción" - "Servicio".
+2. Haz clic en el botón Traducir en la parte inferior de la página para comenzar la traducción.
+3. Una vez completada la traducción, puedes encontrar el archivo PDF traducido en la sección "Traducido" en la parte inferior de la página.
 
 
 ### Política de privacidad
 
-El contenido del archivo será enviado al servidor del mantenedor del proyecto [@awwaawwa](https://github.com/awwaawwa), y luego reenviado a SiliconFlow para su traducción.
+El contenido del archivo se enviará al servidor del mantenedor del proyecto [@awwaawwa](https://github.com/awwaawwa), y luego se reenviará a SiliconFlow para su traducción.
 
-Los mantenedores de este proyecto solo recopilarán información de error devuelta por SiliconFlow para depurar servicios relacionados. El contenido de su archivo no será recopilado.
+Los mantenedores de este proyecto solo recopilarán información de error devuelta por SiliconFlow para depurar los servicios relacionados. No se recopilará el contenido de su archivo.
 
 Política de privacidad de SiliconFlow: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)
 
@@ -37,7 +37,7 @@ Política de privacidad de SiliconFlow: [简体中文](https://docs.siliconflow.
 
 ### Uso
 
-1. Regístrate en [SiliconFlow](https://siliconflow.cn)
+1. Registra una cuenta en [SiliconFlow](https://siliconflow.cn)
 
 2. Crea una clave de API en [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Luego, haz clic en la clave para copiarla.
 
@@ -53,7 +53,7 @@ pdf2zh_next --siliconflow --siliconflow-model "Pro/deepseek-ai/DeepSeek-V3" --si
 2. "Opciones de traducción" - **"URL base para la API de SiliconFlow"**: Mantén el valor predeterminado  
 3. "Opciones de traducción" - **"Modelo de SiliconFlow a utilizar"**: Ingresa "Pro/deepseek-ai/DeepSeek-V3" u otros modelos  
 4. "Opciones de traducción" - **"Clave API para el servicio de SiliconFlow"**: Pega tu clave API  
-5. Haz clic en el botón "Traducir" en la parte inferior de la página para iniciar la traducción  
+5. Haz clic en el botón "Traducir" al final de la página para iniciar la traducción  
 6. Una vez completada la traducción, podrás encontrar el archivo PDF traducido en la sección "Traducido" al final de la página.
 
 

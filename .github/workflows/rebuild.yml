@@ -54,7 +54,7 @@ jobs:
       babeldoc_version: ${{ steps.get-babeldoc-version.outputs.version }}
     steps:
       - name: checkout babeldoc metadata
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: funstory-ai/BabelDOC
           path: babeldoctemp1234567
@@ -67,7 +67,7 @@ jobs:
           path: ~/.cache/babeldoc
           key: test-1-babeldoc-assets-${{ hashFiles('babeldoctemp1234567/babeldoc/assets/embedding_assets_metadata.py') }}
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.get-latest-release.outputs.tag }}
 
@@ -96,9 +96,15 @@ jobs:
           Invoke-WebRequest -Uri $pythonUrl -OutFile $pythonZip
           Expand-Archive -Path $pythonZip -DestinationPath "./build/runtime" -Force
 
-          Write-Host "==== Downloading Visual C++ Redistributable ===="
+          Write-Host "==== Downloading Visual C++ Redistributable (VC15 + VC17) ===="
+          # VC17
           $vcRedistUrl = "https://aka.ms/vs/17/release/vc_redist.x64.exe"
-          $vcRedistPath = "./build/无法运行请安装vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装2_vc_redist17.x64.exe"
+          Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
+
+          # VC15
+          $vcRedistUrl = "https://aka.ms/vs/15/release/vc_redist.x64.exe"
+          $vcRedistPath = "./build/无法运行请安装1_vc_redist15.x64.exe"
           Invoke-WebRequest -Uri $vcRedistUrl -OutFile $vcRedistPath
 
           Write-Host "==== Downloading and extracting PyStand ===="
@@ -129,6 +135,34 @@ jobs:
           Write-Host "==== Copying venv/Lib/site-packages to build/ ===="
           Copy-Item -Path "./dep_build/venv/Lib/site-packages" -Destination "./build/site-packages" -Recurse -Force
 
+          Write-Host "==== Ensuring vcomp140.dll for scikit-learn ===="
+          $sklearnLibs = "./build/site-packages/sklearn/.libs"
+          if (Test-Path $sklearnLibs) {
+            $candidates = @("$env:WINDIR\\System32\\vcomp140.dll", "$env:WINDIR\\SysWOW64\\vcomp140.dll")
+            $found = $false
+            foreach ($src in $candidates) {
+              if (Test-Path $src) {
+                Write-Host "Found vcomp140.dll at $src"
+                Copy-Item -Path $src -Destination $sklearnLibs -Force
+                $found = $true
+                break
+              }
+            }
+            if (-not $found) {
+              $pkgDll = Get-ChildItem -Path "./build/site-packages" -Recurse -Filter "vcomp140.dll" -ErrorAction SilentlyContinue | Select-Object -First 1
+              if ($pkgDll) {
+                Write-Host "Found vcomp140.dll in packages at $($pkgDll.FullName)"
+                Copy-Item -Path $pkgDll.FullName -Destination $sklearnLibs -Force
+                $found = $true
+              }
+            }
+            if (-not $found) {
+              Write-Host "Warning: vcomp140.dll not found; build may fail at runtime."
+            }
+          } else {
+            Write-Host "sklearn/.libs not present; skipping vcomp140.dll copy."
+          }
+
           Write-Host "==== Copying script/_pystand_static.int to build/ ===="
           Copy-Item -Path "./script/_pystand_static.int" -Destination "./build/_pystand_static.int" -Force
 
@@ -156,6 +190,7 @@ jobs:
           name: win64-exe-with-assets
           path: ./build
           compression-level: 1
+          include-hidden-files: true
 
   test-win64-exe:
     name: Test Windows EXE
@@ -163,16 +198,20 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.get-latest-release.outputs.tag }}
 
       - name: Download build artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: win64-exe-with-assets
           path: ./build
 
+      - name: Install VC++ 2015 Redistributable
+        run: |
+          ./build/无法运行请安装1_vc_redist15.x64.exe /quiet /norestart
+      
       - name: Run EXE tests
         run: |
           ./build/pdf2zh.exe --version
@@ -202,7 +241,7 @@ jobs:
       - name: Convert to lowercase
         run: echo "GHCR_REPO_LOWER=$(echo ${{ env.GHCR_REPO }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.get-latest-release.outputs.tag }}
       - name: Docker meta
@@ -262,7 +301,7 @@ jobs:
       - name: Convert to lowercase
         run: echo "GHCR_REPO_LOWER=$(echo ${{ env.GHCR_REPO }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
       - name: Download digests
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           path: ${{ runner.temp }}/digests
           pattern: digests-*
@@ -307,11 +346,11 @@ jobs:
       contents: write
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.get-latest-release.outputs.tag }}
       - name: Download build artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: win64-exe-with-assets
           path: ./build

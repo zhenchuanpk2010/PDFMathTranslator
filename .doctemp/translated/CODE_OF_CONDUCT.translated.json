@@ -1,0 +1,474 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/CODE_OF_CONDUCT.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_D4E24BCF",
+      "chunk_type": "header",
+      "original_content": "# Contributor Covenant Code of Conduct\n",
+      "start_line_no": 1,
+      "translations": {
+        "ko": "# 기여자 규약 행동 강령\n",
+        "zh_TW": "# 貢獻者公約行為準則\n",
+        "es": "# Código de Conducta del Pacto del Contribuyente\n",
+        "pt": "# Código de Conduta do Pacto do Contribuidor\n",
+        "ja": "# コントリビューター行動規範\n",
+        "ru": "# Кодекс поведения Contributor Covenant\n",
+        "zh": "# 贡献者公约行为准则\n",
+        "fr": "# Code de conduite du Contributeur Covenant\n",
+        "it": "# Codice di Condotta del Patto del Collaboratore\n",
+        "de": "# Verhaltenskodex für Mitwirkende\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_18B00C61",
+      "chunk_type": "header",
+      "original_content": "## Our Pledge\n",
+      "start_line_no": 3,
+      "translations": {
+        "es": "## Nuestro Compromiso\n",
+        "zh_TW": "## 我們的承諾\n",
+        "zh": "## 我们的承诺\n",
+        "pt": "## Nosso Compromisso\n",
+        "fr": "## Notre Engagement\n",
+        "ko": "## 우리의 서약\n",
+        "it": "## Il nostro impegno\n",
+        "ja": "## 私たちの誓い\n",
+        "de": "## Unser Versprechen\n",
+        "ru": "## Наше обязательство\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_49BBC232",
+      "chunk_type": "paragraph",
+      "original_content": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh": "作为社区成员、贡献者和领导者，我们承诺让每个人在参与社区时都能获得免受骚扰的体验，无论其年龄、体型、可见或不可见的残障、民族、性别特征、性别认同与表达、经验水平、教育程度、社会经济地位、国籍、外貌、种族、宗教信仰、性取向或性别认同如何。\n\n我们承诺以促进开放、友好、多元、包容且健康的社区氛围为准则来行动和互动。\n",
+        "ko": "우리 구성원, 기여자, 리더로서 우리는 모든 사람이 나이, 체격, 보이거나 보이지 않는 장애, 민족성, 성적 특성, 성 정체성과 표현, 경험 수준, 교육, 사회경제적 지위, 국적, 외모, 인종, 종교, 성적 정체성과 성적 지향에 관계없이 우리 커뮤니티에 참여하는 것이 괴롭힘 없는 경험이 되도록 하겠다고 약속합니다.\n\n우리는 개방적이고 환영하는, 다양하며 포용적이고 건강한 커뮤니티에 기여하는 방식으로 행동하고 상호작용하겠다고 약속합니다.\n",
+        "ru": "Мы, как участники, авторы и лидеры, обязуемся сделать участие в нашем сообществе свободным от преследований для всех, независимо от возраста, размера тела, видимых или невидимых ограничений, этнической принадлежности, половых характеристик, гендерной идентичности и самовыражения, уровня опыта, образования, социально-экономического статуса, национальности, внешнего вида, расы, религии, сексуальной идентичности и ориентации.\n\nМы обязуемся действовать и взаимодействовать таким образом, чтобы способствовать созданию открытого, гостеприимного, разнообразного, инклюзивного и здорового сообщества.\n",
+        "ja": "私たちメンバー、貢献者、リーダーは、年齢、体型、目に見えるまたは目に見えない障害、民族性、性的特徴、性自認および表現、経験のレベル、教育、社会経済的地位、国籍、外見、人種、宗教、または性的指向や性自認に関わらず、すべての人にとってハラスメントのないコミュニティ参加体験を提供することを誓います。\n\n私たちは、オープンで歓迎的で多様性に富み、包括的で健全なコミュニティに貢献する方法で行動し、交流することを誓います。\n",
+        "zh_TW": "我們作為成員、貢獻者和領導者，承諾讓參與我們社區的每個人，無論年齡、體型、可見或不可見的殘疾、種族、性別特徵、性別認同與表達、經驗水平、教育程度、社會經濟地位、國籍、外貌、種族、宗教、性取向或性別認同，都能享有免於騷擾的體驗。\n\n我們承諾以促進開放、歡迎、多元、包容且健康的社區方式行動與互動。\n",
+        "pt": "Nós, como membros, colaboradores e líderes, nos comprometemos a tornar a participação em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho do corpo, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.\n\nNos comprometemos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversa, inclusiva e saudável.\n",
+        "es": "Nosotros, como miembros, colaboradores y líderes, nos comprometemos a hacer que la participación en nuestra comunidad sea una experiencia libre de acoso para todos, independientemente de la edad, el tamaño corporal, la discapacidad visible o invisible, la etnia, las características sexuales, la identidad y expresión de género, el nivel de experiencia, la educación, el estatus socioeconómico, la nacionalidad, la apariencia personal, la raza, la religión, o la identidad y orientación sexual.\n\nNos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y saludable.\n",
+        "it": "Noi, in qualità di membri, contributori e leader, ci impegniamo a rendere la partecipazione nella nostra comunità un'esperienza libera da molestie per tutti, indipendentemente dall'età, dalle dimensioni del corpo, da disabilità visibili o invisibili, dall'etnia, dalle caratteristiche sessuali, dall'identità e dall'espressione di genere, dal livello di esperienza, dall'istruzione, dallo status socio-economico, dalla nazionalità, dall'aspetto personale, dalla razza, dalla religione o dall'identità e dall'orientamento sessuale.\n\nCi impegniamo ad agire e interagire in modi che contribuiscono a una comunità aperta, accogliente, diversificata, inclusiva e sana.\n",
+        "de": "Wir als Mitglieder, Mitwirkende und Führungskräfte verpflichten uns, die Teilnahme an unserer Gemeinschaft zu einer belästigungsfreien Erfahrung für alle zu machen, unabhängig von Alter, Körpergröße, sichtbarer oder unsichtbarer Behinderung, ethnischer Zugehörigkeit, Geschlechtsmerkmalen, Geschlechtsidentität und -ausdruck, Erfahrungsniveau, Bildung, sozioökonomischem Status, Nationalität, persönlichem Aussehen, Rasse, Religion oder sexueller Identität und Orientierung.\n\nWir verpflichten uns, auf eine Weise zu handeln und zu interagieren, die zu einer offenen, einladenden, vielfältigen, inklusiven und gesunden Gemeinschaft beiträgt.\n",
+        "fr": "En tant que membres, contributeurs et leaders, nous nous engageons à faire de la participation à notre communauté une expérience sans harcèlement pour tous, quel que soit l'âge, la taille du corps, le handicap visible ou invisible, l'origine ethnique, les caractéristiques sexuelles, l'identité et l'expression de genre, le niveau d'expérience, l'éducation, le statut socio-économique, la nationalité, l'apparence personnelle, la race, la religion ou l'identité et l'orientation sexuelles.\n\nNous nous engageons à agir et à interagir de manière à contribuer à une communauté ouverte, accueillante, diverse, inclusive et saine.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_45AD4A2F",
+      "chunk_type": "header",
+      "original_content": "## Our Standards\n",
+      "start_line_no": 9,
+      "translations": {
+        "fr": "## Nos normes\n",
+        "zh": "## 我们的标准\n",
+        "it": "## I nostri standard\n",
+        "ru": "## Наши стандарты\n",
+        "zh_TW": "## 我們的標準\n",
+        "ja": "## 私たちの基準\n",
+        "es": "## Nuestros estándares\n",
+        "pt": "## Nossos Padrões\n",
+        "de": "## Unsere Standards\n",
+        "ko": "## 우리의 기준\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_131B12AA",
+      "chunk_type": "paragraph",
+      "original_content": "Examples of behavior that contributes to a positive environment for our community include:\n",
+      "start_line_no": 11,
+      "translations": {
+        "zh": "为我们的社区营造积极环境的行为示例包括：\n",
+        "pt": "Exemplos de comportamentos que contribuem para um ambiente positivo em nossa comunidade incluem:\n",
+        "fr": "Exemples de comportements qui contribuent à un environnement positif pour notre communauté incluent :\n",
+        "ru": "Примеры поведения, способствующего созданию благоприятной среды для нашего сообщества, включают:\n",
+        "zh_TW": "為我們的社區營造積極環境的行為範例包括：\n",
+        "it": "Esempi di comportamento che contribuiscono a un ambiente positivo per la nostra comunità includono:\n",
+        "ja": "コミュニティにポジティブな環境をもたらす行動の例としては、以下のようなものがあります：\n",
+        "ko": "커뮤니티에 긍정적인 환경을 조성하는 행동의 예시는 다음과 같습니다:\n",
+        "es": "Ejemplos de comportamiento que contribuyen a un entorno positivo para nuestra comunidad incluyen:\n",
+        "de": "Beispiele für Verhaltensweisen, die zu einer positiven Umgebung für unsere Gemeinschaft beitragen, sind:\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8C8AA428",
+      "chunk_type": "list",
+      "original_content": "* Demonstrating empathy and kindness toward other people\n* Being respectful of differing opinions, viewpoints, and experiences\n* Giving and gracefully accepting constructive feedback\n* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\n* Focusing on what is best not just for us as individuals, but for the overall community\n",
+      "start_line_no": 13,
+      "translations": {
+        "zh_TW": "* 對他人展現同理心與善意\n* 尊重不同的意見、觀點與經驗\n* 給予並優雅接受建設性反饋\n* 承擔責任並向受我們錯誤影響的人道歉，從經驗中學習\n* 關注的不僅是對我們個人最有利的事，更是對整個社區最有益的事\n",
+        "zh": "* 对他人表现出同理心和善意\n* 尊重不同的意见、观点和经历\n* 给予并优雅地接受建设性反馈\n* 承担责任并向受我们错误影响的人道歉，并从经验中学习\n* 关注不仅对我们个人最有利的事情，而且对整个社区最有利的事情\n",
+        "it": "* Dimostrare empatia e gentilezza verso gli altri  \n* Essere rispettosi delle opinioni, dei punti di vista e delle esperienze diverse  \n* Dare e accettare con grazia feedback costruttivi  \n* Accettare la responsabilità e scusarsi con coloro che sono stati influenzati dai nostri errori, imparando dall'esperienza  \n* Concentrarsi su ciò che è meglio non solo per noi come individui, ma per l'intera comunità\n",
+        "ja": "* 他の人々に対して共感と思いやりを示すこと\n* 異なる意見、視点、経験を尊重すること\n* 建設的なフィードバックを与え、優雅に受け入れること\n* 責任を受け入れ、私たちのミスによって影響を受けた人々に謝罪し、その経験から学ぶこと\n* 個人としてだけでなく、コミュニティ全体にとって最善なことに焦点を当てること\n",
+        "ru": "* Проявление эмпатии и доброты по отношению к другим людям  \n* Уважение к различным мнениям, точкам зрения и опыту  \n* Предоставление и достойное принятие конструктивной обратной связи  \n* Принятие ответственности и извинение перед теми, кого затронули наши ошибки, а также извлечение уроков из этого опыта  \n* Фокусирование на том, что лучше не только для нас как индивидуумов, но и для всего сообщества в целом\n",
+        "es": "* Demostrar empatía y amabilidad hacia otras personas  \n* Ser respetuoso con las diferentes opiniones, puntos de vista y experiencias  \n* Dar y aceptar con gracia comentarios constructivos  \n* Aceptar la responsabilidad y disculparse con aquellos afectados por nuestros errores, y aprender de la experiencia  \n* Centrarse en lo que es mejor no solo para nosotros como individuos, sino para la comunidad en general\n",
+        "pt": "* Demonstrar empatia e gentileza em relação às outras pessoas  \n* Ser respeitoso com opiniões, pontos de vista e experiências diferentes  \n* Dar e aceitar com elegância feedbacks construtivos  \n* Assumir responsabilidade e pedir desculpas àqueles afetados por nossos erros, e aprender com a experiência  \n* Focar no que é melhor não apenas para nós como indivíduos, mas para toda a comunidade\n",
+        "fr": "* Faire preuve d'empathie et de gentillesse envers les autres  \n* Respecter les opinions, points de vue et expériences différents  \n* Donner et accepter avec grâce les retours constructifs  \n* Assumer la responsabilité et s'excuser auprès des personnes affectées par nos erreurs, et apprendre de l'expérience  \n* Se concentrer sur ce qui est le mieux, non seulement pour nous en tant qu'individus, mais aussi pour l'ensemble de la communauté\n",
+        "de": "* Empathie und Freundlichkeit gegenüber anderen Menschen zeigen  \n* Respekt vor unterschiedlichen Meinungen, Ansichten und Erfahrungen haben  \n* Konstruktives Feedback geben und annehmen  \n* Verantwortung übernehmen und sich bei denjenigen entschuldigen, die von unseren Fehlern betroffen sind, und aus den Erfahrungen lernen  \n* Sich darauf konzentrieren, was nicht nur für uns als Einzelne, sondern für die gesamte Gemeinschaft am besten ist\n",
+        "ko": "* 다른 사람들에게 공감과 친절을 보여주기\n* 다른 의견, 관점, 경험을 존중하기\n* 건설적인 피드백을 주고 우아하게 받아들이기\n* 실수로 영향을 받은 사람들에게 책임을 지고 사과하며, 그 경험으로부터 배우기\n* 개인뿐만 아니라 전체 커뮤니티를 위해 최선을 다하기\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_9D3CC4B6",
+      "chunk_type": "paragraph",
+      "original_content": "Examples of unacceptable behavior include:\n",
+      "start_line_no": 19,
+      "translations": {
+        "zh": "不可接受行为的示例包括：\n",
+        "it": "Esempi di comportamenti inaccettabili includono:\n",
+        "de": "Beispiele für inakzeptables Verhalten sind:\n",
+        "ja": "許容できない行動の例には以下が含まれます：\n",
+        "ru": "Примеры неприемлемого поведения включают:\n",
+        "pt": "Exemplos de comportamentos inaceitáveis incluem:\n",
+        "fr": "Exemples de comportements inacceptables incluent :\n",
+        "ko": "허용되지 않는 행동의 예시는 다음과 같습니다:\n",
+        "es": "Ejemplos de comportamiento inaceptable incluyen:\n",
+        "zh_TW": "不可接受行為的例子包括：\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_06867E28",
+      "chunk_type": "list",
+      "original_content": "* The use of sexualized language or imagery, and sexual attention or advances of any kind\n* Trolling, insulting or derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or email address, without their explicit permission\n* Other conduct which could reasonably be considered inappropriate in a professional setting\n",
+      "start_line_no": 21,
+      "translations": {
+        "zh": "* 使用带有性暗示的语言或图像，以及任何形式的性关注或挑逗行为\n* 恶意挑衅、侮辱性或贬损性评论，以及人身或政治攻击\n* 公开或私下的骚扰行为\n* 未经他人明确许可，公开其私人信息（如住址或电子邮箱）\n* 其他在专业场合下被认为不当的行为\n",
+        "ja": "* 性的な表現やイメージの使用、およびあらゆる種類の性的な関心やアプローチ\n* 荒らし、侮辱的または中傷的なコメント、個人的または政治的な攻撃\n* 公的または私的な嫌がらせ\n* 明示的な許可なしに、他人の住所やメールアドレスなどの個人情報を公開すること\n* 専門的な環境において不適切と合理的に考えられるその他の行為\n",
+        "zh_TW": "* 使用帶有性暗示的語言或圖像，以及任何形式的性關注或挑逗行為  \n* 惡意挑釁、侮辱或貶低性言論，以及個人或政治攻擊  \n* 公開或私下的騷擾行為  \n* 在未經他人明確許可的情況下，公開其私人信息（如實體地址或電子郵件地址）  \n* 其他在專業場合中被合理視為不當的行為\n",
+        "ko": "* 성적인 언어나 이미지 사용, 그리고 어떠한 형태의 성적 관심이나 접근\n* 트롤링, 모욕적이거나 비하하는 댓글, 개인적 또는 정치적 공격\n* 공개적 또는 사적인 괴롭힘\n* 명시적인 허락 없이 다른 사람의 개인 정보 (예: 실제 주소나 이메일 주소) 를 공개하는 행위\n* 전문적인 환경에서 부적절하다고 합리적으로 간주될 수 있는 기타 행위\n",
+        "de": "* Die Verwendung sexualisierter Sprache oder Bilder sowie sexuelle Aufmerksamkeit oder Annäherungsversuche jeglicher Art  \n* Trollen, beleidigende oder abfällige Kommentare sowie persönliche oder politische Angriffe  \n* Belästigung in der Öffentlichkeit oder im Privaten  \n* Das Veröffentlichen privater Informationen anderer, wie einer physischen Adresse oder E-Mail-Adresse, ohne deren ausdrückliche Erlaubnis  \n* Anderes Verhalten, das vernünftigerweise als unangemessen in einem professionellen Umfeld betrachtet werden könnte\n",
+        "es": "* El uso de lenguaje o imágenes sexualizadas, y atención o avances sexuales de cualquier tipo  \n* Comentarios de troleo, insultos o despectivos, y ataques personales o políticos  \n* Acoso público o privado  \n* Publicar información privada de otros, como una dirección física o de correo electrónico, sin su permiso explícito  \n* Otros comportamientos que razonablemente podrían considerarse inapropiados en un entorno profesional\n",
+        "it": "* L'uso di linguaggio o immagini sessualizzati, e attenzioni o avances sessuali di qualsiasi tipo\n* Trollaggio, commenti insultanti o denigratori, e attacchi personali o politici\n* Molestie pubbliche o private\n* La pubblicazione di informazioni private altrui, come un indirizzo fisico o email, senza il loro esplicito permesso\n* Altri comportamenti che potrebbero ragionevolmente essere considerati inappropriati in un contesto professionale\n",
+        "fr": "* L'utilisation d'un langage ou d'imagerie sexualisés, et toute attention ou avance de nature sexuelle  \n* Le trollage, les commentaires insultants ou désobligeants, et les attaques personnelles ou politiques  \n* Le harcèlement, public ou privé  \n* La publication d'informations privées d'autrui, telles qu'une adresse physique ou électronique, sans leur permission explicite  \n* Tout autre comportement qui pourrait raisonnablement être considéré comme inapproprié dans un cadre professionnel\n",
+        "pt": "* O uso de linguagem ou imagens sexualizadas, e atenção ou avanços sexuais de qualquer tipo  \n* Trollagem, comentários insultuosos ou depreciativos, e ataques pessoais ou políticos  \n* Assédio público ou privado  \n* Publicar informações privadas de outras pessoas, como endereço físico ou de e-mail, sem sua permissão explícita  \n* Outros comportamentos que possam razoavelmente ser considerados inadequados em um ambiente profissional\n",
+        "ru": "* Использование сексуализированного языка или образов, а также сексуальное внимание или домогательства любого рода  \n* Троллинг, оскорбительные или уничижительные комментарии, а также личные или политические нападки  \n* Публичное или частное преследование  \n* Публикация личной информации других лиц, такой как физический или электронный адрес, без их явного разрешения  \n* Другое поведение, которое может быть разумно сочтено неуместным в профессиональной обстановке\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F1541146",
+      "chunk_type": "header",
+      "original_content": "## Enforcement Responsibilities\n",
+      "start_line_no": 27,
+      "translations": {
+        "fr": "## Responsabilités d'application\n",
+        "zh_TW": "## 執行責任\n",
+        "ko": "## 시행 책임\n",
+        "zh": "## 执行职责\n",
+        "it": "## Responsabilità di applicazione\n",
+        "es": "## Responsabilidades de Aplicación\n",
+        "ja": "## 施行責任\n",
+        "pt": "## Responsabilidades de Fiscalização\n",
+        "ru": "## Обязанности по обеспечению соблюдения\n",
+        "de": "## Durchsetzungsverantwortung\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_EE74991B",
+      "chunk_type": "paragraph",
+      "original_content": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n",
+      "start_line_no": 29,
+      "translations": {
+        "zh": "社区领导者负责阐明和执行我们的可接受行为标准，并会对任何他们认为不当、威胁、冒犯或有害的行为采取适当且公正的纠正措施。\n\n社区领导者有权且有责任删除、编辑或拒绝不符合本行为准则的评论、提交、代码、Wiki 编辑、问题和其他贡献，并会在适当时说明审核决策的原因。\n",
+        "ru": "Лидеры сообщества несут ответственность за разъяснение и соблюдение наших стандартов приемлемого поведения и предпримут соответствующие и справедливые корректирующие действия в ответ на любое поведение, которое они сочтут неприемлемым, угрожающим, оскорбительным или вредным.\n\nЛидеры сообщества имеют право и обязанность удалять, редактировать или отклонять комментарии, коммиты, код, правки вики, вопросы и другие вклады, которые не соответствуют настоящему Кодексу поведения, и будут сообщать причины решений о модерации, когда это уместно.\n",
+        "fr": "Les leaders de la communauté sont responsables de clarifier et de faire respecter nos normes de comportement acceptable et prendront des mesures correctives appropriées et équitables en réponse à tout comportement qu'ils jugent inapproprié, menaçant, offensant ou nuisible.\n\nLes leaders de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter les commentaires, commits, code, modifications de wiki, problèmes et autres contributions qui ne sont pas conformes à ce Code de Conduite, et communiqueront les raisons des décisions de modération lorsque cela est approprié.\n",
+        "es": "Los líderes de la comunidad son responsables de aclarar y hacer cumplir nuestros estándares de comportamiento aceptable y tomarán medidas correctivas apropiadas y justas en respuesta a cualquier comportamiento que consideren inapropiado, amenazante, ofensivo o dañino.\n\nLos líderes de la comunidad tienen el derecho y la responsabilidad de eliminar, editar o rechazar comentarios, commits, código, ediciones de wiki, problemas y otras contribuciones que no estén alineadas con este Código de Conducta, y comunicarán las razones de las decisiones de moderación cuando sea apropiado.\n",
+        "ja": "コミュニティリーダーは、許容可能な行動基準を明確にし、それを執行する責任があり、不適切、脅威的、攻撃的、または有害と判断される行動に対して、適切かつ公正な是正措置を講じます。\n\nコミュニティリーダーは、この行動規範に沿わないコメント、コミット、コード、Wiki 編集、Issue、その他の貢献を削除、編集、または拒否する権利と責任を有し、適切な場合にはモデレーション決定の理由を説明します。\n",
+        "pt": "Os líderes da comunidade são responsáveis por esclarecer e fazer cumprir nossos padrões de comportamento aceitável e tomarão medidas corretivas apropriadas e justas em resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo ou prejudicial.\n\nOs líderes da comunidade têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, problemas e outras contribuições que não estejam alinhadas a este Código de Conduta, e comunicarão os motivos das decisões de moderação quando apropriado.\n",
+        "ko": "커뮤니티 리더는 허용 가능한 행동 기준을 명확히 하고 시행할 책임이 있으며, 부적절하거나 위협적이거나 공격적이거나 유해하다고 판단되는 모든 행동에 대해 적절하고 공정한 시정 조치를 취할 것입니다.\n\n커뮤니티 리더는 이 행동 강령에 부합하지 않는 댓글, 커밋, 코드, 위키 편집, 이슈 및 기타 기여를 삭제, 수정 또는 거부할 권리와 책임이 있으며, 적절한 경우 중재 결정에 대한 이유를 설명할 것입니다.\n",
+        "zh_TW": "社區領袖有責任釐清並執行我們的可接受行為標準，並會針對任何他們認為不當、威脅性、冒犯性或有害的行為，採取適當且公正的糾正措施。\n\n社區領袖有權且有責任刪除、編輯或拒絕與本行為準則不符的評論、提交、代碼、維基編輯、問題及其他貢獻，並在適當時說明管理決策的原因。\n",
+        "it": "I leader della comunità sono responsabili di chiarire e far rispettare i nostri standard di comportamento accettabile e intraprenderanno azioni correttive appropriate ed eque in risposta a qualsiasi comportamento che ritengano inappropriato, minaccioso, offensivo o dannoso.\n\nI leader della comunità hanno il diritto e la responsabilità di rimuovere, modificare o rifiutare commenti, commit, codice, modifiche wiki, issue e altri contributi che non sono allineati a questo Codice di Condotta, e comunicheranno le ragioni delle decisioni di moderazione quando opportuno.\n",
+        "de": "Gemeinschaftsleiter sind dafür verantwortlich, unsere Standards für akzeptables Verhalten zu klären und durchzusetzen. Sie werden angemessene und faire Korrekturmaßnahmen ergreifen, um auf jedes Verhalten zu reagieren, das sie als unangemessen, bedrohlich, beleidigend oder schädlich erachten.\n\nGemeinschaftsleiter haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Bearbeitungen, Issues und andere Beiträge zu entfernen, zu bearbeiten oder abzulehnen, die nicht mit diesem Verhaltenskodex übereinstimmen. Sie werden die Gründe für Moderationsentscheidungen kommunizieren, wenn dies angemessen ist.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_EC6E1121",
+      "chunk_type": "header",
+      "original_content": "## Scope\n",
+      "start_line_no": 33,
+      "translations": {
+        "zh": "## 适用范围\n",
+        "es": "## Alcance\n",
+        "pt": "## Escopo\n",
+        "fr": "## Portée\n",
+        "ru": "## Область применения\n",
+        "de": "## Anwendungsbereich\n",
+        "ja": "## 範囲\n",
+        "it": "## Ambito\n",
+        "zh_TW": "## 範圍\n",
+        "ko": "## 범위\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_C8A3DB27",
+      "chunk_type": "paragraph",
+      "original_content": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n",
+      "start_line_no": 35,
+      "translations": {
+        "zh": "本行为准则适用于所有社区空间，同时也适用于个人在公共场合正式代表社区的情况。代表我们社区的示例包括使用官方电子邮件地址、通过官方社交媒体账号发布内容，或在线上/线下活动中担任指定代表。\n",
+        "fr": "Ce Code de conduite s'applique dans tous les espaces communautaires, et s'applique également lorsqu'un individu représente officiellement la communauté dans des espaces publics. Des exemples de représentation de notre communauté incluent l'utilisation d'une adresse e-mail officielle, la publication via un compte officiel sur les réseaux sociaux, ou le fait d'agir en tant que représentant désigné lors d'un événement en ligne ou hors ligne.\n",
+        "pt": "Este Código de Conduta se aplica dentro de todos os espaços da comunidade e também se aplica quando um indivíduo está representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem o uso de um endereço de e-mail oficial, postagens por meio de uma conta oficial de mídia social ou atuar como representante designado em um evento online ou offline.\n",
+        "ja": "この行動規範は、すべてのコミュニティスペース内で適用され、また、個人が公式にコミュニティを代表して公共の場で行動する場合にも適用されます。私たちのコミュニティを代表する例としては、公式のメールアドレスを使用する、公式のソーシャルメディアアカウントを通じて投稿する、またはオンラインまたはオフラインのイベントで任命された代表者として行動することが含まれます。\n",
+        "zh_TW": "本行為準則適用於所有社區空間，同時也適用於個人正式代表社區於公共場合時。代表我們社區的範例包括使用官方電子郵件地址、透過官方社群媒體帳號發文，或是在線上或線下活動中擔任指定代表。\n",
+        "it": "Questo Codice di Condotta si applica all'interno di tutti gli spazi della comunità e si applica anche quando un individuo rappresenta ufficialmente la comunità in spazi pubblici. Esempi di rappresentanza della nostra comunità includono l'utilizzo di un indirizzo e-mail ufficiale, la pubblicazione tramite un account ufficiale sui social media o l'azione come rappresentante designato in un evento online o offline.\n",
+        "ru": "Этот Кодекс поведения применяется во всех сообществах и также действует, когда человек официально представляет сообщество в публичных пространствах. Примеры представления нашего сообщества включают использование официального адреса электронной почты, публикации через официальный аккаунт в социальных сетях или выступление в качестве назначенного представителя на онлайн- или оффлайн-мероприятиях.\n",
+        "ko": "이 행동 강령은 모든 커뮤니티 공간 내에서 적용되며, 개인이 공식적으로 커뮤니티를 대표하는 공공 장소에서도 적용됩니다. 우리 커뮤니티를 대표하는 예로는 공식 이메일 주소 사용, 공식 소셜 미디어 계정을 통한 게시, 또는 온라인 또는 오프라인 행사에서 지정된 대표자로 활동하는 것이 포함됩니다.\n",
+        "es": "Este Código de Conducta se aplica dentro de todos los espacios de la comunidad, y también se aplica cuando un individuo representa oficialmente a la comunidad en espacios públicos. Ejemplos de representar a nuestra comunidad incluyen el uso de una dirección de correo electrónico oficial, publicaciones a través de una cuenta oficial de redes sociales, o actuar como representante designado en un evento en línea o fuera de línea.\n",
+        "de": "Dieser Verhaltenskodex gilt in allen Gemeinschaftsräumen und gilt auch, wenn eine Person die Gemeinschaft offiziell in öffentlichen Räumen vertritt. Beispiele für die Vertretung unserer Gemeinschaft sind die Verwendung einer offiziellen E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B7BB8282",
+      "chunk_type": "header",
+      "original_content": "## Enforcement\n",
+      "start_line_no": 37,
+      "translations": {
+        "it": "## Applicazione\n",
+        "fr": "## Application\n",
+        "pt": "## Aplicação\n",
+        "ja": "## 施行\n",
+        "zh_TW": "## 執行\n",
+        "ko": "## 시행\n",
+        "zh": "## 执行\n",
+        "de": "## Durchsetzung\n",
+        "ru": "## Применение\n",
+        "es": "## Aplicación\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_BBB24E28",
+      "chunk_type": "paragraph",
+      "original_content": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at `aw@funstory.ai` .\nAll complaints will be reviewed and investigated promptly and fairly.\n\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n",
+      "start_line_no": 39,
+      "translations": {
+        "pt": "Casos de comportamento abusivo, assédio ou qualquer outro comportamento inaceitável podem ser relatados aos líderes da comunidade responsáveis pela aplicação em `aw@funstory.ai`.  \nTodas as reclamações serão revisadas e investigadas de forma rápida e justa.  \n\nTodos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança do denunciante de qualquer incidente.\n",
+        "zh": "对于任何辱骂、骚扰或其他不可接受行为的实例，可向负责执行的社区领导者举报，邮箱为 `aw@funstory.ai`。  \n所有投诉都将得到及时且公正的审查与调查。  \n\n所有社区领导者均有义务尊重举报人的隐私与安全。\n",
+        "ru": "Экземпляры оскорбительного, преследующего или иного неприемлемого поведения могут быть сообщены лидерам сообщества, ответственным за соблюдение правил, по адресу `aw@funstory.ai`.  \nВсе жалобы будут рассмотрены и расследованы оперативно и справедливо.  \n\nВсе лидеры сообщества обязаны уважать конфиденциальность и безопасность лица, сообщившего о любом инциденте.\n",
+        "fr": "Les cas de comportement abusif, harcelant ou autrement inacceptable peuvent être signalés aux responsables de la communauté chargés de l'application des règles à l'adresse `aw@funstory.ai`.  \nToutes les plaintes seront examinées et traitées rapidement et équitablement.  \n\nTous les responsables de la communauté sont tenus de respecter la confidentialité et la sécurité du signalant de tout incident.\n",
+        "zh_TW": "任何濫用、騷擾或其他不可接受的行為實例，均可向負責執行的社區領袖報告，聯繫方式為 `aw@funstory.ai`。\n所有投訴將得到及時且公正的審查與調查。\n\n所有社區領袖均有義務尊重事件舉報者的隱私與安全。\n",
+        "ko": "학대, 괴롭힘 또는 기타 용납할 수 없는 행동의 사례는 `aw@funstory.ai` 에서 집행을 담당하는 커뮤니티 리더들에게 보고될 수 있습니다.  \n모든 불만 사항은 신속하고 공정하게 검토 및 조사될 것입니다.  \n\n모든 커뮤니티 리더는 사건 신고자의 개인정보와 보안을 존중할 의무가 있습니다.\n",
+        "es": "Los casos de comportamiento abusivo, acosador o inaceptable pueden ser reportados a los líderes de la comunidad responsables de la aplicación en `aw@funstory.ai`.  \nTodas las quejas serán revisadas e investigadas de manera rápida y justa.  \n\nTodos los líderes de la comunidad están obligados a respetar la privacidad y seguridad del denunciante de cualquier incidente.\n",
+        "ja": "虐待的、嫌がらせ的、またはその他の容認できない行為の事例は、執行を担当するコミュニティリーダーに `aw@funstory.ai` まで報告することができます。  \nすべての苦情は迅速かつ公平に審査・調査されます。  \n\nすべてのコミュニティリーダーは、いかなる事件の報告者のプライバシーとセキュリティを尊重する義務があります。\n",
+        "de": "Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können den für die Durchsetzung verantwortlichen Gemeinschaftsleitern unter `aw@funstory.ai` gemeldet werden.  \nAlle Beschwerden werden prompt und fair überprüft und untersucht.  \n\nAlle Gemeinschaftsleiter sind verpflichtet, die Privatsphäre und Sicherheit des Meldenden eines Vorfalls zu respektieren.\n",
+        "it": "Gli episodi di comportamento abusivo, molesto o comunque inaccettabile possono essere segnalati ai leader della comunità responsabili dell'applicazione delle regole all'indirizzo `aw@funstory.ai`.  \nTutte le segnalazioni saranno esaminate e investigate in modo tempestivo ed equo.  \n\nTutti i leader della comunità sono tenuti a rispettare la privacy e la sicurezza del segnalante di qualsiasi incidente.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_917146E0",
+      "chunk_type": "header",
+      "original_content": "## Enforcement Guidelines\n",
+      "start_line_no": 44,
+      "translations": {
+        "zh_TW": "## 執行指南\n",
+        "ko": "## 시행 지침\n",
+        "zh": "## 执行指南\n",
+        "de": "## Durchsetzungsrichtlinien\n",
+        "ja": "## 施行ガイドライン\n",
+        "it": "## Linee guida per l'applicazione\n",
+        "es": "## Directrices de aplicación\n",
+        "fr": "## Directives d'application\n",
+        "ru": "## Руководство по применению\n",
+        "pt": "## Diretrizes de Execução\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_40C51FE2",
+      "chunk_type": "paragraph",
+      "original_content": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n",
+      "start_line_no": 46,
+      "translations": {
+        "zh_TW": "社群領導者將依據這些社群影響指南，來決定他們認為違反此行為準則的任何行動所應承擔的後果：\n",
+        "es": "Los líderes de la comunidad seguirán estas Pautas de Impacto en la Comunidad para determinar las consecuencias de cualquier acción que consideren en violación de este Código de Conducta:\n",
+        "ja": "コミュニティリーダーは、この行動規範に違反すると判断した行為に対して、以下のコミュニティ影響ガイドラインに従って結果を決定します：\n",
+        "ru": "Лидеры сообщества будут руководствоваться этими рекомендациями по влиянию на сообщество при определении последствий для любых действий, которые они сочтут нарушающими данный Кодекс поведения:\n",
+        "pt": "Os líderes da comunidade seguirão estas Diretrizes de Impacto na Comunidade ao determinar as consequências para qualquer ação que considerem em violação deste Código de Conduta:\n",
+        "it": "I leader della comunità seguiranno queste Linee guida sull'impatto della comunità nel determinare le conseguenze per qualsiasi azione che ritengano in violazione di questo Codice di condotta:\n",
+        "ko": "커뮤니티 리더는 이 행동 강령을 위반한다고 판단되는 모든 행동에 대한 결과를 결정할 때 다음의 커뮤니티 영향 지침을 따를 것입니다:\n",
+        "zh": "社区领袖将遵循这些社区影响指南，以确定他们认为违反本行为准则的任何行为的后果：\n",
+        "fr": "Les leaders de la communauté suivront ces directives d'impact communautaire pour déterminer les conséquences de toute action qu'ils jugent en violation de ce code de conduite :\n",
+        "de": "Gemeinschaftsleiter werden diese Richtlinien zur Gemeinschaftsauswirkung befolgen, um die Konsequenzen für jede Handlung zu bestimmen, die sie als Verstoß gegen diesen Verhaltenskodex erachten:\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7DC402F6",
+      "chunk_type": "header",
+      "original_content": "### 1. Correction\n",
+      "start_line_no": 48,
+      "translations": {
+        "es": "### 1. Corrección\n",
+        "ja": "### 1. 修正\n",
+        "ko": "### 1. 교정\n",
+        "zh_TW": "### 1. 修正\n",
+        "zh": "### 1. 校正\n",
+        "ru": "### 1. Исправление\n",
+        "pt": "### 1. Correção\n",
+        "it": "### 1. Correzione\n",
+        "fr": "### 1. Correction\n",
+        "de": "### 1. Korrektur\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_589DD968",
+      "chunk_type": "paragraph",
+      "original_content": "**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\n\n**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n",
+      "start_line_no": 50,
+      "translations": {
+        "pt": "**Impacto na Comunidade**: Uso de linguagem inadequada ou outro comportamento considerado não profissional ou indesejado na comunidade.\n\n**Consequência**: Um aviso privado e por escrito dos líderes da comunidade, esclarecendo a natureza da violação e explicando por que o comportamento foi inadequado. Um pedido público de desculpas pode ser solicitado.\n",
+        "zh": "**社区影响**：在社区中使用不当语言或其他被视为不专业或不受欢迎的行为。\n\n**后果**：社区领导者将私下发出书面警告，明确说明违规行为的性质，并解释为何该行为不当。可能会要求公开道歉。\n",
+        "ru": "**Влияние на сообщество**: Использование неуместного языка или другое поведение, считающееся непрофессиональным или нежелательным в сообществе.\n\n**Последствие**: Частное письменное предупреждение от лидеров сообщества с разъяснением характера нарушения и объяснением, почему поведение было неуместным. Может быть запрошено публичное извинение.\n",
+        "zh_TW": "**社群影響**：在社群中使用不當語言或其他被視為不專業或不受歡迎的行為。\n\n**後果**：社群領導者將私下發出書面警告，明確說明違規行為的性質並解釋為何該行為不恰當。可能會要求公開道歉。\n",
+        "es": "**Impacto en la Comunidad**: Uso de lenguaje inapropiado u otro comportamiento considerado poco profesional o no deseado en la comunidad.\n\n**Consecuencia**: Una advertencia privada y escrita por parte de los líderes de la comunidad, proporcionando claridad sobre la naturaleza de la violación y una explicación de por qué el comportamiento fue inapropiado. Se puede solicitar una disculpa pública.\n",
+        "fr": "**Impact sur la communauté** : Utilisation d'un langage inapproprié ou tout autre comportement jugé non professionnel ou indésirable dans la communauté.\n\n**Conséquence** : Un avertissement privé et écrit des responsables de la communauté, clarifiant la nature de la violation et expliquant pourquoi le comportement était inapproprié. Des excuses publiques peuvent être demandées.\n",
+        "it": "**Impatto sulla Comunità**: Uso di linguaggio inappropriato o altri comportamenti considerati non professionali o non graditi nella comunità.\n\n**Conseguenza**: Un avvertimento scritto e privato da parte dei leader della comunità, che chiarisce la natura della violazione e spiega perché il comportamento era inappropriato. Potrebbe essere richiesta una scusa pubblica.\n",
+        "ko": "**커뮤니티 영향**: 커뮤니티에서 전문적이지 않거나 환영받지 못하는 행동으로 간주되는 부적절한 언어 사용 또는 기타 행위.\n\n**결과**: 커뮤니티 리더로부터 위반 행위의 성격과 해당 행위가 부적절한 이유에 대한 설명을 포함한 개인적인 서면 경고. 공개 사과가 요청될 수 있음.\n",
+        "ja": "**コミュニティへの影響**：不適切な言語の使用や、コミュニティにおいて非専門的または歓迎されないと見なされるその他の行動。\n\n**結果**：コミュニティリーダーからの非公開の書面による警告。違反の性質と、なぜその行動が不適切であったかの説明が提供されます。公開謝罪が求められる場合があります。\n",
+        "de": "**Auswirkungen auf die Gemeinschaft**: Verwendung unangemessener Sprache oder anderweitiges Verhalten, das in der Gemeinschaft als unprofessionell oder unerwünscht angesehen wird.\n\n**Konsequenz**: Eine private, schriftliche Verwarnung von den Gemeinschaftsleitern, die Klarheit über die Art des Verstoßes und eine Erklärung dafür bietet, warum das Verhalten unangemessen war. Eine öffentliche Entschuldigung kann verlangt werden.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_4AE59666",
+      "chunk_type": "header",
+      "original_content": "### 2. Warning\n",
+      "start_line_no": 54,
+      "translations": {
+        "zh": "### 2. 警告\n",
+        "ru": "### 2. Предупреждение\n",
+        "pt": "### 2. Aviso\n",
+        "zh_TW": "### 2. 警告\n",
+        "ja": "### 2. 警告\n",
+        "ko": "### 2. 경고\n",
+        "fr": "### 2. Avertissement\n",
+        "es": "### 2. Advertencia\n",
+        "it": "### 2. Avviso\n",
+        "de": "### 2. Warnung\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8645DDC9",
+      "chunk_type": "paragraph",
+      "original_content": "**Community Impact**: A violation through a single incident or series of actions.\n\n**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n",
+      "start_line_no": 56,
+      "translations": {
+        "zh": "**社区影响**：通过单次事件或一系列行为造成的违规。\n\n**后果**：警告并附带对持续行为的处罚措施。在指定期限内不得与相关人员互动，包括未经请求与执行行为准则的人员互动。这包括避免在社区空间及社交媒体等外部渠道的互动。违反这些条款可能导致临时或永久封禁。\n",
+        "es": "**Impacto en la Comunidad**: Una violación a través de un incidente único o una serie de acciones.\n\n**Consecuencia**: Una advertencia con consecuencias por comportamiento continuado. Sin interacción con las personas involucradas, incluyendo interacción no solicitada con aquellos que hacen cumplir el Código de Conducta, por un período de tiempo especificado. Esto incluye evitar interacciones en espacios comunitarios así como en canales externos como redes sociales. Violar estos términos puede llevar a una prohibición temporal o permanente.\n",
+        "ja": "**コミュニティへの影響**：単一のインシデントまたは一連の行動による違反。\n\n**結果**：継続的な行動に対する結果を伴う警告。指定された期間、関係者とのやり取りを禁止します。これには、コミュニティスペースでのやり取りだけでなく、ソーシャルメディアなどの外部チャンネルでの一方的なやり取りも含まれます。これらの条件に違反すると、一時的または永久的な追放につながる可能性があります。\n",
+        "zh_TW": "**社群影響**：單一事件或一系列行為造成的違規。\n\n**後果**：警告並附帶持續行為的後果。在指定時間內不得與相關人員互動，包括主動與執行行為準則的人員接觸。這包括避免在社群空間及外部管道（如社交媒體）上的互動。違反這些條款可能導致暫時或永久封禁。\n",
+        "it": "**Impatto sulla Comunità**: Una violazione attraverso un singolo incidente o una serie di azioni.\n\n**Conseguenza**: Un avvertimento con conseguenze per il comportamento continuato. Nessuna interazione con le persone coinvolte, compresa l'interazione non richiesta con coloro che fanno rispettare il Codice di Condotta, per un periodo di tempo specificato. Ciò include evitare interazioni negli spazi della comunità così come nei canali esterni come i social media. La violazione di questi termini può portare a un ban temporaneo o permanente.\n",
+        "pt": "**Impacto na Comunidade**: Uma violação através de um único incidente ou série de ações.\n\n**Consequência**: Um aviso com consequências para comportamento contínuo. Nenhuma interação com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, por um período de tempo especificado. Isso inclui evitar interações nos espaços da comunidade, bem como em canais externos como mídias sociais. Violar esses termos pode levar a uma suspensão temporária ou permanente.\n",
+        "ru": "**Влияние на сообщество**: Нарушение, совершенное в результате одного инцидента или серии действий.\n\n**Последствие**: Предупреждение с последствиями за продолжение подобного поведения. Запрет на взаимодействие с вовлеченными лицами, включая нежелательное взаимодействие с теми, кто обеспечивает соблюдение Кодекса поведения, на определенный период времени. Это включает избегание взаимодействий в пространствах сообщества, а также на внешних каналах, таких как социальные сети. Нарушение этих условий может привести к временному или постоянному бану.\n",
+        "fr": "**Impact sur la communauté** : Une violation à travers un incident unique ou une série d'actions.\n\n**Conséquence** : Un avertissement avec des conséquences pour un comportement persistant. Aucune interaction avec les personnes concernées, y compris les interactions non sollicitées avec celles faisant respecter le Code de conduite, pour une période de temps spécifiée. Cela inclut d'éviter les interactions dans les espaces communautaires ainsi que les canaux externes comme les médias sociaux. Enfreindre ces conditions peut entraîner une interdiction temporaire ou permanente.\n",
+        "de": "**Auswirkungen auf die Gemeinschaft**: Eine Verletzung durch einen einzelnen Vorfall oder eine Reihe von Handlungen.\n\n**Konsequenz**: Eine Warnung mit Konsequenzen für fortgesetztes Verhalten. Keine Interaktion mit den beteiligten Personen, einschließlich unerwünschter Interaktion mit denen, die den Verhaltenskodex durchsetzen, für einen bestimmten Zeitraum. Dies beinhaltet die Vermeidung von Interaktionen in Gemeinschaftsräumen sowie in externen Kanälen wie sozialen Medien. Die Verletzung dieser Bedingungen kann zu einer vorübergehenden oder dauerhaften Sperrung führen.\n",
+        "ko": "**커뮤니티 영향**: 단일 사건 또는 일련의 행동을 통한 위반.\n\n**결과**: 지속적인 행동에 대한 결과와 함께 경고. 지정된 기간 동안 관련된 사람들과의 상호작용 금지, 이는 행동 강령을 시행하는 사람들과의 원치 않는 상호작용도 포함합니다. 이는 커뮤니티 공간뿐만 아니라 소셜 미디어와 같은 외부 채널에서의 상호작용도 피해야 함을 의미합니다. 이러한 조건을 위반할 경우 일시적 또는 영구적인 차단으로 이어질 수 있습니다.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_357EC7B7",
+      "chunk_type": "header",
+      "original_content": "### 3. Temporary Ban\n",
+      "start_line_no": 60,
+      "translations": {
+        "zh": "### 3. 临时封禁\n",
+        "es": "### 3. Prohibición temporal\n",
+        "ru": "### 3. Временный бан\n",
+        "pt": "### 3. Banimento Temporário\n",
+        "ko": "### 3. 임시 차단\n",
+        "fr": "### 3. Bannissement temporaire\n",
+        "it": "### 3. Divieto temporaneo\n",
+        "de": "### 3. Temporäres Verbot\n",
+        "ja": "### 3. 一時的な利用停止\n",
+        "zh_TW": "### 3. 臨時封禁\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_855D5A2A",
+      "chunk_type": "paragraph",
+      "original_content": "**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.\n\n**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n",
+      "start_line_no": 62,
+      "translations": {
+        "zh": "**社区影响**：严重违反社区标准，包括持续的不当行为。\n\n**后果**：在指定时间内暂时禁止与社区进行任何形式的互动或公开交流。在此期间，不得与相关人员（包括执行行为准则的管理员）进行公开或私下互动。违反这些条款可能导致永久封禁。\n",
+        "zh_TW": "**社群影響**：嚴重違反社群標準，包括持續的不當行為。\n\n**後果**：在指定時間內暫時禁止與社群進行任何形式的互動或公開交流。在此期間，不得與相關人員進行公開或私下互動，包括未經請求與執行行為準則的人員互動。違反這些條款可能導致永久封禁。\n",
+        "es": "**Impacto en la comunidad**: Una violación grave de los estándares de la comunidad, incluyendo comportamiento inapropiado sostenido.\n\n**Consecuencia**: Una prohibición temporal de cualquier tipo de interacción o comunicación pública con la comunidad por un período de tiempo especificado. No se permite ninguna interacción pública o privada con las personas involucradas, incluyendo interacción no solicitada con aquellos que hacen cumplir el Código de Conducta, durante este período. Violar estos términos puede llevar a una prohibición permanente.\n",
+        "ja": "**コミュニティへの影響**：コミュニティ基準に対する重大な違反、持続的な不適切な行動を含む。\n\n**結果**：指定された期間、コミュニティとのあらゆる種類の相互作用または公開コミュニケーションから一時的に禁止されます。この期間中、関係者との公開または非公開の相互作用、行動規範を執行する者への未承諾の相互作用も許可されません。これらの条件に違反すると、永久追放につながる可能性があります。\n",
+        "fr": "**Impact sur la communauté** : Une violation grave des normes de la communauté, incluant un comportement inapproprié persistant.\n\n**Conséquence** : Un bannissement temporaire de toute forme d'interaction ou de communication publique avec la communauté pour une période déterminée. Aucune interaction publique ou privée avec les personnes concernées, y compris des interactions non sollicitées avec celles chargées de faire respecter le Code de conduite, n'est autorisée pendant cette période. Le non-respect de ces conditions peut entraîner un bannissement permanent.\n",
+        "ru": "**Влияние на сообщество**: Серьезное нарушение стандартов сообщества, включая постоянное недопустимое поведение.\n\n**Последствие**: Временный запрет на любые виды взаимодействия или публичного общения с сообществом на определенный период времени. В течение этого периода не допускается публичное или частное взаимодействие с вовлеченными лицами, включая нежелательное взаимодействие с теми, кто обеспечивает соблюдение Кодекса поведения. Нарушение этих условий может привести к постоянному запрету.\n",
+        "it": "**Impatto sulla Comunità**: Una grave violazione degli standard della comunità, inclusi comportamenti inappropriati prolungati.\n\n**Conseguenza**: Un ban temporaneo da qualsiasi tipo di interazione o comunicazione pubblica con la comunità per un periodo di tempo specificato. Durante questo periodo non è consentito alcun intervento pubblico o privato con le persone coinvolte, inclusi interventi non richiesti con coloro che fanno rispettare il Codice di Condotta. La violazione di questi termini può portare a un ban permanente.\n",
+        "ko": "**커뮤니티 영향**: 지속적인 부적절한 행동을 포함한 커뮤니티 기준의 심각한 위반.\n\n**결과**: 지정된 기간 동안 커뮤니티와의 모든 종류의 상호작용 또는 공개적인 커뮤니케이션에 대한 임시 금지. 이 기간 동안 관련된 사람들과의 공개적 또는 비공개적 상호작용, 행동 강령을 시행하는 사람들과의 원치 않는 상호작용도 허용되지 않습니다. 이러한 조건을 위반하면 영구적인 금지로 이어질 수 있습니다.\n",
+        "de": "**Auswirkungen auf die Gemeinschaft**: Eine schwerwiegende Verletzung der Gemeinschaftsstandards, einschließlich anhaltend unangemessenen Verhaltens.\n\n**Konsequenz**: Ein zeitweiliger Ausschluss von jeglicher Art der Interaktion oder öffentlichen Kommunikation mit der Gemeinschaft für einen bestimmten Zeitraum. Während dieses Zeitraums sind keine öffentlichen oder privaten Interaktionen mit den beteiligten Personen erlaubt, einschließlich unaufgeforderter Interaktionen mit denen, die den Verhaltenskodex durchsetzen. Die Verletzung dieser Bedingungen kann zu einem dauerhaften Ausschluss führen.\n",
+        "pt": "**Impacto na Comunidade**: Uma violação grave dos padrões da comunidade, incluindo comportamento inadequado contínuo.\n\n**Consequência**: Uma suspensão temporária de qualquer tipo de interação ou comunicação pública com a comunidade por um período de tempo especificado. Nenhuma interação pública ou privada com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, é permitida durante este período. Violar esses termos pode levar a uma suspensão permanente.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_7C7DB2B5",
+      "chunk_type": "header",
+      "original_content": "### 4. Permanent Ban\n",
+      "start_line_no": 66,
+      "translations": {
+        "zh": "### 4. 永久封禁\n",
+        "ja": "### 4. 永久追放\n",
+        "fr": "### 4. Bannissement permanent\n",
+        "it": "### 4. Divieto permanente\n",
+        "zh_TW": "### 4. 永久封禁\n",
+        "pt": "### 4. Banimento permanente\n",
+        "ko": "### 4. 영구 정지\n",
+        "es": "### 4. Prohibición permanente\n",
+        "de": "### 4. Dauerhafte Sperre\n",
+        "ru": "### 4. Постоянный бан\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FAF381FA",
+      "chunk_type": "paragraph",
+      "original_content": "**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.\n\n**Consequence**: A permanent ban from any sort of public interaction within the community.\n",
+      "start_line_no": 68,
+      "translations": {
+        "zh": "**社区影响**：表现出违反社区标准的行为模式，包括持续的不当行为、对个人的骚扰，或对某类人群的敌意或贬低。\n\n**后果**：永久禁止在社区内进行任何形式的公开互动。\n",
+        "ru": "**Влияние на сообщество**: Демонстрация модели нарушения стандартов сообщества, включая устойчивое неадекватное поведение, преследование отдельного лица или агрессию в отношении или унижение групп лиц.\n\n**Последствие**: Постоянный запрет на любые виды публичного взаимодействия в рамках сообщества.\n",
+        "zh_TW": "**社群影響**：展現出違反社群標準的行為模式，包括持續不當行為、對個人的騷擾，或對特定群體的攻擊與貶抑。\n\n**後果**：永久禁止在社群內進行任何形式的公開互動。\n",
+        "it": "**Impatto sulla Comunità**: Dimostrare un modello di violazione degli standard della comunità, inclusi comportamenti inappropriati persistenti, molestie a un individuo o aggressione o denigrazione verso classi di individui.\n\n**Conseguenza**: Un ban permanente da qualsiasi tipo di interazione pubblica all'interno della comunità.\n",
+        "es": "**Impacto en la comunidad**: Demostrar un patrón de violación de los estándares de la comunidad, incluyendo comportamiento inapropiado sostenido, acoso a un individuo, o agresión o menosprecio hacia clases de individuos.\n\n**Consecuencia**: Una prohibición permanente de cualquier tipo de interacción pública dentro de la comunidad.\n",
+        "ja": "**コミュニティへの影響**：持続的な不適切な行動、個人に対する嫌がらせ、または特定のグループに対する攻撃や中傷など、コミュニティ基準の違反パターンを示すこと。\n\n**結果**：コミュニティ内でのあらゆる種類の公的な関与からの永久追放。\n",
+        "pt": "**Impacto na Comunidade**: Demonstração de um padrão de violação dos padrões da comunidade, incluindo comportamento inadequado sustentado, assédio a um indivíduo ou agressão ou difamação de classes de indivíduos.\n\n**Consequência**: Uma proibição permanente de qualquer tipo de interação pública dentro da comunidade.\n",
+        "ko": "**커뮤니티 영향**: 지속적인 부적절한 행동, 개인에 대한 괴롭힘, 또는 특정 집단에 대한 공격 또는 비하를 포함한 커뮤니티 표준 위반 패턴을 보여줌.\n\n**결과**: 커뮤니티 내 모든 공개적 상호작용에서 영구적 금지.\n",
+        "fr": "**Impact sur la communauté** : Démontrer un schéma de violation des normes communautaires, incluant un comportement inapproprié persistant, le harcèlement d'un individu, ou de l'agressivité ou des propos dénigrants envers des groupes d'individus.\n\n**Conséquence** : Un bannissement permanent de toute forme d'interaction publique au sein de la communauté.\n",
+        "de": "**Auswirkungen auf die Gemeinschaft**: Zeigt ein Muster der Verletzung von Gemeinschaftsstandards, einschließlich anhaltend unangemessenen Verhaltens, Belästigung einer Einzelperson oder Aggression gegenüber oder Herabsetzung von Gruppen von Personen.\n\n**Konsequenz**: Ein dauerhaftes Verbot jeglicher Art von öffentlicher Interaktion innerhalb der Gemeinschaft.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5C710B75",
+      "chunk_type": "header",
+      "original_content": "## Attribution\n",
+      "start_line_no": 72,
+      "translations": {
+        "ja": "## 帰属\n",
+        "pt": "## Atribuição\n",
+        "zh_TW": "## 歸屬\n",
+        "de": "## Zuschreibung\n",
+        "ru": "## Атрибуция\n",
+        "fr": "## Attribution\n",
+        "it": "## Attribuzione\n",
+        "es": "## Atribución\n",
+        "zh": "## 致谢\n",
+        "ko": "## 저작자 표시\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_994E96A8",
+      "chunk_type": "paragraph",
+      "original_content": "This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nCommunity Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.\n",
+      "start_line_no": 74,
+      "translations": {
+        "zh": "本行为准则改编自 [贡献者公约][homepage] 2.0 版本，原文可在 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html 查阅。\n\n社区影响指南的灵感来源于 [Mozilla 的行为准则执行阶梯](https://github.com/mozilla/diversity)。\n\n[homepage]: https://www.contributor-covenant.org\n\n关于本行为准则的常见问题解答，请参阅 https://www.contributor-covenant.org/faq 上的常见问题。翻译版本可在 https://www.contributor-covenant.org/translations 获取。\n",
+        "ja": "この行動規範は、[Contributor Covenant][homepage] バージョン 2.0 を基に作成されており、https://www.contributor-covenant.org/version/2/0/code_of_conduct.html で閲覧可能です。\n\nコミュニティへの影響に関するガイドラインは、[Mozilla の行動規範実施ラダー](https://github.com/mozilla/diversity) にインスパイアされています。\n\n[homepage]: https://www.contributor-covenant.org\n\nこの行動規範に関するよくある質問への回答は、FAQ（https://www.contributor-covenant.org/faq）を参照してください。翻訳版は https://www.contributor-covenant.org/translations で利用可能です。\n",
+        "pt": "Este Código de Conduta é adaptado do [Contributor Covenant][homepage], versão 2.0, disponível em https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nAs Diretrizes de Impacto na Comunidade foram inspiradas pela [escada de aplicação do código de conduta da Mozilla](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nPara respostas a perguntas comuns sobre este código de conduta, consulte as Perguntas frequentes em https://www.contributor-covenant.org/faq. Traduções estão disponíveis em https://www.contributor-covenant.org/translations.\n",
+        "fr": "Ce Code de Conduite est adapté du [Contributor Covenant][homepage], version 2.0, disponible à l'adresse https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nLes directives d'impact communautaire ont été inspirées par [l'échelle d'application du code de conduite de Mozilla](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nPour les réponses aux questions courantes concernant ce code de conduite, consultez la FAQ à l'adresse https://www.contributor-covenant.org/faq. Les traductions sont disponibles sur https://www.contributor-covenant.org/translations.\n",
+        "ko": "이 행동 강령은 [Contributor Covenant][homepage] 의 2.0 버전을 기반으로 하며, https://www.contributor-covenant.org/version/2/0/code_of_conduct.html에서 확인할 수 있습니다.\n\n커뮤니티 영향 가이드라인은 [Mozilla 의 행동 강령 집행 사다리](https://github.com/mozilla/diversity) 에서 영감을 받았습니다.\n\n[homepage]: https://www.contributor-covenant.org\n\n이 행동 강령에 대한 일반적인 질문의 답변은 https://www.contributor-covenant.org/faq의 FAQ 를 참조하세요. 번역은 https://www.contributor-covenant.org/translations에서 확인할 수 있습니다.\n",
+        "de": "Dieser Verhaltenskodex ist angelehnt an den [Contributor Covenant][homepage], Version 2.0, verfügbar unter https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nDie Richtlinien zur Gemeinschaftsauswirkung wurden inspiriert von [Mozillas Leiter zur Durchsetzung des Verhaltenskodex](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nAntworten auf häufig gestellte Fragen zu diesem Verhaltenskodex finden Sie in den FAQ unter https://www.contributor-covenant.org/faq. Übersetzungen sind verfügbar unter https://www.contributor-covenant.org/translations.\n",
+        "it": "Questo Codice di Condotta è adattato dal [Contributor Covenant][homepage], versione 2.0, disponibile all'indirizzo https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nLe Linee Guida sull'Impatto della Comunità sono state ispirate dalla [scala di applicazione del codice di condotta di Mozilla](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nPer risposte alle domande comuni su questo codice di condotta, consulta le Domande frequenti all'indirizzo https://www.contributor-covenant.org/faq. Le traduzioni sono disponibili all'indirizzo https://www.contributor-covenant.org/translations.\n",
+        "zh_TW": "本行為準則改編自 [貢獻者公約][homepage] 2.0 版，可在 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html 查閱。\n\n社區影響指南的靈感來自 [Mozilla 的行為準則執行階梯](https://github.com/mozilla/diversity)。\n\n[homepage]: https://www.contributor-covenant.org\n\n有關本行為準則的常見問題解答，請參閱 https://www.contributor-covenant.org/faq 的 常見問題。翻譯版本可在 https://www.contributor-covenant.org/translations 取得。\n",
+        "ru": "Этот Кодекс поведения адаптирован из [Contributor Covenant][homepage], версия 2.0, доступен по адресу https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nРуководящие принципы воздействия на сообщество были вдохновлены [лестницей применения кодекса поведения Mozilla](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nОтветы на часто задаваемые вопросы об этом кодексе поведения можно найти в разделе FAQ по адресу https://www.contributor-covenant.org/faq. Переводы доступны по адресу https://www.contributor-covenant.org/translations.\n",
+        "es": "Este Código de Conducta está adaptado del [Contributor Covenant][homepage], versión 2.0, disponible en https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\n\nLas Pautas de Impacto en la Comunidad se inspiraron en [la escalera de aplicación del código de conducta de Mozilla](https://github.com/mozilla/diversity).\n\n[homepage]: https://www.contributor-covenant.org\n\nPara respuestas a preguntas comunes sobre este código de conducta, consulta las Preguntas frecuentes en https://www.contributor-covenant.org/faq. Las traducciones están disponibles en https://www.contributor-covenant.org/translations.\n"
+      }
+    }
+  ]
+}

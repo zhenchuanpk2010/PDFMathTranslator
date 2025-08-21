@@ -1,9 +1,9 @@
 > [!CAUTION]
 >
-> Este documento está desatualizado, por favor não o consulte.
+> Este documento está desatualizado, por favor, não o consulte.
 
 <h2 id="toc">Índice</h2>
-O presente projeto suporta dois tipos de APIs, Todos os métodos precisam do Redis;
+O presente projeto suporta dois tipos de APIs, todos os métodos precisam do Redis;
 
 - [Chamadas funcionais em Python](#api-python)
 - [Protocolos HTTP](#api-http)
@@ -30,7 +30,7 @@ Traduzir com arquivos:
 ```python
 (file_mono, file_dual) = translate(files=['example.pdf'], **params)[0]
 ```
-Traduzir com transmissão:
+Traduzir com fluxo:
 ```python
 with open('example.pdf', 'rb') as f:
     (stream_mono, stream_dual) = translate_stream(stream=f.read(), **params)
@@ -52,7 +52,7 @@ De uma forma mais flexível, você pode se comunicar com o programa usando proto
    pdf2zh_next --celery worker
    ```
 
-2. Usar protocolos HTTP conforme a seguir:
+2. Usar os protocolos HTTP conforme a seguir:
 
    - Enviar tarefa de tradução
 

@@ -36,7 +36,7 @@ http://localhost:7860/
 > Se você encontrar qualquer problema durante o uso do WebUI, consulte [Uso --> WebUI](./USAGE_webui.md).
 
 > [!NOTE]
-> Se você encontrar qualquer problema durante o uso da linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).
+> Se você encontrar qualquer problema durante o uso da Linha de comando, consulte [Uso --> Linha de comando](./USAGE_commandline.md).
 <!-- 
 #### For docker deployment on cloud service:
 

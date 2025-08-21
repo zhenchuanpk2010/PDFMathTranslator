@@ -1,0 +1,312 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/TranslationServices/SiliconFlow.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_16E46377",
+      "chunk_type": "header",
+      "original_content": "# SiliconFlow\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh_TW": "# SiliconFlow\n",
+        "ru": "# SiliconFlow\n",
+        "de": "# SiliconFlow\n",
+        "it": "# SiliconFlow\n",
+        "pt": "# SiliconFlow\n",
+        "fr": "# SiliconFlow\n",
+        "zh": "# SiliconFlow\n",
+        "ko": "# 실리콘플로우\n",
+        "ja": "# SiliconFlow\n",
+        "es": "# SiliconFlow\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_5EFF4D9F",
+      "chunk_type": "header",
+      "original_content": "## Free Translation Service\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "## 免费翻译服务\n",
+        "it": "## Servizio di traduzione gratuito\n",
+        "fr": "## Service de traduction gratuit\n",
+        "ja": "## 無料翻訳サービス\n",
+        "zh_TW": "## 免費翻譯服務\n",
+        "ko": "## 무료 번역 서비스\n",
+        "de": "## Kostenloser Übersetzungsdienst\n",
+        "es": "## Servicio de traducción gratuito\n",
+        "ru": "## Бесплатный сервис перевода\n",
+        "pt": "## Serviço de Tradução Gratuito\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_3C2A41A9",
+      "chunk_type": "paragraph",
+      "original_content": "[SiliconFlow](https://siliconflow.cn) provides free translation service for this project.\n\nCurrently, the free translation service will use `THUDM/GLM-4-9B-0414` model.\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh_TW": "[SiliconFlow](https://siliconflow.cn) 為本專案提供免費翻譯服務。\n\n目前，免費翻譯服務將使用 `THUDM/GLM-4-9B-0414` 模型。\n",
+        "zh": "[SiliconFlow](https://siliconflow.cn) 为本项目提供免费翻译服务。\n\n目前，免费翻译服务将使用 `THUDM/GLM-4-9B-0414` 模型。\n",
+        "pt": "[SiliconFlow](https://siliconflow.cn) fornece um serviço de tradução gratuito para este projeto.\n\nAtualmente, o serviço de tradução gratuito utilizará o modelo `THUDM/GLM-4-9B-0414`.\n",
+        "fr": "[SiliconFlow](https://siliconflow.cn) fournit un service de traduction gratuit pour ce projet.\n\nActuellement, le service de traduction gratuit utilisera le modèle `THUDM/GLM-4-9B-0414`.\n",
+        "ru": "[SiliconFlow](https://siliconflow.cn) предоставляет бесплатный сервис перевода для этого проекта.\n\nВ настоящее время бесплатный сервис перевода будет использовать модель `THUDM/GLM-4-9B-0414`.\n",
+        "ja": "[SiliconFlow](https://siliconflow.cn) はこのプロジェクトに無料翻訳サービスを提供しています。\n\n現在、無料翻訳サービスでは `THUDM/GLM-4-9B-0414` モデルが使用されます。\n",
+        "it": "[SiliconFlow](https://siliconflow.cn) fornisce un servizio di traduzione gratuito per questo progetto.\n\nAttualmente, il servizio di traduzione gratuito utilizzerà il modello `THUDM/GLM-4-9B-0414`.\n",
+        "de": "[SiliconFlow](https://siliconflow.cn) bietet einen kostenlosen Übersetzungsdienst für dieses Projekt an.\n\nDerzeit wird für den kostenlosen Übersetzungsdienst das Modell `THUDM/GLM-4-9B-0414` verwendet.\n",
+        "es": "[SiliconFlow](https://siliconflow.cn) proporciona un servicio de traducción gratuito para este proyecto.\n\nActualmente, el servicio de traducción gratuito utilizará el modelo `THUDM/GLM-4-9B-0414`.\n",
+        "ko": "[SiliconFlow](https://siliconflow.cn) 은 이 프로젝트를 위해 무료 번역 서비스를 제공합니다.\n\n현재 무료 번역 서비스는 `THUDM/GLM-4-9B-0414` 모델을 사용합니다.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_047D6F23",
+      "chunk_type": "header",
+      "original_content": "### Usage\n",
+      "start_line_no": 38,
+      "translations": {
+        "fr": "### Utilisation\n",
+        "de": "### Verwendung\n",
+        "ru": "### Использование\n",
+        "pt": "### Uso\n",
+        "zh": "### 如何使用\n",
+        "zh_TW": "### 如何使用\n",
+        "ja": "### 使い方\n",
+        "it": "### Utilizzo\n",
+        "ko": "### 사용법\n",
+        "es": "### Uso\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FC529C81",
+      "chunk_type": "header",
+      "original_content": "#### cli\n",
+      "start_line_no": 44,
+      "translations": {
+        "ja": "#### コマンドライン\n",
+        "zh": "#### 命令行\n",
+        "es": "#### cli\n",
+        "fr": "#### Ligne de commande\n",
+        "de": "#### Kommandozeile\n",
+        "ru": "#### Командная строка\n",
+        "ko": "#### 명령줄\n",
+        "pt": "#### Linha de comando\n",
+        "zh_TW": "#### 命令行\n",
+        "it": "#### cli\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_EFB67255",
+      "chunk_type": "code_block",
+      "original_content": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+      "start_line_no": 13,
+      "translations": {
+        "zh": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "zh_TW": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "ja": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "ko": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "ru": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "es": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "fr": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "de": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "it": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n",
+        "pt": "```bash\npdf2zh_next --siliconflowfree example.pdf \n```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_18E35DAE",
+      "chunk_type": "header",
+      "original_content": "#### webui\n",
+      "start_line_no": 50,
+      "translations": {
+        "ja": "#### webui\n",
+        "zh": "#### Web 界面\n",
+        "de": "#### WebUI\n",
+        "it": "#### webui\n",
+        "ko": "#### 웹 UI\n",
+        "pt": "#### webui\n",
+        "zh_TW": "#### Web 使用者介面\n",
+        "es": "#### webui\n",
+        "fr": "#### webui\n",
+        "ru": "#### webui\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_0ACD2D6C",
+      "chunk_type": "list",
+      "original_content": "1. Select \"SiliconFlowFree\" from the \"Translation Options\" - \"Service\" dropdown list.\n2. Click the Translate button at the bottom of the page to start translation.\n3. After translation is complete, you can find the translated PDF file in the \"Translated\" section at the bottom of the page.\n\n",
+      "start_line_no": 19,
+      "translations": {
+        "zh": "1. 从「Translation Options」-「Service」下拉列表中选择「SiliconFlowFree」。  \n2. 点击页面底部的「Translate」按钮开始翻译。  \n3. 翻译完成后，您可以在页面底部的「Translated」部分找到翻译好的 `PDF` 文件。\n\n",
+        "pt": "1. Selecione \"SiliconFlowFree\" na lista suspensa \"Translation Options\" - \"Service\".\n2. Clique no botão \"Translate\" na parte inferior da página para iniciar a tradução.\n3. Após a conclusão da tradução, você pode encontrar o arquivo PDF traduzido na seção \"Translated\" na parte inferior da página.\n\n",
+        "zh_TW": "1. 從「翻譯選項」-「服務」下拉選單中選擇「SiliconFlowFree」。\n2. 點擊頁面底部的「翻譯」按鈕開始翻譯。\n3. 翻譯完成後，您可以在頁面底部的「已翻譯」區塊中找到翻譯後的 `PDF` 文件。\n\n",
+        "ru": "1. Выберите \"SiliconFlowFree\" из выпадающего списка \"Translation Options\" - \"Service\".\n2. Нажмите кнопку \"Translate\" в нижней части страницы, чтобы начать перевод.\n3. После завершения перевода вы можете найти переведённый файл PDF в разделе \"Translated\" в нижней части страницы.\n\n",
+        "ja": "1. 「翻訳オプション」 - 「サービス」ドロップダウンリストから「SiliconFlowFree」を選択します。\n2. ページ下部の「翻訳」ボタンをクリックして翻訳を開始します。\n3. 翻訳が完了したら、ページ下部の「翻訳済み」セクションで翻訳された `PDF` ファイルを見つけることができます。\n\n",
+        "it": "1. Selezionare \"SiliconFlowFree\" dall'elenco a discesa \"Translation Options\" - \"Service\".\n2. Fare clic sul pulsante Translate nella parte inferiore della pagina per avviare la traduzione.\n3. Al termine della traduzione, è possibile trovare il file PDF tradotto nella sezione \"Translated\" nella parte inferiore della pagina.\n\n",
+        "de": "1. Wählen Sie \"SiliconFlowFree\" aus der Dropdown-Liste \"Übersetzungsoptionen\" - \"Dienst\" aus.\n2. Klicken Sie auf die Schaltfläche \"Übersetzen\" am unteren Rand der Seite, um mit der Übersetzung zu beginnen.\n3. Nach Abschluss der Übersetzung finden Sie die übersetzte `PDF`-Datei im Abschnitt \"Übersetzt\" am unteren Rand der Seite.\n\n",
+        "ko": "1. \"번역 옵션\" - \"서비스\" 드롭다운 목록에서 \"SiliconFlowFree\"를 선택합니다.\n2. 페이지 하단의 \"번역\" 버튼을 클릭하여 번역을 시작합니다.\n3. 번역이 완료된 후, 페이지 하단의 \"번역된 파일\" 섹션에서 번역된 `PDF` 파일을 찾을 수 있습니다.\n\n",
+        "es": "1. Selecciona \"SiliconFlowFree\" de la lista desplegable \"Opciones de traducción\" - \"Servicio\".\n2. Haz clic en el botón Traducir en la parte inferior de la página para comenzar la traducción.\n3. Una vez completada la traducción, puedes encontrar el archivo PDF traducido en la sección \"Traducido\" en la parte inferior de la página.\n\n",
+        "fr": "1. Sélectionnez \"SiliconFlowFree\" dans la liste déroulante \"Options de traduction\" - \"Service\".\n2. Cliquez sur le bouton Traduire en bas de la page pour démarrer la traduction.\n3. Une fois la traduction terminée, vous pouvez trouver le fichier PDF traduit dans la section \"Traduit\" en bas de la page.\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_24653E80",
+      "chunk_type": "header",
+      "original_content": "### Privacy Policy\n",
+      "start_line_no": 24,
+      "translations": {
+        "es": "### Política de privacidad\n",
+        "zh": "### 隐私政策\n",
+        "de": "### Datenschutzrichtlinie\n",
+        "it": "### Politica sulla privacy\n",
+        "ko": "### 개인정보 처리방침\n",
+        "zh_TW": "### 隱私政策\n",
+        "fr": "### Politique de confidentialité\n",
+        "ja": "### プライバシーポリシー\n",
+        "pt": "### Política de Privacidade\n",
+        "ru": "### Политика конфиденциальности\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E40E083F",
+      "chunk_type": "paragraph",
+      "original_content": "The file content will be sent to the server of the project maintainer [@awwaawwa](https://github.com/awwaawwa), and then forwarded to SiliconFlow for translation.\n\nThe maintainers of this project will only collect error information returned by SiliconFlow for debugging related services. Your file content will not be collected.\n\nSiliconFlow Privacy Policy: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+      "start_line_no": 26,
+      "translations": {
+        "zh": "文件内容将被发送至项目维护者 [@awwaawwa](https://github.com/awwaawwa) 的服务器，随后转发至 SiliconFlow 进行翻译。\n\n本项目维护者仅会收集 SiliconFlow 返回的错误信息用于调试相关服务，不会收集您的文件内容。\n\nSiliconFlow 隐私政策：[简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "zh_TW": "檔案內容將會傳送至專案維護者 [@awwaawwa](https://github.com/awwaawwa) 的伺服器，然後轉發至 SiliconFlow 進行翻譯。\n\n本專案維護者僅會收集 SiliconFlow 返回的錯誤資訊用於調試相關服務，不會收集您的檔案內容。\n\nSiliconFlow 隱私政策：[简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "ru": "Содержание файла будет отправлено на сервер сопровождающего проекта [@awwaawwa](https://github.com/awwaawwa), а затем перенаправлено в SiliconFlow для перевода.\n\nСопровождающие этого проекта будут собирать только информацию об ошибках, возвращаемую SiliconFlow, для отладки связанных сервисов. Содержание вашего файла не будет собираться.\n\nПолитика конфиденциальности SiliconFlow: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "ja": "ファイルの内容は、プロジェクトのメンテナー [@awwaawwa](https://github.com/awwaawwa) のサーバーに送信され、その後 SiliconFlow に転送されて翻訳されます。\n\nこのプロジェクトのメンテナーは、SiliconFlow から返されるエラー情報のみを収集し、関連サービスのデバッグに使用します。ファイルの内容は収集されません。\n\nSiliconFlow プライバシーポリシー：[简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "es": "El contenido del archivo se enviará al servidor del mantenedor del proyecto [@awwaawwa](https://github.com/awwaawwa), y luego se reenviará a SiliconFlow para su traducción.\n\nLos mantenedores de este proyecto solo recopilarán información de error devuelta por SiliconFlow para depurar los servicios relacionados. No se recopilará el contenido de su archivo.\n\nPolítica de privacidad de SiliconFlow: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "ko": "파일 내용은 프로젝트 관리자 [@awwaawwa](https://github.com/awwaawwa) 의 서버로 전송된 후 SiliconFlow 로 전달되어 번역됩니다.\n\n이 프로젝트의 관리자들은 SiliconFlow 에서 반환된 오류 정보만을 수집하여 관련 서비스 디버깅에 사용합니다. 귀하의 파일 내용은 수집되지 않습니다.\n\nSiliconFlow 개인정보 처리방침: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "pt": "O conteúdo do arquivo será enviado para o servidor do mantenedor do projeto [@awwaawwa](https://github.com/awwaawwa) e, em seguida, encaminhado para o SiliconFlow para tradução.\n\nOs mantenedores deste projeto coletarão apenas informações de erro retornadas pelo SiliconFlow para depuração dos serviços relacionados. O conteúdo do seu arquivo não será coletado.\n\nPolítica de Privacidade do SiliconFlow: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "it": "Il contenuto del file verrà inviato al server del maintainer del progetto [@awwaawwa](https://github.com/awwaawwa), e poi inoltrato a SiliconFlow per la traduzione.\n\nI maintainer di questo progetto raccoglieranno solo le informazioni di errore restituite da SiliconFlow per il debug dei servizi correlati. Il contenuto del tuo file non verrà raccolto.\n\nPolitica sulla privacy di SiliconFlow: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "de": "Die Dateiinhalte werden an den Server des Projektbetreuers [@awwaawwa](https://github.com/awwaawwa) gesendet und dann an SiliconFlow zur Übersetzung weitergeleitet.\n\nDie Betreuer dieses Projekts sammeln nur Fehlerinformationen, die von SiliconFlow zurückgegeben werden, um damit verbundene Dienste zu debuggen. Ihre Dateiinhalte werden nicht gesammelt.\n\nSiliconFlow Datenschutzrichtlinie: [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n",
+        "fr": "Le contenu du fichier sera envoyé au serveur du mainteneur du projet [@awwaawwa](https://github.com/awwaawwa), puis transmis à SiliconFlow pour traduction.\n\nLes mainteneurs de ce projet ne collecteront que les informations d'erreur renvoyées par SiliconFlow pour le débogage des services associés. Votre contenu de fichier ne sera pas collecté.\n\nPolitique de confidentialité de SiliconFlow : [简体中文](https://docs.siliconflow.cn/cn/legals/privacy-policy)/[English](https://docs.siliconflow.cn/en/legals/privacy-policy)\n\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_86238772",
+      "chunk_type": "header",
+      "original_content": "## Use other models from SiliconFlow\n",
+      "start_line_no": 34,
+      "translations": {
+        "zh": "## 使用 SiliconFlow 的其他模型\n",
+        "fr": "## Utiliser d'autres modèles de SiliconFlow\n",
+        "it": "## Utilizzare altri modelli da SiliconFlow\n",
+        "pt": "## Usar outros modelos do SiliconFlow\n",
+        "de": "## Andere Modelle von SiliconFlow verwenden\n",
+        "ru": "## Использование других моделей от SiliconFlow\n",
+        "ja": "## SiliconFlow の他のモデルを使用する\n",
+        "ko": "## SiliconFlow 에서 다른 모델 사용하기\n",
+        "zh_TW": "## 使用 SiliconFlow 的其他模型\n",
+        "es": "## Usar otros modelos de SiliconFlow\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_6C8B20F2",
+      "chunk_type": "paragraph",
+      "original_content": "[SiliconFlow](https://siliconflow.cn) also provides other models for translation.\n",
+      "start_line_no": 36,
+      "translations": {
+        "zh": "[SiliconFlow](https://siliconflow.cn) 还提供了其他用于翻译的模型。\n",
+        "ko": "[SiliconFlow](https://siliconflow.cn) 는 번역을 위한 다른 모델도 제공합니다.\n",
+        "ja": "[SiliconFlow](https://siliconflow.cn) は翻訳用の他のモデルも提供しています。\n",
+        "fr": "[SiliconFlow](https://siliconflow.cn) propose également d'autres modèles pour la traduction.\n",
+        "de": "[SiliconFlow](https://siliconflow.cn) bietet auch andere Modelle für die Übersetzung an.\n",
+        "it": "[SiliconFlow](https://siliconflow.cn) fornisce anche altri modelli per la traduzione.\n",
+        "zh_TW": "[SiliconFlow](https://siliconflow.cn) 也提供其他翻譯模型。\n",
+        "es": "[SiliconFlow](https://siliconflow.cn) también proporciona otros modelos para traducción.\n",
+        "ru": "[SiliconFlow](https://siliconflow.cn) также предоставляет другие модели для перевода.\n",
+        "pt": "[SiliconFlow](https://siliconflow.cn) também fornece outros modelos para tradução.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_71BE5099",
+      "chunk_type": "list",
+      "original_content": "1. Register an account at [SiliconFlow](https://siliconflow.cn)\n\n2. Create an API key at [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Then, click on the key to copy it.\n",
+      "start_line_no": 40,
+      "translations": {
+        "zh": "1. 在 [SiliconFlow](https://siliconflow.cn) 注册账号\n\n2. 在 [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak) 创建 API 密钥。然后，点击密钥进行复制。\n",
+        "de": "1. Registrieren Sie ein Konto bei [SiliconFlow](https://siliconflow.cn)\n\n2. Erstellen Sie einen API-Schlüssel unter [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Klicken Sie dann auf den Schlüssel, um ihn zu kopieren.\n",
+        "ko": "1. [SiliconFlow](https://siliconflow.cn) 에서 계정을 등록하세요.\n\n2. [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak) 에서 API 키를 생성하세요. 그런 다음 키를 클릭하여 복사하세요.\n",
+        "zh_TW": "1. 在 [SiliconFlow](https://siliconflow.cn) 註冊一個帳號\n\n2. 在 [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak) 創建一個 API 金鑰。然後，點擊金鑰以複製它。\n",
+        "es": "1. Registra una cuenta en [SiliconFlow](https://siliconflow.cn)\n\n2. Crea una clave de API en [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Luego, haz clic en la clave para copiarla.\n",
+        "pt": "1. Registre uma conta no [SiliconFlow](https://siliconflow.cn)\n\n2. Crie uma chave de API no [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Em seguida, clique na chave para copiá-la.\n",
+        "ja": "1. [SiliconFlow](https://siliconflow.cn) でアカウントを登録してください\n\n2. [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak) で API キーを作成します。その後、キーをクリックしてコピーしてください。\n",
+        "ru": "1. Зарегистрируйте аккаунт на [SiliconFlow](https://siliconflow.cn)\n\n2. Создайте API-ключ на странице [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Затем нажмите на ключ, чтобы скопировать его.\n",
+        "fr": "1. Créez un compte sur [SiliconFlow](https://siliconflow.cn)\n\n2. Générez une clé API sur [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Ensuite, cliquez sur la clé pour la copier.\n",
+        "it": "1. Registra un account su [SiliconFlow](https://siliconflow.cn)\n\n2. Crea una chiave API su [SiliconFlow API Key](https://cloud.siliconflow.cn/me/account/ak). Quindi, fai clic sulla chiave per copiarla.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E17980A8",
+      "chunk_type": "code_block",
+      "original_content": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+      "start_line_no": 46,
+      "translations": {
+        "zh": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "zh_TW": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "ja": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "ko": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "ru": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "es": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "fr": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "de": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "it": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n",
+        "pt": "```bash\npdf2zh_next --siliconflow --siliconflow-model \"Pro/deepseek-ai/DeepSeek-V3\" --siliconflow-api-key <your-api-key> example.pdf\n```\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_22AE44AB",
+      "chunk_type": "list",
+      "original_content": "1. \"Translation Options\" - **\"Service\"** dropdown list: Select \"SiliconFlow\"\n2. \"Translation Options\" - **\"Base URL for SiliconFlow API\"**: Keep default\n3. \"Translation Options\" - **\"SiliconFlow model to use\"**: Enter \"Pro/deepseek-ai/DeepSeek-V3\" or other models\n4. \"Translation Options\" - **\"API key for SiliconFlow service\"**: Paste your API key\n5. Click the Translate button at the bottom of the page to start translation\n6. After translation is complete, you can find the translated PDF file in the \"Translated\" section at the bottom of the page.\n\n",
+      "start_line_no": 52,
+      "translations": {
+        "zh": "1. \"翻译选项\" - **\"服务\"** 下拉列表：选择 \"SiliconFlow\"\n2. \"翻译选项\" - **\"SiliconFlow API 基础 URL\"**：保持默认\n3. \"翻译选项\" - **\"要使用的 SiliconFlow 模型\"**：输入 \"Pro/deepseek-ai/DeepSeek-V3\" 或其他模型\n4. \"翻译选项\" - **\"SiliconFlow 服务的 API 密钥\"**：粘贴您的 API 密钥\n5. 点击页面底部的翻译按钮开始翻译\n6. 翻译完成后，您可以在页面底部的 \"已翻译\" 部分找到翻译好的 PDF 文件。\n\n",
+        "fr": "1. \"Options de traduction\" - Liste déroulante **\"Service\"** : Sélectionnez \"SiliconFlow\"\n2. \"Options de traduction\" - **\"URL de base pour l'API SiliconFlow\"** : Gardez la valeur par défaut\n3. \"Options de traduction\" - **\"Modèle SiliconFlow à utiliser\"** : Entrez \"Pro/deepseek-ai/DeepSeek-V3\" ou d'autres modèles\n4. \"Options de traduction\" - **\"Clé API pour le service SiliconFlow\"** : Collez votre clé API\n5. Cliquez sur le bouton Traduire en bas de la page pour démarrer la traduction\n6. Une fois la traduction terminée, vous pouvez trouver le fichier PDF traduit dans la section \"Traduits\" en bas de la page.\n\n",
+        "it": "1. \"Opzioni di traduzione\" - Menu a discesa **\"Servizio\"**: Selezionare \"SiliconFlow\"  \n2. \"Opzioni di traduzione\" - **\"URL base per l'API SiliconFlow\"**: Mantenere il valore predefinito  \n3. \"Opzioni di traduzione\" - **\"Modello SiliconFlow da utilizzare\"**: Inserire \"Pro/deepseek-ai/DeepSeek-V3\" o altri modelli  \n4. \"Opzioni di traduzione\" - **\"Chiave API per il servizio SiliconFlow\"**: Incollare la propria chiave API  \n5. Fare clic sul pulsante Traduci in fondo alla pagina per avviare la traduzione  \n6. Al termine della traduzione, è possibile trovare il file PDF tradotto nella sezione \"Tradotti\" in fondo alla pagina.\n\n",
+        "es": "1. \"Opciones de traducción\" - Lista desplegable **\"Servicio\"**: Selecciona \"SiliconFlow\"  \n2. \"Opciones de traducción\" - **\"URL base para la API de SiliconFlow\"**: Mantén el valor predeterminado  \n3. \"Opciones de traducción\" - **\"Modelo de SiliconFlow a utilizar\"**: Ingresa \"Pro/deepseek-ai/DeepSeek-V3\" u otros modelos  \n4. \"Opciones de traducción\" - **\"Clave API para el servicio de SiliconFlow\"**: Pega tu clave API  \n5. Haz clic en el botón \"Traducir\" al final de la página para iniciar la traducción  \n6. Una vez completada la traducción, podrás encontrar el archivo PDF traducido en la sección \"Traducido\" al final de la página.\n\n",
+        "ru": "1. \"Параметры перевода\" - выпадающий список **\"Сервис\"**: Выберите \"SiliconFlow\"  \n2. \"Параметры перевода\" - **\"Базовый URL для API SiliconFlow\"**: Оставьте значение по умолчанию  \n3. \"Параметры перевода\" - **\"Модель SiliconFlow для использования\"**: Введите \"Pro/deepseek-ai/DeepSeek-V3\" или другие модели  \n4. \"Параметры перевода\" - **\"API-ключ для сервиса SiliconFlow\"**: Вставьте ваш API-ключ  \n5. Нажмите кнопку \"Перевести\" в нижней части страницы, чтобы начать перевод  \n6. После завершения перевода вы можете найти переведенный `PDF` файл в разделе \"Translated\" внизу страницы.\n\n",
+        "ko": "1. \"번역 옵션\" - **\"서비스\"** 드롭다운 목록: \"SiliconFlow\" 선택\n2. \"번역 옵션\" - **\"SiliconFlow API 기본 URL\"**: 기본값 유지\n3. \"번역 옵션\" - **\"사용할 SiliconFlow 모델\"**: \"Pro/deepseek-ai/DeepSeek-V3\" 또는 다른 모델 입력\n4. \"번역 옵션\" - **\"SiliconFlow 서비스 API 키\"**: API 키 붙여넣기\n5. 페이지 하단의 번역 버튼을 클릭하여 번역 시작\n6. 번역이 완료된 후, 페이지 하단의 \"번역됨\" 섹션에서 번역된 `PDF` 파일을 찾을 수 있습니다.\n\n",
+        "pt": "1. \"Opções de Tradução\" - Lista suspensa **\"Serviço\"**: Selecione \"SiliconFlow\"  \n2. \"Opções de Tradução\" - **\"URL base para a API do SiliconFlow\"**: Mantenha o padrão  \n3. \"Opções de Tradução\" - **\"Modelo do SiliconFlow a ser usado\"**: Insira \"Pro/deepseek-ai/DeepSeek-V3\" ou outros modelos  \n4. \"Opções de Tradução\" - **\"Chave de API para o serviço SiliconFlow\"**: Cole sua chave de API  \n5. Clique no botão \"Traduzir\" na parte inferior da página para iniciar a tradução  \n6. Após a conclusão da tradução, você pode encontrar o arquivo PDF traduzido na seção \"Traduzido\" na parte inferior da página.\n\n",
+        "de": "1. \"Übersetzungsoptionen\" - **\"Dienst\"** Dropdown-Liste: Wählen Sie \"SiliconFlow\"  \n2. \"Übersetzungsoptionen\" - **\"Basis-URL für SiliconFlow API\"**: Behalten Sie den Standardwert bei  \n3. \"Übersetzungsoptionen\" - **\"Zu verwendendes SiliconFlow-Modell\"**: Geben Sie \"Pro/deepseek-ai/DeepSeek-V3\" oder andere Modelle ein  \n4. \"Übersetzungsoptionen\" - **\"API-Schlüssel für SiliconFlow-Dienst\"**: Fügen Sie Ihren API-Schlüssel ein  \n5. Klicken Sie auf die Schaltfläche \"Übersetzen\" am unteren Rand der Seite, um die Übersetzung zu starten  \n6. Nach Abschluss der Übersetzung finden Sie die übersetzte `PDF`-Datei im Abschnitt \"Übersetzt\" am unteren Rand der Seite.\n\n",
+        "zh_TW": "1. \"翻譯選項\" - **\"服務\"** 下拉選單：選擇 \"SiliconFlow\"\n2. \"翻譯選項\" - **\"SiliconFlow API 基礎 URL\"**：保持預設\n3. \"翻譯選項\" - **\"要使用的 SiliconFlow 模型\"**：輸入 \"Pro/deepseek-ai/DeepSeek-V3\" 或其他模型\n4. \"翻譯選項\" - **\"SiliconFlow 服務的 API 金鑰\"**：貼上您的 API 金鑰\n5. 點擊頁面底部的「翻譯」按鈕開始翻譯\n6. 翻譯完成後，您可以在頁面底部的「已翻譯」區塊找到翻譯好的 `PDF` 文件。\n\n",
+        "ja": "1. 「翻訳オプション」 - **「サービス」** ドロップダウンリスト： 「SiliconFlow」を選択\n2. 「翻訳オプション」 - **「SiliconFlow API のベース URL」**：デフォルトのまま\n3. 「翻訳オプション」 - **「使用する SiliconFlow モデル」**： 「Pro/deepseek-ai/DeepSeek-V3」または他のモデルを入力\n4. 「翻訳オプション」 - **「SiliconFlow サービスの API キー」**：API キーを貼り付け\n5. ページ下部の「翻訳」ボタンをクリックして翻訳を開始\n6. 翻訳が完了したら、ページ下部の「翻訳済み」セクションで翻訳された `PDF` ファイルを確認できます。\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F44132D0",
+      "chunk_type": "header",
+      "original_content": "## Acknowledgement\n",
+      "start_line_no": 60,
+      "translations": {
+        "zh_TW": "## 致謝\n",
+        "it": "## Ringraziamenti\n",
+        "zh": "## 致谢\n",
+        "ru": "## Благодарности\n",
+        "de": "## Danksagung\n",
+        "es": "## Agradecimientos\n",
+        "ja": "## 謝辞\n",
+        "ko": "## 감사의 말\n",
+        "fr": "## Remerciements\n",
+        "pt": "## Agradecimentos\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_ED8820C9",
+      "chunk_type": "paragraph",
+      "original_content": "Thanks to [SiliconFlow](https://siliconflow.cn) for providing free translation service for this project.\n\n",
+      "start_line_no": 62,
+      "translations": {
+        "it": "Grazie a [SiliconFlow](https://siliconflow.cn) per aver fornito il servizio di traduzione gratuito per questo progetto.\n\n",
+        "fr": "Merci à [SiliconFlow](https://siliconflow.cn) pour avoir fourni un service de traduction gratuit pour ce projet.\n\n",
+        "zh_TW": "感謝 [SiliconFlow](https://siliconflow.cn) 為本專案提供免費翻譯服務。\n\n",
+        "de": "Danke an [SiliconFlow](https://siliconflow.cn) für die Bereitstellung des kostenlosen Übersetzungsdienstes für dieses Projekt.\n\n",
+        "es": "Gracias a [SiliconFlow](https://siliconflow.cn) por proporcionar el servicio de traducción gratuito para este proyecto.\n\n",
+        "ru": "Спасибо [SiliconFlow](https://siliconflow.cn) за предоставление бесплатного сервиса перевода для этого проекта.\n\n",
+        "ko": "[SiliconFlow](https://siliconflow.cn) 에 이 프로젝트를 위한 무료 번역 서비스를 제공해 주셔서 감사합니다.\n\n",
+        "pt": "Obrigado ao [SiliconFlow](https://siliconflow.cn) por fornecer o serviço de tradução gratuito para este projeto.\n\n",
+        "zh": "感谢 [SiliconFlow](https://siliconflow.cn) 为本项目提供免费翻译服务。\n\n",
+        "ja": "[SiliconFlow](https://siliconflow.cn) に、このプロジェクトのために無料翻訳サービスを提供していただき感謝します。\n\n"
+      }
+    }
+  ]
+}

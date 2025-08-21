@@ -1,0 +1,492 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/FAQ.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_BBFC419C",
+      "chunk_type": "paragraph",
+      "original_content": "Some questions are frequently asked, so we have provided a list for users who encounter similar issues.\n",
+      "start_line_no": 1,
+      "translations": {
+        "zh_TW": "以下是一些經常被詢問的問題，我們為遇到類似問題的使用者提供了這份清單。\n",
+        "zh": "以下是一些用户经常遇到的问题，我们为遇到类似情况的用户提供了这份清单。\n",
+        "de": "Einige Fragen werden häufig gestellt, daher haben wir eine Liste für Benutzer bereitgestellt, die ähnliche Probleme haben.\n",
+        "fr": "Certaines questions sont fréquemment posées, nous avons donc fourni une liste pour les utilisateurs qui rencontrent des problèmes similaires.\n",
+        "es": "Algunas preguntas se hacen con frecuencia, por lo que hemos proporcionado una lista para los usuarios que encuentren problemas similares.\n",
+        "pt": "Algumas perguntas são frequentemente feitas, por isso fornecemos uma lista para usuários que encontram problemas semelhantes.\n",
+        "it": "Alcune domande vengono poste frequentemente, quindi abbiamo fornito un elenco per gli utenti che incontrano problemi simili.\n",
+        "ko": "자주 묻는 질문들이 있어, 비슷한 문제를 겪는 사용자들을 위해 목록을 제공했습니다.\n",
+        "ru": "Некоторые вопросы задаются часто, поэтому мы предоставили список для пользователей, которые сталкиваются с подобными проблемами.\n",
+        "ja": "よくある質問をまとめました。同じ問題に遭遇したユーザーのためにリストを提供しています。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2B5D23E7",
+      "chunk_type": "header",
+      "original_content": "## Is a GPU required?",
+      "start_line_no": 3,
+      "translations": {
+        "zh_TW": "## 是否需要 GPU？",
+        "ko": "## GPU 가 필요한가요?",
+        "zh": "## 是否需要 GPU？",
+        "ru": "## Требуется ли GPU?",
+        "es": "## ¿Se requiere una GPU?",
+        "it": "## È necessaria una GPU?",
+        "de": "## Wird eine GPU benötigt?",
+        "fr": "## Un GPU est-il nécessaire ?",
+        "ja": "## GPU は必要ですか？",
+        "pt": "## É necessária uma GPU?"
+      }
+    },
+    {
+      "chunk_id": "chunk_A85F81AE",
+      "chunk_type": "list",
+      "original_content": "- **Question**:  ",
+      "start_line_no": 20,
+      "translations": {
+        "ja": "- **質問**:",
+        "zh": "- **问题**：",
+        "ru": "- **Вопрос**:",
+        "es": "- **Pregunta**:",
+        "de": "- **Frage**:",
+        "pt": "- **Pergunta**:",
+        "it": "- **Domanda**:",
+        "ko": "- **질문**:",
+        "fr": "- **Question**:  \n- **Question**:",
+        "zh_TW": "- **問題**:"
+      }
+    },
+    {
+      "chunk_id": "chunk_8E573398",
+      "chunk_type": "paragraph",
+      "original_content": "As the program uses artificial intelligence to recognize and extract documents, is GPU required?\n",
+      "start_line_no": 5,
+      "translations": {
+        "zh": "由于该程序使用人工智能来识别和提取文档，是否需要 GPU？\n",
+        "ru": "Поскольку программа использует искусственный интеллект для распознавания и извлечения документов, требуется ли GPU?\n",
+        "ko": "프로그램이 인공 지능을 사용하여 문서를 인식하고 추출하기 때문에 GPU 가 필요한가요?\n",
+        "ja": "プログラムは人工知能を使用して文書を認識および抽出するため、GPU は必要ですか？\n",
+        "fr": "Le programme utilise l'intelligence artificielle pour reconnaître et extraire des documents, un GPU est-il nécessaire ?\n",
+        "zh_TW": "該程式使用人工智慧來辨識與擷取文件，是否需要 GPU？\n",
+        "it": "Il programma utilizza l'intelligenza artificiale per riconoscere ed estrarre documenti, è necessaria una GPU?\n",
+        "de": "Da das Programm künstliche Intelligenz zur Erkennung und Extraktion von Dokumenten verwendet, wird eine GPU benötigt?\n",
+        "pt": "Como o programa usa inteligência artificial para reconhecer e extrair documentos, é necessária uma GPU?\n",
+        "es": "¿El programa utiliza inteligencia artificial para reconocer y extraer documentos, se requiere una GPU?\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_FE846FC9",
+      "chunk_type": "list",
+      "original_content": "- **Answer**:  ",
+      "start_line_no": 23,
+      "translations": {
+        "ja": "- **回答**:",
+        "ko": "- **답변**:",
+        "de": "- **Antwort**:",
+        "it": "- **Risposta**:",
+        "fr": "- **Réponse** :",
+        "zh": "- **回答**:",
+        "zh_TW": "- **答案**:",
+        "es": "- **Respuesta**:",
+        "ru": "- **Ответ**:",
+        "pt": "- **Resposta**:"
+      }
+    },
+    {
+      "chunk_id": "chunk_63C892F6",
+      "chunk_type": "paragraph",
+      "original_content": "**GPU is not required.** But if you have a GPU, the program will automatically use it for higher performance.\n",
+      "start_line_no": 8,
+      "translations": {
+        "zh": "**不需要 GPU。** 但如果你有 GPU，程序会自动使用它以获得更高性能。\n",
+        "ru": "**GPU не требуется.** Но если у вас есть GPU, программа автоматически использует его для повышения производительности.\n",
+        "ko": "**GPU 가 필요하지 않습니다.** 하지만 GPU 가 있는 경우 프로그램이 자동으로 이를 사용하여 더 높은 성능을 발휘합니다.\n",
+        "zh_TW": "**不需要 GPU。** 但如果你有 GPU，程式會自動使用它以獲得更高的效能。\n",
+        "ja": "**GPU は必要ありません。** ただし、GPU がある場合、プログラムは自動的にそれを使用してより高いパフォーマンスを発揮します。\n",
+        "es": "**No se requiere una GPU.** Pero si tienes una GPU, el programa la usará automáticamente para un mayor rendimiento.\n",
+        "it": "**Non è necessaria una GPU.** Ma se hai una GPU, il programma la utilizzerà automaticamente per prestazioni più elevate.\n",
+        "fr": "**Un GPU n'est pas nécessaire.** Mais si vous avez un GPU, le programme l'utilisera automatiquement pour une meilleure performance.\n",
+        "de": "**Eine GPU ist nicht erforderlich.** Aber wenn Sie eine GPU haben, wird das Programm diese automatisch für eine höhere Leistung nutzen.\n",
+        "pt": "**Não é necessária uma GPU.** Mas se você tiver uma GPU, o programa irá usá-la automaticamente para melhor desempenho.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_610DD2DC",
+      "chunk_type": "header",
+      "original_content": "## Downloading interrupted?",
+      "start_line_no": 10,
+      "translations": {
+        "zh": "## 下载中断了？",
+        "it": "## Download interrotta?",
+        "pt": "## Download interrompido?",
+        "es": "## ¿Descarga interrumpida?",
+        "ru": "## Загрузка прервана?",
+        "de": "## Download unterbrochen?",
+        "zh_TW": "## 下載中斷了嗎？",
+        "ja": "## ダウンロードが中断されましたか？",
+        "ko": "## 다운로드가 중단되었나요?",
+        "fr": "## Téléchargement interrompu ?"
+      }
+    },
+    {
+      "chunk_id": "chunk_53B66922",
+      "chunk_type": "paragraph",
+      "original_content": "I encountered the following interrupt error while downloading the model. What should I do?\n",
+      "start_line_no": 12,
+      "translations": {
+        "zh": "我在下载模型时遇到了以下中断错误。我该怎么办？\n",
+        "ru": "При загрузке модели я столкнулся со следующей ошибкой прерывания. Что мне делать?\n",
+        "ja": "モデルのダウンロード中に以下の中断エラーが発生しました。どうすればよいですか？\n",
+        "it": "Ho riscontrato il seguente errore di interruzione durante il download del modello. Cosa devo fare?\n",
+        "fr": "J'ai rencontré l'erreur d'interruption suivante lors du téléchargement du modèle. Que dois-je faire ?\n",
+        "pt": "Encontrei o seguinte erro de interrupção ao baixar o modelo. O que devo fazer?\n",
+        "zh_TW": "我在下載模型時遇到以下中斷錯誤。我該怎麼辦？\n",
+        "es": "Encontré el siguiente error de interrupción mientras descargaba el modelo. ¿Qué debo hacer?\n",
+        "de": "Ich bin beim Herunterladen des Modells auf den folgenden Unterbrechungsfehler gestoßen. Was soll ich tun?\n",
+        "ko": "모델을 다운로드하는 동안 다음과 같은 중단 오류가 발생했습니다. 어떻게 해야 하나요?\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_663B9855",
+      "chunk_type": "image",
+      "original_content": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+      "start_line_no": 14,
+      "translations": {
+        "zh": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "zh_TW": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "ja": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "ko": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "ru": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "es": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "fr": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "de": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "it": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n",
+        "pt": "  ![image](https://github.com/user-attachments/assets/3c4eed44-3d9b-4e2f-a224-a58edca718c2)\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_2A133C40",
+      "chunk_type": "paragraph",
+      "original_content": "The network is receiving interference, please use a stable network link or try to bypass network intervention.\n",
+      "start_line_no": 17,
+      "translations": {
+        "zh": "网络受到干扰，请使用稳定的网络链接或尝试绕过网络干预。\n",
+        "ja": "ネットワークが干渉を受けています。安定したネットワークリンクを使用するか、ネットワーク介入を回避してください。\n",
+        "zh_TW": "網路正受到干擾，請使用穩定的網路連結或嘗試繞過網路干預。\n",
+        "fr": "Le réseau subit des interférences, veuillez utiliser une connexion réseau stable ou essayer de contourner l'intervention du réseau.\n",
+        "de": "Das Netzwerk erfährt Störungen, bitte verwenden Sie eine stabile Netzwerkverbindung oder versuchen Sie, die Netzwerkintervention zu umgehen.\n",
+        "es": "La red está recibiendo interferencias, por favor usa un enlace de red estable o intenta evitar la intervención de la red.\n",
+        "ru": "Сеть подвергается помехам, пожалуйста, используйте стабильное сетевое соединение или попробуйте обойти вмешательство в сеть.\n",
+        "pt": "A rede está sofrendo interferência, por favor use uma conexão de rede estável ou tente contornar a intervenção da rede.\n",
+        "it": "La rete sta subendo interferenze, utilizza un collegamento di rete stabile o prova a bypassare l'intervento della rete.\n",
+        "ko": "네트워크에 간섭이 발생하고 있습니다. 안정적인 네트워크 링크를 사용하거나 네트워크 간섭을 우회해 보세요.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_ABB33668",
+      "chunk_type": "header",
+      "original_content": "## How to update to the latest version?",
+      "start_line_no": 19,
+      "translations": {
+        "zh": "## 如何更新到最新版本？",
+        "fr": "## Comment mettre à jour vers la dernière version ?",
+        "zh_TW": "## 如何更新至最新版本？",
+        "ru": "## Как обновиться до последней версии?",
+        "ko": "## 최신 버전으로 업데이트하는 방법은 무엇인가요?",
+        "es": "## ¿Cómo actualizar a la última versión?",
+        "it": "## Come aggiornare all'ultima versione?",
+        "pt": "## Como atualizar para a versão mais recente?",
+        "de": "## Wie aktualisiert man auf die neueste Version?",
+        "ja": "## 最新バージョンに更新する方法は？"
+      }
+    },
+    {
+      "chunk_id": "chunk_981A22AF",
+      "chunk_type": "paragraph",
+      "original_content": "I want to use some of the features of the latest version, how do I update it?\n",
+      "start_line_no": 21,
+      "translations": {
+        "ko": "최신 버전의 일부 기능을 사용하고 싶은데, 어떻게 업데이트하나요?\n",
+        "zh": "我想使用最新版本的一些功能，如何更新它？\n",
+        "fr": "Je souhaite utiliser certaines fonctionnalités de la dernière version, comment puis-je la mettre à jour ?\n",
+        "de": "Ich möchte einige Funktionen der neuesten Version nutzen, wie aktualisiere ich sie?\n",
+        "pt": "Quero usar alguns dos recursos da versão mais recente, como posso atualizá-la?\n",
+        "zh_TW": "我想使用最新版本的一些功能，如何更新它？\n",
+        "ru": "Я хочу использовать некоторые функции последней версии, как мне обновиться?\n",
+        "es": "Quiero usar algunas de las funciones de la última versión, ¿cómo la actualizo?\n",
+        "ja": "最新バージョンの機能の一部を使用したいのですが、どのように更新すればよいですか？\n",
+        "it": "Voglio utilizzare alcune funzionalità dell'ultima versione, come posso aggiornarla?\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E6E8A1D1",
+      "chunk_type": "paragraph",
+      "original_content": "`pip install -U pdf2zh`\n\n",
+      "start_line_no": 24,
+      "translations": {
+        "zh": "`pip install -U pdf2zh`\n\n",
+        "ja": "`pip install -U pdf2zh`\n\n",
+        "es": "`pip install -U pdf2zh`\n\n",
+        "pt": "`pip install -U pdf2zh`\n\n",
+        "ko": "`pip install -U pdf2zh`\n\n",
+        "it": "`pip install -U pdf2zh`\n\n",
+        "ru": "`pip install -U pdf2zh`\n\n",
+        "de": "`pip install -U pdf2zh`\n\n",
+        "zh_TW": "`pip install -U pdf2zh`\n\n",
+        "fr": "`pip install -U pdf2zh`\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_9FB0E3EA",
+      "chunk_type": "header",
+      "original_content": "## The following files do not exist: example.pdf",
+      "start_line_no": 27,
+      "translations": {
+        "zh": "## 以下文件不存在：example.pdf",
+        "zh_TW": "## 以下檔案不存在：example.pdf",
+        "es": "## Los siguientes archivos no existen: example.pdf",
+        "de": "## Die folgenden Dateien existieren nicht: example.pdf",
+        "ko": "## 다음 파일이 존재하지 않습니다: example.pdf",
+        "ja": "## 以下のファイルは存在しません：example.pdf",
+        "it": "## I seguenti file non esistono: example.pdf",
+        "pt": "## Os seguintes arquivos não existem: example.pdf",
+        "ru": "## Следующие файлы не существуют: example.pdf",
+        "fr": "## Les fichiers suivants n'existent pas : example.pdf"
+      }
+    },
+    {
+      "chunk_id": "chunk_22B1E6C4",
+      "chunk_type": "list",
+      "original_content": "- **Issue**:  ",
+      "start_line_no": 52,
+      "translations": {
+        "zh": "- **问题**:",
+        "zh_TW": "- **問題**:",
+        "ko": "- **문제**:",
+        "ja": "- **問題**:",
+        "ru": "- **Проблема**:",
+        "fr": "- **Problème** :",
+        "es": "- **Problema**:",
+        "it": "- **Problema**:",
+        "pt": "- **Problema**:",
+        "de": "- **Problem**:"
+      }
+    },
+    {
+      "chunk_id": "chunk_FAB807CC",
+      "chunk_type": "paragraph",
+      "original_content": "When executing the program, users would have the following outputs: `The following files do not exist: example.pdf` if the document was not found.\n",
+      "start_line_no": 29,
+      "translations": {
+        "zh_TW": "執行程式時，若找不到文件，使用者會看到以下輸出：`The following files do not exist: example.pdf`。\n",
+        "zh": "执行程序时，如果未找到文档，用户会看到以下输出：`The following files do not exist: example.pdf`。\n",
+        "ja": "プログラムを実行する際、ユーザーは以下の出力を受け取ります：ドキュメントが見つからない場合、`以下のファイルは存在しません：example.pdf`。\n",
+        "ru": "При выполнении программы пользователи могут получить следующие сообщения: `The following files do not exist: example.pdf`, если документ не был найден.\n",
+        "es": "Al ejecutar el programa, los usuarios tendrían las siguientes salidas: `Los siguientes archivos no existen: example.pdf` si el documento no se encontró.\n",
+        "fr": "Lors de l'exécution du programme, les utilisateurs auront les sorties suivantes : `The following files do not exist: example.pdf` si le document n'a pas été trouvé.\n",
+        "ko": "프로그램을 실행할 때 사용자는 문서를 찾을 수 없는 경우 `다음 파일이 존재하지 않습니다: example.pdf`와 같은 출력을 보게 됩니다.\n",
+        "it": "Durante l'esecuzione del programma, gli utenti otterranno i seguenti output: `The following files do not exist: example.pdf` se il documento non è stato trovato.\n",
+        "pt": "Ao executar o programa, os usuários terão as seguintes saídas: `Os seguintes arquivos não existem: example.pdf` se o documento não for encontrado.\n",
+        "de": "Beim Ausführen des Programms erhalten Benutzer die folgende Ausgabe: `The following files do not exist: example.pdf`, wenn das Dokument nicht gefunden wurde.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E7371FD6",
+      "chunk_type": "list",
+      "original_content": "- **Solution**:\n  - Open the command line in the directory where the file is located, or\n  - Enter the full path of the file directly after pdf2zh, or\n  - Use the interactive mode `pdf2zh -i` to drag and drop files directly\n\n",
+      "start_line_no": 31,
+      "translations": {
+        "zh": "- **解决方案**：\n  - 在文件所在目录打开命令行，或\n  - 在 pdf2zh 后直接输入文件的完整路径，或\n  - 使用交互模式 `pdf2zh -i` 直接拖放文件\n\n",
+        "ja": "- **解決方法**:\n  - ファイルが存在するディレクトリでコマンドラインを開く、または\n  - pdf2zh の後にファイルのフルパスを直接入力する、または\n  - インタラクティブモード `pdf2zh -i` を使用してファイルを直接ドラッグ＆ドロップする\n\n",
+        "zh_TW": "- **解決方案**：\n  - 在檔案所在目錄中開啟命令行，或\n  - 直接在 pdf2zh 後輸入檔案的完整路徑，或\n  - 使用互動模式 `pdf2zh -i` 直接拖放檔案\n\n",
+        "pt": "- **Solução**:\n  - Abra a linha de comando no diretório onde o arquivo está localizado, ou\n  - Insira o caminho completo do arquivo diretamente após pdf2zh, ou\n  - Use o modo interativo `pdf2zh -i` para arrastar e soltar arquivos diretamente\n\n",
+        "ru": "- **Решение**:\n  - Откройте командную строку в директории, где находится файл, или\n  - Введите полный путь к файлу непосредственно после pdf2zh, или\n  - Используйте интерактивный режим `pdf2zh -i` для прямого перетаскивания файлов\n\n",
+        "es": "- **Solución**:\n  - Abre la línea de comandos en el directorio donde se encuentra el archivo, o\n  - Ingresa la ruta completa del archivo directamente después de pdf2zh, o\n  - Usa el modo interactivo `pdf2zh -i` para arrastrar y soltar archivos directamente\n\n",
+        "ko": "- **해결 방법**:\n  - 파일이 위치한 디렉토리에서 명령줄을 열거나,\n  - pdf2zh 뒤에 파일의 전체 경로를 직접 입력하거나,\n  - 대화형 모드 `pdf2zh -i`를 사용하여 파일을 직접 드래그 앤 드롭하세요\n\n",
+        "it": "- **Soluzione**:\n  - Apri la riga di comando nella directory in cui si trova il file, oppure\n  - Inserisci il percorso completo del file direttamente dopo pdf2zh, oppure\n  - Usa la modalità interattiva `pdf2zh -i` per trascinare e rilasciare i file direttamente\n\n",
+        "fr": "- **Solution** :\n  - Ouvrez la ligne de commande dans le répertoire où se trouve le fichier, ou\n  - Entrez le chemin complet du fichier directement après pdf2zh, ou\n  - Utilisez le mode interactif `pdf2zh -i` pour glisser-déposer les fichiers directement\n\n",
+        "de": "- **Lösung**:\n  - Öffnen Sie die Kommandozeile in dem Verzeichnis, in dem sich die Datei befindet, oder\n  - Geben Sie den vollständigen Pfad der Datei direkt nach pdf2zh ein, oder\n  - Verwenden Sie den interaktiven Modus `pdf2zh -i`, um Dateien direkt per Drag & Drop einzufügen\n\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_F523458B",
+      "chunk_type": "header",
+      "original_content": "## SSL Error and Other Network Issues",
+      "start_line_no": 37,
+      "translations": {
+        "zh_TW": "## SSL 錯誤與其他網路問題",
+        "ko": "## SSL 오류 및 기타 네트워크 문제",
+        "de": "## SSL-Fehler und andere Netzwerkprobleme",
+        "zh": "## SSL 错误及其他网络问题",
+        "ja": "## SSL エラーとその他のネットワーク問題",
+        "ru": "## Ошибка SSL и другие сетевые проблемы",
+        "fr": "## Erreur SSL et autres problèmes réseau",
+        "es": "## Error SSL y otros problemas de red",
+        "pt": "## Erro SSL e Outros Problemas de Rede\n\n[!NOTE]\nIf you encounter SSL errors or other network issues when using **pdf2zh**, please try the following solutions:\n\n1. **Check Your Internet Connection**: Ensure your device is connected to the internet and can access other websites normally.\n\n2. **Update Your System's Root Certificates**:\n   - On **Windows**, run `certmgr.msc` and update the certificates.\n   - On **macOS**, use `Keychain Access` to update the certificates.\n   - On **Linux**, run `sudo update-ca-certificates`.\n\n3. **Disable SSL Verification (Not Recommended)**:\n   - Add `--no-ssl-verify` to the command line when using **pdf2zh**.\n   - Example: `pdf2zh --no-ssl-verify input.pdf`.\n\n4. **Use a Proxy**:\n   - If you are in a region with network restrictions, try using a proxy or VPN.\n\n5. **Check the Server Status**:\n   - Visit [PDFMathTranslate Status Page](https://status.pdf2zh.com) to see if there are any ongoing issues.\n\nIf the problem persists, please contact our [Community](#community) or check the [FAQ](#faq) for more help.",
+        "it": "## Errore SSL e altri problemi di rete\n\nSe riscontri errori SSL o altri problemi di rete durante l'utilizzo di `pdf2zh`, segui questi passaggi per risolverli:\n\n1. **Verifica la connessione Internet**:\n   - Assicurati che il tuo dispositivo sia connesso a Internet.\n   - Prova ad accedere ad altri siti web per verificare la connessione.\n\n2. **Aggiorna i certificati SSL**:\n   - Su Windows, esegui `certmgr.msc` e aggiorna i certificati.\n   - Su macOS/Linux, esegui `sudo update-ca-certificates`.\n\n3. **Disabilita temporaneamente il firewall/antivirus**:\n   - Alcuni firewall o software antivirus potrebbero bloccare la connessione. Prova a disabilitarli temporaneamente.\n\n4. **Usa una VPN o cambia rete**:\n   - Prova a connetterti tramite una VPN o cambia rete (ad esempio, da Wi-Fi a dati mobili).\n\n5. **Controlla la data e l'ora del sistema**:\n   - Un'ora o data errata può causare errori SSL. Assicurati che siano corrette.\n\nSe il problema persiste, contatta il supporto tecnico fornendo i dettagli dell'errore."
+      }
+    },
+    {
+      "chunk_id": "chunk_DF99BBC1",
+      "chunk_type": "paragraph",
+      "original_content": "When downloading hugging face models, users in China may get network error. For example, in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+      "start_line_no": 39,
+      "translations": {
+        "zh": "在下载 hugging face 模型时，中国用户可能会遇到网络错误。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。\n",
+        "de": "Beim Herunterladen von Hugging-Face-Modellen können Benutzer in China Netzwerkfehler erhalten. Zum Beispiel in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "pt": "Ao baixar modelos do Hugging Face, usuários na China podem encontrar erros de rede. Por exemplo, nos [issues #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "zh_TW": "在下載 hugging face 模型時，中國用戶可能會遇到網路錯誤。例如，在 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 中。\n",
+        "es": "Al descargar modelos de hugging face, los usuarios en China pueden experimentar errores de red. Por ejemplo, en [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "ru": "При загрузке моделей с hugging face пользователи из Китая могут столкнуться с сетевой ошибкой. Например, в [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "ja": "Hugging Face のモデルをダウンロードする際、中国のユーザーはネットワークエラーに遭遇する可能性があります。例えば、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55)、[#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) で報告されています。\n",
+        "it": "Durante il download dei modelli di Hugging Face, gli utenti in Cina potrebbero riscontrare errori di rete. Ad esempio, nei [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n",
+        "ko": "허깅 페이스 모델을 다운로드할 때 중국 사용자는 네트워크 오류를 겪을 수 있습니다. 예를 들어, [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70) 에서 확인할 수 있습니다.\n",
+        "fr": "Lors du téléchargement des modèles de hugging face, les utilisateurs en Chine peuvent rencontrer des erreurs réseau. Par exemple, dans [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55), [#70](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/70).\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_AC4D20E5",
+      "chunk_type": "list",
+      "original_content": "- **Solution**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Use Hugging Face Mirror](https://hf-mirror.com/).\n  - [Use Portable version](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Use Docker instead](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Update Certificates](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), as suggested in [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+      "start_line_no": 41,
+      "translations": {
+        "zh": "- **解决方案**：\n  - [绕过 GFW](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [使用 Hugging Face 镜像](https://hf-mirror.com/)。\n  - [使用便携版](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [更新证书](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 中建议。\n",
+        "pt": "- **Solução**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usar Espelho do Hugging Face](https://hf-mirror.com/).\n  - [Usar versão Portátil](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usar Docker em vez disso](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Atualizar Certificados](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), como sugerido em [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "ru": "- **Решение**:\n  - [Обход GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Использовать зеркало Hugging Face](https://hf-mirror.com/).\n  - [Использовать портативную версию](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Использовать Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Обновить сертификаты](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), как предложено в [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "ja": "- **解決策**:\n  - [GFW をバイパスする](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face ミラーを使用する](https://hf-mirror.com/).\n  - [ポータブル版を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [代わりに Docker を使用する](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [証明書を更新する](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)、[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) で提案されている通り。\n",
+        "fr": "- **Solution** :\n  - [Contourner le GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Utiliser le miroir Hugging Face](https://hf-mirror.com/).\n  - [Utiliser la version portable](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Utiliser Docker à la place](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Mettre à jour les certificats](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), comme suggéré dans [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "zh_TW": "- **解決方案**：\n  - [繞過防火長城](https://github.com/clash-verge-rev/clash-verge-rev)。\n  - [使用 Hugging Face 鏡像站](https://hf-mirror.com/)。\n  - [使用便攜版](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable)。\n  - [改用 Docker](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker)。\n  - [更新憑證](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests)，如 [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 所建議。\n",
+        "de": "- **Lösung**:\n  - [GFW umgehen](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face Mirror verwenden](https://hf-mirror.com/).\n  - [Portable Version verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Stattdessen Docker verwenden](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Zertifikate aktualisieren](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), wie in [Issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) vorgeschlagen.\n",
+        "ko": "- **해결 방법**:\n  - [GFW 우회](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Hugging Face 미러 사용](https://hf-mirror.com/).\n  - [포터블 버전 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [대신 Docker 사용](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [인증서 업데이트](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), [이슈 #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55) 에서 제안된 대로.\n",
+        "it": "- **Soluzione**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usa Hugging Face Mirror](https://hf-mirror.com/).\n  - [Usa la versione portatile](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usa Docker invece](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Aggiorna i certificati](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), come suggerito nell'[issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n",
+        "es": "- **Solución**:\n  - [Bypass GFW](https://github.com/clash-verge-rev/clash-verge-rev).\n  - [Usar espejo de Hugging Face](https://hf-mirror.com/).\n  - [Usar versión portable](https://github.com/PDFMathTranslate/PDFMathTranslate-next?tab=readme-ov-file#method-ii-portable).\n  - [Usar Docker en su lugar](https://github.com/PDFMathTranslate/PDFMathTranslate-next#docker).\n  - [Actualizar certificados](https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests), como se sugiere en [issue #55](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/55).\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_8AA448AC",
+      "chunk_type": "header",
+      "original_content": "## Localhost is not accessible",
+      "start_line_no": 48,
+      "translations": {
+        "zh": "## 无法访问本地主机",
+        "es": "## Localhost no es accesible",
+        "pt": "## O localhost não está acessível",
+        "ja": "## ローカルホストにアクセスできない",
+        "it": "## Localhost non è accessibile",
+        "zh_TW": "## 無法存取本地主機",
+        "ko": "## 로컬호스트에 접근할 수 없음",
+        "de": "## Localhost ist nicht erreichbar",
+        "fr": "## Localhost n'est pas accessible",
+        "ru": "## Локальный хост недоступен"
+      }
+    },
+    {
+      "chunk_id": "chunk_4E814B7B",
+      "chunk_type": "paragraph",
+      "original_content": "Please see below.\n",
+      "start_line_no": 49,
+      "translations": {
+        "zh": "请见下文。\n",
+        "de": "Bitte sehen Sie unten.\n",
+        "es": "Por favor, vea a continuación.\n",
+        "zh_TW": "請參閱下方。\n",
+        "it": "Per favore, vedi sotto.\n",
+        "ko": "아래를 참조하세요.\n",
+        "ja": "以下をご覧ください。\n",
+        "fr": "Veuillez voir ci-dessous.\n",
+        "pt": "Por favor, veja abaixo.\n",
+        "ru": "Пожалуйста, смотрите ниже.\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_EA897629",
+      "chunk_type": "header",
+      "original_content": "## Error launching GUI using 0.0.0.0",
+      "start_line_no": 51,
+      "translations": {
+        "zh": "## 使用 0.0.0.0 启动 GUI 时出错",
+        "ja": "## GUI を 0.0.0.0 で起動する際のエラー",
+        "zh_TW": "## 使用 0.0.0.0 啟動 GUI 時出現錯誤",
+        "es": "## Error al iniciar la GUI usando 0.0.0.0",
+        "ru": "## Ошибка запуска GUI с использованием 0.0.0.0",
+        "pt": "## Erro ao iniciar a GUI usando 0.0.0.0",
+        "it": "## Errore durante l'avvio della GUI utilizzando 0.0.0.0",
+        "ko": "## 0.0.0.0 를 사용하여 GUI 를 실행하는 중 오류 발생",
+        "de": "## Fehler beim Starten der GUI mit 0.0.0.0",
+        "fr": "## Erreur lors du lancement de l'interface graphique avec 0.0.0.0"
+      }
+    },
+    {
+      "chunk_id": "chunk_D65A22CE",
+      "chunk_type": "paragraph",
+      "original_content": "Using proxy software in global mode may prevent Gradio from starting properly. For example, in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+      "start_line_no": 53,
+      "translations": {
+        "zh_TW": "使用全域模式的代理軟體可能會導致 Gradio 無法正常啟動。例如，在 [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77)。\n",
+        "fr": "L'utilisation d'un logiciel proxy en mode global peut empêcher Gradio de démarrer correctement. Par exemple, dans [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "zh": "使用全局模式的代理软件可能会阻止 Gradio 正常启动。例如，在 [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) 中。\n",
+        "ru": "Использование прокси-программ в глобальном режиме может помешать правильному запуску Gradio. Например, в [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "es": "El uso de software de proxy en modo global puede impedir que Gradio se inicie correctamente. Por ejemplo, en [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "it": "L'utilizzo di software proxy in modalità globale potrebbe impedire il corretto avvio di Gradio. Ad esempio, nel [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "ko": "전역 모드에서 프록시 소프트웨어를 사용하면 Gradio 가 제대로 시작되지 않을 수 있습니다. 예를 들어, [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) 에서와 같은 경우가 있습니다.\n",
+        "pt": "O uso de software de proxy no modo global pode impedir que o Gradio seja iniciado corretamente. Por exemplo, no [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "de": "Die Verwendung von Proxy-Software im globalen Modus kann verhindern, dass Gradio ordnungsgemäß startet. Zum Beispiel in [issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77).\n",
+        "ja": "グローバルモードでプロキシソフトウェアを使用すると、Gradio が正常に起動しない場合があります。例として、[issue #77](https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/77) を参照してください。\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_587F7FBA",
+      "chunk_type": "list",
+      "original_content": "- **Solution**:  ",
+      "start_line_no": 55,
+      "translations": {
+        "zh": "- **解决方案**：",
+        "fr": "- **Solution** :",
+        "de": "- **Lösung**:",
+        "es": "- **Solución**:",
+        "it": "- **Soluzione**:",
+        "zh_TW": "- **解決方案**：",
+        "ja": "- **解決策**:",
+        "ru": "- **Решение**:",
+        "ko": "- **해결 방법**:",
+        "pt": "- **Solução**:"
+      }
+    },
+    {
+      "chunk_id": "chunk_E7C819A4",
+      "chunk_type": "paragraph",
+      "original_content": "Use rule mode\n",
+      "start_line_no": 56,
+      "translations": {
+        "ko": "규칙 모드 사용\n",
+        "es": "Modo de uso de reglas\n",
+        "ru": "Использовать режим правил\n",
+        "ja": "ルールモードを使用\n",
+        "de": "Verwenden Sie den Regelmodus\n",
+        "it": "Modalità di utilizzo delle regole\n",
+        "zh_TW": "使用規則模式\n",
+        "zh": "使用规则模式\n",
+        "pt": "Usar modo de regra\n",
+        "fr": "Utiliser le mode règle\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_E6DC933A",
+      "chunk_type": "image",
+      "original_content": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+      "start_line_no": 58,
+      "translations": {
+        "zh": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "zh_TW": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "ja": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "ko": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "ru": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "es": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "fr": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "de": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "it": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)",
+        "pt": "  ![image](https://github.com/user-attachments/assets/b1f2b16a-eb6a-4c03-995c-332ef1d82c96)"
+      }
+    }
+  ]
+}

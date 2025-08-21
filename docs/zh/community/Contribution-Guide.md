@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 >
-> 当前项目维护者正在研究自动化文档国际化。因此，任何与文档国际化/翻译相关的 PR 将不被接受！
+> 当前项目维护者正在研究自动化文档国际化方案。因此，任何与文档国际化/翻译相关的 PR 将不被接受！
 >
 > 请勿提交与文档国际化/翻译相关的 PR！
 
@@ -11,11 +11,11 @@
 ## 不接受的贡献类型
 
 1. 文档国际化/翻译
-2. 与核心基础设施相关的贡献，例如 HTTP API 等。
-3. 明确标记为“无需帮助”的问题（包括 [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 和 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 仓库中的问题）。
-4. 维护者认为不合适的其他贡献。
-5. 贡献文档，但修改非英语语言的文档。
-6. 需要修改 PDF 文件的 PR。
+2. 与核心基础设施相关的贡献，例如 HTTP API 等
+3. 明确标记为「无需帮助」的 Issues（包括 [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 和 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 仓库中的 Issues）
+4. 维护者认为不合适的其他贡献
+5. 贡献文档，但修改非英语语言的文档
+6. 需要修改 `PDF` 文件的 PRs
 
 请勿提交与上述类型相关的 PR。
 
@@ -33,24 +33,24 @@
    git add .
    git commit -m "<semantic commit message>"
    ```
-5. 推送至你的仓库：`git push origin feature/<feature-name>`。
+5. 推送到你的仓库：`git push origin feature/<feature-name>`。
 6. 在 GitHub 上创建一个 PR，提供详细描述，并请求 [@awwaawwa](https://github.com/awwaawwa) 进行审查。
 7. 确保所有自动化检查通过。
 
 > [!TIP]
 >
-> 您无需等到开发完全完成才创建 PR。提前创建 PR 可以让我们审查您的实现并提供建议。
+> 你无需等到开发完全完成才创建 PR。提前创建 PR 可以让我们审查你的实现并提供建议。
 >
-> 如果您对源代码或相关事宜有任何疑问，请联系维护者 aw@funstory.ai。
+> 如果你对源代码或相关事项有任何疑问，请联系维护者 aw@funstory.ai。
 >
-> 2.0 版本的资源文件与 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 共享。下载相关资源的代码位于 BabelDOC 中。如果您想添加新的资源文件，请联系 BabelDOC 维护者 aw@funstory.ai。
+> 2.0 版本的资源文件与 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 共享。下载相关资源的代码位于 BabelDOC 中。如果你想添加新的资源文件，请联系 BabelDOC 维护者 aw@funstory.ai。
 
 ## 基本要求
 
 <h4 id="sop">1. 工作流程</h4>
 
-   - 请从 `main` 分支进行 fork，并在你 fork 的分支上进行开发。
-   - 提交 Pull Request（PR）时，请提供详细的变更说明。
+   - 请从 `main` 分支进行 fork，并在你的 fork 分支上进行开发。
+   - 提交 Pull Request（PR）时，请提供详细的变更描述。
    - 如果你的 PR 未通过自动化检查（显示为 `checks failed` 和红色叉号），请查看对应的 `details` 并修改你的提交，确保新的 PR 能通过所有检查。
 
 
@@ -59,19 +59,19 @@
    - 使用命令 `pip install -e .` 进行开发和测试。
 
 
-<h4 id="format">3. 代码格式化</h4>
+<h4 id="格式">3. 代码格式化</h4>
 
    - 配置 `pre-commit` 工具并启用 `black` 和 `flake8` 进行代码格式化。
 
 
 <h4 id="requpdate">4. 依赖项更新</h4>
 
-   - 如果引入了新的依赖项，请及时更新 `pyproject.toml` 文件中的依赖列表。
+   - 如果您引入了新的依赖项，请及时更新 `pyproject.toml` 文件中的依赖列表。
 
 
 <h4 id="docupdate">5. 文档更新</h4>
 
-   - 如果您添加了新的命令行选项，请相应地更新所有语言版本的 `README.md` 文件中的命令行选项列表。
+   - 如果添加了新的命令行选项，请相应地更新所有语言版本的 `README.md` 文件中的命令行选项列表。
 
 
 <h4 id="commitmsg">6. 提交信息</h4>
@@ -82,18 +82,18 @@
 <h4 id="codestyle">7. 代码风格</h4>
 
    - 确保提交的代码符合基本的编码风格标准。
-   - 变量命名使用 snake_case 或 camelCase。
+   - 变量命名请使用 snake_case 或 camelCase。
 
 
 <h4 id="doctypo">8. 文档格式</h4>
 
-   - 对于 `README.md` 的格式，请遵循[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
+   - 对于 `README.md` 的格式，请遵循 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
    - 确保英文和中文文档始终保持最新；其他语言文档的更新是可选的。
 
 ## 添加翻译引擎
 
 1. 在 `pdf2zh/config/translate_engine_model.py` 文件中添加一个新的翻译器配置类。
-2. 在同一文件中将新翻译器配置类的实例添加到 `TRANSLATION_ENGINE_SETTING_TYPE` 类型别名中。
+2. 在同一文件中将新的翻译器配置类实例添加到 `TRANSLATION_ENGINE_SETTING_TYPE` 类型别名中。
 3. 在 `pdf2zh/translator/translator_impl` 文件夹中添加新的翻译器实现类。
 
 > [!NOTE]
@@ -102,21 +102,21 @@
 
 ## 项目结构
 
-- **config 文件夹**: 配置系统。
-- **translator 文件夹**: 翻译器相关实现。
-- **gui.py**: 提供 GUI 界面。
-- **const.py**: 一些常量。
-- **main.py**: 提供命令行工具。
-- **high_level.py**: 基于 BabelDOC 的高级接口。
-- **http_api.py**: 提供 HTTP API（未启动）。
+- **config 文件夹**：配置系统。
+- **translator 文件夹**：翻译器相关实现。
+- **gui.py**：提供 GUI 界面。
+- **const.py**：一些常量。
+- **main.py**：提供命令行工具。
+- **high_level.py**：基于 BabelDOC 的高级接口。
+- **http_api.py**：提供 HTTP API（未启动）。
 
 ## 联系我们
 
-如有任何疑问，请通过 Issue 提交反馈或加入我们的 Telegram 群组。感谢您的贡献！
+如果您有任何问题，请通过 Issue 提交反馈或加入我们的 Telegram 群组。感谢您的贡献！
 
 > [!TIP]
 >
-> [Immersive Translate](https://immersivetranslate.com) 为该项目活跃贡献者每月赞助 Pro 会员兑换码。详情请参阅：[BabelDOC/PDFMathTranslate 贡献者奖励规则](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
+> [Immersive Translate](https://immersivetranslate.com) 为该项目活跃贡献者提供每月 Pro 会员兑换码。详情请参阅：[BabelDOC/PDFMathTranslate 贡献者奖励规则](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)
 
 <div align="right"> 
-<h6><small>本页面的部分内容由GPT翻译，可能包含错误。</small></h6>
+<h6><small>本页面的部分内容由 GPT 翻译，可能包含错误。</small></h6>
