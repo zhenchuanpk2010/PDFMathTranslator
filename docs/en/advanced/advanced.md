@@ -5,6 +5,12 @@
 <h3 id="toc">Table of Contents</h3>
 
 - [Command Line Args](#command-line-args)
+  - [Args](#args)
+  - [GUI Args](#gui-args)
+- [Rate Limiting Configuration Guide](#rate-limiting-configuration-guide)
+  - [RPM (Requests Per Minute) Rate Limiting](#rpm-requests-per-minute-rate-limiting)
+  - [Concurrent Connection Limiting](#concurrent-connection-limiting)
+  - [Best Practices](#best-practices)
 - [Partial translation](#partial-translation)
 - [Specify source and target languages](#specify-source-and-target-languages)
 - [Translate wih exceptions](#translate-wih-exceptions)
@@ -87,6 +93,60 @@ In the following table, we list all advanced options for reference:
 | `--disable-gui-sensitive-input` | Disable GUI sensitive input            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Disable automatic configuration saving | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | WebUI Port                             | `pdf2zh --gui --server-port 7860`               |
+
+[⬆️ Back to top](#toc)
+
+---
+
+#### Rate Limiting Configuration Guide
+
+When using translation services, proper rate limiting configuration is crucial to avoid API errors and optimize performance. This guide explains how to configure `--qps` and `--pool-max-worker` parameters based on different upstream service limitations.
+
+##### RPM (Requests Per Minute) Rate Limiting
+
+When the upstream service has RPM limitations, use the following calculation:
+
+**Calculation Formula:**
+- `qps = floor(rpm / 60)`
+- `pool_size = qps * 10`
+
+> [!NOTE]
+> The factor of 10 is an empirical coefficient that generally works well for most scenarios.
+
+**Example:**
+If your translation service has a limit of 600 RPM:
+- `qps = floor(600 / 60) = 10`
+- `pool_size = 10 * 10 = 100`
+
+```bash
+pdf2zh example.pdf --qps 10 --pool-max-worker 100
+```
+
+##### Concurrent Connection Limiting
+
+When the upstream service has concurrent connection limitations (like GLM official service), use this approach:
+
+**Calculation Formula:**
+- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`
+- `qps = pool_size`
+
+**Example:**
+If your translation service allows 50 concurrent connections:
+- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`
+- `qps = 45`
+
+```bash
+pdf2zh example.pdf --qps 45 --pool-max-worker 45
+```
+
+##### Best Practices
+
+> [!TIP]
+> - Always start with conservative values and gradually increase if needed
+> - Monitor your service's response times and error rates
+> - Different services may require different optimization strategies
+> - Consider your specific use case and document size when setting these parameters
+
 
 [⬆️ Back to top](#toc)
 
