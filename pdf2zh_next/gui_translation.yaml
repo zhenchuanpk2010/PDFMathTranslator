@@ -546,7 +546,7 @@ ko:
   Type: 유형
   '## Translation Options': '## Translation Options'
   Free translation service provided by [SiliconFlow](https://siliconflow.cn): 무료 번역
-    서비스는 [SiliconFlow](https://siliconflow.cn)에서 제공합니다
+    서비스는 [SiliconFlow](https://siliconflow.cn) 에서 제공합니다
   Service: 서비스
   OpenAI model to use: OpenAI model to use
   Base URL for OpenAI API: Base URL for OpenAI API
@@ -610,15 +610,15 @@ ko:
   Translate from: 원본 언어
   Translate to: 대상 언어
   Pages: 페이지
-  Page range (e.g., 1,3,5-10,-5): 페이지 범위(예:1,3,5-10,-5)
+  Page range (e.g., 1,3,5-10,-5): 페이지 범위 (예:1,3,5-10,-5)
   e.g., 1,3,5-10: 예:1,3,5-10
   Effective only when a page range is specified.: 페이지 범위를 지정한 경우에만 유효합니다.
-  Only include translated pages in the output PDF.: 출력 PDF에 번역된 페이지만 포함합니다.
+  Only include translated pages in the output PDF.: 출력 PDF 에 번역된 페이지만 포함합니다.
   '## PDF Output Options': '## PDF Output Options'
   Disable monolingual output: 단일 언어 출력 비활성화
   Disable bilingual output: 이중 언어 출력 비활성화
   Put translated pages first in dual mode: 이중 모드에서 번역 페이지를 먼저 배치
-  Use alternating pages for dual PDF: 이중 PDF에서 페이지를 번갈아 사용
+  Use alternating pages for dual PDF: 이중 PDF 에서 페이지를 번갈아 사용
   Watermarked: Watermarked
   No Watermark: No Watermark
   Watermark mode: 워터마크 모드
@@ -629,7 +629,7 @@ ko:
   e.g. /no_think You are a professional, authentic machine translation engine.: e.g.
     /no_think You are a professional, authentic machine translation engine.
   Minimum text length to translate: 번역 최소 텍스트 길이
-  RPC service for document layout analysis (optional): 문서 레이아웃 분석 RPC 서비스(선택 사항)
+  RPC service for document layout analysis (optional): 문서 레이아웃 분석 RPC 서비스 (선택 사항)
   http://host:port: http://host:port
   Pool maximum workers (if not set or set to 0, will use RPS as the number of workers): 최대
     작업자 수(미설정 또는 0일 경우 RPS 사용)
@@ -642,20 +642,20 @@ ko:
   Primary font family for translated text: 번역 텍스트 기본 글꼴 패밀리
   Glossary File: 용어집 파일
   '### PDF Options': '### PDF Options'
-  Skip clean (maybe improve compatibility): 정리 건너뛰기(호환성 향상 가능)
-  Disable rich text translation (maybe improve compatibility): 리치 텍스트 번역 비활성화(호환성
+  Skip clean (maybe improve compatibility): 정리 건너뛰기 (호환성 향상 가능)
+  Disable rich text translation (maybe improve compatibility): 리치 텍스트 번역 비활성화 (호환성
     향상 가능)
-  Enhance compatibility (auto-enables skip_clean and disable_rich_text): 호환성 강화(자동으로
+  Enhance compatibility (auto-enables skip_clean and disable_rich_text): 호환성 강화 (자동으로
     정리 건너뛰기/리치 텍스트 비활성화)
   Force split short lines into different paragraphs: 짧은 줄을 다른 단락으로 강제 분할
   Split threshold factor for short lines: 짧은 줄 분할 임계 계수
-  Translate table text (experimental): 표 텍스트 번역(실험적)
+  Translate table text (experimental): 표 텍스트 번역 (실험적)
   Skip scanned detection: 스캔 감지 건너뛰기
   OCR workaround (experimental, will auto enable Skip scanned detection in backend): OCR
     우회 방법(실험적, 백엔드에서 스캔 감지 자동 건너뜀)
   Auto enable OCR workaround (enable automatic OCR workaround for heavily scanned documents): OCR
     우회 방법 자동 활성화(스캔이 많은 문서에 적합)
-  Maximum pages per part (for auto-split translation, 0 means no limit): 파트당 최대 페이지(자동
+  Maximum pages per part (for auto-split translation, 0 means no limit): 파트당 최대 페이지 (자동
     분할 번역, 0은 제한 없음)
   Font pattern to identify formula text (regex, not recommended to change): 수식 텍스트
     식별용 글꼴 패턴(정규식, 변경 비권장)
@@ -666,8 +666,8 @@ ko:
   Ignore cache: 캐시 무시
   Advanced Options: 고급 옵션
   '## Translated': '## Translated'
-  Download Translation (Mono): 번역 다운로드(단일 언어)
-  Download Translation (Dual): 번역 다운로드(이중 언어)
+  Download Translation (Mono): 번역 다운로드 (단일 언어)
+  Download Translation (Dual): 번역 다운로드 (이중 언어)
   Download automatically extracted glossary: 자동 추출 용어집 다운로드
   Translate: 번역 시작
   Cancel: 취소
