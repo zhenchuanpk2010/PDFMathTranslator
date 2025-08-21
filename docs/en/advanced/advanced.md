@@ -102,6 +102,10 @@ In the following table, we list all advanced options for reference:
 
 When using translation services, proper rate limiting configuration is crucial to avoid API errors and optimize performance. This guide explains how to configure `--qps` and `--pool-max-worker` parameters based on different upstream service limitations.
 
+> [!TIP]
+>
+> It is recommended that the pool_size does not exceed 1000. If the pool_size calculated by the following method exceeds 1000, please use 1000.
+
 ##### RPM (Requests Per Minute) Rate Limiting
 
 When the upstream service has RPM limitations, use the following calculation:
