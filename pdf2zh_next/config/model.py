@@ -178,6 +178,26 @@ class PDFSettings(BaseModel):
         default=False,
         description="Only include translated pages in the output PDF. Effective only when --pages is used.",
     )
+    no_merge_alternating_line_numbers: bool = Field(
+        default=False,
+        description="Handle alternating line numbers and text paragraphs in documents with line numbers",
+    )
+    no_remove_non_formula_lines: bool = Field(
+        default=False,
+        description="Remove non-formula lines within paragraph areas",
+    )
+    non_formula_line_iou_threshold: float = Field(
+        default=0.9,
+        description="IoU threshold for identifying non-formula lines",
+    )
+    figure_table_protection_threshold: float = Field(
+        default=0.9,
+        description="Protection threshold for figures and tables (lines within figures/tables will not be processed)",
+    )
+    skip_formula_offset_calculation: bool = Field(
+        default=False,
+        description="Skip formula offset calculation during processing",
+    )
 
 
 class SettingsModel(BaseModel):
@@ -305,6 +325,16 @@ class SettingsModel(BaseModel):
         ):
             raise ValueError(
                 f"Invalid primary font family: {self.translation.primary_font_family}"
+            )
+
+        if not (0.0 <= self.pdf.non_formula_line_iou_threshold <= 1.0):
+            raise ValueError(
+                "non_formula_line_iou_threshold must be between 0.0 and 1.0"
+            )
+
+        if not (0.0 <= self.pdf.figure_table_protection_threshold <= 1.0):
+            raise ValueError(
+                "figure_table_protection_threshold must be between 0.0 and 1.0"
             )
 
         if self.pdf.auto_enable_ocr_workaround and self.pdf.ocr_workaround:
