@@ -462,6 +462,15 @@ def _build_translate_settings(
     auto_enable_ocr_workaround = ui_inputs.get("auto_enable_ocr_workaround")
     only_include_translated_page = ui_inputs.get("only_include_translated_page")
 
+    # BabelDOC v0.5.1 new options
+    merge_alternating_line_numbers = ui_inputs.get("merge_alternating_line_numbers")
+    remove_non_formula_lines = ui_inputs.get("remove_non_formula_lines")
+    non_formula_line_iou_threshold = ui_inputs.get("non_formula_line_iou_threshold")
+    figure_table_protection_threshold = ui_inputs.get(
+        "figure_table_protection_threshold"
+    )
+    skip_formula_offset_calculation = ui_inputs.get("skip_formula_offset_calculation")
+
     # New input for custom_system_prompt
     custom_system_prompt_input = ui_inputs.get("custom_system_prompt_input")
     glossaries = ui_inputs.get("glossaries")
@@ -556,6 +565,23 @@ def _build_translate_settings(
 
     if formular_char_pattern:
         translate_settings.pdf.formular_char_pattern = formular_char_pattern
+
+    # Apply BabelDOC v0.5.1 new options
+    translate_settings.pdf.no_merge_alternating_line_numbers = (
+        not merge_alternating_line_numbers
+    )
+    translate_settings.pdf.no_remove_non_formula_lines = not remove_non_formula_lines
+    if non_formula_line_iou_threshold is not None:
+        translate_settings.pdf.non_formula_line_iou_threshold = float(
+            non_formula_line_iou_threshold
+        )
+    if figure_table_protection_threshold is not None:
+        translate_settings.pdf.figure_table_protection_threshold = float(
+            figure_table_protection_threshold
+        )
+    translate_settings.pdf.skip_formula_offset_calculation = (
+        skip_formula_offset_calculation
+    )
 
     assert service in TRANSLATION_ENGINE_METADATA_MAP, "UNKNOW TRANSLATION ENGINE!"
 
@@ -800,6 +826,12 @@ async def translate_file(
     ocr_workaround,
     auto_enable_ocr_workaround,
     only_include_translated_page,
+    # BabelDOC v0.5.1 new options
+    merge_alternating_line_numbers,
+    remove_non_formula_lines,
+    non_formula_line_iou_threshold,
+    figure_table_protection_threshold,
+    skip_formula_offset_calculation,
     *translation_engine_arg_inputs,
     progress=None,
 ):
@@ -889,6 +921,12 @@ async def translate_file(
         "ocr_workaround": ocr_workaround,
         "auto_enable_ocr_workaround": auto_enable_ocr_workaround,
         "only_include_translated_page": only_include_translated_page,
+        # BabelDOC v0.5.1 new options
+        "merge_alternating_line_numbers": merge_alternating_line_numbers,
+        "remove_non_formula_lines": remove_non_formula_lines,
+        "non_formula_line_iou_threshold": non_formula_line_iou_threshold,
+        "figure_table_protection_threshold": figure_table_protection_threshold,
+        "skip_formula_offset_calculation": skip_formula_offset_calculation,
     }
     for arg_name, arg_input in zip(
         __gui_service_arg_names, translation_engine_arg_inputs, strict=False
@@ -1434,6 +1472,50 @@ with gr.Blocks(
                     interactive=True,
                 )
 
+                # BabelDOC v0.5.1 new options
+                gr.Markdown("#### BabelDOC Advanced Options")
+
+                merge_alternating_line_numbers = gr.Checkbox(
+                    label="Merge alternating line numbers",
+                    info="Handle alternating line numbers and text paragraphs in documents with line numbers",
+                    value=not settings.pdf.no_merge_alternating_line_numbers,
+                    interactive=True,
+                )
+
+                remove_non_formula_lines = gr.Checkbox(
+                    label="Remove non-formula lines",
+                    info="Remove non-formula lines within paragraph areas",
+                    value=not settings.pdf.no_remove_non_formula_lines,
+                    interactive=True,
+                )
+
+                non_formula_line_iou_threshold = gr.Slider(
+                    label="Non-formula line IoU threshold",
+                    info="IoU threshold for identifying non-formula lines",
+                    value=settings.pdf.non_formula_line_iou_threshold,
+                    minimum=0.0,
+                    maximum=1.0,
+                    step=0.05,
+                    interactive=True,
+                )
+
+                figure_table_protection_threshold = gr.Slider(
+                    label="Figure/table protection threshold",
+                    info="Protection threshold for figures and tables (lines within figures/tables will not be processed)",
+                    value=settings.pdf.figure_table_protection_threshold,
+                    minimum=0.0,
+                    maximum=1.0,
+                    step=0.05,
+                    interactive=True,
+                )
+
+                skip_formula_offset_calculation = gr.Checkbox(
+                    label="Skip formula offset calculation",
+                    info="Skip formula offset calculation during processing",
+                    value=settings.pdf.skip_formula_offset_calculation,
+                    interactive=True,
+                )
+
             output_title = gr.Markdown("## Translated", visible=False)
             output_file_mono = gr.File(
                 label="Download Translation (Mono)", visible=False
@@ -1697,6 +1779,12 @@ with gr.Blocks(
             ocr_workaround,
             auto_enable_ocr_workaround,
             only_include_translated_page,
+            # BabelDOC v0.5.1 new options
+            merge_alternating_line_numbers,
+            remove_non_formula_lines,
+            non_formula_line_iou_threshold,
+            figure_table_protection_threshold,
+            skip_formula_offset_calculation,
             *translation_engine_arg_inputs,
         ],
         outputs=[
