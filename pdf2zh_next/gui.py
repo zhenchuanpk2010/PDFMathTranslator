@@ -301,6 +301,103 @@ def _prepare_input_file(
     return Path(file_path)
 
 
+def _validate_rate_limit_inputs(
+    true_rate_limit_mode: str, **inputs
+) -> tuple[bool, str]:
+    """
+    Validate rate limit inputs
+
+    Returns:
+        tuple: (is_valid, error_message)
+    """
+    if true_rate_limit_mode == "RPM":
+        rpm = inputs.get("rpm_input", 0)
+        if not isinstance(rpm, int | float) or rpm <= 0:
+            return False, "RPM must be a positive integer"
+
+        if isinstance(rpm, float):
+            if not rpm.is_integer():
+                return False, "RPM must be a positive integer"
+
+    elif true_rate_limit_mode == "Concurrent Threads":
+        threads = inputs.get("concurrent_threads", 0)
+        if not isinstance(threads, int | float) or threads <= 0:
+            return False, "Concurrent threads must be a positive integer"
+
+        if isinstance(threads, float):
+            if not threads.is_integer():
+                return False, "Concurrent threads must be a positive integer"
+
+    elif true_rate_limit_mode == "Custom":
+        qps = inputs.get("custom_qps", 0)
+        pool_workers = inputs.get("custom_pool_workers")
+
+        if not isinstance(qps, int | float) or qps <= 0:
+            return False, "QPS must be a positive integer"
+
+        if isinstance(qps, float):
+            if not qps.is_integer():
+                return False, "QPS must be a positive integer"
+
+        if pool_workers is not None and (
+            not isinstance(pool_workers, int | float) or pool_workers < 0
+        ):
+            return False, "Pool workers must be a non-negative integer"
+
+        if isinstance(pool_workers, float):
+            if not pool_workers.is_integer():
+                return False, "Pool workers must be a non-negative integer"
+
+    return True, ""
+
+
+def _calculate_rate_limit_params(
+    rate_limit_mode: str, ui_inputs: dict, default_qps: int = 4
+) -> tuple[int, int | None]:
+    """
+    Calculate QPS and pool workers based on rate limit mode
+
+    Args:
+        rate_limit_mode: Rate limit mode ("RPM", "Concurrent Threads", "Custom")
+        ui_inputs: User input parameters dictionary
+        default_qps: Default QPS value
+
+    Returns:
+        tuple: (qps, pool_max_workers)
+
+    Raises:
+        ValueError: When input parameter validation fails
+    """
+    # Validate input parameters
+    is_valid, error_msg = _validate_rate_limit_inputs(
+        true_rate_limit_mode=rate_limit_mode, **ui_inputs
+    )
+    if not is_valid:
+        logger.warning(f"Rate limit validation failed: {error_msg}")
+        raise ValueError(error_msg)
+
+    if rate_limit_mode == "RPM":
+        rpm: int = ui_inputs.get("rpm_input", 240)
+        qps = max(1, rpm // 60)
+        pool_workers = min(1000, qps * 10)
+
+    elif rate_limit_mode == "Concurrent Threads":
+        threads: int = ui_inputs.get("concurrent_threads_input", 40)
+        # Ensure at least 1 worker, at most 1000 workers, using a safer calculation method
+        pool_workers = min(1000, max(1, min(int(threads * 0.9), max(1, threads - 20))))
+        qps = max(1, pool_workers)
+
+    else:  # Custom
+        qps = ui_inputs.get("custom_qps_input", default_qps)
+        pool_workers = ui_inputs.get("custom_pool_workers")
+        qps = int(qps)
+        pool_workers = int(pool_workers) if pool_workers and pool_workers > 0 else None
+
+    logger.info(f"QPS: {qps}, Pool Workers: {pool_workers}")
+
+    return qps, pool_workers if pool_workers and pool_workers > 0 else None
+
+
 def _build_translate_settings(
     base_settings: CLIEnvSettingsModel,
     file_path: Path,
@@ -410,30 +507,15 @@ def _build_translate_settings(
 
     # Calculate and update rate limit settings
     if service != "SiliconFlowFree":
-        if rate_limit_mode == "RPM":
-            rpm = ui_inputs.get("rpm_input")
-            qps = max(1, rpm // 60)
-            pool_workers = min(1000, qps * 10)
+        qps, pool_workers = _calculate_rate_limit_params(
+            rate_limit_mode, ui_inputs, translate_settings.translation.qps or 4
+        )
 
-        elif rate_limit_mode == "Concurrent Threads":
-            threads = ui_inputs.get("concurrent_threads_input")
-            pool_workers = min(1000, max((9 * threads) // 10, threads - 20))
-            qps = (
-                pool_workers if pool_workers > 0 else translate_settings.translation.qps
-            )
-
-        else:  # Custom
-            qps = ui_inputs.get("custom_qps_input")
-            pool_workers = ui_inputs.get("custom_pool_workers_input")
-
-        # Update
+        # Update translation settings
         translate_settings.translation.qps = int(qps)
-        if (
-            pool_workers is not None and pool_workers > 0
-        ):  # It may be 0 when using custom mode
-            translate_settings.translation.pool_max_workers = int(pool_workers)
-        else:
-            translate_settings.translation.pool_max_workers = None
+        translate_settings.translation.pool_max_workers = (
+            int(pool_workers) if pool_workers is not None else None
+        )
 
     # Update PDF Settings
     translate_settings.pdf.pages = pages
@@ -1099,29 +1181,38 @@ with gr.Blocks(
 
             with gr.Group() as rate_limit_settings:
                 rate_limit_mode = gr.Radio(
-                    choices=["RPM", "Concurrent Threads", "Custom"],
+                    choices=[
+                        ("RPM (Requests Per Minute)", "RPM"),
+                        ("Concurrent Requests", "Concurrent Threads"),
+                        ("Custom", "Custom"),
+                    ],
                     label="Rate Limit Mode",
-                    value="RPM",
+                    value="Custom",
                     interactive=True,
                     visible=False,
+                    info="Select the rate limit mode that best suits your API provider, system will automatically convert the rate limiting values of RPM or Concurrent Requests to QPS and Pool Max Workers when you click the Translate button",
                 )
 
                 rpm_input = gr.Number(
                     label="RPM (Requests Per Minute)",
-                    value=settings.translation.qps * 60 or 240,
+                    value=240,  # More conservative default value
                     precision=0,
                     minimum=1,
+                    maximum=10000,
                     interactive=True,
                     visible=False,
+                    info="Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM",
                 )
 
                 concurrent_threads_input = gr.Number(
                     label="Concurrent Threads",
-                    value=settings.translation.pool_max_workers,
+                    value=20,  # More conservative default value
                     precision=0,
-                    minimum=0,
+                    minimum=1,
+                    maximum=200,
                     interactive=True,
                     visible=False,
+                    info="Maximum number of requests processed simultaneously",
                 )
 
                 custom_qps_input = gr.Number(
@@ -1129,17 +1220,21 @@ with gr.Blocks(
                     value=settings.translation.qps or 4,
                     precision=0,
                     minimum=1,
+                    maximum=100,
                     interactive=True,
                     visible=False,
+                    info="Number of requests sent per second",
                 )
 
                 custom_pool_max_workers_input = gr.Number(
-                    label="Pool Max Workers (if not set or set to 0, will use QPS as the number of workers)",
+                    label="Pool Max Workers",
                     value=settings.translation.pool_max_workers,
                     precision=0,
                     minimum=0,
+                    maximum=1000,
                     interactive=True,
                     visible=False,
+                    info="If not set or set to 0, QPS will be used as the number of workers",
                 )
 
             # PDF Output Options
@@ -1380,7 +1475,6 @@ with gr.Blocks(
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
         llm_support = LLM_support_index_map.get(service_name, False)
-        print(f"service_name: {service_name}, llm_support: {llm_support}")
         siliconflow_free_acknowledgement_visible = service_name == "SiliconFlowFree"
         siliconflow_update = [
             gr.update(visible=siliconflow_free_acknowledgement_visible)
@@ -1461,22 +1555,23 @@ with gr.Blocks(
             gr.update(visible=custom_visible),
         ]
 
-    def on_service_change_with_rate_limit(service_name):
+    def on_service_change_with_rate_limit(mode, service_name):
         """Expand original on_select_service with rate-limit-UI updated"""
         original_updates = on_select_service(service_name)
 
         rate_limit_visible = service_name != "SiliconFlowFree"
 
+        detailed_visible = [gr.update(visible=False)] * 4
+
+        if rate_limit_visible:
+            detailed_visible = on_rate_limit_mode_change(mode, service_name)
+
         # Add updates of rate-limit-UI
         rate_limit_updates = [
             gr.update(visible=rate_limit_visible),
-            gr.update(visible=rate_limit_visible and service_name != "SiliconFlowFree"),
-            gr.update(visible=False),
-            gr.update(visible=False),
-            gr.update(visible=False),
         ]
 
-        return original_updates + rate_limit_updates
+        return original_updates + rate_limit_updates + detailed_visible
 
     # Default file handler
     file_input.upload(
@@ -1506,7 +1601,7 @@ with gr.Blocks(
 
     service.select(
         on_service_change_with_rate_limit,
-        service,
+        [rate_limit_mode, service],
         outputs=(
             on_select_service_outputs if len(on_select_service_outputs) > 0 else None
         )
