@@ -568,9 +568,9 @@ def _build_translate_settings(
 
     # Apply BabelDOC v0.5.1 new options
     translate_settings.pdf.no_merge_alternating_line_numbers = (
-        merge_alternating_line_numbers
+        not merge_alternating_line_numbers
     )
-    translate_settings.pdf.no_remove_non_formula_lines = remove_non_formula_lines
+    translate_settings.pdf.no_remove_non_formula_lines = not remove_non_formula_lines
     if non_formula_line_iou_threshold is not None:
         translate_settings.pdf.non_formula_line_iou_threshold = float(
             non_formula_line_iou_threshold
