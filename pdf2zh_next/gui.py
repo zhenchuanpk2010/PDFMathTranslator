@@ -301,6 +301,103 @@ def _prepare_input_file(
     return Path(file_path)
 
 
+def _validate_rate_limit_inputs(
+    true_rate_limit_mode: str, **inputs
+) -> tuple[bool, str]:
+    """
+    Validate rate limit inputs
+
+    Returns:
+        tuple: (is_valid, error_message)
+    """
+    if true_rate_limit_mode == "RPM":
+        rpm = inputs.get("rpm_input", 0)
+        if not isinstance(rpm, int | float) or rpm <= 0:
+            return False, "RPM must be a positive integer"
+
+        if isinstance(rpm, float):
+            if not rpm.is_integer():
+                return False, "RPM must be a positive integer"
+
+    elif true_rate_limit_mode == "Concurrent Threads":
+        threads = inputs.get("concurrent_threads", 0)
+        if not isinstance(threads, int | float) or threads <= 0:
+            return False, "Concurrent threads must be a positive integer"
+
+        if isinstance(threads, float):
+            if not threads.is_integer():
+                return False, "Concurrent threads must be a positive integer"
+
+    elif true_rate_limit_mode == "Custom":
+        qps = inputs.get("custom_qps", 0)
+        pool_workers = inputs.get("custom_pool_workers")
+
+        if not isinstance(qps, int | float) or qps <= 0:
+            return False, "QPS must be a positive integer"
+
+        if isinstance(qps, float):
+            if not qps.is_integer():
+                return False, "QPS must be a positive integer"
+
+        if pool_workers is not None and (
+            not isinstance(pool_workers, int | float) or pool_workers < 0
+        ):
+            return False, "Pool workers must be a non-negative integer"
+
+        if isinstance(pool_workers, float):
+            if not pool_workers.is_integer():
+                return False, "Pool workers must be a non-negative integer"
+
+    return True, ""
+
+
+def _calculate_rate_limit_params(
+    rate_limit_mode: str, ui_inputs: dict, default_qps: int = 4
+) -> tuple[int, int | None]:
+    """
+    Calculate QPS and pool workers based on rate limit mode
+
+    Args:
+        rate_limit_mode: Rate limit mode ("RPM", "Concurrent Threads", "Custom")
+        ui_inputs: User input parameters dictionary
+        default_qps: Default QPS value
+
+    Returns:
+        tuple: (qps, pool_max_workers)
+
+    Raises:
+        ValueError: When input parameter validation fails
+    """
+    # Validate input parameters
+    is_valid, error_msg = _validate_rate_limit_inputs(
+        true_rate_limit_mode=rate_limit_mode, **ui_inputs
+    )
+    if not is_valid:
+        logger.warning(f"Rate limit validation failed: {error_msg}")
+        raise ValueError(error_msg)
+
+    if rate_limit_mode == "RPM":
+        rpm: int = ui_inputs.get("rpm_input", 240)
+        qps = max(1, rpm // 60)
+        pool_workers = min(1000, qps * 10)
+
+    elif rate_limit_mode == "Concurrent Threads":
+        threads: int = ui_inputs.get("concurrent_threads_input", 40)
+        # Ensure at least 1 worker, at most 1000 workers, using a safer calculation method
+        pool_workers = min(1000, max(1, min(int(threads * 0.9), max(1, threads - 20))))
+        qps = max(1, pool_workers)
+
+    else:  # Custom
+        qps = ui_inputs.get("custom_qps_input", default_qps)
+        pool_workers = ui_inputs.get("custom_pool_workers")
+        qps = int(qps)
+        pool_workers = int(pool_workers) if pool_workers and pool_workers > 0 else None
+
+    logger.info(f"QPS: {qps}, Pool Workers: {pool_workers}")
+
+    return qps, pool_workers if pool_workers and pool_workers > 0 else None
+
+
 def _build_translate_settings(
     base_settings: CLIEnvSettingsModel,
     file_path: Path,
@@ -332,7 +429,6 @@ def _build_translate_settings(
     page_range = ui_inputs.get("page_range")
     page_input = ui_inputs.get("page_input")
     prompt = ui_inputs.get("prompt")
-    threads = ui_inputs.get("threads")
     ignore_cache = ui_inputs.get("ignore_cache")
 
     # PDF Output Options
@@ -342,10 +438,12 @@ def _build_translate_settings(
     use_alternating_pages_dual = ui_inputs.get("use_alternating_pages_dual")
     watermark_output_mode = ui_inputs.get("watermark_output_mode")
 
+    # Rate Limit Options
+    rate_limit_mode = ui_inputs.get("rate_limit_mode")
+
     # Advanced Translation Options
     min_text_length = ui_inputs.get("min_text_length")
     rpc_doclayout = ui_inputs.get("rpc_doclayout")
-    pool_max_workers = ui_inputs.get("pool_max_workers")
     no_auto_extract_glossary = ui_inputs.get("no_auto_extract_glossary")
     primary_font_family = ui_inputs.get("primary_font_family")
 
@@ -402,7 +500,6 @@ def _build_translate_settings(
     translate_settings.translation.lang_in = source_lang
     translate_settings.translation.lang_out = target_lang
     translate_settings.translation.output = str(output_dir)
-    translate_settings.translation.qps = int(threads)
     translate_settings.translation.ignore_cache = ignore_cache
 
     # Update Translation Settings
@@ -410,16 +507,24 @@ def _build_translate_settings(
         translate_settings.translation.min_text_length = int(min_text_length)
     if rpc_doclayout:
         translate_settings.translation.rpc_doclayout = rpc_doclayout
-    if pool_max_workers is not None and pool_max_workers > 0:
-        translate_settings.translation.pool_max_workers = int(pool_max_workers)
-    else:
-        translate_settings.translation.pool_max_workers = None
     translate_settings.translation.no_auto_extract_glossary = no_auto_extract_glossary
     if primary_font_family:
         if primary_font_family == "Auto":
             translate_settings.translation.primary_font_family = None
         else:
             translate_settings.translation.primary_font_family = primary_font_family
+
+    # Calculate and update rate limit settings
+    if service != "SiliconFlowFree":
+        qps, pool_workers = _calculate_rate_limit_params(
+            rate_limit_mode, ui_inputs, translate_settings.translation.qps or 4
+        )
+
+        # Update translation settings
+        translate_settings.translation.qps = int(qps)
+        translate_settings.translation.pool_max_workers = (
+            int(pool_workers) if pool_workers is not None else None
+        )
 
     # Update PDF Settings
     translate_settings.pdf.pages = pages
@@ -689,9 +794,14 @@ async def translate_file(
     dual_translate_first,
     use_alternating_pages_dual,
     watermark_output_mode,
+    # Rate Limit Mode
+    rate_limit_mode,
+    rpm_input,
+    concurrent_threads,
+    custom_qps,
+    custom_pool_workers,
     # Advanced Options
     prompt,
-    threads,
     min_text_length,
     rpc_doclayout,
     # New input for custom_system_prompt
@@ -699,7 +809,6 @@ async def translate_file(
     glossary_file,
     save_auto_extracted_glossary,
     # New advanced translation options
-    pool_max_workers,
     no_auto_extract_glossary,
     primary_font_family,
     skip_clean,
@@ -782,16 +891,20 @@ async def translate_file(
         "dual_translate_first": dual_translate_first,
         "use_alternating_pages_dual": use_alternating_pages_dual,
         "watermark_output_mode": watermark_output_mode,
+        # Rate Limit Options
+        "rate_limit_mode": rate_limit_mode,
+        "rpm_input": rpm_input,
+        "concurrent_threads": concurrent_threads,
+        "custom_qps": custom_qps,
+        "custom_pool_workers": custom_pool_workers,
         # Advanced Options
         "prompt": prompt,
-        "threads": threads,
         "min_text_length": min_text_length,
         "rpc_doclayout": rpc_doclayout,
         "custom_system_prompt_input": custom_system_prompt_input,
         "glossaries": _build_glossary_list(glossary_file, service),
         "save_auto_extracted_glossary": save_auto_extracted_glossary,
         # New advanced translation options
-        "pool_max_workers": pool_max_workers,
         "no_auto_extract_glossary": no_auto_extract_glossary,
         "primary_font_family": primary_font_family,
         "skip_clean": skip_clean,
@@ -1104,6 +1217,64 @@ with gr.Blocks(
                 interactive=True,
             )
 
+            with gr.Group() as rate_limit_settings:
+                rate_limit_mode = gr.Radio(
+                    choices=[
+                        ("RPM (Requests Per Minute)", "RPM"),
+                        ("Concurrent Requests", "Concurrent Threads"),
+                        ("Custom", "Custom"),
+                    ],
+                    label="Rate Limit Mode",
+                    value="Custom",
+                    interactive=True,
+                    visible=False,
+                    info="Select the rate limit mode that best suits your API provider, system will automatically convert the rate limiting values of RPM or Concurrent Requests to QPS and Pool Max Workers when you click the Translate button",
+                )
+
+                rpm_input = gr.Number(
+                    label="RPM (Requests Per Minute)",
+                    value=240,  # More conservative default value
+                    precision=0,
+                    minimum=1,
+                    maximum=10000,
+                    interactive=True,
+                    visible=False,
+                    info="Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM",
+                )
+
+                concurrent_threads_input = gr.Number(
+                    label="Concurrent Threads",
+                    value=20,  # More conservative default value
+                    precision=0,
+                    minimum=1,
+                    maximum=200,
+                    interactive=True,
+                    visible=False,
+                    info="Maximum number of requests processed simultaneously",
+                )
+
+                custom_qps_input = gr.Number(
+                    label="QPS (Queries Per Second)",
+                    value=settings.translation.qps or 4,
+                    precision=0,
+                    minimum=1,
+                    maximum=100,
+                    interactive=True,
+                    visible=False,
+                    info="Number of requests sent per second",
+                )
+
+                custom_pool_max_workers_input = gr.Number(
+                    label="Pool Max Workers",
+                    value=settings.translation.pool_max_workers,
+                    precision=0,
+                    minimum=0,
+                    maximum=1000,
+                    interactive=True,
+                    visible=False,
+                    info="If not set or set to 0, QPS will be used as the number of workers",
+                )
+
             # PDF Output Options
             gr.Markdown("## PDF Output Options")
             with gr.Row():
@@ -1148,14 +1319,6 @@ with gr.Blocks(
                     placeholder="Custom prompt for the translator",
                 )
 
-                threads = gr.Number(
-                    label="RPS (Requests Per Second)",
-                    value=settings.translation.qps or 4,
-                    precision=0,
-                    minimum=1,
-                    interactive=True,
-                )
-
                 # New Textbox for custom_system_prompt
                 custom_system_prompt_input = gr.Textbox(
                     label="Custom System Prompt",
@@ -1181,14 +1344,6 @@ with gr.Blocks(
                 )
 
                 # New advanced translation options
-                pool_max_workers = gr.Number(
-                    label="Pool maximum workers (if not set or set to 0, will use RPS as the number of workers)",
-                    value=settings.translation.pool_max_workers,
-                    precision=0,
-                    minimum=0,
-                    interactive=True,
-                )
-
                 no_auto_extract_glossary = gr.Checkbox(
                     label="Disable auto extract glossary",
                     value=settings.translation.no_auto_extract_glossary,
@@ -1402,7 +1557,6 @@ with gr.Blocks(
             return
         detail_group_index = detail_text_input_index_map.get(service_name, [])
         llm_support = LLM_support_index_map.get(service_name, False)
-        print(f"service_name: {service_name}, llm_support: {llm_support}")
         siliconflow_free_acknowledgement_visible = service_name == "SiliconFlowFree"
         siliconflow_update = [
             gr.update(visible=siliconflow_free_acknowledgement_visible)
@@ -1467,6 +1621,40 @@ with gr.Blocks(
             glossary_list = ["", "", ""]
         return gr.update(visible=True, value=glossary_list)
 
+    def on_rate_limit_mode_change(mode, service_name):
+        """Update rate-limit-specific-settings visibility based on rate_limit_mode value"""
+        if service_name == "SiliconFlowFree":
+            return [gr.update(visible=False)] * 4  # Hide all options
+
+        rpm_visible = mode == "RPM"
+        threads_visible = mode == "Concurrent Threads"
+        custom_visible = mode == "Custom"
+
+        return [
+            gr.update(visible=rpm_visible),
+            gr.update(visible=threads_visible),
+            gr.update(visible=custom_visible),
+            gr.update(visible=custom_visible),
+        ]
+
+    def on_service_change_with_rate_limit(mode, service_name):
+        """Expand original on_select_service with rate-limit-UI updated"""
+        original_updates = on_select_service(service_name)
+
+        rate_limit_visible = service_name != "SiliconFlowFree"
+
+        detailed_visible = [gr.update(visible=False)] * 4
+
+        if rate_limit_visible:
+            detailed_visible = on_rate_limit_mode_change(mode, service_name)
+
+        # Add updates of rate-limit-UI
+        rate_limit_updates = [
+            gr.update(visible=rate_limit_visible),
+        ]
+
+        return original_updates + rate_limit_updates + detailed_visible
+
     # Default file handler
     file_input.upload(
         lambda x: x,
@@ -1494,11 +1682,29 @@ with gr.Blocks(
     )
 
     service.select(
-        on_select_service,
-        service,
-        outputs=on_select_service_outputs
-        if len(on_select_service_outputs) > 0
-        else None,
+        on_service_change_with_rate_limit,
+        [rate_limit_mode, service],
+        outputs=(
+            on_select_service_outputs if len(on_select_service_outputs) > 0 else None
+        )
+        + [
+            rate_limit_mode,
+            rpm_input,
+            concurrent_threads_input,
+            custom_qps_input,
+            custom_pool_max_workers_input,
+        ],
+    )
+
+    rate_limit_mode.change(
+        on_rate_limit_mode_change,
+        inputs=[rate_limit_mode, service],
+        outputs=[
+            rpm_input,
+            concurrent_threads_input,
+            custom_qps_input,
+            custom_pool_max_workers_input,
+        ],
     )
 
     glossary_file.change(
@@ -1542,16 +1748,20 @@ with gr.Blocks(
             dual_translate_first,
             use_alternating_pages_dual,
             watermark_output_mode,
+            # Rate Limit Options
+            rate_limit_mode,
+            rpm_input,
+            concurrent_threads_input,
+            custom_qps_input,
+            custom_pool_max_workers_input,
             # Advanced Options
             prompt,
-            threads,
             min_text_length,
             rpc_doclayout,
             custom_system_prompt_input,
             glossary_file,
             save_auto_extracted_glossary,
             # New advanced translation options
-            pool_max_workers,
             no_auto_extract_glossary,
             primary_font_family,
             skip_clean,
