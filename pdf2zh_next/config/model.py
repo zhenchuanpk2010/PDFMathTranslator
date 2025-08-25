@@ -277,12 +277,13 @@ class SettingsModel(BaseModel):
             raise ValueError("max_pages_per_part must be greater than 0")
 
         # Validate and store watermark mode
-        try:
-            WatermarkOutputMode(self.pdf.watermark_output_mode.lower())
-        except ValueError:
-            valid_modes = [mode.value for mode in WatermarkOutputMode]
+        if self.pdf.watermark_output_mode not in [
+            "watermarked",
+            "no_watermark",
+            "both"
+        ]:
             raise ValueError(
-                f"Invalid watermark output mode: {self.pdf.watermark_output_mode}. Valid modes: {valid_modes}"
+                f"Invalid watermark output mode: {self.pdf.watermark_output_mode}. Valid modes: ['watermarked', 'no_watermark', 'both']"
             )
 
         if self.translation.qps < 1:
