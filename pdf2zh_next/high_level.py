@@ -22,7 +22,6 @@ from babeldoc.main import create_progress_handler
 from rich.logging import RichHandler
 
 from pdf2zh_next.config.model import SettingsModel
-from pdf2zh_next.config.model import WatermarkOutputMode as PDF2ZHWatermarkMode
 from pdf2zh_next.translator import get_translator
 from pdf2zh_next.utils import asynchronize
 
@@ -431,12 +430,7 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
         )
 
     # 设置水印模式
-    if settings.pdf.watermark_output_mode == PDF2ZHWatermarkMode.Both:
-        watermark_mode = BabelDOCWatermarkMode.Both
-    elif settings.pdf.watermark_output_mode == PDF2ZHWatermarkMode.NoWatermark:
-        watermark_mode = BabelDOCWatermarkMode.NoWatermark
-    else:
-        watermark_mode = BabelDOCWatermarkMode.Watermarked
+    watermark_mode = BabelDOCWatermarkMode(settings.pdf.watermark_output_mode.lower())
 
     table_model = None
     if settings.pdf.translate_table_text:

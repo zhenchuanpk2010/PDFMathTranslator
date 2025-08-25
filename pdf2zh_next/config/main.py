@@ -19,7 +19,7 @@ import tomlkit
 from pydantic import BaseModel
 
 from pdf2zh_next.config.cli_env_model import CLIEnvSettingsModel
-from pdf2zh_next.config.model import SettingsModel, WatermarkOutputMode
+from pdf2zh_next.config.model import SettingsModel
 from pdf2zh_next.config.translate_engine_model import TRANSLATION_ENGINE_METADATA
 from pdf2zh_next.const import DEFAULT_CONFIG_DIR
 from pdf2zh_next.const import DEFAULT_CONFIG_FILE
@@ -43,25 +43,6 @@ class MagicDefault:
     pass
 
 
-def watermark_output_mode_converter(value):
-    """Convert watermark output mode value for backward compatibility"""
-    # First try exact match with enum names (case-insensitive)
-    for enum_member in WatermarkOutputMode:
-        if value.lower() == enum_member.name.lower():
-            return enum_member.value
-    
-    # Handle special legacy formats (case-insensitive)
-    value_lower = value.lower()
-    legacy_mappings = {
-        "nowatermark": WatermarkOutputMode.NoWatermark,
-        "watermarked": WatermarkOutputMode.Watermarked,
-        "both": WatermarkOutputMode.Both,
-    }
-    
-    if value_lower in legacy_mappings:
-        return legacy_mappings[value_lower].value
-    
-    return value
 
 
 def build_args_parser(
@@ -145,14 +126,9 @@ def build_args_parser(
                 elif arg == NoneType:
                     continue
                 else:
-                    # Use special converter for WatermarkOutputMode for backward compatibility
-                    converter_func = arg
-                    if arg == WatermarkOutputMode:
-                        converter_func = lambda x: WatermarkOutputMode(watermark_output_mode_converter(x))
-                    
                     parser.add_argument(
                         f"--{args_name}",
-                        type=converter_func,
+                        type=arg,
                         default=MagicDefault,
                         help=field_detail.description,
                     )
