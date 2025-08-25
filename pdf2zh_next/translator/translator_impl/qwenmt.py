@@ -106,9 +106,13 @@ class QwenMtTranslator(BaseTranslator):
             ],
             extra_body={"translation_options": translation_options},
         )
-        self.token_count.inc(response.usage.total_tokens)
-        self.prompt_token_count.inc(response.usage.prompt_tokens)
-        self.completion_token_count.inc(response.usage.completion_tokens)
+        if hasattr(response, "usage") and response.usage:
+            if hasattr(response.usage, "total_tokens"):
+                self.token_count.inc(response.usage.total_tokens)
+            if hasattr(response.usage, "prompt_tokens"):
+                self.prompt_token_count.inc(response.usage.prompt_tokens)
+            if hasattr(response.usage, "completion_tokens"):
+                self.completion_token_count.inc(response.usage.completion_tokens)
         message = response.choices[0].message.content.strip()
         message = self._remove_cot_content(message)
         return message
