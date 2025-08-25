@@ -1096,7 +1096,7 @@ with gr.Blocks(
                 choices=["Watermarked", "No Watermark"],
                 label="Watermark mode",
                 value="Watermarked"
-                if settings.pdf.watermark_output_mode.value == "watermarked"
+                if settings.pdf.watermark_output_mode == "watermarked"
                 else "No Watermark",
             )
 
