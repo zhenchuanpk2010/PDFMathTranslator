@@ -14,6 +14,23 @@ GUI_SENSITIVE_FIELDS = []
 GUI_PASSWORD_FIELDS = []
 
 
+def _clean_string(value: str | None) -> str | None:
+    """Clean string by trimming whitespace"""
+    if value is None:
+        return None
+    return value.strip()
+
+
+def _clean_url(value: str | None) -> str | None:
+    """Clean URL for OpenAI-compatible services"""
+    if value is None:
+        return None
+    cleaned = value.strip().rstrip("/")
+    # Remove /chat/completions suffix for OpenAI-compatible APIs
+    cleaned = re.sub(r"/chat/completions/?$", "", cleaned)
+    return cleaned.rstrip("/")
+
+
 class TranslateEngineSettingError(Exception):
     """Translate engine setting error"""
 
@@ -53,6 +70,9 @@ class OpenAISettings(BaseModel):
         default=None,
         description="Reasoning effort for OpenAI service (minimal/low/medium/high)",
     )
+
+    # This parameter contains a spelling error, but it will not be corrected for compatibility reasons.
+    # For details, see: https://github.com/PDFMathTranslate/PDFMathTranslate-next/issues/175#issuecomment-3213568681
     openai_send_temprature: bool | None = Field(
         default=None, description="Send temprature to OpenAI service"
     )
@@ -63,12 +83,20 @@ class OpenAISettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.openai_api_key:
             raise ValueError("OpenAI API key is required")
-        if self.openai_base_url:
-            self.openai_base_url = re.sub(
-                "/chat/completions/?$", "", self.openai_base_url
-            )
+        self.openai_api_key = _clean_string(self.openai_api_key)
+        self.openai_base_url = _clean_url(self.openai_base_url)
+        self.openai_model = _clean_string(self.openai_model)
+        self.openai_temperature = _clean_string(self.openai_temperature)
+        self.openai_reasoning_effort = _clean_string(self.openai_reasoning_effort)
         if self.openai_send_temprature:
-            int(self.openai_temperature)
+            if not self.openai_temperature:
+                raise ValueError(
+                    "Temperature is required when send temperature is enabled"
+                )
+            try:
+                float(self.openai_temperature)
+            except ValueError as e:
+                raise ValueError("Temperature must be a float") from e
         if self.openai_send_reasoning_effort and not self.openai_reasoning_effort:
             raise ValueError(
                 "Reasoning effort is required when send reasoning effort is enabled"
@@ -106,6 +134,7 @@ class DeepLSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.deepl_auth_key:
             raise ValueError("DeepL Auth key is required")
+        self.deepl_auth_key = _clean_string(self.deepl_auth_key)
 
 
 GUI_PASSWORD_FIELDS.append("deepl_auth_key")
@@ -132,6 +161,8 @@ class DeepSeekSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.deepseek_api_key:
             raise ValueError("DeepSeek API key is required")
+        self.deepseek_api_key = _clean_string(self.deepseek_api_key)
+        self.deepseek_model = _clean_string(self.deepseek_model)
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -163,6 +194,8 @@ class OllamaSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.ollama_host:
             raise ValueError("Ollama host is required")
+        self.ollama_host = _clean_string(self.ollama_host)
+        self.ollama_model = _clean_string(self.ollama_model)
 
 
 GUI_SENSITIVE_FIELDS.append("ollama_host")
@@ -184,6 +217,8 @@ class XinferenceSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.xinference_host:
             raise ValueError("Xinference host is required")
+        self.xinference_host = _clean_string(self.xinference_host)
+        self.xinference_model = _clean_string(self.xinference_model)
 
 
 GUI_SENSITIVE_FIELDS.append("xinference_host")
@@ -213,6 +248,10 @@ class AzureOpenAISettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.azure_openai_api_key:
             raise ValueError("AzureOpenAI API key is required")
+        self.azure_openai_api_key = _clean_string(self.azure_openai_api_key)
+        self.azure_openai_base_url = _clean_string(self.azure_openai_base_url)
+        self.azure_openai_model = _clean_string(self.azure_openai_model)
+        self.azure_openai_api_version = _clean_string(self.azure_openai_api_version)
 
 
 GUI_PASSWORD_FIELDS.append("azure_openai_api_key")
@@ -237,6 +276,8 @@ class ModelScopeSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.modelscope_api_key:
             raise ValueError("ModelScope API key is required")
+        self.modelscope_api_key = _clean_string(self.modelscope_api_key)
+        self.modelscope_model = _clean_string(self.modelscope_model)
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -265,6 +306,8 @@ class ZhipuSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.zhipu_api_key:
             raise ValueError("Zhipu API key is required")
+        self.zhipu_api_key = _clean_string(self.zhipu_api_key)
+        self.zhipu_model = _clean_string(self.zhipu_model)
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -306,6 +349,9 @@ class SiliconFlowSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.siliconflow_api_key:
             raise ValueError("SiliconFlow API key is required")
+        self.siliconflow_api_key = _clean_string(self.siliconflow_api_key)
+        self.siliconflow_base_url = _clean_string(self.siliconflow_base_url)
+        self.siliconflow_model = _clean_string(self.siliconflow_model)
 
 
 GUI_PASSWORD_FIELDS.append("siliconflow_api_key")
@@ -342,6 +388,8 @@ class TencentSettings(BaseModel):
             raise ValueError("Tencent Mechine Translation ID is required")
         if not self.tencentcloud_secret_key:
             raise ValueError("Tencent Mechine Translation Key is required")
+        self.tencentcloud_secret_id = _clean_string(self.tencentcloud_secret_id)
+        self.tencentcloud_secret_key = _clean_string(self.tencentcloud_secret_key)
 
 
 GUI_PASSWORD_FIELDS.append("tencentcloud_secret_id")
@@ -366,6 +414,8 @@ class GeminiSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.gemini_api_key:
             raise ValueError("Gemini API key is required")
+        self.gemini_api_key = _clean_string(self.gemini_api_key)
+        self.gemini_model = _clean_string(self.gemini_model)
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -389,7 +439,9 @@ class AzureSettings(BaseModel):
 
     def validate_settings(self) -> None:
         if not self.azure_api_key:
-            raise ValueError("Tencent Mechine Translation ID is required")
+            raise ValueError("Azure API key is required")
+        self.azure_api_key = _clean_string(self.azure_api_key)
+        self.azure_endpoint = _clean_string(self.azure_endpoint)
 
 
 GUI_PASSWORD_FIELDS.append("azure_api_key")
@@ -408,6 +460,8 @@ class AnythingLLMSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.anythingllm_apikey:
             raise ValueError("AnythingLLM API Key is required")
+        self.anythingllm_apikey = _clean_string(self.anythingllm_apikey)
+        self.anythingllm_url = _clean_string(self.anythingllm_url)
 
 
 GUI_PASSWORD_FIELDS.append("anythingllm_apikey")
@@ -424,6 +478,8 @@ class DifySettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.dify_apikey:
             raise ValueError("Dify API Key is required")
+        self.dify_apikey = _clean_string(self.dify_apikey)
+        self.dify_url = _clean_string(self.dify_url)
 
 
 GUI_PASSWORD_FIELDS.append("dify_apikey")
@@ -446,6 +502,8 @@ class GrokSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.grok_api_key:
             raise ValueError("Grok API key is required")
+        self.grok_api_key = _clean_string(self.grok_api_key)
+        self.grok_model = _clean_string(self.grok_model)
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -476,6 +534,8 @@ class GroqSettings(BaseModel):
     def validate_settings(self) -> None:
         if not self.groq_api_key:
             raise ValueError("Groq API key is required")
+        self.groq_api_key = _clean_string(self.groq_api_key)
+        self.groq_model = _clean_string(self.groq_model)
 
     def transform(self) -> OpenAISettings:
         return OpenAISettings(
@@ -513,7 +573,11 @@ class QwenMtSettings(BaseModel):
 
     def validate_settings(self) -> None:
         if not self.qwenmt_api_key:
-            raise ValueError("OpenAI API key is required")
+            raise ValueError("QwenMt API key is required")
+        self.qwenmt_api_key = _clean_string(self.qwenmt_api_key)
+        self.qwenmt_base_url = _clean_string(self.qwenmt_base_url)
+        self.qwenmt_model = _clean_string(self.qwenmt_model)
+        self.ali_domains = _clean_string(self.ali_domains)
 
 
 GUI_PASSWORD_FIELDS.append("qwenmt_api_key")
@@ -560,8 +624,24 @@ class OpenAICompatibleSettings(BaseModel):
             raise ValueError("OpenAI Compatible base URL is required")
         if not self.openai_compatible_model:
             raise ValueError("OpenAI Compatible model is required")
+        self.openai_compatible_api_key = _clean_string(self.openai_compatible_api_key)
+        self.openai_compatible_base_url = _clean_url(self.openai_compatible_base_url)
+        self.openai_compatible_model = _clean_string(self.openai_compatible_model)
+        self.openai_compatible_temperature = _clean_string(
+            self.openai_compatible_temperature
+        )
+        self.openai_compatible_reasoning_effort = _clean_string(
+            self.openai_compatible_reasoning_effort
+        )
         if self.openai_compatible_send_temperature:
-            int(self.openai_compatible_temperature)
+            if not self.openai_compatible_temperature:
+                raise ValueError(
+                    "Temperature is required when send temperature is enabled"
+                )
+            try:
+                float(self.openai_compatible_temperature)
+            except ValueError as e:
+                raise ValueError("Temperature must be a float") from e
         if (
             self.openai_compatible_send_reasoning_effort
             and not self.openai_compatible_reasoning_effort

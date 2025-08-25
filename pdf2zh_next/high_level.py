@@ -483,6 +483,12 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
         auto_extract_glossary=not settings.translation.no_auto_extract_glossary,
         primary_font_family=settings.translation.primary_font_family,
         only_include_translated_page=settings.pdf.only_include_translated_page,
+        # BabelDOC v0.5.1 new options
+        merge_alternating_line_numbers=not settings.pdf.no_merge_alternating_line_numbers,
+        remove_non_formula_lines=not settings.pdf.no_remove_non_formula_lines,
+        non_formula_line_iou_threshold=settings.pdf.non_formula_line_iou_threshold,
+        figure_table_protection_threshold=settings.pdf.figure_table_protection_threshold,
+        skip_formula_offset_calculation=settings.pdf.skip_formula_offset_calculation,
     )
     return babeldoc_config
 
