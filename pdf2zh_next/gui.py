@@ -1231,7 +1231,7 @@ with gr.Blocks(
                     value=240,  # More conservative default value
                     precision=0,
                     minimum=1,
-                    maximum=10000,
+                    maximum=60000,
                     interactive=True,
                     visible=False,
                     info="Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM",
@@ -1242,7 +1242,7 @@ with gr.Blocks(
                     value=20,  # More conservative default value
                     precision=0,
                     minimum=1,
-                    maximum=200,
+                    maximum=1000,
                     interactive=True,
                     visible=False,
                     info="Maximum number of requests processed simultaneously",
@@ -1253,7 +1253,7 @@ with gr.Blocks(
                     value=settings.translation.qps or 4,
                     precision=0,
                     minimum=1,
-                    maximum=100,
+                    maximum=1000,
                     interactive=True,
                     visible=False,
                     info="Number of requests sent per second",
