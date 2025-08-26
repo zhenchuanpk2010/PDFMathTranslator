@@ -430,13 +430,17 @@ def create_babeldoc_config(settings: SettingsModel, file: Path) -> BabelDOCConfi
         )
 
     # 设置水印模式
-    watermark_output_mode = settings.pdf.watermark_output_mode.lower()
-    if watermark_output_mode == "no_watermark":
-        watermark_mode = BabelDOCWatermarkMode.NoWatermark
-    elif watermark_output_mode == "both":
-        watermark_mode = BabelDOCWatermarkMode.Both
-    else:
-        watermark_mode = BabelDOCWatermarkMode.Watermarked
+    watermark_output_mode_maps = {
+        "no_watermark": BabelDOCWatermarkMode.NoWatermark,
+        "both": BabelDOCWatermarkMode.Both,
+        "watermarked": BabelDOCWatermarkMode.Watermarked,
+    }
+
+    watermark_output_mode = settings.pdf.watermark_output_mode
+
+    watermark_mode = watermark_output_mode_maps.get(
+        watermark_output_mode, BabelDOCWatermarkMode.Watermarked
+    )
 
     table_model = None
     if settings.pdf.translate_table_text:
