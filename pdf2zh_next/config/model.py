@@ -304,7 +304,7 @@ class SettingsModel(BaseModel):
             "both": "both",
         }
 
-        watermark_output_mode = self.pdf.watermark_output_mode
+        watermark_output_mode = self.pdf.watermark_output_mode.lower()
         if watermark_output_mode not in watermark_output_mode_maps:
             raise ValueError(
                 f"Invalid watermark output mode: {watermark_output_mode}. "
