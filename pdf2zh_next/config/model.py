@@ -4,6 +4,7 @@ import enum
 import logging
 import re
 from pathlib import Path
+from statistics import mode
 
 from pydantic import BaseModel
 from pydantic import Field
@@ -277,13 +278,21 @@ class SettingsModel(BaseModel):
             raise ValueError("max_pages_per_part must be greater than 0")
 
         # Validate and store watermark mode
-        watermark_output_modes = {'watermarked', 'no_watermark', 'both'}
-        mode = self.pdf.watermark_output_mode.lower()
-        if mode not in watermark_output_modes:
+        watermark_output_mode_maps = {
+            "nowatermark": "no_watermark",
+            "no_watermark": "no_watermark",
+            "watermarked": "watermarked",
+            "both": "both",
+        }
+
+        watermark_output_mode = self.pdf.watermark_output_mode
+        if watermark_output_mode not in watermark_output_mode_maps:
             raise ValueError(
-                f"Invalid watermark output mode: {self.pdf.watermark_output_mode}. "
-                f"Valid modes: {', '.join(watermark_output_modes)}"
+                f"Invalid watermark output mode: {watermark_output_mode}. "
+                f"Valid modes: {', '.join(watermark_output_mode_maps.keys())}"
             )
+        
+        self.pdf.watermark_output_mode = watermark_output_mode_maps[watermark_output_mode]
 
         if self.translation.qps < 1:
             raise ValueError("qps must be greater than 0")
