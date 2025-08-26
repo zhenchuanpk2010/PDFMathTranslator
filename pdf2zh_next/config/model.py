@@ -4,7 +4,6 @@ import enum
 import logging
 import re
 from pathlib import Path
-from statistics import mode
 
 from pydantic import BaseModel
 from pydantic import Field
@@ -291,8 +290,10 @@ class SettingsModel(BaseModel):
                 f"Invalid watermark output mode: {watermark_output_mode}. "
                 f"Valid modes: {', '.join(watermark_output_mode_maps.keys())}"
             )
-        
-        self.pdf.watermark_output_mode = watermark_output_mode_maps[watermark_output_mode]
+
+        self.pdf.watermark_output_mode = watermark_output_mode_maps[
+            watermark_output_mode
+        ]
 
         if self.translation.qps < 1:
             raise ValueError("qps must be greater than 0")

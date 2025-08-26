@@ -420,7 +420,9 @@ def _build_translate_settings(
     translate_settings.pdf.use_alternating_pages_dual = use_alternating_pages_dual
 
     # Map watermark mode from UI to enum
-    translate_settings.pdf.watermark_output_mode = watermark_output_mode.lower().replace(" ", "_")
+    translate_settings.pdf.watermark_output_mode = (
+        watermark_output_mode.lower().replace(" ", "_")
+    )
 
     # Update Advanced PDF Settings
     translate_settings.pdf.skip_clean = skip_clean
