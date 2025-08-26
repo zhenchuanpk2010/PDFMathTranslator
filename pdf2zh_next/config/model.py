@@ -153,9 +153,9 @@ class PDFSettings(BaseModel):
     use_alternating_pages_dual: bool = Field(
         default=False, description="Use alternating pages mode for dual PDF"
     )
-    watermark_output_mode: WatermarkOutputMode = Field(
-        default=WatermarkOutputMode.Watermarked,
-        description="Watermark output mode for PDF files",
+    watermark_output_mode: str = Field(
+        default="watermarked",
+        description="Watermark output mode for PDF files (watermarked, no_watermark, or both)",
     )
     max_pages_per_part: int | None = Field(
         default=None, description="Maximum pages per part for split translation"
@@ -296,10 +296,24 @@ class SettingsModel(BaseModel):
         if self.pdf.max_pages_per_part and self.pdf.max_pages_per_part < 0:
             raise ValueError("max_pages_per_part must be greater than 0")
 
-        if self.pdf.watermark_output_mode not in WatermarkOutputMode:
+        # Validate and store watermark mode
+        watermark_output_mode_maps = {
+            "nowatermark": "no_watermark",
+            "no_watermark": "no_watermark",
+            "watermarked": "watermarked",
+            "both": "both",
+        }
+
+        watermark_output_mode = self.pdf.watermark_output_mode
+        if watermark_output_mode not in watermark_output_mode_maps:
             raise ValueError(
-                f"Invalid watermark output mode: {self.pdf.watermark_output_mode}"
+                f"Invalid watermark output mode: {watermark_output_mode}. "
+                f"Valid modes: {', '.join(watermark_output_mode_maps.keys())}"
             )
+
+        self.pdf.watermark_output_mode = watermark_output_mode_maps[
+            watermark_output_mode
+        ]
 
         if self.translation.qps < 1:
             raise ValueError("qps must be greater than 0")
