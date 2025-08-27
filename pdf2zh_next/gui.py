@@ -536,14 +536,9 @@ def _build_translate_settings(
     translate_settings.pdf.use_alternating_pages_dual = use_alternating_pages_dual
 
     # Map watermark mode from UI to enum
-    if watermark_output_mode == "Watermarked":
-        from pdf2zh_next.config.model import WatermarkOutputMode
-
-        translate_settings.pdf.watermark_output_mode = WatermarkOutputMode.Watermarked
-    elif watermark_output_mode == "No Watermark":
-        from pdf2zh_next.config.model import WatermarkOutputMode
-
-        translate_settings.pdf.watermark_output_mode = WatermarkOutputMode.NoWatermark
+    translate_settings.pdf.watermark_output_mode = (
+        watermark_output_mode.lower().replace(" ", "_")
+    )
 
     # Update Advanced PDF Settings
     translate_settings.pdf.skip_clean = skip_clean
@@ -1279,7 +1274,7 @@ with gr.Blocks(
                     value=240,  # More conservative default value
                     precision=0,
                     minimum=1,
-                    maximum=10000,
+                    maximum=60000,
                     interactive=True,
                     visible=False,
                     info="Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM",
@@ -1290,7 +1285,7 @@ with gr.Blocks(
                     value=20,  # More conservative default value
                     precision=0,
                     minimum=1,
-                    maximum=200,
+                    maximum=1000,
                     interactive=True,
                     visible=False,
                     info="Maximum number of requests processed simultaneously",
@@ -1301,7 +1296,7 @@ with gr.Blocks(
                     value=settings.translation.qps or 4,
                     precision=0,
                     minimum=1,
-                    maximum=100,
+                    maximum=1000,
                     interactive=True,
                     visible=False,
                     info="Number of requests sent per second",
@@ -1337,6 +1332,20 @@ with gr.Blocks(
                     label=_("Pages"),
                     value=list(page_map.keys())[0],
                 )
+
+                use_alternating_pages_dual = gr.Checkbox(
+                    label="Use alternating pages for dual PDF",
+                    value=settings.pdf.use_alternating_pages_dual,
+                    interactive=True,
+                )
+
+            watermark_output_mode = gr.Radio(
+                choices=["Watermarked", "No Watermark"],
+                label="Watermark mode",
+                value="Watermarked"
+                if settings.pdf.watermark_output_mode == "watermarked"
+                else "No Watermark",
+            )
 
                 page_input = gr.Textbox(
                     label=_("Page range (e.g., 1,3,5-10,-5)"),
