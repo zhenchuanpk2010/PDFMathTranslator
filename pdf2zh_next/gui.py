@@ -262,12 +262,11 @@ def download_with_limit(url: str, save_path: str, size_limit: int = None) -> str
             filename = params["filename"]
         except Exception:  # filename from url
             filename = Path(url).name
-        filename = Path(filename).name
-        if filename in (".", ".."):
-            raise gr.Error(f"Invalid filename: {filename}")
         filename = Path(filename).stem + ".pdf"
-        save_path = Path(save_path)
+        save_path = Path(save_path).resolve()
         file_path = save_path / filename
+        if not file_path.resolve().is_relative_to(save_path):
+            raise gr.Error("Invalid filename")
         with file_path.open("wb") as file:
             for chunk in response.iter_content(chunk_size=chunk_size):
                 total_size += len(chunk)
