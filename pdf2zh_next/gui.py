@@ -14,6 +14,7 @@ import chardet
 import gradio as gr
 import requests
 from babeldoc import __version__ as babeldoc_version
+from gradio_i18n import Translate
 from gradio_pdf import PDF
 
 from pdf2zh_next import __version__
@@ -29,7 +30,6 @@ from pdf2zh_next.config.translate_engine_model import (
 from pdf2zh_next.high_level import TranslationError
 from pdf2zh_next.high_level import do_translate_async_stream
 from pdf2zh_next.i18n import LANGUAGES
-from gradio_i18n import Translate
 from pdf2zh_next.i18n import gettext as _
 
 
