@@ -24,9 +24,7 @@ from pdf2zh_next.config.model import SettingsModel
 from pdf2zh_next.config.translate_engine_model import GUI_PASSWORD_FIELDS
 from pdf2zh_next.config.translate_engine_model import GUI_SENSITIVE_FIELDS
 from pdf2zh_next.config.translate_engine_model import TRANSLATION_ENGINE_METADATA
-from pdf2zh_next.config.translate_engine_model import (
-    TRANSLATION_ENGINE_METADATA_MAP,
-)
+from pdf2zh_next.config.translate_engine_model import TRANSLATION_ENGINE_METADATA_MAP
 from pdf2zh_next.high_level import TranslationError
 from pdf2zh_next.high_level import do_translate_async_stream
 from pdf2zh_next.i18n import LANGUAGES
