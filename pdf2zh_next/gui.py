@@ -32,6 +32,7 @@ from pdf2zh_next.i18n import LANGUAGES
 from pdf2zh_next.i18n import Translate
 from pdf2zh_next.i18n import gettext as _
 
+
 logger = logging.getLogger(__name__)
 __gui_service_arg_names = []
 # The following variables associate strings with specific languages

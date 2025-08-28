@@ -1,4 +1,4 @@
-from gradio_i18n import Translate, gettext
+from gradio_i18n import gettext
 
 LANGUAGES = [
     ("English", "en"),
