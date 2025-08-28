@@ -343,8 +343,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 When deploying a pdf2zh GUI on public services, you should modify the configuration file as described below.
 
+> [!WARNING]
+>
+> This project has not been professionally audited for security, and may contain security vulnerabilities. Please evaluate the risks and take necessary security measures before deploying on public networks.
+
+
 > [!TIP]
-> - When deploying publicly, both `disable_gui_sensitive_input` and `disable_config_auto_save` should be enabled.
+> - When deploying publicly, both disable_gui_sensitive_input and disable_config_auto_save should be enabled.
 > - Separate different available services with *English commas* <kbd>,</kbd> .
 
 A usable configuration is as follows:

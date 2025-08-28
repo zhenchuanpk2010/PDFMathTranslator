@@ -5,9 +5,15 @@
 <h3 id="目录">目录</h3>
 
 - [命令行参数](#命令行参数)
+  - [参数](#参数)
+  - [GUI 参数](#gui-参数)
+- [速率限制配置指南](#速率限制配置指南)
+  - [RPM（每分钟请求数）速率限制](#rpm 每分钟请求数速率限制)
+  - [并发连接限制](#并发连接限制)
+  - [最佳实践](#最佳实践)
 - [部分翻译](#部分翻译)
 - [指定源语言和目标语言](#指定源语言和目标语言)
-- [翻译时排除例外](#翻译时排除例外)
+- [带例外的翻译](#带例外的翻译)
 - [自定义提示](#自定义提示)
 - [自定义配置](#自定义配置)
 - [跳过清理](#跳过清理)
@@ -74,6 +80,11 @@
 | `--only-include-translated-page` | 仅在输出 PDF 中包含已翻译的页面。仅在使用了 `--pages` 参数时生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | 自定义翻译术语表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 保存自动提取的术语表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | 禁用合并带有行号文档中的交替行号与文本段落 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | 禁用移除段落区域内的非公式行                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | 设置用于识别非公式行的 IoU 阈值（0.0-1.0）                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | 设置图表保护阈值 (0.0-1.0)。图表内的行将不会被处理 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | 处理过程中跳过公式偏移量计算         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### GUI 参数
@@ -87,6 +98,64 @@
 | `--disable-gui-sensitive-input` | 禁用 GUI 敏感输入            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | 禁用自动保存配置 | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | WebUI 端口                             | `pdf2zh --gui --server-port 7860`               |
+
+[⬆️ 返回顶部](#目录)
+
+---
+
+#### 速率限制配置指南
+
+在使用翻译服务时，合理的速率限制配置对于避免 API 错误和优化性能至关重要。本指南将根据不同的上游服务限制，讲解如何配置 `--qps` 和 `--pool-max-worker` 参数。
+
+> [!TIP]
+>
+> 建议 `pool_size` 不要超过 1000。如果通过以下方法计算出的 `pool_size` 超过 1000，请使用 1000。
+
+##### RPM（每分钟请求数）速率限制
+
+当上游服务有 RPM 限制时，使用以下计算方式：
+
+**计算公式：**
+- `qps = floor(rpm / 60)`
+- `pool_size = qps * 10`
+
+> [!NOTE]
+> 系数 10 是一个经验值，在大多数场景下都能良好适用。
+
+**示例：**
+如果您的翻译服务限制为 600 RPM：
+- `qps = floor(600 / 60) = 10`
+- `pool_size = 10 * 10 = 100`
+
+```bash
+pdf2zh example.pdf --qps 10 --pool-max-worker 100
+```
+
+##### 并发连接限制
+
+当上游服务存在并发连接限制（如 GLM 官方服务）时，可采用以下方法：
+
+**计算公式：**
+- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`
+- `qps = pool_size`
+
+**示例：**
+如果您的翻译服务允许 50 个并发连接：
+- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`
+- `qps = 45`
+
+```bash
+pdf2zh example.pdf --qps 45 --pool-max-worker 45
+```
+
+##### 最佳实践
+
+> [!TIP]
+> - 始终从保守值开始，必要时逐步增加
+> - 监控服务的响应时间和错误率
+> - 不同服务可能需要不同的优化策略
+> - 设置这些参数时，请考虑您的具体用例和文档大小
+
 
 [⬆️ 返回顶部](#目录)
 
@@ -274,8 +343,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 在公共服务上部署 pdf2zh GUI 时，您应按照以下说明修改配置文件。
 
+> [!WARNING]
+>
+> 本项目尚未经过专业安全审计，可能存在安全漏洞。请在公共网络部署前评估风险并采取必要的安全措施。
+
+
 > [!TIP]
-> - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save`。
+> - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save` 选项。
 > - 使用*英文逗号* <kbd>,</kbd> 分隔不同的可用服务。
 
 可用的配置如下：

@@ -4,17 +4,23 @@
 
 <h3 id="toc">Indice</h3>
 
-- [#### Argomenti della riga di comando](#####-argomenti-della-riga-di-comando)
-- [#### Traduzione parziale](#####-traduzione-parziale)
-- [#### Specificare le lingue di origine e di destinazione](#####-specificare-le-lingue-di-origine-e-di-destinazione)
-- [#### Tradurre con eccezioni](#####-tradurre-con-eccezioni)
-- [#### Prompt personalizzato](#####-prompt-personalizzato)
-- [#### Configurazione personalizzata](#####-configurazione-personalizzata)
-- [#### Salta pulizia](#####-salta-pulizia)
-- [#### Cache delle traduzioni](#####-cache-delle-traduzioni)
-- [#### Distribuzione come servizi pubblici](#####-distribuzione-come-servizi-pubblici)
-- [#### Autenticazione e pagina di benvenuto](#####-autenticazione-e-pagina-di-benvenuto)
-- [#### Supporto del glossario](#####-supporto-del-glossario)
+- [Argomenti della riga di comando](#argomenti-della-riga-di-comando)
+  - [Argomenti](#argomenti)
+  - [Argomenti GUI](#argomenti-gui)
+- [#### Guida alla configurazione del limite di velocità](#guida-alla-configurazione-del-limite-di-velocità)
+  - [#### Limitazione della velocità RPM (Richieste al minuto)](#limitazione-della-velocità-rpm-richieste-al-minuto)
+  - [#### Limitazione delle connessioni simultanee](#limitazione-delle-connessioni-simultanee)
+  - [#### Best Practices](#best-practices)
+- [Traduzione parziale](#traduzione-parziale)
+- [Specificare le lingue di origine e di destinazione](#specificare-le-lingue-di-origine-e-di-destinazione)
+- [Traduzione con eccezioni](#traduzione-con-eccezioni)
+- [Prompt personalizzato](#prompt-personalizzato)
+- [Configurazione personalizzata](#configurazione-personalizzata)
+- [Salta pulizia](#salta-pulizia)
+- [Cache di traduzione](#cache-di-traduzione)
+- [Distribuzione come servizi pubblici](#distribuzione-come-servizi-pubblici)
+- [Autenticazione e pagina di benvenuto](#autenticazione-e-pagina-di-benvenuto)
+- [Supporto glossario](#supporto-glossario)
 
 ---
 
@@ -73,7 +79,12 @@ Nella tabella seguente, elenchiamo tutte le opzioni avanzate per riferimento:
 | `--auto-enable-ocr-workaround`  | Abilita la soluzione automatica OCR. Se un documento viene rilevato come pesantemente scansionato, questo tenterà di abilitare l'elaborazione OCR e salterà ulteriori rilevamenti di scansione. Consultare la documentazione per i dettagli. (predefinito: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page` | Includi solo le pagine tradotte nel PDF di output. Efficace solo quando viene utilizzato --pages. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Glossario personalizzato per la traduzione.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| salva automaticamente il glossario estratto.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| salva il glossario estratto automaticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | Disabilita l'unione dei numeri di riga alternati e dei paragrafi di testo nei documenti con numeri di riga | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | Disabilita la rimozione delle righe non di formula all'interno delle aree di paragrafo                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | Imposta la soglia IoU per identificare le righe non formule (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | Imposta la soglia di protezione per figure e tabelle (0.0-1.0). Le righe all'interno di figure/tabelle non verranno elaborate | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | Salta il calcolo dell'offset della formula durante l'elaborazione | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### Argomenti GUI
@@ -87,6 +98,64 @@ Nella tabella seguente, elenchiamo tutte le opzioni avanzate per riferimento:
 | `--disable-gui-sensitive-input` | Disabilita l'input sensibile della GUI            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Disabilita il salvataggio automatico della configurazione | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | Porta WebUI                             | `pdf2zh --gui --server-port 7860`               |
+
+[⬆️ Torna all'inizio](#toc)
+
+---
+
+#### Guida alla configurazione del limite di velocità
+
+Quando si utilizzano i servizi di traduzione, una corretta configurazione del limite di velocità è fondamentale per evitare errori API e ottimizzare le prestazioni. Questa guida spiega come configurare i parametri `--qps` e `--pool-max-worker` in base alle diverse limitazioni del servizio upstream.
+
+> [!TIP]
+>
+> Si consiglia che il pool_size non superi 1000. Se il pool_size calcolato con il seguente metodo supera 1000, si prega di utilizzare 1000.
+
+##### Limitazione della velocità RPM (Richieste al minuto)
+
+Quando il servizio upstream ha limitazioni RPM, utilizza il seguente calcolo:
+
+**Formula di calcolo:**
+- `qps = floor(rpm / 60)`
+- `pool_size = qps * 10`
+
+> [!NOTE]
+> Il fattore 10 è un coefficiente empirico che generalmente funziona bene per la maggior parte degli scenari.
+
+**Esempio:**
+Se il tuo servizio di traduzione ha un limite di 600 RPM:
+- `qps = floor(600 / 60) = 10`
+- `pool_size = 10 * 10 = 100`
+
+```bash
+pdf2zh example.pdf --qps 10 --pool-max-worker 100
+```
+
+##### Limitazione delle connessioni simultanee
+
+Quando il servizio upstream ha limitazioni di connessione simultanea (come il servizio ufficiale GLM), utilizza questo approccio:
+
+**Formula di calcolo:**
+- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`
+- `qps = pool_size`
+
+**Esempio:**
+Se il tuo servizio di traduzione consente 50 connessioni simultanee:
+- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`
+- `qps = 45`
+
+```bash
+pdf2zh example.pdf --qps 45 --pool-max-worker 45
+```
+
+##### Best Practices
+
+> [!TIP]
+> - Inizia sempre con valori conservativi e aumenta gradualmente se necessario
+> - Monitora i tempi di risposta del tuo servizio e i tassi di errore
+> - Servizi diversi possono richiedere strategie di ottimizzazione diverse
+> - Considera il tuo caso d'uso specifico e la dimensione del documento quando imposti questi parametri
+
 
 [⬆️ Torna all'inizio](#toc)
 
@@ -274,8 +343,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 Quando si distribuisce un'interfaccia grafica pdf2zh su servizi pubblici, è necessario modificare il file di configurazione come descritto di seguito.
 
+> [!WARNING]
+>
+> Questo progetto non è stato sottoposto a un controllo professionale per la sicurezza e potrebbe contenere vulnerabilità. Si prega di valutare i rischi e adottare le necessarie misure di sicurezza prima di distribuire su reti pubbliche.
+
+
 > [!TIP]
-> - Quando si distribuisce pubblicamente, sia `disable_gui_sensitive_input` che `disable_config_auto_save` dovrebbero essere abilitati.
+> - Quando si distribuisce pubblicamente, sia disable_gui_sensitive_input che disable_config_auto_save dovrebbero essere abilitati.
 > - Separare i diversi servizi disponibili con *virgole inglesi* <kbd>,</kbd> .
 
 Una configurazione utilizzabile è la seguente:

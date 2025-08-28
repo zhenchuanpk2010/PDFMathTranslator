@@ -31,10 +31,10 @@ dependencies = [
     # 5.36 has a bug, webui starts with a white screen
     "gradio<5.36",
     "tencentcloud-sdk-python-tmt",
-    "gradio_pdf>=0.0.21",
+    "gradio-pdf>=0.0.21",
     "peewee>=3.17.8",
     "fontTools",
-    "babeldoc>=0.5.1, <0.6.0",
+    "babeldoc>=0.5.1,<0.6.0",
     "rich",
     "pydantic-settings>=2.8.1",
     "pydantic>=2.10.6",
@@ -44,6 +44,8 @@ dependencies = [
     "uvicorn>=0.34.2",
     "legacy-cgi; python_version >= '3.13'",
     "chardet>=5.2.0",
+    "gradio-i18n>=0.3.1",
+    "pyyaml>=6.0.2",
 ]
 
 [dependency-groups]
