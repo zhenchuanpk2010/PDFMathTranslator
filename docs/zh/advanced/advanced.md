@@ -80,6 +80,11 @@
 | `--only-include-translated-page` | 仅在输出 PDF 中包含已翻译的页面。仅在使用了 `--pages` 参数时生效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | 自定义翻译术语表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 保存自动提取的术语表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | 禁用合并带有行号文档中的交替行号与文本段落 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | 禁用移除段落区域内的非公式行                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | 设置用于识别非公式行的 IoU 阈值（0.0-1.0）                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | 设置图表保护阈值 (0.0-1.0)。图表内的行将不会被处理 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | 处理过程中跳过公式偏移量计算         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### GUI 参数
@@ -338,8 +343,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 在公共服务上部署 pdf2zh GUI 时，您应按照以下说明修改配置文件。
 
+> [!WARNING]
+>
+> 本项目尚未经过专业安全审计，可能存在安全漏洞。请在公共网络部署前评估风险并采取必要的安全措施。
+
+
 > [!TIP]
-> - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save`。
+> - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save` 选项。
 > - 使用*英文逗号* <kbd>,</kbd> 分隔不同的可用服务。
 
 可用的配置如下：

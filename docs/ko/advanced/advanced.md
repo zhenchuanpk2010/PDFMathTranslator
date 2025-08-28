@@ -80,6 +80,11 @@
 | `--only-include-translated-page` | 출력 PDF 에 번역된 페이지만 포함합니다. `--pages` 가 사용될 때만 유효합니다. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | 번역을 위한 사용자 정의 용어집.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 자동으로 추출된 용어집을 저장합니다.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | 줄 번호가 있는 문서에서 번갈아 나타나는 줄 번호와 텍스트 단락의 병합을 비활성화합니다 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | 단락 영역 내에서 수식이 아닌 줄 제거 비활성화                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | 비수식 라인 식별을 위한 IoU 임계값 설정 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | 그림과 표에 대한 보호 임계값 설정 (0.0-1.0). 그림/표 내부의 라인은 처리되지 않음 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | 처리 중 수식 오프셋 계산 건너뛰기         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### GUI 인수
@@ -379,6 +384,11 @@ pdf2zh_next example.pdf --ignore-cache
 #### 공개 서비스로 배포하기
 
 공개 서비스에 pdf2zh GUI 를 배포할 때는 아래 설명대로 구성 파일을 수정해야 합니다.
+
+> [!WARNING]
+>
+> 이 프로젝트는 보안 전문 감사를 받지 않았으며 보안 취약점이 포함되어 있을 수 있습니다. 공용 네트워크에 배포하기 전에 위험을 평가하고 필요한 보안 조치를 취하세요.
+
 
 > [!TIP]
 > - 공개적으로 배포할 때는 `disable_gui_sensitive_input` 과 `disable_config_auto_save` 를 모두 활성화해야 합니다.

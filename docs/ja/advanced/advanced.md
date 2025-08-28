@@ -80,6 +80,11 @@
 | `--only-include-translated-page` | 出力 PDF に翻訳済みのページのみを含める。`--pages` が使用されている場合のみ有効。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | 翻訳用のカスタム用語集。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| 自動抽出された用語集を保存します。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | 行番号付き文書において、行番号とテキスト段落の交互マージを無効化します | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | 段落エリア内の非数式行の削除を無効化                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | 非数式行を識別するための IoU 閾値を設定 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | 図表の保護閾値を設定（0.0-1.0）。図表内の行は処理されません | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | 処理中の数式オフセット計算をスキップ         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### GUI 引数
@@ -338,9 +343,14 @@ pdf2zh_next example.pdf --ignore-cache
 
 公開サービスで pdf2zh GUI をデプロイする場合、以下のように設定ファイルを変更する必要があります。
 
+> [!WARNING]
+>
+> このプロジェクトはセキュリティに関する専門的な監査を受けておらず、セキュリティ上の脆弱性が含まれている可能性があります。パブリックネットワークにデプロイする前に、リスクを評価し、必要なセキュリティ対策を講じてください。
+
+
 > [!TIP]
 > - 公開デプロイ時には、`disable_gui_sensitive_input` と `disable_config_auto_save` の両方を有効にする必要があります。
-> - 利用可能なサービスは *英語のカンマ* <kbd>,</kbd> で区切ってください。
+> - 利用可能な異なるサービスは *英語のカンマ* <kbd>,</kbd> で区切ってください。
 
 以下の設定が利用可能です：
 

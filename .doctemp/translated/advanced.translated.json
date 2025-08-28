@@ -21,7 +21,7 @@
       }
     },
     {
-      "chunk_id": "h_rule_7c52396f",
+      "chunk_id": "h_rule_5ef025e0",
       "chunk_type": "h_rule",
       "original_content": "---\n",
       "start_line_no": 3,
@@ -75,7 +75,7 @@
       }
     },
     {
-      "chunk_id": "h_rule_9c3d96a5",
+      "chunk_id": "h_rule_c2d98d93",
       "chunk_type": "h_rule",
       "original_content": "---\n",
       "start_line_no": 25,
@@ -957,28 +957,118 @@
       }
     },
     {
-      "chunk_id": "chunk_85EA2B26",
+      "chunk_id": "chunk_1B83C5B9",
       "chunk_type": "longtable_content",
-      "original_content": "| `--save-auto-extracted-glossary`| save automatically extracted glossary.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
+      "original_content": "| `--save-auto-extracted-glossary`| save automatically extracted glossary.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
       "start_line_no": 82,
       "translations": {
-        "zh": "| `--save-auto-extracted-glossary`| 保存自动提取的术语表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "zh_TW": "| `--save-auto-extracted-glossary`| 儲存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "fr": "| `--save-auto-extracted-glossary`| enregistrer le glossaire extrait automatiquement.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "ru": "| `--save-auto-extracted-glossary`| сохранить автоматически извлеченный глоссарий.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "it": "| `--save-auto-extracted-glossary`| salva automaticamente il glossario estratto.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "de": "| `--save-auto-extracted-glossary`| automatisch extrahiertes Glossar speichern.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "ko": "| `--save-auto-extracted-glossary`| 자동으로 추출된 용어집을 저장합니다.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "pt": "| `--save-auto-extracted-glossary`| salvar glossário extraído automaticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "ja": "| `--save-auto-extracted-glossary`| 自動抽出された用語集を保存します。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n",
-        "es": "| `--save-auto-extracted-glossary`| guardar el glosario extraído automáticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |\n\n"
+        "zh_TW": "| `--save-auto-extracted-glossary`| 保存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "pt": "| `--save-auto-extracted-glossary`| salvar o glossário extraído automaticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "it": "| `--save-auto-extracted-glossary`| salva il glossario estratto automaticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "fr": "| `--save-auto-extracted-glossary`| enregistrer le glossaire extrait automatiquement.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "ja": "| `--save-auto-extracted-glossary`| 自動抽出された用語集を保存します。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "zh": "| `--save-auto-extracted-glossary`| 保存自动提取的术语表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "ru": "| `--save-auto-extracted-glossary` | сохранить автоматически извлечённый глоссарий. | `pdf2zh example.pdf --save-auto-extracted-glossary` |",
+        "de": "| `--save-auto-extracted-glossary`| speichert automatisch extrahiertes Glossar.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "ko": "| `--save-auto-extracted-glossary`| 자동으로 추출된 용어집을 저장합니다.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |",
+        "es": "| `--save-auto-extracted-glossary`| guardar glosario extraído automáticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |"
+      }
+    },
+    {
+      "chunk_id": "chunk_CE6D9EA3",
+      "chunk_type": "longtable_content",
+      "original_content": "| `--no-merge-alternating-line-numbers` | Disable merging of alternating line numbers and text paragraphs in documents with line numbers | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+      "start_line_no": 83,
+      "translations": {
+        "ru": "| `--no-merge-alternating-line-numbers` | Отключить объединение чередующихся номеров строк и текстовых абзацев в документах с номерами строк | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "es": "| `--no-merge-alternating-line-numbers` | Desactiva la fusión de números de línea alternos y párrafos de texto en documentos con números de línea | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "it": "| `--no-merge-alternating-line-numbers` | Disabilita l'unione dei numeri di riga alternati e dei paragrafi di testo nei documenti con numeri di riga | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "de": "| `--no-merge-alternating-line-numbers` | Deaktiviert das Zusammenführen von alternierenden Zeilennummern und Textabsätzen in Dokumenten mit Zeilennummern | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "zh_TW": "| `--no-merge-alternating-line-numbers` | 禁用合併帶有行號的文件中的交替行號與文本段落 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "ko": "| `--no-merge-alternating-line-numbers` | 줄 번호가 있는 문서에서 번갈아 나타나는 줄 번호와 텍스트 단락의 병합을 비활성화합니다 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "zh": "| `--no-merge-alternating-line-numbers` | 禁用合并带有行号文档中的交替行号与文本段落 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "pt": "| `--no-merge-alternating-line-numbers` | Desativa a fusão de números de linha alternados e parágrafos de texto em documentos com números de linha | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "ja": "| `--no-merge-alternating-line-numbers` | 行番号付き文書において、行番号とテキスト段落の交互マージを無効化します | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |",
+        "fr": "| `--no-merge-alternating-line-numbers` | Désactive la fusion des numéros de ligne alternatifs et des paragraphes de texte dans les documents avec numéros de ligne | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |"
+      }
+    },
+    {
+      "chunk_id": "chunk_6ADE00C8",
+      "chunk_type": "longtable_content",
+      "original_content": "| `--no-remove-non-formula-lines` | Disable removal of non-formula lines within paragraph areas                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+      "start_line_no": 84,
+      "translations": {
+        "fr": "| `--no-remove-non-formula-lines` | Désactive la suppression des lignes non-formules dans les zones de paragraphe                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "ja": "| `--no-remove-non-formula-lines` | 段落エリア内の非数式行の削除を無効化                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "ko": "| `--no-remove-non-formula-lines` | 단락 영역 내에서 수식이 아닌 줄 제거 비활성화                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "it": "| `--no-remove-non-formula-lines` | Disabilita la rimozione delle righe non di formula all'interno delle aree di paragrafo                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "de": "| `--no-remove-non-formula-lines` | Deaktiviert die Entfernung von Nicht-Formel-Zeilen innerhalb von Absatzbereichen | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "zh": "| `--no-remove-non-formula-lines` | 禁用移除段落区域内的非公式行                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "zh_TW": "| `--no-remove-non-formula-lines` | 禁用移除段落區域內的非公式行                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "pt": "| `--no-remove-non-formula-lines` | Desativar a remoção de linhas não relacionadas a fórmulas dentro de áreas de parágrafo                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |",
+        "ru": "| `--no-remove-non-formula-lines` | Отключить удаление строк, не содержащих формулы, в пределах областей абзацев | `pdf2zh example.pdf --no-remove-non-formula-lines` |",
+        "es": "| `--no-remove-non-formula-lines` | Deshabilitar la eliminación de líneas que no son fórmulas dentro de áreas de párrafo                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |"
+      }
+    },
+    {
+      "chunk_id": "chunk_2525055D",
+      "chunk_type": "longtable_content",
+      "original_content": "| `--non-formula-line-iou-threshold` | Set IoU threshold for identifying non-formula lines (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+      "start_line_no": 85,
+      "translations": {
+        "de": "| `--non-formula-line-iou-threshold` | Setze den IoU-Schwellenwert für die Identifizierung von Nicht-Formel-Zeilen (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "ja": "| `--non-formula-line-iou-threshold` | 非数式行を識別するための IoU 閾値を設定 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "it": "| `--non-formula-line-iou-threshold` | Imposta la soglia IoU per identificare le righe non formule (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "zh": "| `--non-formula-line-iou-threshold` | 设置用于识别非公式行的 IoU 阈值（0.0-1.0）                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "zh_TW": "| `--non-formula-line-iou-threshold` | 設定非公式行的 IoU 閾值 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "ru": "| `--non-formula-line-iou-threshold` | Установить порог IoU для идентификации строк без формул (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "fr": "| `--non-formula-line-iou-threshold` | Définir le seuil IoU pour identifier les lignes non-formules (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "ko": "| `--non-formula-line-iou-threshold` | 비수식 라인 식별을 위한 IoU 임계값 설정 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "es": "| `--non-formula-line-iou-threshold` | Establece el umbral de IoU para identificar líneas que no son fórmulas (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |",
+        "pt": "| `--non-formula-line-iou-threshold` | Define o limite de IoU para identificar linhas não-fórmula (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |"
+      }
+    },
+    {
+      "chunk_id": "chunk_6ACD14AF",
+      "chunk_type": "longtable_content",
+      "original_content": "| `--figure-table-protection-threshold` | Set protection threshold for figures and tables (0.0-1.0). Lines within figures/tables will not be processed | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+      "start_line_no": 86,
+      "translations": {
+        "zh_TW": "| `--figure-table-protection-threshold` | 設定圖表和表格的保護閾值 (0.0-1.0)。圖表/表格內的線條將不會被處理 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "ja": "| `--figure-table-protection-threshold` | 図表の保護閾値を設定（0.0-1.0）。図表内の行は処理されません | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "es": "| `--figure-table-protection-threshold` | Establece el umbral de protección para figuras y tablas (0.0-1.0). Las líneas dentro de figuras/tablas no serán procesadas | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "pt": "| `--figure-table-protection-threshold` | Define o limite de proteção para figuras e tabelas (0.0-1.0). Linhas dentro de figuras/tabelas não serão processadas | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "zh": "| `--figure-table-protection-threshold` | 设置图表保护阈值 (0.0-1.0)。图表内的行将不会被处理 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "ru": "| `--figure-table-protection-threshold` | Установить порог защиты для рисунков и таблиц (0.0-1.0). Строки внутри рисунков/таблиц не будут обрабатываться | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "it": "| `--figure-table-protection-threshold` | Imposta la soglia di protezione per figure e tabelle (0.0-1.0). Le righe all'interno di figure/tabelle non verranno elaborate | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "fr": "| `--figure-table-protection-threshold` | Définir le seuil de protection pour les figures et les tableaux (0.0-1.0). Les lignes à l'intérieur des figures/tableaux ne seront pas traitées | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "ko": "| `--figure-table-protection-threshold` | 그림과 표에 대한 보호 임계값 설정 (0.0-1.0). 그림/표 내부의 라인은 처리되지 않음 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |",
+        "de": "| `--figure-table-protection-threshold` | Legen Sie den Schutzschwellenwert für Abbildungen und Tabellen fest (0.0-1.0). Zeilen innerhalb von Abbildungen/Tabellen werden nicht verarbeitet | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |"
+      }
+    },
+    {
+      "chunk_id": "chunk_1DE32F1F",
+      "chunk_type": "longtable_content",
+      "original_content": "| `--skip-formula-offset-calculation` | Skip formula offset calculation during processing         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+      "start_line_no": 87,
+      "translations": {
+        "it": "| `--skip-formula-offset-calculation` | Salta il calcolo dell'offset della formula durante l'elaborazione | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "fr": "| `--skip-formula-offset-calculation` | Ignorer le calcul du décalage des formules pendant le traitement | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "zh_TW": "| `--skip-formula-offset-calculation` | 在處理過程中跳過公式偏移量計算         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "zh": "| `--skip-formula-offset-calculation` | 处理过程中跳过公式偏移量计算         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "de": "| `--skip-formula-offset-calculation` | Überspringen der Formel-Offset-Berechnung während der Verarbeitung | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "ru": "| `--skip-formula-offset-calculation` | Пропустить расчет смещения формул во время обработки         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "es": "| `--skip-formula-offset-calculation` | Omitir el cálculo de desplazamiento de fórmulas durante el procesamiento | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "ko": "| `--skip-formula-offset-calculation` | 처리 중 수식 오프셋 계산 건너뛰기         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "ja": "| `--skip-formula-offset-calculation` | 処理中の数式オフセット計算をスキップ         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n",
+        "pt": "| `--skip-formula-offset-calculation` | Pular o cálculo de deslocamento de fórmulas durante o processamento | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |\n\n"
       }
     },
     {
       "chunk_id": "chunk_140EFE95",
       "chunk_type": "header",
       "original_content": "##### GUI Args\n",
-      "start_line_no": 85,
+      "start_line_no": 90,
       "translations": {
         "zh_TW": "##### 圖形界面參數\n",
         "zh": "##### GUI 参数\n",
@@ -996,7 +1086,7 @@
       "chunk_id": "chunk_2D086D22",
       "chunk_type": "longtable_head",
       "original_content": "| Option                          | Function                               | Example                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | Enable sharing mode                    | `pdf2zh --gui --share`                          |",
-      "start_line_no": 87,
+      "start_line_no": 92,
       "translations": {
         "ru": "| Опция                          | Функция                               | Пример                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | Включить режим общего доступа         | `pdf2zh --gui --share`                          |",
         "zh": "| 选项                          | 功能                               | 示例                                         |\n| ------------------------------- | -------------------------------------- | ----------------------------------------------- |\n| `--share`                       | 启用共享模式                    | `pdf2zh --gui --share`                          |",
@@ -1014,7 +1104,7 @@
       "chunk_id": "chunk_927CDC03",
       "chunk_type": "longtable_content",
       "original_content": "| `--auth-file`                   | Path to the authentication file        | `pdf2zh --gui --auth-file /path`                |",
-      "start_line_no": 90,
+      "start_line_no": 95,
       "translations": {
         "ko": "| `--auth-file`                   | 인증 파일 경로        | `pdf2zh --gui --auth-file /path`                |",
         "it": "| `--auth-file`                   | Percorso del file di autenticazione        | `pdf2zh --gui --auth-file /percorso`                |",
@@ -1032,7 +1122,7 @@
       "chunk_id": "chunk_951E61B3",
       "chunk_type": "longtable_content",
       "original_content": "| `--welcome-page`                | Path to the welcome html file          | `pdf2zh --gui --welcome-page /path`             |",
-      "start_line_no": 91,
+      "start_line_no": 96,
       "translations": {
         "ja": "| `--welcome-page`                | ウェルカム HTML ファイルのパス          | `pdf2zh --gui --welcome-page /path`             |",
         "ru": "| `--welcome-page`                | Путь к HTML-файлу приветственной страницы          | `pdf2zh --gui --welcome-page /path`             |",
@@ -1050,7 +1140,7 @@
       "chunk_id": "chunk_A9F2F2FE",
       "chunk_type": "longtable_content",
       "original_content": "| `--enabled-services`            | Enabled translation services           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |",
-      "start_line_no": 92,
+      "start_line_no": 97,
       "translations": {
         "zh": "| `--enabled-services`            | 启用的翻译服务           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |",
         "ru": "| `--enabled-services`            | Включенные службы перевода           | `pdf2zh --gui --enabled-services \"Bing,OpenAI\"` |",
@@ -1068,7 +1158,7 @@
       "chunk_id": "chunk_2C863550",
       "chunk_type": "longtable_content",
       "original_content": "| `--disable-gui-sensitive-input` | Disable GUI sensitive input            | `pdf2zh --gui --disable-gui-sensitive-input`    |",
-      "start_line_no": 93,
+      "start_line_no": 98,
       "translations": {
         "zh": "| `--disable-gui-sensitive-input` | 禁用 GUI 敏感输入            | `pdf2zh --gui --disable-gui-sensitive-input`    |",
         "zh_TW": "| `--disable-gui-sensitive-input` | 禁用圖形界面敏感輸入            | `pdf2zh --gui --disable-gui-sensitive-input`    |",
@@ -1086,7 +1176,7 @@
       "chunk_id": "chunk_0598D53D",
       "chunk_type": "longtable_content",
       "original_content": "| `--disable-config-auto-save`    | Disable automatic configuration saving | `pdf2zh --gui --disable-config-auto-save`       |",
-      "start_line_no": 94,
+      "start_line_no": 99,
       "translations": {
         "zh_TW": "| `--disable-config-auto-save`    | 禁用自動配置儲存 | `pdf2zh --gui --disable-config-auto-save`       |",
         "zh": "| `--disable-config-auto-save`    | 禁用自动保存配置 | `pdf2zh --gui --disable-config-auto-save`       |",
@@ -1104,7 +1194,7 @@
       "chunk_id": "chunk_99D3B3A8",
       "chunk_type": "longtable_content",
       "original_content": "| `--server-port`                 | WebUI Port                             | `pdf2zh --gui --server-port 7860`               |\n",
-      "start_line_no": 95,
+      "start_line_no": 100,
       "translations": {
         "zh": "| `--server-port`                 | WebUI 端口                             | `pdf2zh --gui --server-port 7860`               |\n",
         "es": "| `--server-port`                 | Puerto de WebUI                             | `pdf2zh --gui --server-port 7860`               |\n",
@@ -1122,7 +1212,7 @@
       "chunk_id": "chunk_F1B6ECA2",
       "chunk_type": "paragraph",
       "original_content": "[⬆️ Back to top](#toc)\n",
-      "start_line_no": 406,
+      "start_line_no": 416,
       "translations": {
         "zh": "[⬆️ 返回顶部](#目录)\n",
         "ja": "[⬆️ トップに戻る](#toc)\n",
@@ -1137,10 +1227,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_e96006dc",
+      "chunk_id": "h_rule_f6472f63",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 99,
+      "start_line_no": 104,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -1158,7 +1248,7 @@
       "chunk_id": "chunk_E0DC0651",
       "chunk_type": "header",
       "original_content": "#### Rate Limiting Configuration Guide\n",
-      "start_line_no": 101,
+      "start_line_no": 106,
       "translations": {
         "ko": "#### 속도 제한 구성 가이드\n",
         "de": "#### Anleitung zur Ratenbegrenzungskonfiguration\n",
@@ -1176,7 +1266,7 @@
       "chunk_id": "chunk_23D405EC",
       "chunk_type": "paragraph",
       "original_content": "When using translation services, proper rate limiting configuration is crucial to avoid API errors and optimize performance. This guide explains how to configure `--qps` and `--pool-max-worker` parameters based on different upstream service limitations.\n",
-      "start_line_no": 103,
+      "start_line_no": 108,
       "translations": {
         "zh": "在使用翻译服务时，合理的速率限制配置对于避免 API 错误和优化性能至关重要。本指南将根据不同的上游服务限制，讲解如何配置 `--qps` 和 `--pool-max-worker` 参数。\n",
         "fr": "Lors de l'utilisation des services de traduction, une configuration appropriée des limites de débit est cruciale pour éviter les erreurs d'API et optimiser les performances. Ce guide explique comment configurer les paramètres `--qps` et `--pool-max-worker` en fonction des différentes limitations des services en amont.\n",
@@ -1194,7 +1284,7 @@
       "chunk_id": "chunk_742CD289",
       "chunk_type": "blockquote",
       "original_content": "> [!TIP]\n>\n> It is recommended that the pool_size does not exceed 1000. If the pool_size calculated by the following method exceeds 1000, please use 1000.\n",
-      "start_line_no": 105,
+      "start_line_no": 110,
       "translations": {
         "pt": "> [!TIP]\n>\n> É recomendado que o `pool_size` não exceda 1000. Se o `pool_size` calculado pelo método a seguir exceder 1000, por favor, use 1000.\n",
         "de": "> [!TIP]\n>\n> Es wird empfohlen, dass die pool_size 1000 nicht überschreitet. Wenn die nach folgender Methode berechnete pool_size 1000 überschreitet, verwenden Sie bitte 1000.\n",
@@ -1212,7 +1302,7 @@
       "chunk_id": "chunk_F9E5B2E2",
       "chunk_type": "header",
       "original_content": "##### RPM (Requests Per Minute) Rate Limiting\n",
-      "start_line_no": 109,
+      "start_line_no": 114,
       "translations": {
         "ja": "##### RPM (リクエスト毎分) レート制限\n",
         "ko": "##### RPM (Requests Per Minute) 요청 속도 제한\n",
@@ -1230,7 +1320,7 @@
       "chunk_id": "chunk_CDE1A5D3",
       "chunk_type": "paragraph",
       "original_content": "When the upstream service has RPM limitations, use the following calculation:\n\n**Calculation Formula:**",
-      "start_line_no": 111,
+      "start_line_no": 116,
       "translations": {
         "zh": "当上游服务有 RPM 限制时，使用以下计算方式：\n\n**计算公式：**",
         "ja": "上流サービスに RPM 制限がある場合、以下の計算式を使用します：\n\n**計算式：**",
@@ -1248,7 +1338,7 @@
       "chunk_id": "chunk_D293CCA3",
       "chunk_type": "list",
       "original_content": "- `qps = floor(rpm / 60)`\n- `pool_size = qps * 10`\n",
-      "start_line_no": 114,
+      "start_line_no": 119,
       "translations": {
         "fr": "- `qps = floor(rpm / 60)`\n- `pool_size = qps * 10`\n",
         "zh": "- `qps = floor(rpm / 60)`\n- `pool_size = qps * 10`\n",
@@ -1266,7 +1356,7 @@
       "chunk_id": "chunk_1C383BEE",
       "chunk_type": "blockquote",
       "original_content": "> [!NOTE]\n> The factor of 10 is an empirical coefficient that generally works well for most scenarios.\n",
-      "start_line_no": 117,
+      "start_line_no": 122,
       "translations": {
         "ko": "> [!NOTE]\n> 10 이라는 계수는 대부분의 시나리오에서 잘 작동하는 경험적 계수입니다.\n",
         "ja": "> [!NOTE]\n> 10 という係数は、ほとんどのシナリオでうまく機能する経験的な係数です。\n",
@@ -1284,7 +1374,7 @@
       "chunk_id": "chunk_AB49073F",
       "chunk_type": "paragraph",
       "original_content": "**Example:**\nIf your translation service has a limit of 600 RPM:",
-      "start_line_no": 120,
+      "start_line_no": 125,
       "translations": {
         "es": "**Ejemplo:**\nSi tu servicio de traducción tiene un límite de 600 RPM:",
         "zh": "**示例：**\n如果您的翻译服务限制为 600 RPM：",
@@ -1302,7 +1392,7 @@
       "chunk_id": "chunk_131B05E6",
       "chunk_type": "list",
       "original_content": "- `qps = floor(600 / 60) = 10`\n- `pool_size = 10 * 10 = 100`\n",
-      "start_line_no": 122,
+      "start_line_no": 127,
       "translations": {
         "zh_TW": "- `qps = floor(600 / 60) = 10`\n- `pool_size = 10 * 10 = 100`\n",
         "pt": "- `qps = floor(600 / 60) = 10`\n- `pool_size = 10 * 10 = 100`\n",
@@ -1320,7 +1410,7 @@
       "chunk_id": "chunk_D4EF62BC",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh example.pdf --qps 10 --pool-max-worker 100\n```\n",
-      "start_line_no": 125,
+      "start_line_no": 130,
       "translations": {
         "zh": "```bash\npdf2zh example.pdf --qps 10 --pool-max-worker 100\n```\n",
         "zh_TW": "```bash\npdf2zh example.pdf --qps 10 --pool-max-worker 100\n```\n",
@@ -1338,7 +1428,7 @@
       "chunk_id": "chunk_C7673CDB",
       "chunk_type": "header",
       "original_content": "##### Concurrent Connection Limiting\n",
-      "start_line_no": 129,
+      "start_line_no": 134,
       "translations": {
         "fr": "##### Limitation des connexions simultanées\n",
         "de": "##### Begrenzung gleichzeitiger Verbindungen\n",
@@ -1356,7 +1446,7 @@
       "chunk_id": "chunk_62AE5A6C",
       "chunk_type": "paragraph",
       "original_content": "When the upstream service has concurrent connection limitations (like GLM official service), use this approach:\n\n**Calculation Formula:**",
-      "start_line_no": 131,
+      "start_line_no": 136,
       "translations": {
         "zh_TW": "當上游服務有並發連接限制（如 GLM 官方服務）時，使用此方法：\n\n**計算公式：**",
         "es": "Cuando el servicio ascendente tiene limitaciones de conexiones concurrentes (como el servicio oficial de GLM), utiliza este enfoque:\n\n**Fórmula de cálculo:**",
@@ -1374,7 +1464,7 @@
       "chunk_id": "chunk_B095EF50",
       "chunk_type": "list",
       "original_content": "- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`\n- `qps = pool_size`\n",
-      "start_line_no": 134,
+      "start_line_no": 139,
       "translations": {
         "ko": "- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`\n- `qps = pool_size`\n",
         "fr": "- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`\n- `qps = pool_size`\n",
@@ -1392,7 +1482,7 @@
       "chunk_id": "chunk_1616A330",
       "chunk_type": "paragraph",
       "original_content": "**Example:**\nIf your translation service allows 50 concurrent connections:",
-      "start_line_no": 137,
+      "start_line_no": 142,
       "translations": {
         "zh_TW": "**範例：**\n若您的翻譯服務允許 50 個並發連接：",
         "es": "**Ejemplo:**\nSi tu servicio de traducción permite 50 conexiones concurrentes:",
@@ -1410,7 +1500,7 @@
       "chunk_id": "chunk_1D19FB94",
       "chunk_type": "list",
       "original_content": "- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`\n- `qps = 45`\n",
-      "start_line_no": 139,
+      "start_line_no": 144,
       "translations": {
         "zh": "- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`\n- `qps = 45`\n",
         "ja": "- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`\n- `qps = 45`\n",
@@ -1428,7 +1518,7 @@
       "chunk_id": "chunk_DB872698",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh example.pdf --qps 45 --pool-max-worker 45\n```\n",
-      "start_line_no": 142,
+      "start_line_no": 147,
       "translations": {
         "zh": "```bash\npdf2zh example.pdf --qps 45 --pool-max-worker 45\n```\n",
         "zh_TW": "```bash\npdf2zh example.pdf --qps 45 --pool-max-worker 45\n```\n",
@@ -1446,7 +1536,7 @@
       "chunk_id": "chunk_4C0D79DD",
       "chunk_type": "header",
       "original_content": "##### Best Practices\n",
-      "start_line_no": 146,
+      "start_line_no": 151,
       "translations": {
         "de": "##### Best Practices\n",
         "ko": "##### 모범 사례\n",
@@ -1464,7 +1554,7 @@
       "chunk_id": "chunk_60A6D664",
       "chunk_type": "blockquote",
       "original_content": "> [!TIP]\n> - Always start with conservative values and gradually increase if needed\n> - Monitor your service's response times and error rates\n> - Different services may require different optimization strategies\n> - Consider your specific use case and document size when setting these parameters\n\n",
-      "start_line_no": 148,
+      "start_line_no": 153,
       "translations": {
         "zh": "> [!TIP]\n> - 始终从保守值开始，必要时逐步增加\n> - 监控服务的响应时间和错误率\n> - 不同服务可能需要不同的优化策略\n> - 设置这些参数时，请考虑您的具体用例和文档大小\n\n",
         "zh_TW": "> [!TIP]\n> - 始終從保守值開始，並根據需要逐步增加\n> - 監控服務的響應時間和錯誤率\n> - 不同的服務可能需要不同的優化策略\n> - 設置這些參數時，請考慮您的具體使用案例和文件大小\n\n",
@@ -1479,10 +1569,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_b556df8f",
+      "chunk_id": "h_rule_c3e94958",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 157,
+      "start_line_no": 162,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -1500,7 +1590,7 @@
       "chunk_id": "chunk_ADC018D0",
       "chunk_type": "header",
       "original_content": "#### Partial translation\n",
-      "start_line_no": 159,
+      "start_line_no": 164,
       "translations": {
         "zh_TW": "#### 部分翻譯\n",
         "ru": "#### Частичный перевод\n",
@@ -1518,7 +1608,7 @@
       "chunk_id": "chunk_A7D2451C",
       "chunk_type": "paragraph",
       "original_content": "Use the `--pages` parameter to translate a portion of a document.\n",
-      "start_line_no": 161,
+      "start_line_no": 166,
       "translations": {
         "zh": "使用 `--pages` 参数翻译文档的一部分。\n",
         "ru": "Используйте параметр `--pages` для перевода части документа.\n",
@@ -1536,7 +1626,7 @@
       "chunk_id": "chunk_C04AFE09",
       "chunk_type": "list",
       "original_content": "- If the page numbers are consecutive, you can write it like this:\n",
-      "start_line_no": 163,
+      "start_line_no": 168,
       "translations": {
         "zh_TW": "- 如果頁碼是連續的，可以這樣寫：\n",
         "ko": "- 페이지 번호가 연속적인 경우 다음과 같이 작성할 수 있습니다:\n",
@@ -1554,7 +1644,7 @@
       "chunk_id": "chunk_037196E3",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --pages 1-3\n```\n",
-      "start_line_no": 165,
+      "start_line_no": 170,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --pages 1-3\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --pages 1-3\n```\n",
@@ -1572,7 +1662,7 @@
       "chunk_id": "chunk_02CC256B",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --pages 25-\n```\n",
-      "start_line_no": 169,
+      "start_line_no": 174,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --pages 25-\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --pages 25-\n```\n",
@@ -1590,7 +1680,7 @@
       "chunk_id": "chunk_773EEC89",
       "chunk_type": "blockquote",
       "original_content": "> [!TIP]\n> `25-` includes all pages after page 25. If your document has 100 pages, this is equivalent to `25-100`.\n> \n> Similarly, `-25` includes all pages before page 25, which is equivalent to `1-25`.\n",
-      "start_line_no": 173,
+      "start_line_no": 178,
       "translations": {
         "ru": "> [!TIP]\n> `25-` включает все страницы после 25-й. Если ваш документ содержит 100 страниц, это эквивалентно `25-100`.\n> \n> Аналогично, `-25` включает все страницы до 25-й, что эквивалентно `1-25`.\n",
         "zh_TW": "> [!TIP]\n> `25-` 包含第 25 頁之後的所有頁面。如果您的文件有 100 頁，這等同於 `25-100`。\n> \n> 同理，`-25` 包含第 25 頁之前的所有頁面，等同於 `1-25`。\n",
@@ -1608,7 +1698,7 @@
       "chunk_id": "chunk_1A89F075",
       "chunk_type": "list",
       "original_content": "- If the pages are not consecutive, you can use a comma `,` to separate them.\n",
-      "start_line_no": 178,
+      "start_line_no": 183,
       "translations": {
         "ko": "- 페이지가 연속적이지 않은 경우 쉼표 `,` 를 사용하여 구분할 수 있습니다.\n",
         "fr": "- Si les pages ne sont pas consécutives, vous pouvez utiliser une virgule `,` pour les séparer.\n",
@@ -1626,7 +1716,7 @@
       "chunk_id": "chunk_046E7E79",
       "chunk_type": "paragraph",
       "original_content": "For example, if you want to translate the first and third pages, you can use the following command:\n",
-      "start_line_no": 180,
+      "start_line_no": 185,
       "translations": {
         "zh": "例如，如果你想翻译第一页和第三页，可以使用以下命令：\n",
         "es": "Por ejemplo, si deseas traducir la primera y tercera página, puedes usar el siguiente comando:\n",
@@ -1644,7 +1734,7 @@
       "chunk_id": "chunk_7FBB71F3",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --pages \"1,3\"\n```\n",
-      "start_line_no": 182,
+      "start_line_no": 187,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --pages \"1,3\"\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --pages \"1,3\"\n```\n",
@@ -1662,7 +1752,7 @@
       "chunk_id": "chunk_376C9855",
       "chunk_type": "list",
       "original_content": "- If the pages include both consecutive and non-consecutive ranges, you can also connect them with a comma, like this:\n",
-      "start_line_no": 186,
+      "start_line_no": 191,
       "translations": {
         "zh": "- 如果页面同时包含连续和非连续范围，也可以用逗号连接，例如：\n",
         "ko": "- 페이지에 연속적 및 비연속적 범위가 모두 포함된 경우, 다음과 같이 쉼표로 연결할 수도 있습니다:\n",
@@ -1680,7 +1770,7 @@
       "chunk_id": "chunk_DE0F06A2",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --pages \"1,3,10-20,25-\"\n```\n",
-      "start_line_no": 188,
+      "start_line_no": 193,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --pages \"1,3,10-20,25-\"\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --pages \"1,3,10-20,25-\"\n```\n",
@@ -1698,7 +1788,7 @@
       "chunk_id": "chunk_16D6BA70",
       "chunk_type": "paragraph",
       "original_content": "This command will translate the first page, the third page, pages 10-20, and all pages from 25 to the end.\n\n\n[⬆️ Back to top](#toc)\n",
-      "start_line_no": 192,
+      "start_line_no": 197,
       "translations": {
         "zh": "该命令将翻译第一页、第三页、第 10 至 20 页以及从第 25 页开始的所有页面。\n\n\n[⬆️ 返回顶部](#目录)\n",
         "es": "Este comando traducirá la primera página, la tercera página, las páginas 10-20 y todas las páginas desde la 25 hasta el final.\n\n\n[⬆️ Volver arriba](#toc)\n",
@@ -1713,10 +1803,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_02fbd1e0",
+      "chunk_id": "h_rule_1d91fe0b",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 197,
+      "start_line_no": 202,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -1734,7 +1824,7 @@
       "chunk_id": "chunk_482C5F18",
       "chunk_type": "header",
       "original_content": "#### Specify source and target languages\n",
-      "start_line_no": 199,
+      "start_line_no": 204,
       "translations": {
         "zh": "#### 指定源语言和目标语言\n",
         "zh_TW": "#### 指定來源與目標語言\n",
@@ -1752,7 +1842,7 @@
       "chunk_id": "chunk_3E16227B",
       "chunk_type": "paragraph",
       "original_content": "See [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages)\n",
-      "start_line_no": 201,
+      "start_line_no": 206,
       "translations": {
         "ko": "[Google 언어 코드](https://developers.google.com/admin-sdk/directory/v1/languages), [DeepL 언어 코드](https://developers.deepl.com/docs/resources/supported-languages) 참조\n",
         "zh_TW": "請參閱 [Google Languages Codes](https://developers.google.com/admin-sdk/directory/v1/languages)、[DeepL Languages Codes](https://developers.deepl.com/docs/resources/supported-languages)\n",
@@ -1770,7 +1860,7 @@
       "chunk_id": "chunk_CE426311",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --lang-in en -lang-out ja\n```\n",
-      "start_line_no": 203,
+      "start_line_no": 208,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --lang-in en -lang-out ja\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --lang-in en -lang-out ja\n```\n",
@@ -1785,10 +1875,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_2d8ee0fa",
+      "chunk_id": "h_rule_a4153227",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 209,
+      "start_line_no": 214,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -1806,7 +1896,7 @@
       "chunk_id": "chunk_EA41DE52",
       "chunk_type": "header",
       "original_content": "#### Translate wih exceptions\n",
-      "start_line_no": 211,
+      "start_line_no": 216,
       "translations": {
         "fr": "#### Traduire avec exceptions\n",
         "ru": "#### Перевод с исключениями\n",
@@ -1824,7 +1914,7 @@
       "chunk_id": "chunk_6BAF2E56",
       "chunk_type": "paragraph",
       "original_content": "Use regex to specify formula fonts and characters that need to be preserved:\n",
-      "start_line_no": 213,
+      "start_line_no": 218,
       "translations": {
         "es": "Usar expresiones regulares para especificar fuentes de fórmulas y caracteres que deben preservarse:\n",
         "ko": "보존해야 할 수식 글꼴과 문자를 지정하기 위해 정규식을 사용합니다:\n",
@@ -1842,7 +1932,7 @@
       "chunk_id": "chunk_8D6F2147",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --formular-font-pattern \"(CM[^RT].*|MS.*|.*Ital)\" --formular-char-pattern \"(\\(|\\||\\)|\\+|=|\\d|[\\u0080-\\ufaff])\"\n```\n",
-      "start_line_no": 215,
+      "start_line_no": 220,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --formular-font-pattern \"(CM[^RT].*|MS.*|.*Ital)\" --formular-char-pattern \"(\\(|\\||\\)|\\+|=|\\d|[\\u0080-\\ufaff])\"\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --formular-font-pattern \"(CM[^RT].*|MS.*|.*Ital)\" --formular-char-pattern \"(\\(|\\||\\)|\\+|=|\\d|[\\u0080-\\ufaff])\"\n```\n",
@@ -1860,7 +1950,7 @@
       "chunk_id": "chunk_8FEF09F4",
       "chunk_type": "paragraph",
       "original_content": "Preserve `Latex`, `Mono`, `Code`, `Italic`, `Symbol` and `Math` fonts by default:\n",
-      "start_line_no": 219,
+      "start_line_no": 224,
       "translations": {
         "zh": "默认保留 `Latex`、`Mono`、`Code`、`Italic`、`Symbol` 和 `Math` 字体：\n",
         "zh_TW": "預設保留 `Latex`、`Mono`、`Code`、`Italic`、`Symbol` 與 `Math` 字體：\n",
@@ -1878,7 +1968,7 @@
       "chunk_id": "chunk_ACAC9383",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --formular-font-pattern \"(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)\"\n```\n",
-      "start_line_no": 221,
+      "start_line_no": 226,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --formular-font-pattern \"(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)\"\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --formular-font-pattern \"(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|RS|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)\"\n```\n",
@@ -1893,10 +1983,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_1b22b85b",
+      "chunk_id": "h_rule_3fc28766",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 227,
+      "start_line_no": 232,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -1914,7 +2004,7 @@
       "chunk_id": "chunk_37A13558",
       "chunk_type": "header",
       "original_content": "#### Custom prompt\n",
-      "start_line_no": 229,
+      "start_line_no": 234,
       "translations": {
         "pt": "#### Prompt personalizado\n",
         "it": "#### Prompt personalizzato\n",
@@ -1932,7 +2022,7 @@
       "chunk_id": "chunk_54E57534",
       "chunk_type": "html_comment",
       "original_content": "<!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->\n",
-      "start_line_no": 231,
+      "start_line_no": 236,
       "translations": {
         "zh": "<!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->\n",
         "zh_TW": "<!-- Note: System prompt is currently not supported. See [this change](https://github.com/PDFMathTranslate/PDFMathTranslate-next/pull/637). -->\n",
@@ -1950,7 +2040,7 @@
       "chunk_id": "chunk_5F141742",
       "chunk_type": "paragraph",
       "original_content": "Custom system prompt for translation. It is mainly used to add the '/no_think' instruction of Qwen 3 in the prompt.\n",
-      "start_line_no": 233,
+      "start_line_no": 238,
       "translations": {
         "ko": "번역을 위한 사용자 정의 시스템 프롬프트. 주로 프롬프트에 Qwen 3 의 '/no_think' 지시를 추가하는 데 사용됩니다.\n",
         "ru": "Пользовательский системный запрос для перевода. В основном используется для добавления инструкции '/no_think' Qwen 3 в запрос.\n",
@@ -1968,7 +2058,7 @@
       "chunk_id": "chunk_4E347A0E",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --custom-system-prompt \"/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:\"\n```\n",
-      "start_line_no": 235,
+      "start_line_no": 240,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --custom-system-prompt \"/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:\"\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --custom-system-prompt \"/no_think You are a professional and reliable machine translation engine responsible for translating the input text into zh_CN.When translating, strictly follow the instructions below to ensure translation quality and preserve all formatting, tags, and placeholders:\"\n```\n",
@@ -1983,10 +2073,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_9611b85a",
+      "chunk_id": "h_rule_10fde64d",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 241,
+      "start_line_no": 246,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -2004,7 +2094,7 @@
       "chunk_id": "chunk_1EC5A9B5",
       "chunk_type": "header",
       "original_content": "#### Custom configuration\n",
-      "start_line_no": 243,
+      "start_line_no": 248,
       "translations": {
         "zh": "#### 自定义配置\n",
         "ja": "#### カスタム設定\n",
@@ -2022,7 +2112,7 @@
       "chunk_id": "chunk_754794E1",
       "chunk_type": "paragraph",
       "original_content": "There are multiple ways to modify and import the configuration file.\n",
-      "start_line_no": 245,
+      "start_line_no": 250,
       "translations": {
         "zh": "有多种方式可以修改和导入配置文件。\n",
         "ja": "設定ファイルを変更およびインポートする方法は複数あります。\n",
@@ -2040,7 +2130,7 @@
       "chunk_id": "chunk_B9BF8271",
       "chunk_type": "blockquote",
       "original_content": "> [!NOTE]\n> **Configuration File Hierarchy**\n>\n> When modifying the same parameter using different methods, the software will apply changes according to the priority order below. \n>\n> Higher-ranked modifications will override lower-ranked ones.\n>\n> **cli/gui > env > user config file > default config file**\n",
-      "start_line_no": 247,
+      "start_line_no": 252,
       "translations": {
         "ja": "> [!NOTE]\n> **設定ファイルの階層**\n>\n> 同じパラメータを異なる方法で変更する場合、ソフトウェアは以下の優先順位に従って変更を適用します。\n>\n> 上位の変更は下位の変更を上書きします。\n>\n> **cli/gui > env > ユーザー設定ファイル > デフォルト設定ファイル**\n",
         "pt": "> [!NOTE]\n> **Hierarquia do Arquivo de Configuração**\n>\n> Ao modificar o mesmo parâmetro usando métodos diferentes, o software aplicará as alterações de acordo com a ordem de prioridade abaixo.\n>\n> Modificações com classificação mais alta substituirão as de classificação mais baixa.\n>\n> **cli/gui > env > arquivo de configuração do usuário > arquivo de configuração padrão**\n",
@@ -2058,7 +2148,7 @@
       "chunk_id": "chunk_06B261DE",
       "chunk_type": "list",
       "original_content": "- Modifying Configuration via **Command Line Arguments**\n",
-      "start_line_no": 256,
+      "start_line_no": 261,
       "translations": {
         "ja": "- **コマンドライン引数** を介した設定の変更\n",
         "de": "- Konfiguration über **Kommandozeilen-Argumente** ändern\n",
@@ -2076,7 +2166,7 @@
       "chunk_id": "chunk_4579F74D",
       "chunk_type": "paragraph",
       "original_content": "For most cases, you can directly pass your desired settings through command line arguments. Please refer to [Command Line Args](#cmd) for more information.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n",
-      "start_line_no": 258,
+      "start_line_no": 263,
       "translations": {
         "ja": "ほとんどの場合、コマンドライン引数を通じて希望の設定を直接渡すことができます。詳細については、[コマンドライン引数](#cmd) を参照してください。\n\n例えば、GUI ウィンドウを有効にしたい場合は、次のコマンドを使用できます：\n",
         "ru": "В большинстве случаев вы можете напрямую передать желаемые настройки через аргументы командной строки. Подробнее см. в разделе [Аргументы командной строки](#cmd).\n\nНапример, если вы хотите включить окно GUI, можно использовать следующую команду:\n",
@@ -2094,7 +2184,7 @@
       "chunk_id": "chunk_9668B90D",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next --gui\n```\n",
-      "start_line_no": 262,
+      "start_line_no": 267,
       "translations": {
         "zh": "```bash\npdf2zh_next --gui\n```\n",
         "zh_TW": "```bash\npdf2zh_next --gui\n```\n",
@@ -2112,7 +2202,7 @@
       "chunk_id": "chunk_85CC4581",
       "chunk_type": "list",
       "original_content": "- Modifying Configuration via **Environment Variables**\n",
-      "start_line_no": 266,
+      "start_line_no": 271,
       "translations": {
         "fr": "- Modification de la configuration via **Variables d'environnement**\n",
         "zh": "- 通过 **环境变量** 修改配置\n",
@@ -2130,7 +2220,7 @@
       "chunk_id": "chunk_A3573A4C",
       "chunk_type": "paragraph",
       "original_content": "You can replace the `--` in command line arguments with `PDF2ZH_`, connect parameters using `=`, and replace `-` with `_` as environment variables.\n\nFor example, if you want to enable a GUI window, you can use the following command:\n",
-      "start_line_no": 268,
+      "start_line_no": 273,
       "translations": {
         "zh_TW": "你可以將命令列參數中的 `--` 替換為 `PDF2ZH_`，使用 `=` 連接參數，並將 `-` 替換為 `_` 作為環境變數。\n\n例如，如果你想啟用圖形界面視窗，可以使用以下命令：\n",
         "zh": "你可以将命令行参数中的 `--` 替换为 `PDF2ZH_`，使用 `=` 连接参数，并将 `-` 替换为 `_` 作为环境变量。\n\n例如，如果你想启用 GUI 窗口，可以使用以下命令：\n",
@@ -2148,7 +2238,7 @@
       "chunk_id": "chunk_5A8D89BB",
       "chunk_type": "code_block",
       "original_content": "```bash\nPDF2ZH_GUI=TRUE pdf2zh_next\n```\n",
-      "start_line_no": 272,
+      "start_line_no": 277,
       "translations": {
         "zh": "```bash\nPDF2ZH_GUI=TRUE pdf2zh_next\n```\n",
         "zh_TW": "```bash\nPDF2ZH_GUI=TRUE pdf2zh_next\n```\n",
@@ -2166,7 +2256,7 @@
       "chunk_id": "chunk_7D254F0A",
       "chunk_type": "image",
       "original_content": "<img src=\"./../images/ev_light.svg\" width=\"580px\"  alt=\"env\"/>\n",
-      "start_line_no": 276,
+      "start_line_no": 281,
       "translations": {
         "zh": "<img src=\"./../images/ev_light.svg\" width=\"580px\"  alt=\"env\"/>\n",
         "zh_TW": "<img src=\"./../images/ev_light.svg\" width=\"580px\"  alt=\"env\"/>\n",
@@ -2184,7 +2274,7 @@
       "chunk_id": "chunk_11A0D60E",
       "chunk_type": "list",
       "original_content": "- User-Specified **Configuration File**\n",
-      "start_line_no": 278,
+      "start_line_no": 283,
       "translations": {
         "es": "- Archivo de **configuración** especificado por el usuario\n",
         "de": "- Benutzerdefinierte **Konfigurationsdatei**\n",
@@ -2202,7 +2292,7 @@
       "chunk_id": "chunk_9EE9DFB5",
       "chunk_type": "paragraph",
       "original_content": "You can specify a configuration file using the command line argument below:\n",
-      "start_line_no": 280,
+      "start_line_no": 285,
       "translations": {
         "de": "Sie können eine Konfigurationsdatei mit dem folgenden Kommandozeilen-Argument angeben:\n",
         "es": "Puedes especificar un archivo de configuración utilizando el siguiente argumento de la línea de comandos:\n",
@@ -2220,7 +2310,7 @@
       "chunk_id": "chunk_3B8259C7",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next --config-file '/path/config.toml'\n```\n",
-      "start_line_no": 282,
+      "start_line_no": 287,
       "translations": {
         "zh": "```bash\npdf2zh_next --config-file '/path/config.toml'\n```\n",
         "zh_TW": "```bash\npdf2zh_next --config-file '/path/config.toml'\n```\n",
@@ -2238,7 +2328,7 @@
       "chunk_id": "chunk_FC4FBE9E",
       "chunk_type": "paragraph",
       "original_content": "If you are unsure about the config file format, please refer to the default configuration file described below.\n",
-      "start_line_no": 286,
+      "start_line_no": 291,
       "translations": {
         "zh": "如果您不确定配置文件格式，请参考下方描述的默认配置文件。\n",
         "es": "Si no está seguro del formato del archivo de configuración, consulte el archivo de configuración predeterminado que se describe a continuación.\n",
@@ -2256,7 +2346,7 @@
       "chunk_id": "chunk_A4C0C077",
       "chunk_type": "list",
       "original_content": "- **Default Configuration File**\n",
-      "start_line_no": 288,
+      "start_line_no": 293,
       "translations": {
         "ja": "- **デフォルト設定ファイル**\n",
         "fr": "- **Fichier de configuration par défaut**\n",
@@ -2274,7 +2364,7 @@
       "chunk_id": "chunk_B17D9FE3",
       "chunk_type": "paragraph",
       "original_content": "The default configuration file is located at `~/.config/pdf2zh`. \nPlease do not modify the configuration files in the `default` directory. \nIt is strongly recommended to refer to this configuration file's content and use **User-Specified Configuration File** to implement your own configuration file.\n",
-      "start_line_no": 290,
+      "start_line_no": 295,
       "translations": {
         "zh": "默认配置文件位于 `~/.config/pdf2zh`。  \n请勿修改 `default` 目录中的配置文件。  \n强烈建议参考此配置文件的内容，并使用**自定义配置**来实现您自己的配置文件。\n",
         "pt": "O arquivo de configuração padrão está localizado em `~/.config/pdf2zh`.  \nPor favor, não modifique os arquivos de configuração no diretório `default`.  \nÉ altamente recomendável consultar o conteúdo deste arquivo de configuração e usar **Configuração personalizada** para implementar seu próprio arquivo de configuração.\n",
@@ -2292,7 +2382,7 @@
       "chunk_id": "chunk_15DFB8EE",
       "chunk_type": "blockquote",
       "original_content": "> [!TIP]\n> - By default, pdf2zh 2.0 automatically saves the current configuration to `~/.config/pdf2zh/config.v3.toml` each time you click the translate button in the GUI. This configuration file will be loaded by default on the next startup.\n> - The configuration files in the `default` directory are automatically generated by the program. You can copy them for modification, but please do not modify them directly.\n> - Configuration files may include version numbers such as \"v2\", \"v3\", etc. These are **configuration file version numbers**, **not** the version number of pdf2zh itself.\n\n",
-      "start_line_no": 294,
+      "start_line_no": 299,
       "translations": {
         "zh": "> [!TIP]\n> - 默认情况下，pdf2zh 2.0 每次在 GUI 中点击翻译按钮时，会自动将当前配置保存到 `~/.config/pdf2zh/config.v3.toml`。该配置文件将在下次启动时默认加载。\n> - `default` 目录中的配置文件由程序自动生成。您可以复制它们进行修改，但请勿直接修改。\n> - 配置文件中可能包含 \"v2\"、\"v3\" 等版本号。这些是**配置文件版本号**，**并非** pdf2zh 本身的版本号。\n\n",
         "it": "> [!TIP]\n> - Per impostazione predefinita, pdf2zh 2.0 salva automaticamente la configurazione corrente in `~/.config/pdf2zh/config.v3.toml` ogni volta che si fa clic sul pulsante di traduzione nella GUI. Questo file di configurazione verrà caricato per impostazione predefinita al prossimo avvio.\n> - I file di configurazione nella directory `default` vengono generati automaticamente dal programma. È possibile copiarli per modificarli, ma si prega di non modificarli direttamente.\n> - I file di configurazione possono includere numeri di versione come \"v2\", \"v3\", ecc. Questi sono **numeri di versione del file di configurazione**, **non** il numero di versione di pdf2zh stesso.\n\n",
@@ -2307,10 +2397,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_90fc1dde",
+      "chunk_id": "h_rule_874005aa",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 302,
+      "start_line_no": 307,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -2328,7 +2418,7 @@
       "chunk_id": "chunk_870EBD0C",
       "chunk_type": "header",
       "original_content": "#### Skip clean\n",
-      "start_line_no": 304,
+      "start_line_no": 309,
       "translations": {
         "zh": "#### 跳过清理\n",
         "ja": "#### クリーンをスキップ\n",
@@ -2346,7 +2436,7 @@
       "chunk_id": "chunk_012D63A3",
       "chunk_type": "paragraph",
       "original_content": "When this parameter is set to True, the PDF cleaning step will be skipped, which can improve compatibility and avoid some font processing issues.\n\nUsage:\n",
-      "start_line_no": 306,
+      "start_line_no": 311,
       "translations": {
         "zh": "当此参数设为 True 时，将跳过 PDF 清理步骤，这可以提高兼容性并避免一些字体处理问题。\n\n用法：\n",
         "ja": "このパラメータが True に設定されている場合、PDF のクリーンアップステップがスキップされ、互換性が向上し、一部のフォント処理の問題を回避できます。\n\n使い方：\n",
@@ -2364,7 +2454,7 @@
       "chunk_id": "chunk_56748FCD",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --skip-clean\n```\n",
-      "start_line_no": 310,
+      "start_line_no": 315,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --skip-clean\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --skip-clean\n```\n",
@@ -2382,7 +2472,7 @@
       "chunk_id": "chunk_1078AA87",
       "chunk_type": "paragraph",
       "original_content": "Or using environment variables:\n",
-      "start_line_no": 314,
+      "start_line_no": 319,
       "translations": {
         "zh_TW": "或者使用環境變數：\n",
         "zh": "或者使用环境变量：\n",
@@ -2400,7 +2490,7 @@
       "chunk_id": "chunk_C147F788",
       "chunk_type": "code_block",
       "original_content": "```bash\nPDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf\n```\n",
-      "start_line_no": 316,
+      "start_line_no": 321,
       "translations": {
         "zh": "```bash\nPDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf\n```\n",
         "zh_TW": "```bash\nPDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf\n```\n",
@@ -2418,7 +2508,7 @@
       "chunk_id": "chunk_E510ADDB",
       "chunk_type": "blockquote",
       "original_content": "> [!TIP]\n> When `--enhance-compatibility` is enabled, Skip clean is automatically enabled.\n",
-      "start_line_no": 320,
+      "start_line_no": 325,
       "translations": {
         "zh": "> [!TIP]\n> 当启用 `--enhance-compatibility` 时，跳过清理会自动启用。\n",
         "es": "> [!TIP]\n> Cuando `--enhance-compatibility` está habilitado, Omitir limpieza se activa automáticamente.\n",
@@ -2433,10 +2523,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_b1b08196",
+      "chunk_id": "h_rule_8b4a64b8",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 323,
+      "start_line_no": 328,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -2454,7 +2544,7 @@
       "chunk_id": "chunk_A35603CF",
       "chunk_type": "header",
       "original_content": "#### Translation cache\n",
-      "start_line_no": 325,
+      "start_line_no": 330,
       "translations": {
         "zh_TW": "#### 翻譯快取\n",
         "fr": "#### Cache de traduction\n",
@@ -2472,7 +2562,7 @@
       "chunk_id": "chunk_F8D49E02",
       "chunk_type": "paragraph",
       "original_content": "PDFMathTranslate caches translated texts to increase speed and avoid unnecessary API calls for same contents. You can use `--ignore-cache` option to ignore translation cache and force retranslation.\n",
-      "start_line_no": 327,
+      "start_line_no": 332,
       "translations": {
         "zh_TW": "PDFMathTranslate 會快取已翻譯的文字，以提高速度並避免對相同內容進行不必要的 API 呼叫。你可以使用 `--ignore-cache` 選項來忽略翻譯快取並強制重新翻譯。\n",
         "ja": "PDFMathTranslate は翻訳済みのテキストをキャッシュし、同じ内容に対する不要な API 呼び出しを避けつつ速度を向上させます。`--ignore-cache` オプションを使用すると、翻訳キャッシュを無視して強制的に再翻訳を行うことができます。\n",
@@ -2490,7 +2580,7 @@
       "chunk_id": "chunk_D7B6C013",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --ignore-cache\n```\n",
-      "start_line_no": 329,
+      "start_line_no": 334,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --ignore-cache\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --ignore-cache\n```\n",
@@ -2505,10 +2595,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_5d0dcc3a",
+      "chunk_id": "h_rule_f51ce7fc",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 335,
+      "start_line_no": 340,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -2526,7 +2616,7 @@
       "chunk_id": "chunk_05080CDF",
       "chunk_type": "header",
       "original_content": "#### Deployment as a public services\n",
-      "start_line_no": 337,
+      "start_line_no": 342,
       "translations": {
         "zh": "#### 部署为公共服务\n",
         "zh_TW": "#### 部署為公共服務\n",
@@ -2544,7 +2634,7 @@
       "chunk_id": "chunk_A72BDF82",
       "chunk_type": "paragraph",
       "original_content": "When deploying a pdf2zh GUI on public services, you should modify the configuration file as described below.\n",
-      "start_line_no": 339,
+      "start_line_no": 344,
       "translations": {
         "zh": "在公共服务上部署 pdf2zh GUI 时，您应按照以下说明修改配置文件。\n",
         "zh_TW": "在將 pdf2zh GUI 部署為公共服務時，您應按照以下說明修改配置檔案。\n",
@@ -2559,28 +2649,28 @@
       }
     },
     {
-      "chunk_id": "chunk_9F68F89E",
+      "chunk_id": "chunk_41166DB8",
       "chunk_type": "blockquote",
-      "original_content": "> [!TIP]\n> - When deploying publicly, both `disable_gui_sensitive_input` and `disable_config_auto_save` should be enabled.\n> - Separate different available services with *English commas* <kbd>,</kbd> .\n",
-      "start_line_no": 341,
+      "original_content": "> [!WARNING]\n>\n> This project has not been professionally audited for security, and may contain security vulnerabilities. Please evaluate the risks and take necessary security measures before deploying on public networks.\n\n\n> [!TIP]\n> - When deploying publicly, both disable_gui_sensitive_input and disable_config_auto_save should be enabled.\n> - Separate different available services with *English commas* <kbd>,</kbd> .\n",
+      "start_line_no": 346,
       "translations": {
-        "zh_TW": "> [!TIP]\n> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 與 `disable_config_auto_save`。\n> - 請使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。\n",
-        "ru": "> [!TIP]\n> - При публичном развертывании следует включить оба параметра: `disable_gui_sensitive_input` и `disable_config_auto_save`.\n> - Разделяйте различные доступные сервисы с помощью *английских запятых* <kbd>,</kbd>.\n",
-        "pt": "> [!TIP]\n> - Ao implantar publicamente, tanto `disable_gui_sensitive_input` quanto `disable_config_auto_save` devem ser habilitados.\n> - Separe diferentes serviços disponíveis com *vírgulas em inglês* <kbd>,</kbd> .\n",
-        "it": "> [!TIP]\n> - Quando si distribuisce pubblicamente, sia `disable_gui_sensitive_input` che `disable_config_auto_save` dovrebbero essere abilitati.\n> - Separare i diversi servizi disponibili con *virgole inglesi* <kbd>,</kbd> .\n",
-        "fr": "> [!TIP]\n> - Lors d'un déploiement public, `disable_gui_sensitive_input` et `disable_config_auto_save` doivent être activés.\n> - Séparez les différents services disponibles avec des *virgules anglaises* <kbd>,</kbd> .\n",
-        "de": "> [!TIP]\n> - Bei der öffentlichen Bereitstellung sollten sowohl `disable_gui_sensitive_input` als auch `disable_config_auto_save` aktiviert sein.\n> - Trennen Sie verschiedene verfügbare Dienste mit *englischen Kommas* <kbd>,</kbd>.\n",
-        "ja": "> [!TIP]\n> - 公開デプロイ時には、`disable_gui_sensitive_input` と `disable_config_auto_save` の両方を有効にする必要があります。\n> - 利用可能なサービスは *英語のカンマ* <kbd>,</kbd> で区切ってください。\n",
-        "zh": "> [!TIP]\n> - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save`。\n> - 使用*英文逗号* <kbd>,</kbd> 分隔不同的可用服务。\n",
-        "ko": "> [!TIP]\n> - 공개적으로 배포할 때는 `disable_gui_sensitive_input` 과 `disable_config_auto_save` 를 모두 활성화해야 합니다.\n> - 사용 가능한 서비스를 *영어 쉼표* <kbd>,</kbd> 로 구분하세요.\n",
-        "es": "> [!TIP]\n> - Al desplegar públicamente, tanto `disable_gui_sensitive_input` como `disable_config_auto_save` deben estar habilitados.\n> - Separe los diferentes servicios disponibles con *comas en inglés* <kbd>,</kbd> .\n"
+        "it": "> [!WARNING]\n>\n> Questo progetto non è stato sottoposto a un controllo professionale per la sicurezza e potrebbe contenere vulnerabilità. Si prega di valutare i rischi e adottare le necessarie misure di sicurezza prima di distribuire su reti pubbliche.\n\n\n> [!TIP]\n> - Quando si distribuisce pubblicamente, sia disable_gui_sensitive_input che disable_config_auto_save dovrebbero essere abilitati.\n> - Separare i diversi servizi disponibili con *virgole inglesi* <kbd>,</kbd> .\n",
+        "zh": "> [!WARNING]\n>\n> 本项目尚未经过专业安全审计，可能存在安全漏洞。请在公共网络部署前评估风险并采取必要的安全措施。\n\n\n> [!TIP]\n> - 公开部署时，应同时启用 `disable_gui_sensitive_input` 和 `disable_config_auto_save` 选项。\n> - 使用*英文逗号* <kbd>,</kbd> 分隔不同的可用服务。\n",
+        "zh_TW": "> [!WARNING]\n>\n> 本專案尚未經過專業安全審計，可能包含安全漏洞。請在部署至公共網絡前評估風險並採取必要的安全措施。\n\n\n> [!TIP]\n> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 和 `disable_config_auto_save` 選項。\n> - 使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。\n",
+        "es": "> [!WARNING]\n>\n> Este proyecto no ha sido auditado profesionalmente en cuanto a seguridad y puede contener vulnerabilidades. Por favor, evalúe los riesgos y tome las medidas de seguridad necesarias antes de implementarlo en redes públicas.\n\n\n> [!TIP]\n> - Al implementar públicamente, tanto `disable_gui_sensitive_input` como `disable_config_auto_save` deben estar habilitados.\n> - Separe los diferentes servicios disponibles con *comas en inglés* <kbd>,</kbd> .\n",
+        "pt": "> [!WARNING]\n>\n> Este projeto não foi auditado profissionalmente quanto à segurança e pode conter vulnerabilidades de segurança. Por favor, avalie os riscos e tome as medidas de segurança necessárias antes de implantar em redes públicas.\n\n\n> [!TIP]\n> - Ao implantar publicamente, tanto disable_gui_sensitive_input quanto disable_config_auto_save devem ser ativados.\n> - Separe diferentes serviços disponíveis com *vírgulas em inglês* <kbd>,</kbd> .\n",
+        "ko": "> [!WARNING]\n>\n> 이 프로젝트는 보안 전문 감사를 받지 않았으며 보안 취약점이 포함되어 있을 수 있습니다. 공용 네트워크에 배포하기 전에 위험을 평가하고 필요한 보안 조치를 취하세요.\n\n\n> [!TIP]\n> - 공개적으로 배포할 때는 `disable_gui_sensitive_input` 과 `disable_config_auto_save` 를 모두 활성화해야 합니다.\n> - 사용 가능한 서비스를 *영어 쉼표* <kbd>,</kbd> 로 구분하세요.\n",
+        "fr": "> [!WARNING]\n>\n> Ce projet n'a pas été audité professionnellement pour la sécurité et peut contenir des vulnérabilités de sécurité. Veuillez évaluer les risques et prendre les mesures de sécurité nécessaires avant de déployer sur des réseaux publics.\n\n\n> [!TIP]\n> - Lors d'un déploiement public, disable_gui_sensitive_input et disable_config_auto_save doivent tous deux être activés.\n> - Séparez les différents services disponibles avec des *virgules anglaises* <kbd>,</kbd> .\n",
+        "ru": "> [!WARNING]\n>\n> Этот проект не проходил профессиональной проверки на безопасность и может содержать уязвимости. Пожалуйста, оцените риски и примите необходимые меры безопасности перед развертыванием в публичных сетях.\n\n\n> [!TIP]\n> - При публичном развертывании следует включить как `disable_gui_sensitive_input`, так и `disable_config_auto_save`.\n> - Разделяйте различные доступные сервисы с помощью *английских запятых* <kbd>,</kbd>.\n",
+        "de": "> [!WARNING]\n>\n> Dieses Projekt wurde nicht professionell auf Sicherheit überprüft und könnte Sicherheitslücken enthalten. Bitte bewerten Sie die Risiken und ergreifen Sie die notwendigen Sicherheitsmaßnahmen, bevor Sie es in öffentlichen Netzwerken bereitstellen.\n\n\n> [!TIP]\n> - Bei der öffentlichen Bereitstellung sollten sowohl `disable_gui_sensitive_input` als auch `disable_config_auto_save` aktiviert sein.\n> - Trennen Sie verschiedene verfügbare Dienste mit *englischen Kommas* <kbd>,</kbd> .\n",
+        "ja": "> [!WARNING]\n>\n> このプロジェクトはセキュリティに関する専門的な監査を受けておらず、セキュリティ上の脆弱性が含まれている可能性があります。パブリックネットワークにデプロイする前に、リスクを評価し、必要なセキュリティ対策を講じてください。\n\n\n> [!TIP]\n> - 公開デプロイ時には、`disable_gui_sensitive_input` と `disable_config_auto_save` の両方を有効にする必要があります。\n> - 利用可能な異なるサービスは *英語のカンマ* <kbd>,</kbd> で区切ってください。\n"
       }
     },
     {
       "chunk_id": "chunk_F2D0AEC1",
       "chunk_type": "paragraph",
       "original_content": "A usable configuration is as follows:\n",
-      "start_line_no": 395,
+      "start_line_no": 405,
       "translations": {
         "ko": "사용 가능한 구성은 다음과 같습니다:\n",
         "zh_TW": "一個可用的配置如下：\n",
@@ -2598,7 +2688,7 @@
       "chunk_id": "chunk_12A9803B",
       "chunk_type": "code_block",
       "original_content": "```toml title=\"config.toml\"\n[basic]\ngui = true\n\n[gui_settings]\nenabled_services = \"Bing,OpenAI\"\ndisable_gui_sensitive_input = true\ndisable_config_auto_save = true\n```\n",
-      "start_line_no": 347,
+      "start_line_no": 357,
       "translations": {
         "zh": "```toml title=\"config.toml\"\n[basic]\ngui = true\n\n[gui_settings]\nenabled_services = \"Bing,OpenAI\"\ndisable_gui_sensitive_input = true\ndisable_config_auto_save = true\n```\n",
         "zh_TW": "```toml title=\"config.toml\"\n[basic]\ngui = true\n\n[gui_settings]\nenabled_services = \"Bing,OpenAI\"\ndisable_gui_sensitive_input = true\ndisable_config_auto_save = true\n```\n",
@@ -2613,10 +2703,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_0c3406fd",
+      "chunk_id": "h_rule_8ff1ab70",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 359,
+      "start_line_no": 369,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -2634,7 +2724,7 @@
       "chunk_id": "chunk_E255AB78",
       "chunk_type": "header",
       "original_content": "#### Authentication and welcome page\n",
-      "start_line_no": 361,
+      "start_line_no": 371,
       "translations": {
         "zh": "#### 认证与欢迎页面\n",
         "ja": "#### 認証とウェルカムページ\n",
@@ -2652,7 +2742,7 @@
       "chunk_id": "chunk_1A5EEA9C",
       "chunk_type": "paragraph",
       "original_content": "When using Authentication and welcome page to specify which user to use Web UI and custom the login page:\n\nexample auth.txt\nEach line contains two elements, username, and password, separated by a comma.\n",
-      "start_line_no": 363,
+      "start_line_no": 373,
       "translations": {
         "zh": "当使用认证与欢迎页面来指定哪些用户可以使用 Web UI 并自定义登录页面时：\n\n示例 auth.txt  \n每行包含两个元素，用户名和密码，以逗号分隔。\n",
         "ru": "При использовании аутентификации и приветственной страницы для указания, какой пользователь может использовать Web UI и настройки страницы входа:\n\nпример auth.txt\nКаждая строка содержит два элемента: имя пользователя и пароль, разделенные запятой.\n",
@@ -2670,7 +2760,7 @@
       "chunk_id": "chunk_B865D3B8",
       "chunk_type": "code_block",
       "original_content": "```\nadmin,123456\nuser1,password1\nuser2,abc123\nguest,guest123\ntest,test123\n```\n",
-      "start_line_no": 368,
+      "start_line_no": 378,
       "translations": {
         "zh": "```\nadmin,123456\nuser1,password1\nuser2,abc123\nguest,guest123\ntest,test123\n```\n",
         "zh_TW": "```\nadmin,123456\nuser1,password1\nuser2,abc123\nguest,guest123\ntest,test123\n```\n",
@@ -2688,7 +2778,7 @@
       "chunk_id": "chunk_0CEA118C",
       "chunk_type": "paragraph",
       "original_content": "example welcome.html\n",
-      "start_line_no": 376,
+      "start_line_no": 386,
       "translations": {
         "zh": "示例 welcome.html\n",
         "zh_TW": "範例 welcome.html\n",
@@ -2706,7 +2796,7 @@
       "chunk_id": "chunk_0FC66A15",
       "chunk_type": "code_block",
       "original_content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Simple HTML</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>Welcome to my simple HTML page.</p>\n</body>\n</html>\n```\n",
-      "start_line_no": 378,
+      "start_line_no": 388,
       "translations": {
         "zh": "```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Simple HTML</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>Welcome to my simple HTML page.</p>\n</body>\n</html>\n```\n",
         "zh_TW": "```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Simple HTML</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>Welcome to my simple HTML page.</p>\n</body>\n</html>\n```\n",
@@ -2724,7 +2814,7 @@
       "chunk_id": "chunk_40E12FA3",
       "chunk_type": "blockquote",
       "original_content": "> [!NOTE]\n> welcome page will work if only authentication file is not blank.\n> If authentication file is blank, there will be no authentication. :)\n",
-      "start_line_no": 391,
+      "start_line_no": 401,
       "translations": {
         "zh": "> [!NOTE]\n> 欢迎页面仅在认证文件不为空时生效。\n> 如果认证文件为空，则不会进行认证。 :)\n",
         "zh_TW": "> [!NOTE]\n> 歡迎頁面僅在驗證檔案不為空白時才會運作。\n> 若驗證檔案為空白，則不會進行驗證。 :)\n",
@@ -2742,7 +2832,7 @@
       "chunk_id": "chunk_39D7C203",
       "chunk_type": "code_block",
       "original_content": "```toml title=\"config.toml\"\n[basic]\ngui = true\n\n[gui_settings]\nauth_file = \"/path/to/auth/file\"\nwelcome_page = \"/path/to/welcome/html/file\"\n```\n",
-      "start_line_no": 397,
+      "start_line_no": 407,
       "translations": {
         "zh": "```toml title=\"config.toml\"\n[basic]\ngui = true\n\n[gui_settings]\nauth_file = \"/path/to/auth/file\"\nwelcome_page = \"/path/to/welcome/html/file\"\n```\n",
         "zh_TW": "```toml title=\"config.toml\"\n[basic]\ngui = true\n\n[gui_settings]\nauth_file = \"/path/to/auth/file\"\nwelcome_page = \"/path/to/welcome/html/file\"\n```\n",
@@ -2757,10 +2847,10 @@
       }
     },
     {
-      "chunk_id": "h_rule_d5640724",
+      "chunk_id": "h_rule_d46a4696",
       "chunk_type": "h_rule",
       "original_content": "---\n",
-      "start_line_no": 408,
+      "start_line_no": 418,
       "translations": {
         "zh": "---\n",
         "zh_TW": "---\n",
@@ -2778,7 +2868,7 @@
       "chunk_id": "chunk_4A9C44BF",
       "chunk_type": "header",
       "original_content": "#### Glossary Support\n",
-      "start_line_no": 410,
+      "start_line_no": 420,
       "translations": {
         "zh_TW": "#### 詞彙表支援\n",
         "pt": "#### Suporte ao Glossário\n",
@@ -2796,7 +2886,7 @@
       "chunk_id": "chunk_65580DD5",
       "chunk_type": "paragraph",
       "original_content": "PDFMathTranslate supports the glossary table. The glossary tables file should be `csv` file.\nThere are three columns in file. Here is a demo glossary file:\n",
-      "start_line_no": 412,
+      "start_line_no": 422,
       "translations": {
         "zh": "PDFMathTranslate 支持术语表功能。术语表文件应为 `csv` 格式。  \n文件包含三列数据，以下是示例术语表文件：\n",
         "zh_TW": "PDFMathTranslate 支援詞彙表功能。詞彙表檔案應為 `csv` 格式。  \n檔案中包含三欄，以下是一個示範詞彙表檔案：\n",
@@ -2814,7 +2904,7 @@
       "chunk_id": "chunk_2403CA4A",
       "chunk_type": "table",
       "original_content": "| source | target  | tgt_lng |\n|--------|---------|---------|\n| AutoML | 自动 ML  | zh-CN   |\n| a,a    | a       | zh-CN   |\n| \"      | \"       | zh-CN   |\n\n",
-      "start_line_no": 415,
+      "start_line_no": 425,
       "translations": {
         "ko": "| source | target  | tgt_lng |\n|--------|---------|---------|\n| AutoML | 자동 ML  | ko     |\n| a,a    | a       | ko     |\n| \"      | \"       | ko     |\n\n",
         "ja": "| source | target  | tgt_lng |\n|--------|---------|---------|\n| AutoML | 自動 ML  | zh-CN   |\n| a,a    | a       | zh-CN   |\n| \"      | \"       | zh-CN   |\n\n",
@@ -2832,7 +2922,7 @@
       "chunk_id": "chunk_598725B0",
       "chunk_type": "paragraph",
       "original_content": "For CLI user:\nYou can use multiple files for glossary. And different files should be split by `,`.\n",
-      "start_line_no": 422,
+      "start_line_no": 432,
       "translations": {
         "zh_TW": "對於 CLI 使用者：\n您可以使用多個檔案作為詞彙表。不同檔案應以 `,` 分隔。\n",
         "zh": "对于 CLI 用户：\n你可以使用多个文件作为术语表。不同文件之间应以 `,` 分隔。\n",
@@ -2850,7 +2940,7 @@
       "chunk_id": "chunk_332A0BF8",
       "chunk_type": "code_block",
       "original_content": "```bash\npdf2zh_next example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"\n```\n",
-      "start_line_no": 425,
+      "start_line_no": 435,
       "translations": {
         "zh": "```bash\npdf2zh_next example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"\n```\n",
         "zh_TW": "```bash\npdf2zh_next example.pdf --glossaries \"glossary1.csv,glossary2.csv,glossary3.csv\"\n```\n",
@@ -2868,7 +2958,7 @@
       "chunk_id": "chunk_B3174CBC",
       "chunk_type": "paragraph",
       "original_content": "For WebUI user:\n\nYou can upload your own glossary file now. After you uploaded the file, you can check them by click their name and the content shows below.\n\n[⬆️ Back to top](#toc)\n",
-      "start_line_no": 429,
+      "start_line_no": 439,
       "translations": {
         "zh_TW": "對於 WebUI 使用者：\n\n您現在可以上傳自己的詞彙表檔案。上傳檔案後，您可以點擊檔案名稱來查看內容，內容會顯示在下方。\n\n[⬆️ 回到頂部](#目錄)\n",
         "zh": "对于 WebUI 用户：\n\n您现在可以上传自己的术语表文件了。上传文件后，可以通过点击文件名查看其内容，内容将显示在下方。\n\n[⬆️ 返回顶部](#目录)\n",

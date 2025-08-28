@@ -79,7 +79,12 @@ In der folgenden Tabelle listen wir alle erweiterten Optionen zur Referenz auf:
 | `--auto-enable-ocr-workaround`  | Automatische OCR-Umgehung aktivieren. Wenn ein Dokument als stark gescannt erkannt wird, wird versucht, die OCR-Verarbeitung zu aktivieren und die weitere Scan-Erkennung zu überspringen. Weitere Details finden Sie in der Dokumentation. (Standard: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page` | Fügt nur übersetzte Seiten in die Ausgabe-PDF ein. Wirksam nur, wenn `--pages` verwendet wird. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Benutzerdefiniertes Glossar für die Übersetzung.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| automatisch extrahiertes Glossar speichern.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| speichert automatisch extrahiertes Glossar.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | Deaktiviert das Zusammenführen von alternierenden Zeilennummern und Textabsätzen in Dokumenten mit Zeilennummern | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | Deaktiviert die Entfernung von Nicht-Formel-Zeilen innerhalb von Absatzbereichen | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | Setze den IoU-Schwellenwert für die Identifizierung von Nicht-Formel-Zeilen (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | Legen Sie den Schutzschwellenwert für Abbildungen und Tabellen fest (0.0-1.0). Zeilen innerhalb von Abbildungen/Tabellen werden nicht verarbeitet | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | Überspringen der Formel-Offset-Berechnung während der Verarbeitung | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### GUI-Argumente
@@ -337,9 +342,14 @@ pdf2zh_next example.pdf --ignore-cache
 
 Wenn Sie eine pdf2zh-GUI auf öffentlichen Diensten bereitstellen, sollten Sie die Konfigurationsdatei wie unten beschrieben anpassen.
 
+> [!WARNING]
+>
+> Dieses Projekt wurde nicht professionell auf Sicherheit überprüft und könnte Sicherheitslücken enthalten. Bitte bewerten Sie die Risiken und ergreifen Sie die notwendigen Sicherheitsmaßnahmen, bevor Sie es in öffentlichen Netzwerken bereitstellen.
+
+
 > [!TIP]
 > - Bei der öffentlichen Bereitstellung sollten sowohl `disable_gui_sensitive_input` als auch `disable_config_auto_save` aktiviert sein.
-> - Trennen Sie verschiedene verfügbare Dienste mit *englischen Kommas* <kbd>,</kbd>.
+> - Trennen Sie verschiedene verfügbare Dienste mit *englischen Kommas* <kbd>,</kbd> .
 
 Eine brauchbare Konfiguration ist wie folgt:
 

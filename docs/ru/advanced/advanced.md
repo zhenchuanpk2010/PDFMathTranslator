@@ -79,7 +79,12 @@
 | `--auto-enable-ocr-workaround`  | Включить автоматическое обходное решение для OCR. Если документ обнаружен как сильно отсканированный, будет предпринята попытка включить обработку OCR и пропустить дальнейшее обнаружение сканирования. Подробности см. в документации. (по умолчанию: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page` | Включать в выходной PDF только переведенные страницы. Действует только при использовании `--pages`. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Пользовательский глоссарий для перевода.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| сохранить автоматически извлеченный глоссарий.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary` | сохранить автоматически извлечённый глоссарий. | `pdf2zh example.pdf --save-auto-extracted-glossary` |
+| `--no-merge-alternating-line-numbers` | Отключить объединение чередующихся номеров строк и текстовых абзацев в документах с номерами строк | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | Отключить удаление строк, не содержащих формулы, в пределах областей абзацев | `pdf2zh example.pdf --no-remove-non-formula-lines` |
+| `--non-formula-line-iou-threshold` | Установить порог IoU для идентификации строк без формул (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | Установить порог защиты для рисунков и таблиц (0.0-1.0). Строки внутри рисунков/таблиц не будут обрабатываться | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | Пропустить расчет смещения формул во время обработки         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### Аргументы GUI
@@ -337,8 +342,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 При развертывании графического интерфейса pdf2zh в общедоступных сервисах вам следует изменить конфигурационный файл, как описано ниже.
 
+> [!WARNING]
+>
+> Этот проект не проходил профессиональной проверки на безопасность и может содержать уязвимости. Пожалуйста, оцените риски и примите необходимые меры безопасности перед развертыванием в публичных сетях.
+
+
 > [!TIP]
-> - При публичном развертывании следует включить оба параметра: `disable_gui_sensitive_input` и `disable_config_auto_save`.
+> - При публичном развертывании следует включить как `disable_gui_sensitive_input`, так и `disable_config_auto_save`.
 > - Разделяйте различные доступные сервисы с помощью *английских запятых* <kbd>,</kbd>.
 
 Вот пример рабочей конфигурации:

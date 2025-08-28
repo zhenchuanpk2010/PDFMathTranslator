@@ -79,7 +79,12 @@
 | `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若檢測到文件為重度掃描文件，將嘗試啟用 OCR 處理並跳過後續掃描檢測。詳情請參閱文檔。（預設值：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page` | 僅在輸出 PDF 中包含已翻譯的頁面。僅在使用 `--pages` 參數時有效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page` |
 | `--glossaries`                  | 自訂翻譯詞彙表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| 儲存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| 保存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | 禁用合併帶有行號的文件中的交替行號與文本段落 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | 禁用移除段落區域內的非公式行                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | 設定非公式行的 IoU 閾值 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | 設定圖表和表格的保護閾值 (0.0-1.0)。圖表/表格內的線條將不會被處理 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | 在處理過程中跳過公式偏移量計算         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### 圖形界面參數
@@ -337,9 +342,14 @@ pdf2zh_next example.pdf --ignore-cache
 
 在將 pdf2zh GUI 部署為公共服務時，您應按照以下說明修改配置檔案。
 
+> [!WARNING]
+>
+> 本專案尚未經過專業安全審計，可能包含安全漏洞。請在部署至公共網絡前評估風險並採取必要的安全措施。
+
+
 > [!TIP]
-> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 與 `disable_config_auto_save`。
-> - 請使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。
+> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 和 `disable_config_auto_save` 選項。
+> - 使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。
 
 一個可用的配置如下：
 

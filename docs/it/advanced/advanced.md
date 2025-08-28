@@ -79,7 +79,12 @@ Nella tabella seguente, elenchiamo tutte le opzioni avanzate per riferimento:
 | `--auto-enable-ocr-workaround`  | Abilita la soluzione automatica OCR. Se un documento viene rilevato come pesantemente scansionato, questo tenterà di abilitare l'elaborazione OCR e salterà ulteriori rilevamenti di scansione. Consultare la documentazione per i dettagli. (predefinito: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page` | Includi solo le pagine tradotte nel PDF di output. Efficace solo quando viene utilizzato --pages. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Glossario personalizzato per la traduzione.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| salva automaticamente il glossario estratto.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| salva il glossario estratto automaticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | Disabilita l'unione dei numeri di riga alternati e dei paragrafi di testo nei documenti con numeri di riga | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | Disabilita la rimozione delle righe non di formula all'interno delle aree di paragrafo                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | Imposta la soglia IoU per identificare le righe non formule (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | Imposta la soglia di protezione per figure e tabelle (0.0-1.0). Le righe all'interno di figure/tabelle non verranno elaborate | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | Salta il calcolo dell'offset della formula durante l'elaborazione | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### Argomenti GUI
@@ -338,8 +343,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 Quando si distribuisce un'interfaccia grafica pdf2zh su servizi pubblici, è necessario modificare il file di configurazione come descritto di seguito.
 
+> [!WARNING]
+>
+> Questo progetto non è stato sottoposto a un controllo professionale per la sicurezza e potrebbe contenere vulnerabilità. Si prega di valutare i rischi e adottare le necessarie misure di sicurezza prima di distribuire su reti pubbliche.
+
+
 > [!TIP]
-> - Quando si distribuisce pubblicamente, sia `disable_gui_sensitive_input` che `disable_config_auto_save` dovrebbero essere abilitati.
+> - Quando si distribuisce pubblicamente, sia disable_gui_sensitive_input che disable_config_auto_save dovrebbero essere abilitati.
 > - Separare i diversi servizi disponibili con *virgole inglesi* <kbd>,</kbd> .
 
 Una configurazione utilizzabile è la seguente:

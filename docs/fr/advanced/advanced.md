@@ -80,6 +80,11 @@ Dans le tableau suivant, nous listons toutes les options avancées pour référe
 | `--only-include-translated-page` | Inclure uniquement les pages traduites dans le PDF de sortie. Efficace uniquement lorsque --pages est utilisé. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Glossaire personnalisé pour la traduction.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
 | `--save-auto-extracted-glossary`| enregistrer le glossaire extrait automatiquement.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | Désactive la fusion des numéros de ligne alternatifs et des paragraphes de texte dans les documents avec numéros de ligne | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | Désactive la suppression des lignes non-formules dans les zones de paragraphe                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | Définir le seuil IoU pour identifier les lignes non-formules (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | Définir le seuil de protection pour les figures et les tableaux (0.0-1.0). Les lignes à l'intérieur des figures/tableaux ne seront pas traitées | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | Ignorer le calcul du décalage des formules pendant le traitement | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### Arguments de l'interface graphique
@@ -340,8 +345,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 Lors du déploiement d'une interface graphique pdf2zh sur des services publics, vous devez modifier le fichier de configuration comme décrit ci-dessous.
 
+> [!WARNING]
+>
+> Ce projet n'a pas été audité professionnellement pour la sécurité et peut contenir des vulnérabilités de sécurité. Veuillez évaluer les risques et prendre les mesures de sécurité nécessaires avant de déployer sur des réseaux publics.
+
+
 > [!TIP]
-> - Lors d'un déploiement public, `disable_gui_sensitive_input` et `disable_config_auto_save` doivent être activés.
+> - Lors d'un déploiement public, disable_gui_sensitive_input et disable_config_auto_save doivent tous deux être activés.
 > - Séparez les différents services disponibles avec des *virgules anglaises* <kbd>,</kbd> .
 
 Une configuration utilisable est la suivante :
