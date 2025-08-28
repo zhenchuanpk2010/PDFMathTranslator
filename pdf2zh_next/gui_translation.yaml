@@ -405,11 +405,11 @@ it:
   save automatically extracted glossary: "salva glossario estratto automaticamente"
 ja:
   '## File': "## ファイル"
-  '## PDF Output Options': "## PDF出力オプション"
+  '## PDF Output Options': "## PDF 出力オプション"
   '## Preview': "## プレビュー"
   '## Translated': '## 翻訳済み'
   '## Translation Options': '## 翻訳オプション'
-  '### PDF Options': '### PDFオプション'
+  '### PDF Options': '### PDF オプション'
   '#### BabelDOC Advanced Options': '#### BabelDOC 詳細設定'
   Advanced Options: "高度なオプション"
   Auto enable OCR workaround (enable automatic OCR workaround for heavily scanned documents): OCR 自動回避策を有効にする（スキャン文書が多い場合に自動で OCR 回避策を適用）
@@ -435,7 +435,7 @@ ja:
   File: ファイル
   Font pattern to identify formula text (regex, not recommended to change): 数式テキストを識別するためのフォントパターン（正規表現、変更は非推奨）
   Force split short lines into different paragraphs: 短い行を強制的に別の段落に分割する
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): '[SiliconFlow](https://siliconflow.cn)が提供する無料翻訳サービス'
+  Free translation service provided by [SiliconFlow](https://siliconflow.cn): '[SiliconFlow](https://siliconflow.cn) が提供する無料翻訳サービス'
   Glossary File: 用語集ファイル
   Handle alternating line numbers and text paragraphs in documents with line numbers: 行番号付き文書における行番号とテキスト段落の交互処理
   If not set or set to 0, QPS will be used as the number of workers: 設定されていない場合、または 0 に設定されている場合、QPS がワーカー数として使用されます
@@ -447,7 +447,7 @@ ja:
   Maximum pages per part (for auto-split translation, 0 means no limit): 「最大ページ数/パート（自動分割翻訳用、0 は無制限を意味します）」
   Merge alternating line numbers: 交互行番号を統合
   Minimum text length to translate: 翻訳する最小テキスト長
-  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': ほとんどのAPIプロバイダーはこのパラメータを提供しています。例えばOpenAI GPT-4の場合：500 RPM
+  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': ほとんどの API プロバイダーはこのパラメータを提供しています。例えば OpenAI GPT-4 の場合：500 RPM
   No Watermark: 透かしなし
   Non-formula line IoU threshold: 非公式ラインの IoU 閾値
   Number of requests sent per second: 1 秒あたりのリクエスト送信数
@@ -516,7 +516,7 @@ ko:
   File: "파일"
   Font pattern to identify formula text (regex, not recommended to change): "수식 텍스트를 식별하기 위한 글꼴 패턴 (정규식, 변경 비권장)"
   Force split short lines into different paragraphs: "짧은 줄을 강제로 다른 단락으로 분할"
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): "[SiliconFlow](https://siliconflow.cn)에서 제공하는 무료 번역 서비스"
+  Free translation service provided by [SiliconFlow](https://siliconflow.cn): "[SiliconFlow](https://siliconflow.cn) 에서 제공하는 무료 번역 서비스"
   Glossary File: "용어집 파일"
   Handle alternating line numbers and text paragraphs in documents with line numbers: "줄 번호가 있는 문서에서 번호와 텍스트 단락을 번갈아 처리하기"
   If not set or set to 0, QPS will be used as the number of workers: "설정하지 않거나 0 으로 설정할 경우 QPS 가 작업자 수로 사용됩니다"
@@ -528,7 +528,7 @@ ko:
   Maximum pages per part (for auto-split translation, 0 means no limit): "파트당 최대 페이지 수 (자동 분할 번역용, 0 은 제한 없음)"
   Merge alternating line numbers: "교대로 줄 번호 병합"
   Minimum text length to translate: 번역할 최소 텍스트 길이
-  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': 대부분의 API 제공업체는 이 매개변수를 제공합니다. 예를 들어 OpenAI GPT-4의 경우 500 RPM입니다.
+  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': 대부분의 API 제공업체는 이 매개변수를 제공합니다. 예를 들어 OpenAI GPT-4 의 경우 500 RPM 입니다.
   No Watermark: "워터마크 없음"
   Non-formula line IoU threshold: "비공식 라인 IoU 임계값"
   Number of requests sent per second: 초당 전송된 요청 수
@@ -547,7 +547,7 @@ ko:
   Remove non-formula lines: "수식이 아닌 줄 제거"
   Remove non-formula lines within paragraph areas: 단락 영역 내에서 수식이 아닌 줄 제거
   ? Select the rate limit mode that best suits your API provider, system will automatically convert the rate limiting values of RPM or Concurrent Requests to QPS and Pool Max Workers when you click the Translate button
-  : API 제공자에 가장 적합한 속도 제한 모드를 선택하세요. '변환' 버튼을 클릭하면 시스템이 RPM 또는 동시 요청 속도 제한 값을 QPS 및 Pool Max Workers로 자동 변환합니다.
+  : API 제공자에 가장 적합한 속도 제한 모드를 선택하세요. '변환' 버튼을 클릭하면 시스템이 RPM 또는 동시 요청 속도 제한 값을 QPS 및 Pool Max Workers 로 자동 변환합니다.
   Service: 서비스
   Skip clean (maybe improve compatibility): "클린 작업 건너뛰기 (호환성 향상 가능)"
   Skip formula offset calculation: "수식 오프셋 계산 건너뛰기"
@@ -759,7 +759,7 @@ zh:
   File: 文件
   Font pattern to identify formula text (regex, not recommended to change): 用于识别公式文本的字体模式（正则表达式，不建议更改）
   Force split short lines into different paragraphs: "强制将短行分割为不同段落"
-  Free translation service provided by [SiliconFlow](https://siliconflow.cn): "免费翻译服务由[SiliconFlow](https://siliconflow.cn)提供"
+  Free translation service provided by [SiliconFlow](https://siliconflow.cn): "免费翻译服务由 [SiliconFlow](https://siliconflow.cn) 提供"
   Glossary File: 术语表文件
   Handle alternating line numbers and text paragraphs in documents with line numbers: 处理带行号文档中的交替行号与文本段落
   If not set or set to 0, QPS will be used as the number of workers: 如果未设置或设置为 0，QPS 将用作工作线程数
@@ -771,7 +771,7 @@ zh:
   Maximum pages per part (for auto-split translation, 0 means no limit): "每部分最大页数（用于自动拆分翻译，0 表示无限制）"
   Merge alternating line numbers: 合并交替行号
   Minimum text length to translate: "最小翻译文本长度"
-  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': 大多数API提供商都提供此参数，例如OpenAI GPT-4：500 RPM
+  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': 大多数 API 提供商都提供此参数，例如 OpenAI GPT-4:500 RPM
   No Watermark: "无水印"
   Non-formula line IoU threshold: 非公式行 IoU 阈值
   Number of requests sent per second: 每秒发送的请求数
@@ -790,7 +790,7 @@ zh:
   Remove non-formula lines: 移除非公式行
   Remove non-formula lines within paragraph areas: 移除段落区域内的非公式行
   ? Select the rate limit mode that best suits your API provider, system will automatically convert the rate limiting values of RPM or Concurrent Requests to QPS and Pool Max Workers when you click the Translate button
-  : 请选择最适合您 API 提供商的速率限制模式，当您点击"沉浸式翻译"按钮时，系统会自动将RPM或并发请求的限流值转换为QPS和池最大工作线程数。
+  : 请选择最适合您 API 提供商的速率限制模式，当您点击"沉浸式翻译"按钮时，系统会自动将 RPM 或并发请求的限流值转换为 QPS 和池最大工作线程数。
   Service: 服务
   Skip clean (maybe improve compatibility): "跳过清理（可能提高兼容性）"
   Skip formula offset calculation: 跳过公式偏移计算
@@ -852,7 +852,7 @@ zh-TW:
   Maximum pages per part (for auto-split translation, 0 means no limit): 「每部分最大頁數（用於自動分割翻譯，0 表示無限制）」
   Merge alternating line numbers: "合併交替行號"
   Minimum text length to translate: 「最小翻譯文字長度」
-  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': 大多數API提供商都提供此參數，例如OpenAI GPT-4：500 RPM
+  'Most API providers provide this parameter, such as OpenAI GPT-4: 500 RPM': 大多數 API 提供商都提供此參數，例如 OpenAI GPT-4:500 RPM
   No Watermark: "無浮水印"
   Non-formula line IoU threshold: "非公式線條 IoU 閾值"
   Number of requests sent per second: 每秒發送的請求數量
