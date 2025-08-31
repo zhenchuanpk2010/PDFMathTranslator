@@ -66,4 +66,5 @@ __all__ = [
     "do_translate_async_stream",
     "create_babeldoc_config",
     "ConfigManager",
+    "ClaudeCodeSettings",
 ]
