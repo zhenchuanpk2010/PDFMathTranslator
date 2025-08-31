@@ -696,6 +696,22 @@ GUI_PASSWORD_FIELDS.append("openai_compatible_api_key")
 GUI_SENSITIVE_FIELDS.append("openai_compatible_base_url")
 
 
+class ClaudeCodeSettings(BaseModel):
+    """Claude Code settings"""
+
+    translate_engine_type: Literal["ClaudeCode"] = Field(default="ClaudeCode")
+    claude_code_path: str = Field(
+        default="claude", description="Path to Claude Code CLI"
+    )
+    claude_code_model: str = Field(
+        default="sonnet", description="Claude Code model to use"
+    )
+
+    def validate_settings(self):
+        if not self.claude_code_path:
+            raise ValueError("Claude Code path is required")
+
+
 ## Please add the translator configuration class above this location.
 
 # 所有翻译引擎
@@ -721,6 +737,7 @@ TRANSLATION_ENGINE_SETTING_TYPE: TypeAlias = (
     | GroqSettings
     | QwenMtSettings
     | OpenAICompatibleSettings
+    | ClaudeCodeSettings
 )
 
 # 不支持的翻译引擎

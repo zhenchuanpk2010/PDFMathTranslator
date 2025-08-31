@@ -9,6 +9,7 @@ from pdf2zh_next.config.translate_engine_model import AnythingLLMSettings
 from pdf2zh_next.config.translate_engine_model import AzureOpenAISettings
 from pdf2zh_next.config.translate_engine_model import AzureSettings
 from pdf2zh_next.config.translate_engine_model import BingSettings
+from pdf2zh_next.config.translate_engine_model import ClaudeCodeSettings
 from pdf2zh_next.config.translate_engine_model import DeepLSettings
 from pdf2zh_next.config.translate_engine_model import DeepSeekSettings
 from pdf2zh_next.config.translate_engine_model import DifySettings
@@ -52,4 +53,5 @@ __all__ = [
     "QwenMtSettings",
     "DeepSeekSettings",
     "TRANSLATION_ENGINE_METADATA",
+    "ClaudeCodeSettings",
 ]

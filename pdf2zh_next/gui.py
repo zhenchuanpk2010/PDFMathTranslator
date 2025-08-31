@@ -1128,12 +1128,16 @@ with gr.Blocks(
                         if not metadata.cli_detail_field_name:
                             # no detail field, no need to show
                             continue
-                        detail_settings = getattr(settings, metadata.cli_detail_field_name)
+                        detail_settings = getattr(
+                            settings, metadata.cli_detail_field_name
+                        )
                         visible = service.value == metadata.translate_engine_type
 
                         # OpenAI specific settings (initially visible if OpenAI is default)
                         with gr.Group(visible=True) as service_detail:
-                            detail_text_input_index_map[metadata.translate_engine_type] = []
+                            detail_text_input_index_map[
+                                metadata.translate_engine_type
+                            ] = []
                             for (
                                 field_name,
                                 field,
@@ -1720,7 +1724,9 @@ with gr.Blocks(
             on_service_change_with_rate_limit,
             [rate_limit_mode, service],
             outputs=(
-                on_select_service_outputs if len(on_select_service_outputs) > 0 else None
+                on_select_service_outputs
+                if len(on_select_service_outputs) > 0
+                else None
             )
             + [
                 rate_limit_mode,
