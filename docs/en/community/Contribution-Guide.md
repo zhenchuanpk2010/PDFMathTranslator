@@ -16,6 +16,7 @@ Thank you for your interest in this project! Before you start contributing, plea
 4. Other contributions deemed inappropriate by the maintainers.
 5. Contributing documentation, but changing the documentation in languages other than English.
 6. PRs that require modifying PDF files.
+7. PRs that modify the `pdf2zh_next/gui_translation.yaml` file.
 
 Please do NOT submit PRs related to the above types.
 
