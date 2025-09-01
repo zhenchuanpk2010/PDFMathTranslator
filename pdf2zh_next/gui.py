@@ -1069,8 +1069,8 @@ with gr.Blocks(
 ) as demo:
     lang_selector = gr.Dropdown(
         choices=LANGUAGES,
-        label=_("Language"),
-        value="en",
+        label=_("UI Language"),
+        value=settings.gui_settings.ui_lang,
         render=False,
     )
     with Translate("pdf2zh_next/gui_translation.yaml", lang_selector):
@@ -1083,6 +1083,7 @@ with gr.Blocks(
         LLM_support_index_map = {}
         with gr.Row():
             with gr.Column(scale=1):
+                lang_selector.render()
                 gr.Markdown(_("## File"))
                 file_type = gr.Radio(
                     choices=[_("File"), _("Link")],
@@ -1565,7 +1566,6 @@ with gr.Blocks(
                 output_file_glossary = gr.File(
                     label=_("Download automatically extracted glossary"), visible=False
                 )
-                lang_selector.render()
                 translate_btn = gr.Button(_("Translate"), variant="primary")
                 cancel_btn = gr.Button(_("Cancel"), variant="secondary")
 
@@ -1693,6 +1693,15 @@ with gr.Blocks(
             ]
 
             return original_updates + rate_limit_updates + detailed_visible
+
+        def on_lang_selector_change(lang):
+            settings.gui_settings.ui_lang = lang
+            config_manager.write_user_default_config_file(settings=settings.clone())
+            return
+
+        # UI language change handler
+
+        lang_selector.change(on_lang_selector_change, lang_selector)
 
         # Default file handler
         file_input.upload(
