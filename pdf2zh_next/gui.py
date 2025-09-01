@@ -1040,10 +1040,11 @@ custom_css = """
     }
     """
 
-# Build path to logo image
+# Build paths to resources
 current_dir = Path(__file__).parent
 assets_dir = current_dir / "assets"
 logo_path = assets_dir / "powered_by_siliconflow_light.png"
+translation_file_path = current_dir / "gui_translation.yaml"
 
 tech_details_string = f"""
                     <summary>Technical details</summary>
@@ -1073,7 +1074,7 @@ with gr.Blocks(
         value=settings.gui_settings.ui_lang,
         render=False,
     )
-    with Translate("pdf2zh_next/gui_translation.yaml", lang_selector):
+    with Translate(translation_file_path.as_posix(), lang_selector):
         gr.Markdown("# [PDFMathTranslate Next](https://pdf2zh-next.com)")
 
         translation_engine_arg_inputs = []

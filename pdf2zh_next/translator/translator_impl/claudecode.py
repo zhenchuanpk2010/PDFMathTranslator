@@ -41,7 +41,9 @@ class ClaudeCodeTranslator(BaseTranslator):
             if result.returncode != 0:
                 raise ValueError(f"Claude Code CLI error: {result.stderr}")
         except FileNotFoundError as e:
-            raise ValueError(f"Claude Code CLI not found at '{self.claude_code_path}'") from e
+            raise ValueError(
+                f"Claude Code CLI not found at '{self.claude_code_path}'"
+            ) from e
 
     @retry(
         retry=retry_if_exception_type(
