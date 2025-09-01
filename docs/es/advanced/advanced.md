@@ -4,11 +4,17 @@
 
 <h3 id="toc">Tabla de Contenidos</h3>
 
-- [Argumentos de la línea de comandos](#argumentos-de-la-línea-de-comandos)
+- [Argumentos de Línea de Comandos](#argumentos-de-línea-de-comandos)
+  - [Argumentos](#argumentos)
+  - [Argumentos de GUI](#argumentos-de-gui)
+- [#### Guía de Configuración de Límite de Tasa](#####-guía-de-configuración-de-límite-de-tasa)
+  - [#### Limitación de tasa RPM (Solicitudes Por Minuto)](#####-limitación-de-tasa-rpm-solicitudes-por-minuto)
+  - [#### Limitación de conexiones concurrentes](#####-limitación-de-conexiones-concurrentes)
+  - [#### Mejores prácticas](#####-mejores-prácticas)
 - [Traducción parcial](#traducción-parcial)
 - [Especificar idiomas de origen y destino](#especificar-idiomas-de-origen-y-destino)
 - [Traducir con excepciones](#traducir-con-excepciones)
-- [Indicaciones personalizadas](#indicaciones-personalizadas)
+- [Prompt personalizado](#prompt-personalizado)
 - [Configuración personalizada](#configuración-personalizada)
 - [Omitir limpieza](#omitir-limpieza)
 - [Caché de traducción](#caché-de-traducción)
@@ -73,7 +79,12 @@ En la siguiente tabla, enumeramos todas las opciones avanzadas como referencia:
 | `--auto-enable-ocr-workaround`  | Habilitar solución alternativa automática de OCR. Si se detecta que un documento está muy escaneado, intentará habilitar el procesamiento de OCR y omitir la detección adicional de escaneo. Consulte la documentación para más detalles. (valor predeterminado: False) | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page`| Solo incluir las páginas traducidas en el PDF de salida. Solo es efectivo cuando se usa --pages. | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page`                                                       |
 | `--glossaries`                  | Glosario personalizado para traducción.                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| guardar el glosario extraído automáticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| guardar glosario extraído automáticamente.                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | Desactiva la fusión de números de línea alternos y párrafos de texto en documentos con números de línea | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | Deshabilitar la eliminación de líneas que no son fórmulas dentro de áreas de párrafo                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | Establece el umbral de IoU para identificar líneas que no son fórmulas (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | Establece el umbral de protección para figuras y tablas (0.0-1.0). Las líneas dentro de figuras/tablas no serán procesadas | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | Omitir el cálculo de desplazamiento de fórmulas durante el procesamiento | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### Argumentos de GUI
@@ -87,6 +98,64 @@ En la siguiente tabla, enumeramos todas las opciones avanzadas como referencia:
 | `--disable-gui-sensitive-input` | Deshabilitar entrada sensible en la GUI            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | Deshabilitar el guardado automático de configuración | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | Puerto de WebUI                             | `pdf2zh --gui --server-port 7860`               |
+
+[⬆️ Volver arriba](#toc)
+
+---
+
+#### Guía de Configuración de Límite de Tasa
+
+Al utilizar servicios de traducción, una configuración adecuada del límite de tasa es crucial para evitar errores de API y optimizar el rendimiento. Esta guía explica cómo configurar los parámetros `--qps` y `--pool-max-worker` según las limitaciones de diferentes servicios ascendentes.
+
+> [!TIP]
+>
+> Se recomienda que el `pool_size` no exceda de 1000. Si el `pool_size` calculado por el siguiente método excede 1000, por favor utilice 1000.
+
+##### Limitación de tasa RPM (Solicitudes Por Minuto)
+
+Cuando el servicio ascendente tiene limitaciones de RPM, utiliza el siguiente cálculo:
+
+**Fórmula de cálculo:**
+- `qps = floor(rpm / 60)`
+- `pool_size = qps * 10`
+
+> [!NOTE]
+> El factor de 10 es un coeficiente empírico que generalmente funciona bien para la mayoría de los escenarios.
+
+**Ejemplo:**
+Si tu servicio de traducción tiene un límite de 600 RPM:
+- `qps = floor(600 / 60) = 10`
+- `pool_size = 10 * 10 = 100`
+
+```bash
+pdf2zh example.pdf --qps 10 --pool-max-worker 100
+```
+
+##### Limitación de conexiones concurrentes
+
+Cuando el servicio ascendente tiene limitaciones de conexiones concurrentes (como el servicio oficial de GLM), utiliza este enfoque:
+
+**Fórmula de cálculo:**
+- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`
+- `qps = pool_size`
+
+**Ejemplo:**
+Si tu servicio de traducción permite 50 conexiones concurrentes:
+- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`
+- `qps = 45`
+
+```bash
+pdf2zh example.pdf --qps 45 --pool-max-worker 45
+```
+
+##### Mejores prácticas
+
+> [!TIP]
+> - Siempre comienza con valores conservadores y aumenta gradualmente si es necesario
+> - Monitorea los tiempos de respuesta y las tasas de error de tu servicio
+> - Diferentes servicios pueden requerir diferentes estrategias de optimización
+> - Considera tu caso de uso específico y el tamaño del documento al configurar estos parámetros
+
 
 [⬆️ Volver arriba](#toc)
 
@@ -274,8 +343,13 @@ pdf2zh_next example.pdf --ignore-cache
 
 Al desplegar una GUI de pdf2zh en servicios públicos, debes modificar el archivo de configuración como se describe a continuación.
 
+> [!WARNING]
+>
+> Este proyecto no ha sido auditado profesionalmente en cuanto a seguridad y puede contener vulnerabilidades. Por favor, evalúe los riesgos y tome las medidas de seguridad necesarias antes de implementarlo en redes públicas.
+
+
 > [!TIP]
-> - Al desplegar públicamente, tanto `disable_gui_sensitive_input` como `disable_config_auto_save` deben estar habilitados.
+> - Al implementar públicamente, tanto `disable_gui_sensitive_input` como `disable_config_auto_save` deben estar habilitados.
 > - Separe los diferentes servicios disponibles con *comas en inglés* <kbd>,</kbd> .
 
 Una configuración utilizable es la siguiente:

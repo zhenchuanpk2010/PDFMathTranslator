@@ -31,6 +31,22 @@ def _clean_url(value: str | None) -> str | None:
     return cleaned.rstrip("/")
 
 
+def _check_if_positive_float(value: str | None, field: str = "Value") -> str | None:
+    """Check if a string can be parsed as a positive float"""
+    if value is None:
+        return None
+
+    try:
+        f = float(value)
+    except ValueError as e:
+        raise ValueError(f"{field} must be a float") from e
+
+    if f <= 0:
+        raise ValueError(f"{field} must be greater than 0")
+
+    return value
+
+
 class TranslateEngineSettingError(Exception):
     """Translate engine setting error"""
 
@@ -63,6 +79,9 @@ class OpenAISettings(BaseModel):
     openai_api_key: str | None = Field(
         default=None, description="API key for OpenAI service"
     )
+    openai_timeout: str | None = Field(
+        default=None, description="Timeout (seconds) for OpenAI service"
+    )
     openai_temperature: str | None = Field(
         default=None, description="Temperature for OpenAI service"
     )
@@ -86,6 +105,10 @@ class OpenAISettings(BaseModel):
         self.openai_api_key = _clean_string(self.openai_api_key)
         self.openai_base_url = _clean_url(self.openai_base_url)
         self.openai_model = _clean_string(self.openai_model)
+        self.openai_timeout = _check_if_positive_float(
+            _clean_string(self.openai_timeout),
+            field="Timeout",
+        )
         self.openai_temperature = _clean_string(self.openai_temperature)
         self.openai_reasoning_effort = _clean_string(self.openai_reasoning_effort)
         if self.openai_send_temprature:
@@ -603,6 +626,9 @@ class OpenAICompatibleSettings(BaseModel):
     openai_compatible_api_key: str | None = Field(
         default=None, description="API key for OpenAI Compatible service"
     )
+    openai_compatible_timeout: str | None = Field(
+        default=None, description="Timeout (seconds) for OpenAI Compatible service"
+    )
     openai_compatible_temperature: str | None = Field(
         default=None, description="Temperature for OpenAI Compatible service"
     )
@@ -627,6 +653,9 @@ class OpenAICompatibleSettings(BaseModel):
         self.openai_compatible_api_key = _clean_string(self.openai_compatible_api_key)
         self.openai_compatible_base_url = _clean_url(self.openai_compatible_base_url)
         self.openai_compatible_model = _clean_string(self.openai_compatible_model)
+        self.openai_compatible_timeout = _check_if_positive_float(
+            _clean_string(self.openai_compatible_timeout), field="Timeout"
+        )
         self.openai_compatible_temperature = _clean_string(
             self.openai_compatible_temperature
         )
@@ -655,6 +684,7 @@ class OpenAICompatibleSettings(BaseModel):
             openai_model=self.openai_compatible_model,
             openai_api_key=self.openai_compatible_api_key,
             openai_base_url=self.openai_compatible_base_url,
+            openai_timeout=self.openai_compatible_timeout,
             openai_temperature=self.openai_compatible_temperature,
             openai_reasoning_effort=self.openai_compatible_reasoning_effort,
             openai_send_temprature=self.openai_compatible_send_temperature,
@@ -664,6 +694,22 @@ class OpenAICompatibleSettings(BaseModel):
 
 GUI_PASSWORD_FIELDS.append("openai_compatible_api_key")
 GUI_SENSITIVE_FIELDS.append("openai_compatible_base_url")
+
+
+class ClaudeCodeSettings(BaseModel):
+    """Claude Code settings"""
+
+    translate_engine_type: Literal["ClaudeCode"] = Field(default="ClaudeCode")
+    claude_code_path: str = Field(
+        default="claude", description="Path to Claude Code CLI"
+    )
+    claude_code_model: str = Field(
+        default="sonnet", description="Claude Code model to use"
+    )
+
+    def validate_settings(self):
+        if not self.claude_code_path:
+            raise ValueError("Claude Code path is required")
 
 
 ## Please add the translator configuration class above this location.
@@ -691,6 +737,7 @@ TRANSLATION_ENGINE_SETTING_TYPE: TypeAlias = (
     | GroqSettings
     | QwenMtSettings
     | OpenAICompatibleSettings
+    | ClaudeCodeSettings
 )
 
 # 不支持的翻译引擎

@@ -5,16 +5,22 @@
 <h3 id="目錄">目錄</h3>
 
 - [命令行參數](#命令行參數)
+  - [參數](#參數)
+  - [GUI 參數](#gui-參數)
+- [#### 速率限制配置指南](#####-速率限制配置指南)
+  - [#### RPM（每分鐘請求數）速率限制](#####-rpm 每分鐘請求數速率限制)
+  - [#### 並發連接限制](#####-並發連接限制)
+  - [#### 最佳實踐](#####-最佳實踐)
 - [部分翻譯](#部分翻譯)
-- [指定來源與目標語言](#指定來源與目標語言)
-- [翻譯例外情況](#翻譯例外情況)
-- [自訂提示](#自訂提示)
-- [自訂配置](#自訂配置)
+- [指定源語言與目標語言](#指定源語言與目標語言)
+- [帶例外條件的翻譯](#帶例外條件的翻譯)
+- [自定義提示詞](#自定義提示詞)
+- [自定義配置](#自定義配置)
 - [跳過清理](#跳過清理)
-- [翻譯快取](#翻譯快取)
+- [翻譯緩存](#翻譯緩存)
 - [部署為公共服務](#部署為公共服務)
-- [驗證與歡迎頁面](#驗證與歡迎頁面)
-- [詞彙表支援](#詞彙表支援)
+- [認證與歡迎頁面](#認證與歡迎頁面)
+- [術語表支援](#術語表支援)
 
 ---
 
@@ -73,7 +79,12 @@
 | `--auto-enable-ocr-workaround`  | 啟用自動 OCR 解決方案。若檢測到文件為重度掃描文件，將嘗試啟用 OCR 處理並跳過後續掃描檢測。詳情請參閱文檔。（預設值：False） | `pdf2zh example.pdf --auto-enable-ocr-workaround True`                    |
 | `--only-include-translated-page` | 僅在輸出 PDF 中包含已翻譯的頁面。僅在使用 `--pages` 參數時有效。 | `pdf2zh example.pdf --pages 1-5 --only-include-translated-page` |
 | `--glossaries`                  | 自訂翻譯詞彙表。                                                      | `pdf2zh example.pdf --glossaries "glossary1.csv,glossary2.csv,glossary3.csv"`                                         |
-| `--save-auto-extracted-glossary`| 儲存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--save-auto-extracted-glossary`| 保存自動提取的詞彙表。                                                | `pdf2zh example.pdf --save-auto-extracted-glossary`                                                                   |
+| `--no-merge-alternating-line-numbers` | 禁用合併帶有行號的文件中的交替行號與文本段落 | `pdf2zh example.pdf --no-merge-alternating-line-numbers` |
+| `--no-remove-non-formula-lines` | 禁用移除段落區域內的非公式行                          | `pdf2zh example.pdf --no-remove-non-formula-lines`                                                                    |
+| `--non-formula-line-iou-threshold` | 設定非公式行的 IoU 閾值 (0.0-1.0)                     | `pdf2zh example.pdf --non-formula-line-iou-threshold 0.85`                                                            |
+| `--figure-table-protection-threshold` | 設定圖表和表格的保護閾值 (0.0-1.0)。圖表/表格內的線條將不會被處理 | `pdf2zh example.pdf --figure-table-protection-threshold 0.95` |
+| `--skip-formula-offset-calculation` | 在處理過程中跳過公式偏移量計算         | `pdf2zh example.pdf --skip-formula-offset-calculation`                                                                |
 
 
 ##### 圖形界面參數
@@ -87,6 +98,64 @@
 | `--disable-gui-sensitive-input` | 禁用圖形界面敏感輸入            | `pdf2zh --gui --disable-gui-sensitive-input`    |
 | `--disable-config-auto-save`    | 禁用自動配置儲存 | `pdf2zh --gui --disable-config-auto-save`       |
 | `--server-port`                 | WebUI 端口                             | `pdf2zh --gui --server-port 7860`               |
+
+[⬆️ 返回頂部](#目錄)
+
+---
+
+#### 速率限制配置指南
+
+在使用翻譯服務時，適當的速率限制配置對於避免 API 錯誤和優化性能至關重要。本指南解釋如何根據不同的上游服務限制來配置 `--qps` 和 `--pool-max-worker` 參數。
+
+> [!TIP]
+>
+> 建議 `pool_size` 不要超過 1000。如果通過以下方法計算出的 `pool_size` 超過 1000，請使用 1000。
+
+##### RPM（每分鐘請求數）速率限制
+
+當上游服務有 RPM 限制時，請使用以下計算方式：
+
+**計算公式：**
+- `qps = floor(rpm / 60)`
+- `pool_size = qps * 10`
+
+> [!NOTE]
+> 係數 10 是一個經驗係數，在大多數情況下都能良好運作。
+
+**範例：**
+如果您的翻譯服務有 600 RPM 的限制：
+- `qps = floor(600 / 60) = 10`
+- `pool_size = 10 * 10 = 100`
+
+```bash
+pdf2zh example.pdf --qps 10 --pool-max-worker 100
+```
+
+##### 並發連接限制
+
+當上游服務有並發連接限制（如 GLM 官方服務）時，使用此方法：
+
+**計算公式：**
+- `pool_size = max(floor(0.9 * official_concurrent_limit), official_concurrent_limit - 20)`
+- `qps = pool_size`
+
+**範例：**
+若您的翻譯服務允許 50 個並發連接：
+- `pool_size = max(floor(0.9 * 50), 50 - 20) = max(45, 30) = 45`
+- `qps = 45`
+
+```bash
+pdf2zh example.pdf --qps 45 --pool-max-worker 45
+```
+
+##### 最佳實踐
+
+> [!TIP]
+> - 始終從保守值開始，並根據需要逐步增加
+> - 監控服務的響應時間和錯誤率
+> - 不同的服務可能需要不同的優化策略
+> - 設置這些參數時，請考慮您的具體使用案例和文件大小
+
 
 [⬆️ 返回頂部](#目錄)
 
@@ -273,9 +342,14 @@ pdf2zh_next example.pdf --ignore-cache
 
 在將 pdf2zh GUI 部署為公共服務時，您應按照以下說明修改配置檔案。
 
+> [!WARNING]
+>
+> 本專案尚未經過專業安全審計，可能包含安全漏洞。請在部署至公共網絡前評估風險並採取必要的安全措施。
+
+
 > [!TIP]
-> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 與 `disable_config_auto_save`。
-> - 請使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。
+> - 公開部署時，應同時啟用 `disable_gui_sensitive_input` 和 `disable_config_auto_save` 選項。
+> - 使用 *英文逗號* <kbd>,</kbd> 分隔不同的可用服務。
 
 一個可用的配置如下：
 
