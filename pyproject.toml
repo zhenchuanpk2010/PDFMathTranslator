@@ -1,6 +1,6 @@
 [project]
 name = "pdf2zh-next"
-version = "2.5.3"
+version = "2.6.0"
 description = "Latex PDF Translator"
 authors = [
     { name = "awwaawwa", email = "aw@funstory.ai" },
@@ -83,7 +83,7 @@ max-line-length = 88
 
 
 [bumpver]
-current_version = "2.5.3"
+current_version = "2.6.0"
 version_pattern = "MAJOR.MINOR.PATCH[.PYTAGNUM]"
 
 [bumpver.file_patterns]
@@ -125,6 +125,7 @@ ignore = [
     "B024",   # abstract class without abstract methods
     "S112",   # `try`-`except`-`continue` detected, consider logging the exception
     "COM812", # missing-trailing-comma
+    "S603",   # `subprocess` call: check for execution of untrusted input
 
 ]
 select = [
