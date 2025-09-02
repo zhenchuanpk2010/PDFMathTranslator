@@ -13,6 +13,7 @@ from string import Template
 import chardet
 import gradio as gr
 import requests
+import yaml
 from babeldoc import __version__ as babeldoc_version
 from gradio_i18n import Translate
 from gradio_pdf import PDF
@@ -30,13 +31,11 @@ from pdf2zh_next.high_level import do_translate_async_stream
 from pdf2zh_next.i18n import LANGUAGES
 from pdf2zh_next.i18n import gettext as _
 
-import yaml
-
 logger = logging.getLogger(__name__)
 
 
-def get_translation_dic(file_path):
-    with open(file_path, "r", encoding="utf-8", newline="\n") as f:
+def get_translation_dic(file_path: Path):
+    with file_path.open(encoding="utf-8", newline="\n") as f:
         return yaml.safe_load(f)
 
 
