@@ -30,7 +30,16 @@ from pdf2zh_next.high_level import do_translate_async_stream
 from pdf2zh_next.i18n import LANGUAGES
 from pdf2zh_next.i18n import gettext as _
 
+import yaml
+
 logger = logging.getLogger(__name__)
+
+
+def get_translation_dic(file_path):
+    with open(file_path, "r", encoding="utf-8", newline="\n") as f:
+        return yaml.safe_load(f)
+
+
 __gui_service_arg_names = []
 # The following variables associate strings with specific languages
 lang_map = {
@@ -1074,7 +1083,7 @@ with gr.Blocks(
         value=settings.gui_settings.ui_lang,
         render=False,
     )
-    with Translate(translation_file_path.as_posix(), lang_selector):
+    with Translate(get_translation_dic(translation_file_path), lang_selector):
         gr.Markdown("# [PDFMathTranslate Next](https://pdf2zh-next.com)")
 
         translation_engine_arg_inputs = []
