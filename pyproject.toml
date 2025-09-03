@@ -1,6 +1,6 @@
 [project]
 name = "pdf2zh-next"
-version = "2.6.1"
+version = "2.6.2"
 description = "Latex PDF Translator"
 authors = [
     { name = "awwaawwa", email = "aw@funstory.ai" },
@@ -83,7 +83,7 @@ max-line-length = 88
 
 
 [bumpver]
-current_version = "2.6.1"
+current_version = "2.6.2"
 version_pattern = "MAJOR.MINOR.PATCH[.PYTAGNUM]"
 
 [bumpver.file_patterns]
