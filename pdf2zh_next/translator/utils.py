@@ -40,8 +40,11 @@ def get_translator(settings: SettingsModel) -> BaseTranslator:
                 raise TranslateEngineSettingError(
                     f"{translate_engine_type} does not support glossary. Please choose a different translator or remove the glossary."
                 )
-            return getattr(module, f"{translate_engine_type}Translator")(
+            translator = getattr(module, f"{translate_engine_type}Translator")(
                 settings, rate_limiter
             )
+            # Health check: perform a short translation ignoring cache to validate translator availability
+            translator.translate("Hello", ignore_cache=True)
+            return translator
 
     raise ValueError("No translator found")
