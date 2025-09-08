@@ -28,7 +28,7 @@
 
 Выполните команду перевода в командной строке, чтобы сгенерировать переведенный документ `example-mono.pdf` и двуязычный документ `example-dual.pdf` в текущей рабочей директории. В качестве сервиса перевода по умолчанию используется Google. Дополнительные поддерживаемые сервисы перевода можно найти [ЗДЕСЬ](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
-<img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
+<img src="./../../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
 В следующей таблице перечислены все расширенные параметры для справки:
 
@@ -277,7 +277,7 @@ pdf2zh_next --gui
 PDF2ZH_GUI=TRUE pdf2zh_next
 ```
 
-<img src="./../images/ev_light.svg" width="580px"  alt="env"/>
+<img src="./../../images/ev_light.svg" width="580px"  alt="env"/>
 
 - Пользовательский **Файл конфигурации**
 

@@ -28,7 +28,7 @@
 
 Execute o comando de tradução na linha de comando para gerar o documento traduzido `example-mono.pdf` e o documento bilíngue `example-dual.pdf` no diretório de trabalho atual. Use o Google como o serviço de tradução padrão. Mais serviços de tradução suportados podem ser encontrados [AQUI](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
-<img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
+<img src="./../../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
 Na tabela a seguir, listamos todas as opções avançadas para referência:
 
@@ -277,7 +277,7 @@ Por exemplo, se você quiser habilitar uma janela GUI, pode usar o seguinte coma
 PDF2ZH_GUI=TRUE pdf2zh_next
 ```
 
-<img src="./../images/ev_light.svg" width="580px"  alt="env"/>
+<img src="./../../images/ev_light.svg" width="580px"  alt="env"/>
 
 - Arquivo de **Configuração** Especificado pelo Usuário
 

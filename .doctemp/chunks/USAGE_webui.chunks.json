@@ -12,7 +12,7 @@
       "start_line_no": 1
     },
     {
-      "id": "h_rule_203908ba",
+      "id": "h_rule_bcfb308b",
       "raw_content": "---\n",
       "metadata": {
         "chunk_type": "h_rule",
@@ -72,8 +72,8 @@
       "start_line_no": 29
     },
     {
-      "id": "chunk_FFA0F1F7",
-      "raw_content": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+      "id": "chunk_B79CAF04",
+      "raw_content": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
       "metadata": {
         "chunk_type": "image",
         "level": null,
@@ -122,8 +122,8 @@
       "start_line_no": 39
     },
     {
-      "id": "chunk_D7787657",
-      "raw_content": "<img src=\"./../images/before.png\" width=\"500\"/>",
+      "id": "chunk_433E69C5",
+      "raw_content": "<img src=\"./../../images/before.png\" width=\"500\"/>",
       "metadata": {
         "chunk_type": "image",
         "level": null,
@@ -132,8 +132,8 @@
       "start_line_no": 41
     },
     {
-      "id": "chunk_4685028B",
-      "raw_content": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+      "id": "chunk_64A11402",
+      "raw_content": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
       "metadata": {
         "chunk_type": "image",
         "level": null,

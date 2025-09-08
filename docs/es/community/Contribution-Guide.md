@@ -10,12 +10,13 @@ Gracias por tu interés en este proyecto. Antes de empezar a contribuir, por fav
 
 ## Tipos de contribuciones no aceptadas
 
-1. Documentación de internacionalización/traducción  
+1. Internacionalización/traducción de documentación  
 2. Contribuciones relacionadas con la infraestructura central, como API HTTP, etc.  
 3. Problemas marcados explícitamente como "No se necesita ayuda" (incluyendo problemas en los repositorios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) y [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
 4. Otras contribuciones consideradas inapropiadas por los mantenedores.  
 5. Contribuir a la documentación, pero modificando la documentación en idiomas distintos al inglés.  
-6. PRs que requieran modificar archivos PDF.
+6. PRs que requieran modificar archivos PDF.  
+7. PRs que modifiquen el archivo `pdf2zh_next/gui_translation.yaml`.
 
 Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
@@ -98,7 +99,13 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 > [!NOTE]
 >
-> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíes soporte para este tipo de motores.
+> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíe soporte para dichos motores.
+> Los siguientes tipos de traductores tampoco serán integrados:
+> - Traductores que han sido discontinuados por los mantenedores upstream (como deeplx)
+> - Traductores con grandes dependencias (como aquellos que dependen de pytorch)
+> - Traductores inestables
+>
+> Cuando no esté seguro de si un traductor cumple con los requisitos, puede enviar un issue para discutir con los mantenedores.
 
 ## Estructura del proyecto
 

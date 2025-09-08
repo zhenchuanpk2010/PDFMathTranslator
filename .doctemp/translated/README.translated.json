@@ -26,16 +26,16 @@
       "original_content": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
       "start_line_no": 3,
       "translations": {
-        "zh": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "zh_TW": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "ja": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "ko": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "ru": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "es": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "fr": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "de": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "it": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
-        "pt": "<img src=\"./docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n"
+        "zh": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "zh_TW": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "ja": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "ko": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "ru": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "es": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "fr": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "de": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "it": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n",
+        "pt": "<img src=\"./../../docs/images/banner.png\" width=\"320px\"  alt=\"banner\"/>\n"
       }
     },
     {
@@ -584,16 +584,16 @@
       "original_content": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
       "start_line_no": 67,
       "translations": {
-        "zh": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "zh_TW": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "ja": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "ko": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "ru": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "es": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "fr": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "de": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "it": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
-        "pt": "<!-- <img src=\"./docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->"
+        "zh": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "zh_TW": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "ja": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "ko": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "ru": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "es": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "fr": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "de": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "it": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->",
+        "pt": "<!-- <img src=\"./../../docs/images/preview.gif\" width=\"80%\"  alt=\"preview\"/> -->"
       }
     },
     {
@@ -759,7 +759,7 @@
       }
     },
     {
-      "chunk_id": "h_rule_00763e4e",
+      "chunk_id": "h_rule_9d59d9b6",
       "chunk_type": "h_rule",
       "original_content": "---\n",
       "start_line_no": 94,

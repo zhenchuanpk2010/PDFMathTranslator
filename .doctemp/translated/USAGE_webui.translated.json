@@ -21,7 +21,7 @@
       }
     },
     {
-      "chunk_id": "h_rule_203908ba",
+      "chunk_id": "h_rule_bcfb308b",
       "chunk_type": "h_rule",
       "original_content": "---\n",
       "start_line_no": 3,
@@ -116,34 +116,34 @@
       "original_content": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
       "start_line_no": 29,
       "translations": {
-        "zh": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "zh_TW": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "ja": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "ko": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "ru": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "es": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "fr": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "de": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "it": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->",
-        "pt": "<!-- <img src=\"./images/gui.gif\" width=\"500\"/> -->"
+        "zh": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "zh_TW": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "ja": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "ko": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "ru": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "es": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "fr": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "de": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "it": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->",
+        "pt": "<!-- <img src=\"./../../images/gui.gif\" width=\"500\"/> -->"
       }
     },
     {
-      "chunk_id": "chunk_FFA0F1F7",
+      "chunk_id": "chunk_B79CAF04",
       "chunk_type": "image",
-      "original_content": "<img src='./../images/gui.gif' width=\"500\"/>\n",
+      "original_content": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
       "start_line_no": 30,
       "translations": {
-        "zh": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "zh_TW": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "ja": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "ko": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "ru": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "es": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "fr": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "de": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "it": "<img src='./../images/gui.gif' width=\"500\"/>\n",
-        "pt": "<img src='./../images/gui.gif' width=\"500\"/>\n"
+        "zh": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "zh_TW": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "ja": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "ko": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "ru": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "es": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "fr": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "de": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "it": "<img src='./../../images/gui.gif' width=\"500\"/>\n",
+        "pt": "<img src='./../../images/gui.gif' width=\"500\"/>\n"
       }
     },
     {
@@ -219,39 +219,39 @@
       }
     },
     {
-      "chunk_id": "chunk_D7787657",
+      "chunk_id": "chunk_433E69C5",
       "chunk_type": "image",
-      "original_content": "<img src=\"./../images/before.png\" width=\"500\"/>",
+      "original_content": "<img src=\"./../../images/before.png\" width=\"500\"/>",
       "start_line_no": 41,
       "translations": {
-        "zh": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "zh_TW": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "ja": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "ko": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "ru": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "es": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "fr": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "de": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "it": "<img src=\"./../images/before.png\" width=\"500\"/>",
-        "pt": "<img src=\"./../images/before.png\" width=\"500\"/>"
+        "zh": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "zh_TW": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "ja": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "ko": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "ru": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "es": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "fr": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "de": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "it": "<img src=\"./../../images/before.png\" width=\"500\"/>",
+        "pt": "<img src=\"./../../images/before.png\" width=\"500\"/>"
       }
     },
     {
-      "chunk_id": "chunk_4685028B",
+      "chunk_id": "chunk_64A11402",
       "chunk_type": "image",
-      "original_content": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
+      "original_content": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
       "start_line_no": 42,
       "translations": {
-        "zh": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "zh_TW": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "ja": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "ko": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "ru": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "es": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "fr": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "de": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "it": "<img src=\"./../images/after.png\" width=\"500\"/>\n",
-        "pt": "<img src=\"./../images/after.png\" width=\"500\"/>\n"
+        "zh": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "zh_TW": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "ja": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "ko": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "ru": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "es": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "fr": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "de": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "it": "<img src=\"./../../images/after.png\" width=\"500\"/>\n",
+        "pt": "<img src=\"./../../images/after.png\" width=\"500\"/>\n"
       }
     },
     {

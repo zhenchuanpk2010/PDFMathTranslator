@@ -26,8 +26,8 @@ Existen varios métodos para abrir la interfaz de WebUI. Si estás usando **Wind
 
     Arrastra el archivo `PDF` a la ventana y haz clic en `Translate`.
 
-<!-- <img src="./images/gui.gif" width="500"/> -->
-<img src='./../images/gui.gif' width="500"/>
+<!-- <img src="./../../images/gui.gif" width="500"/> -->
+<img src='./../../images/gui.gif' width="500"/>
 
 ### Variables de entorno
 
@@ -38,8 +38,8 @@ Puedes configurar los idiomas de origen y destino utilizando variables de entorn
 
 ## Vista previa
 
-<img src="./../images/before.png" width="500"/>
-<img src="./../images/after.png" width="500"/>
+<img src="./../../images/before.png" width="500"/>
+<img src="./../../images/after.png" width="500"/>
 
 ## Mantenimiento
 

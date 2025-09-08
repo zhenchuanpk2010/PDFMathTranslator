@@ -26,8 +26,8 @@ WebUI 인터페이스를 여는 방법에는 여러 가지가 있습니다. **Wi
 
     PDF 파일을 창에 드롭하고 `Translate` 을 클릭하세요.
 
-<!-- <img src="./images/gui.gif" width="500"/> -->
-<img src='./../images/gui.gif' width="500"/>
+<!-- <img src="./../../images/gui.gif" width="500"/> -->
+<img src='./../../images/gui.gif' width="500"/>
 
 ### 환경 변수
 
@@ -38,8 +38,8 @@ WebUI 인터페이스를 여는 방법에는 여러 가지가 있습니다. **Wi
 
 ## 미리보기
 
-<img src="./../images/before.png" width="500"/>
-<img src="./../images/after.png" width="500"/>
+<img src="./../../images/before.png" width="500"/>
+<img src="./../../images/after.png" width="500"/>
 
 ## 유지 관리
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./docs/images/banner.png" width="320px"  alt="banner"/>
+<img src="./../../docs/images/banner.png" width="320px"  alt="banner"/>
 
 <h2 id="제목">PDFMathTranslate</h2>
 
@@ -64,7 +64,7 @@ PDF 과학 논문 번역 및 이중 언어 비교.
 <h2 id="미리보기">미리보기</h2>
 
 <div align="center">
-<!-- <img src="./docs/images/preview.gif" width="80%"  alt="preview"/> -->
+<!-- <img src="./../../docs/images/preview.gif" width="80%"  alt="preview"/> -->
 <img src="https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png" width="80%"/>
 </div>
 

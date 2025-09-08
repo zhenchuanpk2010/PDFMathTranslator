@@ -1,7 +1,7 @@
 <!-- CHUNK ID: chunk_DDD39913  CHUNK TYPE: paragraph START_LINE:1 -->
 [**Advanced**](./introduction.md) > **Advanced** _(current)_
 
-<!-- CHUNK ID: h_rule_5ef025e0  CHUNK TYPE: h_rule START_LINE:3 -->
+<!-- CHUNK ID: h_rule_f19632fc  CHUNK TYPE: h_rule START_LINE:3 -->
 ---
 
 <!-- CHUNK ID: chunk_D9B293FF  CHUNK TYPE: paragraph START_LINE:5 -->
@@ -26,7 +26,7 @@
 - [Authentication and welcome page](#authentication-and-welcome-page)
 - [Glossary Support](#glossary-support)
 
-<!-- CHUNK ID: h_rule_c2d98d93  CHUNK TYPE: h_rule START_LINE:25 -->
+<!-- CHUNK ID: h_rule_b959c419  CHUNK TYPE: h_rule START_LINE:25 -->
 ---
 
 <!-- CHUNK ID: chunk_3BF1A9B5  CHUNK TYPE: header START_LINE:27 -->
@@ -35,8 +35,8 @@
 <!-- CHUNK ID: chunk_A2860DDF  CHUNK TYPE: paragraph START_LINE:29 -->
 Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services).
 
-<!-- CHUNK ID: chunk_F6F2E1FE  CHUNK TYPE: image START_LINE:31 -->
-<img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
+<!-- CHUNK ID: chunk_B6CD1E39  CHUNK TYPE: image START_LINE:31 -->
+<img src="./../../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
 <!-- CHUNK ID: chunk_B3EB591F  CHUNK TYPE: paragraph START_LINE:33 -->
 In the following table, we list all advanced options for reference:
@@ -169,7 +169,7 @@ In the following table, we list all advanced options for reference:
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:102 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_f6472f63  CHUNK TYPE: h_rule START_LINE:104 -->
+<!-- CHUNK ID: h_rule_6abceb92  CHUNK TYPE: h_rule START_LINE:104 -->
 ---
 
 <!-- CHUNK ID: chunk_E0DC0651  CHUNK TYPE: header START_LINE:106 -->
@@ -247,7 +247,7 @@ pdf2zh example.pdf --qps 45 --pool-max-worker 45
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:160 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_c3e94958  CHUNK TYPE: h_rule START_LINE:162 -->
+<!-- CHUNK ID: h_rule_e4238d10  CHUNK TYPE: h_rule START_LINE:162 -->
 ---
 
 <!-- CHUNK ID: chunk_ADC018D0  CHUNK TYPE: header START_LINE:164 -->
@@ -300,7 +300,7 @@ This command will translate the first page, the third page, pages 10-20, and all
 
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_1d91fe0b  CHUNK TYPE: h_rule START_LINE:202 -->
+<!-- CHUNK ID: h_rule_1ff5a47d  CHUNK TYPE: h_rule START_LINE:202 -->
 ---
 
 <!-- CHUNK ID: chunk_482C5F18  CHUNK TYPE: header START_LINE:204 -->
@@ -317,7 +317,7 @@ pdf2zh_next example.pdf --lang-in en -lang-out ja
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:212 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_a4153227  CHUNK TYPE: h_rule START_LINE:214 -->
+<!-- CHUNK ID: h_rule_054f7b35  CHUNK TYPE: h_rule START_LINE:214 -->
 ---
 
 <!-- CHUNK ID: chunk_EA41DE52  CHUNK TYPE: header START_LINE:216 -->
@@ -342,7 +342,7 @@ pdf2zh_next example.pdf --formular-font-pattern "(CM[^R]|MS.M|XY|MT|BL|RM|EU|LA|
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:230 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_3fc28766  CHUNK TYPE: h_rule START_LINE:232 -->
+<!-- CHUNK ID: h_rule_3b4fb973  CHUNK TYPE: h_rule START_LINE:232 -->
 ---
 
 <!-- CHUNK ID: chunk_37A13558  CHUNK TYPE: header START_LINE:234 -->
@@ -362,7 +362,7 @@ pdf2zh_next example.pdf --custom-system-prompt "/no_think You are a professional
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:244 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_10fde64d  CHUNK TYPE: h_rule START_LINE:246 -->
+<!-- CHUNK ID: h_rule_5c8eb17f  CHUNK TYPE: h_rule START_LINE:246 -->
 ---
 
 <!-- CHUNK ID: chunk_1EC5A9B5  CHUNK TYPE: header START_LINE:248 -->
@@ -407,8 +407,8 @@ For example, if you want to enable a GUI window, you can use the following comma
 PDF2ZH_GUI=TRUE pdf2zh_next
 ```
 
-<!-- CHUNK ID: chunk_7D254F0A  CHUNK TYPE: image START_LINE:281 -->
-<img src="./../images/ev_light.svg" width="580px"  alt="env"/>
+<!-- CHUNK ID: chunk_9DD1EEE0  CHUNK TYPE: image START_LINE:281 -->
+<img src="./../../images/ev_light.svg" width="580px"  alt="env"/>
 
 <!-- CHUNK ID: chunk_11A0D60E  CHUNK TYPE: list START_LINE:283 -->
 - User-Specified **Configuration File**
@@ -442,7 +442,7 @@ It is strongly recommended to refer to this configuration file's content and use
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:305 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_874005aa  CHUNK TYPE: h_rule START_LINE:307 -->
+<!-- CHUNK ID: h_rule_e547226c  CHUNK TYPE: h_rule START_LINE:307 -->
 ---
 
 <!-- CHUNK ID: chunk_870EBD0C  CHUNK TYPE: header START_LINE:309 -->
@@ -470,7 +470,7 @@ PDF2ZH_SKIP_CLEAN=TRUE pdf2zh_next example.pdf
 > [!TIP]
 > When `--enhance-compatibility` is enabled, Skip clean is automatically enabled.
 
-<!-- CHUNK ID: h_rule_8b4a64b8  CHUNK TYPE: h_rule START_LINE:328 -->
+<!-- CHUNK ID: h_rule_4a3fd2c6  CHUNK TYPE: h_rule START_LINE:328 -->
 ---
 
 <!-- CHUNK ID: chunk_A35603CF  CHUNK TYPE: header START_LINE:330 -->
@@ -487,7 +487,7 @@ pdf2zh_next example.pdf --ignore-cache
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:338 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_f51ce7fc  CHUNK TYPE: h_rule START_LINE:340 -->
+<!-- CHUNK ID: h_rule_fbda47c6  CHUNK TYPE: h_rule START_LINE:340 -->
 ---
 
 <!-- CHUNK ID: chunk_05080CDF  CHUNK TYPE: header START_LINE:342 -->
@@ -523,7 +523,7 @@ disable_config_auto_save = true
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:367 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_8ff1ab70  CHUNK TYPE: h_rule START_LINE:369 -->
+<!-- CHUNK ID: h_rule_c8edd9b4  CHUNK TYPE: h_rule START_LINE:369 -->
 ---
 
 <!-- CHUNK ID: chunk_E255AB78  CHUNK TYPE: header START_LINE:371 -->
@@ -582,7 +582,7 @@ welcome_page = "/path/to/welcome/html/file"
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:416 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_d46a4696  CHUNK TYPE: h_rule START_LINE:418 -->
+<!-- CHUNK ID: h_rule_b0ff12e1  CHUNK TYPE: h_rule START_LINE:418 -->
 ---
 
 <!-- CHUNK ID: chunk_4A9C44BF  CHUNK TYPE: header START_LINE:420 -->

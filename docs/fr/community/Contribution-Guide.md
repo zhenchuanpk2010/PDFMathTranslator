@@ -15,7 +15,8 @@ Merci pour votre intérêt pour ce projet ! Avant de commencer à contribuer, ve
 3. Problèmes explicitement marqués comme "No help needed" (y compris les problèmes dans les dépôts [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) et [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
 4. Autres contributions jugées inappropriées par les mainteneurs.  
 5. Contribution à la documentation, mais modification de la documentation dans des langues autres que l'anglais.  
-6. PRs nécessitant la modification de fichiers PDF.
+6. PRs nécessitant la modification de fichiers PDF.  
+7. PRs modifiant le fichier `pdf2zh_next/gui_translation.yaml`.
 
 Veuillez ne PAS soumettre de PR liées aux types mentionnés ci-dessus.
 
@@ -98,7 +99,13 @@ Veuillez ne PAS soumettre de PR liées aux types mentionnés ci-dessus.
 
 > [!NOTE]
 >
-> Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour ces moteurs.
+> Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour de tels moteurs.
+> Les types de traducteurs suivants ne seront pas non plus intégrés :
+> - Les traducteurs qui ont été abandonnés par les mainteneurs en amont (comme deeplx)
+> - Les traducteurs avec des dépendances importantes (comme ceux dépendant de pytorch)
+> - Les traducteurs instables
+>
+> Lorsque vous n'êtes pas sûr qu'un traducteur réponde aux exigences, vous pouvez envoyer un problème pour en discuter avec les mainteneurs.
 
 ## Structure du projet
 

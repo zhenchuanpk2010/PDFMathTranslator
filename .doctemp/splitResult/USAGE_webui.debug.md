@@ -1,7 +1,7 @@
 <!-- CHUNK ID: chunk_03FD0E12  CHUNK TYPE: paragraph START_LINE:1 -->
 [**Getting Started**](./getting-started.md) > **Installation** > **WebUI** _(current)_
 
-<!-- CHUNK ID: h_rule_203908ba  CHUNK TYPE: h_rule START_LINE:3 -->
+<!-- CHUNK ID: h_rule_bcfb308b  CHUNK TYPE: h_rule START_LINE:3 -->
 ---
 
 <!-- CHUNK ID: chunk_EDC72645  CHUNK TYPE: header START_LINE:5 -->
@@ -34,8 +34,8 @@ There are several methods to open the WebUI interface. If you are using **Window
 
 <!-- CHUNK ID: chunk_F5A7DD64  CHUNK TYPE: html_comment START_LINE:29 -->
 <!-- <img src="./images/gui.gif" width="500"/> -->
-<!-- CHUNK ID: chunk_FFA0F1F7  CHUNK TYPE: image START_LINE:30 -->
-<img src='./../images/gui.gif' width="500"/>
+<!-- CHUNK ID: chunk_B79CAF04  CHUNK TYPE: image START_LINE:30 -->
+<img src='./../../images/gui.gif' width="500"/>
 
 <!-- CHUNK ID: chunk_2FDC0409  CHUNK TYPE: header START_LINE:32 -->
 ### Environment Variables
@@ -50,10 +50,10 @@ You can set the source and target languages using environment variables:
 <!-- CHUNK ID: chunk_EEBEC547  CHUNK TYPE: header START_LINE:39 -->
 ## Preview
 
-<!-- CHUNK ID: chunk_D7787657  CHUNK TYPE: image START_LINE:41 -->
-<img src="./../images/before.png" width="500"/>
-<!-- CHUNK ID: chunk_4685028B  CHUNK TYPE: image START_LINE:42 -->
-<img src="./../images/after.png" width="500"/>
+<!-- CHUNK ID: chunk_433E69C5  CHUNK TYPE: image START_LINE:41 -->
+<img src="./../../images/before.png" width="500"/>
+<!-- CHUNK ID: chunk_64A11402  CHUNK TYPE: image START_LINE:42 -->
+<img src="./../../images/after.png" width="500"/>
 
 <!-- CHUNK ID: chunk_742C5FE6  CHUNK TYPE: header START_LINE:44 -->
 ## Maintainance

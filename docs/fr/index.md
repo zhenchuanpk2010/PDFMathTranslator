@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./docs/images/banner.png" width="320px"  alt="banner"/>
+<img src="./../../docs/images/banner.png" width="320px"  alt="banner"/>
 
 <h2 id="titre">PDFMathTranslate</h2>
 
@@ -64,7 +64,7 @@ Pour plus de détails sur la manière de contribuer, veuillez consulter le [Guid
 <h2 id="aperçu">Aperçu</h2>
 
 <div align="center">
-<!-- <img src="./docs/images/preview.gif" width="80%"  alt="preview"/> -->
+<!-- <img src="./../../docs/images/preview.gif" width="80%"  alt="preview"/> -->
 <img src="https://s.immersivetranslate.com/assets/r2-uploads/images/babeldoc-preview.png" width="80%"/>
 </div>
 

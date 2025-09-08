@@ -26,8 +26,8 @@ Il existe plusieurs méthodes pour ouvrir l'interface WebUI. Si vous utilisez **
 
     Déposez le fichier PDF dans la fenêtre et cliquez sur `Translate`.
 
-<!-- <img src="./images/gui.gif" width="500"/> -->
-<img src='./../images/gui.gif' width="500"/>
+<!-- <img src="./../../images/gui.gif" width="500"/> -->
+<img src='./../../images/gui.gif' width="500"/>
 
 ### Variables d'environnement
 
@@ -38,8 +38,8 @@ Vous pouvez définir les langues source et cible en utilisant des variables d'en
 
 ## Aperçu
 
-<img src="./../images/before.png" width="500"/>
-<img src="./../images/after.png" width="500"/>
+<img src="./../../images/before.png" width="500"/>
+<img src="./../../images/after.png" width="500"/>
 
 ## Maintenance
 
