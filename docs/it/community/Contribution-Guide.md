@@ -10,12 +10,13 @@ Grazie per il tuo interesse in questo progetto! Prima di iniziare a contribuire,
 
 ## Tipi di Contributi Non Accettati
 
-1. Documentazione internazionalizzazione/traduzione
-2. Contributi relativi all'infrastruttura core, come HTTP API, ecc.
-3. Issue contrassegnate esplicitamente come "No help needed" (incluse le issue nei repository [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
-4. Altri contributi ritenuti inappropriati dai maintainer.
-5. Contribuire alla documentazione, ma modificando la documentazione in lingue diverse dall'inglese.
-6. PR che richiedono la modifica di file PDF.
+1. Documentazione internazionalizzazione/traduzione  
+2. Contributi relativi all'infrastruttura di base, come API HTTP, ecc.  
+3. Problemi contrassegnati esplicitamente come "No help needed" (inclusi i problemi nei repository [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
+4. Altri contributi ritenuti inappropriati dai maintainer.  
+5. Contribuire alla documentazione, ma modificando la documentazione in lingue diverse dall'inglese.  
+6. PR che richiedono la modifica di file PDF.  
+7. PR che modificano il file `pdf2zh_next/gui_translation.yaml`.
 
 Per favore NON inviare PR relativi ai tipi sopra menzionati.
 
@@ -99,6 +100,12 @@ Per favore NON inviare PR relativi ai tipi sopra menzionati.
 > [!NOTE]
 >
 > Questo progetto non intende supportare alcun motore di traduzione con un RPS (richieste al secondo) inferiore a 4. Si prega di non inviare supporto per tali motori.
+> Anche i seguenti tipi di traduttori non verranno integrati:
+> - Traduttori che sono stati interrotti dai manutentori upstream (come deeplx)
+> - Traduttori con dipendenze pesanti (come quelli che dipendono da pytorch)
+> - Traduttori instabili
+>
+> Quando non sei sicuro se un traduttore soddisfa i requisiti, puoi inviare un problema per discuterne con i manutentori.
 
 ## Struttura del progetto
 

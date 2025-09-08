@@ -28,7 +28,7 @@
 
 コマンドラインで翻訳コマンドを実行し、現在の作業ディレクトリに翻訳済みドキュメント `example-mono.pdf` とバイリンガルドキュメント `example-dual.pdf` を生成します。デフォルトの翻訳サービスとして Google を使用します。その他のサポート翻訳サービスは [HERE](https://github.com/PDFMathTranslate/PDFMathTranslate-next/blob/main/docs/ADVANCED.md#services) で確認できます。
 
-<img src="./../images/cmd_light.svg" width="580px"  alt="cmd"/>
+<img src="./../../images/cmd_light.svg" width="580px"  alt="cmd"/>
 
 以下の表に、すべての高度なオプションを参考として記載します：
 
@@ -278,7 +278,7 @@ pdf2zh_next --gui
 PDF2ZH_GUI=TRUE pdf2zh_next
 ```
 
-<img src="./../images/ev_light.svg" width="580px"  alt="env"/>
+<img src="./../../images/ev_light.svg" width="580px"  alt="env"/>
 
 - ユーザー指定の **設定ファイル**
 

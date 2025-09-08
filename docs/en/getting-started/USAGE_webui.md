@@ -27,7 +27,7 @@ There are several methods to open the WebUI interface. If you are using **Window
     Drop the PDF file into the window and click `Translate`.
 
 <!-- <img src="./images/gui.gif" width="500"/> -->
-<img src='./../images/gui.gif' width="500"/>
+<img src='./../../images/gui.gif' width="500"/>
 
 ### Environment Variables
 
@@ -38,8 +38,8 @@ You can set the source and target languages using environment variables:
 
 ## Preview
 
-<img src="./../images/before.png" width="500"/>
-<img src="./../images/after.png" width="500"/>
+<img src="./../../images/before.png" width="500"/>
+<img src="./../../images/after.png" width="500"/>
 
 ## Maintainance
 

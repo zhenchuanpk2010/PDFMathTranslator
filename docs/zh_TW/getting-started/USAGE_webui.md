@@ -26,8 +26,8 @@
 
     將 `PDF` 文件拖曳至視窗中並點擊 `Translate`。
 
-<!-- <img src="./images/gui.gif" width="500"/> -->
-<img src='./../images/gui.gif' width="500"/>
+<!-- <img src="./../../images/gui.gif" width="500"/> -->
+<img src='./../../images/gui.gif' width="500"/>
 
 ### 環境變數
 
@@ -38,8 +38,8 @@
 
 ## 預覽
 
-<img src="./../images/before.png" width="500"/>
-<img src="./../images/after.png" width="500"/>
+<img src="./../../images/before.png" width="500"/>
+<img src="./../../images/after.png" width="500"/>
 
 ## 維護
 

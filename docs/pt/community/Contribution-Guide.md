@@ -10,12 +10,13 @@ Obrigado pelo seu interesse neste projeto! Antes de começar a contribuir, reser
 
 ## Tipos de Contribuições Não Aceitas
 
-1. Documentação de internacionalização/tradução  
-2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.  
-3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
-4. Outras contribuições consideradas inadequadas pelos mantenedores.  
-5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.  
+1. Internacionalização/tradução da documentação
+2. Contribuições relacionadas à infraestrutura principal, como API HTTP, etc.
+3. Problemas explicitamente marcados como "No help needed" (incluindo problemas nos repositórios [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) e [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).
+4. Outras contribuições consideradas inadequadas pelos mantenedores.
+5. Contribuição com documentação, mas alterando a documentação em idiomas diferentes do inglês.
 6. PRs que exigem modificação de arquivos PDF.
+7. PRs que modificam o arquivo `pdf2zh_next/gui_translation.yaml`.
 
 Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
@@ -98,7 +99,13 @@ Por favor, NÃO envie PRs relacionados aos tipos mencionados acima.
 
 > [!NOTE]
 >
-> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para esses mecanismos.
+> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para tais mecanismos.
+> Os seguintes tipos de tradutores também não serão integrados:
+> - Tradutores que foram descontinuados pelos mantenedores upstream (como deeplx)
+> - Tradutores com grandes dependências (como aqueles que dependem de pytorch)
+> - Tradutores instáveis
+>
+> Quando você não tem certeza se um tradutor atende aos requisitos, pode enviar um problema para discutir com os mantenedores.
 
 ## Estrutura do Projeto
 

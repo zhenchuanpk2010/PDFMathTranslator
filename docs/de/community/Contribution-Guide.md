@@ -10,12 +10,13 @@ Vielen Dank für Ihr Interesse an diesem Projekt! Bevor Sie mit Ihrem Beitrag be
 
 ## Nicht akzeptierte Beitragsarten
 
-1. Dokumentationsinternationalisierung/-übersetzung
-2. Beiträge zur Kerninfrastruktur, wie z. B. HTTP-API usw.
-3. Probleme, die ausdrücklich als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme im [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate)- und [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)-Repository).
-4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.
-5. Beitragsdokumentation, aber Änderung der Dokumentation in anderen Sprachen als Englisch.
-6. PRs, die eine Änderung von `PDF`-Dateien erfordern.
+1. Dokumentationsinternationalisierung/-übersetzung  
+2. Beiträge zur Kerninfrastruktur, wie z. B. HTTP-API usw.  
+3. Probleme, die explizit als "Keine Hilfe benötigt" markiert sind (einschließlich Probleme in den Repositorys [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) und [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next)).  
+4. Andere Beiträge, die von den Maintainern als unangemessen erachtet werden.  
+5. Beiträge zur Dokumentation, aber Änderungen an der Dokumentation in anderen Sprachen als Englisch.  
+6. PRs, die Änderungen an PDF-Dateien erfordern.  
+7. PRs, die die Datei `pdf2zh_next/gui_translation.yaml` modifizieren.
 
 Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
@@ -98,7 +99,13 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 > [!NOTE]
 >
-> Dieses Projekt beabsichtigt nicht, Übersetzungsmaschinen mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Maschinen ein.
+> Dieses Projekt beabsichtigt nicht, Übersetzungsdienste mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Dienste ein.
+> Die folgenden Arten von Übersetzern werden ebenfalls nicht integriert:
+> - Übersetzer, die von den ursprünglichen Maintainern eingestellt wurden (wie deeplx)
+> - Übersetzer mit großen Abhängigkeiten (wie solche, die von pytorch abhängen)
+> - Instabile Übersetzer
+>
+> Wenn Sie unsicher sind, ob ein Übersetzer die Anforderungen erfüllt, können Sie ein Issue erstellen, um mit den Maintainern zu diskutieren.
 
 ## Projektstruktur
 

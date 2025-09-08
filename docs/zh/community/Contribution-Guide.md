@@ -15,7 +15,8 @@
 3. 明确标记为「无需帮助」的 Issues（包括 [Byaidu/PDFMathTranslate](Byaidu/PDFMathTranslate) 和 [PDFMathTranslate/PDFMathTranslate-next](PDFMathTranslate/PDFMathTranslate-next) 仓库中的 Issues）
 4. 维护者认为不合适的其他贡献
 5. 贡献文档，但修改非英语语言的文档
-6. 需要修改 `PDF` 文件的 PRs
+6. 需要修改 PDF 文件的 PR
+7. 修改 `pdf2zh_next/gui_translation.yaml` 文件的 PR
 
 请勿提交与上述类型相关的 PR。
 
@@ -98,7 +99,13 @@
 
 > [!NOTE]
 >
-> 本项目无意支持任何 RPS（每秒请求数）低于 4 的翻译引擎。请勿提交对此类引擎的支持。
+> 本项目无意支持任何 RPS（每秒请求数）低于 4 的翻译引擎。请勿提交对此类引擎的支持请求。
+> 以下类型的翻译器也不会被集成：
+> - 已被上游维护者弃用的翻译器（如 deeplx）
+> - 依赖项庞大的翻译器（如依赖 pytorch 的翻译器）
+> - 不稳定的翻译器
+>
+> 当您不确定某个翻译器是否符合要求时，可以提交 issue 与维护者讨论。
 
 ## 项目结构
 

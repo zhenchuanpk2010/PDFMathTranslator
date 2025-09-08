@@ -26,8 +26,8 @@ WebUI インターフェースを開く方法はいくつかあります。**Win
 
     `PDF` ファイルをウィンドウにドロップして、`Translate` をクリックしてください。
 
-<!-- <img src="./images/gui.gif" width="500"/> -->
-<img src='./../images/gui.gif' width="500"/>
+<!-- <img src="./../../images/gui.gif" width="500"/> -->
+<img src='./../../images/gui.gif' width="500"/>
 
 ### 環境変数
 
@@ -38,8 +38,8 @@ WebUI インターフェースを開く方法はいくつかあります。**Win
 
 ## プレビュー
 
-<img src="./../images/before.png" width="500"/>
-<img src="./../images/after.png" width="500"/>
+<img src="./../../images/before.png" width="500"/>
+<img src="./../../images/after.png" width="500"/>
 
 ## メンテナンス
 
