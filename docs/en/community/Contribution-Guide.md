@@ -100,6 +100,12 @@ Please do NOT submit PRs related to the above types.
 > [!NOTE]
 >
 > This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.
+> The following types of translators will also not be integrated:
+> - Translators that have been discontinued by upstream maintainers (such as deeplx)
+> - Translators with large dependencies (such as those depending on pytorch)
+> - Unstable translators
+>
+> When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.
 
 ## Project Structure
 
