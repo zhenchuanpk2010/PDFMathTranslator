@@ -104,6 +104,7 @@ Please do NOT submit PRs related to the above types.
 > - Translators that have been discontinued by upstream maintainers (such as deeplx)
 > - Translators with large dependencies (such as those depending on pytorch)
 > - Unstable translators
+> - Translator Based on Reverse Engineering API
 >
 > When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.
 
