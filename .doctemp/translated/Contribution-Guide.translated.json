@@ -525,28 +525,28 @@
       }
     },
     {
-      "chunk_id": "chunk_F8D54300",
+      "chunk_id": "chunk_D3058459",
       "chunk_type": "blockquote",
-      "original_content": "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n> The following types of translators will also not be integrated:\n> - Translators that have been discontinued by upstream maintainers (such as deeplx)\n> - Translators with large dependencies (such as those depending on pytorch)\n> - Unstable translators\n>\n> When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.\n",
+      "original_content": "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n> The following types of translators will also not be integrated:\n> - Translators that have been discontinued by upstream maintainers (such as deeplx)\n> - Translators with large dependencies (such as those depending on pytorch)\n> - Unstable translators\n> - Translator Based on Reverse Engineering API\n>\n> When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.\n",
       "start_line_no": 100,
       "translations": {
-        "zh": "> [!NOTE]\n>\n> 本项目无意支持任何 RPS（每秒请求数）低于 4 的翻译引擎。请勿提交对此类引擎的支持请求。\n> 以下类型的翻译器也不会被集成：\n> - 已被上游维护者弃用的翻译器（如 deeplx）\n> - 依赖项庞大的翻译器（如依赖 pytorch 的翻译器）\n> - 不稳定的翻译器\n>\n> 当您不确定某个翻译器是否符合要求时，可以提交 issue 与维护者讨论。\n",
-        "zh_TW": "> [!NOTE]\n>\n> 本項目無意支援任何 RPS（每秒請求數）低於 4 的翻譯引擎。請勿提交對此類引擎的支援。\n> 以下類型的翻譯器也不會被整合：\n> - 已被上游維護者棄用的翻譯器（例如 deeplx）\n> - 依賴項過大的翻譯器（例如依賴 pytorch 的翻譯器）\n> - 不穩定的翻譯器\n>\n> 當您不確定某個翻譯器是否符合要求時，可以發送 issue 與維護者討論。\n",
-        "ru": "> [!NOTE]\n>\n> Этот проект не предназначен для поддержки каких-либо механизмов перевода с RPS (запросов в секунду) ниже 4. Пожалуйста, не предлагайте поддержку для таких механизмов.\n> Следующие типы переводчиков также не будут интегрированы:\n> - Переводчики, поддержка которых прекращена вышестоящими разработчиками (например, deeplx)\n> - Переводчики с большими зависимостями (например, те, которые зависят от pytorch)\n> - Нестабильные переводчики\n>\n> Если вы не уверены, соответствует ли переводчик требованиям, вы можете создать issue для обсуждения с сопровождающими.\n",
-        "pt": "> [!NOTE]\n>\n> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para tais mecanismos.\n> Os seguintes tipos de tradutores também não serão integrados:\n> - Tradutores que foram descontinuados pelos mantenedores upstream (como deeplx)\n> - Tradutores com grandes dependências (como aqueles que dependem de pytorch)\n> - Tradutores instáveis\n>\n> Quando você não tem certeza se um tradutor atende aos requisitos, pode enviar um problema para discutir com os mantenedores.\n",
-        "it": "> [!NOTE]\n>\n> Questo progetto non intende supportare alcun motore di traduzione con un RPS (richieste al secondo) inferiore a 4. Si prega di non inviare supporto per tali motori.\n> Anche i seguenti tipi di traduttori non verranno integrati:\n> - Traduttori che sono stati interrotti dai manutentori upstream (come deeplx)\n> - Traduttori con dipendenze pesanti (come quelli che dipendono da pytorch)\n> - Traduttori instabili\n>\n> Quando non sei sicuro se un traduttore soddisfa i requisiti, puoi inviare un problema per discuterne con i manutentori.\n",
-        "fr": "> [!NOTE]\n>\n> Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour de tels moteurs.\n> Les types de traducteurs suivants ne seront pas non plus intégrés :\n> - Les traducteurs qui ont été abandonnés par les mainteneurs en amont (comme deeplx)\n> - Les traducteurs avec des dépendances importantes (comme ceux dépendant de pytorch)\n> - Les traducteurs instables\n>\n> Lorsque vous n'êtes pas sûr qu'un traducteur réponde aux exigences, vous pouvez envoyer un problème pour en discuter avec les mainteneurs.\n",
-        "es": "> [!NOTE]\n>\n> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíe soporte para dichos motores.\n> Los siguientes tipos de traductores tampoco serán integrados:\n> - Traductores que han sido discontinuados por los mantenedores upstream (como deeplx)\n> - Traductores con grandes dependencias (como aquellos que dependen de pytorch)\n> - Traductores inestables\n>\n> Cuando no esté seguro de si un traductor cumple con los requisitos, puede enviar un issue para discutir con los mantenedores.\n",
-        "ko": "> [!NOTE]\n>\n> 이 프로젝트는 RPS(초당 요청 수) 가 4 미만인 번역 엔진을 지원할 계획이 없습니다. 이러한 엔진에 대한 지원을 요청하지 마십시오.\n> 다음 유형의 번역기도 통합되지 않습니다:\n> - 업스트림 유지보수자에 의해 중단된 번역기 (예: deeplx)\n> - 큰 의존성이 있는 번역기 (예: pytorch 에 의존하는 경우)\n> - 불안정한 번역기\n>\n> 특정 번역기가 요구 사항을 충족하는지 확실하지 않은 경우, 이슈를 보내 유지보수자와 논의할 수 있습니다.\n",
-        "de": "> [!NOTE]\n>\n> Dieses Projekt beabsichtigt nicht, Übersetzungsdienste mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Dienste ein.\n> Die folgenden Arten von Übersetzern werden ebenfalls nicht integriert:\n> - Übersetzer, die von den ursprünglichen Maintainern eingestellt wurden (wie deeplx)\n> - Übersetzer mit großen Abhängigkeiten (wie solche, die von pytorch abhängen)\n> - Instabile Übersetzer\n>\n> Wenn Sie unsicher sind, ob ein Übersetzer die Anforderungen erfüllt, können Sie ein Issue erstellen, um mit den Maintainern zu diskutieren.\n",
-        "ja": "> [!NOTE]\n>\n> このプロジェクトは、RPS（1 秒あたりのリクエスト数）が 4 未満の翻訳エンジンをサポートする意図はありません。そのようなエンジンのサポートを提出しないでください。\n> 以下の種類の翻訳者も統合されません：\n> - 上流のメンテナーによって廃止された翻訳者（例：deeplx）\n> - 大きな依存関係を持つ翻訳者（例：pytorch に依存するもの）\n> - 不安定な翻訳者\n>\n> 翻訳者が要件を満たしているかどうかわからない場合は、メンテナーと議論するためにイシューを送信できます。\n"
+        "zh": "> [!NOTE]\n>\n> 本项目无意支持任何 RPS（每秒请求数）低于 4 的翻译引擎。请勿提交对此类引擎的支持请求。\n> 以下类型的翻译器同样不会被集成：\n> - 已被上游维护者弃用的翻译器（例如 deeplx）\n> - 依赖项庞大的翻译器（例如依赖 pytorch 的翻译器）\n> - 不稳定的翻译器\n> - 基于逆向工程 API 的翻译器\n>\n> 若您不确定某个翻译器是否符合要求，可以提交 issue 与维护者讨论。\n",
+        "zh_TW": "> [!NOTE]\n>\n> 本項目無意支援任何 RPS（每秒請求數）低於 4 的翻譯引擎。請勿提交對此類引擎的支援請求。\n> 以下類型的翻譯器也不會被整合：\n> - 已被上游維護者棄用的翻譯器（例如 deeplx）\n> - 依賴項過大的翻譯器（例如依賴 pytorch 的翻譯器）\n> - 不穩定的翻譯器\n> - 基於逆向工程 API 的翻譯器\n>\n> 當您不確定某個翻譯器是否符合要求時，可以提交 issue 與維護者討論。\n",
+        "es": "> [!NOTE]\n>\n> Este proyecto no tiene la intención de admitir ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíe soporte para dichos motores.\n> Los siguientes tipos de traductores tampoco se integrarán:\n> - Traductores que han sido discontinuados por los mantenedores upstream (como deeplx)\n> - Traductores con grandes dependencias (como aquellos que dependen de pytorch)\n> - Traductores inestables\n> - Traductores basados en API de ingeniería inversa\n>\n> Cuando no esté seguro de si un traductor cumple con los requisitos, puede enviar un problema para discutirlo con los mantenedores.\n",
+        "pt": "> [!NOTE]\n>\n> Este projeto não pretende suportar nenhum mecanismo de tradução com um RPS (solicitações por segundo) inferior a 4. Por favor, não envie suporte para tais mecanismos.\n> Os seguintes tipos de tradutores também não serão integrados:\n> - Tradutores que foram descontinuados pelos mantenedores upstream (como deeplx)\n> - Tradutores com grandes dependências (como aqueles que dependem de pytorch)\n> - Tradutores instáveis\n> - Tradutor Baseado em API de Engenharia Reversa\n>\n> Quando você não tem certeza se um tradutor atende aos requisitos, pode enviar um problema para discutir com os mantenedores.\n",
+        "fr": "> [!NOTE]\n>\n> Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour de tels moteurs.\n> Les types de traducteurs suivants ne seront pas non plus intégrés :\n> - Les traducteurs qui ont été abandonnés par les mainteneurs en amont (comme deeplx)\n> - Les traducteurs avec des dépendances volumineuses (comme ceux dépendant de pytorch)\n> - Les traducteurs instables\n> - Les traducteurs basés sur une API d'ingénierie inverse\n>\n> Lorsque vous n'êtes pas sûr qu'un traducteur répond aux exigences, vous pouvez envoyer un problème pour en discuter avec les mainteneurs.\n",
+        "de": "> [!NOTE]\n>\n> Dieses Projekt beabsichtigt nicht, Übersetzungsmaschinen mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Maschinen ein.\n> Die folgenden Arten von Übersetzern werden ebenfalls nicht integriert:\n> - Übersetzer, die von den ursprünglichen Maintainern eingestellt wurden (wie deeplx)\n> - Übersetzer mit großen Abhängigkeiten (wie solche, die von pytorch abhängen)\n> - Instabile Übersetzer\n> - Übersetzer, die auf Reverse-Engineering-APIs basieren\n>\n> Wenn Sie unsicher sind, ob ein Übersetzer die Anforderungen erfüllt, können Sie ein Issue erstellen, um mit den Maintainern zu diskutieren.\n",
+        "ja": "> [!NOTE]\n>\n> このプロジェクトは、RPS（1 秒あたりのリクエスト数）が 4 未満の翻訳エンジンをサポートする意図はありません。そのようなエンジンのサポートを提出しないでください。\n> 以下の種類の翻訳機も統合されません：\n> - 上流のメンテナーによって廃止された翻訳機（deeplx など）\n> - 大きな依存関係を持つ翻訳機（pytorch に依存するものなど）\n> - 不安定な翻訳機\n> - リバースエンジニアリング API に基づく翻訳機\n>\n> 翻訳機が要件を満たしているかどうかわからない場合は、メンテナーと議論するために issue を送信できます。\n",
+        "ko": "> [!NOTE]\n>\n> 이 프로젝트는 RPS(초당 요청 수) 가 4 미만인 번역 엔진을 지원할 의도가 없습니다. 이러한 엔진에 대한 지원을 요청하지 마십시오.\n> 다음 유형의 번역기도 통합되지 않습니다:\n> - 업스트림 유지보수자에 의해 중단된 번역기 (예: deeplx)\n> - 큰 의존성이 있는 번역기 (예: pytorch 에 의존하는 경우)\n> - 불안정한 번역기\n> - 리버스 엔지니어링 API 기반 번역기\n>\n> 특정 번역기가 요구 사항을 충족하는지 확실하지 않은 경우, 이슈를 보내 유지보수자와 논의할 수 있습니다.\n",
+        "it": "> [!NOTE]\n>\n> Questo progetto non intende supportare alcun motore di traduzione con un RPS (richieste al secondo) inferiore a 4. Si prega di non inviare supporto per tali motori.\n> Anche i seguenti tipi di traduttori non verranno integrati:\n> - Traduttori che sono stati interrotti dai manutentori upstream (come deeplx)\n> - Traduttori con dipendenze pesanti (come quelli che dipendono da pytorch)\n> - Traduttori instabili\n> - Traduttori basati su API di reverse engineering\n>\n> Quando non sei sicuro se un traduttore soddisfa i requisiti, puoi inviare un problema per discuterne con i manutentori.\n",
+        "ru": "> [!NOTE]\n>\n> Этот проект не предназначен для поддержки каких-либо движков перевода с RPS (запросов в секунду) ниже 4. Пожалуйста, не предлагайте поддержку для таких движков.\n> Следующие типы переводчиков также не будут интегрированы:\n> - Переводчики, поддержка которых прекращена вышестоящими разработчиками (например, deeplx)\n> - Переводчики с большими зависимостями (например, те, которые зависят от pytorch)\n> - Нестабильные переводчики\n> - Переводчики, основанные на обратном инжиниринге API\n>\n> Если вы не уверены, соответствует ли переводчик требованиям, вы можете создать issue для обсуждения с сопровождающими.\n"
       }
     },
     {
       "chunk_id": "chunk_7ED6230D",
       "chunk_type": "header",
       "original_content": "## Project Structure\n",
-      "start_line_no": 110,
+      "start_line_no": 111,
       "translations": {
         "zh_TW": "## 專案結構\n",
         "ko": "## 프로젝트 구조\n",
@@ -564,7 +564,7 @@
       "chunk_id": "chunk_9004E6A3",
       "chunk_type": "list",
       "original_content": "- **config folder**: Configuration system.\n- **translator folder**: Translator-related implementations.\n- **gui.py**: Provides the GUI interface.\n- **const.py**: Some constants.\n- **main.py**: Provides the command-line tool.\n- **high_level.py**: High-level interfaces based on BabelDOC.\n- **http_api.py**: Provides HTTP API (not started).\n",
-      "start_line_no": 112,
+      "start_line_no": 113,
       "translations": {
         "zh": "- **config 文件夹**：配置系统。\n- **translator 文件夹**：翻译器相关实现。\n- **gui.py**：提供 GUI 界面。\n- **const.py**：一些常量。\n- **main.py**：提供命令行工具。\n- **high_level.py**：基于 BabelDOC 的高级接口。\n- **http_api.py**：提供 HTTP API（未启动）。\n",
         "zh_TW": "- **config 資料夾**：配置系統。\n- **translator 資料夾**：與翻譯器相關的實現。\n- **gui.py**：提供 GUI 介面。\n- **const.py**：一些常數。\n- **main.py**：提供命令行工具。\n- **high_level.py**：基於 BabelDOC 的高階介面。\n- **http_api.py**：提供 HTTP API（尚未啟動）。\n",
@@ -582,7 +582,7 @@
       "chunk_id": "chunk_0C087ADF",
       "chunk_type": "header",
       "original_content": "## Contact Us\n",
-      "start_line_no": 120,
+      "start_line_no": 121,
       "translations": {
         "ko": "## 문의하기\n",
         "fr": "## Nous contacter\n",
@@ -600,7 +600,7 @@
       "chunk_id": "chunk_2FB8F835",
       "chunk_type": "paragraph",
       "original_content": "If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!\n",
-      "start_line_no": 122,
+      "start_line_no": 123,
       "translations": {
         "zh_TW": "如果您有任何疑問，請透過 Issue 提交反饋或加入我們的 Telegram 群組。感謝您的貢獻！\n",
         "zh": "如果您有任何问题，请通过 Issue 提交反馈或加入我们的 Telegram 群组。感谢您的贡献！\n",
@@ -618,7 +618,7 @@
       "chunk_id": "chunk_C2A414AC",
       "chunk_type": "blockquote",
       "original_content": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
-      "start_line_no": 124,
+      "start_line_no": 125,
       "translations": {
         "zh": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) 为该项目活跃贡献者提供每月 Pro 会员兑换码。详情请参阅：[BabelDOC/PDFMathTranslate 贡献者奖励规则](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",
         "ru": "> [!TIP]\n>\n> [Immersive Translate](https://immersivetranslate.com) спонсирует ежемесячные коды Pro-подписки для активных участников этого проекта. Подробности смотрите здесь: [Правила вознаграждения участников BabelDOC/PDFMathTranslate](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)",

@@ -126,7 +126,7 @@ Please do NOT submit PRs related to the above types.
 2. Add an instance of the new translator configuration class to the `TRANSLATION_ENGINE_SETTING_TYPE` type alias in the same file.
 3. Add the new translator implementation class in the `pdf2zh/translator/translator_impl` folder.
 
-<!-- CHUNK ID: chunk_F8D54300  CHUNK TYPE: blockquote START_LINE:100 -->
+<!-- CHUNK ID: chunk_D3058459  CHUNK TYPE: blockquote START_LINE:100 -->
 > [!NOTE]
 >
 > This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.
@@ -134,13 +134,14 @@ Please do NOT submit PRs related to the above types.
 > - Translators that have been discontinued by upstream maintainers (such as deeplx)
 > - Translators with large dependencies (such as those depending on pytorch)
 > - Unstable translators
+> - Translator Based on Reverse Engineering API
 >
 > When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.
 
-<!-- CHUNK ID: chunk_7ED6230D  CHUNK TYPE: header START_LINE:110 -->
+<!-- CHUNK ID: chunk_7ED6230D  CHUNK TYPE: header START_LINE:111 -->
 ## Project Structure
 
-<!-- CHUNK ID: chunk_9004E6A3  CHUNK TYPE: list START_LINE:112 -->
+<!-- CHUNK ID: chunk_9004E6A3  CHUNK TYPE: list START_LINE:113 -->
 - **config folder**: Configuration system.
 - **translator folder**: Translator-related implementations.
 - **gui.py**: Provides the GUI interface.
@@ -149,13 +150,13 @@ Please do NOT submit PRs related to the above types.
 - **high_level.py**: High-level interfaces based on BabelDOC.
 - **http_api.py**: Provides HTTP API (not started).
 
-<!-- CHUNK ID: chunk_0C087ADF  CHUNK TYPE: header START_LINE:120 -->
+<!-- CHUNK ID: chunk_0C087ADF  CHUNK TYPE: header START_LINE:121 -->
 ## Contact Us
 
-<!-- CHUNK ID: chunk_2FB8F835  CHUNK TYPE: paragraph START_LINE:122 -->
+<!-- CHUNK ID: chunk_2FB8F835  CHUNK TYPE: paragraph START_LINE:123 -->
 If you have any questions, please submit feedback via Issue or join our Telegram Group. Thank you for your contribution!
 
-<!-- CHUNK ID: chunk_C2A414AC  CHUNK TYPE: blockquote START_LINE:124 -->
+<!-- CHUNK ID: chunk_C2A414AC  CHUNK TYPE: blockquote START_LINE:125 -->
 > [!TIP]
 >
 > [Immersive Translate](https://immersivetranslate.com) sponsors monthly Pro membership codes for active contributors to this project. For details, please see: [BabelDOC/PDFMathTranslate Contributor Reward Rules](https://funstory-ai.github.io/BabelDOC/CONTRIBUTOR_REWARD/)

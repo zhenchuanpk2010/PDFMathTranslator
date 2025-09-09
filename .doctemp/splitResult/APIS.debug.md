@@ -11,7 +11,7 @@ The present project supports two types of APIs, All methods need the Redis;
 - [Functional calls in Python](#api-python)
 - [HTTP protocols](#api-http)
 
-<!-- CHUNK ID: h_rule_cf720d83  CHUNK TYPE: h_rule START_LINE:11 -->
+<!-- CHUNK ID: h_rule_4414eb29  CHUNK TYPE: h_rule START_LINE:11 -->
 ---
 
 <!-- CHUNK ID: chunk_1C2FD3FE  CHUNK TYPE: paragraph START_LINE:13 -->
@@ -49,7 +49,7 @@ with open('example.pdf', 'rb') as f:
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:39 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_55f09fc8  CHUNK TYPE: h_rule START_LINE:41 -->
+<!-- CHUNK ID: h_rule_169a436a  CHUNK TYPE: h_rule START_LINE:41 -->
 ---
 
 <!-- CHUNK ID: chunk_F96246D5  CHUNK TYPE: paragraph START_LINE:43 -->
@@ -109,5 +109,5 @@ In a more flexible way, you can communicate with the program using HTTP protocol
 <!-- CHUNK ID: chunk_F1B6ECA2  CHUNK TYPE: paragraph START_LINE:95 -->
 [⬆️ Back to top](#toc)
 
-<!-- CHUNK ID: h_rule_a85eec0c  CHUNK TYPE: h_rule START_LINE:97 -->
+<!-- CHUNK ID: h_rule_21774012  CHUNK TYPE: h_rule START_LINE:97 -->
 ---

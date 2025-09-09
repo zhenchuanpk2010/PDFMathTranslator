@@ -102,10 +102,11 @@ Veuillez ne PAS soumettre de PR liées aux types mentionnés ci-dessus.
 > Ce projet n'a pas l'intention de prendre en charge les moteurs de traduction avec un RPS (requêtes par seconde) inférieur à 4. Veuillez ne pas soumettre de support pour de tels moteurs.
 > Les types de traducteurs suivants ne seront pas non plus intégrés :
 > - Les traducteurs qui ont été abandonnés par les mainteneurs en amont (comme deeplx)
-> - Les traducteurs avec des dépendances importantes (comme ceux dépendant de pytorch)
+> - Les traducteurs avec des dépendances volumineuses (comme ceux dépendant de pytorch)
 > - Les traducteurs instables
+> - Les traducteurs basés sur une API d'ingénierie inverse
 >
-> Lorsque vous n'êtes pas sûr qu'un traducteur réponde aux exigences, vous pouvez envoyer un problème pour en discuter avec les mainteneurs.
+> Lorsque vous n'êtes pas sûr qu'un traducteur répond aux exigences, vous pouvez envoyer un problème pour en discuter avec les mainteneurs.
 
 ## Structure du projet
 

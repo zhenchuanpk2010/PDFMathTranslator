@@ -1,0 +1,96 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/TranslationServices/Aliyun.md",
+  "source_lang": "en",
+  "outputs": [
+    {
+      "chunk_id": "chunk_5BD35ED9",
+      "chunk_type": "header",
+      "original_content": "# Aliyun Qwen\n",
+      "start_line_no": 1,
+      "translations": {
+        "ja": "# 阿里雲 Qwen\n",
+        "zh_TW": "# 阿里雲 Qwen\n",
+        "it": "# Aliyun Qwen\n",
+        "es": "# Aliyun Qwen\n",
+        "de": "# Aliyun Qwen\n",
+        "fr": "# Aliyun Qwen\n",
+        "ko": "# Aliyun Qwen\n",
+        "ru": "# Aliyun Qwen\n",
+        "zh": "# 阿里云通义千问\n",
+        "pt": "# Aliyun Qwen\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_ED2346E0",
+      "chunk_type": "paragraph",
+      "original_content": "It is recommended to use the `qwen-plus-latest` model.\n\nReference configuration:\n",
+      "start_line_no": 3,
+      "translations": {
+        "zh": "建议使用 `qwen-plus-latest` 模型。\n\n参考配置：\n",
+        "ja": "`qwen-plus-latest` モデルの使用が推奨されます。\n\n参考設定：\n",
+        "zh_TW": "建議使用 `qwen-plus-latest` 模型。\n\n參考配置：\n",
+        "it": "Si consiglia di utilizzare il modello `qwen-plus-latest`.\n\nConfigurazione di riferimento:\n",
+        "ru": "Рекомендуется использовать модель `qwen-plus-latest`.\n\nПример конфигурации:\n",
+        "ko": "`qwen-plus-latest` 모델 사용을 권장합니다.\n\n참조 구성:\n",
+        "pt": "Recomenda-se usar o modelo `qwen-plus-latest`.\n\nConfiguração de referência:\n",
+        "es": "Se recomienda utilizar el modelo `qwen-plus-latest`.\n\nConfiguración de referencia:\n",
+        "fr": "Il est recommandé d'utiliser le modèle `qwen-plus-latest`.\n\nConfiguration de référence :\n",
+        "de": "Es wird empfohlen, das Modell `qwen-plus-latest` zu verwenden.\n\nReferenzkonfiguration:\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_B142B723",
+      "chunk_type": "list",
+      "original_content": "- Translation Service: `qwen-plus-latest`\n- Base URL: keep default\n- API key: your API key\n- Timeout (seconds): 500\n- Temperature: 0.0\n- Send temperature: True\n- Enable JSON mode: True\n",
+      "start_line_no": 7,
+      "translations": {
+        "zh": "- 翻译服务：`qwen-plus-latest`\n- 基础 URL：保持默认\n- API 密钥：你的 API 密钥\n- 超时时间（秒）：500\n- 温度值：0.0\n- 发送温度值：True\n- 启用 JSON 模式：True\n",
+        "zh_TW": "- 翻譯服務：`qwen-plus-latest`\n- 基礎 URL：保持默認\n- API 密鑰：你的 API 密鑰\n- 超時時間（秒）：500\n- 溫度：0.0\n- 發送溫度：True\n- 啟用 JSON 模式：True\n",
+        "ko": "- 번역 서비스: `qwen-plus-latest`\n- 기본 URL: 기본값 유지\n- API 키: 당신의 API 키\n- 타임아웃 (초): 500\n- 온도: 0.0\n- 온도 전송: True\n- JSON 모드 활성화: True\n",
+        "fr": "- Service de traduction : `qwen-plus-latest`\n- URL de base : conserver par défaut\n- Clé API : votre clé API\n- Délai d'attente (secondes) : 500\n- Température : 0.0\n- Envoyer la température : Vrai\n- Activer le mode JSON : Vrai\n",
+        "ja": "- 翻訳サービス：`qwen-plus-latest`\n- ベース URL：デフォルトを維持\n- API キー：あなたの API キー\n- タイムアウト（秒）：500\n- 温度：0.0\n- 温度を送信：True\n- JSON モードを有効化：True\n",
+        "ru": "- Сервис перевода: `qwen-plus-latest`  \n- Базовый URL: оставить по умолчанию  \n- API ключ: ваш API ключ  \n- Таймаут (секунды): 500  \n- Температура: 0.0  \n- Отправлять температуру: Да  \n- Включить JSON режим: Да\n",
+        "de": "- Übersetzungsdienst: `qwen-plus-latest`\n- Basis-URL: Standard beibehalten\n- API-Schlüssel: Ihr API-Schlüssel\n- Timeout (Sekunden): 500\n- Temperatur: 0.0\n- Temperatur senden: Wahr\n- JSON-Modus aktivieren: Wahr\n",
+        "es": "- Servicio de traducción: `qwen-plus-latest`  \n- URL base: mantener predeterminado  \n- Clave API: tu clave API  \n- Tiempo de espera (segundos): 500  \n- Temperatura: 0.0  \n- Enviar temperatura: Verdadero  \n- Habilitar modo JSON: Verdadero\n",
+        "it": "- Servizio di traduzione: `qwen-plus-latest`\n- URL di base: mantenere predefinito\n- Chiave API: la tua chiave API\n- Timeout (secondi): 500\n- Temperatura: 0.0\n- Invia temperatura: Vero\n- Abilita modalità JSON: Vero\n",
+        "pt": "- Serviço de tradução: `qwen-plus-latest`\n- URL base: manter padrão\n- Chave da API: sua chave da API\n- Tempo limite (segundos): 500\n- Temperatura: 0.0\n- Enviar temperatura: Verdadeiro\n- Ativar modo JSON: Verdadeiro\n"
+      }
+    },
+    {
+      "chunk_id": "chunk_BC8076A9",
+      "chunk_type": "paragraph",
+      "original_content": "For rate limiting, use Custom mode:",
+      "start_line_no": 15,
+      "translations": {
+        "zh": "对于速率限制，使用自定义模式：",
+        "zh_TW": "對於速率限制，請使用自訂模式：",
+        "pt": "Para limitar a taxa, use o modo Personalizado:",
+        "ja": "レート制限には、カスタムモードを使用してください：",
+        "es": "Para limitar la tasa, utiliza el modo personalizado:",
+        "ru": "Для ограничения скорости используйте Пользовательский режим:",
+        "it": "Per limitare la frequenza, utilizza la modalità Personalizzata:",
+        "fr": "Pour limiter le débit, utilisez le mode personnalisé :",
+        "de": "Für Ratenbegrenzung verwenden Sie den benutzerdefinierten Modus:",
+        "ko": "속도 제한을 위해 Custom 모드를 사용하세요:"
+      }
+    },
+    {
+      "chunk_id": "chunk_7C20EF8C",
+      "chunk_type": "list",
+      "original_content": "- QPS: 30 or 40\n- Pool Max Workers: 1000",
+      "start_line_no": 16,
+      "translations": {
+        "zh": "- QPS：30 或 40\n- 池最大工作线程数：1000",
+        "pt": "- QPS: 30 ou 40\n- Pool Max Workers: 1000",
+        "zh_TW": "- QPS：30 或 40  \n- 池最大工作線程數：1000",
+        "ru": "- QPS: 30 или 40\n- Pool Max Workers: 1000",
+        "fr": "- QPS : 30 ou 40\n- Pool Max Workers : 1000",
+        "ko": "- QPS: 30 또는 40\n- 풀 최대 작업자 수: 1000",
+        "it": "- QPS: 30 o 40\n- Pool Max Workers: 1000",
+        "de": "- QPS: 30 oder 40\n- Pool Max Workers: 1000",
+        "es": "- QPS: 30 o 40\n- Pool Máx. de Trabajadores: 1000",
+        "ja": "- QPS: 30 または 40\n- プール最大ワーカー数：1000"
+      }
+    }
+  ]
+}

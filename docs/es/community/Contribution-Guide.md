@@ -99,13 +99,14 @@ Por favor, NO envíes PRs relacionados con los tipos mencionados anteriormente.
 
 > [!NOTE]
 >
-> Este proyecto no tiene la intención de soportar ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíe soporte para dichos motores.
-> Los siguientes tipos de traductores tampoco serán integrados:
+> Este proyecto no tiene la intención de admitir ningún motor de traducción con un RPS (solicitudes por segundo) inferior a 4. Por favor, no envíe soporte para dichos motores.
+> Los siguientes tipos de traductores tampoco se integrarán:
 > - Traductores que han sido discontinuados por los mantenedores upstream (como deeplx)
 > - Traductores con grandes dependencias (como aquellos que dependen de pytorch)
 > - Traductores inestables
+> - Traductores basados en API de ingeniería inversa
 >
-> Cuando no esté seguro de si un traductor cumple con los requisitos, puede enviar un issue para discutir con los mantenedores.
+> Cuando no esté seguro de si un traductor cumple con los requisitos, puede enviar un problema para discutirlo con los mantenedores.
 
 ## Estructura del proyecto
 
