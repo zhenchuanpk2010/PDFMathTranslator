@@ -292,8 +292,8 @@
       "start_line_no": 96
     },
     {
-      "id": "chunk_F8D54300",
-      "raw_content": "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n> The following types of translators will also not be integrated:\n> - Translators that have been discontinued by upstream maintainers (such as deeplx)\n> - Translators with large dependencies (such as those depending on pytorch)\n> - Unstable translators\n>\n> When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.\n",
+      "id": "chunk_D3058459",
+      "raw_content": "> [!NOTE]\n>\n> This project does not intend to support any translation engines with an RPS (requests per second) lower than 4. Please do not submit support for such engines.\n> The following types of translators will also not be integrated:\n> - Translators that have been discontinued by upstream maintainers (such as deeplx)\n> - Translators with large dependencies (such as those depending on pytorch)\n> - Unstable translators\n> - Translator Based on Reverse Engineering API\n>\n> When you are unsure whether a translator meets the requirements, you can send an issue to discuss with the maintainers.\n",
       "metadata": {
         "chunk_type": "blockquote",
         "level": null,
@@ -309,7 +309,7 @@
         "level": 2,
         "language": null
       },
-      "start_line_no": 110
+      "start_line_no": 111
     },
     {
       "id": "chunk_9004E6A3",
@@ -319,7 +319,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 112
+      "start_line_no": 113
     },
     {
       "id": "chunk_0C087ADF",
@@ -329,7 +329,7 @@
         "level": 2,
         "language": null
       },
-      "start_line_no": 120
+      "start_line_no": 121
     },
     {
       "id": "chunk_2FB8F835",
@@ -339,7 +339,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 122
+      "start_line_no": 123
     },
     {
       "id": "chunk_C2A414AC",
@@ -349,7 +349,7 @@
         "level": null,
         "language": null
       },
-      "start_line_no": 124
+      "start_line_no": 125
     }
   ]
 }

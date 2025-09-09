@@ -99,11 +99,12 @@ Bitte reichen Sie keine PRs ein, die sich auf die oben genannten Arten beziehen.
 
 > [!NOTE]
 >
-> Dieses Projekt beabsichtigt nicht, Übersetzungsdienste mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Dienste ein.
+> Dieses Projekt beabsichtigt nicht, Übersetzungsmaschinen mit einer RPS (Anfragen pro Sekunde) von weniger als 4 zu unterstützen. Bitte reichen Sie keine Unterstützung für solche Maschinen ein.
 > Die folgenden Arten von Übersetzern werden ebenfalls nicht integriert:
 > - Übersetzer, die von den ursprünglichen Maintainern eingestellt wurden (wie deeplx)
 > - Übersetzer mit großen Abhängigkeiten (wie solche, die von pytorch abhängen)
 > - Instabile Übersetzer
+> - Übersetzer, die auf Reverse-Engineering-APIs basieren
 >
 > Wenn Sie unsicher sind, ob ein Übersetzer die Anforderungen erfüllt, können Sie ein Issue erstellen, um mit den Maintainern zu diskutieren.
 

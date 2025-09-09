@@ -104,6 +104,7 @@ Per favore NON inviare PR relativi ai tipi sopra menzionati.
 > - Traduttori che sono stati interrotti dai manutentori upstream (come deeplx)
 > - Traduttori con dipendenze pesanti (come quelli che dipendono da pytorch)
 > - Traduttori instabili
+> - Traduttori basati su API di reverse engineering
 >
 > Quando non sei sicuro se un traduttore soddisfa i requisiti, puoi inviare un problema per discuterne con i manutentori.
 

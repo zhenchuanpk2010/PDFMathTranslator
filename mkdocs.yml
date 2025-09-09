@@ -119,6 +119,9 @@ plugins:
             Supported Languages: 支持的语言
             Community: 社区
             FAQ: 常见问题
+            Aliyun: 阿里云
+            SiliconFlow: 硅基流动
+            For Translators: 文档翻译贡献指南
 
         - locale: zh_TW
           name: 繁體中文
@@ -146,6 +149,9 @@ plugins:
             Supported Languages: 支持的語言
             Community: 社區
             FAQ: 常見問題
+            Aliyun: 阿里雲
+            SiliconFlow: 硅基流動
+            For Translators: 文檔翻譯貢獻指南
 
         - locale: ja
           name: 日本語
@@ -172,6 +178,7 @@ plugins:
             Supported Languages: サポート言語
             Community: コミュニティ
             FAQ: よくある質問
+            For Translators: 文書翻訳貢献ガイド
 
         - locale: ko
           name: 한국어
@@ -198,6 +205,7 @@ plugins:
             Supported Languages: 지원 언어
             Community: 커뮤니티
             FAQ: 자주 묻는 질문
+            For Translators: 문서 번역 기여 가이드
 
         - locale: fr
           name: Français
@@ -224,6 +232,7 @@ plugins:
             Supported Languages: Langues supportées
             Community: Communauté
             FAQ: FAQ
+            For Translators: Guide de contribution des traductions
 
         - locale: de
           name: Deutsch
@@ -250,6 +259,7 @@ plugins:
             Supported Languages: Unterstützte Sprachen
             Community: Gemeinschaft
             FAQ: Häufig gestellte Fragen
+            For Translators: Guide de contribution des traductions
 
         - locale: es
           name: Español
@@ -276,6 +286,7 @@ plugins:
             Supported Languages: Idiomas soportados
             Community: Comunidad
             FAQ: Preguntas frecuentes
+            For Translators: Guía de contribución de traducciones
 
         - locale: ru
           name: Русский
@@ -302,6 +313,7 @@ plugins:
             Supported Languages: Поддерживаемые языки
             Community: Сообщество
             FAQ: Часто задаваемые вопросы
+            For Translators: Руководство по внесению вклада в переводы
 
         - locale: it
           name: Italiano
@@ -328,6 +340,7 @@ plugins:
             Supported Languages: Lingue supportate
             Community: Comunità
             FAQ: Domande frequenti
+            For Translators: Guida alla contribuzione per le traduzioni
 
         - locale: pt
           name: Português
@@ -354,6 +367,7 @@ plugins:
             Supported Languages: Idiomas suportados
             Community: Comunidade
             FAQ: Perguntas frequentes
+            For Translators: Guia de contribuição para traduções
 
   - git-revision-date-localized:
       enable_creation_date: true
@@ -411,16 +425,14 @@ nav:
       - WebUI: getting-started/USAGE_webui.md
       - guaguastandup/zotero-pdf2zh: https://github.com/guaguastandup/zotero-pdf2zh
   - Advanced: 
-    # - Introduction: advanced/introduction.md
     - Advanced: advanced/advanced.md
-    # - Args: advanced/args.md
     - Language Code: advanced/Language-Codes.md
+    - Documentation of Translation Services: advanced/Documentation-of-Translation-Services.md
     - Translation Services:
-      - Documentation of Translation Services: advanced/Documentation-of-Translation-Services.md
+      - Aliyun: advanced/TranslationServices/Aliyun.md
       - SiliconFlow: advanced/TranslationServices/SiliconFlow.md
-  # - API: APIS.md
   - Supported Languages: supported_languages.md
   - FAQ: FAQ.md
   - Community:
     - Contribution-Guide: community/Contribution-Guide.md
-    - Contributor Covenant Code of Conduct: CODE_OF_CONDUCT.md
+    - For Translators: community/Translate-Contribution-Guide.md

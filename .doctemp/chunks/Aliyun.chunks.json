@@ -1,0 +1,55 @@
+{
+  "source_file": "/Users/pppppop/Documents/PDFMathTranslate-next/docs/en/advanced/TranslationServices/Aliyun.md",
+  "chunks": [
+    {
+      "id": "chunk_5BD35ED9",
+      "raw_content": "# Aliyun Qwen\n",
+      "metadata": {
+        "chunk_type": "header",
+        "level": 1,
+        "language": null
+      },
+      "start_line_no": 1
+    },
+    {
+      "id": "chunk_ED2346E0",
+      "raw_content": "It is recommended to use the `qwen-plus-latest` model.\n\nReference configuration:\n",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 3
+    },
+    {
+      "id": "chunk_B142B723",
+      "raw_content": "- Translation Service: `qwen-plus-latest`\n- Base URL: keep default\n- API key: your API key\n- Timeout (seconds): 500\n- Temperature: 0.0\n- Send temperature: True\n- Enable JSON mode: True\n",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 7
+    },
+    {
+      "id": "chunk_BC8076A9",
+      "raw_content": "For rate limiting, use Custom mode:",
+      "metadata": {
+        "chunk_type": "paragraph",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 15
+    },
+    {
+      "id": "chunk_7C20EF8C",
+      "raw_content": "- QPS: 30 or 40\n- Pool Max Workers: 1000",
+      "metadata": {
+        "chunk_type": "list",
+        "level": null,
+        "language": null
+      },
+      "start_line_no": 16
+    }
+  ]
+}
