@@ -1,4 +1,4 @@
-__version__ = "2.6.2"
+__version__ = "2.6.3"
 __major_version__ = "2"
 __config_file_version__ = "3"
 

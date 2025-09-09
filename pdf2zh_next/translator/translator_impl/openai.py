@@ -62,6 +62,12 @@ class OpenAITranslator(BaseTranslator):
         self.prompt_token_count = AtomicInteger()
         self.completion_token_count = AtomicInteger()
 
+        self.enable_json_mode = (
+            settings.translate_engine_settings.openai_enable_json_mode
+        )
+        if self.enable_json_mode:
+            self.add_cache_impact_parameters("enable_json_mode", self.enable_json_mode)
+
     @retry(
         retry=retry_if_exception_type(openai.RateLimitError),
         stop=stop_after_attempt(100),
@@ -69,9 +75,17 @@ class OpenAITranslator(BaseTranslator):
         before_sleep=before_sleep_log(logger, logging.WARNING),
     )
     def do_translate(self, text, rate_limit_params: dict = None) -> str:
+        options = self.options.copy()
+        if (
+            self.enable_json_mode
+            and rate_limit_params
+            and rate_limit_params.get("request_json_mode", False)
+        ):
+            options["response_format"] = {"type": "json_object"}
+
         response = self.client.chat.completions.create(
             model=self.model,
-            **self.options,
+            **options,
             messages=self.prompt(text),
         )
         if hasattr(response, "usage") and response.usage:
@@ -94,10 +108,17 @@ class OpenAITranslator(BaseTranslator):
     def do_llm_translate(self, text, rate_limit_params: dict = None):
         if text is None:
             return None
+        options = self.options.copy()
+        if (
+            self.enable_json_mode
+            and rate_limit_params
+            and rate_limit_params.get("request_json_mode", False)
+        ):
+            options["response_format"] = {"type": "json_object"}
 
         response = self.client.chat.completions.create(
             model=self.model,
-            **self.options,
+            **options,
             messages=[
                 {
                     "role": "user",

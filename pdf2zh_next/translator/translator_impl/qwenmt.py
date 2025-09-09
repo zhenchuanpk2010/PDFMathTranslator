@@ -73,46 +73,12 @@ class QwenMtTranslator(BaseTranslator):
         response = self.client.chat.completions.create(
             model=self.model,
             **self.options,
-            messages=[{"role": "user", "content": self.prompt(text)}],
+            messages=[{"role": "user", "content": text}],
             extra_body={"translation_options": translation_options},
         )
         message = response.choices[0].message.content.strip()
         message = self._remove_cot_content(message)
         return message
 
-    @retry(
-        retry=retry_if_exception_type(openai.RateLimitError),
-        stop=stop_after_attempt(100),
-        wait=wait_exponential(multiplier=1, min=1, max=15),
-        before_sleep=before_sleep_log(logger, logging.WARNING),
-    )
     def do_llm_translate(self, text, rate_limit_params: dict = None):
-        if text is None:
-            return None
-
-        translation_options = {
-            "source_lang": self.lang_mapping(self.lang_in),
-            "target_lang": self.lang_mapping(self.lang_out),
-            "domains": self.ali_domain,
-        }
-        response = self.client.chat.completions.create(
-            model=self.model,
-            **self.options,
-            messages=[
-                {
-                    "role": "user",
-                    "content": text,
-                },
-            ],
-            extra_body={"translation_options": translation_options},
-        )
-        if hasattr(response, "usage") and response.usage:
-            if hasattr(response.usage, "total_tokens"):
-                self.token_count.inc(response.usage.total_tokens)
-            if hasattr(response.usage, "prompt_tokens"):
-                self.prompt_token_count.inc(response.usage.prompt_tokens)
-            if hasattr(response.usage, "completion_tokens"):
-                self.completion_token_count.inc(response.usage.completion_tokens)
-        message = response.choices[0].message.content.strip()
-        message = self._remove_cot_content(message)
-        return message
+        raise NotImplementedError
