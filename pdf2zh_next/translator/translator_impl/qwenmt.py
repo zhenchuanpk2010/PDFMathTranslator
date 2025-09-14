@@ -37,9 +37,14 @@ class QwenMtTranslator(BaseTranslator):
         self.prompt_token_count = AtomicInteger()
         self.completion_token_count = AtomicInteger()
 
+        if "qwen-mt" not in self.model:
+            raise ValueError(
+                f"Model {self.model} is not a Qwen-MT model, Other Qwen models should use AliyunDashScope or OpenAICompatible."
+            )
+
     def lang_mapping(self, input_lang: str) -> str:
         """
-        Mapping the language code to the language code that Aliyun Qwen-Mt model supports.
+        Mapping the language code to the language code that Aliyun Qwen-MT model supports.
         Since all existings languagues codes used in gui.py are able to be mapped, the original
         languague code will not be checked.
         """
