@@ -449,7 +449,6 @@ def _build_translate_settings(
     no_dual = ui_inputs.get("no_dual")
     dual_translate_first = ui_inputs.get("dual_translate_first")
     use_alternating_pages_dual = ui_inputs.get("use_alternating_pages_dual")
-    watermark_output_mode = ui_inputs.get("watermark_output_mode")
 
     # Rate Limit Options
     rate_limit_mode = ui_inputs.get("rate_limit_mode")
@@ -545,11 +544,6 @@ def _build_translate_settings(
     translate_settings.pdf.no_dual = no_dual
     translate_settings.pdf.dual_translate_first = dual_translate_first
     translate_settings.pdf.use_alternating_pages_dual = use_alternating_pages_dual
-
-    # Map watermark mode from UI to enum
-    translate_settings.pdf.watermark_output_mode = (
-        watermark_output_mode.lower().replace(" ", "_")
-    )
 
     # Update Advanced PDF Settings
     translate_settings.pdf.skip_clean = skip_clean
@@ -686,6 +680,22 @@ def _build_glossary_list(glossary_file, service_name=None):
     return ",".join(glossary_list)
 
 
+def _initialize_rate_limit_state(settings: CLIEnvSettingsModel) -> dict:
+    """Initialize the rate limit state for each service."""
+    state = {}
+    for service_name in available_services:
+        # For now, all services share the global setting initially.
+        # This can be expanded to load per-service settings from config.
+        state[service_name] = {
+            "rate_limit_mode": "Custom",  # Default mode
+            "rpm_input": 240,
+            "concurrent_threads_input": 20,
+            "custom_qps_input": settings.translation.qps or 4,
+            "custom_pool_workers_input": settings.translation.pool_max_workers,
+        }
+    return state
+
+
 async def _run_translation_task(
     settings: SettingsModel, file_path: Path, state: dict, progress: gr.Progress
 ) -> tuple[Path | None, Path | None, Path | None]:
@@ -801,7 +811,6 @@ async def translate_file(
     no_dual,
     dual_translate_first,
     use_alternating_pages_dual,
-    watermark_output_mode,
     # Rate Limit Mode
     rate_limit_mode,
     rpm_input,
@@ -898,7 +907,6 @@ async def translate_file(
         "no_dual": no_dual,
         "dual_translate_first": dual_translate_first,
         "use_alternating_pages_dual": use_alternating_pages_dual,
-        "watermark_output_mode": watermark_output_mode,
         # Rate Limit Options
         "rate_limit_mode": rate_limit_mode,
         "rpm_input": rpm_input,
@@ -1054,20 +1062,6 @@ assets_dir = current_dir / "assets"
 logo_path = assets_dir / "powered_by_siliconflow_light.png"
 translation_file_path = current_dir / "gui_translation.yaml"
 
-tech_details_string = f"""
-                    <summary>Technical details</summary>
-                    - ⭐ Star at GitHub: <a href="https://github.com/PDFMathTranslate/PDFMathTranslate-next">PDFMathTranslate/PDFMathTranslate-next</a><br>
-                    - BabelDOC: <a href="https://github.com/funstory-ai/BabelDOC">funstory-ai/BabelDOC</a><br>
-                    - GUI by: <a href="https://github.com/reycn">Rongxin</a> & <a href="https://github.com/hellofinch">hellofinch</a> & <a href="https://github.com/awwaawwa">awwaawwa</a><br>
-                    - pdf2zh Version: {__version__} <br>
-                    - BabelDOC Version: {babeldoc_version}<br>
-                    - Free translation service provided by <a href="https://siliconflow.cn/" target="_blank" style="text-decoration: none;">SiliconFlow</a><br>
-                    <a href="https://siliconflow.cn/" target="_blank" style="text-decoration: none;">
-                        <img src="/gradio_api/file={logo_path}" alt="Powered By SiliconFlow" style="height: 40px; margin-top: 10px;">
-                    </a>
-                    <br>
-                """
-
 # The following code creates the GUI
 with gr.Blocks(
     title="PDFMathTranslate - PDF Translation with preserved formats",
@@ -1077,13 +1071,22 @@ with gr.Blocks(
     css=custom_css,
 ) as demo:
     lang_selector = gr.Dropdown(
-        choices=LANGUAGES,
-        label=_("UI Language"),
+        choices=[settings.gui_settings.ui_lang],
         value=settings.gui_settings.ui_lang,
+        visible=False,
+        interactive=False,
         render=False,
     )
     with Translate(get_translation_dic(translation_file_path), lang_selector):
-        gr.Markdown("# [PDFMathTranslate Next](https://pdf2zh-next.com)")
+        with gr.Row(equal_height=False, variant="panel"):
+            with gr.Column(scale=4):
+                gr.Markdown(
+                    "<h1 style='text-align: left; line-height: 1.5;'><a href='https://github.com/Byaidu/PDFMathTranslate' target='_blank'>欢迎使用由WZC提供的PDF翻译服务</a></h1>"
+                )
+            with gr.Column(scale=1, min_width=250):
+                with gr.Row():
+                    user_display = gr.Markdown("当前配置用户: 未登录")
+                    logout_button = gr.Button("切换用户", variant="secondary", size="sm")
 
         translation_engine_arg_inputs = []
         detail_text_inputs = []
@@ -1092,7 +1095,6 @@ with gr.Blocks(
         LLM_support_index_map = {}
         with gr.Row():
             with gr.Column(scale=1):
-                lang_selector.render()
                 gr.Markdown(_("## File"))
                 file_type = gr.Radio(
                     choices=[_("File"), _("Link")],
@@ -1105,6 +1107,7 @@ with gr.Blocks(
                     file_types=[".pdf", ".PDF"],
                     type="filepath",
                     elem_classes=["input-file"],
+                    height=150,
                 )
                 link_input = gr.Textbox(
                     label=_("Link"),
@@ -1113,13 +1116,6 @@ with gr.Blocks(
                 )
 
                 gr.Markdown(_("## Translation Options"))
-
-                siliconflow_free_acknowledgement = gr.Markdown(
-                    _(
-                        "Free translation service provided by [SiliconFlow](https://siliconflow.cn)"
-                    ),
-                    visible=True,
-                )
 
                 detail_index = 0
                 with gr.Group() as translation_engine_settings:
@@ -1233,6 +1229,9 @@ with gr.Blocks(
                     placeholder=_("e.g., 1,3,5-10"),
                 )
 
+                initial_service = available_services[0]
+                is_rate_limit_visible = initial_service != "SiliconFlowFree"
+
                 only_include_translated_page = gr.Checkbox(
                     label=_("Only include translated pages in the output PDF."),
                     info=_("Effective only when a page range is specified."),
@@ -1240,7 +1239,7 @@ with gr.Blocks(
                     interactive=True,
                 )
 
-                with gr.Group() as rate_limit_settings:
+                with gr.Group(visible=is_rate_limit_visible) as rate_limit_settings:
                     rate_limit_mode = gr.Radio(
                         choices=[
                             (_("RPM (Requests Per Minute)"), "RPM"),
@@ -1250,7 +1249,6 @@ with gr.Blocks(
                         label=_("Rate Limit Mode"),
                         value="Custom",
                         interactive=True,
-                        visible=False,
                         info=_(
                             "Select the rate limit mode that best suits your API provider, system will automatically convert the rate limiting values of RPM or Concurrent Requests to QPS and Pool Max Workers when you click the Translate button"
                         ),
@@ -1287,7 +1285,7 @@ with gr.Blocks(
                         minimum=1,
                         maximum=1000,
                         interactive=True,
-                        visible=False,
+                        visible=True,
                         info=_("Number of requests sent per second"),
                     )
 
@@ -1298,44 +1296,21 @@ with gr.Blocks(
                         minimum=0,
                         maximum=1000,
                         interactive=True,
-                        visible=False,
+                        visible=True,
                         info=_(
                             "If not set or set to 0, QPS will be used as the number of workers"
                         ),
                     )
 
                 # PDF Output Options
-                gr.Markdown(_("## PDF Output Options"))
-                with gr.Row():
-                    no_mono = gr.Checkbox(
-                        label=_("Disable monolingual output"),
-                        value=settings.pdf.no_mono,
-                        interactive=True,
-                    )
-                    no_dual = gr.Checkbox(
-                        label=_("Disable bilingual output"),
-                        value=settings.pdf.no_dual,
-                        interactive=True,
-                    )
-
-                with gr.Row():
-                    dual_translate_first = gr.Checkbox(
-                        label=_("Put translated pages first in dual mode"),
-                        value=settings.pdf.dual_translate_first,
-                        interactive=True,
-                    )
-                    use_alternating_pages_dual = gr.Checkbox(
-                        label=_("Use alternating pages for dual PDF"),
-                        value=settings.pdf.use_alternating_pages_dual,
-                        interactive=True,
-                    )
-
-                watermark_output_mode = gr.Radio(
-                    choices=[_("Watermarked"), _("No Watermark")],
-                    label=_("Watermark mode"),
-                    value=_("Watermarked")
-                    if settings.pdf.watermark_output_mode == "watermarked"
-                    else _("No Watermark"),
+                # PDF输出选项已根据要求隐藏，其值将从配置文件加载
+                no_mono = gr.Checkbox(value=settings.pdf.no_mono, visible=False)
+                no_dual = gr.Checkbox(value=settings.pdf.no_dual, visible=False)
+                dual_translate_first = gr.Checkbox(
+                    value=settings.pdf.dual_translate_first, visible=False
+                )
+                use_alternating_pages_dual = gr.Checkbox(
+                    value=settings.pdf.use_alternating_pages_dual, visible=False
                 )
 
                 # Additional translation options
@@ -1564,26 +1539,28 @@ with gr.Blocks(
                         value=settings.pdf.skip_formula_offset_calculation,
                         interactive=True,
                     )
+                # State for managing per-service rate limits
+                rate_limit_state = gr.State(
+                    _initialize_rate_limit_state(settings)
+                )
+                previous_service_state = gr.State(service.value)
 
-                output_title = gr.Markdown(_("## Translated"), visible=False)
-                output_file_mono = gr.File(
-                    label=_("Download Translation (Mono)"), visible=False
-                )
-                output_file_dual = gr.File(
-                    label=_("Download Translation (Dual)"), visible=False
-                )
-                output_file_glossary = gr.File(
-                    label=_("Download automatically extracted glossary"), visible=False
-                )
                 translate_btn = gr.Button(_("Translate"), variant="primary")
                 cancel_btn = gr.Button(_("Cancel"), variant="secondary")
 
-                tech_details = gr.Markdown(
-                    tech_details_string,
-                    elem_classes=["secondary-text"],
+            with gr.Column(scale=2):
+                output_title = gr.Markdown(_("## Translated"), visible=False)
+                with gr.Row():
+                    output_file_mono = gr.File(
+                        label=_("Download Translation (Mono)"), visible=False
+                    )
+                    output_file_dual = gr.File(
+                        label=_("Download Translation (Dual)"), visible=False
+                    )
+                output_file_glossary = gr.File(
+                    label=_("Download automatically extracted glossary"), visible=False
                 )
 
-            with gr.Column(scale=2):
                 gr.Markdown(_("## Preview"))
                 preview = PDF(label=_("Document Preview"), visible=True, height=2000)
 
@@ -1605,46 +1582,109 @@ with gr.Blocks(
                 return
             detail_group_index = detail_text_input_index_map.get(service_name, [])
             llm_support = LLM_support_index_map.get(service_name, False)
-            siliconflow_free_acknowledgement_visible = service_name == "SiliconFlowFree"
-            siliconflow_update = [
-                gr.update(visible=siliconflow_free_acknowledgement_visible)
-            ]
             return_list = []
             glossary_updates = [
                 gr.update(visible=llm_support)
                 for i in range(len(require_llm_translator_inputs))
             ]
             if len(detail_text_inputs) == 1:
-                return_list = (
-                    siliconflow_update
-                    + glossary_updates
-                    + [gr.update(visible=(0 in detail_group_index))]
-                )
+                return_list = glossary_updates + [
+                    gr.update(visible=(0 in detail_group_index))
+                ]
             else:
-                return_list = (
-                    siliconflow_update
-                    + glossary_updates
-                    + [
-                        gr.update(visible=(i in detail_group_index))
-                        for i in range(len(detail_text_inputs))
-                    ]
-                )
+                return_list = glossary_updates + [
+                    gr.update(visible=(i in detail_group_index))
+                    for i in range(len(detail_text_inputs))
+                ]
             return return_list
+
+        def on_rate_limit_mode_change(mode, service_name):
+            """Update rate-limit-specific-settings visibility based on rate_limit_mode value"""
+            if service_name == "SiliconFlowFree":
+                return [gr.update(visible=False)] * 4  # Hide all options
+
+            rpm_visible = mode == "RPM"
+            threads_visible = mode == "Concurrent Threads"
+            custom_visible = mode == "Custom"
+
+            return [
+                gr.update(visible=rpm_visible),
+                gr.update(visible=threads_visible),
+                gr.update(visible=custom_visible),
+                gr.update(visible=custom_visible),
+            ]
+
+        def on_service_change_with_rate_limit(
+            new_service,
+            # Current UI values to be saved
+            current_rate_mode,
+            current_rpm,
+            current_threads,
+            current_qps,
+            current_workers,
+            # State
+            rate_limits,
+            previous_service,
+        ):
+            """
+            Handles service switching:
+            1. Saves the rate limit settings for the previous service.
+            2. Loads the settings for the new service.
+            3. Updates the visibility of all related UI elements.
+            """
+            # 1. Save settings for the previous service
+            rate_limits[previous_service] = {
+                "rate_limit_mode": current_rate_mode,
+                "rpm_input": current_rpm,
+                "concurrent_threads_input": current_threads,
+                "custom_qps_input": current_qps,
+                "custom_pool_workers_input": current_workers,
+            }
+
+            # 2. Load settings for the new service
+            new_settings = rate_limits.get(
+                new_service, _initialize_rate_limit_state(settings)[new_service]
+            )
+
+            # 3. Update UI visibility for service-specific args and glossary
+            original_updates = on_select_service(new_service)
+
+            # 4. Update UI visibility for rate limit section
+            rate_limit_visible = new_service != "SiliconFlowFree"
+            detailed_visible = [gr.update(visible=False)] * 4  # Default to hidden
+            if rate_limit_visible:
+                detailed_visible = on_rate_limit_mode_change(
+                    new_settings["rate_limit_mode"], new_service
+                )
+
+            rate_limit_updates = [
+                gr.update(visible=rate_limit_visible),
+                gr.update(value=new_settings["rate_limit_mode"]),
+                gr.update(value=new_settings["rpm_input"]),
+                gr.update(value=new_settings["concurrent_threads_input"]),
+                gr.update(value=new_settings["custom_qps_input"]),
+                gr.update(value=new_settings["custom_pool_workers_input"]),
+            ]
+
+            # Return all updates together, plus the new state values
+            return (
+                original_updates
+                + rate_limit_updates
+                + detailed_visible
+                + [rate_limits, new_service]  # Update state
+            )
 
         def on_enhance_compatibility_change(enhance_value):
             """Update skip_clean and disable_rich_text_translate when enhance_compatibility changes"""
             if enhance_value:
-                # When enhanced compatibility is enabled, both options are auto-enabled and disabled for user modification
                 return (
                     gr.update(value=True, interactive=False),
                     gr.update(value=True, interactive=False),
                 )
-            else:
-                # When disabled, allow user to modify these settings
-                return (
-                    gr.update(interactive=True),
-                    gr.update(interactive=True),
-                )
+            return (
+                gr.update(interactive=True),
+                gr.update(interactive=True),
+            )
 
         def on_split_short_lines_change(split_value):
             """Update short_line_split_factor visibility based on split_short_lines value"""
@@ -1669,57 +1709,23 @@ with gr.Blocks(
                 glossary_list = ["", "", ""]
             return gr.update(visible=True, value=glossary_list)
 
-        def on_rate_limit_mode_change(mode, service_name):
-            """Update rate-limit-specific-settings visibility based on rate_limit_mode value"""
-            if service_name == "SiliconFlowFree":
-                return [gr.update(visible=False)] * 4  # Hide all options
-
-            rpm_visible = mode == "RPM"
-            threads_visible = mode == "Concurrent Threads"
-            custom_visible = mode == "Custom"
-
-            return [
-                gr.update(visible=rpm_visible),
-                gr.update(visible=threads_visible),
-                gr.update(visible=custom_visible),
-                gr.update(visible=custom_visible),
-            ]
-
-        def on_service_change_with_rate_limit(mode, service_name):
-            """Expand original on_select_service with rate-limit-UI updated"""
-            original_updates = on_select_service(service_name)
-
-            rate_limit_visible = service_name != "SiliconFlowFree"
-
-            detailed_visible = [gr.update(visible=False)] * 4
-
-            if rate_limit_visible:
-                detailed_visible = on_rate_limit_mode_change(mode, service_name)
-
-            # Add updates of rate-limit-UI
-            rate_limit_updates = [
-                gr.update(visible=rate_limit_visible),
-            ]
-
-            return original_updates + rate_limit_updates + detailed_visible
-
-        def on_lang_selector_change(lang):
-            settings.gui_settings.ui_lang = lang
-            config_manager.write_user_default_config_file(settings=settings.clone())
-            return
-
-        # UI language change handler
-
-        lang_selector.change(on_lang_selector_change, lang_selector)
-
-        # Default file handler
-        file_input.upload(
-            lambda x: x,
-            inputs=file_input,
-            outputs=preview,
-        )
-
         # Event bindings
+
+        # Event handlers for user display and logout
+        def get_current_user(request: gr.Request):
+            """Get the current logged-in user from the request and update the UI."""
+            if request and request.username:
+                # In the future, this is where user-specific config would be loaded.
+                return gr.update(value=f"当前配置用户: **{request.username}**")
+            # This branch is hit if auth is disabled in the config.
+            return gr.update(value="*认证未启用*")
+
+        # Redirect to the /logout endpoint to clear auth and trigger re-login
+        logout_button.click(fn=None, js="() => { window.location.href = '/logout'; }")
+
+        # The `load` event to display the user on startup
+        demo.load(get_current_user, inputs=None, outputs=[user_display])
+
         file_type.select(
             on_select_filetype,
             file_type,
@@ -1732,26 +1738,41 @@ with gr.Blocks(
             page_input,
         )
 
-        on_select_service_outputs = (
-            [siliconflow_free_acknowledgement]
-            + require_llm_translator_inputs
-            + detail_text_inputs
-        )
+        on_select_service_outputs = require_llm_translator_inputs + detail_text_inputs
 
         service.select(
             on_service_change_with_rate_limit,
-            [rate_limit_mode, service],
+            inputs=[
+                service,
+                rate_limit_mode,
+                rpm_input,
+                concurrent_threads_input,
+                custom_qps_input,
+                custom_pool_max_workers_input,
+                rate_limit_state,
+                previous_service_state,
+            ],
             outputs=(
                 on_select_service_outputs
                 if len(on_select_service_outputs) > 0
                 else None
             )
             + [
+                # Rate limit UI updates
+                rate_limit_settings,
                 rate_limit_mode,
                 rpm_input,
                 concurrent_threads_input,
                 custom_qps_input,
                 custom_pool_max_workers_input,
+                # Rate limit detailed visibility
+                rpm_input,
+                concurrent_threads_input,
+                custom_qps_input,
+                custom_pool_max_workers_input,
+                # State updates
+                rate_limit_state,
+                previous_service_state,
             ],
         )
 
@@ -1806,7 +1827,6 @@ with gr.Blocks(
                 no_dual,
                 dual_translate_first,
                 use_alternating_pages_dual,
-                watermark_output_mode,
                 # Rate Limit Options
                 rate_limit_mode,
                 rpm_input,
