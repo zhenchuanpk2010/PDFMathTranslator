@@ -595,6 +595,64 @@ class ConfigManager:
         self._write_toml_file(WRITE_TEMP_CONFIG_FILE, settings.model_dump(mode="json"))
         WRITE_TEMP_CONFIG_FILE.replace(DEFAULT_CONFIG_FILE)
 
+    def _get_user_config_path(self, username: str) -> Path:
+        """Get the path to a user's configuration file."""
+        return DEFAULT_CONFIG_DIR / "users" / f"{username}.toml"
+
+    def save_user_config(self, username: str, settings: CLIEnvSettingsModel) -> None:
+        """
+        Save the configuration for a specific user.
+
+        Args:
+            username: The name of the user.
+            settings: The configuration settings to save.
+        """
+        user_config_path = self._get_user_config_path(username)
+        user_config_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # Clear input files before saving
+        settings.basic.input_files = set()
+
+        config_dict = settings.model_dump(mode="json")
+        self._write_toml_file(user_config_path, config_dict)
+        log.info(f"Saved configuration for user '{username}' to {user_config_path}")
+
+    def load_user_config(self, username: str) -> CLIEnvSettingsModel:
+        """
+        Load the configuration for a specific user.
+        If the user config does not exist, it creates one from the default config,
+        saves it, and then returns it.
+
+        Args:
+            username: The name of the user.
+
+        Returns:
+            A CLIEnvSettingsModel instance with the user's configuration.
+        """
+        user_config_path = self._get_user_config_path(username)
+        # Read the application's default config as a fallback
+        default_config = self._read_toml_file(self._default_config_file_path)
+
+        if not user_config_path.exists():
+            log.info(
+                f"No config file found for user '{username}'. Creating one from default config."
+            )
+            default_settings = self._build_model_from_args(
+                CLIEnvSettingsModel, default_config
+            )
+            self.save_user_config(username, default_settings.clone())
+            return default_settings
+
+        # Read user-specific config.
+        user_config = self._read_toml_file(user_config_path)
+        log.info(f"Loaded configuration for user '{username}' from {user_config_path}")
+
+        # Merge user config on top of default config
+        merged_config = self.merge_settings([user_config, default_config])
+
+        # Build and return the settings model
+        return self._build_model_from_args(CLIEnvSettingsModel, merged_config)
+
     def _build_model_from_args(
         self, model_class: type[BaseModel], args_dict: dict
     ) -> BaseModel:

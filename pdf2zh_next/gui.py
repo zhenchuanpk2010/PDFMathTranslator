@@ -416,6 +416,7 @@ def _build_translate_settings(
     file_path: Path,
     output_dir: Path,
     ui_inputs: dict,
+    username: str | None = None,
 ) -> SettingsModel:
     """
     This function builds translation settings from UI inputs.
@@ -425,6 +426,7 @@ def _build_translate_settings(
         - file_path: The path to the input file
         - output_dir: The output directory
         - ui_inputs: A dictionary of UI inputs
+        - username: The current user, for saving config
 
     Returns:
         - A configured SettingsModel instance
@@ -652,7 +654,13 @@ def _build_translate_settings(
         translate_settings.basic.debug = False
         translate_settings.translation.glossaries = None
         if not settings.gui_settings.disable_config_auto_save:
-            config_manager.write_user_default_config_file(settings=translate_settings)
+            if username:
+                config_manager.save_user_config(
+                    username=username, settings=translate_settings
+                )
+            else:
+                config_manager.write_user_default_config_file(settings=translate_settings)
+            # config_manager.write_user_default_config_file(settings=translate_settings)
         settings.validate_settings()
         return settings
     except ValueError as e:
@@ -695,6 +703,100 @@ def _initialize_rate_limit_state(settings: CLIEnvSettingsModel) -> dict:
         }
     return state
 
+
+def load_user_config_and_update_ui(request: gr.Request):
+    """
+    Loads user-specific configuration upon login and returns update objects for all UI elements.
+    If no user is logged in or auth is disabled, it uses the default config.
+    """
+    username = None
+    user_settings = settings  # Start with global default
+    user_display_text = "*认证未启用*"
+
+    if request and request.username:
+        username = request.username
+        try:
+            # This is the new method in ConfigManager
+            user_settings = config_manager.load_user_config(username)
+            user_display_text = f"当前配置用户: **{username}**"
+        except Exception as e:
+            logger.error(
+                f"Failed to load config for user '{username}', falling back to default. Error: {e}"
+            )
+            user_display_text = f"当前配置用户: **{username}** (加载配置失败)"
+
+    # Re-initialize the rate limit state based on the loaded user settings
+    new_rate_limit_state = _initialize_rate_limit_state(user_settings)
+
+    # Create updates for all service-specific fields
+    detail_updates = []
+    for field_name in __gui_service_arg_names:
+        value = None
+        # Find which service this field belongs to and get its value
+        for service_name_iter in available_services:
+            metadata = TRANSLATION_ENGINE_METADATA_MAP[service_name_iter]
+            if (
+                    metadata.cli_detail_field_name
+                    and field_name in metadata.setting_model_type.model_fields
+            ):
+                detail_settings = getattr(user_settings, metadata.cli_detail_field_name)
+                value = getattr(detail_settings, field_name)
+                break  # Found it
+        detail_updates.append(gr.update(value=value))
+
+    # Return all updates in the correct order
+    return (
+        # States
+        username,
+        new_rate_limit_state,
+        # UI Components
+        gr.update(value=user_display_text),
+        # Service specific args
+        *detail_updates,
+        # Translation Options
+        gr.update(value=rev_lang_map.get(user_settings.translation.lang_in, "English")),
+        gr.update(
+            value=next(
+                (
+                    k
+                    for k, v in lang_map.items()
+                    if v == user_settings.translation.lang_out
+                ),
+                "Simplified Chinese",
+            )
+        ),
+        gr.update(value=user_settings.pdf.only_include_translated_page),
+        # Advanced Options
+        gr.update(value=user_settings.translation.custom_system_prompt or ""),
+        gr.update(value=user_settings.translation.min_text_length),
+        gr.update(value=user_settings.translation.no_auto_extract_glossary),
+        gr.update(value=user_settings.translation.save_auto_extracted_glossary),
+        gr.update(
+            value="Auto"
+            if not user_settings.translation.primary_font_family
+            else user_settings.translation.primary_font_family
+        ),
+        # PDF Options
+        gr.update(value=user_settings.pdf.skip_clean),
+        gr.update(value=user_settings.pdf.disable_rich_text_translate),
+        gr.update(value=user_settings.pdf.enhance_compatibility),
+        gr.update(value=user_settings.pdf.split_short_lines),
+        gr.update(value=user_settings.pdf.short_line_split_factor),
+        gr.update(value=user_settings.pdf.translate_table_text),
+        gr.update(value=user_settings.pdf.skip_scanned_detection),
+        gr.update(value=user_settings.pdf.ocr_workaround),
+        gr.update(value=user_settings.pdf.auto_enable_ocr_workaround),
+        gr.update(value=user_settings.pdf.max_pages_per_part),
+        gr.update(value=user_settings.pdf.formular_font_pattern or ""),
+        gr.update(value=user_settings.pdf.formular_char_pattern or ""),
+        gr.update(value=user_settings.translation.ignore_cache),
+        # BabelDOC Advanced Options
+        gr.update(value=not user_settings.pdf.no_merge_alternating_line_numbers),
+        gr.update(value=not user_settings.pdf.no_remove_non_formula_lines),
+        gr.update(value=user_settings.pdf.non_formula_line_iou_threshold),
+        gr.update(value=user_settings.pdf.figure_table_protection_threshold),
+        gr.update(value=user_settings.pdf.skip_formula_offset_calculation),
+    )
 
 async def _run_translation_task(
     settings: SettingsModel, file_path: Path, state: dict, progress: gr.Progress
@@ -840,6 +942,7 @@ async def translate_file(
     formular_char_pattern,
     ignore_cache,
     state,
+    current_username,
     ocr_workaround,
     auto_enable_ocr_workaround,
     only_include_translated_page,
@@ -954,7 +1057,7 @@ async def translate_file(
 
         # Step 2: Build translation settings
         translate_settings = _build_translate_settings(
-            settings.clone(), file_path, output_dir, ui_inputs
+            settings.clone(), file_path, output_dir, ui_inputs, username=current_username
         )
 
         # Step 3: Create and run the translation task
@@ -1087,6 +1190,7 @@ with gr.Blocks(
                 with gr.Row():
                     user_display = gr.Markdown("当前配置用户: 未登录")
                     logout_button = gr.Button("切换用户", variant="secondary", size="sm")
+        current_username_state = gr.State(None)
 
         translation_engine_arg_inputs = []
         detail_text_inputs = []
@@ -1094,6 +1198,7 @@ with gr.Blocks(
         detail_text_input_index_map = {}
         LLM_support_index_map = {}
         with gr.Row():
+            components_to_update_on_load = []
             with gr.Column(scale=1):
                 gr.Markdown(_("## File"))
                 file_type = gr.Radio(
@@ -1210,11 +1315,13 @@ with gr.Blocks(
                         choices=list(lang_map.keys()),
                         value=default_lang_from,
                     )
+                    components_to_update_on_load.append(lang_from)
                     lang_to = gr.Dropdown(
                         label=_("Translate to"),
                         choices=list(lang_map.keys()),
                         value=default_lang_to,
                     )
+                    components_to_update_on_load.append(lang_to)
 
                 page_range = gr.Radio(
                     choices=list(page_map.keys()),
@@ -1238,6 +1345,7 @@ with gr.Blocks(
                     value=settings.pdf.only_include_translated_page,
                     interactive=True,
                 )
+                components_to_update_on_load.append(only_include_translated_page)
 
                 with gr.Group(visible=is_rate_limit_visible) as rate_limit_settings:
                     rate_limit_mode = gr.Radio(
@@ -1332,6 +1440,7 @@ with gr.Blocks(
                             "e.g. /no_think You are a professional, authentic machine translation engine."
                         ),
                     )
+                    components_to_update_on_load.append(custom_system_prompt_input)
 
                     min_text_length = gr.Number(
                         label=_("Minimum text length to translate"),
@@ -1340,6 +1449,7 @@ with gr.Blocks(
                         minimum=0,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(min_text_length)
 
                     rpc_doclayout = gr.Textbox(
                         label=_("RPC service for document layout analysis (optional)"),
@@ -1355,12 +1465,14 @@ with gr.Blocks(
                         value=settings.translation.no_auto_extract_glossary,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(no_auto_extract_glossary)
 
                     save_auto_extracted_glossary = gr.Checkbox(
                         label=_("save automatically extracted glossary"),
                         value=settings.translation.save_auto_extracted_glossary,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(save_auto_extracted_glossary)
 
                     primary_font_family = gr.Dropdown(
                         label=_("Primary font family for translated text"),
@@ -1370,6 +1482,7 @@ with gr.Blocks(
                         else settings.translation.primary_font_family,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(primary_font_family)
 
                     glossary_file = gr.File(
                         label=_("Glossary File"),
@@ -1397,6 +1510,7 @@ with gr.Blocks(
                         value=settings.pdf.skip_clean,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(skip_clean)
 
                     disable_rich_text_translate = gr.Checkbox(
                         label=_(
@@ -1405,6 +1519,7 @@ with gr.Blocks(
                         value=settings.pdf.disable_rich_text_translate,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(disable_rich_text_translate)
 
                     enhance_compatibility = gr.Checkbox(
                         label=_(
@@ -1413,12 +1528,14 @@ with gr.Blocks(
                         value=settings.pdf.enhance_compatibility,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(enhance_compatibility)
 
                     split_short_lines = gr.Checkbox(
                         label=_("Force split short lines into different paragraphs"),
                         value=settings.pdf.split_short_lines,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(split_short_lines)
 
                     short_line_split_factor = gr.Slider(
                         label=_("Split threshold factor for short lines"),
@@ -1429,18 +1546,21 @@ with gr.Blocks(
                         interactive=True,
                         visible=settings.pdf.split_short_lines,
                     )
+                    components_to_update_on_load.append(short_line_split_factor)
 
                     translate_table_text = gr.Checkbox(
                         label=_("Translate table text (experimental)"),
                         value=settings.pdf.translate_table_text,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(translate_table_text)
 
                     skip_scanned_detection = gr.Checkbox(
                         label=_("Skip scanned detection"),
                         value=settings.pdf.skip_scanned_detection,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(skip_scanned_detection)
 
                     ocr_workaround = gr.Checkbox(
                         label=_(
@@ -1449,6 +1569,7 @@ with gr.Blocks(
                         value=settings.pdf.ocr_workaround,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(ocr_workaround)
 
                     auto_enable_ocr_workaround = gr.Checkbox(
                         label=_(
@@ -1457,6 +1578,7 @@ with gr.Blocks(
                         value=settings.pdf.auto_enable_ocr_workaround,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(auto_enable_ocr_workaround)
 
                     max_pages_per_part = gr.Number(
                         label=_(
@@ -1467,6 +1589,7 @@ with gr.Blocks(
                         minimum=0,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(max_pages_per_part)
 
                     formular_font_pattern = gr.Textbox(
                         label=_(
@@ -1476,6 +1599,7 @@ with gr.Blocks(
                         interactive=True,
                         placeholder="e.g., CMMI|CMR",
                     )
+                    components_to_update_on_load.append(formular_font_pattern)
 
                     formular_char_pattern = gr.Textbox(
                         label=_(
@@ -1485,12 +1609,14 @@ with gr.Blocks(
                         interactive=True,
                         placeholder="e.g., [∫∬∭∮∯∰∇∆]",
                     )
+                    components_to_update_on_load.append(formular_char_pattern)
 
                     ignore_cache = gr.Checkbox(
                         label=_("Ignore cache"),
                         value=settings.translation.ignore_cache,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(ignore_cache)
 
                     # BabelDOC v0.5.1 new options
                     gr.Markdown(_("#### BabelDOC Advanced Options"))
@@ -1503,6 +1629,7 @@ with gr.Blocks(
                         value=not settings.pdf.no_merge_alternating_line_numbers,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(merge_alternating_line_numbers)
 
                     remove_non_formula_lines = gr.Checkbox(
                         label=_("Remove non-formula lines"),
@@ -1510,6 +1637,7 @@ with gr.Blocks(
                         value=not settings.pdf.no_remove_non_formula_lines,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(remove_non_formula_lines)
 
                     non_formula_line_iou_threshold = gr.Slider(
                         label=_("Non-formula line IoU threshold"),
@@ -1520,6 +1648,7 @@ with gr.Blocks(
                         step=0.05,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(non_formula_line_iou_threshold)
 
                     figure_table_protection_threshold = gr.Slider(
                         label=_("Figure/table protection threshold"),
@@ -1532,6 +1661,7 @@ with gr.Blocks(
                         step=0.05,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(figure_table_protection_threshold)
 
                     skip_formula_offset_calculation = gr.Checkbox(
                         label=_("Skip formula offset calculation"),
@@ -1539,6 +1669,7 @@ with gr.Blocks(
                         value=settings.pdf.skip_formula_offset_calculation,
                         interactive=True,
                     )
+                    components_to_update_on_load.append(skip_formula_offset_calculation)
                 # State for managing per-service rate limits
                 rate_limit_state = gr.State(
                     _initialize_rate_limit_state(settings)
@@ -1711,20 +1842,21 @@ with gr.Blocks(
 
         # Event bindings
 
-        # Event handlers for user display and logout
-        def get_current_user(request: gr.Request):
-            """Get the current logged-in user from the request and update the UI."""
-            if request and request.username:
-                # In the future, this is where user-specific config would be loaded.
-                return gr.update(value=f"当前配置用户: **{request.username}**")
-            # This branch is hit if auth is disabled in the config.
-            return gr.update(value="*认证未启用*")
-
         # Redirect to the /logout endpoint to clear auth and trigger re-login
         logout_button.click(fn=None, js="() => { window.location.href = '/logout'; }")
 
-        # The `load` event to display the user on startup
-        demo.load(get_current_user, inputs=None, outputs=[user_display])
+        # The `load` event to display the user and load their config on startup
+        demo.load(
+            load_user_config_and_update_ui,
+            inputs=None,
+            outputs=[
+                current_username_state,
+                rate_limit_state,
+                user_display,
+                *translation_engine_arg_inputs,
+                *components_to_update_on_load,
+            ],
+        )
 
         file_type.select(
             on_select_filetype,
@@ -1855,6 +1987,7 @@ with gr.Blocks(
                 formular_char_pattern,
                 ignore_cache,
                 state,
+                current_username_state,
                 ocr_workaround,
                 auto_enable_ocr_workaround,
                 only_include_translated_page,
