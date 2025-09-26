@@ -244,6 +244,18 @@ if settings.gui_settings.enabled_services:
 
 assert available_services, "No translation service is enabled"
 
+def update_available_services(settings: CLIEnvSettingsModel) -> list[str]:
+    """
+    Determines the available translation services based on the user's settings.
+    """
+    all_services = [x.translate_engine_type for x in TRANSLATION_ENGINE_METADATA]
+    if settings.gui_settings.enabled_services:
+        enabled_services = {
+            x.lower() for x in settings.gui_settings.enabled_services.split(",")
+        }
+        return [x for x in all_services if x.lower() in enabled_services]
+    return all_services
+
 
 disable_gui_sensitive_input = settings.gui_settings.disable_gui_sensitive_input
 
@@ -709,6 +721,7 @@ def load_user_config_and_update_ui(request: gr.Request):
     Loads user-specific configuration upon login and returns update objects for all UI elements.
     If no user is logged in or auth is disabled, it uses the default config.
     """
+    global settings
     username = None
     user_settings = settings  # Start with global default
     user_display_text = "*认证未启用*"
@@ -718,12 +731,16 @@ def load_user_config_and_update_ui(request: gr.Request):
         try:
             # This is the new method in ConfigManager
             user_settings = config_manager.load_user_config(username)
-            user_display_text = f"当前配置用户: **{username}**"
+            settings = user_settings
+            user_display_text = f"""当前配置用户: **{username}**"""
         except Exception as e:
             logger.error(
                 f"Failed to load config for user '{username}', falling back to default. Error: {e}"
             )
-            user_display_text = f"当前配置用户: **{username}** (加载配置失败)"
+            user_display_text = f"""当前配置用户: **{username}** (加载配置失败)"""
+
+    # Correctly update available_services based on the loaded settings (user or default)
+    available_services = update_available_services(user_settings)
 
     # Re-initialize the rate limit state based on the loaded user settings
     new_rate_limit_state = _initialize_rate_limit_state(user_settings)
@@ -751,6 +768,9 @@ def load_user_config_and_update_ui(request: gr.Request):
         new_rate_limit_state,
         # UI Components
         gr.update(value=user_display_text),
+        gr.update(choices=available_services, value=available_services[0]),
+        user_settings,
+        gr.update(value=user_settings.gui_settings.disable_gui_sensitive_input), 
         # Service specific args
         *detail_updates,
         # Translation Options
@@ -943,6 +963,7 @@ async def translate_file(
     ignore_cache,
     state,
     current_username,
+    settings_state,
     ocr_workaround,
     auto_enable_ocr_workaround,
     only_include_translated_page,
@@ -1057,7 +1078,7 @@ async def translate_file(
 
         # Step 2: Build translation settings
         translate_settings = _build_translate_settings(
-            settings.clone(), file_path, output_dir, ui_inputs, username=current_username
+            settings_state.clone(), file_path, output_dir, ui_inputs, username=current_username
         )
 
         # Step 3: Create and run the translation task
@@ -1707,7 +1728,7 @@ with gr.Blocks(
             """Update page input visibility based on selection"""
             return gr.update(visible=choice == "Range")
 
-        def on_select_service(service_name):
+        def on_select_service(service_name, disable_sensitive_input):
             """Update service-specific settings visibility"""
             if not detail_text_inputs:
                 return
@@ -1718,15 +1739,19 @@ with gr.Blocks(
                 gr.update(visible=llm_support)
                 for i in range(len(require_llm_translator_inputs))
             ]
+            
+            updates = []
+            for i, field_input in enumerate(detail_text_inputs):
+                field_name = __gui_service_arg_names[i]
+                visible = i in detail_group_index
+                if disable_sensitive_input and (field_name in GUI_SENSITIVE_FIELDS or field_name in GUI_PASSWORD_FIELDS):
+                    visible = False
+                updates.append(gr.update(visible=visible))
+
             if len(detail_text_inputs) == 1:
-                return_list = glossary_updates + [
-                    gr.update(visible=(0 in detail_group_index))
-                ]
+                return_list = glossary_updates + updates
             else:
-                return_list = glossary_updates + [
-                    gr.update(visible=(i in detail_group_index))
-                    for i in range(len(detail_text_inputs))
-                ]
+                return_list = glossary_updates + updates
             return return_list
 
         def on_rate_limit_mode_change(mode, service_name):
@@ -1756,6 +1781,7 @@ with gr.Blocks(
             # State
             rate_limits,
             previous_service,
+            disable_sensitive_input,
         ):
             """
             Handles service switching:
@@ -1778,7 +1804,7 @@ with gr.Blocks(
             )
 
             # 3. Update UI visibility for service-specific args and glossary
-            original_updates = on_select_service(new_service)
+            original_updates = on_select_service(new_service, disable_sensitive_input)
 
             # 4. Update UI visibility for rate limit section
             rate_limit_visible = new_service != "SiliconFlowFree"
@@ -1846,6 +1872,10 @@ with gr.Blocks(
         logout_button.click(fn=None, js="() => { window.location.href = '/logout'; }")
 
         # The `load` event to display the user and load their config on startup
+        settings_state = gr.State(settings)
+
+        disable_sensitive_input_state = gr.State(disable_gui_sensitive_input)
+
         demo.load(
             load_user_config_and_update_ui,
             inputs=None,
@@ -1853,6 +1883,9 @@ with gr.Blocks(
                 current_username_state,
                 rate_limit_state,
                 user_display,
+                service,
+                settings_state,
+                disable_sensitive_input_state,
                 *translation_engine_arg_inputs,
                 *components_to_update_on_load,
             ],
@@ -1883,6 +1916,7 @@ with gr.Blocks(
                 custom_pool_max_workers_input,
                 rate_limit_state,
                 previous_service_state,
+                disable_sensitive_input_state,
             ],
             outputs=(
                 on_select_service_outputs
@@ -1988,6 +2022,7 @@ with gr.Blocks(
                 ignore_cache,
                 state,
                 current_username_state,
+                settings_state,
                 ocr_workaround,
                 auto_enable_ocr_workaround,
                 only_include_translated_page,
