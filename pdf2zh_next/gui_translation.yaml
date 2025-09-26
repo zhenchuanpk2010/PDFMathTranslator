@@ -799,7 +799,7 @@ zh:
   Remove non-formula lines: 移除非公式行
   Remove non-formula lines within paragraph areas: 移除段落区域内的非公式行
   ? Select the rate limit mode that best suits your API provider, system will automatically convert the rate limiting values of RPM or Concurrent Requests to QPS and Pool Max Workers when you click the Translate button
-  : 请选择最适合您 API 提供商的速率限制模式，当您点击沉浸式翻译按钮时，系统会自动将 RPM 或并发请求的限流值转换为 QPS 和池最大工作线程数。
+  : 请参考API 提供商的速率限制说明，系统会自动将 RPM 或并发请求的限流值转换为 QPS 和池最大工作线程数。
   Service: 服务
   Skip clean (maybe improve compatibility): 跳过清理（可能提高兼容性）
   Skip formula offset calculation: 跳过公式偏移计算

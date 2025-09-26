@@ -707,9 +707,9 @@ def _initialize_rate_limit_state(settings: CLIEnvSettingsModel) -> dict:
         # For now, all services share the global setting initially.
         # This can be expanded to load per-service settings from config.
         state[service_name] = {
-            "rate_limit_mode": "Custom",  # Default mode
-            "rpm_input": 240,
-            "concurrent_threads_input": 20,
+            "rate_limit_mode": settings.gui_settings.rate_limit_mode,
+            "rpm_input": settings.gui_settings.rpm,
+            "concurrent_threads_input": settings.gui_settings.concurrent_threads,
             "custom_qps_input": settings.translation.qps or 4,
             "custom_pool_workers_input": settings.translation.pool_max_workers,
         }

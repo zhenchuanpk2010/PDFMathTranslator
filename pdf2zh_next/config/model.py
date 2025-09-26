@@ -73,6 +73,17 @@ class GUISettings(BaseModel):
     )
     server_port: int = Field(default=7860, description="WebUI port")
     ui_lang: str | None = Field(default="en", description="UI language")
+    rate_limit_mode: str = Field(
+        default="Custom",
+        description="Default rate limit mode for the GUI (RPM, Concurrent Threads, Custom)",
+    )
+    rpm: int = Field(
+        default=240, description="Default RPM value for the GUI"
+    )
+    concurrent_threads: int = Field(
+        default=20,
+        description="Default concurrent threads value for the GUI",
+    )
 
 
 class TranslationSettings(BaseModel):
