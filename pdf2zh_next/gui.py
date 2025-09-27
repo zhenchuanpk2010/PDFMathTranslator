@@ -1205,7 +1205,7 @@ with gr.Blocks(
         with gr.Row(equal_height=False, variant="panel"):
             with gr.Column(scale=4):
                 gr.Markdown(
-                    "<h1 style='text-align: left; line-height: 1.5;'><a href='https://github.com/Byaidu/PDFMathTranslate' target='_blank'>欢迎使用由WZC提供的PDF翻译服务</a></h1>"
+                    "<h1 style='text-align: left; line-height: 1.3;'><a href='https://github.com/Byaidu/PDFMathTranslate' target='_blank'>欢迎使用由WZC提供的PDF翻译服务</a> 【不提供在线注册，仅通过手动获取个人账号使用】</h1>"
                 )
             with gr.Column(scale=1, min_width=250):
                 with gr.Row():
