@@ -199,6 +199,16 @@ lang_map = {
 
 rev_lang_map = {v: k for k, v in lang_map.items()}
 
+# --- BEGIN MODIFICATION: Hardcode Welcome Page ---
+# Load the welcome page HTML content directly from the file next to this script.
+# This makes it independent of any configuration files or runtime paths.
+_WELCOME_PAGE_PATH = Path(__file__).parent / "welcom_page.html"
+try:
+    _DEFAULT_WELCOME_HTML = _WELCOME_PAGE_PATH.read_text(encoding="utf-8")
+except FileNotFoundError:
+    _DEFAULT_WELCOME_HTML = "<h1>Welcome</h1><p>Please log in to continue.</p>"
+# --- END MODIFICATION ---
+
 # The following variable associate strings with page ranges
 page_map = {
     "All": None,
@@ -2063,14 +2073,10 @@ def parse_user_passwd(file_path: str, welcome_page: str) -> tuple[list, str]:
     Returns:
         - A tuple containing the user list and HTML
     """
-    content = ""
+    # Use the hardcoded HTML content loaded at startup.
+    # The 'welcome_page' parameter from the config is now ignored.
+    content = _DEFAULT_WELCOME_HTML
     tuple_list = None
-    if welcome_page:
-        try:
-            path = Path(welcome_page)
-            content = path.read_text(encoding="utf-8")
-        except FileNotFoundError:
-            print(f"Error: File '{welcome_page}' not found.")
     if file_path:
         try:
             path = Path(file_path)
